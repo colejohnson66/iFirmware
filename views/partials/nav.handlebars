@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li {{#if home}}class="nav-item active" {{else}}class="nav-item" {{/if}}>
+                <a class="nav-link" href="/">
+                    Home
+                    {{#if home}}<span class="sr-only">(current)</span>{{/if}}
+                </a>
+            </li>
+            <li {{#if about}}class="nav-item active" {{else}}class="nav-item" {{/if}}>
+                <a class="nav-link" href="/about">
+                    About
+                    {{#if about}}<span class="sr-only">(current)</span>{{/if}}
+                </a>
+            </li>
+            <li {{#if firmware}}class="nav-item active" {{else}}class="nav-item" {{/if}}>
+                <a class="nav-link" href="/fw">
+                    FW Listing
+                    {{#if firmware}}<span class="sr-only">(current)</span>{{/if}}
+                </a>
+            </li>
+            <li {{#if ota}}class="nav-item active" {{else}}class="nav-item" {{/if}}>
+                <a class="nav-link" href="/ota">
+                    OTA Updates
+                    {{#if ota}}<span class="sr-only">(current)</span>{{/if}}
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>

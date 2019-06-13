@@ -1,42 +1,38 @@
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8080;
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/iosFirmware";
 
 
 const db = require("./models");
 const express = require("express");
+const exphbs = require("express-handlebars");
 const mongoose = require("mongoose");
 const morgan = require("morgan");
 const path = require("path");
+const axios = require("axios");
+const cheerio = require("cheerio");
 
 
 const app = express();
-app.use(morgan("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-if (process.env.NODE_ENV === "production")
-    app.use(express.static("client/build"));
+app.use(express.static("public"));
+app.use(morgan("combined"));
+app.engine("handlebars", exphbs({ defaultLayout: "base" }));
+app.set("view engine", "handlebars");
 
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
 
-// bypass CORS error on dev
-if (process.env.NODE_ENV !== "production") {
-    app.all('*', (req, res, next) => {
-        res.header("Access-Control-Allow-Origin", "*");
-        res.header("Access-Control-Allow-Headers", "X-Requested-With");
-        res.header("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE");
-        next();
-    });
-}
-
+app.use("/", require("./routes/html"));
 app.use("/", require("./routes/apiKeys"));
 
 
 app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "./client/build/index.html"));
+    res.status(404).send("404");
 });
 
+
 app.listen(PORT, () => {
-    console.log(`Server now on port ${PORT}!`);
+    console.log(`Server now live at http://localhost:${PORT}/`);
 });
