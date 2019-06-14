@@ -23,7 +23,6 @@ const express = require("express");
 const exphbs = require("express-handlebars");
 const mongoose = require("mongoose");
 const morgan = require("morgan");
-const path = require("path");
 const axios = require("axios");
 const cheerio = require("cheerio");
 
