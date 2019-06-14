@@ -29,9 +29,10 @@ router.get("/about", (req, res) => {
     res.render("about");
 });
 
-//router.get("/fw", (req, res) => {
-//    res.render("fw");
-//});
+router.get("/fw", (req, res) => {
+    const devices = require("./fw/devices.json");
+    res.render("fw", devices);
+});
 
 //router.get("/ota", (req, res) => {
 //    res.render("ota");

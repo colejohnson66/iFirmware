@@ -5,3 +5,7 @@ nav {
 footer {
     margin-top: 20px;
 }
+
+.fwDevice img {
+    width: 64px;
+}
