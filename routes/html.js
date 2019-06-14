@@ -25,5 +25,21 @@ router.get("/", (req, res) => {
     res.render("home");
 });
 
+router.get("/about", (req, res) => {
+    res.render("about");
+});
+
+//router.get("/fw", (req, res) => {
+//    res.render("fw");
+//});
+
+//router.get("/ota", (req, res) => {
+//    res.render("ota");
+//});
+
+router.get("/contact", (req, res) => {
+    res.render("contact");
+});
+
 
 module.exports = router;
