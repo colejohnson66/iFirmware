@@ -31,9 +31,10 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
-app.use(morgan("combined"));
 app.engine("handlebars", exphbs({ defaultLayout: "base" }));
 app.set("view engine", "handlebars");
+if (process.env.NODE_ENV !== "production")
+    app.use(morgan("combined"));
 
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
