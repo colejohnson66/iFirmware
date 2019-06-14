@@ -1,5 +1,5 @@
 {
-    "name": "ios-firmware-web-server",
+    "name": "ios-firmware-web",
     "version": "1.0.0",
     "private": true,
     "description": "iOS Firmware Website Server",
