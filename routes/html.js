@@ -22,9 +22,7 @@ const sanitize = require("mongo-sanitize");
 const lowerDeviceToUpper = (deviceType, id) => {
     if (deviceType === "appletv")
         return "AppleTV" + id;
-    if (deviceType === "ipad" ||
-        deviceType === "ipadmini" ||
-        deviceType === "ipadpro")
+    if (deviceType === "ipad")
         return "iPad" + id;
     if (deviceType === "iphone")
         return "iPhone" + id;
@@ -44,6 +42,10 @@ router.get("/", (req, res) => {
 router.get("/about", (req, res) => {
     res.render("about");
 });
+
+//router.get("/devices", (req, res) => {
+//    res.render("devices");
+//});
 
 router.get("/fw", (req, res) => {
     res.render("fw", require("./fw/devices.json"));
