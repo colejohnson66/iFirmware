@@ -75,7 +75,7 @@ router.get("/fw/:deviceType/:id/:build", (req, res) => {
         sanitize(req.params.id));
     if (device === "")
         return res.status(404).render("404");
-    
+
     db.Keys.find({
         device: device,
         build: sanitize(req.params.build)
@@ -85,7 +85,13 @@ router.get("/fw/:deviceType/:id/:build", (req, res) => {
             return res.status(404).render("404");
         if (keys.length !== 1)
             return res.status(500).json(keys);
-        res.render("fwKeys", keys[0]);
+        res.render("fwKeys", {
+            device: {
+                deviceType: req.params.deviceType,
+                id: req.params.id
+            },
+            dbKeys: keys[0],
+        });
     }).catch((err) => {
         res.status(500).json(err);
     });

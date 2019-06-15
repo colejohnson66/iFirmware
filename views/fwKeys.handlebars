@@ -1,38 +1,49 @@
-{{> nav firmware=true}}
+{{> nav navFirmware=true}}
 
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-9">
-            <h1>{{codename}} {{build}} ({{device}})</h1>
+            <h1>{{dbKeys.codename}} {{dbKeys.build}} ({{dbKeys.device}})</h1>
 
-            {{#each keys}}
+            {{#each dbKeys.keys}}
                 <h2>{{type}}</h2>
                 <ul>
                     <li class="fwFilepath"><span>Filepath: </span>./{{filepath}}</li>
-                    <li>IV: {{iv}}</li>
-                    <li>Key: {{key}}</li>
+                    {{#if encrypted}}
+                    <li>IV: <code>{{iv}}</code></li>
+                    <li>Key: <code>{{key}}</code></li>
+                    {{else}}
+                    <li>Not Encrypted</li>
+                    {{/if}}
                 </ul>
             {{/each}}
         </div>
 
         <div class="col-sm-3">
             <table class="fwInfobox">
-                <caption>iPhoneOS {{version}}</caption>
+                <caption>iPhoneOS {{dbKeys.version}}</caption>
                 <tr>
                     <th>Build</th>
-                    <td>{{build}}</td>
+                    <td>{{dbKeys.build}}</td>
                 </tr>
                 <tr>
                     <th>Codename</th>
-                    <td>{{codename}}</td>
+                    <td>{{dbKeys.codename}}</td>
                 </tr>
                 <tr>
                     <th>Device</th>
-                    <td>{{device}}</td>
+                    <td>
+                        <a href="/devices/{{device.deviceType}}/{{device.id}}">{{dbKeys.device}}</a>
+                    </td>
                 </tr>
                 <tr>
                     <th>Baseband</th>
-                    <td>{{baseband}}</td>
+                    <td>{{dbKeys.baseband}}</td>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <a href="{{dbKeys.ipswUrl}}">Download IPSW</a>
+                    </th>
                 </tr>
             </table>
         </div>
