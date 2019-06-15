@@ -82,7 +82,6 @@ router.get("/fw/:deviceType/:id/:build", (req, res) => {
         device: device,
         build: sanitize(req.params.build)
     }).then((keys) => {
-        console.log(keys[0]);
         if (keys.length === 0)
             return res.status(404).render("404");
         if (keys.length !== 1)
