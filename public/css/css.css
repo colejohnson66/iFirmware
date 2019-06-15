@@ -7,5 +7,9 @@ footer {
 }
 
 .fwDevice img {
-    width: 64px;
+    width: 96px;
+}
+
+.fwInfobox caption {
+    caption-side: top;
 }

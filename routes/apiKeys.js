@@ -16,6 +16,7 @@
  */
 const express = require("express");
 const db = require("../models");
+const sanitize = require("mongo-sanitize");
 
 
 const router = express.Router();
@@ -29,10 +30,53 @@ router.get("/api/keys", (req, res) => {
     });
 });
 
+router.post("/api/keys", (req, res) => {
+    if (req.body.apiKey !== process.env.IOS_API_KEY) {
+        res.status(401).json({ "error": "invalid API key" });
+        return;
+    }
+
+    const json = req.body.body;
+    try {
+        json.forEach((keySet) => {
+            let newDoc = new db.Keys();
+            newDoc.version = keySet.version;
+            newDoc.build = keySet.build;
+            newDoc.device = keySet.device;
+            newDoc.codename = keySet.codename;
+            newDoc.baseband = keySet.baseband;
+            newDoc.ipswUrl = keySet.ipswUrl;
+            newDoc.keys = [];
+            keySet.keys.forEach((keyPair) => {
+                let newKeyPair = {};
+                newKeyPair.type = keyPair.type;
+                newKeyPair.filepath = keyPair.filepath;
+                newKeyPair.encrypted = keyPair.encrypted;
+                newKeyPair.iv = keyPair.iv;
+                newKeyPair.key = keyPair.key;
+                newKeyPair.kbag = keyPair.kbag;
+                newDoc.keys.push(newKeyPair);
+            });
+
+            let err = newDoc.validateSync();
+            if (err)
+                return res.status(400).json(err);
+            
+            newDoc.save((err) => {
+                if (err)
+                    return res.status(500).json(err);
+                res.json(newDoc);
+            });
+        });
+    } catch (ex) {
+        res.status(400).json({ "error": "invalid body" });
+    }
+});
+
 router.get("/api/keys/:device/:build", (req, res) => {
     db.Keys.find({
-        device: req.params.device,
-        build: req.params.build
+        device: sanitize(req.params.device),
+        build: sanitize(req.params.build)
     }).then((keys) => {
         res.json(keys);
     }).catch((err) => {

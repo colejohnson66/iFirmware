@@ -1,0 +1,42 @@
+{{> nav firmware=true}}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-9">
+            <h1>{{codename}} {{build}} ({{device}})</h1>
+
+            {{#each keys}}
+                <h2>{{type}}</h2>
+                <ul>
+                    <li class="fwFilepath"><span>Filepath: </span>./{{filepath}}</li>
+                    <li>IV: {{iv}}</li>
+                    <li>Key: {{key}}</li>
+                </ul>
+            {{/each}}
+        </div>
+
+        <div class="col-sm-3">
+            <table class="fwInfobox">
+                <caption>iPhoneOS {{version}}</caption>
+                <tr>
+                    <th>Build</th>
+                    <td>{{build}}</td>
+                </tr>
+                <tr>
+                    <th>Codename</th>
+                    <td>{{codename}}</td>
+                </tr>
+                <tr>
+                    <th>Device</th>
+                    <td>{{device}}</td>
+                </tr>
+                <tr>
+                    <th>Baseband</th>
+                    <td>{{baseband}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+{{> footer}}

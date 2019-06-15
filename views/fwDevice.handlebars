@@ -1,0 +1,28 @@
+{{> nav firmware=true}}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3">
+        </div>
+
+
+        <div class="col-sm-6">
+            <h1>{{device}}</h1>
+            <p>
+                Please select a firmware verison:
+            </p>
+            <ul>
+                {{#each keySets}}
+                <li>
+                    <a href="{{../urlpart}}/{{build}}">{{version}}: {{build}}</a>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+
+        <div class="col-sm-3">
+        </div>
+    </div>
+</div>
+
+{{> footer}}

@@ -16,6 +16,22 @@
  */
 const express = require("express");
 const db = require("../models");
+const sanitize = require("mongo-sanitize");
+
+
+const lowerDeviceToUpper = (deviceType, id) => {
+    if (deviceType === "appletv")
+        return "AppleTV" + id;
+    if (deviceType === "ipad" ||
+        deviceType === "ipadmini" ||
+        deviceType === "ipadpro")
+        return "iPad" + id;
+    if (deviceType === "iphone")
+        return "iPhone" + id;
+    if (deviceType === "ipodtouch")
+        return "iPod" + id;
+    return "";
+}
 
 
 const router = express.Router();
@@ -30,8 +46,49 @@ router.get("/about", (req, res) => {
 });
 
 router.get("/fw", (req, res) => {
-    const devices = require("./fw/devices.json");
-    res.render("fw", devices);
+    res.render("fw", require("./fw/devices.json"));
+});
+
+router.get("/fw/:deviceType/:id", (req, res) => {
+    const device = lowerDeviceToUpper(
+        sanitize(req.params.deviceType),
+        sanitize(req.params.id));
+    if (device === "")
+        return res.status(404).render("404");
+
+    db.Keys.find({
+        device: device
+    }).then((keys) => {
+        res.render("fwDevice", {
+            "urlpart": "/fw/" + req.params.deviceType + "/" + req.params.id,
+            "device": device,
+            "keySets": keys
+        });
+    }).catch((err) => {
+        res.status(500).json(err);
+    });
+});
+
+router.get("/fw/:deviceType/:id/:build", (req, res) => {
+    const device = lowerDeviceToUpper(
+        sanitize(req.params.deviceType),
+        sanitize(req.params.id));
+    if (device === "")
+        return res.status(404).render("404");
+    
+    db.Keys.find({
+        device: device,
+        build: sanitize(req.params.build)
+    }).then((keys) => {
+        console.log(keys[0]);
+        if (keys.length === 0)
+            return res.status(404).render("404");
+        if (keys.length !== 1)
+            return res.status(500).json(keys);
+        res.render("fwKeys", keys[0]);
+    }).catch((err) => {
+        res.status(500).json(err);
+    });
 });
 
 //router.get("/ota", (req, res) => {
