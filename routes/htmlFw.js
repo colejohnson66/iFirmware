@@ -35,7 +35,11 @@ const lowerDeviceToUpper = (deviceType, id) => {
 }
 
 
-router.get("/fw/:deviceType/:id", (req, res) => {
+router.get("/fw/keys", (req, res) => {
+    res.render("fw/selectDevice", require("./fw/devices.json"));
+});
+
+router.get("/fw/keys/:deviceType/:id", (req, res) => {
     const device = lowerDeviceToUpper(
         sanitize(req.params.deviceType),
         sanitize(req.params.id));
@@ -47,7 +51,7 @@ router.get("/fw/:deviceType/:id", (req, res) => {
     }).then((keys) => {
         // TODO: sort keys
         res.render("fw/selectVersion", {
-            "urlpart": "/fw/" + req.params.deviceType + "/" + req.params.id,
+            "urlpart": "/fw/keys/" + req.params.deviceType + "/" + req.params.id,
             "device": device,
             "keySets": keys
         });
@@ -56,7 +60,7 @@ router.get("/fw/:deviceType/:id", (req, res) => {
     });
 });
 
-router.get("/fw/:deviceType/:id/:build", (req, res) => {
+router.get("/fw/keys/:deviceType/:id/:build", (req, res) => {
     const device = lowerDeviceToUpper(
         sanitize(req.params.deviceType),
         sanitize(req.params.id));
