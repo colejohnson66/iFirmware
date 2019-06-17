@@ -6,6 +6,11 @@ footer {
     margin-top: 20px;
 }
 
+#toc li {
+    list-style-type: none;
+    margin-left: -1em;
+}
+
 .fwDevice img {
     width: 96px;
 }
