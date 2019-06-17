@@ -6,45 +6,47 @@
             <h1>{{dbKeys.codename}} {{dbKeys.build}} ({{dbKeys.device}})</h1>
 
             {{#each dbKeys.keys}}
-                <h2>{{type}}</h2>
-                <ul>
-                    <li class="fwFilepath"><span>Filepath: </span>./{{filepath}}</li>
-                    {{#if encrypted}}
-                    <li>IV: <code>{{iv}}</code></li>
-                    <li>Key: <code>{{key}}</code></li>
-                    {{else}}
-                    <li>Not Encrypted</li>
-                    {{/if}}
-                </ul>
+            <h2>{{type}}</h2>
+            <ul>
+                <li class="fwFilepath"><span>Filepath: </span>./{{filepath}}</li>
+                {{#if encrypted}}
+                <li>IV: <code>{{iv}}</code></li>
+                <li>Key: <code>{{key}}</code></li>
+                {{else}}
+                <li>Not Encrypted</li>
+                {{/if}}
+            </ul>
             {{/each}}
         </div>
 
         <div class="col-sm-3">
             <table class="fwInfobox">
                 <caption>iPhoneOS {{dbKeys.version}}</caption>
-                <tr>
-                    <th>Build</th>
-                    <td>{{dbKeys.build}}</td>
-                </tr>
-                <tr>
-                    <th>Codename</th>
-                    <td>{{dbKeys.codename}}</td>
-                </tr>
-                <tr>
-                    <th>Device</th>
-                    <td>
-                        <a href="/devices/{{device.deviceType}}/{{device.id}}">{{dbKeys.device}}</a>
-                    </td>
-                </tr>
-                <tr>
-                    <th>Baseband</th>
-                    <td><a href="/basebands/{{dbKeys.baseband}}">{{dbKeys.baseband}}</a></td>
-                </tr>
-                <tr>
-                    <th colspan="2">
-                        <a href="{{dbKeys.ipswUrl}}">Download IPSW</a>
-                    </th>
-                </tr>
+                <tbody>
+                    <tr>
+                        <th>Build</th>
+                        <td>{{dbKeys.build}}</td>
+                    </tr>
+                    <tr>
+                        <th>Codename</th>
+                        <td>{{dbKeys.codename}}</td>
+                    </tr>
+                    <tr>
+                        <th>Device</th>
+                        <td>
+                            <a href="/devices/{{device.deviceType}}/{{device.id}}">{{dbKeys.device}}</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Baseband</th>
+                        <td><a href="/basebands/{{dbKeys.baseband}}">{{dbKeys.baseband}}</a></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">
+                            <a href="{{dbKeys.ipswUrl}}">Download IPSW</a>
+                        </th>
+                    </tr>
+                </tbody>
             </table>
         </div>
     </div>
