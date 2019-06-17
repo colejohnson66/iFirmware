@@ -19,6 +19,9 @@ const db = require("../models");
 const sanitize = require("mongo-sanitize");
 
 
+const router = express.Router();
+
+
 const lowerDeviceToUpper = (deviceType, id) => {
     if (deviceType === "appletv")
         return "AppleTV" + id;
@@ -30,9 +33,6 @@ const lowerDeviceToUpper = (deviceType, id) => {
         return "iPod" + id;
     return "";
 }
-
-
-const router = express.Router();
 
 
 router.get("/fw/:deviceType/:id", (req, res) => {
