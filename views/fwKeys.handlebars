@@ -4,9 +4,10 @@
     <div class="row">
         <div class="col-sm-9">
             <h1>{{dbKeys.codename}} {{dbKeys.build}} ({{dbKeys.device}})</h1>
+            <hr>
 
             {{#each dbKeys.keys}}
-            <h2>{{type}}</h2>
+            <h2><a href="/fw/files/{{type}}">{{firmwareItemNameMapper type}}</a></h2>
             <ul>
                 <li class="fwFilepath"><span>Filepath: </span>./{{filepath}}</li>
                 {{#if encrypted}}
@@ -34,18 +35,22 @@
                     <tr>
                         <th>Device</th>
                         <td>
-                            <a href="/devices/{{device.deviceType}}/{{device.id}}">{{dbKeys.device}}</a>
+                            <a href="/device/{{device.deviceType}}/{{device.id}}">{{dbKeys.device}}</a>
                         </td>
                     </tr>
+                    {{#if dbKeys.baseband}}
                     <tr>
                         <th>Baseband</th>
-                        <td><a href="/basebands/{{dbKeys.baseband}}">{{dbKeys.baseband}}</a></td>
+                        <td><a href="/baseband/{{dbKeys.baseband}}">{{dbKeys.baseband}}</a></td>
                     </tr>
+                    {{/if}}
+                    {{#if dbKeys.ipswUrl}}
                     <tr>
                         <th colspan="2">
                             <a href="{{dbKeys.ipswUrl}}">Download IPSW</a>
                         </th>
                     </tr>
+                    {{/if}}
                 </tbody>
             </table>
         </div>

@@ -28,11 +28,25 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 
 
+const hbs = exphbs.create({
+    defaultLayout: "base",
+    helpers: {
+        firmwareItemNameMapper: (fwItemName) => {
+            if (fwItemName === "rootFS")
+                return "Root Filesystem";
+            if (fwItemName === "updateRamdisk")
+                return "Update Ramdisk";
+            return fwItemName;
+        }
+    }
+});
+
+
 const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
-app.engine("handlebars", exphbs({ defaultLayout: "base" }));
+app.engine("handlebars", hbs.engine);
 app.set("view engine", "handlebars");
 if (process.env.NODE_ENV !== "production")
     app.use(morgan("combined"));
