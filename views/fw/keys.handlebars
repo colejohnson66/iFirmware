@@ -2,12 +2,25 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-9">
+        <div class="col-sm-3">
+            <div id="toc">
+                <div id="tocTitle">Contents</div>
+                <ul>
+                    {{#each dbKeys.keys}}
+                    <li>
+                        {{add1 @index}}. <a href="#item_{{type}}">{{firmwareItemNameMapper type}}</a>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
             <h1>{{dbKeys.codename}} {{dbKeys.build}} ({{dbKeys.device}})</h1>
             <hr>
 
             {{#each dbKeys.keys}}
-            <h2><a href="/fw/files/{{type}}">{{firmwareItemNameMapper type}}</a></h2>
+            <h2 id="item_{{type}}"><a href="/fw/files/{{type}}">{{firmwareItemNameMapper type}}</a></h2>
             <ul>
                 <li class="fwFilepath"><span>Filepath: </span>./{{filepath}}</li>
                 {{#if encrypted}}

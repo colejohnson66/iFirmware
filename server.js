@@ -37,7 +37,8 @@ const hbs = exphbs.create({
             if (fwItemName === "updateRamdisk")
                 return "Update Ramdisk";
             return fwItemName;
-        }
+        },
+        add1: (val) => parseInt(val) + 1
     }
 });
 
