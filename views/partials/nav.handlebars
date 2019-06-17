@@ -15,31 +15,31 @@
             <li {{#if navHome}}class="nav-item active" {{else}}class="nav-item" {{/if}}>
                 <a class="nav-link" href="/">
                     Home
-                    {{#if home}}<span class="sr-only">(current)</span>{{/if}}
+                    {{#if navHome}}<span class="sr-only">(current)</span>{{/if}}
                 </a>
             </li>
             <li {{#if navAbout}}class="nav-item active" {{else}}class="nav-item" {{/if}}>
                 <a class="nav-link" href="/about">
                     About
-                    {{#if about}}<span class="sr-only">(current)</span>{{/if}}
+                    {{#if navAbout}}<span class="sr-only">(current)</span>{{/if}}
                 </a>
             </li>
             <li {{#if navDevice}}class="nav-item active" {{else}}class="nav-item" {{/if}}>
                 <a class="nav-link" href="/devices">
                     Devices
-                    {{#if device}}<span class="sr-only">(current)</span>{{/if}}
+                    {{#if navDevice}}<span class="sr-only">(current)</span>{{/if}}
                 </a>
             </li>
             <li {{#if navFirmware}}class="nav-item active" {{else}}class="nav-item" {{/if}}>
                 <a class="nav-link" href="/fw">
                     FW Listing
-                    {{#if firmware}}<span class="sr-only">(current)</span>{{/if}}
+                    {{#if navFirmware}}<span class="sr-only">(current)</span>{{/if}}
                 </a>
             </li>
             <li {{#if navOta}}class="nav-item active" {{else}}class="nav-item" {{/if}}>
                 <a class="nav-link" href="/ota">
                     OTA Updates
-                    {{#if ota}}<span class="sr-only">(current)</span>{{/if}}
+                    {{#if navOta}}<span class="sr-only">(current)</span>{{/if}}
                 </a>
             </li>
         </ul>

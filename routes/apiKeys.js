@@ -31,14 +31,12 @@ router.get("/api/keys", (req, res) => {
 });
 
 router.post("/api/keys", (req, res) => {
-    if (req.body.apiKey !== process.env.IOS_API_KEY) {
-        res.status(401).json({ "error": "invalid API key" });
-        return;
-    }
+    if (req.body.apiKey !== process.env.IOS_API_KEY)
+        return res.status(401).json({ "error": "invalid API key" });
 
-    const json = req.body.body;
+    const keySetArr = req.body.body;
     try {
-        json.forEach((keySet) => {
+        keySetArr.forEach((keySet) => {
             let newDoc = new db.Keys();
             newDoc.version = keySet.version;
             newDoc.build = keySet.build;
