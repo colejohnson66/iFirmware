@@ -58,6 +58,7 @@ router.post("/api/keys", (req, res) => {
                 newDoc.ipswUrl = keySet.ipswUrl;
                 newDoc.keys = [];
                 keySet.keys.forEach((keyPair) => {
+                    // TODO: validate key lengths
                     let newKeyPair = {};
                     newKeyPair.type = keyPair.type;
                     newKeyPair.filepath = keyPair.filepath;

@@ -45,6 +45,7 @@ router.get("/fw/:deviceType/:id", (req, res) => {
     db.Keys.find({
         device: device
     }).then((keys) => {
+        // TODO: sort keys
         res.render("fwDevice", {
             "urlpart": "/fw/" + req.params.deviceType + "/" + req.params.id,
             "device": device,
@@ -81,6 +82,10 @@ router.get("/fw/:deviceType/:id/:build", (req, res) => {
         res.status(500).json(err);
     });
 });
+
+router.get("/fw/files", (req, res) => {
+    res.render("fwFiles");
+})
 
 
 module.exports = router;

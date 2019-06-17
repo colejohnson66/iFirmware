@@ -1,0 +1,163 @@
+{{> nav navFirmware=true}}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3">
+            <div id="toc">
+                <div id="tocTitle">Contents</div>
+                <ul>
+                    <li>
+                        1. <a href="#headingFiles">List of different files</a>
+                    </li>
+                    <li>
+                        2. <a href="#headingFormats">List of different formats</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-9">
+            <h1>iOS Firmware Files</h1>
+            <p>
+                There are many different files contained in an <a href="/fw/files/formats/ipsw">IPSW</a> firmware file.
+                These files also come in a variety of different formats.
+            </p>
+
+            <h2 id="headingFiles">List of different files</h2>
+            <p>
+                The files contained in an IPSW all have a specific purpose.
+                Some are firmware for the various chips in the phone, while others are boot images.
+                This list is also available in <a href="/fw/files/tree">tree format</a>.
+            </p>
+            <ul>
+                <li>
+                    <a href="/fw/files/rootFS">Root Filesystem</a> (commonly referred to as the "Root FS")
+                </li>
+                <li>
+                    <a href="/fw/files/updateRamdisk">Update Ramdisk</a>
+                </li>
+                <li>
+                    <a href="/fw/files/restoreRamdisk">Restore Ramdisk</a>
+                </li>
+                <li>
+                    <a href="/fw/files/adcPetra">ADC Petra</a>
+                </li>
+                <li>
+                    <a href="/fw/files/armFw">ARM Firmware</a>
+                </li>
+                <li>
+                    <a href="/fw/files/ane">ANE</a>
+                </li>
+                <li>
+                    <a href="/fw/files/appleAve">Apple AVE</a>
+                </li>
+                <li>
+                    <a href="/fw/files/aopFirmware">AOP Firmware</a>
+                </li>
+                <li>
+                    <a href="/fw/files/appleLogo">Apple Logo Image</a> (AppleLogo)
+                </li>
+                <li>
+                    <a href="/fw/files/appleMaggie">Apple Maggie</a>
+                </li>
+                <li>
+                    <a href="/fw/files/batteryCharging0">Charging Battery Image 1</a> (BatteryCharging0)
+                </li>
+                <li>
+                    <a href="/fw/files/batteryCharging1">Charging Battery Image 2</a> (BatteryCharging1)
+                </li>
+                <li>
+                    <a href="/fw/files/batteryFull">Battery Full Image</a> (BatteryFull)
+                </li>
+                <li>
+                    <a href="/fw/files/batteryLow0">Low Battery Image 1</a> (BatteryLow0)
+                </li>
+                <li>
+                    <a href="/fw/files/batteryLow1">Low Battery Image 2</a> (BatteryLow1)
+                </li>
+                <li>
+                    <a href="/fw/files/callanFirmware">Callan Firmware</a>
+                </li>
+                <li>
+                    <a href="/fw/files/dali">Dali Firmware</a>
+                </li>
+                <li>
+                    <a href="/fw/files/deviceTree">DeviceTree</a>
+                </li>
+                <li>
+                    <a href="/fw/files/glyphCharging">Charging Glyph</a> (GlyphCharging)
+                </li>
+                <li>
+                    <a href="/fw/files/homer">Homer Firmware</a>
+                </li>
+                <li>
+                    <a href="/fw/files/iBec">iBoot Epoch Change</a> (iBEC)
+                </li>
+                <li>
+                    <a href="/fw/files/iBoot">iBoot</a>
+                </li>
+                <li>
+                    <a href="/fw/files/iBss">iBoot Single Stage</a> (iBSS)
+                </li>
+                <li>
+                    <a href="/fw/files/kernelcache">Kernelcache</a>
+                </li>
+                <li>
+                    <a href="/fw/files/liquidDetect">LiquidDetect</a>
+                </li>
+                <li>
+                    <a href="/fw/files/llb">Low Level Bootloader</a> (LLB)
+                </li>
+                <li>
+                    <a href="/fw/files/lowPowerMode">LowPowerMode</a>
+                </li>
+                <li>
+                    <a href="/fw/files/multitouch">Multitouch Firmware</a>
+                </li>
+                <li>
+                    <a href="/fw/files/needService">Need Service</a>
+                </li>
+                <li>
+                    <a href="/fw/files/recoveryMode">Recovery Mode</a>
+                </li>
+                <li>
+                    <a href="/fw/files/sepFirmware">Secure Enclave Processor Firmware</a> (SEP Firmware)
+                </li>
+                <li>
+                    <a href="/fw/files/smartIOFirmware">SmartIOFirmware</a>
+                </li>
+                <li>
+                    <a href="/fw/files/wirelessPower">Wireless Power</a>
+                </li>
+            </ul>
+
+            <h2 id="headingFormats">List of different files</h2>
+            <p>
+                Apple has used many different file formats over the years.
+                The only files where the format hasn't changed are the root filesystem and the ramdisks; both of which use the <a href="/fw/formats/dmg">Apple Disk Image</a> format.
+            </p>
+            <ul>
+                <li>
+                    <a href="/fw/formats/dmg">Apple Disk Image</a> (DMG)
+                </li>
+                <li>
+                    <a href="/fw/formats/plist">Property List</a> (PLIST)
+                </li>
+                <li>
+                    <a href="/fw/formats/8900">8900</a>
+                </li>
+                <li>
+                    <a href="/fw/formats/img2">IMG2</a>
+                </li>
+                <li>
+                    <a href="/fw/formats/img3">IMG3</a>
+                </li>
+                <li>
+                    <a href="/fw/formats/img4">IMG4</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{{> footer}}
