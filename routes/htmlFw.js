@@ -46,7 +46,7 @@ router.get("/fw/:deviceType/:id", (req, res) => {
         device: device
     }).then((keys) => {
         // TODO: sort keys
-        res.render("fwDevice", {
+        res.render("fw/selectVersion", {
             "urlpart": "/fw/" + req.params.deviceType + "/" + req.params.id,
             "device": device,
             "keySets": keys
@@ -71,7 +71,7 @@ router.get("/fw/:deviceType/:id/:build", (req, res) => {
             return res.status(404).render("404");
         if (keys.length !== 1)
             return res.status(500).json(keys);
-        res.render("fwKeys", {
+        res.render("fw/keys", {
             device: {
                 deviceType: req.params.deviceType,
                 id: req.params.id
@@ -84,7 +84,7 @@ router.get("/fw/:deviceType/:id/:build", (req, res) => {
 });
 
 router.get("/fw/files", (req, res) => {
-    res.render("fwFiles");
+    res.render("fw/fileList");
 })
 
 
