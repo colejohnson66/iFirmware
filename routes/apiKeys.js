@@ -37,33 +37,46 @@ router.post("/api/keys", (req, res) => {
     const keySetArr = req.body.body;
     try {
         keySetArr.forEach((keySet) => {
-            let newDoc = new db.Keys();
-            newDoc.version = keySet.version;
-            newDoc.build = keySet.build;
-            newDoc.device = keySet.device;
-            newDoc.codename = keySet.codename;
-            newDoc.baseband = keySet.baseband;
-            newDoc.ipswUrl = keySet.ipswUrl;
-            newDoc.keys = [];
-            keySet.keys.forEach((keyPair) => {
-                let newKeyPair = {};
-                newKeyPair.type = keyPair.type;
-                newKeyPair.filepath = keyPair.filepath;
-                newKeyPair.encrypted = keyPair.encrypted;
-                newKeyPair.iv = keyPair.iv;
-                newKeyPair.key = keyPair.key;
-                newKeyPair.kbag = keyPair.kbag;
-                newDoc.keys.push(newKeyPair);
-            });
+            let build = keySet.build;
+            let device = keySet.device;
+            console.log(build, device);
+            db.Keys.findOneAndDelete({
+                where: {
+                    build: sanitize(build),
+                    device: sanitize(device)
+                }
+            }, (delErr, dbRes) => { // TODO: both these are null; it doesn't delete the old entry
+                if (delErr)
+                    return res.status(500).json(delErr);
 
-            let err = newDoc.validateSync();
-            if (err)
-                return res.status(400).json(err);
-            
-            newDoc.save((err) => {
-                if (err)
-                    return res.status(500).json(err);
-                res.json(newDoc);
+                let newDoc = new db.Keys();
+                newDoc.version = keySet.version;
+                newDoc.build = keySet.build;
+                newDoc.device = keySet.device;
+                newDoc.codename = keySet.codename;
+                newDoc.baseband = keySet.baseband;
+                newDoc.ipswUrl = keySet.ipswUrl;
+                newDoc.keys = [];
+                keySet.keys.forEach((keyPair) => {
+                    let newKeyPair = {};
+                    newKeyPair.type = keyPair.type;
+                    newKeyPair.filepath = keyPair.filepath;
+                    newKeyPair.encrypted = keyPair.encrypted;
+                    newKeyPair.iv = keyPair.iv;
+                    newKeyPair.key = keyPair.key;
+                    newKeyPair.kbag = keyPair.kbag;
+                    newDoc.keys.push(newKeyPair);
+                });
+
+                let syncErr = newDoc.validateSync();
+                if (syncErr)
+                    return res.status(400).json(syncErr);
+
+                newDoc.save((saveErr) => {
+                    if (saveErr)
+                        return res.status(500).json(saveErr);
+                    res.json(newDoc);
+                });
             });
         });
     } catch (ex) {
