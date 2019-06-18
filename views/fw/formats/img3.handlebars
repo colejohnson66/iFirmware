@@ -110,8 +110,7 @@ Img3Tag {
    8  uint32  dataLength;
    C  byte[]  data;        // sizeof(data) == dataLength
 ????  byte[]  padding;     // sizeof(padding) == totalLength - dataLength - 12
-}
-            </pre>
+}</pre>
 
             <h2 id="headingFormat">File Format</h2>
             <div class="note">
@@ -125,8 +124,7 @@ Img3 {
     C  uint32    shshTagOffset;
    10  uint32    ident;    // appears to be the same as the TYPE tag's data/value
    14  Img3Tag[] tags;
-}
-            </pre>
+}</pre>
         </div>
     </div>
 </div>
