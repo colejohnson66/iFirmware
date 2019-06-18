@@ -97,6 +97,9 @@ router.get("/fw/formats/8900", (req, res) => {
 router.get("/fw/formats/img2", (req, res) => {
     res.render("fw/formats/img2");
 });
+router.get("/fw/formats/img3", (req, res) => {
+    res.render("fw/formats/img3");
+});
 router.get("/fw/formats/ipsw", (req, res) => {
     res.render("fw/formats/ipsw");
 });

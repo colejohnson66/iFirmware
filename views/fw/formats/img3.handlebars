@@ -1,0 +1,139 @@
+{{> nav navFirmware=true}}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2">
+            <div id="toc">
+                <div id="tocTitle">Contents</div>
+                <ul>
+                    <li>
+                        1. <a href="#headingProblems">Problems With IMG2</a>
+                    </li>
+                    <li>
+                        2. <a href="#headingStructure">File Structure</a>
+                    </li>
+                    <li>
+                        3. <a href="#headingTags">Tags</a>
+                        <ul>
+                            <li>
+                                3.1. <a href="#headingTagsList">List of Different Tags</a>
+                            </li>
+                            <li>
+                                3.2. <a href="#headingTagsFormat">Tag Format</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        4. <a href="#headingFormat">File Format</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-10">
+            <h1>IMG3</h1>
+            <p>
+                Initially used in iPhone OS 2.0 beta 4, IMG3 files were created to address some of the problems with the
+                older <a href="/fw/formats/8900">8900</a> and <a href="/fw/formats/img2">IMG2</a> formats.
+                This format is used on all devices using 32-bit processors (<a href="/processor/s5l8955">S5L8955</a>
+                (A6X) or lower).
+                All 64-bit processors (<a href="/processor/s5l8960">S5L8960</a> (A7) and newer) use the <a
+                    href="/fw/formats/img4">IMG4</a> format.
+            </p>
+
+            <h2 id="headingProblems">Problems With IMG2</h2>
+            <p>
+                The biggest problem with the <a href="/fw/formats/8900">8900</a> and the <a
+                    href="/fw/formats/img2">IMG2</a> formats was that they were all encrypted with the same key: <a
+                    href="/processor/s5l8900#headingKeys">Key0x837</a>.
+                IMG3 addressed this glaring security hole by storing the encryption keys for each file inside that file
+                (but encrypted).
+                This means that a single key can only decrypt a single file.
+            </p>
+
+            <h2 id="headingStructure">File Structure</h2>
+            <p>
+                The IMG3 file format's header is a lot more compact than previous formats.
+                It consists of a "magic," some info about the file size, an offset to the <code>SHSH</code> tag, an
+                identifier, and tags.
+            </p>
+            <p>
+                The encryption keys for the file's data are stored in the <code>KBAG</code> tag (see below for what a
+                tag is).
+            </p>
+
+            <h2 id="headingTags">Tags</h2>
+            <p>
+                An IMG3 file consists of a series of "tags," one after the other.
+                A tag is consists of a "magic," some info about the tag size, the possibly encrypted data, and padding.
+                For the <code>KBAG</code> tag, its data is encrypted with the GID Key (a key unique to each processor
+                version).
+                For the <code>DATA</code> tag, its data is encrypted with the IV and key stored in the <code>KBAG</code>
+                tag.
+                All other tags are unencrypted as far as is known.
+            </p>
+
+            <h3 id="headingTagsList">List of Different Tags</h3>
+            <p>
+                There exist many different tags:
+            </p>
+            <ul>
+                <li><a href="/fw/formats/img3/vers"><code>VERS</code></a>: iBoot version of the image</li>
+                <li><a href="/fw/formats/img3/sepo"><code>SEPO</code></a>: Security epoch</li>
+                <li><a href="/fw/formats/img3/sdom"><code>SDOM</code></a>: Security domain</li>
+                <li><a href="/fw/formats/img3/prod"><code>PROD</code></a>: Production mode</li>
+                <li><a href="/fw/formats/img3/chip"><code>CHIP</code></a>: Chip to be used with</li>
+                <li><a href="/fw/formats/img3/bord"><code>BORD</code></a>: Board to be used with</li>
+                <li><a href="/fw/formats/img3/kbag"><code>KBAG</code></a>: Contains the IV and key required to decrypt
+                    the <code>DATA</code> tag</li>
+                <li><a href="/fw/formats/img3/shsh"><code>SHSH</code></a>: Encrypted hash of the file</li>
+                <li><a href="/fw/formats/img3/cert"><code>CERT</code></a>: Certificate</li>
+                <li><a href="/fw/formats/img3/ecid"><code>ECID</code></a>: Exclusive chip ID</li>
+                <li><a href="/fw/formats/img3/type"><code>TYPE</code></a>: Type of image; should contain the same string
+                    as the <code>ident</code> field in the header</li>
+                <li><a href="/fw/formats/img3/data"><code>DATA</code></a>: Payload of the file</li>
+                <li><a href="/fw/formats/img3/cepo"><code>NONC</code></a>: Nonce used when the file was signed</li>
+                <li><a href="/fw/formats/img3/cepo"><code>CEPO</code></a>: Chip epoch</li>
+                <li><a href="/fw/formats/img3/ovrd"><code>OVRD</code></a></li>
+                <li><a href="/fw/formats/img3/rand"><code>RAND</code></a></li>
+                <li><a href="/fw/formats/img3/salt"><code>SALT</code></a></li>
+            </ul>
+
+            <h3 id="headingTagsFormat">Tag Format</h3>
+            <div class="note">
+                All file offsets are in hexadecimal, and all values are stored in little endian.
+            </div>
+            <pre>
+Img3Tag {
+   0  uint32  magic;
+   4  uint32  totalLength; // including padding and header
+   8  uint32  dataLength;
+   C  byte[]  data;        // sizeof(data) == dataLength
+????  byte[]  padding;     // sizeof(padding) == totalLength - dataLength - 12
+}
+            </pre>
+
+            <h2 id="headingFormat">File Format</h2>
+            <div class="note">
+                All file offsets are in hexadecimal, and all values are stored in little endian.
+            </div>
+            <pre>
+Img3 {
+    0  uint32    magic;    // "3gmI" ("Img3" in little endian)
+    4  uint32    fileSize;
+    8  uint32    tagsSize; // size of file without header ([0:0x14])
+    C  uint32    shshTagOffset;
+   10  uint32    ident;    // appears to be the same as the TYPE tag's data/value
+   14  Img3Tag[] tags;
+}
+
+h2 {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+}
+            </pre>
+        </div>
+    </div>
+</div>
+
+{{> footer}}
