@@ -1,0 +1,56 @@
+{{> nav navFirmware=true}}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2">
+            <div id="toc">
+                <div id="tocTitle">Contents</div>
+                <ul>
+                    <li>
+                        1. <a href="#headingFormat">File Format</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-10">
+            <h1>8900</h1>
+            <p>
+                So called due to their use on the <a href="/processors/s5l8900">S5L8900 processor</a>, 8900 files are very basic.
+                Their usage was, as far as is known, to simply to provide a wrapper for <a href="/fw/formats/img2">IMG2</a> and <a href="/fw/formats/dmg">DMG</a> files.
+                They can only be parsed by <a href="/fw/files/iBoot">iBoot</a>-304 or earlier.
+                Later processors have no support for this format.
+            </p>
+
+            <h2 id="headingFormat">File Format</h2>
+            <div class="note">
+                All file offsets are in hexadecimal.
+            </div>
+            <pre>
+Apple8900 {
+   0  byte[4]  magic;   // "8900" in big endian
+   4  byte[3]  version; // "1.0" in big endian
+   7  uint8    format;  // 0x1: boot payload encrypted with UID key
+                        // 0x2: unencrypted boot payload
+                        // 0x3: payload encrypted with <a href="/processors/s5l8900#headerKeys">Key 0x837</a>
+                        // 0x4: unencrypted payload
+   8  uint32;
+   C  uint32   payloadLength;
+  10  uint32   footerSigOffset;  // ignoring header
+  14  uint32   footerCertOffset; // ignoring header
+  18  uint32   footerCertLength;
+  1C  byte[32] salt;
+  3C  uint16;
+  3E  uint16   epoch;
+  40  byte[16] headerSig;  // aes128cbc(sha1(file[0:0x40])[0:0x10], Key0x837, ZeroIV)
+  50  byte[0x7B0] padding;
+ 800  byte[]   payload;    // sizeof(payload) == payloadLength
+????  byte[]   footerSig;  // sizeof(footerSig) == footerCertOffset - footerSigOffset
+????  byte[]   footerCert; // sizeof(footerCert) == footerCertLength
+}
+            </pre>
+        </div>
+    </div>
+</div>
+
+{{> footer}}
