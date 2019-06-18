@@ -100,6 +100,12 @@ router.get("/fw/formats/img2", (req, res) => {
 router.get("/fw/formats/img3", (req, res) => {
     res.render("fw/formats/img3");
 });
+router.get("/fw/formats/img3/kbag", (req, res) => {
+    res.render("fw/formats/img3/kbag");
+});
+router.get("/fw/formats/img3/vers", (req, res) => {
+    res.render("fw/formats/img3/vers");
+});
 router.get("/fw/formats/ipsw", (req, res) => {
     res.render("fw/formats/ipsw");
 });

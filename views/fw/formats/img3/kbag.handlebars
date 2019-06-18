@@ -1,0 +1,41 @@
+{{> nav navFirmware=true}}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2">
+            <li>
+                1. <a href="#headingFormat">Tag Format</a>
+            </li>
+        </div>
+
+        <div class="col-sm-10">
+            <h1>IMG3 Tag: <code>KBAG</code></h1>
+            <p>
+                The <code>KBAG</code> <a href="/fw/formats/img3">IMG3</a> tag is an array of bytes, usually encrypted
+                with the GID Key.
+                It consists of a "magic," some info about the size, some info about the IV/key pair, and the IV and key
+                themselves.
+            </p>
+
+            <h2 id="headingTagsFormat">Tag Format</h2>
+            <div class="note">
+                All file offsets are in hexadecimal, and all values are stored in little endian.
+            </div>
+            <pre>
+Img3KbagTag {
+   0  uint32  magic;       // "GABK" ("KBAG" in little endian)
+   4  uint32  totalLength; // including header
+   8  uint32  dataLength;  // excluding this 0xC header
+   C  uint32  cryptState;  // 0x1: IV/key are encrypted with the GID key
+                           // 0x2: Used with a second KBAG for the <a href="/processor/s5l8920">S5L8920</a>; use is unknown
+  10  uint32  aesType;     //  0x80: AES-128 (16 byte key)
+                           //  0xC0: AES-192 (24 byte key)
+                           // 0x100: AES-256 (32 byte key)
+  14  uint8[16] iv;
+  24  uint8[16/24/32] key; // length depends on "aesType"
+}</pre>
+        </div>
+    </div>
+</div>
+
+{{> footer}}
