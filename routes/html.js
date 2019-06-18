@@ -36,6 +36,10 @@ router.get("/about", (req, res) => {
 //    res.render("baseband");
 //});
 
+router.get("/processor", (req, res) => {
+    res.render("processor");
+});
+
 // /fw requests served by htmlFw.js
 
 //router.get("/ota", (req, res) => {
