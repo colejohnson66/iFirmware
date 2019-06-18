@@ -11,6 +11,11 @@ footer {
     margin-left: -1em;
 }
 
+.external {
+    background: url(/img/external-ltr.png) center right no-repeat;
+    padding-right: 15px;
+}
+
 /* Bootstrap's default pink like color reminds me of a Mediawiki link to a
  * non-existent page */
 code {
