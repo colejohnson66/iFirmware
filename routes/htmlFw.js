@@ -89,7 +89,11 @@ router.get("/fw/keys/:deviceType/:id/:build", (req, res) => {
 
 router.get("/fw/files", (req, res) => {
     res.render("fw/fileList");
-})
+});
+
+router.get("/fw/formats/ipsw", (req, res) => {
+    res.render("fw/formats/ipsw");
+});
 
 
 module.exports = router;

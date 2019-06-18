@@ -1,0 +1,198 @@
+{{> nav navFirmware=true}}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2">
+            <div id="toc">
+                <div id="tocTitle">Contents</div>
+                <ul>
+                    <li>
+                        1. <a href="#headingFormat">Format</a>
+                    </li>
+                    <li>
+                        2. <a href="#headingExample1">Example Newer IPSW</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-10">
+            <h1>IPSW</h1>
+            <p>
+                Originally standing for "<b>iP</b>od <b>S</b>oft<b>w</b>are," IPSW files are the core of the iDevice
+                update/restore system. While being used since the second generation <a
+                    href="https://en.wikipedia.org/wiki/IPod_Classic">iPod Classic</a>, their internal structure has
+                changed many times over the years.
+            </p>
+
+            <h2 id="headingFormat">Format</h2>
+            <p>
+                IPSW files, at least for iDevices, are simply renamed <a
+                    href="https://en.wikipedia.org/wiki/Zip_(file_format)">ZIP files</a>.
+                As such, they can be opened using any ZIP program (some may require the extension to be renamed first).
+            </p>
+            <p>
+                IPSW files follow a very structured format with the root filesystem, ramdisks, kernelcache, and
+                manifests in the root.
+                Everything else is underneath the <code>Firmware</code> folder.
+            </p>
+
+            <h2 id="headingExample1">Example Newer IPSW</h2>
+            <p>
+                Here is the internal structure of the IPSW for the <a href="/fw/keys/iphone/11,8/16A366">12.0 (build
+                    16A366) build for the iPhone XR (<code>iPhone11,8</code>)</a>.
+            </p>
+            <ul>
+                <li><a href="/fw/files/rootFS"><code>048-10776-223.dmg</code></a> (root filesystem)</li>
+                <li><a href="/fw/files/updateRamdisk"><code>048-43107-180.dmg</code></a> (update ramdisk)</li>
+                <li><a href="/fw/files/restoreRamdisk"><code>048-42497-181.dmg</code></a> (restore ramdisk)</li>
+                <li><a href="/fw/files/buildManifest"><code>BuildManifest.plist</code></a></li>
+                <li><a href="/fw/files/kernelcache"><code>kernelcache.release.iphone11b</code></a></li>
+                <li><a href="/fw/files/restorePlist"><code>Restore.plist</code></a></li>
+                <li>
+                    <code>Firmware</code>
+                    <ul>
+                        <li><code>048-10776-223.dmg.trustcache</code></li>
+                        <li><code>048-15811-206.dmg.trustcache</code></li>
+                        <li><code>048-16246-204.dmg.trustcache</code></li>
+                        <li><a href="/baseband/pmb9955/1.00.07"><code>ICE18-1.00.07.Release.bbfw</code></a></li>
+                        <li><code>ICE18-1.00.07.Release.bbfw.plist</code></li>
+                        <li><a href="/fw/files/callanFirmware"><code>N841_CallanFirmware.im4p</code></a></li>
+                        <li><a href="/fw/files/multitouch"><code>N841_Multitouch.im4p</code></a></li>
+                        <li><a href="/fw/files/smartIOFirmware"><code>SmartIOFirmwareT8020.im4p</code></a></li>
+                        <li><a href="/fw/files/vinyl"><code>vinyl_05.vnlfw</code></a></li>
+                        <li><code>vinyl_05.plist</code></li>
+                        <li>
+                            <code>agx</code>
+                            <ul>
+                                <li><a href="/fw/files/armFw"><code>armfw_g11p.im4p</code></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <code>all_flash</code>
+                            <ul>
+                                <li><a href="/fw/files/appleLogo"><code>applelogo@1792~iphone.im4p</code></a></li>
+                                <li><a href="/fw/files/batteryCharging0"><code>batterycharging0@1792~iphone.im4p</code></a></li>
+                                <li><a href="/fw/files/batteryCharging1"><code>batterycharging1@1792~iphone.im4p</code></a></li>
+                                <li><a href="/fw/files/batteryFull"><code>batteryfull@2x~iphone.im4p</code></a></li>
+                                <li><a href="/fw/files/batteryLow0"><code>batterylow0@2x~iphone.im4p</code></a></li>
+                                <li><a href="/fw/files/batteryLow1"><code>batterylow1@2x~iphone.im4p</code></a></li>
+                                <li><a href="/fw/files/deviceTree"><code>DeviceTree.n841ap.im4p</code></a></li>
+                                <li><code>DeviceTree.n841ap.im4p.plist</code></li>
+                                <li><a href="/fw/files/glyphPlugin"><code>glyphplugin@1792~iphone-lightning.im4p</code></a></li>
+                                <li><a href="/fw/files/iBoot"><code>iBoot.n841.RELEASE.im4p</code></a></li>
+                                <li><code>iBoot.n841.RELEASE.im4p.plist</code></li>
+                                <li><a href="/fw/files/llb"><code>LLB.n841.RELEASE.im4p</code></a></li>
+                                <li><code>LLB.n841.RELEASE.im4p.plist</code></li>
+                                <li><a href="/fw/files/lowPowerMode"><code>lowpowermode@1792~iphone-lightning.im4p</code></a></li>
+                                <li><a href="/fw/files/recoveryMode"><code>recoverymode@1792~iphone-lightning.im4p</code></a></li>
+                                <li><a href="/fw/files/sepFirmware"><code>sep-firmware.n841.RELEASE.im4p</code></a></li>
+                                <li><code>sep-firmware.n841.RELEASE.im4p.plist</code></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <code>ane</code>
+                            <ul>
+                                <li><a href="/fw/files/ane"><code>h11_ane_fw_quin.im4p</code></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <code>AOP</code>
+                            <ul>
+                                <li><a href="/fw/files/aopFirmware"><code>aopfw-iphone11baop.im4p</code></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <code>ave</code>
+                            <ul>
+                                <li><a href="/fw/files/appleAve"><code>AppleAVE2FW.im4p</code></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <code>dfu</code>
+                            <ul>
+                                <li><a href="/fw/files/iBec"><code>iBEC.n841.RELEASE.im4p</code></a></li>
+                                <li><code>iBEC.n841.RELEASE.im4p.plist</code></li>
+                                <li><a href="/fw/files/iBss"><code>iBSS.n841.RELEASE.im4p</code></a></li>
+                                <li><code>iBSS.n841.RELEASE.im4p.plist</code></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <code>isp</code>
+                            <ul>
+                                <li><a href="/fw/files/adcPetra"><code>adc-petra-n84.im4p</code></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <code>Maggie</code>
+                            <ul>
+                                <li><a href="/fw/files/appleMaggie"><code>AppleMaggieFirmwareImage.im4p</code></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/fw/files/savage"><code>Savage</code></a>
+                            <ul>
+                                <li><code>Savage.B0-Dev.fw</code></li>
+                                <li><code>Savage.B0-Dev.fw.plist</code></li>
+                                <li><code>Savage.B0-Dev.vt.fw</code></li>
+                                <li><code>Savage.B0-Dev.vt.fw.plist</code></li>
+                                <li><code>Savage.B0-Prod.fw</code></li>
+                                <li><code>Savage.B0-Prod.fw.plist</code></li>
+                                <li><code>Savage.B0-Prod.vt.fw</code></li>
+                                <li><code>Savage.B0-Prod.vt.fw.plist</code></li>
+                                <li><code>Savage.B2-Dev.fw</code></li>
+                                <li><code>Savage.B2-Dev.fw.plist</code></li>
+                                <li><code>Savage.B2-Dev.vt.fw</code></li>
+                                <li><code>Savage.B2-Dev.vt.fw.plist</code></li>
+                                <li><code>Savage.B2-Prod.fw</code></li>
+                                <li><code>Savage.B2-Prod.fw.plist</code></li>
+                                <li><code>Savage.B2-Prod.vt.fw</code></li>
+                                <li><code>Savage.B2-Prod.vt.fw.plist</code></li>
+                                <li><code>Savage.BA-Dev.fw</code></li>
+                                <li><code>Savage.BA-Dev.fw.plist</code></li>
+                                <li><code>Savage.BA-Prod.fw</code></li>
+                                <li><code>Savage.BA-Prod.fw.plist</code></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <code>Stockholm</code>
+                            <ul>
+                                <li><a href="/fw/files/stockholm"><code>Stockholm5.RELEASE.sefw</code></a></li>
+                                <li><code>Stockholm5.RELEASE.sefw.plist</code></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <code>usr</code>
+                            <ul>
+                                <li>
+                                    <code>local</code> (empty folder)
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <code>WirelessPower</code>
+                            <ul>
+                                <li><a href="/fw/files/wirelessPower"><code>WirelessPower.iphone11b.im4p</code></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/fw/files/yonkers"><code>Yonkers</code></a>
+                            <ul>
+                                <li><code>Yonkers.1A01_2A01_2201_3201_Dev.fw</code></li>
+                                <li><code>Yonkers.1A01_2A01_2201_3201_Dev.fw.plist</code></li>
+                                <li><code>Yonkers.1A01_2A01_2201_3201_Prod.fw</code></li>
+                                <li><code>Yonkers.1A01_2A01_2201_3201_Prod.fw.plist</code></li>
+                                <li><code>Yonkers.EA01_F201_Dev.fw</code></li>
+                                <li><code>Yonkers.EA01_F201_Dev.fw.plist</code></li>
+                                <li><code>Yonkers.EA01_F201_Prod.fw</code></li>
+                                <li><code>Yonkers.EA01_F201_Prod.fw.plist</code></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{{> footer}}
