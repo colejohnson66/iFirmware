@@ -7,9 +7,7 @@
                 <div id="tocTitle">Contents</div>
                 <ul>
                     {{#each dbKeys.keys}}
-                    <li>
-                        {{add1 @index}}. <a href="#item_{{type}}">{{firmwareItemNameMapper type}}</a>
-                    </li>
+                    <li>{{add1 @index}}. <a href="#heading{{type}}">{{firmwareItemNameMapper type}}</a></li>
                     {{/each}}
                 </ul>
             </div>
@@ -20,7 +18,7 @@
             <hr>
 
             {{#each dbKeys.keys}}
-            <h2 id="item_{{type}}"><a href="/fw/files/{{type}}">{{firmwareItemNameMapper type}}</a></h2>
+            <h2 id="heading{{type}}"><a href="/fw/files/{{type}}">{{firmwareItemNameMapper type}}</a></h2>
             <ul>
                 <li class="fwFilepath"><span>Filepath: </span>./{{filepath}}</li>
                 {{#if encrypted}}
