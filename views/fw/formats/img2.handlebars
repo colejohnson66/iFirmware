@@ -1,0 +1,60 @@
+{{> nav navFirmware=true}}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2">
+            <div id="toc">
+                <div id="tocTitle">Contents</div>
+                <ul>
+                    <li>
+                        1. <a href="#headingFormat">File Format</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-10">
+            <h1>IMG2</h1>
+            <p>
+                IMG2 files were the original method of holding a payload for iPhones.
+                While the extension <code>.img2</code> is commonly used in <a href="/fw/formats/ipsw">IPSW</a> files,
+                these files are actually <a href="/fw/formats/8900">8900 files</a> that wrap an IMG2 file.
+                These files can only be parsed by <a href="/fw/files/iBoot">iBoot</a>-304 or earlier and the <a
+                    href="/processor/s5l8900">S5L8900</a>.
+                Later processors have no support for this format.
+            </p>
+
+            <h2 id="headingFormat">File Format</h2>
+            <div class="note">
+                All file offsets are in hexadecimal.
+            </div>
+            <pre>
+Img2 {
+   0  byte[4]  magic;     // "2gmI" ("Img2" in little endian)
+   4  byte[4]  imageType; // little endian; eg. "logo" for <a href="/fw/files/appleLogo">AppleLogo</a>
+   8  uint16;
+   A  uint16   epoch;
+   C  uint32   flags1;
+  10  uint32   payloadLengthPadded;
+  14  uint32   payloadLength;
+  18  uint32;
+  1C  uint32   flags2; // 0x01000000 has to be unset
+  20  byte[64];
+  60  uint32;          // possibly a length field
+  64  uint32   headerChecksum; // crc32(file[0:0x64])
+  68  uint32   checksum2;
+  6C  uint32;          // always 0xFFFFFFFF?
+  70  VersionTag {
+        70  byte[4]  magic; // "srev" ("vers" in little endian)
+        74  uint32;
+        78  byte[24] version; // "EmbeddedImages-##" (terminated with a null and 0xFF)
+      }
+  90  byte[0x370];
+ 400  byte[]   payload; // sizeof(payload) == payloadLengthPadded
+}
+            </pre>
+        </div>
+    </div>
+</div>
+
+{{> footer}}
