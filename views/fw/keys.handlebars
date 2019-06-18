@@ -14,12 +14,12 @@
         </div>
 
         <div class="col-sm-7">
-            <h1>{{dbKeys.codename}} {{dbKeys.build}} ({{dbKeys.device}})</h1>
+            <h1>{{dbKeys.codename}} {{dbKeys.build}} (<code>{{dbKeys.device}}</code>)</h1>
 
             {{#each dbKeys.keys}}
             <h2 id="heading{{type}}"><a href="/fw/files/{{type}}">{{firmwareItemNameMapper type}}</a></h2>
             <ul>
-                <li class="fwFilepath"><span>Filepath: </span>./{{filepath}}</li>
+                <li class="fwFilepath"><span>Filepath: </span><code>./{{filepath}}</code></li>
                 {{#if encrypted}}
                 <li>IV: <code>{{iv}}</code></li>
                 <li>Key: <code>{{key}}</code></li>
