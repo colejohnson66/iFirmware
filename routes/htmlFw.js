@@ -90,6 +90,9 @@ router.get("/fw/keys/:deviceType/:id/:build", (req, res) => {
 router.get("/fw/files", (req, res) => {
     res.render("fw/fileList");
 });
+router.get("/fw/files/appleLogo", (req, res) => {
+    res.render("fw/files/appleLogo");
+});
 
 router.get("/fw/formats/8900", (req, res) => {
     res.render("fw/formats/8900");
