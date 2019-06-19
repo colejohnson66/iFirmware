@@ -34,3 +34,32 @@ h2 {
 .fwInfobox caption {
     caption-side: top;
 }
+
+.bg-red {
+    background-color: #f44336;
+    color: white;
+}
+.bg-orange {
+    background-color: #ff9800;
+    color: black;
+}
+.bg-yellow {
+    background-color: #ffeb3b;
+    color: white;
+}
+.bg-green {
+    background-color: #4caf50;
+    color: black;
+}
+.bg-blue {
+    background-color: #03a9f4;
+    color: black;
+}
+.bg-indigo {
+    background-color: #3f51b5;
+    color: white;
+}
+.bg-purple {
+    background-color: #9c27b0;
+    color: white;
+}
