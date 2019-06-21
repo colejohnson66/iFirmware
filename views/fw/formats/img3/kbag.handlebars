@@ -3,7 +3,13 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-2">
-            <li>1. <a href="#headingFormat">Tag Format</a></li>
+            <div id="toc">
+                <div id="tocTitle">Contents</div>
+                <ul>
+                    <li>1. <a href="#headingFormat">Tag Format</a></li>
+                    <li>2. <a href="#headingTagsExample">Example Tag</a></li>
+                </ul>
+            </div>
         </div>
 
         <div class="col-sm-10">
@@ -22,8 +28,8 @@
             <pre>
 Img3KbagTag {
    0  uint32  magic;       // "GABK" ("KBAG" in little endian)
-   4  uint32  totalLength; // including header (0x34, 0x3C, or 0x44)
-   8  uint32  dataLength;  // excluding this 0xC header (0x28, 0x30, or 0x38)
+   4  uint32  totalLength; // including header
+   8  uint32  dataLength;  // excluding this 0xC header
    C  uint32  cryptState;  // 0x1: IV/key are encrypted with the GID key
                            // 0x2: Used with a second KBAG for the <a href="/processor/s5l8920">S5L8920</a>; use is unknown
   10  uint32  aesType;     //  0x80: AES-128 (16 byte key)
@@ -31,7 +37,35 @@ Img3KbagTag {
                            // 0x100: AES-256 (32 byte key)
   14  uint8[16] iv;
   24  uint8[16/24/32] key; // length depends on "aesType"
+????  byte[]  pad;
 }</pre>
+
+            <h2 id="headingTagsExample">Example Tag</h2>
+            <p>
+                The following tag is from the <a href="/fw/files/appleLogo">AppleLogo</a> file from the <a
+                    href="/fw/keys/iphone/1,1/5A347">2.0 (build 5A347) build for the iPhone 2G
+                    (<code>iPhone1,1</code>)</a>.
+            </p>
+            <div class="hexView">
+                <pre>
+         0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F
+ 1C80:                                      <span class="bg-red">47 41 42 4B</span>              GABK
+ 1C90:  44 00 00 00 38 00 00 00 <span class="bg-orange">01 00 00 00</span> <span class="bg-yellow">80 00 00 00</span>  D...8.......€...
+ 1CA0:  <span class="bg-green">CA 5C 08 00 96 7C 23 64 8C 1F 24 FE 6A BD 34 19</span>  Ê\..–|#dŒ.$þj½4.
+ 1CB0:  <span class="bg-blue">35 30 CF F9 80 84 9C 41 7F 49 F0 14 D1 2B F2 73</span>  50Ïù€„œA.Ið.Ñ+òs
+ 1CC0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+</pre>
+            </div>
+            <p>
+                The <code class="bg-red">GABK</code> when tells us this is a <code>KBAG</code> tag.
+                The following bytes tell us that this tag is 0x44 bytes long (0x38 without the header).
+                The bytes in <span class="bg-orange">orange</span> tell us that this <code>KBAG</code> is encrypted with
+                the GID key.
+                The next bytes tell us that the <a href="/fw/formats/img3/data"><code>DATA</code></a> tag is encrypted
+                with AES&#8209;128.
+                Finally, we are left with the <span class="bg-green">green</span> and <span class="bg-blue">blue</span>
+                bytes which contain the encrypted IV and key.
+            </p>
         </div>
     </div>
 </div>
