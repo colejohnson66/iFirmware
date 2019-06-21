@@ -6,6 +6,10 @@ footer {
     margin-top: 20px;
 }
 
+#tocTitle {
+    font-size: x-large;
+}
+
 #toc li {
     list-style-type: none;
     margin-left: -1em;
@@ -33,6 +37,13 @@ h2 {
 
 .fwInfobox caption {
     caption-side: top;
+}
+
+.hexView {
+    border: 1px;
+    border-style: solid;
+    padding: 1rem;
+    width: fit-content;
 }
 
 .bg-red {
