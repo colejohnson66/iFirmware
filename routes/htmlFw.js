@@ -87,6 +87,19 @@ router.get("/fw/keys/:deviceType/:id/:build", (req, res) => {
     });
 });
 
+router.get("/fw/decrypt", (req, res) => {
+    res.render("fw/decrypt");
+});
+router.post("/fw/decrypt/post", (req, res) => {
+    // validation
+    //if (Object.keys(req.files).length == 0)
+    //    return res.status(400).json({ error: "No file provided" });
+    if (!req.body.decryptFormIV || !req.body.decryptFormKey)
+        return res.status(400).json({ error: "No IV or key provided" });
+        console.log(req.body);
+    res.end("err");
+});
+
 router.get("/fw/files", (req, res) => {
     res.render("fw/fileList");
 });
