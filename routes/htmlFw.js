@@ -92,6 +92,7 @@ router.get("/fw/decrypt", (req, res) => {
 });
 router.post("/fw/decrypt/post", (req, res) => {
     // validation
+    return res.end("No");
     //if (Object.keys(req.files).length == 0)
     //    return res.status(400).json({ error: "No file provided" });
     if (!req.body.decryptFormIV || !req.body.decryptFormKey)
