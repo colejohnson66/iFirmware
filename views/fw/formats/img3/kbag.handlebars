@@ -77,50 +77,53 @@ Img3KbagTag {
                         <td><code class="bg-red">0x1C8C</code></td>
                         <td>4</td>
                         <td>
-                            When interpreted in little endian order, these bytes give the string, <code>KBAG</code>.
+                            <code>magic</code>: When interpreted in little endian order, these bytes give the string,
+                            <code>KBAG</code>.
                         </td>
                     </tr>
                     <tr>
                         <td><code>0x1C90</code></td>
                         <td>4</td>
                         <td>
-                            Indicates that this tag is <code>0x44</code> (68) bytes long.
+                            <code>totalLength</code>: Indicates that this tag is <code>0x44</code> (68) bytes long.
                         </td>
                     </tr>
                     <tr>
                         <td><code>0x1C94</code></td>
                         <td>4</td>
                         <td>
-                            Indicates that this tag (without the header) is <code>0x38</code> (56) bytes long.
+                            <code>dataLength</code>: Indicates that this tag (without the header) is <code>0x38</code>
+                            (56) bytes long.
                         </td>
                     </tr>
                     <tr>
                         <td><code class="bg-orange">0x1C98</code></td>
                         <td>4</td>
                         <td>
-                            Indicates that this tag's IV/key pair is encrypted with the GID key
+                            <code>cryptState</code>: Indicates that this tag's IV/key pair is encrypted with the GID key
                         </td>
                     </tr>
                     <tr>
                         <td><code class="bg-yellow">0x1C9C</code></td>
                         <td>4</td>
                         <td>
-                            Indicates that the <a href="/fw/formats/img3/data"><code>DATA</code></a> tag is encrypted
-                            with AES&#8209;128 and that the key is 16 bytes (128 bits) long.
+                            <code>aesType</code>: Indicates that the <a
+                                href="/fw/formats/img3/data"><code>DATA</code></a> tag is encrypted with AES&#8209;128
+                            and that the key is 16 bytes (128 bits) long.
                         </td>
                     </tr>
                     <tr>
                         <td><code class="bg-green">0x1CA0</code></td>
                         <td>16</td>
                         <td>
-                            The encrypted IV.
+                            <code>iv</code>: The encrypted IV.
                         </td>
                     </tr>
                     <tr>
                         <td><code class="bg-blue">0x1CB0</code></td>
                         <td>16</td>
                         <td>
-                            The encrypted key.
+                            <code>key</code>: The encrypted key.
                         </td>
                     </tr>
                 </tbody>
