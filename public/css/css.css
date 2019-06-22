@@ -74,6 +74,18 @@ h2 {
     color: white;
 }
 
+.hexViewDetails,
+.hexViewDetails th,
+.hexViewDetails td {
+    border: 1px;
+    border-style: solid;
+}
+
+.hexViewDetails td:nth-child(1),
+.hexViewDetails td:nth-child(2) {
+    text-align: center;
+}
+
 .note {
     background: #DDFFDD;
     color: green;
