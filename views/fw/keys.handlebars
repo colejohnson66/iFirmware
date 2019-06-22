@@ -7,7 +7,7 @@
                 <div id="tocTitle">Contents</div>
                 <ul>
                     {{#each dbKeys.keys}}
-                    <li>{{add1 @index}}. <a href="#heading{{type}}">{{firmwareItemNameMapper type}}</a></li>
+                    <li>{{addNum @index "1"}}. <a href="#heading{{type}}">{{firmwareItemNameMapper type}}</a></li>
                     {{/each}}
                 </ul>
             </div>

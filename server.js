@@ -31,16 +31,7 @@ const cheerio = require("cheerio");
 
 const hbs = exphbs.create({
     defaultLayout: "base",
-    helpers: {
-        firmwareItemNameMapper: (fwItemName) => {
-            if (fwItemName === "rootFS")
-                return "Root Filesystem";
-            if (fwItemName === "updateRamdisk")
-                return "Update Ramdisk";
-            return fwItemName;
-        },
-        add1: (val) => parseInt(val) + 1
-    }
+    helpers: require("./handlebarsHelpers")
 });
 
 
