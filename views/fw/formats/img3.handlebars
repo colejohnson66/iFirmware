@@ -104,8 +104,8 @@ Img3Tag {
    0  uint32  magic;
    4  uint32  totalLength; // including padding and header
    8  uint32  dataLength;
-   C  byte[]  data;        // sizeof(data) == dataLength
-????  byte[]  padding;     // sizeof(padding) == totalLength - dataLength - 12
+   C  uint8[] data;        // sizeof(data) == dataLength
+????  uint8[] pad;         // sizeof(pad) == totalLength - dataLength - 12
 }</pre>
 
             <h2 id="headingFormat">File Format</h2>

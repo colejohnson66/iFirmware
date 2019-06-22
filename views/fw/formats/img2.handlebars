@@ -34,8 +34,8 @@
             </p>
             <pre>
 Img2 {
-   0  byte[4]  magic;     // "2gmI" ("Img2" in little endian)
-   4  byte[4]  imageType; // little endian; eg. "ogol" ("logo") for <a href="/fw/files/appleLogo">AppleLogo</a>
+   0  uint8[4] magic;     // "2gmI" ("Img2" in little endian)
+   4  uint8[4] imageType; // little endian; eg. "ogol" ("logo") for <a href="/fw/files/appleLogo">AppleLogo</a>
    8  uint16;
    A  uint16   epoch;
    C  uint32   flags1;
@@ -43,18 +43,18 @@ Img2 {
   14  uint32   payloadLength;
   18  uint32;
   1C  uint32   flags2; // 0x01000000 has to be unset
-  20  byte[64];
+  20  uint8[64];
   60  uint32;          // possibly a length field
   64  uint32   headerChecksum; // crc32(file[0:0x64])
   68  uint32   checksum2;
   6C  uint32;          // always 0xFFFFFFFF?
   70  VersionTag {
-        70  byte[4]  magic; // "srev" ("vers" in little endian)
+        70  uint8[4]  magic;   // "srev" ("vers" in little endian)
         74  uint32;
-        78  byte[24] version; // "EmbeddedImages-##" (terminated with a null and 0xFF)
-      }
-  90  byte[0x370];
- 400  byte[]   payload; // sizeof(payload) == payloadLengthPadded
+        78  uint8[24] version; // "EmbeddedImages-##" (terminated with a null and 0xFF)
+      } version;
+  90  uint8[0x370] pad;
+ 400  uint8[]  payload; // sizeof(payload) == payloadLengthPadded
 }</pre>
         </div>
     </div>
