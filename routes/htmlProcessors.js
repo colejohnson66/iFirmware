@@ -20,32 +20,12 @@ const express = require("express");
 const router = express.Router();
 
 
-router.get("/", (req, res) => {
-    res.render("home");
+router.get("/processors", (req, res) => {
+    res.render("processors");
 });
 
-router.get("/about", (req, res) => {
-    res.render("about");
-});
-
-//router.get("/device", (req, res) => {
-//    res.render("device");
-//});
-
-//router.get("/baseband", (req, res) => {
-//    res.render("baseband");
-//});
-
-// /processor requests served by htmlProcessors.js
-
-// /fw requests served by htmlFw.js
-
-//router.get("/ota", (req, res) => {
-//    res.render("ota");
-//});
-
-router.get("/contact", (req, res) => {
-    res.render("contact");
+router.get("/processors/s5l8900", (req, res) => {
+    res.render("processors/s5l8900");
 });
 
 
