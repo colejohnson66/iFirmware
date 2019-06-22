@@ -13,5 +13,10 @@ module.exports = {
         if (fwItemName === "updateRamdisk")
             return "Update Ramdisk";
         return fwItemName;
+    },
+
+    // use "function" syntax so "arguments" works
+    toArray: function (...params) {
+        return params.slice(0, -1);
     }
 };

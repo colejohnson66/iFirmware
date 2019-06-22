@@ -1,6 +1,13 @@
 {{> nav navFirmware=true}}
 
 <div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/fw/keys">Firmware Keys</a></li>
+            <li class="breadcrumb-item"><a href="/fw/keys/{{device.deviceType}}/{{device.id}}">{{dbKeys.device}}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{dbKeys.codename}} {{dbKeys.build}} ({{dbKeys.device}})</li>
+        </ol>
+    </nav>
     <div class="row">
         <div class="col-sm-2">
             <div id="toc">
