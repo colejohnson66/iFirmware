@@ -28,8 +28,8 @@ router.get("/about", (req, res) => {
     res.render("about");
 });
 
-//router.get("/device", (req, res) => {
-//    res.render("device");
+//router.get("/devices", (req, res) => {
+//    res.render("devices");
 //});
 
 //router.get("/baseband", (req, res) => {
