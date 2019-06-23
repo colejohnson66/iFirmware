@@ -1,0 +1,53 @@
+{{> nav navProcessor=true}}
+
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/processors">Processors</a></li>
+            <li class="breadcrumb-item active" aria-current="page">S5L8720</li>
+        </ol>
+    </nav>
+    <div class="row">
+        <div class="col-sm-2">
+            <div id="toc">
+                <div id="tocTitle">Contents</div>
+                <ul>
+                    <li>1. <a href="#headingExploits">Exploits</a></li>
+                    <li>2. <a href="#headingBootroms">Bootroms</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-10">
+            <h1>S5L8720</h1>
+            <p>
+                The S5L8720 is the processor used in the <a href="/devices/ipod/2,1">iPod touch 2G</a>.
+                It runs at 533&nbsp;MHz.
+            </p>
+
+            <h2 id="headingExploits">Exploits</h2>
+            <p>
+                The S5L8720 is one of the few <a href="/devices">iDevice</a> processors to have an <em>untethered bootrom</em> exploit;
+                The advantage of a bootrom level exploit is the ability to jailbreak <em>any</em> device utilizing the processor, regardless of the version of iPhone OS/iOS installed.
+                By having an <em>un</em>tethered bootrom level exploit, a computer is not needed to assist in booting the device.
+            </p>
+            <p>
+                There are currently two bootrom level exploits: <a href="https://www.theiphonewiki.com/wiki/0x24000_Segment_Overflow" class="external">24kPwn (0x24000 Segment Overflow)</a> (untethered; old bootrom only) and <a href="https://www.theiphonewiki.com/wiki/Usb_control_msg(0xA1,_1)_Exploit" class="external">usb_control_msg(0xA1, 1)</a> (tethered; both bootroms).
+            </p>
+
+            <h2 id="headingBootroms">Bootroms</h2>
+            <p>
+                The S5L8720 is one of two processors to have two different bootroms;
+                The other being the <a href="/processors/s5l8920">S5L8920</a>.
+                Roughly seven months after the release of the 24kPwn (0x24000 Segment Overflow), Apple released updated <a href="/devices/ipod/2,1">iPod touch 2G</a>s containing a newer bootrom that was no longer vulnerable;
+                This closed the hole that allowed an untethered bootrom level exploit.
+            </p>
+            <p>
+                Later, a new exploit, <code>usb_control_msg(0xA1, 1)</code> (sometimes referred to as "steaks4uce") was discovered.
+                This exploit, when combined with a kernel exploit, allows a <em>tethered</em> jailbreak on newer bootroms.
+            </p>
+        </div>
+    </div>
+</div>
+
+{{> footer}}

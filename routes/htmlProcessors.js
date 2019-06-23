@@ -27,6 +27,9 @@ router.get("/processors", (req, res) => {
 router.get("/processors/s5l8900", (req, res) => {
     res.render("processors/s5l8900");
 });
+router.get("/processors/s5l8720", (req, res) => {
+    res.render("processors/s5l8720");
+});
 
 
 module.exports = router;
