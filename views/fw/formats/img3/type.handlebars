@@ -1,0 +1,108 @@
+{{> nav navFirmware=true}}
+
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/fw/files">Firmware Files</a></li>
+            <li class="breadcrumb-item"><a href="/fw/formats/img3">IMG3</a></li>
+            <li class="breadcrumb-item active" aria-current="page">TYPE</li>
+        </ol>
+    </nav>
+    <div class="row">
+        <div class="col-sm-2">
+            <div id="toc">
+                <div id="tocTitle">Contents</div>
+                <ul>
+                    <li>1. <a href="#headingTagFormat">Tag Format</a></li>
+                    <li>2. <a href="#headingExample">Example Tag</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-10">
+            <h1>IMG3 Tag: <code>TYPE</code></h1>
+            <p>
+                The <code>TYPE</code> <a href="/fw/formats/img3">IMG3</a> tag is an four byte little endian string that states what type of firmware image the IMG3 file is.
+                This tag is not present in earlier versions of iPhone OS/iOS;
+                It is unknown when it was added.
+                Its purpose is also unknown as the <code>ident</code> field in the IMG3 header has the same value.
+            </p>
+            <p>
+                According to <a href="https://www.theiphonewiki.com/wiki/TYPE" class="external">the iPhone Wiki</a>, it is compared to the second parameter of <code>image_load</code>;
+                If it does not match, <code>image_load</code> will fail.
+                However, if a zero is passed as the second argument, the check is ignored.
+            </p>
+
+            <h2 id="headingTagFormat">Tag Format</h2>
+            <p class="note">
+                All file offsets are in hexadecimal, and all values are stored in little endian.
+            </p>
+            <pre>
+Img3KbagTag {
+   0  uint32  magic;       // "EPYT" ("TYPE" in little endian)
+   4  uint32  totalLength; // including header
+   8  uint32  dataLength;  // excluding this 0xC header
+   C  uint32  value;
+  10  uint8[] pad;
+}</pre>
+
+            <h2 id="headingExample">Example Tag</h2>
+            <p>
+                The following tag is from the <a href="/fw/files/appleLogo">AppleLogo</a> file from the <a href="/fw/keys/ipad/3,6/14A403">10.0.1 (build 14A403) build for the iPad 4 (<code>iPad3,6</code>)</a>.
+            </p>
+            <pre class="hexView">
+        0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F
+0010:              <span class="bg-red">45 50 59 54</span> 20 00 00 00 04 00 00 00      EPYT .......
+0020:  <span class="bg-orange">6F 67 6F 6C</span> 00 00 00 00 00 00 00 00 00 00 00 00  ogol............
+0030:  00 00 00 00                                      ....</pre>
+            <table class="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Offset</th>
+                        <th scope="col">Length</th>
+                        <th scope="col">Explanation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code class="bg-red">0x0014</code></td>
+                        <td>4</td>
+                        <td>
+                            <code>magic</code>: When interpreted in little endian order, these bytes give the string, <code>TYPE</code>.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><code>0x0018</code></td>
+                        <td>4</td>
+                        <td>
+                            <code>totalLength</code>: Indicates that this tag is <code>0x20</code> (32) bytes long.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><code>0x001C</code></td>
+                        <td>4</td>
+                        <td>
+                            <code>dataLength</code>: Indicates that this tag (without the header and padding) is <code>0x4</code> (4) bytes long.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><code class="bg-orange">0x0020</code></td>
+                        <td>4</td>
+                        <td>
+                            <code>value</code>: Indicates that this file is a <code>logo</code> (AppleLogo) file.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><code>0x0024</code></td>
+                        <td>16</td>
+                        <td>
+                            <code>pad</code>: Padding.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+{{> footer}}
