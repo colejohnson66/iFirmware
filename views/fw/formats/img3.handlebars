@@ -29,43 +29,33 @@
         <div class="col-sm-10">
             <h1>IMG3</h1>
             <p>
-                Initially used in iPhone OS 2.0 beta 4, IMG3 files were created to address some of the problems with the
-                older <a href="/fw/formats/8900">8900</a> and <a href="/fw/formats/img2">IMG2</a> formats.
-                This format is used on all devices using 32-bit processors (<a href="/processors/s5l8955">S5L8955</a>
-                (A6X) or lower).
-                All 64-bit processors (<a href="/processors/s5l8960">S5L8960</a> (A7) and newer) use the <a
-                    href="/fw/formats/img4">IMG4</a> format.
+                Initially used in iPhone OS 2.0 beta 4, IMG3 files were created to address some of the problems with the older <a href="/fw/formats/8900">8900</a> and <a href="/fw/formats/img2">IMG2</a> formats.
+                This format is used on all devices using 32-bit processors (<a href="/processors/s5l8955">S5L8955</a> (A6X) or lower).
+                All 64-bit processors (<a href="/processors/s5l8960">S5L8960</a> (A7) and newer) use the <a href="/fw/formats/img4">IMG4</a> format.
             </p>
 
             <h2 id="headingProblems">Problems With IMG2</h2>
             <p>
-                The biggest problem with the <a href="/fw/formats/8900">8900</a> and the <a
-                    href="/fw/formats/img2">IMG2</a> formats was that they were all encrypted with the same key: <a
-                    href="/processors/s5l8900#headingKeys">Key0x837</a>.
-                IMG3 addressed this glaring security hole by storing the encryption keys for each file inside that file
-                (but encrypted).
+                The biggest problem with the <a href="/fw/formats/8900">8900</a> and the <a href="/fw/formats/img2">IMG2</a> formats was that they were all encrypted with the same key: <a href="/processors/s5l8900#headingKeys">Key 0x837</a>.
+                IMG3 addressed this glaring security hole by storing the encryption keys for each file inside that file (but encrypted).
                 This means that a single key can only decrypt a single file.
             </p>
 
             <h2 id="headingStructure">File Structure</h2>
             <p>
                 The IMG3 file format's header is a lot more compact than previous formats.
-                It consists of a "magic," some info about the file size, an offset to the <code>SHSH</code> tag, an
-                identifier, and tags.
+                It consists of a "magic," some info about the file size, an offset to the <code>SHSH</code> tag, an identifier, and tags.
             </p>
             <p>
-                The encryption keys for the file's data are stored in the <code>KBAG</code> tag (see below for what a
-                tag is).
+                The encryption keys for the file's data are stored in the <code>KBAG</code> tag (see below for what a tag is).
             </p>
 
             <h2 id="headingTags">Tags</h2>
             <p>
                 An IMG3 file consists of a series of "tags," one after the other.
                 A tag is consists of a "magic," some info about the tag size, the possibly encrypted data, and padding.
-                For the <code>KBAG</code> tag, its data is encrypted with the GID Key (a key unique to each processor
-                version).
-                For the <code>DATA</code> tag, its data is encrypted with the IV and key stored in the <code>KBAG</code>
-                tag.
+                For the <code>KBAG</code> tag, its data is encrypted with the GID Key (a key unique to each processor version).
+                For the <code>DATA</code> tag, its data is encrypted with the IV and key stored in the <code>KBAG</code> tag.
                 All other tags are unencrypted as far as is known.
             </p>
 
@@ -80,8 +70,7 @@
                 <li><a href="/fw/formats/img3/chip"><code>CHIP</code></a>: Chip to be used with</li>
                 <li><a href="/fw/formats/img3/data"><code>DATA</code></a>: Payload of the file</li>
                 <li><a href="/fw/formats/img3/ecid"><code>ECID</code></a>: Exclusive chip ID</li>
-                <li><a href="/fw/formats/img3/kbag"><code>KBAG</code></a>: Contains the IV and key required to decrypt
-                    the <code>DATA</code> tag</li>
+                <li><a href="/fw/formats/img3/kbag"><code>KBAG</code></a>: Contains the IV and key required to decrypt the <code>DATA</code> tag</li>
                 <li><a href="/fw/formats/img3/cepo"><code>NONC</code></a>: Nonce used when the file was signed</li>
                 <li><a href="/fw/formats/img3/ovrd"><code>OVRD</code></a></li>
                 <li><a href="/fw/formats/img3/prod"><code>PROD</code></a>: Production mode</li>
@@ -90,8 +79,7 @@
                 <li><a href="/fw/formats/img3/sdom"><code>SDOM</code></a>: Security domain</li>
                 <li><a href="/fw/formats/img3/sepo"><code>SEPO</code></a>: Security epoch</li>
                 <li><a href="/fw/formats/img3/shsh"><code>SHSH</code></a>: Encrypted hash of the file</li>
-                <li><a href="/fw/formats/img3/type"><code>TYPE</code></a>: Type of image; should contain the same string
-                    as the <code>ident</code> field in the header</li>
+                <li><a href="/fw/formats/img3/type"><code>TYPE</code></a>: Type of image; should contain the same string as the <code>ident</code> field in the header</li>
                 <li><a href="/fw/formats/img3/vers"><code>VERS</code></a>: iBoot version of the image</li>
             </ul>
 

@@ -22,10 +22,8 @@
         <div class="col-sm-10">
             <h1>IMG3 Tag: <code>KBAG</code></h1>
             <p>
-                The <code>KBAG</code> <a href="/fw/formats/img3">IMG3</a> tag is an array of bytes, usually encrypted
-                with the GID Key.
-                It consists of a "magic," some info about the size, some info about the IV/key pair, and the IV and key
-                themselves.
+                The <code>KBAG</code> <a href="/fw/formats/img3">IMG3</a> tag is an array of bytes, usually encrypted with the GID Key.
+                It consists of a "magic," some info about the size, some info about the IV/key pair, and the IV and key themselves.
             </p>
 
             <h2 id="headingTagFormat">Tag Format</h2>
@@ -49,9 +47,7 @@ Img3KbagTag {
 
             <h2 id="headingExample">Example Tag</h2>
             <p>
-                The following tag is from the <a href="/fw/files/appleLogo">AppleLogo</a> file from the <a
-                    href="/fw/keys/iphone/1,1/5A347">2.0 (build 5A347) build for the iPhone 2G
-                    (<code>iPhone1,1</code>)</a>.
+                The following tag is from the <a href="/fw/files/appleLogo">AppleLogo</a> file from the <a href="/fw/keys/iphone/1,1/5A347">2.0 (build 5A347) build for the iPhone 2G (<code>iPhone1,1</code>)</a>.
             </p>
             <pre class="hexView">
         0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F
@@ -73,8 +69,7 @@ Img3KbagTag {
                         <td><code class="bg-red">0x1C8C</code></td>
                         <td>4</td>
                         <td>
-                            <code>magic</code>: When interpreted in little endian order, these bytes give the string,
-                            <code>KBAG</code>.
+                            <code>magic</code>: When interpreted in little endian order, these bytes give the string, <code>KBAG</code>.
                         </td>
                     </tr>
                     <tr>
@@ -88,8 +83,7 @@ Img3KbagTag {
                         <td><code>0x1C94</code></td>
                         <td>4</td>
                         <td>
-                            <code>dataLength</code>: Indicates that this tag (without the header) is <code>0x38</code>
-                            (56) bytes long.
+                            <code>dataLength</code>: Indicates that this tag (without the header) is <code>0x38</code> (56) bytes long.
                         </td>
                     </tr>
                     <tr>
@@ -103,9 +97,7 @@ Img3KbagTag {
                         <td><code class="bg-yellow">0x1C9C</code></td>
                         <td>4</td>
                         <td>
-                            <code>aesType</code>: Indicates that the <a
-                                href="/fw/formats/img3/data"><code>DATA</code></a> tag is encrypted with AES&#8209;128
-                            and that the key is 16 bytes (128 bits) long.
+                            <code>aesType</code>: Indicates that the <a href="/fw/formats/img3/data"><code>DATA</code></a> tag is encrypted with AES&#8209;128 and that the key is 16 bytes (128 bits) long.
                         </td>
                     </tr>
                     <tr>

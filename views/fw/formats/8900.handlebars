@@ -20,28 +20,24 @@
         <div class="col-sm-10">
             <h1>8900</h1>
             <p>
-                So called due to their use on the <a href="/processors/s5l8900">S5L8900 processor</a>, 8900 files are
-                very basic.
-                Their usage was, as far as is known, to simply to provide a wrapper for <a
-                    href="/fw/formats/img2">IMG2</a> and <a href="/fw/formats/dmg">DMG</a> files.
-                They can only be parsed by <a href="/fw/files/iBoot">iBoot</a>-304 or earlier and the <a
-                    href="/processors/s5l8900">S5L8900</a>.
+                So called due to their use on the <a href="/processors/s5l8900">S5L8900 processor</a>, 8900 files are very basic.
+                Their usage was, as far as is known, to simply to provide a wrapper for <a href="/fw/formats/img2">IMG2</a> and <a href="/fw/formats/dmg">DMG</a> files.
+                They can only be parsed by <a href="/fw/files/iBoot">iBoot</a>-304 or earlier and the <a href="/processors/s5l8900">S5L8900</a>.
                 Later processors have no support for this format.
             </p>
 
             <h2 id="headingFormat">File Format</h2>
             <p class="note">
-                All file offsets are in hexadecimal, and all values except <code>magic</code> and <code>version</code>
-                are stored in little endian.
+                All file offsets are in hexadecimal, and all values except <code>magic</code> and <code>version</code> are stored in little endian.
             </p>
             <pre>
 Apple8900 {
    0  uint8[4]  magic;   // "8900" in big endian
    4  uint8[3]  version; // "1.0" in big endian
    7  uint8     format;  // 0x1: boot payload encrypted with UID key
-                        // 0x2: unencrypted boot payload
-                        // 0x3: payload encrypted with <a href="/processors/s5l8900#headerKeys">Key 0x837</a>
-                        // 0x4: unencrypted payload
+                         // 0x2: unencrypted boot payload
+                         // 0x3: payload encrypted with <a href="/processors/s5l8900#headerKeys">Key 0x837</a>
+                         // 0x4: unencrypted payload
    8  uint32;
    C  uint32    payloadLength;
   10  uint32    footerSigOffset;  // ignoring header
