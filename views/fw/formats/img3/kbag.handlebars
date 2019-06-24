@@ -34,7 +34,7 @@
 Img3KbagTag {
    0  uint32  magic;       // "GABK" ("KBAG" in little endian)
    4  uint32  totalLength; // including header
-   8  uint32  dataLength;  // excluding this 0xC header
+   8  uint32  dataLength;  // excluding this 0xC header and padding
    C  uint32  cryptState;  // 0x1: IV/key are encrypted with the GID key
                            // 0x2: Used with a second KBAG for the <a href="/processors/s5l8920">S5L8920</a>; use is unknown
   10  uint32  aesType;     //  0x80: AES-128 (16 byte key)

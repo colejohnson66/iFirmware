@@ -44,7 +44,7 @@
             <h2 id="headingStructure">File Structure</h2>
             <p>
                 The IMG3 file format's header is a lot more compact than previous formats.
-                It consists of a "magic," some info about the file size, an offset to the <code>SHSH</code> tag, an identifier, and tags.
+                It consists of a "magic," some info about the file size, an offset to the <code>SHSH</code> tag, and an identifier.
             </p>
             <p>
                 The encryption keys for the file's data are stored in the <code>KBAG</code> tag (see below for what a tag is).
@@ -104,7 +104,7 @@ Img3Tag {
 Img3 {
     0  uint32    magic;    // "3gmI" ("Img3" in little endian)
     4  uint32    fileSize;
-    8  uint32    tagsSize; // size of file without header ([0:0x14])
+    8  uint32    tagsSize; // size of file without 0x14 header
     C  uint32    shshTagOffset;
    10  uint32    ident;    // appears to be the same as the TYPE tag's data/value
    14  Img3Tag[] tags;

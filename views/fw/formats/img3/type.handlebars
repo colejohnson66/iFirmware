@@ -41,7 +41,7 @@
 Img3KbagTag {
    0  uint32  magic;       // "EPYT" ("TYPE" in little endian)
    4  uint32  totalLength; // including header
-   8  uint32  dataLength;  // excluding this 0xC header
+   8  uint32  dataLength;  // excluding this 0xC header and padding
    C  uint32  value;
   10  uint8[] pad;
 }</pre>
