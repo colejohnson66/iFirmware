@@ -107,6 +107,9 @@ router.get("/fw/files", (req, res) => {
 router.get("/fw/files/appleLogo", (req, res) => {
     res.render("fw/files/appleLogo");
 });
+router.get("/fw/files/deviceTree", (req, res) => {
+    res.render("fw/files/deviceTree", require("./fw/devices.json"));
+});
 
 router.get("/fw/formats/8900", (req, res) => {
     res.render("fw/formats/8900");
