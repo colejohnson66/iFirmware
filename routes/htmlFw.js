@@ -36,7 +36,7 @@ const lowerDeviceToUpper = (deviceType, id) => {
 
 
 router.get("/fw/keys", (req, res) => {
-    res.render("fw/selectDevice", require("./fw/devices.json"));
+    res.render("fw/selectDevice", require("./devices.json"));
 });
 
 router.get("/fw/keys/:deviceType/:id", (req, res) => {
@@ -108,7 +108,7 @@ router.get("/fw/files/appleLogo", (req, res) => {
     res.render("fw/files/appleLogo");
 });
 router.get("/fw/files/deviceTree", (req, res) => {
-    res.render("fw/files/deviceTree", require("./fw/devices.json"));
+    res.render("fw/files/deviceTree", require("./devices.json"));
 });
 
 router.get("/fw/formats/8900", (req, res) => {
