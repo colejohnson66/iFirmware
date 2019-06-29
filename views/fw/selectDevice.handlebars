@@ -24,74 +24,51 @@
         <div class="col-sm-10">
             <h1>Firmware Keys</h1>
             <p>
-                If you don't know what device you have, please visit <a href="https://theiphonewiki.com/wiki/Models">the iPhone Wiki</a> to find out.
+                Please select your device.
+                If you don't know what device you have, please visit <a href="https://theiphonewiki.com/wiki/Models" class="external">the iPhone Wiki</a> to find out.
             </p>
 
             <h2 id="appletv">Apple TV</h2>
-            {{#each appletv}}
-            <a href="/fw/keys/appletv/{{id}}" class="fwDevice">
-                <button type="button" class="btn btn-light">
-                    <img src="/img/devices/appletv/{{image}}" alt="Apple TV {{varient}} (AppleTV{{id}})">
-                    <br>
-                    {{varient}} (AppleTV{{id}})
-                </button>
-            </a>
-            {{/each}}
+            <ul>
+                {{#each appletv}}
+                <li><a href="/fw/keys/appletv/{{id}}">{{varient}} (AppleTV{{id}})</a></li>
+                {{/each}}
+            </ul>
 
             <h2 id="ipad">iPad</h2>
-            {{#each ipad}}
-            <a href="/fw/keys/ipad/{{id}}" class="fwDevice">
-                <button type="button" class="btn btn-light">
-                    <img src="/img/devices/ipad/{{image}}" alt="iPad {{varient}} (iPad{{id}})">
-                    <br>
-                    {{varient}} (iPad{{id}})
-                </button>
-            </a>
-            {{/each}}
+            <ul>
+                {{#each ipad}}
+                <li><a href="/fw/keys/ipad/{{id}}">{{varient}} (iPad{{id}})</a></li>
+                {{/each}}
+            </ul>
 
             <h2 id="ipadmini">iPad mini</h2>
-            {{#each ipadmini}}
-            <a href="/fw/keys/ipad/{{id}}" class="fwDevice">
-                <button type="button" class="btn btn-light">
-                    <img src="/img/devices/ipadmini/{{image}}" alt="iPad mini {{varient}} (iPad{{id}})">
-                    <br>
-                    {{varient}} (iPad{{id}})
-                </button>
-            </a>
-            {{/each}}
+            <ul>
+                {{#each ipadmini}}
+                <li><a href="/fw/keys/ipad/{{id}}">{{varient}} (iPad{{id}})</a></li>
+                {{/each}}
+            </ul>
 
             <h2 id="ipadpro">iPad Pro</h2>
-            {{#each ipadpro}}
-            <a href="/fw/keys/ipad/{{id}}" class="fwDevice">
-                <button type="button" class="btn btn-light">
-                    <img src="/img/devices/ipadpro/{{image}}" alt="iPad Pro {{varient}} (iPad{{id}})">
-                    <br>
-                    {{varient}} (iPad{{id}})
-                </button>
-            </a>
-            {{/each}}
+            <ul>
+                {{#each ipadpro}}
+                <li><a href="/fw/keys/ipad/{{id}}">{{varient}} (iPad{{id}})</a></li>
+                {{/each}}
+            </ul>
 
             <h2 id="iphone">iPhone</h2>
-            {{#each iphone}}
-            <a href="/fw/keys/iphone/{{id}}" class="fwDevice">
-                <button type="button" class="btn btn-light">
-                    <img src="/img/devices/iphone/{{image}}" alt="iPhone {{varient}} (iPhone{{id}})">
-                    <br>
-                    {{varient}} (iPhone{{id}})
-                </button>
-            </a>
-            {{/each}}
+            <ul>
+                {{#each iphone}}
+                <li><a href="/fw/keys/iphone/{{id}}">{{varient}} (iPhone{{id}})</a></li>
+                {{/each}}
+            </ul>
 
             <h2 id="ipodtouch">iPod touch</h2>
-            {{#each ipodtouch}}
-            <a href="/fw/keys/ipodtouch/{{id}}" class="fwDevice">
-                <button type="button" class="btn btn-light">
-                    <img src="/img/devices/ipodtouch/{{image}}" alt="iPod touch {{varient}} (iPod{{id}})">
-                    <br>
-                    {{varient}} (iPod{{id}})
-                </button>
-            </a>
-            {{/each}}
+            <ul>
+                {{#each ipodtouch}}
+                <li><a href="/fw/keys/ipodtouch/{{id}}">{{varient}} (iPod{{id}})</a></li>
+                {{/each}}
+            </ul>
         </div>
     </div>
 </div>
