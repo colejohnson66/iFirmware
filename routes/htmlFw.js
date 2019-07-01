@@ -126,6 +126,9 @@ router.get("/fw/formats/img3", (req, res) => {
 router.get("/fw/formats/img3/kbag", (req, res) => {
     res.render("fw/formats/img3/kbag");
 });
+router.get("/fw/formats/img3/sepo", (req, res) => {
+    res.render("fw/formats/img3/sepo");
+});
 router.get("/fw/formats/img3/type", (req, res) => {
     res.render("fw/formats/img3/type");
 });
