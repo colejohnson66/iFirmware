@@ -14,7 +14,35 @@
  * You should have received a copy of the GNU Affero General Public License along
  *   with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-module.exports = {
-    Keys: require("./Keys"),
-    Ota: require("./Ota")
-};
+const mongoose = require("mongoose");
+
+const Schema = mongoose.Schema;
+
+const UpdateSchema = new Schema({
+    version: {
+        type: String,
+        required: true
+    },
+    build: {
+        type: String,
+        required: true
+    },
+    prereqVersion: String,
+    prereqBuild: String,
+    releaseDate: {
+        type: Date,
+        required: true
+    },
+    releaseType: {
+        type: String,
+        enum: ["Beta", "Carrier", "Normal"],
+        required: true
+    },
+    downloadUrl: {
+        type: String,
+        required: true,
+    },
+    downloadSize: Number
+});
+
+module.exports = mongoose.model("Ota", UpdateSchema);
