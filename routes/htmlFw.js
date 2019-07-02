@@ -97,7 +97,7 @@ router.post("/fw/decrypt/post", (req, res) => {
     //    return res.status(400).json({ error: "No file provided" });
     if (!req.body.decryptFormIV || !req.body.decryptFormKey)
         return res.status(400).json({ error: "No IV or key provided" });
-        console.log(req.body);
+    console.log(req.body);
     res.end("err");
 });
 
@@ -137,6 +137,9 @@ router.get("/fw/formats/img3/vers", (req, res) => {
 });
 router.get("/fw/formats/ipsw", (req, res) => {
     res.render("fw/formats/ipsw");
+});
+router.get("/fw/formats/plist", (req, res) => {
+    res.render("fw/formats/plist");
 });
 
 

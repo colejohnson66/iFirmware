@@ -1,0 +1,121 @@
+{{> nav navFirmware=true}}
+
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/fw/files">Firmware Files</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Property List</li>
+        </ol>
+    </nav>
+    <div class="row">
+        <div class="col-sm-2">
+            <div id="toc">
+                <div id="tocTitle">Contents</div>
+                <ul>
+                    <li>
+                        1. <a href="#headingXml">XML Format</a>
+                        <ul>
+                            <li>1.1 <a href="#headingXmlExample">Example PList</a></li>
+                            <li>1.2 <a href="#headingXmlDtd">XML DTD</a></li>
+                        </ul>
+                    </li>
+                    <li>2. <a href="#headingBinary">Binary Format</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-10">
+            <h1>Property List</h1>
+            <p>
+                Commonly called "plists" after their extension (<code>.plist</code>), property lists are used to store serialized data.
+                There are two different methods to encode a property list: XML or a custom binary format.
+            </p>
+
+            <h2 id="headingXml">XML Format</h2>
+            <p>
+                An XML property list follows a very simple structure of a <code>&lt;key&gt;</code> element followed by it's value element.
+                These value elements are named based off the data they hold, whether that is a string (<code>&lt;string&gt;</code>), integer (<code>&lt;integer&gt;</code>), or others.
+            </p>
+
+            <h3 id="headingXmlExample">Example PList</h3>
+            <pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;dict&gt;
+    &lt;key&gt;ExArray&lt;/key&gt;
+    &lt;array&gt;
+        &lt;string&gt;Example 1&lt;/string&gt;
+        &lt;string&gt;Example 2&lt;/string&gt;
+    &lt;/array&gt;
+    &lt;key&gt;ExInteger&lt;/key&gt;
+    &lt;integer&gt;42&lt;/integer&gt;
+    &lt;key&gt;ExBool&lt;/key&gt;
+    &lt;true /&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;</pre>
+            <p>
+                An XML property list always begins with the XML declaration and a DOCTYPE:
+            </p>
+            <pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;</pre>
+            <p class="note">
+                If a different encoding is used, the <code>encoding</code> attribute is set accordingly.
+            </p>
+            <p>
+                The first line states that this is an XML version 1.0 file encoded with UTF-8.
+            </p>
+            <p class="note">
+                The opening tag must always have the <code>version</code> attribute set to <code>1.0</code>.
+            </p>
+            <p>
+                Following that is the root <code>&lt;plist&gt;</code> element.
+                This element may only have <em>one</em> child, but it can be any tag, even just an <code>&lt;integer&gt;</code> element if desired, however a <code>&lt;dict&gt;</code> is the most common.
+            </p>
+            <p>
+                A dictionary (<code>&lt;dict&gt;</code>) is an <em>even</em> numbered array of elements;
+                The even being the <code>&lt;key&gt;</code> element, and the odd being the even's associated value.
+                This value may be anything that can be encoded in an XML property list.
+                In this example's case, the root dictionary contains three children (six elements): an array (<code>ExArray</code>), an integer (<code>ExInteger</code>), and a boolean (<code>ExBool</code>).
+            </p>
+            <p>
+                An array (<code>&lt;array&gt;</code>) is an array of elements.
+                While it seems that it is not required for them to all be the same type, it is common for them to be.
+            </p>
+
+            <h3 id="headingXmlDtd">XML DTD</h3>
+            <p>
+                For those who understand it, the <a href="http://www.apple.com/DTDs/PropertyList-1.0.dtd" class="external">PList XML DTD</a> is mirrored here:
+            </p>
+            <pre>
+&lt;!ENTITY % plistObject "(array | data | date | dict | real | integer | string | true | false )" &gt;
+&lt;!ELEMENT plist %plistObject;&gt;
+&lt;!ATTLIST plist version CDATA "1.0" &gt;
+
+&lt;!-- Collections --&gt;
+&lt;!ELEMENT array (%plistObject;)*&gt;
+&lt;!ELEMENT dict (key, %plistObject;)*&gt;
+&lt;!ELEMENT key (#PCDATA)&gt;
+
+&lt;!--- Primitive types --&gt;
+&lt;!ELEMENT string (#PCDATA)&gt;
+&lt;!ELEMENT data (#PCDATA)&gt; &lt;!-- Contents interpreted as Base-64 encoded --&gt;
+&lt;!ELEMENT date (#PCDATA)&gt; &lt;!-- Contents should conform to a subset of ISO 8601 (in particular, YYYY '-' MM '-' DD 'T' HH ':' MM ':' SS 'Z'.  Smaller units may be omitted with a loss of precision) --&gt;
+
+&lt;!-- Numerical primitives --&gt;
+&lt;!ELEMENT true EMPTY&gt;  &lt;!-- Boolean constant true --&gt;
+&lt;!ELEMENT false EMPTY&gt; &lt;!-- Boolean constant false --&gt;
+&lt;!ELEMENT real (#PCDATA)&gt; &lt;!-- Contents should represent a floating point number matching ("+" | "-")? d+ ("."d*)? ("E" ("+" | "-") d+)? where d is a digit 0-9.  --&gt;
+&lt;!ELEMENT integer (#PCDATA)&gt; &lt;!-- Contents should represent a (possibly signed) integer number in base 10 --&gt;</pre>
+
+            <h2 id="headingBin">Binary Format</h2>
+            <p class="note">
+                All file offsets are in hexadecimal, and all values are stored in little endian.
+            </p>
+            TODO
+        </div>
+    </div>
+</div>
+
+{{> footer}}
