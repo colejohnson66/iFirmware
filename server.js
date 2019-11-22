@@ -1,4 +1,4 @@
-/* This file is part of iOS Firmware Web.
+/* This file is part of iDecryptIt Web.
  * Copyright (c) 2019 Cole Johnson
  * 
  * This program is free software: you can redistribute it and/or modify it under
@@ -15,7 +15,7 @@
  *   with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 const PORT = process.env.PORT || 8080;
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/iosFirmware";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/idecryptit";
 
 require('dotenv').config();
 
