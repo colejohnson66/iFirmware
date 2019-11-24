@@ -95,3 +95,9 @@ form {
     border-style: solid;
     padding: 1rem;
 }
+
+code {
+    white-space: pre;
+    word-break: normal;
+    word-wrap: normal;
+}
