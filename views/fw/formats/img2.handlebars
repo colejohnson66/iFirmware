@@ -42,7 +42,7 @@ Img2 {
   18  uint32;
   1C  uint32   flags2; // 0x01000000 has to be unset
   20  uint8[64];
-  60  uint32;          // possibly a length field
+  60  uint32;          // possibly the string length of VersionTag.version
   64  uint32   headerChecksum; // crc32(file[0:0x64])
   68  uint32   checksum2;
   6C  uint32;          // always 0xFFFFFFFF?

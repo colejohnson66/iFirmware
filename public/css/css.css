@@ -101,3 +101,13 @@ code {
     word-break: normal;
     word-wrap: normal;
 }
+
+canvas {
+    border: 1px;
+    border-style: solid;
+}
+
+canvas, form {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
