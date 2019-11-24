@@ -18,26 +18,35 @@
                 Currently, only <a href="/fw/formats/8900">8900</a> and <a href="/fw/formats/img2">IMG2</a> files are supported.
             </p>
             <p class="note">
+                For this to work, JavaScript must be enabled, and your browser must support the <a href="https://developer.mozilla.org/en-US/docs/Web/API/FileReader" class="external">FileReader</a> API.
+            </p>
+            <div id="decryptError" class="alert alert-danger d-none" role="alert">
+                Error message
+            </div>
+            <!--<p class="note">
                 This will <em>not</em> decrypt the <a href="/fw/files/rootFS">root filesystem</a>.
                 There is a <em>2&nbsp;<a href="https://en.wikipedia.org/wiki/Mebibyte" class="external">MiB</a></em> file size limit.
-            </p>
-            <form id="decryptForm" action="/fw/decrypt/post" method="POST">
+            </p>-->
+            <form id="decryptForm">
                 <div class="form-group">
                     <label for="decryptFormIV">IV</label>
-                    <input type="text" class="form-control" id="decryptFormIV" required>
+                    <input type="text" class="form-control" id="decryptFormIV">
                 </div>
                 <div class="form-group">
                     <label for="decryptFormKey">Key</label>
-                    <input type="text" class="form-control" id="decryptFormKey" required>
+                    <input type="text" class="form-control" id="decryptFormKey">
                 </div>
                 <div class="form-group">
                     <label for="decryptFormFile">File to decrypt</label>
                     <input type="file" class="form-control-file" id="decryptFormFile" required>
                 </div>
-                <button class="btn btn-primary" type="submit">Upload and decrypt</button>
+                <button class="btn btn-primary" type="submit">Decrypt</button>
             </form>
         </div>
     </div>
 </div>
 
 {{> footer}}
+
+<script src="/js/sjcl-104.js"></script>
+<script src="/js/decrypt.js"></script>
