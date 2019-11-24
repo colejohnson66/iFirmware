@@ -11,7 +11,6 @@ function processForm(e) {
         showErrorBox(validate.message);
         return false;
     }
-    console.log(validate);
 
     var file = document.getElementById("decryptFormFile").files[0];
     if (file) {
@@ -321,7 +320,6 @@ function processIBootImage(file) {
             }
         }
     }
-    console.log(decompressedPayload);
 
     // push the updated canvas to the page
     ctx.putImageData(imageData, 0, 0);
