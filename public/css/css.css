@@ -90,18 +90,6 @@ h2 {
     color: white;
 }
 
-.note {
-    background: #DDFFDD;
-    color: green;
-}
-.note::before {
-    background: green;
-    content: 'Note';
-    color: white;
-    font-style: italic;
-    padding: 0.15em 0.25em;
-}
-
 form {
     border: 1px;
     border-style: solid;
