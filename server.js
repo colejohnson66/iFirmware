@@ -22,7 +22,6 @@ require('dotenv').config();
 const db = require("./models");
 const express = require("express");
 const exphbs = require("express-handlebars");
-const fileUpload = require("express-fileupload");
 const mongoose = require("mongoose");
 const morgan = require("morgan");
 const axios = require("axios");
@@ -39,9 +38,6 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
-app.use(fileUpload({
-    limits: { fileSize: 2 * 1024 * 1024 },
-}));
 app.engine("handlebars", hbs.engine);
 app.set("view engine", "handlebars");
 if (process.env.NODE_ENV !== "production")
