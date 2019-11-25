@@ -36,10 +36,11 @@ const lowerDeviceToUpper = (deviceType, id) => {
 
 
 router.get("/fw/keys", (req, res) => {
-    res.render("fw/selectDevice", require("./devices.json"));
+    res.render("fw/keys/selectVersion");
+    //res.render("fw/selectDevice", require("./devices.json"));
 });
 
-router.get("/fw/keys/:deviceType/:id", (req, res) => {
+/*router.get("/fw/keys/:deviceType/:id", (req, res) => {
     const device = lowerDeviceToUpper(
         sanitize(req.params.deviceType),
         sanitize(req.params.id));
@@ -85,7 +86,7 @@ router.get("/fw/keys/:deviceType/:id/:build", (req, res) => {
     }).catch((err) => {
         res.status(500).json(err);
     });
-});
+});*/
 
 router.get("/fw/decrypt", (req, res) => {
     res.render("fw/decrypt");
