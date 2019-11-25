@@ -40,56 +40,10 @@ router.get("/fw/keys", (req, res) => {
     //res.render("fw/selectDevice", require("./devices.json"));
 });
 router.get("/fw/keys/1.x", (req, res) => {
-    res.render("fw/keys/1.x");
+    res.render("fw/keys/selectBuild", require("./firmwares-1x.json"));
+    //res.render("fw/keys/1", require("./firmwares-1x.json"));
 });
 
-/*router.get("/fw/keys/:deviceType/:id", (req, res) => {
-    const device = lowerDeviceToUpper(
-        sanitize(req.params.deviceType),
-        sanitize(req.params.id));
-    if (device === "")
-        return res.status(404).render("404");
-
-    db.Keys.find({
-        device: device
-    }).then((keys) => {
-        // TODO: sort keys
-        res.render("fw/selectVersion", {
-            "urlpart": "/fw/keys/" + req.params.deviceType + "/" + req.params.id,
-            "device": device,
-            "keySets": keys
-        });
-    }).catch((err) => {
-        res.status(500).json(err);
-    });
-});
-
-router.get("/fw/keys/:deviceType/:id/:build", (req, res) => {
-    const device = lowerDeviceToUpper(
-        sanitize(req.params.deviceType),
-        sanitize(req.params.id));
-    if (device === "")
-        return res.status(404).render("404");
-
-    db.Keys.find({
-        device: device,
-        build: sanitize(req.params.build)
-    }).then((keys) => {
-        if (keys.length === 0)
-            return res.status(404).render("404");
-        if (keys.length !== 1)
-            return res.status(500).json(keys);
-        res.render("fw/keys", {
-            device: {
-                deviceType: req.params.deviceType,
-                id: req.params.id
-            },
-            dbKeys: keys[0],
-        });
-    }).catch((err) => {
-        res.status(500).json(err);
-    });
-});*/
 
 router.get("/fw/decrypt", (req, res) => {
     res.render("fw/decrypt");

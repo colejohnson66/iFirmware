@@ -1,0 +1,94 @@
+{{> nav navFirmware=true}}
+
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Firmware Keys</li>
+        </ol>
+    </nav>
+    <div class="row">
+        <div class="col-sm-2">
+            <div id="toc">
+                <div id="tocTitle">Contents</div>
+                <ul>
+                    <li>
+                        1. <a href="#headingFinal">Final</a>
+                        <ul>
+                            {{#each finalData}}
+                            <li>1.?. <a href="#headingFinal{{device}}">{{devicePretty}}</a></li>
+                            {{/each}}
+                        </ul>
+                    </li>
+                    <li>
+                        2. <a href="#headingBeta">Beta</a>
+                        <ul>
+                            {{#each betaData}}
+                            <li>2.?. <a href="#headingBeta{{device}}">{{devicePretty}}</a></li>
+                            {{/each}}
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-10">
+            <h1>Firmware Keys: <code>{{version}}</code></h1>
+
+            <h2 id="headingFinal">Final</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    {{#each finalData}}
+                    <div class="col-md-6 col-lg-4">
+                        <h3 id="headingFinal{{device}}">{{devicePretty}}</h3>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Release Date</th>
+                                    <th>Version (Build)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {{#each builds}}
+                                <tr>
+                                    <td>{{releaseDate}}</td>
+                                    <td><a href="/fw/keys/{{build}}/{{../device}}">{{version}} (<code>{{build}}</code>)</a></td>
+                                </tr>
+                                {{/each}}
+                            </tbody>
+                        </table>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+
+            <h2 id="headingBeta">Beta</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    {{#each finalData}}
+                    <div class="col-md-6 col-lg-4">
+                        <h3 id="headingBeta{{device}}">{{devicePretty}}</h3>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Release Date</th>
+                                    <th>Version (Build)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {{#each builds}}
+                                <tr>
+                                    <td>{{releaseDate}}</td>
+                                    <td><a href="/fw/keys/{{build}}/{{../device}}">{{version}} (<code>{{build}}</code>)</a></td>
+                                </tr>
+                                {{/each}}
+                            </tbody>
+                        </table>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{> footer}}
