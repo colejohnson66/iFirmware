@@ -34,7 +34,7 @@ router.get("/about", (req, res) => {
 //    res.render("baseband");
 //});
 
-// /processor requests served by htmlProcessors.js
+// /processors requests served by htmlProcessors.js
 
 // /fw requests served by htmlFw.js
 
