@@ -14,6 +14,13 @@
  * You should have received a copy of the GNU Affero General Public License along
  *   with this program. If not, see <https://www.gnu.org/licenses/>.
  */
+const monthNumberMapping = [
+    "Jan", "Feb", "Mar",
+    "Apr", "May", "Jun",
+    "Jul", "Aug", "Sep",
+    "Oct", "Nov", "Dec"
+];
+
 module.exports = {
     addNum: (a, b) => {
         if (typeof a === "string")
@@ -29,6 +36,18 @@ module.exports = {
         if (fwItemName === "updateRamdisk")
             return "Update Ramdisk";
         return fwItemName;
+    },
+
+    date: function (...params) {
+        // remove handlebars parameter
+        params = params.slice(0, -1);
+        params = params.map((x) => parseInt(x));
+        var ret = "";//<span class=\"date\">";
+        if (params.length === 2)
+            ret += monthNumberMapping[params[1]] + " " + params[0];
+        else if (params.length === 3)
+            ret += params[2] + " " + monthNumberMapping[params[1]] + " " + params[0];
+        return ret;// + "</span>";
     },
 
     // use "function" syntax so "arguments" works

@@ -39,6 +39,9 @@ router.get("/fw/keys", (req, res) => {
     res.render("fw/keys/selectVersion");
     //res.render("fw/selectDevice", require("./devices.json"));
 });
+router.get("/fw/keys/1.x", (req, res) => {
+    res.render("fw/keys/1.x");
+});
 
 /*router.get("/fw/keys/:deviceType/:id", (req, res) => {
     const device = lowerDeviceToUpper(
