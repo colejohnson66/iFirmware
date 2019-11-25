@@ -28,6 +28,14 @@ router.get("/about", (req, res) => {
     res.render("about");
 });
 
+//router.get("/ios", (req, res) => {
+//    res.render("ios");
+//});
+
+//router.get("/jailbreaks", (req, res) => {
+//    res.render("jailbreaks");
+//});
+
 // /devices requests served by htmlDevices.js
 
 //router.get("/baseband", (req, res) => {
