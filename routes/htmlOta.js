@@ -21,7 +21,7 @@ const router = express.Router();
 
 
 router.get("/ota", (req, res) => {
-    res.render("ota/main");
+    res.render("ota");
 });
 
 
