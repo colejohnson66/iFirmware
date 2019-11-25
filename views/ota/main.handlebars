@@ -1,0 +1,143 @@
+{{> nav navOta=true}}
+
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Firmware Keys</li>
+        </ol>
+    </nav>
+    <div class="row">
+        <div class="col-sm-2">
+            <div id="toc">
+                <div id="tocTitle">Contents</div>
+                <ul>
+                    <li>1. <a href="#headingJailbreaking">Issues with Jailbreaking</a></li>
+                    <li>
+                        2. <a href="#headingContents">Contents</a>
+                        <ul>
+                            <li>2.1. <a href="#headingVersion1">Version 1</a></li>
+                            <li>2.2. <a href="#headingVersion2">Version 2</a></li>
+                            <li>2.3. <a href="#headingVersion3">Version 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        3. <a href="#headingList">List of OTA Updates</a>
+                        <ul>
+                            <li>3.1. <a href="#headingAirPods">AirPods</a></li>
+                            <li>
+                                3.2. <a href="#headingAppleTV">Apple TV</a>
+                                <ul>
+                                    <li>3.2.1. <a href="#headingAirPods">Siri Remote</a></li>
+                                </ul>
+                            </li>
+                            <li>3.3. <a href="#headingWatch">Apple Watch</a></li>
+                            <li>3.4. <a href="#headingHomePod">HomePod</a></li>
+                            <li>
+                                3.5. <a href="#headingIPad">iPad</a>
+                                <ul>
+                                    <li>3.5.1. <a href="#headingPencil">Apple Pencil</a></li>
+                                    <li>3.5.2. <a href="#headingKeyboard">Smart Keyboard</a></li>
+                                </ul>
+                            </li>
+                            <li>3.6. <a href="#headingIPadAir">iPad Air</a></li>
+                            <li>3.7. <a href="#headingIPadPro">iPad Pro</a></li>
+                            <li>3.8. <a href="#headingIPadMini">iPad mini</a></li>
+                            <li>3.9. <a href="#headingIPhone">iPhone</a></li>
+                            <li>3.10. <a href="#headingIPodTouch">iPod touch</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-10">
+            <h1>OTA Updates</h1>
+            <p>
+                OTA (Over-the-Air) update were introduced with <a href="/ios/5">iOS 5</a>.
+                They allow a user to update their device without using iTunes.
+            </p>
+
+            <h2 id="headingJailbreaking">Issues with Jailbreaking</h2>
+            <p>
+                OTA updates are known to cause issues with jailbroken devices.
+                Attempts to update a jailbroken device can cause a boot loop that could only be fixed with iTunes.
+                The first jailbreak to address this was <a href="/jailbreaks/evasi0n">evasi0n</a> for <a href="/ios/6">iOS 6</a>.
+                evasi0n worked by disabling the OTA dameon which prevents the device from searching for an update (it will be stuck at "Checking for Update").
+                For jailbreaks that don't disable the dameon, it can be disabled manually by deleting certain files (see the <a href="https://www.theiphonewiki.com/wiki/OTA_Updates#Conflicts_With_Jailbreaking" class="external">iPhone Wiki</a> for more information).
+            </p>
+
+            <h2 id="headingContents">Contents</h2>
+            <p>
+                There are three known versions of the update file containers.
+            </p>
+
+            <h3 id="headingVersion1">Version 1</h3>
+            <p>
+                Version 1 update files were the first ones.
+                These were replaced with <a href="#headingVersion2">version 2</a> with iOS ????.
+                They contain three main files:
+            </p>
+            <ul>
+                <li>
+                    <code>archive.cpio.gz</code>: The actual encrypted patch archive.
+                    It is a collection of <code>BSDIFF40</code> and the requisite flashing tools (<code>bbupdater</code>, <code>imeisv</code>, etc.).
+                </li>
+                <li>
+                    <code>Info.plist</code> and <code>Info.plist.signature</code>: Contains information about the update along with a signature.
+                </li>
+                <li>
+                    <code>libupdate_brain.dylib</code>: A code library for stage 2 of the update process.
+                </li>
+            </ul>
+
+            <h3 id="headingVersion2">Version 2</h3>
+            <p>
+                Version 2 update files were introduced with iOS ???.
+                Instead of an <code>archive.cpio.gz</code>file, they contain two folders: <code>added</code> and <code>patches</code>.
+                As the names imply, <code>added</code> contains unencrypted files to be added to the filesystem while <code>patches</code> contains <code>BSDIFF40</code> files that tell the system how to patch a file.
+            </p>
+
+            <h3 id="headingVersion3">Version 3</h3>
+            <p>
+                Version 3 update files were introduced with iOS ???.
+                Quite a number of changes were made to the folder structure.
+                The most major changes are listed below:
+            </p>
+            <ul>
+                <li>
+                    The <code>added</code> folder no longer exists.
+                </li>
+                <li>
+                    <code>links.txt</code> was added.
+                    It contains a list of <a href="https://en.wikipedia.org/wiki/Symbolic_link" class="external">symbolic links</a> (symlinks) to be created.
+                </li>
+                <li>
+                    The <code>patches</code> folder contents no longer use the <code>BSDIFF40</code> file format, but a modified version known as <code>BXDIFF41</code>.
+                </li>
+                <li>
+                    <code>payload</code> and <code>prepare_payload</code> were added.
+                    They hold the filesystem contents in a proprietary format.
+                </li>
+                <li>
+                    <code>removed.txt</code> was added.
+                    It contains a list of files to be deleted prior to updating.
+                </li>
+            </ul>
+
+            <h3 id="headingList">List of OTA Updates</h3>
+            <p>
+                This is a comprehensive list of every OTA update that has been released to the public.
+            </p>
+            <!--<div class="alert alert-primary" role="alert">
+                This site does <em>not</em> host the actual update archives (ZIP files).
+                All links are to Apple's own CDN servers (whether directly or through <a href="https://en.wikipedia.org/wiki/Akamai_Technologies" class="external">Akamai</a>).
+                If there are broken links, please <a href="/contact">contact the webmaster</a>.
+            </div>-->
+            <div class="alert alert-primary" role="alert">
+                This list is updated periodically, and as such, may not be 100% accurate.
+            </div>
+        </div>
+    </div>
+</div>
+
+{{> footer}}

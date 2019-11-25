@@ -20,28 +20,8 @@ const express = require("express");
 const router = express.Router();
 
 
-router.get("/", (req, res) => {
-    res.render("home");
-});
-
-router.get("/about", (req, res) => {
-    res.render("about");
-});
-
-// /devices requests served by htmlDevices.js
-
-//router.get("/baseband", (req, res) => {
-//    res.render("baseband");
-//});
-
-// /processors requests served by htmlProcessors.js
-
-// /fw requests served by htmlFw.js
-
-// /ota requests served by htmlOta.js
-
-router.get("/contact", (req, res) => {
-    res.render("contact");
+router.get("/ota", (req, res) => {
+    res.render("ota/main");
 });
 
 
