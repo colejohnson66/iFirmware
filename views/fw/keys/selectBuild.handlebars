@@ -15,7 +15,7 @@
                         1. <a href="#headingFinal">Final</a>
                         <ul>
                             {{#each finalData}}
-                            <li>1.?. <a href="#headingFinal{{device}}">{{devicePretty}}</a></li>
+                            <li>1.{{addNum @index 1}}. <a href="#headingFinal{{device}}">{{devicePretty}}</a></li>
                             {{/each}}
                         </ul>
                     </li>
@@ -23,7 +23,7 @@
                         2. <a href="#headingBeta">Beta</a>
                         <ul>
                             {{#each betaData}}
-                            <li>2.?. <a href="#headingBeta{{device}}">{{devicePretty}}</a></li>
+                            <li>2.{{addNum @index 1}}. <a href="#headingBeta{{device}}">{{devicePretty}}</a></li>
                             {{/each}}
                         </ul>
                     </li>
