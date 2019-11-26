@@ -18,10 +18,11 @@
                         <ul>
                             <li>2.1 <a href="#headingAppleTV">Apple TV</a></li>
                             <li>2.2 <a href="#headingIPad">iPad</a></li>
-                            <li>2.3 <a href="#headingIPadMini">iPad mini</a></li>
-                            <li>2.4 <a href="#headingIPadPro">iPad Pro</a></li>
-                            <li>2.5 <a href="#headingIPhone">iPhone</a></li>
-                            <li>2.6 <a href="#headingIPodTouch">iPod touch</a></li>
+                            <li>2.3 <a href="#headingIPadAir">iPad mini</a></li>
+                            <li>2.4 <a href="#headingIPadMini">iPad mini</a></li>
+                            <li>2.5 <a href="#headingIPadPro">iPad Pro</a></li>
+                            <li>2.6 <a href="#headingIPhone">iPhone</a></li>
+                            <li>2.7 <a href="#headingIPodTouch">iPod touch</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -72,44 +73,51 @@ DTreeNodeProp {
 
             <h3 id="headingAppleTV">Apple TV</h3>
             <ul>
-            {{#each appletv}}
+                {{#each appletv}}
                 <li><a href="/fw/files/deviceTree/appletv/{{id}}">{{varient}} (<code>AppleTV{{id}}</code>)</a></li>
-            {{/each}}
+                {{/each}}
             </ul>
 
             <h3 id="headingIPad">iPad</h3>
             <ul>
-            {{#each ipad}}
+                {{#each ipad}}
                 <li><a href="/fw/files/deviceTree/ipad/{{id}}">{{varient}} (<code>iPad{{id}}</code>)</a></li>
-            {{/each}}
+                {{/each}}
+            </ul>
+
+            <h3 id="headingIPadAir">iPad Air</h3>
+            <ul>
+                {{#each ipadair}}
+                <li><a href="/fw/files/deviceTree/ipad/{{id}}">{{varient}} (<code>iPad{{id}}</code>)</a></li>
+                {{/each}}
             </ul>
 
             <h3 id="headingIPadMini">iPad mini</h3>
             <ul>
-            {{#each ipadmini}}
+                {{#each ipadmini}}
                 <li><a href="/fw/files/deviceTree/ipad/{{id}}">{{varient}} (<code>iPad{{id}}</code>)</a></li>
-            {{/each}}
+                {{/each}}
             </ul>
 
             <h3 id="headingIPadPro">iPad Pro</h3>
             <ul>
-            {{#each ipadpro}}
+                {{#each ipadpro}}
                 <li><a href="/fw/files/deviceTree/ipad/{{id}}">{{varient}} (<code>iPad{{id}}</code>)</a></li>
-            {{/each}}
+                {{/each}}
             </ul>
 
             <h3 id="headingIPhone">iPhone</h3>
             <ul>
-            {{#each iphone}}
+                {{#each iphone}}
                 <li><a href="/fw/files/deviceTree/iphone/{{id}}">{{varient}} (<code>iPhone{{id}}</code>)</a></li>
-            {{/each}}
+                {{/each}}
             </ul>
 
             <h3 id="headingIPodTouch">iPod touch</h3>
             <ul>
-            {{#each ipodtouch}}
+                {{#each ipodtouch}}
                 <li><a href="/fw/files/deviceTree/ipod/{{id}}">{{varient}} (<code>iPod{{id}}</code>)</a></li>
-            {{/each}}
+                {{/each}}
             </ul>
         </div>
     </div>
