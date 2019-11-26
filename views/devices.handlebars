@@ -14,12 +14,17 @@
                     <li>
                         1. <a href="#headingList">List of Devices</a>
                         <ul>
-                            <li>1.1 <a href="#headingAppleTV">Apple TV</a></li>
-                            <li>1.2 <a href="#headingIPad">iPad</a></li>
-                            <li>1.3 <a href="#headingIPadMini">iPad mini</a></li>
-                            <li>1.4 <a href="#headingIPadPro">iPad Pro</a></li>
-                            <li>1.5 <a href="#headingIPhone">iPhone</a></li>
-                            <li>1.6 <a href="#headingIPodTouch">iPod touch</a></li>
+                            <li>1.1 <a href="#headingAirPods">AirPods</a></li>
+                            <li>1.2 <a href="#headingAppleTV">Apple TV</a></li>
+                            <li>1.3 <a href="#headingAppleWatch">Apple Watch</a></li>
+                            <li>1.4 <a href="#headingHomePod">HomePod</a></li>
+                            <li>1.5 <a href="#headingIPad">iPad</a></li>
+                            <li>1.6 <a href="#headingIPadAir">iPad Air</a></li>
+                            <li>1.7 <a href="#headingIPadMini">iPad mini</a></li>
+                            <li>1.8 <a href="#headingIPadPro">iPad Pro</a></li>
+                            <li>1.9 <a href="#headingIPadAccessories">iPad Accessories</a></li>
+                            <li>1.10 <a href="#headingIPhone">iPhone</a></li>
+                            <li>1.11 <a href="#headingIPodTouch">iPod touch</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -36,49 +41,119 @@
 
             <h2 id="headingList">List of Devices</h2>
             <p>
-                This list is not meant to be exhaustive, but it will be kept up to date.
+                This list includes all iOS related devices. This includes "iDevices" and their accessories such as AirPods, HomePod, etc.
             </p>
 
-            <h3 id="headingAppleTV">Apple TV</h3>
+            <h3 id="headingAirPods">AirPods</h3>
             <ul>
-                {{#each appletv}}
-                <li><a href="/devices/appletv/{{id}}">{{varient}} (<code>AppleTV{{id}}</code>)</a></li>
-                {{/each}}
+                <li><a href="/devices/airpods/1g">AirPods (1st generation)</a></li>
+                <li><a href="/devices/airpods/2g">AirPods (2nd generation)</a></li>
+                <li><a href="/devices/airpods/pro">AirPods Pro</a></li>
+            </ul>
+
+            <h3 id="headingAppleTV">Apple TV</h3>
+            <div class="alert alert-primary" role="alert">
+                The first generation Apple TV is not included as it does not run iOS, but instead a trimmed down version of Mac OS X.
+            </div>
+            <ul>
+                <li><a href="/devices/appletv/2g">Apple TV (2nd generation)</a></li>
+                <li><a href="/devices/appletv/3g">Apple TV (3rd generation)</a></li>
+                <li><a href="/devices/appletv/4g">Apple TV (4th generation)</a></li>
+                <li><a href="/devices/appletv/4k">Apple TV 4k</a></li>
+            </ul>
+
+            <h3 id="headingAppleWatch">Apple Watch</h3>
+            <ul>
+                <li><a href="/devices/watch/1g">Apple Watch (1st generation)</a></li>
+                <li><a href="/devices/watch/series1">Apple Watch Series 1</a></li>
+                <li><a href="/devices/watch/series2">Apple Watch Series 2</a></li>
+                <li><a href="/devices/watch/series3">Apple Watch Series 3</a></li>
+                <li><a href="/devices/watch/series4">Apple Watch Series 4</a></li>
+                <li><a href="/devices/watch/series5">Apple Watch Series 5</a></li>
+            </ul>
+
+            <h3 id="headingHomePod">HomePod</h3>
+            <div class="alert alert-primary" role="alert">
+                As Apple has not released a second generation HomePod, it is unknown whether or not there will be one.
+                However, in order to keep consistency and prevent broken links should a second version come out, this version will be refered to as the first generation.
+            </div>
+            <ul>
+                <li><a href="/devices/homepod/1g">HomePod (1st generation)</a></li>
             </ul>
 
             <h3 id="headingIPad">iPad</h3>
             <ul>
-                {{#each ipad}}
-                <li><a href="/devices/ipad/{{id}}">{{varient}} (<code>iPad{{id}}</code>)</a></li>
-                {{/each}}
+                <li><a href="/devices/ipad/1g">iPad (1st generation)</a></li>
+                <li><a href="/devices/ipad/2">iPad 2</a></li>
+                <li><a href="/devices/ipad/3g">iPad (3rd generation)</a></li>
+                <li><a href="/devices/ipad/4g">iPad (4th generation)</a></li>
+                <li><a href="/devices/ipad/5g">iPad (5th generation)</a></li>
+                <li><a href="/devices/ipad/6g">iPad (6th generation)</a></li>
+                <li><a href="/devices/ipad/7g">iPad (7th generation)</a></li>
+            </ul>
+
+            <h3 id="headingIPadAir">iPad Air</h3>
+            <ul>
+                <li><a href="/devices/ipadair/1g">iPad Air (1st generation)</a></li>
+                <li><a href="/devices/ipadair/2">iPad Air 2</a></li>
+                <li><a href="/devices/ipadair/3g">iPad Air (3rd generation)</a></li>
             </ul>
 
             <h3 id="headingIPadMini">iPad mini</h3>
             <ul>
-                {{#each ipadmini}}
-                <li><a href="/devices/ipad/{{id}}">{{varient}} (<code>iPad{{id}}</code>)</a></li>
-                {{/each}}
+                <li><a href="/devices/ipadmini/1g">iPad mini (1st generation)</a></li>
+                <li><a href="/devices/ipadmini/2">iPad mini 2</a></li>
+                <li><a href="/devices/ipadmini/3">iPad mini 3</a></li>
+                <li><a href="/devices/ipadmini/4">iPad mini 4</a></li>
+                <li><a href="/devices/ipadmini/5g">iPad mini (5th generation)</a></li>
             </ul>
 
             <h3 id="headingIPadPro">iPad Pro</h3>
             <ul>
-                {{#each ipadpro}}
-                <li><a href="/devices/ipad/{{id}}">{{varient}} (<code>iPad{{id}}</code>)</a></li>
-                {{/each}}
+                <li><a href="/devices/ipadpro/1g">iPad Pro (1st generation)</a></li>
+                <li><a href="/devices/ipadpro/2g">iPad Pro (2nd generation)</a></li>
+                <li><a href="/devices/ipadpro/3g">iPad Pro (3rd generation)</a></li>
+            </ul>
+
+            <h3 id="headingIPadAccessories">iPad Accessories</h3>
+            <ul>
+                <li><a href="/devices/pencil/1g">Apple Pencil (1st generation)</a></li>
+                <li><a href="/devices/pencil/2g">Apple Pencil (2nd generation)</a></li>
+                <li><a href="/devices/keyboard/1g">Smart Keyboard (1st generation)</a></li>
+                <li><a href="/devices/keyboard/folio">Smart Keyboard Folio</a></li>
             </ul>
 
             <h3 id="headingIPhone">iPhone</h3>
             <ul>
-                {{#each iphone}}
-                <li><a href="/devices/iphone/{{id}}">{{varient}} (<code>iPhone{{id}}</code>)</a></li>
-                {{/each}}
+                <li><a href="/devices/iphone/2g">iPhone "2G"</a></li>
+                <li><a href="/devices/iphone/3g">iPhone 3G</a></li>
+                <li><a href="/devices/iphone/3gs">iPhone 3GS</a></li>
+                <li><a href="/devices/iphone/4">iPhone 4</a></li>
+                <li><a href="/devices/iphone/4s">iPhone 4S</a></li>
+                <li><a href="/devices/iphone/5">iPhone 5</a></li>
+                <li><a href="/devices/iphone/5c">iPhone 5c</a></li>
+                <li><a href="/devices/iphone/5s">iPhone 5s</a></li>
+                <li><a href="/devices/iphone/6">iPhone 6 and 6 Plus</a></li>
+                <li><a href="/devices/iphone/6s">iPhone 6s and 6s Plus</a></li>
+                <li><a href="/devices/iphone/se">iPhone SE</a></li>
+                <li><a href="/devices/iphone/7">iPhone 7 and 7 Plus</a></li>
+                <li><a href="/devices/iphone/8">iPhone 8 and 8 Plus</a></li>
+                <li><a href="/devices/iphone/x">iPhone X</a></li>
+                <li><a href="/devices/iphone/xr">iPhone XR</a></li>
+                <li><a href="/devices/iphone/xs">iPhone XS and XS Max</a></li>
+                <li><a href="/devices/iphone/11">iPhone 11</a></li>
+                <li><a href="/devices/iphone/11pro">iPhone 11 Pro and 11 Pro Max</a></li>
             </ul>
 
             <h3 id="headingIPodTouch">iPod touch</h3>
             <ul>
-                {{#each ipodtouch}}
-                <li><a href="/devices/ipod/{{id}}">{{varient}} (<code>iPod{{id}}</code>)</a></li>
-                {{/each}}
+                <li><a href="/devices/ipodtouch/1g">iPod touch (1st generation)</a></li>
+                <li><a href="/devices/ipodtouch/2g">iPod touch (2nd generation)</a></li>
+                <li><a href="/devices/ipodtouch/3g">iPod touch (3rd generation)</a></li>
+                <li><a href="/devices/ipodtouch/4g">iPod touch (4th generation)</a></li>
+                <li><a href="/devices/ipodtouch/5g">iPod touch (5th generation)</a></li>
+                <li><a href="/devices/ipodtouch/6g">iPod touch (6th generation)</a></li>
+                <li><a href="/devices/ipodtouch/7g">iPod touch (7th generation)</a></li>
             </ul>
         </div>
     </div>

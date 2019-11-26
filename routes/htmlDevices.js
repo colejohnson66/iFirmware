@@ -21,7 +21,7 @@ const router = express.Router();
 
 
 router.get("/devices", (req, res) => {
-    res.render("devices", require("./devices.json"));
+    res.render("devices");
 });
 
 
