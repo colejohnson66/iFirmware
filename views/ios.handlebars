@@ -1,0 +1,78 @@
+{{> nav navIOS=true}}
+
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">iOS</li>
+        </ol>
+    </nav>
+    <div class="row">
+        <div class="col-sm-2">
+            <div id="toc">
+                <div id="tocTitle">Contents</div>
+                <ul>
+                    <li>1. <a href="#headingBackground">Background</a></li>
+                    <li>2. <a href="#headingArchitecture">Architecture</a></li>
+                    <li>3. <a href="#headingBloat">Installation Size</a></li>
+                    <li>4. <a href="#headingVersions">Versions of iOS</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-10">
+            <h1>iOS</h1>
+            <p>
+                iOS, formally known as iPhone OS, is the operating system for all <a href="/devices">iDevices</a>.
+            </p>
+
+            <h2 id="headingBackground">Background</h2>
+            <p>
+                iPhone OS began in 2005 with Steve Jobs where he had to either "shrink the Mac, [...] or enlarge the iPod."
+                It was eventually announced alongside the <a href="/devices/iphone1,1">original iPhone</a> at the Macworld Conference & Expo on <span class="date">9 Jan 2007</span> and released on <span class="date">27 Jun 2007</span>.
+            </p>
+
+            <h2 id="headingArchitecture">Architecture</h2>
+            <p>
+                iOS features a <a href="http://en.wikipedia.org/wiki/Hybrid_kernel" class="external">hybrid kernel</a> known as <a href="https://en.wikipedia.org/wiki/XNU" class="external">XNU</a>.
+                It is programmed in ARM assembly, C, C++, and Objective-C.
+                The flash is partitioned into two seperate blocks (a common thing for Unix-like systems): one for the operating system (mounted at <a href="/fw/browser"><code>/</code></a>) and one for the user data (mounted at <a href="/fw/browser/private/var"><code>/private/var</code></a>).
+            </p>
+
+            <h2 id="headingBload">Installation Size</h2>
+            <p>
+                Over the years, iOS has required more and more space as the operating system has become more complex.
+                Initially, iPhone OS required less than a quarter of a gigabyte to function.
+                However, with each major release, more and more space is required to function.
+                Currently, <a href="/ios/13">iOS 13</a> will "claim" over six gigabytes for itself.
+                This has caused some to refer to this as "<a href="https://en.wikipedia.org/wiki/Software_bloat" class="external">bloat</a>."
+            </p>
+
+            <h2 id="headingVersions">Versions of iOS</h2>
+            <p>
+                Apple has maintained a steady release schedule with major releases;
+                They release a new major version with every new flagship iPhone.
+                Currently, iOS is on it's 13th <em>major</em> release with iOS 14 expected to be announced at WWDC 2020.
+            </p>
+            <p>
+                Each link below will take you to a page dedicated to that major version and its new features.
+            </p>
+            <ul>
+                <li><a href="/ios/1">iPhone OS 1</a></li>
+                <li><a href="/ios/2">iPhone OS 2</a></li>
+                <li><a href="/ios/3">iPhone OS 3</a></li>
+                <li><a href="/ios/4">iOS 4</a></li>
+                <li><a href="/ios/5">iOS 5</a></li>
+                <li><a href="/ios/6">iOS 6</a></li>
+                <li><a href="/ios/7">iOS 7</a></li>
+                <li><a href="/ios/8">iOS 8</a></li>
+                <li><a href="/ios/9">iOS 9</a></li>
+                <li><a href="/ios/10">iOS 10</a></li>
+                <li><a href="/ios/11">iOS 11</a></li>
+                <li><a href="/ios/12">iOS 12</a></li>
+                <li><a href="/ios/13">iOS 13</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{{> footer}}

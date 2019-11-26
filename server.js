@@ -50,6 +50,7 @@ mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 app.use("/", require("./routes/html"));
 app.use("/", require("./routes/htmlDevices"));
 app.use("/", require("./routes/htmlFw"));
+app.use("/", require("./routes/htmlIOS"));
 app.use("/", require("./routes/htmlOta"));
 app.use("/", require("./routes/htmlProcessors"));
 app.use("/", require("./routes/apiKeys"));
