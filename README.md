@@ -4,12 +4,19 @@ The [iDecryptIt website](http://idecryptit.com/) is designed to facilitate a one
 
 ## Running a Copy
 
-In order to run a copy of the website, you must first have [Node.js](https://nodejs.org/en/) installed. Then you can run the following:
+In order to run a copy of the website, you must first have [Node.js](https://nodejs.org/en/) installed.
+At this point, install `yarn` if you don't have it:
+
+```bash
+> npm i -g yarn
+```
+
+Then you can run the following:
 
 ```bash
 > git clone https://github.com/HexwareSoftware/ios-firmware-web
 > cd ios-firmware-web
-> npm i
+> yarn install
 > node server.js
 ```
 
@@ -21,7 +28,9 @@ Enter that URL into your favorite browser to begin browsing.
 
 ## Roadmap
 
-Ultimately, this website is designed to be a replacement for my popular (but no longer updated) program, [iDecryptIt](https://sourceforge.net/projects/idecryptit/) (with many added features). This includes the ability to display keys for a given firmware, decrypt any firmware file, and more. All the decrypting will be done locally through JavaScript with no server involvement.
+Ultimately, this website is designed to be a replacement for my popular (but no longer updated) program, [iDecryptIt](https://sourceforge.net/projects/idecryptit/) (with many added features).
+This includes the ability to display keys for a given firmware, decrypt any firmware file, and more.
+All the decrypting will be done locally through JavaScript with no server involvement.
 
 ## License
 
