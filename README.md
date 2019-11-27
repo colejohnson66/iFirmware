@@ -5,7 +5,7 @@ The [iDecryptIt website](http://idecryptit.com/) is designed to facilitate a one
 ## Running a Copy
 
 In order to run a copy of the website, you must first have [Node.js](https://nodejs.org/en/) installed.
-At this point, install `yarn` if you don't have it:
+Then install `yarn` if you don't have it:
 
 ```bash
 > npm i -g yarn
