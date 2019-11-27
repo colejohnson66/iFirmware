@@ -46,6 +46,10 @@ router.get("/about", (req, res) => {
 
 // /ota requests served by htmlOta.js
 
+//router.get("/download", (req, res) => {
+//    res.render("download");
+//});
+
 router.get("/contact", (req, res) => {
     res.render("contact");
 });
