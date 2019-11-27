@@ -1,6 +1,6 @@
-# iOS Firmware (`ios-firmware-web`)
+# iDecryptIt (`idecryptit-web`)
 
-The [iOS Firmware website](http://ios-firmware-web.herokuapp.com/) is designed to facilitate a one-stop shop for information regarding the firmwares used in iPhone OS, iOS, iPadOS, and tvOS.
+The [iDecryptIt website](http://idecryptit.com/) is designed to facilitate a one-stop shop for information regarding the firmwares used in iPhone OS, iOS, iPadOS, and tvOS.
 
 ## Running a Copy
 
@@ -9,6 +9,7 @@ In order to run a copy of the website, you must first have [Node.js](https://nod
 ```bash
 > git clone https://github.com/HexwareSoftware/ios-firmware-web
 > cd ios-firmware-web
+> npm i
 > node server.js
 ```
 
@@ -24,4 +25,4 @@ Ultimately, this website is designed to be a replacement for my popular (but no 
 
 ## License
 
-The iOS Firmware website is licensed under [GNU Affero General Public License 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html) or later.
+The iDecryptIt website is licensed under [GNU Affero General Public License 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html) or later.
