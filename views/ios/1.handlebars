@@ -46,10 +46,14 @@
                     {{#each this}}
                     <tr>
                         <th>{{version}}</th>
-                        <td>{{build}}</td>
+                        <td>{{{build}}}</td>
                         <td>{{releaseDate}}</td>
                         <td>
-                            {{#if changeNote}}<span class="font-italic">{{changeNote}}</span>{{/if}}
+                            {{#if changeNote}}
+                            <div class="font-italic">
+                                {{{changeNote}}}
+                            </div>
+                            {{/if}}
                             {{#if changes}}
                             <ul>
                                 {{#each changes}}
@@ -64,7 +68,7 @@
                             {{/if}}
                             {{#if securityUrl}}
                             <div class="font-italic">
-                                <a href="{{securityUrl}}" class="external">Security Content</a>
+                                <a href="{{securityUrl}}" class="external">Security Notes</a>
                             </div>
                             {{/if}}
                         </td>
