@@ -31,7 +31,7 @@
         "releaseDate": "2007 09 14",
         "changeNote": "Initial release on <a href=\"/devices/ipod/1g\">the original iPod touch</a>.",
         "changes": [
-            "<a href=\"/ios/apps/itunes\">iTunes</a><ul><li>iTunes Store with home screen icon</li></ul>"
+            "<a href=\"/ios/apps/iTunes\">iTunes</a><ul><li>iTunes Store with home screen icon</li></ul>"
         ]
     },
     {
@@ -59,7 +59,7 @@
         "build": "3B48b",
         "releaseDate": "2007 11 12",
         "changes": [
-            "Battery charge level shown in <a href=\"/ios/apps/itunes\">iTunes</a>.",
+            "Battery charge level shown in <a href=\"/ios/apps/iTunes\">iTunes</a>.",
             "International language and keyboard support.",
             "Patched the TIFF security bug.",
             "Adds custom ringtone field.",
