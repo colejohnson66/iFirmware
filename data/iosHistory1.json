@@ -1,0 +1,27 @@
+[
+    {
+        "version": "1.0",
+        "build": "1A543a",
+        "releaseDate": "2007 06 29",
+        "securityUrl": "https://support.apple.com/kb/TA24874"
+    },
+    {
+        "version": "1.0.1",
+        "build": "1C25",
+        "releaseDate": "2007 07 31",
+        "changes": [
+            "<a href=\"/ios/apps/safari\">Safari</a> security update"
+        ]
+    },
+    {
+        "version": "1.0.2",
+        "build": "1C28",
+        "releaseDate": "2007 08 21",
+        "changes": [
+            "Bug fixes.",
+            "Items deleted on phone no longer sync back to phone.",
+            "Able to process multi-line addresses in Maps.",
+            "Custom ringtones no longer lost on restore."
+        ]
+    }
+]

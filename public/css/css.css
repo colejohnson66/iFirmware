@@ -14,6 +14,7 @@
  * You should have received a copy of the GNU Affero General Public License along
  *   with this program. If not, see <https://www.gnu.org/licenses/>.
  */
+
 nav {
     margin-bottom: 20px;
 }
@@ -38,6 +39,7 @@ footer {
 
 /* Bootstrap's default pink like color reminds me of a Mediawiki link to a
  * non-existent page */
+
 code {
     color: #212529;
 }
@@ -66,25 +68,31 @@ h2 {
     background-color: #f44336;
     color: white;
 }
+
 .bg-orange {
     background-color: #ff9800;
     color: black;
 }
+
 .bg-yellow {
     background-color: #ffeb3b;
 }
+
 .bg-green {
     background-color: #4caf50;
     color: black;
 }
+
 .bg-blue {
     background-color: #03a9f4;
     color: black;
 }
+
 .bg-indigo {
     background-color: #3f51b5;
     color: white;
 }
+
 .bg-purple {
     background-color: #9c27b0;
     color: white;
@@ -110,4 +118,8 @@ canvas {
 canvas, form {
     margin-top: 0;
     margin-bottom: 1rem;
+}
+
+table.versionHistory ul {
+    margin-bottom: 0;
 }
