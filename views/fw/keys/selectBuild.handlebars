@@ -51,7 +51,7 @@
                             <tbody>
                                 {{#each builds}}
                                 <tr>
-                                    <td>{{releaseDate}}</td>
+                                    <td>{{{date releaseDate}}}</td>
                                     <td><a href="/fw/keys/{{build}}/{{../device}}">{{version}} (<code>{{build}}</code>)</a></td>
                                 </tr>
                                 {{/each}}
@@ -78,7 +78,7 @@
                             <tbody>
                                 {{#each builds}}
                                 <tr>
-                                    <td>{{releaseDate}}</td>
+                                    <td>{{{date releaseDate}}}</td>
                                     <td><a href="/fw/keys/{{build}}/{{../device}}">{{version}} (<code>{{build}}</code>)</a></td>
                                 </tr>
                                 {{/each}}

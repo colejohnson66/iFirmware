@@ -121,3 +121,7 @@ canvas, form {
 table.versionHistory ul {
     margin-bottom: 0.5rem;
 }
+
+.date {
+    white-space: nowrap;
+}

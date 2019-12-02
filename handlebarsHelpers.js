@@ -14,12 +14,7 @@
  * You should have received a copy of the GNU Affero General Public License along
  *   with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-const monthNumberMapping = [
-    "Jan", "Feb", "Mar",
-    "Apr", "May", "Jun",
-    "Jul", "Aug", "Sep",
-    "Oct", "Nov", "Dec"
-];
+const moment = require("moment");
 
 module.exports = {
     addNum: (a, b) => {
@@ -28,6 +23,24 @@ module.exports = {
         if (typeof b === "string")
             b = parseInt(b);
         return a + b;
+    },
+
+    date: (str) => {
+        return "<span class=\"date\">" +
+            moment(str).format("D MMM YYYY") +
+            "</span>";
+    },
+
+    dateAndTime: (str) => {
+        return "<span class=\"date\">" +
+            moment(str).format("D MMM YYYY, h:mm:ss A") +
+            "</span>";
+    },
+
+    moment: (str) => {
+        return "<span class=\"date\">" +
+            moment(str).format() +
+            "</span>";
     },
 
     firmwareItemNameMapper: (fwItemName) => {
