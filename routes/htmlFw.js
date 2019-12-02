@@ -46,6 +46,18 @@ router.get("/fw/keys/1.x", (req, res) => {
 router.get("/fw/fs", (req, res) => {
     res.render("fw/fs");
 });
+router.get(/\/fw\/fs(\/[^\r\n\/]+)+/, (req, res) => {
+    // remove trailing slash
+    // NOTE: this has the side effect of removing *multiple* trailing slashes instead of 404-ing.
+    if (req.url.endsWith("/")) {
+        res.redirect(301, req.url.slice(0, -1));
+        return;
+    }
+
+    const path = req.url.slice("/fw/fs/".length);
+    res.status(404);
+    res.render("404");
+});
 
 
 router.get("/fw/decrypt", (req, res) => {
