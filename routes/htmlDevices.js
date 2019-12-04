@@ -21,6 +21,9 @@ const router = express.Router();
 
 
 router.get("/devices", (req, res) => {
+    res.locals.metaTags = {
+        title: "Devices"
+    };
     res.render("devices");
 });
 

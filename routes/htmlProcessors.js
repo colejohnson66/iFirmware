@@ -21,13 +21,22 @@ const router = express.Router();
 
 
 router.get("/processors", (req, res) => {
+    res.locals.metaTags = {
+        title: "Processors"
+    };
     res.render("processors");
 });
 
 router.get("/processors/s5l8900", (req, res) => {
+    res.locals.metaTags = {
+        title: "S5L8900"
+    };
     res.render("processors/s5l8900");
 });
 router.get("/processors/s5l8720", (req, res) => {
+    res.locals.metaTags = {
+        title: "S5L8720"
+    };
     res.render("processors/s5l8720");
 });
 

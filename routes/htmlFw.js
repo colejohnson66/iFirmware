@@ -22,28 +22,24 @@ const sanitize = require("mongo-sanitize");
 const router = express.Router();
 
 
-const lowerDeviceToUpper = (deviceType, id) => {
-    if (deviceType === "appletv")
-        return "AppleTV" + id;
-    if (deviceType === "ipad")
-        return "iPad" + id;
-    if (deviceType === "iphone")
-        return "iPhone" + id;
-    if (deviceType === "ipodtouch")
-        return "iPod" + id;
-    return "";
-}
-
-
 router.get("/fw/keys", (req, res) => {
+    res.locals.metaTags = {
+        title: "Firmware Keys"
+    };
     res.render("fw/keys/selectVersion");
 });
 router.get("/fw/keys/1.x", (req, res) => {
+    res.locals.metaTags = {
+        title: "Firmware Keys: 1.x"
+    };
     res.render("fw/keys/selectBuild", require("../data/firmwares-1x.json"));
 });
 
 
 router.get("/fw/fs", (req, res) => {
+    res.locals.metaTags = {
+        title: "Filesystem Browser"
+    };
     res.render("fw/fs");
 });
 router.get("/fw/fs/*", (req, res) => {
@@ -55,54 +51,98 @@ router.get("/fw/fs/*", (req, res) => {
     }
 
     const path = req.url.slice("/fw/fs/".length);
-    //res.status(404);
-    //res.render("404");
-    res.send(path);
+
+    res.locals.metaTags = {
+        title: "404"
+    };
+    res.status(404).render("404");
 });
 
 
 router.get("/fw/decrypt", (req, res) => {
+    res.locals.metaTags = {
+        title: "Decrypt Firmware"
+    };
     res.render("fw/decrypt");
 });
 
 router.get("/fw/files", (req, res) => {
+    res.locals.metaTags = {
+        title: "Firmware Files"
+    };
     res.render("fw/fileList");
 });
 router.get("/fw/files/appleLogo", (req, res) => {
+    res.locals.metaTags = {
+        title: "AppleLogo"
+    };
     res.render("fw/files/appleLogo");
 });
 router.get("/fw/files/deviceTree", (req, res) => {
+    res.locals.metaTags = {
+        title: "DeviceTree"
+    };
     res.render("fw/files/deviceTree", require("./devices.json"));
 });
 router.get("/fw/files/deviceTree/iphone/1,1", (req, res) => {
+    res.locals.metaTags = {
+        title: "DeviceTree: iPhone1,1"
+    };
     res.render("fw/files/deviceTree/iphone1,1");
 });
 
 router.get("/fw/formats/8900", (req, res) => {
+    res.locals.metaTags = {
+        title: "8900"
+    };
     res.render("fw/formats/8900");
 });
 router.get("/fw/formats/img2", (req, res) => {
+    res.locals.metaTags = {
+        title: "IMG2"
+    };
     res.render("fw/formats/img2");
 });
 router.get("/fw/formats/img3", (req, res) => {
+    res.locals.metaTags = {
+        title: "IMG3"
+    };
     res.render("fw/formats/img3");
 });
 router.get("/fw/formats/img3/kbag", (req, res) => {
+    res.locals.metaTags = {
+        title: "IMG3 Tag: KBAG"
+    };
     res.render("fw/formats/img3/kbag");
 });
 router.get("/fw/formats/img3/sepo", (req, res) => {
+    res.locals.metaTags = {
+        title: "IMG3 Tag: SEPO"
+    };
     res.render("fw/formats/img3/sepo");
 });
 router.get("/fw/formats/img3/type", (req, res) => {
+    res.locals.metaTags = {
+        title: "IMG3 Tag: TYPE"
+    };
     res.render("fw/formats/img3/type");
 });
 router.get("/fw/formats/img3/vers", (req, res) => {
+    res.locals.metaTags = {
+        title: "IMG3 Tag: VERS"
+    };
     res.render("fw/formats/img3/vers");
 });
 router.get("/fw/formats/ipsw", (req, res) => {
+    res.locals.metaTags = {
+        title: "IPSW"
+    };
     res.render("fw/formats/ipsw");
 });
 router.get("/fw/formats/plist", (req, res) => {
+    res.locals.metaTags = {
+        title: "Property List"
+    };
     res.render("fw/formats/plist");
 });
 

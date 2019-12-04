@@ -25,18 +25,27 @@ router.get("/", (req, res) => {
 });
 
 router.get("/about", (req, res) => {
+    res.locals.metaTags = {
+        title: "About"
+    };
     res.render("about");
 });
 
 // /ios requests served by htmlIOS.js
 
 //router.get("/jailbreaks", (req, res) => {
+//    res.locals.metaTags = {
+//        title: "Jailbreaks"
+//    };
 //    res.render("jailbreaks");
 //});
 
 // /devices requests served by htmlDevices.js
 
 //router.get("/baseband", (req, res) => {
+//    res.locals.metaTags = {
+//        title: "Baseband"
+//    };
 //    res.render("baseband");
 //});
 
@@ -47,10 +56,16 @@ router.get("/about", (req, res) => {
 // /ota requests served by htmlOta.js
 
 router.get("/download", (req, res) => {
+    res.locals.metaTags = {
+        title: "Download iDecryptIt"
+    };
     res.render("download");
 });
 
 router.get("/contact", (req, res) => {
+    res.locals.metaTags = {
+        title: "Contact"
+    };
     res.render("contact");
 });
 

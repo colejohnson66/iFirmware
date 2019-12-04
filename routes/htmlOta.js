@@ -21,6 +21,9 @@ const router = express.Router();
 
 
 router.get("/ota", (req, res) => {
+    res.locals.metaTags = {
+        title: "OTA Updates"
+    };
     res.render("ota");
 });
 
