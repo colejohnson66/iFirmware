@@ -53,7 +53,7 @@ app.use("/", require("./routes/htmlFw"));
 app.use("/", require("./routes/htmlIOS"));
 app.use("/", require("./routes/htmlOta"));
 app.use("/", require("./routes/htmlProcessors"));
-app.use("/", require("./routes/apiKeys"));
+//app.use("/", require("./routes/apiKeys"));
 
 
 app.get("*", (req, res) => {

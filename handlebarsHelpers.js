@@ -16,6 +16,42 @@
  */
 const moment = require("moment");
 
+
+/* takes an array looking like:
+ *   [ href, text, child1Arr?, child2Arr?, ...  ]
+ * and returns HTML for a TOC.
+ */
+function tocSection(indentSize, ordinal, contents) {
+    const indent = " ".repeat(indentSize);
+
+    if (contents[2] === undefined) {
+        return `${indent}<li>${ordinal}. <a href="${contents[0]}">${contents[1]}</a></li>`
+    }
+
+    //                    <li>
+    //                        1. <a href="#headingBackground">Background</a>
+    //                        <ul>
+    //                            <li>1.1. <a href="#headingName">Name</a></li>
+    //                        </ul>
+    //                    <li>
+
+    let ret = `${indent}<li>\r\n`;
+    ret += `${indent}    ${ordinal}. <a href="${contents[0]}">${contents[1]}</a>\r\n`
+    ret += `${indent}    <ul>\r\n`;
+
+    // skip the first two elements of the array (`href` and `text`)
+    for (let i = 2; i < contents.length; i++) {
+        // TODO: FIXME: should be an array (see `arr` above)
+        if (typeof contents[2] !== "object")
+            return "ERROR";
+        ret += tocSection(indentSize + 8, ordinal + "." + (i - 2 + 1), contents[i]) + "\r\n";
+    }
+    ret += `${indent}    </ul>\r\n`;
+    ret += `${indent}</li>`
+    return ret;
+}
+
+
 module.exports = {
     addNum: (a, b) => {
         if (typeof a === "string")
@@ -83,5 +119,43 @@ module.exports = {
         return "<span class=\"date\">" +
             moment(str).format() +
             "</span>";
+    },
+
+    /*
+            <div id="toc">
+                <div id="tocTitle">Contents</div>
+                <ul>
+                    <li>
+                        1. <a href="#headingBackground">Background</a>
+                        <ul>
+                            <li>1.1. <a href="#headingName">Name</a></li>
+                        </ul>
+                    </li>
+                    <li>2. <a href="#headingArchitecture">Architecture</a></li>
+                    <li>3. <a href="#headingBloat">Installation Size</a></li>
+                    <li>4. <a href="#headingApps">Apps</a></li>
+                    <li>5. <a href="#headingVersions">Versions of iOS</a></li>
+                </ul>
+            </div>
+*/
+
+    toc: (...params) => {
+        const params2 = params.slice(0, -1);
+        console.log(params2);
+
+        let ret = `<div id="toc">\r\n`;
+        ret += `                <div id="tocTitle">Contents</div>\r\n`;
+        ret += `                <ul>\r\n`;
+
+        for (let i = 0; i < params2.length; i++) {
+            // TODO: FIXME: should be an array (see `arr` above)
+            if (typeof params2[i] !== "object")
+                return "ERROR";
+            ret += tocSection(20, i + 1, params2[i]) + "\r\n";
+        }
+
+        ret += `                </ul>\r\n`;
+        ret += `            </div>`;
+        return ret;
     }
 };
