@@ -27,5 +27,12 @@ router.get("/devices", (req, res) => {
     res.render("devices");
 });
 
+router.get("/devices/iphone/2g", (req, res) => {
+    res.locals.metaTags = {
+        title: "iPhone \"2G\""
+    };
+    res.render("devices/iphone/2g");
+});
+
 
 module.exports = router;
