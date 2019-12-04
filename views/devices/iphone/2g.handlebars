@@ -1,12 +1,7 @@
 {{> nav navProcessor=true}}
 
 <div class="container-fluid">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/devices">Devices</a></li>
-            <li class="breadcrumb-item active" aria-current="page">iPhone "2G"</li>
-        </ol>
-    </nav>
+    {{{breadcrumbs (arr "Devices" "/devices") "iPhone \"2G\""}}}
     <div class="row">
         <div class="col-md-2">
             <div id="toc">

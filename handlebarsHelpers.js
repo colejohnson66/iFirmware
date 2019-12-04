@@ -25,6 +25,40 @@ module.exports = {
         return a + b;
     },
 
+    arr: (...params) => {
+        const params2 = params.slice(0, -1);
+        // TODO: FIXME: returns object instead of an array
+        return params2;
+    },
+
+    breadcrumbs: (...params) => {
+        const params2 = params.slice(0, -1);
+        console.log(params2);
+
+        if (params2.length === 0)
+            return "ERROR1";
+        // TODO: check that all but the last are of type Array
+        if (typeof params2[params2.length - 1] !== "string")
+            return "ERROR2";
+
+        var ret = "<nav aria-label=\"breadcrumb\">\r\n"
+        ret += "        <ol class=\"breadcrumb\">\r\n";
+
+        // minus 1 on the range to ignore the last breadcrumb (it's handled below the for loop)
+        for (let i = 0; i < params2.length - 1; i++) {
+            // TODO: FIXME: should be an array (see `arr` above)
+            if (typeof params2[i] !== "object")
+                return "ERROR3";
+            ret += `            <li class="breadcrumb-item"><a href="${params2[i][1]}">${params2[i][0]}</a></li>\r\n`
+        }
+
+        ret += `            <li class="breadcrumb-item active" aria-current="page">${params2[params2.length - 1]}</li>\r\n`;
+
+        ret += "        </ol>\r\n"
+        ret += "    </nav>";
+        return ret;
+    },
+
     date: (str) => {
         return "<span class=\"date\">" +
             moment(str).format("D MMM YYYY") +
