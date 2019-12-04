@@ -1,22 +1,18 @@
 {{> nav navFirmware=true}}
 
 <div class="container-fluid">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/fw/files">Firmware Files</a></li>
-            <li class="breadcrumb-item active" aria-current="page">IPSW</li>
-        </ol>
-    </nav>
+    {{{breadcrumbs
+        (arr "Firmware Files" "/fw/files")
+        "IPSW"
+    }}}
+
     <div class="row">
         <div class="col-md-2">
-            <div id="toc">
-                <div id="tocTitle">Contents</div>
-                <ul>
-                    <li>1. <a href="#headingFormat">Format</a></li>
-                    <li>2. <a href="#headingExample1">Example Newer IPSW</a></li>
-                    <li>3. <a href="#headingExample2">Example Older IPSW</a></li>
-                </ul>
-            </div>
+            {{{toc
+                (arr "#headingFormat" "Format")
+                (arr "#headingExample1" "Example Newer IPSW")
+                (arr "#headingExample2" "Example Older IPSW")
+            }}}
         </div>
 
         <div class="col-md-10">

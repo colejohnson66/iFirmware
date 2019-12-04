@@ -1,17 +1,18 @@
 {{> nav navProcessor=true}}
 
 <div class="container-fluid">
-    {{{breadcrumbs (arr "Devices" "/devices") "iPhone \"2G\""}}}
+    {{{breadcrumbs
+        (arr "Devices" "/devices")
+        "iPhone \"2G\""
+    }}}
+
     <div class="row">
         <div class="col-md-2">
-            <div id="toc">
-                <div id="tocTitle">Contents</div>
-                <ul>
-                    <li>1. <a href="#headingName">Name</a></li>
-                    <li>2. <a href="#headingSpecs">Technical Specs</a></li>
-                    <li>3. <a href="#headingHacking">Hacking</a></li>
-                </ul>
-            </div>
+            {{{toc
+                (arr "#headingName" "Name")
+                (arr "#headingSpecs" "Technical Specs")
+                (arr "#headingHacking" "Hacking")
+            }}}
         </div>
 
         <div class="col-md-10">

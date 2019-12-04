@@ -1,27 +1,19 @@
 {{> nav navFirmware=true}}
 
 <div class="container-fluid">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/fw/files">Firmware Files</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Property List</li>
-        </ol>
-    </nav>
+    {{{breadcrumbs
+        (arr "Firmware Files" "/fw/files")
+        "Property List"
+    }}}
+
     <div class="row">
         <div class="col-md-2">
-            <div id="toc">
-                <div id="tocTitle">Contents</div>
-                <ul>
-                    <li>
-                        1. <a href="#headingXml">XML Format</a>
-                        <ul>
-                            <li>1.1 <a href="#headingXmlExample">Example PList</a></li>
-                            <li>1.2 <a href="#headingXmlDtd">XML DTD</a></li>
-                        </ul>
-                    </li>
-                    <li>2. <a href="#headingBinary">Binary Format</a></li>
-                </ul>
-            </div>
+            {{{toc
+                (arr "#headingXml" "XML Format"
+                    (arr "#headingXmlExmaple" "Example PList")
+                    (arr "#headingXmlDtd" "XML DTD"))
+                (arr "#headingBinary" "Binary Format")
+            }}}
         </div>
 
         <div class="col-md-10">

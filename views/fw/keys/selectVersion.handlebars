@@ -1,20 +1,15 @@
 {{> nav navFirmware=true}}
 
 <div class="container-fluid">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page">Firmware Keys</li>
-        </ol>
-    </nav>
+    {{{breadcrumbs
+        "Firmware Keys"
+    }}}
     <div class="row">
         <div class="col-md-2">
-            <div id="toc">
-                <div id="tocTitle">Contents</div>
-                <ul>
-                    <li>1. <a href="#headingHistory">History</a></li>
-                    <li>2. <a href="#headingVersion">Versions</a></li>
-                </ul>
-            </div>
+            {{{toc
+                (arr "#headingHistory" "History")
+                (arr "#headingVersions" "Versions")
+            }}}
         </div>
 
         <div class="col-md-10">
@@ -25,7 +20,7 @@
 
             <h2 id="headingHistory">History</h2>
             <p>
-                With the relase of the iPhone came the <a href="/fw/formats/img2">IMG2</a> format and its container, the <a href="/fw/formats/8900">8900</a> file.
+                With the release of the iPhone came the <a href="/fw/formats/img2">IMG2</a> format and its container, the <a href="/fw/formats/8900">8900</a> file.
                 They were used on all iPhone OS <a href="/fw/keys/1.x">1.x</a> firmwares.
                 Initially, only the <a href="/fw/files/kernelcache">kernelcache</a>, <a href="/fw/files/iBoot">iBoot</a>, and <a href="/fw/files/wtf">WTF</a> were encrypted.
                 However, beginning with iPhone OS 1.1.0, all files were encrypted.
@@ -36,11 +31,11 @@
                 With the introduction of IMG3, all files are encrypted in a way that prevents extraction of a <a href="/processors/s5l8900#headingKeys">global key</a> that can decrypt all.
             </p>
             <p>
-                With 64-bit procesors, Apple changed the format once again and began using the <a href="/fw/formats/img4">IMG4</a> file format.
+                With 64-bit processors, Apple changed the format once again and began using the <a href="/fw/formats/img4">IMG4</a> file format.
                 Contrary to the 8900, IMG2, and IMG3 file formats where a custom binary format was used, IMG4 files are <a href="https://en.wikipedia.org/wiki/X.690#DER_encoding" class="external">DER</a> encoded <a href="https://en.wikipedia.org/wiki/Abstract_Syntax_Notation_One" class="external">ASN.1</a> files.
             </p>
 
-            <h2 id="headingVersion">Versions</h2>
+            <h2 id="headingVersions">Versions</h2>
             <p>
                 This is a full and comprehensive list of all firmwares Apple has made available to the public is some way, be it the Developer Center or iTunes.
                 This list also includes firmwares for which there was never an <a href="/fw/formats/ipsw">IPSW</a> (as can be told) such as 4.2.5 for the <a href="/devices/iphone3,3">CDMA iPhone 4 (<code>iPhone3,3</code>)</a>.

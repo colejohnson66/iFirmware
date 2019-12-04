@@ -1,29 +1,21 @@
 {{> nav navFirmware=true}}
 
 <div class="container-fluid">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/fw/files">Firmware Files</a></li>
-            <li class="breadcrumb-item active" aria-current="page">IMG3</li>
-        </ol>
-    </nav>
+    {{{breadcrumbs
+        (arr "Firmware Files" "/fw/files")
+        "IMG3"
+    }}}
+
     <div class="row">
         <div class="col-md-2">
-            <div id="toc">
-                <div id="tocTitle">Contents</div>
-                <ul>
-                    <li>1. <a href="#headingProblems">Problems With IMG2</a></li>
-                    <li>2. <a href="#headingStructure">File Structure</a></li>
-                    <li>
-                        3. <a href="#headingTags">Tags</a>
-                        <ul>
-                            <li>3.1. <a href="#headingTagsList">List of Different Tags</a></li>
-                            <li>3.2. <a href="#headingTagsFormat">Tag Format</a></li>
-                        </ul>
-                    </li>
-                    <li>4. <a href="#headingFormat">File Format</a></li>
-                </ul>
-            </div>
+            {{{toc
+                (arr "#headingProblems" "Problems With IMG2")
+                (arr "#headingStructure" "File Structure")
+                (arr "#headingTags" "Tags"
+                    (arr "#headingTagsList" "List of Different Tags")
+                    (arr "#headingTagsFormat" "Tag Format"))
+                (arr "#headingFormat" "File Format")
+            }}}
         </div>
 
         <div class="col-md-10">

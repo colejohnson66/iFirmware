@@ -1,20 +1,16 @@
 {{> nav navFirmware=true}}
 
 <div class="container-fluid">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page">Firmware Files</li>
-        </ol>
-    </nav>
+    {{{breadcrumbs
+        "Firmware Files"
+    }}}
+
     <div class="row">
         <div class="col-md-2">
-            <div id="toc">
-                <div id="tocTitle">Contents</div>
-                <ul>
-                    <li>1. <a href="#headingFiles">List of Different Files</a></li>
-                    <li>2. <a href="#headingFormats">List of Different Formats</a></li>
-                </ul>
-            </div>
+            {{{toc
+                (arr "#headingFiles" "List of Different Files")
+                (arr "#headingFormats" "List of Different Formats")
+            }}}
         </div>
 
         <div class="col-md-10">

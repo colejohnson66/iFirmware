@@ -1,21 +1,17 @@
 {{> nav navIOS=true}}
 
 <div class="container-fluid">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/ios">iOS</a></li>
-            <li class="breadcrumb-item active" aria-current="page">1.x</li>
-        </ol>
-    </nav>
+    {{{breadcrumbs
+        (arr "iOS" "/ios")
+        "1.x"
+    }}}
+
     <div class="row">
         <div class="col-md-2">
-            <div id="toc">
-                <div id="tocTitle">Contents</div>
-                <ul>
-                    <li>1. <a href="#headingFeatures">Features</a></li>
-                    <li>2. <a href="#headingHistory">Version History</a></li>
-                </ul>
-            </div>
+            {{{toc
+                (arr "#headingFeatures" "Features")
+                (arr "#headingHistory" "Version History")
+            }}}
         </div>
 
         <div class="col-md-10">

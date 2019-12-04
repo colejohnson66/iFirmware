@@ -1,20 +1,16 @@
 {{> nav navFirmware=true}}
 
 <div class="container-fluid">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/fw/files">Firmware Files</a></li>
-            <li class="breadcrumb-item active" aria-current="page">AppleLogo</li>
-        </ol>
-    </nav>
+    {{{breadcrumbs
+        (arr "Firmware Files" "/fw/files")
+        "AppleLogo"
+    }}}
+
     <div class="row">
         <div class="col-md-2">
-            <div id="toc">
-                <div id="tocTitle">Contents</div>
-                <ul>
-                    <li>1. <a href="#headingFormat">Payload Format</a></li>
-                </ul>
-            </div>
+            {{{toc
+                (arr "#headingFormat" "Payload Format")
+            }}}
         </div>
 
         <div class="col-md-10">

@@ -1,22 +1,18 @@
 {{> nav navFirmware=true}}
 
 <div class="container-fluid">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/fw/files">Firmware Files</a></li>
-            <li class="breadcrumb-item"><a href="/fw/formats/img3">IMG3</a></li>
-            <li class="breadcrumb-item active" aria-current="page">SEPO</li>
-        </ol>
-    </nav>
+    {{{breadcrumbs
+        (arr "Firmware Files" "/fw/files")
+        (arr "IMG3" "/fw/formats/img3")
+        "SEPO"
+    }}}
+
     <div class="row">
         <div class="col-md-2">
-            <div id="toc">
-                <div id="tocTitle">Contents</div>
-                <ul>
-                    <li>1. <a href="#headingTagFormat">Tag Format</a></li>
-                    <li>2. <a href="#headingExample">Example Tag</a></li>
-                </ul>
-            </div>
+            {{{toc
+                (arr "#headingTagFormat" "Tag Format")
+                (arr "#headingExample" "Example Tag")
+            }}}
         </div>
 
         <div class="col-md-10">

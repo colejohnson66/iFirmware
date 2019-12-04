@@ -69,7 +69,6 @@ module.exports = {
 
     breadcrumbs: (...params) => {
         const params2 = params.slice(0, -1);
-        console.log(params2);
 
         if (params2.length === 0)
             return "ERROR1";
@@ -121,27 +120,8 @@ module.exports = {
             "</span>";
     },
 
-    /*
-            <div id="toc">
-                <div id="tocTitle">Contents</div>
-                <ul>
-                    <li>
-                        1. <a href="#headingBackground">Background</a>
-                        <ul>
-                            <li>1.1. <a href="#headingName">Name</a></li>
-                        </ul>
-                    </li>
-                    <li>2. <a href="#headingArchitecture">Architecture</a></li>
-                    <li>3. <a href="#headingBloat">Installation Size</a></li>
-                    <li>4. <a href="#headingApps">Apps</a></li>
-                    <li>5. <a href="#headingVersions">Versions of iOS</a></li>
-                </ul>
-            </div>
-*/
-
     toc: (...params) => {
         const params2 = params.slice(0, -1);
-        console.log(params2);
 
         let ret = `<div id="toc">\r\n`;
         ret += `                <div id="tocTitle">Contents</div>\r\n`;

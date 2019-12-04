@@ -1,20 +1,16 @@
 {{> nav navFirmware=true}}
 
 <div class="container-fluid">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page">Filesystem Browser</li>
-        </ol>
-    </nav>
+    {{{breadcrumbs
+        "Filesystem Browser"
+    }}}
+
     <div class="row">
         <div class="col-md-2">
-            <div id="toc">
-                <div id="tocTitle">Contents</div>
-                <ul>
-                    <li>1. <a href="#headingFolders">Folders</a></li>
-                    <li>2. <a href="#headingFiles">Files</a></li>
-                </ul>
-            </div>
+            {{{toc
+                (arr "#headingFolders" "Folders")
+                (arr "#headingFiles" "Files")
+            }}}
         </div>
 
         <div class="col-md-10">

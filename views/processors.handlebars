@@ -1,20 +1,16 @@
 {{> nav navProcessor=true}}
 
 <div class="container-fluid">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page">Processors</li>
-        </ol>
-    </nav>
+    {{{breadcrumbs
+        "Processors"
+    }}}
+
     <div class="row">
         <div class="col-md-2">
-            <div id="toc">
-                <div id="tocTitle">Contents</div>
-                <ul>
-                    <li>1. <a href="#headingMainline">List of mainline processors</a></li>
-                    <li>2. <a href="#headingOther">List of other processors</a></li>
-                </ul>
-            </div>
+            {{{toc
+                (arr "#headingMainline" "Mainline Processors")
+                (arr "#headingOther" "Other Processors")
+            }}}
         </div>
 
         <div class="col-md-10">
@@ -25,7 +21,7 @@
                 However, beginning with the <a href="/processors/s5l8930">S5L8930</a> (A4), Apple began producing their own custom silicon.
             </p>
 
-            <h2 id="headingMainline">List of mainline processors</h2>
+            <h2 id="headingMainline">Mainline Processors</h2>
             <div class="alert alert-primary" role="alert">
                 The processors for the Apple Watch and other devices are <a href="#headingOther">listed separately</a>.
             </div>
@@ -59,7 +55,7 @@
                 <li><a href="/processors/t8030">T8030</a> (A13 "Bionic")</li>
             </ul>
 
-            <h2 id="headingOther">List of other processors</h2>
+            <h2 id="headingOther">Other Processors</h2>
             <p>
                 While the list above is in chronological order, the same cannot be said for this list.
             </p>

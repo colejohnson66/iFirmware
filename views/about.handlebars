@@ -1,19 +1,15 @@
 {{> nav navAbout=true}}
 
 <div class="container-fluid">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page">About</li>
-        </ol>
-    </nav>
+    {{{breadcrumbs
+        "About"
+    }}}
+
     <div class="row">
         <div class="col-md-2">
-            <div id="toc">
-                <div id="tocTitle">Contents</div>
-                <ul>
-                    <li>1. <a href="#headingSource">Open Source</a></li>
-                </ul>
-            </div>
+            {{{toc
+                (arr "#headingSource" "Open Source")
+            }}}
         </div>
         <div class="col-md-10">
             <h1>About</h1>

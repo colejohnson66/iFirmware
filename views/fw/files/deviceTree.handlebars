@@ -1,32 +1,24 @@
 {{> nav navFirmware=true}}
 
 <div class="container-fluid">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/fw/files">Firmware Files</a></li>
-            <li class="breadcrumb-item active" aria-current="page">DeviceTree</li>
-        </ol>
-    </nav>
+    {{{breadcrumbs
+        (arr "Firmware Files" "/fw/files")
+        "DeviceTree"
+    }}}
+
     <div class="row">
         <div class="col-md-2">
-            <div id="toc">
-                <div id="tocTitle">Contents</div>
-                <ul>
-                    <li>1. <a href="#headingFormat">Payload Format</a></li>
-                    <li>
-                        2. <a href="#headingListings">Device Trees From Devices</a>
-                        <ul>
-                            <li>2.1 <a href="#headingAppleTV">Apple TV</a></li>
-                            <li>2.2 <a href="#headingIPad">iPad</a></li>
-                            <li>2.3 <a href="#headingIPadAir">iPad mini</a></li>
-                            <li>2.4 <a href="#headingIPadMini">iPad mini</a></li>
-                            <li>2.5 <a href="#headingIPadPro">iPad Pro</a></li>
-                            <li>2.6 <a href="#headingIPhone">iPhone</a></li>
-                            <li>2.7 <a href="#headingIPodTouch">iPod touch</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+            {{{toc
+                (arr "#headingFormat" "Payload Format")
+                (arr "#headingListings" "Device Trees from iDevices"
+                    (arr "#headingAppleTV" "Apple TV")
+                    (arr "#headingIPad" "iPad")
+                    (arr "#headingIPadAir" "iPad Air")
+                    (arr "#headingIPadMini" "iPad mini")
+                    (arr "#headingIPadPro" "iPad Pro")
+                    (arr "#headingIPhone" "iPhone")
+                    (arr "#headingIPodTouch" "iPod touch"))
+            }}}
         </div>
 
         <div class="col-md-10">

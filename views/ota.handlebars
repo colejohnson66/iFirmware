@@ -1,53 +1,33 @@
 {{> nav navOta=true}}
 
 <div class="container-fluid">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page">OTA Updates</li>
-        </ol>
-    </nav>
+    {{{breadcrumbs
+        "OTA Updates"
+    }}}
+
     <div class="row">
         <div class="col-md-2">
-            <div id="toc">
-                <div id="tocTitle">Contents</div>
-                <ul>
-                    <li>1. <a href="#headingJailbreaking">Issues with Jailbreaking</a></li>
-                    <li>
-                        2. <a href="#headingContents">Contents</a>
-                        <ul>
-                            <li>2.1. <a href="#headingVersion1">Version 1</a></li>
-                            <li>2.2. <a href="#headingVersion2">Version 2</a></li>
-                            <li>2.3. <a href="#headingVersion3">Version 3</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        3. <a href="#headingList">List of OTA Updates</a>
-                        <ul>
-                            <li>3.1. <a href="#headingAirPods">AirPods</a></li>
-                            <li>
-                                3.2. <a href="#headingAppleTV">Apple TV</a>
-                                <ul>
-                                    <li>3.2.1. <a href="#headingSiriRemote">Siri Remote</a></li>
-                                </ul>
-                            </li>
-                            <li>3.3. <a href="#headingWatch">Apple Watch</a></li>
-                            <li>3.4. <a href="#headingHomePod">HomePod</a></li>
-                            <li>
-                                3.5. <a href="#headingIPad">iPad</a>
-                                <ul>
-                                    <li>3.5.1. <a href="#headingPencil">Apple Pencil</a></li>
-                                    <li>3.5.2. <a href="#headingKeyboard">Smart Keyboard</a></li>
-                                </ul>
-                            </li>
-                            <li>3.6. <a href="#headingIPadAir">iPad Air</a></li>
-                            <li>3.7. <a href="#headingIPadPro">iPad Pro</a></li>
-                            <li>3.8. <a href="#headingIPadMini">iPad mini</a></li>
-                            <li>3.9. <a href="#headingIPhone">iPhone</a></li>
-                            <li>3.10. <a href="#headingIPodTouch">iPod touch</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+            {{{toc
+                (arr "#headingJailbreaking" "Issues with Jailbreaking")
+                (arr "#headingContents" "Contents"
+                    (arr "#headingVersion1" "Version 1")
+                    (arr "#headingVersion2" "Version 2")
+                    (arr "#headingVersion3" "Version 3"))
+                (arr "#headingList" "List of OTA Updates"
+                    (arr "#headingAirPods" "AirPods")
+                    (arr "#headingAppleTV" "Apple TV"
+                        (arr "#headingSiriRemote" "Siri Remote"))
+                    (arr "#headingWatch" "Apple Watch")
+                    (arr "#headingHomePod" "HomePod")
+                    (arr "#headingIPad" "iPad"
+                        (arr "#headingPencil" "Apple Pencil")
+                        (arr "#headingKeyboard" "Smart Keyboard"))
+                    (arr "#headingIPadAir" "iPad Air")
+                    (arr "#headingIPadPro" "iPad Pro")
+                    (arr "#headingIPadMini" "iPad mini")
+                    (arr "#headingIPhone" "iPhone")
+                    (arr "#headingIPodTouch" "iPod touch"))
+            }}}
         </div>
 
         <div class="col-md-10">

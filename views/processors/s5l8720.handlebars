@@ -1,21 +1,17 @@
 {{> nav navProcessor=true}}
 
 <div class="container-fluid">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/processors">Processors</a></li>
-            <li class="breadcrumb-item active" aria-current="page">S5L8720</li>
-        </ol>
-    </nav>
+    {{{breadcrumbs
+        (arr "Processors" "/processors")
+        "S5L8720"
+    }}}
+
     <div class="row">
         <div class="col-md-2">
-            <div id="toc">
-                <div id="tocTitle">Contents</div>
-                <ul>
-                    <li>1. <a href="#headingExploits">Exploits</a></li>
-                    <li>2. <a href="#headingBootroms">Bootroms</a></li>
-                </ul>
-            </div>
+            {{{toc
+                (arr "#headingExploits" "Exploits")
+                (arr "#headingBootroms" "Bootroms")
+            }}}
         </div>
 
         <div class="col-md-10">
