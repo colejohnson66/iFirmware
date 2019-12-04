@@ -71,17 +71,17 @@ module.exports = {
             "</span>";
     },
 
-    moment: (str) => {
-        return "<span class=\"date\">" +
-            moment(str).format() +
-            "</span>";
-    },
-
     firmwareItemNameMapper: (fwItemName) => {
         if (fwItemName === "rootFS")
             return "Root Filesystem";
         if (fwItemName === "updateRamdisk")
             return "Update Ramdisk";
         return fwItemName;
+    },
+
+    moment: (str) => {
+        return "<span class=\"date\">" +
+            moment(str).format() +
+            "</span>";
     }
 };
