@@ -62,9 +62,8 @@ module.exports = {
     },
 
     arr: (...params) => {
-        const params2 = params.slice(0, -1);
         // TODO: FIXME: returns object instead of an array
-        return params2;
+        return params.slice(0, -1);
     },
 
     breadcrumbs: (...params) => {
@@ -118,6 +117,21 @@ module.exports = {
         return "<span class=\"date\">" +
             moment(str).format() +
             "</span>";
+    },
+
+    link: (href, text, classes) => {
+        // ensure classes isn't the handlebars object
+        if (typeof classes !== "string")
+            classes = "";
+
+        // hack to see if this is an external link
+        if (href[0] !== "/")
+            classes += " external";
+
+        // TODO: check if destination URL exists first
+        if (classes !== "")
+            return `<a href="${href}" class="${classes}">${text}</a>`;
+        return `<a href="${href}">${text}</a>`
     },
 
     toc: (...params) => {
