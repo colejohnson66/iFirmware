@@ -28,13 +28,6 @@ function tocSection(indentSize, ordinal, contents) {
         return `${indent}<li>${ordinal}. <a href="${contents[0]}">${contents[1]}</a></li>`
     }
 
-    //                    <li>
-    //                        1. <a href="#headingBackground">Background</a>
-    //                        <ul>
-    //                            <li>1.1. <a href="#headingName">Name</a></li>
-    //                        </ul>
-    //                    <li>
-
     let ret = `${indent}<li>\r\n`;
     ret += `${indent}    ${ordinal}. <a href="${contents[0]}">${contents[1]}</a>\r\n`
     ret += `${indent}    <ul>\r\n`;
@@ -75,7 +68,7 @@ module.exports = {
         if (typeof params2[params2.length - 1] !== "string")
             return "ERROR2";
 
-        var ret = "<nav aria-label=\"breadcrumb\">\r\n"
+        let ret = "<nav aria-label=\"breadcrumb\">\r\n"
         ret += "        <ol class=\"breadcrumb\">\r\n";
 
         // minus 1 on the range to ignore the last breadcrumb (it's handled below the for loop)
