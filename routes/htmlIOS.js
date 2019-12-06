@@ -20,19 +20,24 @@ const express = require("express");
 const router = express.Router();
 
 
-router.get("/ios", (req, res) => {
-    res.locals.metaTags = {
-        title: "iOS"
-    };
-    res.render("ios");
-});
-
-router.get("/ios/1", (req, res) => {
-    res.locals.metaTags = {
-        title: "iPhone OS 1"
-    };
-    res.render("ios/1", require("../data/iosHistory1.json"));
-});
+module.exports = (globalRoutes) => {
+    globalRoutes.push("/ios");
+    router.get("/ios", (req, res) => {
+        res.locals.metaTags = {
+            title: "iOS"
+        };
+        res.render("ios");
+    });
 
 
-module.exports = router;
+    globalRoutes.push("/ios/1");
+    router.get("/ios/1", (req, res) => {
+        res.locals.metaTags = {
+            title: "iPhone OS 1"
+        };
+        res.render("ios/1", require("../data/iosHistory1.json"));
+    });
+
+
+    return router;
+}

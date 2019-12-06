@@ -20,54 +20,61 @@ const express = require("express");
 const router = express.Router();
 
 
-router.get("/", (req, res) => {
-    res.render("home");
-});
+module.exports = (globalRoutes) => {
+    globalRoutes.push("/");
+    router.get("/", (req, res) => {
+        res.render("home");
+    });
 
-router.get("/about", (req, res) => {
-    res.locals.metaTags = {
-        title: "About"
-    };
-    res.render("about");
-});
+    globalRoutes.push("/about");
+    router.get("/about", (req, res) => {
+        res.locals.metaTags = {
+            title: "About"
+        };
+        res.render("about");
+    });
 
-// /ios requests served by htmlIOS.js
+    // /ios requests served by htmlIOS.js
 
-//router.get("/jailbreaks", (req, res) => {
-//    res.locals.metaTags = {
-//        title: "Jailbreaks"
-//    };
-//    res.render("jailbreaks");
-//});
+    //globalRoutes.push("/jailbreaks");
+    //router.get("/jailbreaks", (req, res) => {
+    //    res.locals.metaTags = {
+    //        title: "Jailbreaks"
+    //    };
+    //    res.render("jailbreaks");
+    //});
 
-// /devices requests served by htmlDevices.js
+    // /devices requests served by htmlDevices.js
 
-//router.get("/baseband", (req, res) => {
-//    res.locals.metaTags = {
-//        title: "Baseband"
-//    };
-//    res.render("baseband");
-//});
+    //globalRoutes.push("/baseband");
+    //router.get("/baseband", (req, res) => {
+    //    res.locals.metaTags = {
+    //        title: "Baseband"
+    //    };
+    //    res.render("baseband");
+    //});
 
-// /processors requests served by htmlProcessors.js
+    // /processors requests served by htmlProcessors.js
 
-// /fw requests served by htmlFw.js
+    // /fw requests served by htmlFw.js
 
-// /ota requests served by htmlOta.js
+    // /ota requests served by htmlOta.js
 
-router.get("/download", (req, res) => {
-    res.locals.metaTags = {
-        title: "Download iDecryptIt"
-    };
-    res.render("download");
-});
+    globalRoutes.push("/download");
+    router.get("/download", (req, res) => {
+        res.locals.metaTags = {
+            title: "Download iDecryptIt"
+        };
+        res.render("download");
+    });
 
-router.get("/contact", (req, res) => {
-    res.locals.metaTags = {
-        title: "Contact"
-    };
-    res.render("contact");
-});
+    globalRoutes.push("/contact");
+    router.get("/contact", (req, res) => {
+        res.locals.metaTags = {
+            title: "Contact"
+        };
+        res.render("contact");
+    });
 
-
-module.exports = router;
+    return router;
+};

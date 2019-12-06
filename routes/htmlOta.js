@@ -20,12 +20,15 @@ const express = require("express");
 const router = express.Router();
 
 
-router.get("/ota", (req, res) => {
-    res.locals.metaTags = {
-        title: "OTA Updates"
-    };
-    res.render("ota");
-});
+module.exports = (globalRoutes) => {
+    globalRoutes.push("/ota");
+    router.get("/ota", (req, res) => {
+        res.locals.metaTags = {
+            title: "OTA Updates"
+        };
+        res.render("ota");
+    });
 
 
-module.exports = router;
+    return router;
+}

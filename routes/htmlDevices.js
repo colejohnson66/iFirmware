@@ -20,19 +20,23 @@ const express = require("express");
 const router = express.Router();
 
 
-router.get("/devices", (req, res) => {
-    res.locals.metaTags = {
-        title: "Devices"
-    };
-    res.render("devices");
-});
+module.exports = (globalRoutes) => {
+    globalRoutes.push("/devices");
+    router.get("/devices", (req, res) => {
+        res.locals.metaTags = {
+            title: "Devices"
+        };
+        res.render("devices");
+    });
 
-router.get("/devices/iphone/2g", (req, res) => {
-    res.locals.metaTags = {
-        title: "iPhone \"2G\""
-    };
-    res.render("devices/iphone/2g");
-});
+    globalRoutes.push("/devices/iphone/2g");
+    router.get("/devices/iphone/2g", (req, res) => {
+        res.locals.metaTags = {
+            title: "iPhone \"2G\""
+        };
+        res.render("devices/iphone/2g");
+    });
 
 
-module.exports = router;
+    return router;
+}
