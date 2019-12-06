@@ -18,13 +18,13 @@
         <div class="col-lg-10 col-md-9">
             <h1>IMG3 Tag: <code>TYPE</code></h1>
             <p>
-                The <code>TYPE</code> <a href="/fw/formats/img3">IMG3</a> tag is an four byte little endian string that states what type of firmware image the IMG3 file is.
+                The <code>TYPE</code> {{{link "/fw/formats/img3" "IMG3"}}} tag is an four byte little endian string that states what type of firmware image the IMG3 file is.
                 This tag is not present in earlier versions of iPhone OS/iOS;
                 It is unknown when it was added.
                 Its purpose is also unknown as the <code>ident</code> field in the IMG3 header has the same value.
             </p>
             <p>
-                According to <a href="https://www.theiphonewiki.com/wiki/TYPE" class="external">the iPhone Wiki</a>, it is compared to the second parameter of <code>image_load</code>;
+                According to {{{link "https://www.theiphonewiki.com/wiki/TYPE" "the iPhone Wiki"}}}, it is compared to the second parameter of <code>image_load</code>;
                 If it does not match, <code>image_load</code> will fail.
                 However, if a zero is passed as the second argument, the check is ignored.
             </p>
@@ -44,7 +44,7 @@ Img3KbagTag {
 
             <h2 id="headingExample">Example Tag</h2>
             <p>
-                The following tag is from the <a href="/fw/files/appleLogo">AppleLogo</a> file from the <a href="/fw/keys/14A403/ipad36">10.0.1 (build 14A403) build for the iPad 4 (<code>iPad3,6</code>)</a>.
+                The following tag is from the {{{link "/fw/files/appleLogo" "AppleLogo"}}} file from the {{{link "/fw/keys/14A403/ipad36" "10.0.1 (build 14A403) build for the iPad 4 (<code>iPad3,6</code>)"}}}.
             </p>
             <pre class="hexView">
         0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F

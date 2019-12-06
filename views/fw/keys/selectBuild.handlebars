@@ -12,18 +12,18 @@
                 <div id="tocTitle">Contents</div>
                 <ul>
                     <li>
-                        1. <a href="#headingFinal">Final</a>
+                        1. {{{link "#headingFinal" "Final"}}}
                         <ul>
                             {{#each finalData}}
-                            <li>1.{{addNum @index 1}}. <a href="#headingFinal{{device}}">{{devicePretty}}</a></li>
+                            <li>1.{{addNum @index 1}}. {{{link "#headingFinal{{device}}" "{{devicePretty}}"}}}</li>
                             {{/each}}
                         </ul>
                     </li>
                     <li>
-                        2. <a href="#headingBeta">Beta</a>
+                        2. {{{link "#headingBeta" "Beta"}}}
                         <ul>
                             {{#each betaData}}
-                            <li>2.{{addNum @index 1}}. <a href="#headingBeta{{device}}">{{devicePretty}}</a></li>
+                            <li>2.{{addNum @index 1}}. {{{link "#headingBeta{{device}}" "{{devicePretty}}"}}}</li>
                             {{/each}}
                         </ul>
                     </li>
