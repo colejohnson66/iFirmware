@@ -36,13 +36,7 @@ module.exports = (globalRoutes) => {
 
     // /ios requests served by htmlIOS.js
 
-    //globalRoutes.push("/jailbreaks");
-    //router.get("/jailbreaks", (req, res) => {
-    //    res.locals.metaTags = {
-    //        title: "Jailbreaks"
-    //    };
-    //    res.render("jailbreaks");
-    //});
+    // /jailbreaks requests served by htmlJailbreaks.js
 
     // /devices requests served by htmlDevices.js
 

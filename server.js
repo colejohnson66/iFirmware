@@ -54,6 +54,7 @@ app.use("/", require("./routes/html")(routes));
 app.use("/", require("./routes/htmlDevices")(routes));
 app.use("/", require("./routes/htmlFw")(routes));
 app.use("/", require("./routes/htmlIOS")(routes));
+app.use("/", require("./routes/htmlJailbreaks")(routes));
 app.use("/", require("./routes/htmlOta")(routes));
 app.use("/", require("./routes/htmlProcessors")(routes));
 //app.use("/", require("./routes/apiKeys"));
