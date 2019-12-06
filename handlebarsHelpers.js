@@ -122,7 +122,7 @@ module.exports = (globalRoutes) => {
             if (href[0] !== "/") {
                 classes += " external";
             } else {
-                // TODO: include special handling for /fw/fs/*
+                // TODO: include special handling for /fw/fs/* and /fw/keys/*
                 if (!globalRoutes.includes(href))
                     classes += " text-danger";
             }
