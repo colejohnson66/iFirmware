@@ -107,6 +107,10 @@ module.exports = (globalRoutes) => {
             return fwItemName;
         },
 
+        footnote: (reference, text) => {
+            return `<sup><a href="${reference}">[${text}]</a></sup>`;
+        },
+
         moment: (str) => {
             return "<span class=\"date\">" +
                 moment(str).format() +
@@ -118,7 +122,6 @@ module.exports = (globalRoutes) => {
         },
 
         link: (href, options) => {
-            console.log(href);
             const classes = [];
 
             // hack to see if this is an external link

@@ -35,7 +35,7 @@ module.exports = (globalRoutes) => {
         res.locals.metaTags = {
             title: "Jailbreak Compatibility: iOS"
         };
-        res.render("jailbreaks/compat/ios", require("../data/jailbreakIOS.json"));
+        res.render("jailbreaks/compat/ios");
     });
 
 
