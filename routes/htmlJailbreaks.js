@@ -30,5 +30,14 @@ module.exports = (globalRoutes) => {
     });
 
 
+    globalRoutes.push("/jailbreaks/compat/ios");
+    router.get("/jailbreaks/compat/ios", (req, res) => {
+        res.locals.metaTags = {
+            title: "Jailbreak Compatibility: iOS"
+        };
+        res.render("jailbreaks/compat/ios", require("../data/jailbreakIOS.json"));
+    });
+
+
     return router;
 }

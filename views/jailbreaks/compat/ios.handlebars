@@ -1,0 +1,55 @@
+{{> nav navJailbreaks=true}}
+
+<div class="container-fluid">
+    {{{breadcrumbs
+        (arr "Jailbreaks" "/jailbreaks")
+        "Compatibility - iOS"
+    }}}
+
+    <div class="row">
+        <div class="col-lg-2 col-md-3">
+            {{{toc
+                (arr "#heading1x" "iPhone OS 1.x")
+                (arr "#heading2x" "iPhone OS 2.x")
+                (arr "#heading3x" "iPhone OS 3.x")
+                (arr "#heading4x" "iOS 4.x")
+                (arr "#heading5x" "iOS 5.x")
+                (arr "#heading6x" "iOS 6.x")
+                (arr "#heading7x" "iOS 7.x")
+                (arr "#heading8x" "iOS 8.x")
+                (arr "#heading9x" "iOS 9.x")
+                (arr "#heading10x" "iOS 10.x")
+                (arr "#heading11x" "iOS 11.x")
+                (arr "#heading12x" "iOS 12.x")
+                (arr "#heading13x" "iOS 13.x")
+            }}}
+        </div>
+        <div class="col-lg-10 col-md-9">
+            <h1>Jailbreak Compatibility <small class="text-muted">iOS</small></h1>
+            <p>
+                This page lists jailbreak compatibility for {{{link "/devices" "iDevices"}}} running iOS.
+                This includes iPads running iPadOS 13 or newer, but does not include Apple TVs;
+                Those are {{{link "/jailbreaks/compat/appletv" "listed separately"}}}.
+            </p>
+
+            <h2 id="heading1x">iPhone OS 1.x</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th rowspan="2">Version</th>
+                        <th rowspan="2">Tool</th>
+                        <th rowspan="2">Tool Version</th>
+                        <th>Device</th>
+                    </tr>
+                    <tr>
+                        {{#each 1x/compatOrder}}
+                        <th>{{{this}}}</th>
+                        {{/each}}
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</div>
+
+{{> footer}}
