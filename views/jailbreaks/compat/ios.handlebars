@@ -39,11 +39,11 @@
                         <th rowspan="2">Version</th>
                         <th rowspan="2">Tool</th>
                         <th rowspan="2">Tool Version</th>
-                        <th>Device</th>
+                        <th colspan="{{length (self 1x/compatOrder)}}">Device</th>
                     </tr>
                     <tr>
                         {{#each 1x/compatOrder}}
-                        <th>{{{this}}}</th>
+                        <th>{{#link (self href)}}{{../text}}{{/link}}</th>
                         {{/each}}
                     </tr>
                 </thead>

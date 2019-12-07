@@ -113,7 +113,12 @@ module.exports = (globalRoutes) => {
                 "</span>";
         },
 
+        length: (arr) => {
+            return arr.length;
+        },
+
         link: (href, options) => {
+            console.log(href);
             const classes = [];
 
             // hack to see if this is an external link
@@ -128,6 +133,12 @@ module.exports = (globalRoutes) => {
             if (classes.length !== 0)
                 return `<a href="${href}" class="${classes.join(" ")}">${options.fn(this)}</a>`;
             return `<a href="${href}">${options.fn(this)}</a>`;
+        },
+
+        // Get around {{#link [variableName]}}
+        // Use as {{#link (self [variableName])}}
+        self: (arg) => {
+            return arg;
         },
 
         toc: (...params) => {

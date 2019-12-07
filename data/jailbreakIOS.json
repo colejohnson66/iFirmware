@@ -2,8 +2,14 @@
     "1x": {
         "aName": "IPhoneOS1x",
         "compatOrder": [
-            "{{{link \"/devices/iphone/2g\" \"iPhone 2G\"}}}",
-            "{{{link \"/devices/ipod/1g\" \"iPod touch 1G\"}}}"
+            {
+                "href": "/devices/iphone/2g",
+                "text": "iPhone 2G"
+            },
+            {
+                "href": "/devices/ipodtouch/1g",
+                "text": "iPod touch 1G"
+            }
         ],
         "1.0": {
             "AppTapp": {
