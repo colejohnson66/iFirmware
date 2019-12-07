@@ -12,18 +12,18 @@
                 <div id="tocTitle">Contents</div>
                 <ul>
                     <li>
-                        1. {{{link "#headingFinal" "Final"}}}
+                        1. {{#link "#headingFinal"}}Final{{/link}}
                         <ul>
                             {{#each finalData}}
-                            <li>1.{{addNum @index 1}}. {{{link "#headingFinal{{device}}" "{{devicePretty}}"}}}</li>
+                            <li>1.{{addNum @index 1}}. {{#link "#headingFinal{{device}}"}}{{devicePretty}}{{/link}}</li>
                             {{/each}}
                         </ul>
                     </li>
                     <li>
-                        2. {{{link "#headingBeta" "Beta"}}}
+                        2. {{#link "#headingBeta"}}Beta{{/link}}
                         <ul>
                             {{#each betaData}}
-                            <li>2.{{addNum @index 1}}. {{{link "#headingBeta{{device}}" "{{devicePretty}}"}}}</li>
+                            <li>2.{{addNum @index 1}}. {{#link "#headingBeta{{device}}"}}{{devicePretty}}{{/link}}</li>
                             {{/each}}
                         </ul>
                     </li>
@@ -51,6 +51,7 @@
                                 {{#each builds}}
                                 <tr>
                                     <td>{{{date releaseDate}}}</td>
+                                    <!-- TODO: use {{#link}} -->
                                     <td><a href="/fw/keys/{{build}}/{{../device}}">{{version}} (<code>{{build}}</code>)</a></td>
                                 </tr>
                                 {{/each}}

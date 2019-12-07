@@ -16,9 +16,9 @@
         <div class="col-lg-10 col-md-9">
             <h1>8900</h1>
             <p>
-                So called due to their use on the {{{link "/processors/s5l8900" "S5L8900 processor"}}}, 8900 files are very basic.
-                Their usage was, as far as is known, to simply to provide a wrapper for {{{link "/fw/formats/img2" "IMG2"}}} and {{{link "/fw/formats/dmg" "DMG"}}} files.
-                They can only be parsed by {{{link "/fw/files/iBoot" "iBoot"}}}-304 or earlier and the {{{link "/processors/s5l8900" "S5L8900"}}}.
+                So called due to their use on the {{#link "/processors/s5l8900"}}S5L8900 processor{{/link}}, 8900 files are very basic.
+                Their usage was, as far as is known, to simply to provide a wrapper for {{#link "/fw/formats/img2"}}IMG2{{/link}} and {{#link "/fw/formats/dmg"}}DMG{{/link}} files.
+                They can only be parsed by {{#link "/fw/files/iBoot"}}iBoot{{/link}}-304 or earlier and the {{#link "/processors/s5l8900"}}S5L8900{{/link}}.
                 Later processors have no support for this format.
             </p>
 
@@ -32,7 +32,7 @@ Apple8900 {
    4  uint8[3]  version; // "1.0" in big endian
    7  uint8     format;  // 0x1: boot payload encrypted with UID key
                          // 0x2: unencrypted boot payload
-                         // 0x3: payload encrypted with {{{link "/processors/s5l8900#headerKeys" "Key 0x837"}}}
+                         // 0x3: payload encrypted with {{#link "/processors/s5l8900#headerKeys"}}Key 0x837{{/link}}
                          // 0x4: unencrypted payload
    8  uint32;
    C  uint32    payloadLength;

@@ -17,8 +17,8 @@
             <h1>IMG2</h1>
             <p>
                 IMG2 files were the original method of holding a payload for iPhones.
-                While the extension <code>.img2</code> is commonly used in {{{link "/fw/formats/ipsw" "IPSW"}}} files,these files are actually {{{link "/fw/formats/8900" "8900 files"}}} that wrap an IMG2 file.
-                These files can only be parsed by {{{link "/fw/files/iBoot" "iBoot"}}}-304 or earlier and the {{{link "/processors/s5l8900" "S5L8900"}}}.
+                While the extension <code>.img2</code> is commonly used in {{#link "/fw/formats/ipsw"}}IPSW{{/link}} files,these files are actually {{#link "/fw/formats/8900"}}8900 files{{/link}} that wrap an IMG2 file.
+                These files can only be parsed by {{#link "/fw/files/iBoot"}}iBoot{{/link}}-304 or earlier and the {{#link "/processors/s5l8900"}}S5L8900{{/link}}.
                 Later processors have no support for this format.
             </p>
 
@@ -29,7 +29,7 @@
             <pre>
 Img2 {
    0  uint8[4] magic;     // "2gmI" ("Img2" in little endian)
-   4  uint8[4] imageType; // little endian; eg. "ogol" ("logo") for {{{link "/fw/files/appleLogo" "AppleLogo"}}}
+   4  uint8[4] imageType; // little endian; eg. "ogol" ("logo") for {{#link "/fw/files/appleLogo"}}AppleLogo{{/link}}
    8  uint16;
    A  uint16   epoch;
    C  uint32   flags1;

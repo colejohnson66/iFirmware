@@ -18,7 +18,7 @@
         <div class="col-lg-10 col-md-9">
             <h1>IMG3 Tag: <code>KBAG</code></h1>
             <p>
-                The <code>KBAG</code> {{{link "/fw/formats/img3" "IMG3"}}} tag is an array of bytes, usually encrypted with the GID Key.
+                The <code>KBAG</code> {{#link "/fw/formats/img3"}}IMG3{{/link}} tag is an array of bytes, usually encrypted with the GID Key.
                 It consists of a "magic," some info about the size, some info about the IV/key pair, and the IV and key themselves.
             </p>
 
@@ -32,7 +32,7 @@ Img3KbagTag {
    4  uint32  totalLength; // including header
    8  uint32  dataLength;  // excluding this 0xC header and padding
    C  uint32  cryptState;  // 0x1: IV/key are encrypted with the GID key
-                           // 0x2: Used with a second KBAG for the {{{link "/processors/s5l8920" "S5L8920"}}}; use is unknown
+                           // 0x2: Used with a second KBAG for the {{#link "/processors/s5l8920"}}S5L8920{{/link}}; use is unknown
   10  uint32  aesType;     //  0x80: AES-128 (16 byte key)
                            //  0xC0: AES-192 (24 byte key)
                            // 0x100: AES-256 (32 byte key)
@@ -43,7 +43,7 @@ Img3KbagTag {
 
             <h2 id="headingExample">Example Tag</h2>
             <p>
-                The following tag is from the {{{link "/fw/files/appleLogo" "AppleLogo"}}} file from the {{{link "/fw/keys/5A347/iphone11" "2.0 (build 5A347) build for the iPhone 2G (<code>iPhone1,1</code>)"}}}.
+                The following tag is from the {{#link "/fw/files/appleLogo"}}AppleLogo{{/link}} file from the {{#link "/fw/keys/5A347/iphone11"}}2.0 (build 5A347) build for the iPhone 2G (<code>iPhone1,1</code>){{/link}}.
             </p>
             <pre class="hexView">
         0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F

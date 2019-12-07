@@ -25,17 +25,17 @@
             <h1>DeviceTree</h1>
             <p>
                 A device tree (or DeviceTree) is a tree containing information about a device's various ports and peripherals.
-                It is used by bootloaders ({{{link "/fw/files/iBoot" "iBoot"}}} in the case of iOS) to provide the kernel with a map of the hardware.
+                It is used by bootloaders ({{#link "/fw/files/iBoot"}}iBoot{{/link}} in the case of iOS) to provide the kernel with a map of the hardware.
                 In iOS's case, most nodes in the tree are empty (null) and are instead populated by iBoot before control is passed over to the kernel (XNU).
             </p>
             <p>
-                This file is present in all {{{link "/fw/formats/ipsw" "IPSWs"}}} and is the same for every version of iOS (but different for each processor).
+                This file is present in all {{#link "/fw/formats/ipsw"}}IPSWs{{/link}} and is the same for every version of iOS (but different for each processor).
                 Despite being the same for every version of iOS, the keys when encrypted are different each time.
             </p>
 
             <h2 id="headingFormat">Payload Format</h2>
             <p>
-                Once extracted from the outer container ({{{link "/fw/formats/img2" "IMG2"}}}, {{{link "/fw/formats/img3" "IMG3"}}}, or {{{link "/fw/formats/img4" "IMG4"}}}), the device tree can be dumped.
+                Once extracted from the outer container ({{#link "/fw/formats/img2"}}IMG2{{/link}}, {{#link "/fw/formats/img3"}}IMG3{{/link}}, or {{#link "/fw/formats/img4"}}IMG4{{/link}}), the device tree can be dumped.
                 It follows a simple binary tree format that can be described in just three structures (two if you don't count the root node as its own):
             </p>
             <pre>

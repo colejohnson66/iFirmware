@@ -21,14 +21,14 @@
         <div class="col-lg-10 col-md-9">
             <h1>IMG3</h1>
             <p>
-                Initially used in iPhone OS 2.0 beta 4, IMG3 files were created to address some of the problems with the older {{{link "/fw/formats/8900" "8900"}}} and {{{link "/fw/formats/img2" "IMG2"}}} formats.
-                This format is used on all devices using 32-bit processors ({{{link "/processors/s5l8955" "S5L8955"}}} (A6X) or lower).
-                All 64-bit processors ({{{link "/processors/s5l8960" "S5L8960"}}} (A7) and newer) use the {{{link "/fw/formats/img4" "IMG4"}}} format.
+                Initially used in iPhone OS 2.0 beta 4, IMG3 files were created to address some of the problems with the older {{#link "/fw/formats/8900"}}8900{{/link}} and {{#link "/fw/formats/img2"}}IMG2{{/link}} formats.
+                This format is used on all devices using 32-bit processors ({{#link "/processors/s5l8955"}}S5L8955{{/link}} (A6X) or lower).
+                All 64-bit processors ({{#link "/processors/s5l8960"}}S5L8960{{/link}} (A7) and newer) use the {{#link "/fw/formats/img4"}}IMG4{{/link}} format.
             </p>
 
             <h2 id="headingProblems">Problems With IMG2</h2>
             <p>
-                The biggest problem with the {{{link "/fw/formats/8900" "8900"}}} and the {{{link "/fw/formats/img2" "IMG2"}}} formats was that they were all encrypted with the same key: {{{link "/processors/s5l8900#headingKeys" "Key 0x837"}}}.
+                The biggest problem with the {{#link "/fw/formats/8900"}}8900{{/link}} and the {{#link "/fw/formats/img2"}}IMG2{{/link}} formats was that they were all encrypted with the same key: {{#link "/processors/s5l8900#headingKeys"}}Key 0x837{{/link}}.
                 IMG3 addressed this glaring security hole by storing the encryption keys for each file inside that file (but encrypted).
                 This means that a single key can only decrypt a single file.
             </p>
@@ -39,7 +39,7 @@
                 It consists of a "magic," some info about the file size, an offset to the <code>SHSH</code> tag, and an identifier.
             </p>
             <p>
-                The encryption keys for the file's data are stored in the <code>KBAG</code> tag (see {{{link "#headingTags" "below"}}} for what a tag is).
+                The encryption keys for the file's data are stored in the <code>KBAG</code> tag (see {{#link "#headingTags"}}below{{/link}} for what a tag is).
             </p>
 
             <h2 id="headingTags">Tags</h2>
@@ -56,23 +56,23 @@
                 There exist many different tags:
             </p>
             <ul>
-                <li>{{{link "/fw/formats/img3/bord" "<code>BORD</code>"}}}: Board to be used with</li>
-                <li>{{{link "/fw/formats/img3/cert" "<code>CERT</code>"}}}: Certificate</li>
-                <li>{{{link "/fw/formats/img3/cepo" "<code>CEPO</code>"}}}: Chip epoch</li>
-                <li>{{{link "/fw/formats/img3/chip" "<code>CHIP</code>"}}}: Chip to be used with</li>
-                <li>{{{link "/fw/formats/img3/data" "<code>DATA</code>"}}}: Payload of the file</li>
-                <li>{{{link "/fw/formats/img3/ecid" "<code>ECID</code>"}}}: Exclusive chip ID</li>
-                <li>{{{link "/fw/formats/img3/kbag" "<code>KBAG</code>"}}}: Contains the IV and key required to decrypt the <code>DATA</code> tag</li>
-                <li>{{{link "/fw/formats/img3/cepo" "<code>NONC</code>"}}}: Nonce used when the file was signed</li>
-                <li>{{{link "/fw/formats/img3/ovrd" "<code>OVRD</code>"}}}</li>
-                <li>{{{link "/fw/formats/img3/prod" "<code>PROD</code>"}}}: Production mode</li>
-                <li>{{{link "/fw/formats/img3/rand" "<code>RAND</code>"}}}</li>
-                <li>{{{link "/fw/formats/img3/salt" "<code>SALT</code>"}}}</li>
-                <li>{{{link "/fw/formats/img3/sdom" "<code>SDOM</code>"}}}: Security domain</li>
-                <li>{{{link "/fw/formats/img3/sepo" "<code>SEPO</code>"}}}: Security epoch</li>
-                <li>{{{link "/fw/formats/img3/shsh" "<code>SHSH</code>"}}}: Encrypted hash of the file</li>
-                <li>{{{link "/fw/formats/img3/type" "<code>TYPE</code>"}}}: Type of image; should contain the same string as the <code>ident</code> field in the header</li>
-                <li>{{{link "/fw/formats/img3/vers" "<code>VERS</code>"}}}: iBoot version of the image</li>
+                <li>{{#link "/fw/formats/img3/bord"}}<code>BORD</code>{{/link}}: Board to be used with</li>
+                <li>{{#link "/fw/formats/img3/cert"}}<code>CERT</code>{{/link}}: Certificate</li>
+                <li>{{#link "/fw/formats/img3/cepo"}}<code>CEPO</code>{{/link}}: Chip epoch</li>
+                <li>{{#link "/fw/formats/img3/chip"}}<code>CHIP</code>{{/link}}: Chip to be used with</li>
+                <li>{{#link "/fw/formats/img3/data"}}<code>DATA</code>{{/link}}: Payload of the file</li>
+                <li>{{#link "/fw/formats/img3/ecid"}}<code>ECID</code>{{/link}}: Exclusive chip ID</li>
+                <li>{{#link "/fw/formats/img3/kbag"}}<code>KBAG</code>{{/link}}: Contains the IV and key required to decrypt the <code>DATA</code> tag</li>
+                <li>{{#link "/fw/formats/img3/cepo"}}<code>NONC</code>{{/link}}: Nonce used when the file was signed</li>
+                <li>{{#link "/fw/formats/img3/ovrd"}}<code>OVRD</code>{{/link}}</li>
+                <li>{{#link "/fw/formats/img3/prod"}}<code>PROD</code>{{/link}}: Production mode</li>
+                <li>{{#link "/fw/formats/img3/rand"}}<code>RAND</code>{{/link}}</li>
+                <li>{{#link "/fw/formats/img3/salt"}}<code>SALT</code>{{/link}}</li>
+                <li>{{#link "/fw/formats/img3/sdom"}}<code>SDOM</code>{{/link}}: Security domain</li>
+                <li>{{#link "/fw/formats/img3/sepo"}}<code>SEPO</code>{{/link}}: Security epoch</li>
+                <li>{{#link "/fw/formats/img3/shsh"}}<code>SHSH</code>{{/link}}: Encrypted hash of the file</li>
+                <li>{{#link "/fw/formats/img3/type"}}<code>TYPE</code>{{/link}}: Type of image; should contain the same string as the <code>ident</code> field in the header</li>
+                <li>{{#link "/fw/formats/img3/vers"}}<code>VERS</code>{{/link}}: iBoot version of the image</li>
             </ul>
 
             <h3 id="headingTagsFormat">Tag Format</h3>

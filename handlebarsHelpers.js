@@ -113,24 +113,21 @@ module.exports = (globalRoutes) => {
                 "</span>";
         },
 
-        link: (href, text, classes) => {
-            // ensure classes isn't the handlebars object
-            if (typeof classes !== "string")
-                classes = "";
+        link: (href, options) => {
+            const classes = [];
 
             // hack to see if this is an external link
             if (href[0] !== "/") {
-                classes += " external";
+                classes.push("external");
             } else {
                 // TODO: include special handling for /fw/fs/* and /fw/keys/*
                 if (!globalRoutes.includes(href))
-                    classes += " text-danger";
+                    classes.push("text-danger");
             }
 
-            // TODO: check if destination URL exists first
-            if (classes !== "")
-                return `<a href="${href}" class="${classes}">${text}</a>`;
-            return `<a href="${href}">${text}</a>`
+            if (classes.length !== 0)
+                return `<a href="${href}" class="${classes.join(" ")}">${options.fn(this)}</a>`;
+            return `<a href="${href}">${options.fn(this)}</a>`;
         },
 
         toc: (...params) => {
