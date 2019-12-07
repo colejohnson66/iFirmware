@@ -26,7 +26,7 @@ module.exports = (globalRoutes) => {
         res.locals.metaTags = {
             title: "Firmware Keys"
         };
-        res.render("fw/keys/selectVersion");
+        res.render("fw/keys");
     });
 
     globalRoutes.push("/fw/keys/1.x");
@@ -77,7 +77,7 @@ module.exports = (globalRoutes) => {
         res.locals.metaTags = {
             title: "Firmware Files"
         };
-        res.render("fw/fileList");
+        res.render("fw/files");
     });
 
     globalRoutes.push("/fw/files/appleLogo");
