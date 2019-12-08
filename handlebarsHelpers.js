@@ -88,15 +88,11 @@ module.exports = (globalRoutes) => {
         },
 
         date: (str) => {
-            return "<span class=\"date\">" +
-                moment(str).format("D MMM YYYY") +
-                "</span>";
+            return `<span class="date">${moment(str).format("D MMM YYYY")}</span>`;
         },
 
         dateAndTime: (str) => {
-            return "<span class=\"date\">" +
-                moment(str).format("D MMM YYYY, h:mm:ss A") +
-                "</span>";
+            return `<span class="date">${moment(str).format("D MMM YYYY, h:mm:ss A")}</span>`;
         },
 
         firmwareItemNameMapper: (fwItemName) => {
@@ -112,9 +108,7 @@ module.exports = (globalRoutes) => {
         },
 
         moment: (str) => {
-            return "<span class=\"date\">" +
-                moment(str).format() +
-                "</span>";
+            return `<span class="date">${moment(str).format()}</span>`;
         },
 
         length: (arr) => {
