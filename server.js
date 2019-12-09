@@ -51,6 +51,7 @@ mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
 
 app.use("/", require("./routes/html")(routes));
+app.use("/", require("./routes/htmlBaseband")(routes));
 app.use("/", require("./routes/htmlDevices")(routes));
 app.use("/", require("./routes/htmlFw")(routes));
 app.use("/", require("./routes/htmlIOS")(routes));

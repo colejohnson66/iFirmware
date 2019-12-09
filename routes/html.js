@@ -40,13 +40,7 @@ module.exports = (globalRoutes) => {
 
     // /devices requests served by htmlDevices.js
 
-    //globalRoutes.push("/baseband");
-    //router.get("/baseband", (req, res) => {
-    //    res.locals.metaTags = {
-    //        title: "Baseband"
-    //    };
-    //    res.render("baseband");
-    //});
+    // /baseband requests served by htmlBaseband.js
 
     // /processors requests served by htmlProcessors.js
 
