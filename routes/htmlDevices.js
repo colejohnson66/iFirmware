@@ -32,7 +32,7 @@ module.exports = (globalRoutes) => {
     globalRoutes.push("/devices/iphone/2g");
     router.get("/devices/iphone/2g", (req, res) => {
         res.locals.metaTags = {
-            title: "iPhone \"2G\""
+            title: "iPhone"
         };
         res.render("devices/iphone/2g");
     });
