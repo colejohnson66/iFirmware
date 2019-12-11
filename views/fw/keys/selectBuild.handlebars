@@ -12,18 +12,18 @@
                 <div id="tocTitle">Contents</div>
                 <ul>
                     <li>
-                        1. {{#link "#headingFinal"}}Final{{/link}}
+                        1. <a href="#headingFinal">Final</a>
                         <ul>
                             {{#each finalData}}
-                            <li>1.{{addNum @index 1}}. {{#link "#headingFinal{{device}}"}}{{devicePretty}}{{/link}}</li>
+                            <li>1.{{addNum @index 1}}. <a href="#headingFinal{{device}}">{{devicePretty}}</a></li>
                             {{/each}}
                         </ul>
                     </li>
                     <li>
-                        2. {{#link "#headingBeta"}}Beta{{/link}}
+                        1. <a href="#headingBeta">Beta</a>
                         <ul>
                             {{#each betaData}}
-                            <li>2.{{addNum @index 1}}. {{#link "#headingBeta{{device}}"}}{{devicePretty}}{{/link}}</li>
+                            <li>2.{{addNum @index 1}}. <a href="#headingBeta{{device}}">{{devicePretty}}</a></li>
                             {{/each}}
                         </ul>
                     </li>
@@ -32,7 +32,7 @@
         </div>
 
         <div class="col-lg-10 col-md-9">
-            <h1>Firmware Keys: <code>{{version}}</code></h1>
+            <h1>Firmware Keys <small class="text-muted">{{version}}</small></h1>
 
             <h2 id="headingFinal">Final</h2>
             <div class="container-fluid">
@@ -51,8 +51,7 @@
                                 {{#each builds}}
                                 <tr>
                                     <td>{{{date releaseDate}}}</td>
-                                    <!-- TODO: use {\{#link}} -->
-                                    <td><a href="/fw/keys/{{build}}/{{../device}}">{{version}} (<code>{{build}}</code>)</a></td>
+                                    <td>{{#link (concat "/fw/keys/" build "/" ../device)}}{{../version}} (<code>{{../build}}</code>){{/link}}</td>
                                 </tr>
                                 {{/each}}
                             </tbody>
@@ -79,7 +78,7 @@
                                 {{#each builds}}
                                 <tr>
                                     <td>{{{date releaseDate}}}</td>
-                                    <td><a href="/fw/keys/{{build}}/{{../device}}">{{version}} (<code>{{build}}</code>)</a></td>
+                                    <td>{{#link (concat "/fw/keys/" build "/" ../device)}}{{../version}} (<code>{{../build}}</code>){{/link}}</td>
                                 </tr>
                                 {{/each}}
                             </tbody>

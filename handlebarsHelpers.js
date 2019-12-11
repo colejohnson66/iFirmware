@@ -87,6 +87,10 @@ module.exports = (globalRoutes) => {
             return ret;
         },
 
+        concat: (...params) => {
+            return params.slice(0, -1).join("");
+        },
+
         date: (str) => {
             return `<span class="date">${moment(str).format("D MMM YYYY")}</span>`;
         },
