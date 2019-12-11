@@ -1,0 +1,310 @@
+{
+    "version": "2.x",
+    "finalData": [
+        {
+            "device": "iphone11",
+            "devicePretty": "iPhone",
+            "builds": [
+                {
+                    "version": "2.0",
+                    "build": "5A347",
+                    "releaseDate": "2008-07-11"
+                },
+                {
+                    "version": "2.0.1",
+                    "build": "5B108",
+                    "releaseDate": "2008-08-04"
+                },
+                {
+                    "version": "2.0.2",
+                    "build": "5C1",
+                    "releaseDate": "2008-08-18"
+                },
+                {
+                    "version": "2.1",
+                    "build": "5F136",
+                    "releaseDate": "2008-09-12"
+                },
+                {
+                    "version": "2.2",
+                    "build": "5G77",
+                    "releaseDate": "2008-11-21"
+                },
+                {
+                    "version": "2.2.1",
+                    "build": "5H11",
+                    "releaseDate": "2009-01-27"
+                }
+            ]
+        },
+        {
+            "device": "iphone12",
+            "devicePretty": "iPhone 3G",
+            "builds": [
+                {
+                    "version": "2.0",
+                    "build": "5A345",
+                    "releaseDate": "2008-07-11",
+                    "noIpsw": true
+                },
+                {
+                    "version": "2.0",
+                    "build": "5A347",
+                    "releaseDate": "2008-07-11"
+                },
+                {
+                    "version": "2.0.1",
+                    "build": "5B108",
+                    "releaseDate": "2008-08-04"
+                },
+                {
+                    "version": "2.0.2",
+                    "build": "5C1",
+                    "releaseDate": "2008-08-18"
+                },
+                {
+                    "version": "2.1",
+                    "build": "5F136",
+                    "releaseDate": "2008-09-12"
+                },
+                {
+                    "version": "2.2",
+                    "build": "5G77",
+                    "releaseDate": "2008-11-21"
+                },
+                {
+                    "version": "2.2.1",
+                    "build": "5H11",
+                    "releaseDate": "2009-01-27"
+                }
+            ]
+        },
+        {
+            "device": "ipod11",
+            "devicePretty": "iPod touch",
+            "builds": [
+                {
+                    "version": "2.0",
+                    "build": "5A347",
+                    "releaseDate": "2008-07-11"
+                },
+                {
+                    "version": "2.0.1",
+                    "build": "5B108",
+                    "releaseDate": "2008-08-04"
+                },
+                {
+                    "version": "2.0.2",
+                    "build": "5C1",
+                    "releaseDate": "2008-08-18"
+                },
+                {
+                    "version": "2.1",
+                    "build": "5F137",
+                    "releaseDate": "2008-09-09"
+                },
+                {
+                    "version": "2.2",
+                    "build": "5G77",
+                    "releaseDate": "2008-11-21"
+                },
+                {
+                    "version": "2.2.1",
+                    "build": "5H11",
+                    "releaseDate": "2009-01-27"
+                }
+            ]
+        },
+        {
+            "device": "ipod21",
+            "devicePretty": "iPod touch (2nd gen)",
+            "builds": [
+                {
+                    "version": "2.1.1",
+                    "build": "5F138",
+                    "releaseDate": "2008-09-09"
+                },
+                {
+                    "version": "2.2",
+                    "build": "5G77a",
+                    "releaseDate": "2008-11-21"
+                },
+                {
+                    "version": "2.2.1",
+                    "build": "5H11a",
+                    "releaseDate": "2009-01-27"
+                }
+            ]
+        }
+    ],
+    "betaData": [
+        {
+            "device": "iphone11",
+            "devicePretty": "iPhone",
+            "builds": [
+                {
+                    "version": "2.0 beta 2",
+                    "build": "5A225c",
+                    "releaseDate": "2008-03-27"
+                },
+                {
+                    "version": "2.0 beta 3",
+                    "build": "5A240d",
+                    "releaseDate": "2008-04-08"
+                },
+                {
+                    "version": "2.0 beta 4",
+                    "build": "5A258f",
+                    "releaseDate": "2008-04-23"
+                },
+                {
+                    "version": "2.0 beta 5",
+                    "build": "5A274d",
+                    "releaseDate": "2008-05-06"
+                },
+                {
+                    "version": "2.0 beta 6 Pre-Release",
+                    "build": "5A292g",
+                    "releaseDate": "2008-05-28"
+                },
+                {
+                    "version": "2.0 beta 6 Final",
+                    "build": "5A308",
+                    "releaseDate": "2008-05-29"
+                },
+                {
+                    "version": "2.0 beta 7",
+                    "build": "5A331",
+                    "releaseDate": "2008-06-09"
+                },
+                {
+                    "version": "2.0 GM",
+                    "build": "5A345",
+                    "releaseDate": "2008-06-26"
+                },
+                {
+                    "version": "2.1 beta",
+                    "build": "5F90",
+                    "releaseDate": "2008-07-24"
+                },
+                {
+                    "version": "2.1 beta 2",
+                    "build": "5F97",
+                    "releaseDate": "2008-07-30"
+                },
+                {
+                    "version": "2.1 beta 3",
+                    "build": "5F108",
+                    "releaseDate": "2008-08-08"
+                },
+                {
+                    "version": "2.1 beta 4",
+                    "build": "5F116",
+                    "releaseDate": "2008-08-12"
+                },
+                {
+                    "version": "2.2 beta",
+                    "build": "5G29",
+                    "releaseDate": "2008-09-25"
+                },
+                {
+                    "version": "2.2 beta 2",
+                    "build": "5G53",
+                    "releaseDate": "2008-10-20"
+                }
+            ]
+        },
+        {
+            "device": "iphone12",
+            "devicePretty": "iPhone 3G",
+            "builds": [
+                {
+                    "version": "2.2 beta",
+                    "build": "5G29",
+                    "releaseDate": "2008-09-25"
+                },
+                {
+                    "version": "2.2 beta 2",
+                    "build": "5G53",
+                    "releaseDate": "2008-10-20"
+                }
+            ]
+        },
+        {
+            "device": "ipod11",
+            "devicePretty": "iPod touch",
+            "builds": [
+                {
+                    "version": "2.0 beta 2",
+                    "build": "5A225c",
+                    "releaseDate": "2008-03-27"
+                },
+                {
+                    "version": "2.0 beta 3",
+                    "build": "5A240d",
+                    "releaseDate": "2008-04-08"
+                },
+                {
+                    "version": "2.0 beta 4",
+                    "build": "5A258f",
+                    "releaseDate": "2008-04-23"
+                },
+                {
+                    "version": "2.0 beta 5",
+                    "build": "5A274d",
+                    "releaseDate": "2008-05-06"
+                },
+                {
+                    "version": "2.0 beta 6 Pre-Release",
+                    "build": "5A292g",
+                    "releaseDate": "2008-05-28"
+                },
+                {
+                    "version": "2.0 beta 6 Final",
+                    "build": "5A308",
+                    "releaseDate": "2008-05-29"
+                },
+                {
+                    "version": "2.0 beta 7",
+                    "build": "5A331",
+                    "releaseDate": "2008-06-09"
+                },
+                {
+                    "version": "2.0 GM",
+                    "build": "5A345",
+                    "releaseDate": "2008-06-26"
+                },
+                {
+                    "version": "2.1 beta",
+                    "build": "5F90",
+                    "releaseDate": "2008-07-24"
+                },
+                {
+                    "version": "2.1 beta 2",
+                    "build": "5F97",
+                    "releaseDate": "2008-07-30"
+                },
+                {
+                    "version": "2.1 beta 3",
+                    "build": "5F108",
+                    "releaseDate": "2008-08-08"
+                },
+                {
+                    "version": "2.1 beta 4",
+                    "build": "5F116",
+                    "releaseDate": "2008-08-12"
+                },
+                {
+                    "version": "2.2 beta",
+                    "build": "5G29",
+                    "releaseDate": "2008-09-25"
+                },
+                {
+                    "version": "2.2 beta 2",
+                    "build": "5G53",
+                    "releaseDate": "2008-10-20"
+                }
+            ]
+        }
+    ]
+}

@@ -37,6 +37,14 @@ module.exports = (globalRoutes) => {
         res.render("fw/keys/selectBuild", require("../data/firmwares1.json"));
     });
 
+    globalRoutes.push("/fw/keys/2.x");
+    router.get("/fw/keys/2.x", (req, res) => {
+        res.locals.metaTags = {
+            title: "Firmware Keys: 2.x"
+        };
+        res.render("fw/keys/selectBuild", require("../data/firmwares2.json"));
+    });
+
 
     globalRoutes.push("/fw/fs");
     router.get("/fw/fs", (req, res) => {

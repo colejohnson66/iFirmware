@@ -20,7 +20,7 @@
                         </ul>
                     </li>
                     <li>
-                        1. <a href="#headingBeta">Beta</a>
+                        2. <a href="#headingBeta">Beta</a>
                         <ul>
                             {{#each betaData}}
                             <li>2.{{addNum @index 1}}. <a href="#headingBeta{{device}}">{{devicePretty}}</a></li>
@@ -51,7 +51,11 @@
                                 {{#each builds}}
                                 <tr>
                                     <td>{{{date releaseDate}}}</td>
+                                    {{#if noIpsw}}
+                                    <td>{{version}} (<code>{{build}}</code>)</td>
+                                    {{else}}
                                     <td>{{#link (concat "/fw/keys/" build "/" ../device)}}{{../version}} (<code>{{../build}}</code>){{/link}}</td>
+                                    {{/if}}
                                 </tr>
                                 {{/each}}
                             </tbody>
@@ -78,7 +82,11 @@
                                 {{#each builds}}
                                 <tr>
                                     <td>{{{date releaseDate}}}</td>
+                                    {{#if noIpsw}}
+                                    <td>{{version}} (<code>{{build}}</code>)</td>
+                                    {{else}}
                                     <td>{{#link (concat "/fw/keys/" build "/" ../device)}}{{../version}} (<code>{{../build}}</code>){{/link}}</td>
+                                    {{/if}}
                                 </tr>
                                 {{/each}}
                             </tbody>
