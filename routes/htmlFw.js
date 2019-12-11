@@ -34,7 +34,7 @@ module.exports = (globalRoutes) => {
         res.locals.metaTags = {
             title: "Firmware Keys: 1.x"
         };
-        res.render("fw/keys/selectBuild", require("../data/firmwares-1x.json"));
+        res.render("fw/keys/selectBuild", require("../data/firmwares1.json"));
     });
 
 
