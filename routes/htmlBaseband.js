@@ -38,6 +38,14 @@ module.exports = (globalRoutes) => {
         res.render("baseband/pmb8876");
     });
 
+    globalRoutes.push("/baseband/pmb8878");
+    router.get("/baseband/pmb8878", (req, res) => {
+        res.locals.metaTags = {
+            title: "PMB8878"
+        };
+        res.render("baseband/pmb8878");
+    });
+
 
     return router;
 }

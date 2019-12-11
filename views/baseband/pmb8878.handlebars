@@ -1,0 +1,161 @@
+{{> nav navDevice=true}}
+
+<div class="container-fluid">
+    {{{breadcrumbs
+        (arr "Baseband" "/baseband")
+        "PMB8876"
+    }}}
+
+    <div class="row">
+        <div class="col-lg-2 col-md-3">
+            {{{toc
+                (arr "#headingFirmwareVersions" "Known Firmware Versions"
+                    (arr "#headingFirmwareVersionsIPad" "iPad")
+                    (arr "#headingFirmwareVersionsIPhone" "iPhone 3G and 3GS"))
+            }}}
+        </div>
+
+        <div class="col-lg-10 col-md-9">
+            <h1>PMB8876</h1>
+            <p>
+                The PMB8876 is the baseband processor used in the {{#link "/devices/iphone/3g"}}iPhone 3G{{/link}}, {{#link "/devices/iphone/3gs"}}iPhone 3GS{{/link}}, and {{#link "/devices/ipad/1g"}}original iPad{{/link}}.
+                It is manufactured by Infineon and marketed as the "X-Gold 608."
+            </p>
+
+            <h2 id="headingFirmwareVersions">Known Firmware Versions</h2>
+            <h3 id="headingFirmwareVersionsIPad">iPad</h3>
+            <pre>
+06.15.00    3.2          (7B367)
+            3.2.1        (7B405)
+            3.2.2        (7B500)
+07.08.00    4.2 beta     (8C5091e)
+07.09.00    4.2 beta 2   (8C5101)
+07.10.00    4.2 beta 3   (8C5115c)
+            4.2          (8C134 & 8C134b)
+            4.2.1 GM     (8C148)
+            4.2.1        (8C148)
+07.11.00    4.3 beta     (8F5148b)
+            4.3 beta 2   (8F5153d)
+            4.3 beta 3   (8F5166b)
+            4.3 GM       (8F190)
+            4.3          (8F190)
+07.11.01    4.3.1        (8G4)
+            4.3.2        (8H7)
+            4.3.3        (8J3)
+            4.3.4        (8K2)
+            4.3.5        (8L1)
+            5.0 beta     (9A5220p)
+            5.0 beta 2   (9A5248d)
+            5.0 beta 3   (9A5258f)
+            5.0 beta 4   (8A5274d)
+            5.0 beta 5   (8A5288d)
+            5.0 beta 6   (8A5302b)
+            5.0 beta 7   (8A5313e)
+            5.0 GM       (9A334)
+            5.0.1 beta   (9A402)
+            5.0.1 beta 2 (9A404)
+            5.0.1        (9A405)
+            5.1 beta     (9B5117b)
+            5.1 beta 2   (9B5127c)
+            5.1 beta 3   (9B5141a)
+            5.1          (9B176)
+            5.1.1        (9B206)</pre>
+
+            <h3 id="headingFirmwareVersionsIPhone">iPhone 3G and 3GS</h3>
+            <div class="alert alert-primary" role="alert">
+                Some versions have question marks in them.
+                This is because the full version number is unknown.
+            </div>
+            <pre>
+01.43.00    2.0 beta 7   (Build 5A331; Internal Beta)
+01.43.02    2.0          (Unknown Internal Beta)
+01.45.00    2.0          (Build 5A345)
+01.45.00    2.0          (Build 5A347)
+01.48.02    2.0.1        (Build 5B108)
+02.08.01    2.0.2        (Build 5C1)
+02.11.07    2.1          (Build 5F136)
+02.??.??    2.2 beta     (Build 5G29)
+02.??.??    2.2 beta 2   (Build 5G53)
+02.28.00    2.2          (Build 5G77)
+02.30.03    2.2.1        (Build 5H11)
+04.20.01    3.0 beta     (Build 7A238j)
+04.22.01    3.0 beta 2   (Build 7A259g)
+04.24.02    3.0 beta 3   (Build 7A280f)
+04.26.04    3.0 beta 4   (Build 7A300g)
+04.26.08    3.0 beta 5   (Build 7A312g)
+            3.0 GM       (Build 7A341)
+            3.0          (Build 7A341)
+            3.0.1        (Build 7A400)
+05.08.01    3.1 beta     (Build 7C97d)
+05.10.01    3.1 beta 2   (Build 7C106c)
+05.11.04    3.1 beta 3   (Build 7C116a)
+05.11.07    3.1          (Build 7C144)
+            3.1.2        (Build 7D11)
+05.12.01    3.1.3        (Build 7E18)
+05.13.03    4.0 beta     (Build 8A230m)
+            4.0 beta 2   (Build 8A248c)
+05.13.04    4.0 beta 3   (Build 8A260b)
+            4.0 beta 4   (Build 8A274b)
+            4.0 GM       (Build 8A293)
+            4.0          (Build 8A293)
+            4.0.1        (Build 8A306)
+            4.0.2        (Build 8A400)
+            4.1 beta     (Build 8B5080c)
+05.14.01    4.1 beta 2   (Build 8B5091b)
+            4.1 beta 3   (Build 8B5097d)
+05.14.02    4.1          (Build 8B117)
+05.15.01    4.2 beta     (Build 8C5091e)
+            4.2 beta 2   (Build 8C5101c)
+05.15.04    4.2 beta 3   (Build 8C5115c)
+            4.2 GM       (Build 8C134)
+            4.2.1 GM     (Build 8C148)
+            4.2.1        (Build 8C148a)
+05.16.00    4.3 beta     (Build 8F5148b)
+            4.3 beta 2   (Build 8F5153d)
+            4.3 beta 3   (Build 8F5166b)
+            4.3 GM       (Build 8F190)
+05.16.01    4.3          (Build 8F190)
+05.16.02    4.3.1        (Build 8G4)
+            4.3.2        (Build 8H7)
+            4.3.3        (Build 8J2)
+            4.3.4        (Build 8K2)
+            4.3.5        (Build 8L1)
+            5.0 beta     (Build 9A5220p)
+            5.0 beta 2   (Build 9A5248d)
+            5.0 beta 3   (Build 9A5258f)
+            5.0 beta 4   (Build 9A5274d)
+05.16.05    5.0 beta 5   (Build 9A5288d)
+            5.0 beta 6   (Build 9A5302b)
+            5.0 beta 7   (Build 9A5313e)
+            5.0 GM       (Build 9A334)
+            5.0.1 beta   (Build 9A402)
+            5.0.1 beta 2 (Build 9A404)
+            5.0.1        (Build 9A405)
+            5.1 beta     (Build 9B5117b)
+            5.1 beta 2   (Build 9B5127c)
+            5.1 beta 3   (Build 9B5141a)
+            5.1          (Build 9B176)
+            5.1.1        (Build 9B206)
+05.16.06    6.0 beta     (Build 10A5316k)
+            6.0 beta 2   (Build 10A5336d)
+            6.0 beta 3   (Build 10A5355d)
+            6.0 beta 4   (Build 10A5376e)
+05.16.07    6.0 GM       (Build 10A403)
+            6.0          (Build 10A403)
+            6.0.1        (Build 10A523)
+            6.1 beta     (Build 10B5095f)
+            6.1 beta 2   (Build 10B5105c)
+            6.1 beta 3   (Build 10B5117b)
+            6.1 beta 4   (Build 10B5126b)
+            6.1 beta 5   (Build 10B141)
+            6.1          (Build 10B141)
+            6.1.1 beta   (Build 10B311)
+05.16.08    6.1.2        (Build 10B146)
+            6.1.3 beta 2 (Build 10B318)
+            6.1.3        (Build 10B329)
+            6.1.6        (Build 10B500)</pre>
+        </div>
+    </div>
+</div>
+
+{{> footer}}
