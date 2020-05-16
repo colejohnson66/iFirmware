@@ -1,5 +1,0 @@
-- Remove or update `/routes/devices.json` (used by `/routes/htmlFw.js`)
-
-- Finish the API
-
-- Remove mongo dependency (store keys in json accessed by code)

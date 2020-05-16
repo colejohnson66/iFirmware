@@ -1,0 +1,76 @@
+{
+    "initialOffset": "0x1C8C",
+    "bytes": "47 41 42 4B 44 00 00 00 38 00 00 00 01 00 00 00 80 00 00 00 CA 5C 08 00 96 7C 23 64 8C 1F 24 FE 6A BD 34 19 35 30 CF F9 80 84 9C 41 7F 49 F0 14 D1 2B F2 73 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+    "highlights": [
+        {
+            "start": "0x1C8C",
+            "length": 4
+        },
+        {
+            "start": "0x1C98",
+            "length": 4
+        },
+        {
+            "start": "0x1C9C",
+            "length": 4
+        },
+        {
+            "start": "0x1CA0",
+            "length": 16
+        },
+        {
+            "start": "0x1CB0",
+            "length": 16
+        }
+    ],
+    "explanation": [
+        {
+            "offset": "0x1C8C",
+            "length": 4,
+            "name": "magic",
+            "explanation": "When interpreted in little endian order, these bytes give the string <code>KBAG</code>."
+        },
+        {
+            "offset": "0x1C90",
+            "length": 4,
+            "name": "totalLength",
+            "explanation": "Indicates that this tag is <code>0x44</code> (68) bytes long."
+        },
+        {
+            "offset": "0x1C94",
+            "length": 4,
+            "name": "dataLength",
+            "explanation": "Indicates that this tag (without the header) is <code>0x38</code> (56) bytes long."
+        },
+        {
+            "offset": "0x1C98",
+            "length": 4,
+            "name": "cryptState",
+            "explanation": "Indicates that this tag's IV/key pair is encrypted with the GID key."
+        },
+        {
+            "offset": "0x1C9C",
+            "length": 4,
+            "name": "aesType",
+            "explanation": "Indicates that the <Link href=\"/file/format/img3/data\"><a><code>DATA</code></a></Link> tag is encrypted with AES-128."
+        },
+        {
+            "offset": "0x1CA0",
+            "length": 16,
+            "name": "iv",
+            "explanation": "The encrypted IV."
+        },
+        {
+            "offset": "0x1CB0",
+            "length": 16,
+            "name": "key",
+            "explanation": "The encrypted key."
+        },
+        {
+            "offset": "0x1CC0",
+            "length": 16,
+            "name": "pad",
+            "explanation": "Padding."
+        }
+    ]
+}

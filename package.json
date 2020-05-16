@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "description": "iOS Firmware Website Server",
-  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:HexwareSoftware/idecryptit-web.git"
@@ -14,15 +13,16 @@
     "url": "https://github.com/HexwareSoftware/idecryptit-web/issues"
   },
   "homepage": "https://github.com/HexwareSoftware/idecryptit-web#readme",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
-    "axios": "^0.19.2",
-    "cheerio": "^1.0.0-rc.3",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^4.0.4",
-    "moment": "^2.25.3",
-    "mongo-sanitize": "^1.1.0",
-    "mongoose": "^5.9.12",
-    "morgan": "^1.10.0"
+    "bootstrap": "^4.5.0",
+    "next": "^9.4.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1"
   }
 }

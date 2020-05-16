@@ -14,15 +14,15 @@ Then install `yarn` if you don't have it:
 Then you can run the following:
 
 ```bash
-> git clone https://github.com/HexwareSoftware/ios-firmware-web
-> cd ios-firmware-web
+> git clone https://github.com/HexwareSoftware/idecryptit-web
+> cd idecryptit-web
 > yarn install
-> node server.js
+> yarn dev
 ```
 
 After launching the server, a message will appear in the console telling you the server is "live":
 ```
-Server now live at http://localhost:8080/
+ready - started server on http://localhost:3000
 ```
 Enter that URL into your favorite browser to begin browsing.
 
