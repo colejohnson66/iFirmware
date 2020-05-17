@@ -5,14 +5,14 @@
   "description": "iOS Firmware Website Server",
   "repository": {
     "type": "git",
-    "url": "git@github.com:HexwareSoftware/idecryptit-web.git"
+    "url": "git@github.com:colejohnson66/idecryptit-web.git"
   },
   "author": "Cole Johnson",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/HexwareSoftware/idecryptit-web/issues"
+    "url": "https://github.com/colejohnson66/idecryptit-web/issues"
   },
-  "homepage": "https://github.com/HexwareSoftware/idecryptit-web#readme",
+  "homepage": "https://github.com/colejohnson66/idecryptit-web#readme",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

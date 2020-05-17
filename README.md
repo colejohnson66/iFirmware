@@ -14,7 +14,7 @@ Then install `yarn` if you don't have it:
 Then you can run the following:
 
 ```bash
-> git clone https://github.com/HexwareSoftware/idecryptit-web
+> git clone https://github.com/colejohnson66/idecryptit-web
 > cd idecryptit-web
 > yarn install
 > yarn dev
