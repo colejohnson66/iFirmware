@@ -16,62 +16,103 @@
  */
 import { Table } from "react-bootstrap";
 
-// TODO: add ISO/IEC 8859-1 (Latin 1) text representation to the side
-// TODO: add highlighting (`data.highlights`)
-export default ({ data }) => {
-    const offsetHeader = "        0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F";
+const colorClasses = [
+    "color-red", "color-orange",
+    "color-yellow", "color-green",
+    "color-indigo", "color-blue",
+    "color-purple"
+];
 
-    const bytes = data.bytes.split(' ');
+// TODO: add ISO/IEC 8859-1 (Latin 1) text representation to the side
+export default ({ data }) => {
+    const offsetHeader = <div className="hexHeader">        0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F</div>;
 
     const initialOffset = parseInt(data.initialOffset);
     const bytesToSkip = initialOffset % 16;
-    const firstLineOffset = initialOffset - bytesToSkip;
 
-    const lines = [];
-    for (let i = 0; i < bytes.length;) {
-        if (i === 0) {
-            lines.push(bytes.slice(0, 16 - bytesToSkip));
-            i += 16 - bytesToSkip;
+    // TODO: handle case where wrapping happens
+    // Add highlighting <span> tags
+    let currentColor = 0;
+    const parsedBlockArr = data.detail.map((block, idx) => {
+        let blockText = "";
+        if (idx === 0 && bytesToSkip !== 0) {
+            // handle special case where there's empty space in line
+            blockText = "   ".repeat(bytesToSkip);
+        }
+
+        if (block.highlight === true) {
+            blockText += `<span class="${colorClasses[currentColor]}">` +
+                block.bytes + `</span>`;
+            currentColor++;
         } else {
-            // don't need to check for overrun, JS will end the slice early if we do
-            lines.push(bytes.slice(i, i + 16));
-            i += 16;
+            blockText += block.bytes;
         }
-    }
 
-    const offsets = [];
-    for (let i = 0; i < lines.length; i++)
-        offsets.push(firstLineOffset + (i * 16));
-
-    const textLines = lines.map((line, idx) => {
-        if (idx === 0) {
-            return <div>
-                {offsets[idx].toString(16).toUpperCase()}
-                {":  "}
-                {"   ".repeat(bytesToSkip)}
-                {line.join(" ")}
-            </div>;
-        }
-        return <div>
-            {offsets[idx].toString(16).toUpperCase()}
-            {":  "}
-            {line.join(" ")}
-        </div>;
+        // TODO: better calculation for `length`
+        return {
+            text: blockText,
+            length: block.bytes.split(" ").length
+        };
     });
 
+    let currentFileOffset = initialOffset;
+    const linesData = [];
+    let currentLine = "";
+    parsedBlockArr.forEach((parsedBlock, idx) => {
+        if (currentLine === "")
+            currentLine = parsedBlock.text;
+        else
+            currentLine += " " + parsedBlock.text;
+
+        currentFileOffset += parsedBlock.length;
+        // !!!: This won't work if wrapping is needed!
+        if ((currentFileOffset % 16) === 0) {
+            linesData.push(currentLine);
+            currentLine = "";
+        }
+    });
+
+    // calculate line offsets
+    const firstLineFileOffset = initialOffset - bytesToSkip;
+    const offsets = [];
+    linesData.forEach((_, idx) => {
+        offsets.push((firstLineFileOffset + (idx * 16)).toString(16).toUpperCase());
+    });
+
+    const lines = linesData.map((line, idx) => {
+        return <div key={idx} className="hexLine" dangerouslySetInnerHTML={{
+            __html: `${offsets[idx]}  ${line}`
+        }} />;
+    });
+
+    // build explanation detail
+    let table = [];
+    if (data.hasExplanations) {
+        let currentColor = 0;
+        let currentFileOffset = initialOffset;
+
+        data.detail.forEach((block) => {
+            const blockLength = block.bytes.split(" ").length;
+            table.push(<tr>
+                <td><code className={block.highlight ? colorClasses[currentColor] : null}>{currentFileOffset.toString(16).toUpperCase()}</code></td>
+                <td>{blockLength}</td>
+                <td><code>{block.name}</code>: <span dangerouslySetInnerHTML={{
+                    __html: block.explanation
+                }} /></td>
+            </tr>);
+            if (block.highlight)
+                currentColor++;
+            currentFileOffset += blockLength;
+        });
+    }
+
     return (
-        <>
-            <pre style={{
-                border: "1px",
-                borderStyle: "solid",
-                padding: "1rem",
-                width: "fit-content"
-            }}>
+        <div className="hex">
+            <pre>
                 {offsetHeader}
-                {"\n"}
-                {textLines}
+                {lines}
             </pre>
-            {data.explanation ?
+            {data.hasExplanations ?
                 <Table>
                     <thead className="thead-light">
                         <tr>
@@ -81,18 +122,10 @@ export default ({ data }) => {
                         </tr>
                     </thead>
                     <tbody>
-                        {data.explanation.map((row) => {
-                            return (
-                                <tr>
-                                    <td><code>{row.offset}</code></td>
-                                    <td>{row.length}</td>
-                                    <td><code>{row.name}</code>: {<span dangerouslySetInnerHTML={{ __html: row.explanation }} />}</td>
-                                </tr>
-                            );
-                        })}
+                        {table}
                     </tbody>
                 </Table>
                 : null}
-        </>
+        </div>
     );
 };

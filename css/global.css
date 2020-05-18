@@ -55,3 +55,48 @@ h2 {
 time {
     white-space: nowrap;
 }
+
+.hex pre {
+    border: 1px;
+    border-style: solid;
+    padding: 1rem;
+    width: fit-content;
+}
+.hex table code {
+    color: #212529;
+}
+.hex pre .color-red,
+.hex table .color-red {
+    background-color: #f44336;
+    color: white;
+}
+.hex pre .color-orange,
+.hex table .color-orange {
+    background-color: #ff9800;
+    color: black;
+}
+.hex pre .color-yellow,
+.hex table .color-yellow {
+    background-color: #ffeb3b;
+    color: black;
+}
+.hex pre .color-green,
+.hex table .color-green {
+    background-color: #4caf50;
+    color: black;
+}
+.hex pre .color-blue,
+.hex table .color-blue {
+    background-color: #03a9f4;
+    color: black;
+}
+.hex pre .color-indigo,
+.hex table .color-indigo {
+    background-color: #3f51b5;
+    color: white;
+}
+.hex pre .color-purple,
+.hex table .color-purple {
+    background-color: #9c27b0;
+    color: white;
+}
