@@ -22,7 +22,7 @@
         },
         {
             "bytes": "01 00 00 00",
-            "highlight": false,
+            "highlight": true,
             "name": "cryptState",
             "explanation": "Indicates that this tag's IV/key pair is encrypted with the GID key."
         },

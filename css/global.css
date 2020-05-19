@@ -73,22 +73,22 @@ time {
 .hex pre .color-orange,
 .hex table .color-orange {
     background-color: #ff9800;
-    color: black;
+    color: #212529;
 }
 .hex pre .color-yellow,
 .hex table .color-yellow {
     background-color: #ffeb3b;
-    color: black;
+    color: #212529;
 }
 .hex pre .color-green,
 .hex table .color-green {
     background-color: #4caf50;
-    color: black;
+    color: #212529;
 }
 .hex pre .color-blue,
 .hex table .color-blue {
     background-color: #03a9f4;
-    color: black;
+    color: #212529;
 }
 .hex pre .color-indigo,
 .hex table .color-indigo {

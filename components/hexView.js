@@ -19,7 +19,7 @@ import { Table } from "react-bootstrap";
 const colorClasses = [
     "color-red", "color-orange",
     "color-yellow", "color-green",
-    "color-indigo", "color-blue",
+    "color-blue", "color-indigo",
     "color-purple"
 ];
 
@@ -91,9 +91,9 @@ export default ({ data }) => {
         let currentColor = 0;
         let currentFileOffset = initialOffset;
 
-        data.detail.forEach((block) => {
+        data.detail.forEach((block, idx) => {
             const blockLength = block.bytes.split(" ").length;
-            table.push(<tr>
+            table.push(<tr key={idx}>
                 <td><code className={block.highlight ? colorClasses[currentColor] : null}>{currentFileOffset.toString(16).toUpperCase()}</code></td>
                 <td>{blockLength}</td>
                 <td><code>{block.name}</code>: <span dangerouslySetInnerHTML={{
