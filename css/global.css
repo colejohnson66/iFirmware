@@ -100,3 +100,8 @@ time {
     background-color: #9c27b0;
     color: white;
 }
+
+.referenceList {
+    list-style-type: none;
+    padding-left: 0;
+}

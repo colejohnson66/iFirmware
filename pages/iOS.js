@@ -16,9 +16,11 @@
  */
 import { Alert, Breadcrumb, Col, Container, Row, Table } from "react-bootstrap";
 
+import Cite from "../components/cite";
 import DateTime from "../components/dateTime";
 import Layout from "../components/layout";
 import Link from "next/link";
+import Ref from "../components/ref";
 import TOC from "../components/toc";
 import constants from "../constants";
 
@@ -43,6 +45,7 @@ export default () => {
                                 <TOC.Entry href="#headingVersionsAppleTV" text="tvOS" />
                                 <TOC.Entry href="#headingVersionsIPad" text="iPadOS" />
                             </TOC.Entry>
+                            <TOC.Entry href="#headingReferences" text="References" />
                         </TOC.Root>
                     </Col>
                     <Col {...constants.columns.content}>
@@ -54,13 +57,15 @@ export default () => {
                         <h2 id="headingHistory">History</h2>
                         <p>
                             iPhone OS began in <DateTime dateTime="2005" /> and was announced alongside the <Link href="/device/iPhone/2g"><a>original iPhone</a></Link> at the Macworld Conference &amp; Expo on <DateTime dateTime="2007-01-09" />.
-                            Later that year, on <DateTime dateTime="2007-06-27" />, the original iPhone was released to the world with <Link href="/iOS/1"><a>iPhone OS 1.0</a></Link>.
+                            Later that year, on <DateTime dateTime="2007-06-27" />, the original iPhone was released to the world with (what is now) <Link href="/iOS/1"><a>iPhone OS 1.0</a></Link>.
                         </p>
 
                         <h3 id="headingName">Name</h3>
                         <p>
-                            Initially, iOS was called "iPhone OS" as it was designed for the iPhone.
-                            However it was later utilized by the iPod touch, iPad, and Apple TV (second generation and newer).
+                            Initially, iOS didn't even have a name;
+                            It was initially just said to run a trimmed down version of <a href="https://en.wikipedia.org/wiki/MacOS" className="external">Mac OS X</a> (now <i>macOS</i>).
+                            With the release of the <Link href="/iOS/2"><a>iPhone OS 2</a></Link> and <Link href="/iOS/sdk"><a>iPhone SDK</a></Link>, Apple dubbed it <i>iPhone OS</i>.
+                            Initially chosen as it was what ran on the iPhone, it later was utilized by the iPod touch, iPad, and Apple TV (second generation and newer).
                             As such, iPhone OS was renamed "iOS" with the <Link href="/iOS/4"><a>fourth major version</a></Link>.
                             This name was utilized for all <Link href="/device"><a>iDevices</a></Link> for many years.
                         </p>
@@ -76,7 +81,8 @@ export default () => {
                         <p>
                             Four years after the release of iOS 9, with <Link href="/iOS/13"><a>iOS 13</a></Link>, Apple again rebranded iOS, but this time for their iPad line of products.
                             The resulting operating system was named <i>iPadOS</i>.
-                            AccordiPhone OS ing to Apple, the change was made to differentiate the iPad from the iPhone and iPod touch lines as it (iPadOS) would contain a greater emphasis on multitasking.
+                            According to Apple, the change was made to differentiate the iPad from the iPhone and iPod touch lines as it (iPadOS) would contain a greater emphasis on multitasking.
+                            <Ref.Link name="AppleUnveilsIPadOS" />
                             {/* TODO: Reference https://appleinsider.com/articles/19/06/03/apple-supplements-ios-13-with-new-tablet-specific-ipad-os-branch */}
                         </p>
 
@@ -173,6 +179,18 @@ export default () => {
                         <ul>
                             <li><Link href="/iOS/iPadOS/13"><a>iPadOS 13</a></Link></li>
                         </ul>
+
+                        <Ref.ListRoot>
+                            <Ref.ListEntry name="AppleUnveilsIPadOS">
+                                <Cite.Web
+                                    author="Wuerthele, Mike"
+                                    date="2019-06-03"
+                                    url="https://appleinsider.com/articles/19/06/03/apple-supplements-ios-13-with-new-tablet-specific-ipad-os-branch"
+                                    title="Apple unveils iPadOS, adding features specifically to iPad"
+                                    website="AppleInsider"
+                                />
+                            </Ref.ListEntry>
+                        </Ref.ListRoot>
                     </Col>
                 </Row>
             </Container>

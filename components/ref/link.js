@@ -14,14 +14,15 @@
  * You should have received a copy of the GNU Affero General Public License along
  *   with this program. If not, see <https://www.gnu.org/licenses/>.
  */
+import Link from "next/link";
 import React from "react";
 
 export default (props) => {
     return (
         <sup>
-            <Link href={`#reference-${props.refName}`}>
+            <Link href={`#reference-${props.name}`}>
                 <a>
-                    [{props.refName}]
+                    [{props.name}]
                 </a>
             </Link>
         </sup>

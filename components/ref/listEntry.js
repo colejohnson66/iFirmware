@@ -19,6 +19,8 @@ import React from "react";
 export default (props) => {
     return (
         <li id={`reference-${props.name}`}>
+            [{props.name}]
+            {" - "}
             {props.children}
         </li>
     );
