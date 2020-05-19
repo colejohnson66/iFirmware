@@ -49,7 +49,7 @@ export default (props) => {
     if (!Array.isArray(props.standards))
         return <span className="text-danger">ERROR: <code>props.standards</code> must be an array</span>;
 
-    const linksElems = props.standards.map((standard, idx) => {
+    const linkElements = props.standards.map((standard, idx) => {
         if (Object.keys(map).includes(standard))
             return (
                 <>
@@ -67,7 +67,7 @@ export default (props) => {
 
     return (
         <span className="text-nowrap">
-            {linksElems}
+            {linkElements}
         </span>
     );
 };
