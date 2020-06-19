@@ -1,6 +1,6 @@
 # iDecryptIt (`idecryptit-web`)
 
-The [iDecryptIt website](http://idecryptit.com/) is designed to facilitate a one-stop shop for information regarding the firmwares used in iPhone OS, iOS, iPadOS, and tvOS.
+The [iDecryptIt website](https://idecryptit.com/) is designed to facilitate a one-stop shop for information regarding the firmwares used in iPhone OS, iOS, iPadOS, and tvOS.
 
 ## Running a Copy
 
