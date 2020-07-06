@@ -14,9 +14,17 @@
  * You should have received a copy of the GNU Affero General Public License along
  *   with this program. If not, see <https://www.gnu.org/licenses/>.
  */
+
 import React from "react";
 
-export default (props) => {
+type TOCEntryProps = {
+    href: string,
+    text: string,
+    tocIndex?: string,
+    children?: React.ReactNode,
+}
+
+export default (props: TOCEntryProps) => {
     const newChildren = React.Children.map(props.children, (child, idx) => {
         if (React.isValidElement(child))
             return React.cloneElement(child, { tocIndex: `${props.tocIndex}.${idx + 1}` });

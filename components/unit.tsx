@@ -17,7 +17,12 @@
 // TODO: maybe use math.js?
 // https://mathjs.org/index.html
 // yarn add mathjs
-export default (props) => {
+type UnitProps = {
+    value?: string | number,
+    unit: string,
+};
+
+export default (props: UnitProps) => {
     return (
         <span className="text-nowrap">{props.value} {props.unit}</span>
     );

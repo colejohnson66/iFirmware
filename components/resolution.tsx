@@ -1,4 +1,3 @@
-import entry from "./entry";
 /* This file is part of iDecryptIt.
  * Copyright (c) 2020 Cole Johnson
  *
@@ -15,9 +14,16 @@ import entry from "./entry";
  * You should have received a copy of the GNU Affero General Public License along
  *   with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import root from "./root";
+import Unit from "./unit";
 
-export default {
-    Root: root,
-    Entry: entry
+type ResolutionProps = {
+    diagonal: string | number,
+    width: string | number,
+    height: string | number
+};
+
+export default (props: ResolutionProps) => {
+    return (
+        <span className="text-nowrap"><Unit value={props.diagonal} unit="in" /> diagonal, {props.width}x{props.height} pixels</span>
+    );
 };
