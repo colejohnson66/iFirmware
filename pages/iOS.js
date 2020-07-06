@@ -83,7 +83,6 @@ export default () => {
                             The resulting operating system was named <i>iPadOS</i>.
                             According to Apple, the change was made to differentiate the iPad from the iPhone and iPod touch lines as it (iPadOS) would contain a greater emphasis on multitasking.
                             <Ref.Link name="AppleUnveilsIPadOS" />
-                            {/* TODO: Reference https://appleinsider.com/articles/19/06/03/apple-supplements-ios-13-with-new-tablet-specific-ipad-os-branch */}
                         </p>
 
                         <h2 id="headingArchitecture">Architecture</h2>
@@ -125,8 +124,211 @@ export default () => {
                             </thead>
                             <tbody>
                                 <tr>
-                                    {/* TODO: populate this using data from an array */}
+                                    <td><Link href="/iOS/app/appleStore"><a>Apple Store</a></Link></td>
+                                    <td>13.0? - present</td>
+                                    <td>Apple Store</td>
                                 </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/appStore"><a>App Store</a></Link></td>
+                                    <td>2.0 - present</td>
+                                    <td><a href="https://en.wikipedia.org/wiki/App_Store_(iOS)" className="external">App Store</a> client</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/books"><a>Books</a></Link><br />(previously <i>iBooks</i>)</td>
+                                    <td>8.0 - present</td>
+                                    <td>PDF and eBook viewer</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/calculator"><a>Calculator</a></Link></td>
+                                    <td>1.0 - present</td>
+                                    <td>Scientific calculator</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/calendar"><a>Calendar</a></Link></td>
+                                    <td>1.0 - present</td>
+                                    <td>Calendar</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/camera"><a>Camera</a></Link></td>
+                                    <td>1.0 - present</td>
+                                    <td>Camera</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/clips"><a>Clips</a></Link></td>
+                                    <td>13.0 - present</td>
+                                    <td>Short video (clip) editor</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/clock"><a>Clock</a></Link></td>
+                                    <td>1.0 - present</td>
+                                    <td>World clocks, alarms, and timers</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/compass"><a>Compass</a></Link></td>
+                                    <td>3.0 - present</td>
+                                    <td>Compass and (in later versions) spirit level</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/contacts"><a>Contacts</a></Link></td>
+                                    <td>1.??? - present</td>
+                                    <td>Contact book</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/demoApp"><a>Demo App</a></Link></td>
+                                    <td>1.0 - present</td>
+                                    <td>Used in demo displays to display a video when the device is not in use</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/faceTime"><a>FaceTime</a></Link></td>
+                                    <td>7.0 - present</td>
+                                    <td><a href="https://en.wikipedia.org/wiki/FaceTime" className="external">FaceTime</a> telephony</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/files"><a>Files</a></Link></td>
+                                    <td>13.0 - present</td>
+                                    <td><a href="https://en.wikipedia.org/wiki/iCloud" className="external">iCloud</a> file manager</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/findMy"><a>Find My</a></Link><br />(previously <i>Find My iPhone</i> and <i>Find My Friends</i>)</td>
+                                    <td>9.0 - present</td>
+                                    <td>Device and friend locator</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/gameCenter"><a>Game Center</a></Link> (<i>app</i>)</td>
+                                    <td>4.1 - 9.3.6</td>
+                                    <td><Link href="/iOS/gameCenter"><a>Game Center</a></Link> account manager</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/health"><a>Health</a></Link></td>
+                                    <td>8.0 - present</td>
+                                    <td>Health informatics</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/home"><a>Home</a></Link></td>
+                                    <td>8.0 - present</td>
+                                    <td><a href="https://en.wikipedia.org/wiki/HomeKit" className="external">HomeKit</a> based devices manager</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/iTunes"><a>iTunes Store</a></Link><br />(previously just <i>iTunes</i>)</td>
+                                    <td>1.1 - present</td>
+                                    <td><a href="https://en.wikipedia.org/wiki/ITunes_Store" className="external">iTunes Store</a> client</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/mail"><a>Mail</a></Link></td>
+                                    <td>1.0 - present</td>
+                                    <td>Email manager</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/maps"><a>Maps</a></Link></td>
+                                    <td>1.0 - present</td>
+                                    <td>Apple Maps (Google Maps on 5.1.1 and below)</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/measure"><a>Measure</a></Link></td>
+                                    <td>11.0 - present</td>
+                                    <td>AR based measuring app</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/messages"><a>Messages</a></Link><br />(previously <i>Text</i> and <i>SMS</i>)</td>
+                                    <td>1.0 - present</td>
+                                    <td>Texting (SMS) and (since <Link href="/iOS/5"><a>iOS 5</a></Link>) iMessage</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/news"><a>News</a></Link></td>
+                                    <td>9.0 - present</td>
+                                    <td>News</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/nike"><a>Nike+iPod</a></Link></td>
+                                    <td>2.2.1 - 8.4.1</td>
+                                    <td><a href="https://en.wikipedia.org/wiki/Nike%2B" className="external">Nike+</a> receiver</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/notes"><a>Notes</a></Link></td>
+                                    <td>1.0 - present</td>
+                                    <td>Note taking app</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/phone"><a>Phone</a></Link></td>
+                                    <td>1.0 - present</td>
+                                    <td>Phone</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/photos"><a>Photos</a></Link></td>
+                                    <td>1.0 - present</td>
+                                    <td>Photo library</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/podcasts"><a>Podcasts</a></Link></td>
+                                    <td>8.0 - present</td>
+                                    <td>Podcast library</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/reminders"><a>Reminders</a></Link></td>
+                                    <td>6.0 - present</td>
+                                    <td>Reminders manager</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/safari"><a>Safari</a></Link></td>
+                                    <td>1.0 - present</td>
+                                    <td>Web browser</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/settings"><a>Settings</a></Link></td>
+                                    <td>1.0 - present</td>
+                                    <td>Device settings manager</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/setup"><a>Setup</a></Link></td>
+                                    <td>5.0 - present</td>
+                                    <td>Device setup; Runs after a restore or update</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/siri"><a>Siri</a></Link></td>
+                                    <td>4.0 - present</td>
+                                    <td>Siri</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/stocks"><a>Stock</a></Link></td>
+                                    <td>1.0 - present</td>
+                                    <td>Stock price viewer</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/tips"><a>Tips</a></Link></td>
+                                    <td>8.0 - present</td>
+                                    <td>Device tips</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/tv"><a>TV</a></Link></td>
+                                    <td>13.0 - present</td>
+                                    <td><a href="https://en.wikipedia.org/wiki/Apple_TV%2B" className="external">Apple TV+</a> client</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/voiceMemos"><a>Voice Memos</a></Link></td>
+                                    <td>3.0 - present</td>
+                                    <td>Audio recorder</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/wallet"><a>Wallet</a></Link><br />(previously <i>Passbook</i>)</td>
+                                    <td>6.0 - present</td>
+                                    <td><a href="https://en.wikipedia.org/wiki/Apple_Wallet" className="external">Apple Wallet</a></td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/watch"><a>Watch</a></Link></td>
+                                    <td>8.0 - present</td>
+                                    <td>Apple Watch manager</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/weather"><a>Weather</a></Link></td>
+                                    <td>1.0 - present</td>
+                                    <td>Weather viewer</td>
+                                </tr>
+                                <tr>
+                                    <td><Link href="/iOS/app/youTube"><a>YouTube</a></Link></td>
+                                    <td>1.0 - 5.1.1</td>
+                                    <td><a href="https://en.wikipedia.org/wiki/YouTube" className="external">YouTube</a></td>
+                                </tr>
+                                {/* https://github.com/colejohnson66/idecryptit-web/blob/6b19a1d47d9a6bd3374a350305c6bcac9078f6f9/views/ios.handlebars */}
                             </tbody>
                         </Table>
 
