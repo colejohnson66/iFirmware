@@ -18,11 +18,11 @@ export default {
     columns: {
         toc: {
             lg: 2,
-            md: 3
+            md: 3,
         },
         content: {
             lg: 10,
-            md: 9
-        }
+            md: 9,
+        },
     }
 };
