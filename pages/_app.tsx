@@ -17,6 +17,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/global.css";
 
-export default ({ Component, pageProps }) => {
+import { AppProps } from "next/app";
+
+export default ({ Component, pageProps }: AppProps) => {
     return <Component {...pageProps} />;
 };
