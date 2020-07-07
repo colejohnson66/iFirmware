@@ -23,7 +23,6 @@ import { GetStaticProps } from "next";
 import Layout from "../../../../components/layout";
 import Link from "next/link";
 import TOC from "../../../../components/toc";
-import WIP from "../../../../components/wip";
 import constants from "../../../../constants";
 
 type PageProps = {
@@ -34,7 +33,6 @@ export default (props: PageProps) => {
     return (
         <Layout navGroup="file" title="AppleLogo">
             <Container fluid>
-                <WIP />
                 <Breadcrumb>
                     <Breadcrumb.Item active><Link href="/file"><a>Firmware Files</a></Link></Breadcrumb.Item>
                     <Breadcrumb.Item active><Link href="/file/format/img3"><a>IMG3</a></Link></Breadcrumb.Item>
