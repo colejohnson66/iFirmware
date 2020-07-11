@@ -45,10 +45,11 @@ const map = {
     be: "https://en.wikipedia.org/wiki/IEEE_802.11be"
 };
 
-export default (props) => {
-    if (!Array.isArray(props.standards))
-        return <span className="text-danger">ERROR: <code>props.standards</code> must be an array</span>;
+type WiFiProps = {
+    standards: [string],
+};
 
+export default (props: WiFiProps) => {
     const linkElements = props.standards.map((standard, idx) => {
         if (Object.keys(map).includes(standard))
             return (

@@ -14,7 +14,12 @@
  * You should have received a copy of the GNU Affero General Public License along
  *   with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-export default (props) => {
+type DateTimeProps = {
+    dateTime: string,
+    text?: string,
+};
+
+export default (props: DateTimeProps) => {
     // TODO: verify if `props.dateTime` is valid
     // see: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
     return (

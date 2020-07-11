@@ -14,12 +14,21 @@
  * You should have received a copy of the GNU Affero General Public License along
  *   with this program. If not, see <https://www.gnu.org/licenses/>.
  */
+import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 
 import Head from "next/head";
 import Link from "next/link";
 
-export default (props) => {
+type LayoutProps = {
+    title?: string,
+    description?: string,
+    keywords?: string,
+    navGroup?: string,
+    children?: React.ReactNode,
+}
+
+export default (props: LayoutProps) => {
     return (
         <>
             <Head>
@@ -48,7 +57,7 @@ export default (props) => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Item className={props.navGroup == "home" ? "active" : false}>
+                            <Nav.Item className={props.navGroup == "home" ? "active" : ""}>
                                 <Link href="/">
                                     <a className="nav-link">
                                         Home
@@ -59,7 +68,7 @@ export default (props) => {
                                     </a>
                                 </Link>
                             </Nav.Item>
-                            <Nav.Item className={props.navGroup == "about" ? "active" : false}>
+                            <Nav.Item className={props.navGroup == "about" ? "active" : ""}>
                                 <Link href="/about">
                                     <a className="nav-link">
                                         About
@@ -70,7 +79,7 @@ export default (props) => {
                                     </a>
                                 </Link>
                             </Nav.Item>
-                            <Nav.Item className={props.navGroup == "download" ? "active" : false}>
+                            <Nav.Item className={props.navGroup == "download" ? "active" : ""}>
                                 <Link href="/download">
                                     <a className="nav-link">
                                         Download
@@ -81,7 +90,7 @@ export default (props) => {
                                     </a>
                                 </Link>
                             </Nav.Item>
-                            <Nav.Item className={props.navGroup == "iOS" ? "active" : false}>
+                            <Nav.Item className={props.navGroup == "iOS" ? "active" : ""}>
                                 <Link href="/iOS">
                                     <a className="nav-link">
                                         iOS
@@ -92,7 +101,7 @@ export default (props) => {
                                     </a>
                                 </Link>
                             </Nav.Item>
-                            <Nav.Item className={props.navGroup == "jailbreak" ? "active" : false}>
+                            <Nav.Item className={props.navGroup == "jailbreak" ? "active" : ""}>
                                 <Link href="/jailbreak">
                                     <a className="nav-link">
                                         Jailbreaks
@@ -103,7 +112,7 @@ export default (props) => {
                                     </a>
                                 </Link>
                             </Nav.Item>
-                            <Nav.Item className={props.navGroup == "device" ? "active" : false}>
+                            <Nav.Item className={props.navGroup == "device" ? "active" : ""}>
                                 <Link href="/device">
                                     <a className="nav-link">
                                         Devices
@@ -114,7 +123,7 @@ export default (props) => {
                                     </a>
                                 </Link>
                             </Nav.Item>
-                            <Nav.Item className={props.navGroup == "baseband" ? "active" : false}>
+                            <Nav.Item className={props.navGroup == "baseband" ? "active" : ""}>
                                 <Link href="/baseband">
                                     <a className="nav-link">
                                         Baseband
@@ -125,7 +134,7 @@ export default (props) => {
                                     </a>
                                 </Link>
                             </Nav.Item>
-                            <Nav.Item className={props.navGroup == "processor" ? "active" : false}>
+                            <Nav.Item className={props.navGroup == "processor" ? "active" : ""}>
                                 <Link href="/processor">
                                     <a className="nav-link">
                                         Processors
@@ -136,7 +145,7 @@ export default (props) => {
                                     </a>
                                 </Link>
                             </Nav.Item>
-                            <Nav.Item className={props.navGroup == "key" ? "active" : false}>
+                            <Nav.Item className={props.navGroup == "key" ? "active" : ""}>
                                 <Link href="/key">
                                     <a className="nav-link">
                                         Firmware Keys
@@ -147,7 +156,7 @@ export default (props) => {
                                     </a>
                                 </Link>
                             </Nav.Item>
-                            <Nav.Item className={props.navGroup == "file" ? "active" : false}>
+                            <Nav.Item className={props.navGroup == "file" ? "active" : ""}>
                                 <Link href="/file">
                                     <a className="nav-link">
                                         Firmware Files
@@ -158,7 +167,7 @@ export default (props) => {
                                     </a>
                                 </Link>
                             </Nav.Item>
-                            <Nav.Item className={props.navGroup == "fs" ? "active" : false}>
+                            <Nav.Item className={props.navGroup == "fs" ? "active" : ""}>
                                 <Link href="/fs">
                                     <a className="nav-link">
                                         Filesystem Browser
@@ -169,7 +178,7 @@ export default (props) => {
                                     </a>
                                 </Link>
                             </Nav.Item>
-                            <Nav.Item className={props.navGroup == "decrypt" ? "active" : false}>
+                            <Nav.Item className={props.navGroup == "decrypt" ? "active" : ""}>
                                 <Link href="/decrypt">
                                     <a className="nav-link">
                                         Decrypt Firmware
@@ -180,7 +189,7 @@ export default (props) => {
                                     </a>
                                 </Link>
                             </Nav.Item>
-                            <Nav.Item className={props.navGroup == "ota" ? "active" : false}>
+                            <Nav.Item className={props.navGroup == "ota" ? "active" : ""}>
                                 <Link href="/ota">
                                     <a className="nav-link">
                                         OTA Updates

@@ -14,7 +14,8 @@
  * You should have received a copy of the GNU Affero General Public License along
  *   with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { Alert, Breadcrumb, Col, Container, Figure, Row } from "react-bootstrap";
+
+import { Alert, Breadcrumb, Col, Container, Row } from "react-bootstrap";
 
 import Layout from "../../components/layout";
 import Link from "next/link";

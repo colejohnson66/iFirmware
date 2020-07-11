@@ -1,5 +1,3 @@
-import Unit from "./unit";
-
 /* This file is part of iDecryptIt.
  * Copyright (c) 2020 Cole Johnson
  *
@@ -16,8 +14,15 @@ import Unit from "./unit";
  * You should have received a copy of the GNU Affero General Public License along
  *   with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-export default (props) => {
+import { Alert } from "react-bootstrap";
+
+type WipProps = {};
+
+export default (props: WipProps) => {
     return (
-        <span className="text-nowrap"><Unit value={props.diagonal} unit="in" /> diagonal, {props.width}x{props.height} pixels</span>
+        <Alert variant="info">
+            This page is a work in progress.
+            It is incomplete, and may not be completely accurate or up to date.
+        </Alert>
     );
 };

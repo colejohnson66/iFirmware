@@ -14,11 +14,16 @@
  * You should have received a copy of the GNU Affero General Public License along
  *   with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-// TODO: maybe use math.js?
-// https://mathjs.org/index.html
-// yarn add mathjs
-export default (props) => {
+import Unit from "./unit";
+
+type ResolutionProps = {
+    diagonal: string | number,
+    width: string | number,
+    height: string | number
+};
+
+export default (props: ResolutionProps) => {
     return (
-        <span className="text-nowrap">{props.value} {props.unit}</span>
+        <span className="text-nowrap"><Unit value={props.diagonal} unit="in" /> diagonal, {props.width}x{props.height} pixels</span>
     );
 };

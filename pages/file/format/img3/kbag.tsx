@@ -14,21 +14,25 @@
  * You should have received a copy of the GNU Affero General Public License along
  *   with this program. If not, see <https://www.gnu.org/licenses/>.
  */
+
 import { Alert, Breadcrumb, Col, Container, Row } from "react-bootstrap";
+import HexView, { Data } from "../../../../components/hexView";
 
 import DataReader from "../../../../lib/dataReader";
-import HexView from "../../../../components/hexView";
+import { GetStaticProps } from "next";
 import Layout from "../../../../components/layout";
 import Link from "next/link";
 import TOC from "../../../../components/toc";
-import WIP from "../../../../components/wip";
 import constants from "../../../../constants";
 
-export default (props) => {
+type PageProps = {
+    example: Data,
+};
+
+export default (props: PageProps) => {
     return (
         <Layout navGroup="file" title="AppleLogo">
             <Container fluid>
-                <WIP />
                 <Breadcrumb>
                     <Breadcrumb.Item active><Link href="/file"><a>Firmware Files</a></Link></Breadcrumb.Item>
                     <Breadcrumb.Item active><Link href="/file/format/img3"><a>IMG3</a></Link></Breadcrumb.Item>
@@ -82,8 +86,7 @@ export default (props) => {
     );
 };
 
-
-export async function getStaticProps(context) {
+export const getStaticProps: GetStaticProps = async () => {
     return {
         props: {
             example: DataReader("exampleKbag.json")

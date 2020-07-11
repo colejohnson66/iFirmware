@@ -23,8 +23,25 @@ const colorClasses = [
     "color-purple"
 ];
 
+type HexViewProps = {
+    data: Data,
+};
+
+type Data = {
+    initialOffset: string,
+    hasExplanations: boolean,
+    detail: [{
+        bytes: string,
+        highlight: boolean,
+        name: string,
+        explanation?: string
+    }]
+}
+
 // TODO: add ISO/IEC 8859-1 (Latin 1) text representation to the side
-export default ({ data }) => {
+export default (props: HexViewProps) => {
+    const data = props.data;
+
     const offsetHeader = <div className="hexHeader">        0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F</div>;
 
     const initialOffset = parseInt(data.initialOffset);
@@ -40,7 +57,7 @@ export default ({ data }) => {
             blockText = "   ".repeat(bytesToSkip);
         }
 
-        if (block.highlight === true) {
+        if (block.highlight) {
             blockText += `<span class="${colorClasses[currentColor]}">` +
                 block.bytes + `</span>`;
             currentColor++;
@@ -129,3 +146,5 @@ export default ({ data }) => {
         </div>
     );
 };
+
+export type { Data };
