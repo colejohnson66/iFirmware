@@ -5,7 +5,7 @@
   "description": "iOS Firmware Website Server",
   "repository": {
     "type": "git",
-    "url": "git@github.com:colejohnson66/idecryptit-web.git"
+    "url": "https://github.com/colejohnson66/idecryptit-web.git"
   },
   "author": "Cole Johnson",
   "license": "AGPL-3.0-or-later",
