@@ -30,7 +30,7 @@ export default () => {
         <Layout navGroup="device" title="iPhone">
             <Container fluid>
                 <Breadcrumb>
-                    <Breadcrumb.Item active><Link href="/device"><a>Device</a></Link></Breadcrumb.Item>
+                    <Breadcrumb.Item><Link href="/device"><a>Device</a></Link></Breadcrumb.Item>
                     <Breadcrumb.Item active>iPhone</Breadcrumb.Item>
                 </Breadcrumb>
                 <Row>
