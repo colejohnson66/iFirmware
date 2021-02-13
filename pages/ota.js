@@ -97,11 +97,6 @@ export default () => {
                             Quite a number of changes were made to the structure.
                             The most major changes are listed below:
                         </p>
-                        <p>
-                            Version 3 update files were introduced with iOS ???.
-                            Quite a number of changes were made to the folder structure.
-                            The most major changes are listed below:
-                        </p>
                         <ul>
                             <li>
                                 The <code>added</code> folder no longer exists.
