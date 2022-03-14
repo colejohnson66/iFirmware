@@ -1,5 +1,5 @@
 /* =============================================================================
- * File:   _app.tsx
+ * File:   MaybeArray.ts
  * Author: Cole Tobin
  * =============================================================================
  * Copyright (c) 2022 Cole Tobin
@@ -21,10 +21,12 @@
  * =============================================================================
  */
 
-import "../styles/global.css";
+type MaybeArray<T> = T | T[];
 
-import { AppProps } from "next/app";
+export default MaybeArray;
 
-export default function App({ Component, pageProps }: AppProps) {
-    return <Component {...pageProps} />;
+export function CoerceToArray<T>(arr: MaybeArray<T>): T[] {
+    if (Array.isArray(arr))
+        return arr;
+    return [arr];
 }

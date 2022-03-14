@@ -1,46 +1,37 @@
-/* This file is part of iDecryptIt.
- * Copyright (c) 2020 Cole Johnson
- * 
- * This program is free software: you can redistribute it and/or modify it under
- *   the terms of the GNU Affero General Public License as published by the Free
- *   Software Foundation, either version 3 of the License, or (at your option)
- *   any later version.
- * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
+/* =============================================================================
+ * File:   404.tsx
+ * Author: Cole Tobin
+ * =============================================================================
+ * Copyright (c) 2022 Cole Tobin
+ *
+ * This file is part of iDecryptIt-Web.
+ *
+ * iDecryptIt-Web is free software: you can redistribute it and/or modify it
+ *   under the terms of the GNU Affero General Public License as published by
+ *   the Free Software Foundation, either version 3 of the License, or (at your
+ *   option) any later version.
+ *
+ * iDecryptIt-Web is distributed in the hope that it will be useful, but WITHOUT
  *   ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
  *   FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License
- *   for more details.
- * 
- * You should have received a copy of the GNU Affero General Public License along
- *   with this program. If not, see <https://www.gnu.org/licenses/>.
+ *   more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ *   along with iDecryptIt-Web. If not, see <http://www.gnu.org/licenses/>.
+ * =============================================================================
  */
 
-import { Col, Container, Row } from "react-bootstrap";
+import Layout from "@components/Layout";
 
-import Layout from "../components/layout";
-import Link from "next/link";
-import constants from "../constants";
-
-export default () => {
+export default function Page(): React.ReactElement {
     return (
-        <Layout title="404">
-            <Container fluid>
-                <Row>
-                    <Col {...constants.columns.toc}>
-                        {/* No TOC */}
-                    </Col>
-                    <Col {...constants.columns.content}>
-                        <h1>404</h1>
-                        <p>
-                            That means whatever you were trying to reach doesn't exist.
-                        </p>
-                        <p>
-                            This site is currently under active development, so many pages may not exist yet.
-                            If you believe you were linked here <em>in error</em>, please <Link href="/contact"><a>contact me</a></Link> to report the problem.
-                        </p>
-                    </Col>
-                </Row>
-            </Container>
-        </Layout>
+        <Layout.Root pageTitle="404">
+            <Layout.Title title="404" />
+            <Layout.Content>
+                <p>
+                    That means whatever you were trying to reach doesn&apos;t exist.
+                </p>
+            </Layout.Content>
+        </Layout.Root>
     );
-};
+}

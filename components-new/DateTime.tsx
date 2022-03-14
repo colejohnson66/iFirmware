@@ -1,5 +1,5 @@
 /* =============================================================================
- * File:   _app.tsx
+ * File:   DateTime.tsx
  * Author: Cole Tobin
  * =============================================================================
  * Copyright (c) 2022 Cole Tobin
@@ -21,10 +21,17 @@
  * =============================================================================
  */
 
-import "../styles/global.css";
+type DateTimeProps = {
+    value: string;
+    text?: string; // override text
+}
 
-import { AppProps } from "next/app";
-
-export default function App({ Component, pageProps }: AppProps) {
-    return <Component {...pageProps} />;
+export default function DateTime(props: DateTimeProps): React.ReactElement {
+    // TODO: verify if `props.dateTime` is valid
+    // see: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
+    return (
+        <time dateTime={props.value} className="whitespace-nowrap">
+            {props.text ? props.text : props.value}
+        </time>
+    );
 }

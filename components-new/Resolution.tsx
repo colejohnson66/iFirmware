@@ -1,5 +1,5 @@
 /* =============================================================================
- * File:   _app.tsx
+ * File:   Resolution.tsx
  * Author: Cole Tobin
  * =============================================================================
  * Copyright (c) 2022 Cole Tobin
@@ -21,10 +21,19 @@
  * =============================================================================
  */
 
-import "../styles/global.css";
+import React from "react";
+import Unit from "@components/Unit";
 
-import { AppProps } from "next/app";
-
-export default function App({ Component, pageProps }: AppProps) {
-    return <Component {...pageProps} />;
+type ResolutionProps = {
+    diagonal: string | number;
+    width: string | number;
+    height: string | number;
 }
+
+export default function Resolution(props: ResolutionProps): React.ReactElement {
+    return (
+        <span className="whitespace-nowrap">
+            <Unit value={props.diagonal} unit="in" /> diagonal, {props.width}&times;{props.height} pixels
+        </span>
+    );
+};

@@ -2,18 +2,29 @@
     "cSpell.words": [
         "Affero",
         "baseband",
-        "Hotz",
-        "IPSW",
-        "jailbreaking",
-        "ramdisk",
-        "Siri",
         "bootloaders",
         "bootrom",
         "firmwares",
         "geohot",
+        "Hotz",
+        "IPSW",
+        "jailbreaking",
         "kernelcache",
         "multitouch",
         "pwnage",
-        "unencrypted"
-    ]
+        "ramdisk",
+        "rebadged",
+        "rebranded",
+        "Siri",
+        "unencrypted",
+        "WWDC"
+    ],
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "files.eol": "\r\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    // Redhat's YAML extenstion has telemetry
+    "redhat.telemetry.enabled": false,
 }

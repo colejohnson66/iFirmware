@@ -1,5 +1,5 @@
 /* =============================================================================
- * File:   _app.tsx
+ * File:   AKeyPage.tsx
  * Author: Cole Tobin
  * =============================================================================
  * Copyright (c) 2022 Cole Tobin
@@ -21,10 +21,23 @@
  * =============================================================================
  */
 
-import "../styles/global.css";
+import A from "./A";
 
-import { AppProps } from "next/app";
+type OneDigitNumber = "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9";
 
-export default function App({ Component, pageProps }: AppProps) {
-    return <Component {...pageProps} />;
+type DeviceType = "AppleTV" | "Watch" | "iBridge" | "AudioAccessory" | "iPad" | "iPhone" | "iPod";
+type DeviceModelNumber = `${"" | "1" | "2"}${OneDigitNumber}`;
+
+type AKeyPageProps = {
+    device: `${DeviceType}${DeviceModelNumber},${DeviceModelNumber}`;
+    version: string;
+    build: string;
+}
+
+export default function AKeyPage(props: AKeyPageProps): React.ReactElement {
+    return (
+        <A href={`/key/${props.build.toLowerCase()}/${props.device.toLowerCase().replace(',', '-')}`}>
+            {props.version} ({props.build})
+        </A>
+    )
 }

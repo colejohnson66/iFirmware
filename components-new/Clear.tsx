@@ -1,5 +1,5 @@
 /* =============================================================================
- * File:   _app.tsx
+ * File:   Clear.tsx
  * Author: Cole Tobin
  * =============================================================================
  * Copyright (c) 2022 Cole Tobin
@@ -21,10 +21,8 @@
  * =============================================================================
  */
 
-import "../styles/global.css";
-
-import { AppProps } from "next/app";
-
-export default function App({ Component, pageProps }: AppProps) {
-    return <Component {...pageProps} />;
+export default function Clear(): React.ReactElement {
+    return (
+        <div className="clear-both" />
+    );
 }

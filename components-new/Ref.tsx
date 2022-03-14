@@ -1,5 +1,5 @@
 /* =============================================================================
- * File:   _app.tsx
+ * File:   Ref.tsx
  * Author: Cole Tobin
  * =============================================================================
  * Copyright (c) 2022 Cole Tobin
@@ -21,10 +21,55 @@
  * =============================================================================
  */
 
-import "../styles/global.css";
+import A from "@components/A";
+import React from "react";
 
-import { AppProps } from "next/app";
-
-export default function App({ Component, pageProps }: AppProps) {
-    return <Component {...pageProps} />;
+type RefRootProps = {
+    children: React.ReactNode;
 }
+
+function RefRoot(props: RefRootProps): React.ReactElement {
+    // TODO: support columns
+    return (
+        <>
+            <h2 id="headingReferences">References</h2>
+            <ul>
+                {props.children}
+            </ul>
+        </>
+    );
+}
+
+type RefEntryProps = {
+    name: string;
+    children: React.ReactNode;
+};
+
+function RefEntry(props: RefEntryProps): React.ReactElement {
+    return (
+        <li id={`reference-${props.name}`}>
+            {`[${props.name}] - `}
+            {props.children}
+        </li>
+    );
+}
+
+type RefLinkProps = {
+    name: string;
+}
+
+function RefLink(props: RefLinkProps): React.ReactElement {
+    return (
+        <sup className="whitespace-nowrap">
+            <A href={`#reference-${props.name}`}>
+                [{props.name}]
+            </A>
+        </sup>
+    );
+}
+
+export default {
+    Root: RefRoot,
+    Entry: RefEntry,
+    Link: RefLink,
+};

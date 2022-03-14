@@ -1,5 +1,5 @@
 /* =============================================================================
- * File:   _app.tsx
+ * File:   Scrollable.tsx
  * Author: Cole Tobin
  * =============================================================================
  * Copyright (c) 2022 Cole Tobin
@@ -21,10 +21,14 @@
  * =============================================================================
  */
 
-import "../styles/global.css";
+type ScrollableProps = {
+    children: React.ReactNode;
+}
 
-import { AppProps } from "next/app";
-
-export default function App({ Component, pageProps }: AppProps) {
-    return <Component {...pageProps} />;
+export default function Scrollable(props: ScrollableProps): React.ReactElement {
+    return (
+        <div className="block w-full overflow-x-auto">
+            {props.children}
+        </div>
+    );
 }

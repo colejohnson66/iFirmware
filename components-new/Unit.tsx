@@ -1,5 +1,5 @@
 /* =============================================================================
- * File:   _app.tsx
+ * File:   Unit.tsx
  * Author: Cole Tobin
  * =============================================================================
  * Copyright (c) 2022 Cole Tobin
@@ -21,10 +21,15 @@
  * =============================================================================
  */
 
-import "../styles/global.css";
+type UnitProps = {
+    value: string | number;
+    unit: string;
+};
 
-import { AppProps } from "next/app";
-
-export default function App({ Component, pageProps }: AppProps) {
-    return <Component {...pageProps} />;
+export default function Unit(props: UnitProps): React.ReactElement {
+    return (
+        <span className="whitespace-nowrap">
+            {props.value} {props.unit}
+        </span>
+    );
 }

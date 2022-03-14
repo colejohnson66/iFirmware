@@ -1,5 +1,5 @@
 /* =============================================================================
- * File:   _app.tsx
+ * File:   index.tsx
  * Author: Cole Tobin
  * =============================================================================
  * Copyright (c) 2022 Cole Tobin
@@ -21,10 +21,17 @@
  * =============================================================================
  */
 
-import "../styles/global.css";
+import Layout from "@components/Layout";
 
-import { AppProps } from "next/app";
-
-export default function App({ Component, pageProps }: AppProps) {
-    return <Component {...pageProps} />;
+export default function Page(): React.ReactElement {
+    return (
+        <Layout.Root navGroup="home" pageTitle="The iDecryptIt Website" canonical="/">
+            <Layout.Content>
+                <p>
+                    This is the iDecryptIt website;
+                    A companion website for all things iOS related.
+                </p>
+            </Layout.Content>
+        </Layout.Root>
+    );
 }
