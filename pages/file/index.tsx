@@ -106,7 +106,7 @@ export default function Page(): React.ReactElement {
                     ["/file/iboot-data", "iBoot Data"],
                     ["/file/ibss", "iBSS", "iBoot Single Stage"],
                     ["/file/isp", "ISP"], //             Copilot suggests: Image Service Provider
-                    ["/file/kernel-cache", "Kernel Cache"],
+                    ["/file/kernelcache", "Kernelcache"],
                     ["/file/leap-haptics", "Leap Haptics"], // Copilot suggests: Leap Motion Haptics
                     ["/file/liquid-detect", "Liquid Detection"],
                     ["/file/llb", "LLB", "Low Level Bootloader"],
