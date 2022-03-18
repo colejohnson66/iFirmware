@@ -32,7 +32,7 @@ function List(args: [string, string, string?][]): React.ReactElement {
         <ul>
             {args.map(([url, name, paren]) => (
                 <li key={url}>
-                    <A href={`/ios${url}`}>{name}</A>{paren && ` (${paren})`}
+                    <A href={`/jailbreak${url}`}>{name}</A>{paren && ` (${paren})`}
                 </li>
             ))}
         </ul>

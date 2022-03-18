@@ -5,8 +5,8 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 // eslint-disable-next-line no-undef
 module.exports = {
     content: [
-        "./pages/**/*.{ts,tsx}",
         "./components/**/*.{ts,tsx}",
+        "./pages/**/*.{ts,tsx}",
     ],
     darkMode: "media",
     theme: {
