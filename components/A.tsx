@@ -47,7 +47,7 @@ export default function A(props: AProps): React.ReactElement {
     // internal link? (internal links without slash are invalid)
     if (props.href[0] === "/") {
         if (!PageList.includes(props.href.split("#")[0]))
-            classes.push("text-red-500");
+            classes.push("redlink");
         return (
             <Link href={props.href}>
                 <a className={classes.join(" ")}>{props.children}</a>
