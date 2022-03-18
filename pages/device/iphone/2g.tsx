@@ -57,7 +57,7 @@ export default function Page(): React.ReactElement {
                 <h2 id="headingName">Name</h2>
                 <p>
                     When announced and released, the iPhone 2G was simply called <i>iPhone</i>.
-                    However, with the release of the <A href="/device/iphone/3g">iPhone 3G</A> in <DateTime value="2008" />, the original iPhone became known as the &quot;iPhone <em>2G</em>&quot;.
+                    However, with the release of the <A href="/device/iphone/3g">iPhone 3G</A> in <DateTime value="2008" />, the original iPhone became known as the &quot;iPhone <em>2G</em>.&quot;
                     The reasoning is believed to be two-fold: it is the iPhone preceding the "3G" (and 2 is one before 3), and it only supported <A href="https://en.wikipedia.org/wiki/GSM">GSM</A> and <A href="https://en.wikipedia.org/wiki/Enhanced_Data_Rates_for_GSM_Evolution">EDGE</A> networks (commonly called &quot;2G&quot; networks).
                 </p>
 

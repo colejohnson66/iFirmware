@@ -66,7 +66,7 @@ export default function Page(): React.ReactElement {
                     <Toc.Entry href="#headingIPodTouch" text="iPod touch" />
                 </Toc.Root>
                 <p>
-                    Over the years, Apple has released a variety of &quot;iDevices&quot;.
+                    Over the years, Apple has released a variety of &quot;iDevices.&quot;
                     Beginning with the original iPhone in 2007, Apple&apos;s iDevice lineup has expanded to include iPod touches, iPads, and more.
                     In addition, Apple has released a variety of accessories, including AirPods, Apple Pencil, and more.
                 </p>

@@ -96,7 +96,7 @@ export default function Page(): React.ReactElement {
                 </p>
                 <p>
                     Four years after the release of iOS 9, with <A href="/ios/13">iOS 13</A>, Apple again rebranded iOS, but this time for their iPad line of products.
-                    The resulting operating system was named &quot;iPadOS&quot;.
+                    The resulting operating system was named &quot;iPadOS.&quot;
                     According to Apple, the change was made to differentiate the iPad from the iPhone and iPod touch lines as it (iPadOS) would contain a greater emphasis on multitasking.
                     <Ref.Link name="AppleUnveilsIPadOS" />
                 </p>
