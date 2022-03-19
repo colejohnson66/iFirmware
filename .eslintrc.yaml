@@ -29,7 +29,6 @@ ignorePatterns:
   - /public/**
   - /scripts/**
 rules:
-  "react/display-name": [none] # TODO: remove!
   array-bracket-spacing: error
   arrow-parens: error
   block-spacing: error
