@@ -36,10 +36,9 @@ export default function BasebandVersionList(args: (string | React.ReactNode)[][]
         if (row.length === 3) {
             tags.push(<dt key={idx * 2}>{row[0]}</dt>);
             tags.push(VersionAndBuild(idx * 2 + 1, row[1], row[2]));
-        }
-        else
+        } else
             tags.push(VersionAndBuild(idx * 2, row[0], row[1]));
     });
 
-    return <dd>{tags}</dd>
+    return <dd>{tags}</dd>;
 }

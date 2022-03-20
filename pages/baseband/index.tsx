@@ -139,9 +139,11 @@ export default function Page(): React.ReactElement {
                     <dd><A href="/device/iphone/12">iPhone 12, 12 mini, 12 Pro, and 12 Pro Max</A></dd>
 
                     <dt><A href="/baseband/sdx60m">SDX60M</A></dt>
+                    <dd><A href="/device/ipad-air/5g">iPad Air (5th generation)</A></dd>
                     <dd><A href="/device/ipad-mini/6g">iPad mini (6th generation)</A></dd>
                     <dd><A href="/device/iphone/13">iPhone 13, 13 mini, 13 Pro, and 13 Pro Max</A></dd>
-                    <dd><A href="/device/iphone/se3">iPhone SE (3rd generation)</A></dd>
+
+                    {/* TODO: unknown baseband chipset: <dd><A href="/device/iphone/se3">iPhone SE (3rd generation)</A></dd> */}
                 </dl>
             </Layout.Content>
         </Layout.Root>
