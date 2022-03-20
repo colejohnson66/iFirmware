@@ -27,9 +27,9 @@ import Breadcrumb from "@components/Breadcrumb";
 import Clear from "@components/Clear";
 import DateTime from "@components/DateTime";
 import Layout from "@components/Layout";
+import NoWrap from "@components/NoWrap";
 import Resolution from "@components/Resolution";
 import Toc from "@components/Toc";
-import Unit from "@components/Unit";
 import WiFi from "@components/WiFi";
 
 export default function Page(): React.ReactElement {
@@ -64,13 +64,13 @@ export default function Page(): React.ReactElement {
                 <h2 id="headingSpecs">Technical Specs</h2>
                 <dl>
                     <dt>Battery</dt>
-                    <dd><Unit value={1400} unit="mA" /> @ <Unit value={3.7} unit="V" /> (<Unit value={5.18} unit="Wh" />)</dd>
+                    <dd><NoWrap>1400 mA</NoWrap> @ <NoWrap>3.7 V</NoWrap> (<NoWrap>5.18 Wh</NoWrap>)</dd>
 
                     <dt>Bluetooth</dt>
                     <dd>2.0 + EDR</dd>
 
                     <dt>Camera</dt>
-                    <dd><b>Rear</b>: <Unit value={1.9} unit="MP" /></dd>
+                    <dd><b>Rear</b>: <NoWrap>1.9 MP</NoWrap></dd>
 
                     <dt>Cellular Radio</dt>
                     <dd><b>Processor</b>: <A href="/baseband/pmb8876">PMB8876</A> (&quot;S-Gold 2&quot;)</dd>
@@ -86,7 +86,7 @@ export default function Page(): React.ReactElement {
                     <dt>CPU</dt>
                     <dd><b>Core</b>: 1&times;<A href="https://en.wikipedia.org/wiki/ARM11">ARM1176JZ(F)-S</A></dd>
                     <dd><b>CPU</b>: <A href="/processor/s5l8900">S5L8900</A></dd>
-                    <dd><b>Speed</b>: <Unit value={620} unit="MHz" /> (downclocked to 400 until <A href="/ios/1/1">iPhone OS 1.1.2</A>, and 412 after)</dd>
+                    <dd><b>Speed</b>: <NoWrap>620 MHz</NoWrap> (downclocked to 400 until <A href="/ios/1/1">iPhone OS 1.1.2</A>, and 412 after)</dd>
                     <dd><b>Instruction Set</b>: ARMv6</dd>
 
                     <dt>Dimensions</dt>
@@ -103,13 +103,13 @@ export default function Page(): React.ReactElement {
                     <dd><code>iPhone1,1</code></dd>
 
                     <dt>RAM</dt>
-                    <dd><Unit value={128} unit="MiB" /></dd>
+                    <dd><NoWrap>128 MiB</NoWrap></dd>
 
                     <dt>Storage</dt>
-                    <dd><Unit value={4} unit="GB" />, <Unit value={8} unit="GB" />, or <Unit value={16} unit="GB" /></dd>
+                    <dd><NoWrap>4 GB</NoWrap>, <NoWrap>8 GB</NoWrap>, or <NoWrap>16 GB</NoWrap></dd>
 
                     <dt>Weight</dt>
-                    <dd><Unit value={135} unit="g" /> (<Unit value={4.8} unit="oz" />)</dd>
+                    <dd><NoWrap>135 g</NoWrap> (<NoWrap>4.8 oz</NoWrap>)</dd>
 
                     <dt>Wi-Fi</dt>
                     <dd><WiFi standards={["b", "g"]} /></dd>

@@ -25,8 +25,8 @@ import A from "@components/A";
 import Breadcrumb from "@components/Breadcrumb";
 import Clear from "@components/Clear";
 import Layout from "@components/Layout";
+import NoWrap from "@components/NoWrap";
 import Toc from "@components/Toc";
-import Unit from "@components/Unit";
 
 export default function Page(): React.ReactElement {
     return (
@@ -93,14 +93,14 @@ export default function Page(): React.ReactElement {
                     <dt><A href="/baseband/mdm9625">MDM9625</A></dt>
                     <dd><A href="/device/ipad/5g">iPad (5th generation)</A></dd>
                     <dd><A href="/device/ipad-air/2g">iPad Air 2</A></dd>
-                    <dd><A href="/device/ipad-pro/1g">iPad Pro</A> (<Unit value={12.9} unit="inch" /> model)</dd>
+                    <dd><A href="/device/ipad-pro/1g">iPad Pro</A> (<NoWrap>12.9 inch</NoWrap> model)</dd>
                     <dd><A href="/device/iphone/6">iPhone 6 and 6 Plus</A></dd>
                     <dd><A href="/device/iphone/se">iPhone SE</A></dd>
 
                     <dt><A href="/baseband/mdm9630">MDM9635</A></dt>
                     <dd><A href="/device/watch/series3">Apple Watch Series 3</A> (cellular models)</dd>
                     <dd><A href="/device/ipad/6g">iPad (6th generation)</A></dd>
-                    <dd><A href="/device/ipad-pro/1g">iPad Pro</A> (<Unit value={9.7} unit="inch" /> model)</dd>
+                    <dd><A href="/device/ipad-pro/1g">iPad Pro</A> (<NoWrap>9.7 inch</NoWrap> model)</dd>
                     <dd><A href="/device/iphone/6s">iPhone 6s and 6s Plus</A></dd>
 
                     <dt><A href="/baseband/mdm9645">MDM9645</A></dt>

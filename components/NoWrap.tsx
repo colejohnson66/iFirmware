@@ -1,5 +1,5 @@
 /* =============================================================================
- * File:   Unit.tsx
+ * File:   NoWrap.tsx
  * Author: Cole Tobin
  * =============================================================================
  * Copyright (c) 2022 Cole Tobin
@@ -21,15 +21,14 @@
  * =============================================================================
  */
 
-type UnitProps = {
-    value: string | number;
-    unit: string;
+type NoWrapProps = {
+    children: React.ReactNode;
 };
 
-export default function Unit(props: UnitProps): React.ReactElement {
+export default function NoWrap(props: NoWrapProps): React.ReactElement {
     return (
         <span className="whitespace-nowrap">
-            {props.value} {props.unit}
+            {props.children}
         </span>
     );
 }

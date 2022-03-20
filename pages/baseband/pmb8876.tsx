@@ -26,6 +26,7 @@ import BasebandVersionList from "@library/BasebandVersionList";
 import Breadcrumb from "@components/Breadcrumb";
 import Clear from "@components/Clear";
 import Layout from "@components/Layout";
+import NoWrap from "@components/NoWrap";
 import Toc from "@components/Toc";
 
 export default function Page(): React.ReactElement {
@@ -42,7 +43,7 @@ export default function Page(): React.ReactElement {
                 </Toc.Root>
                 <p>
                     The PMB8876 is the baseband processor used in the <A href="/device/iphone/2g">original iPhone</A>.
-                    It is manufactured by Infineon and marketed as the <span className="whitespace-nowrap">&quot;S-Gold 2.&quot;</span>
+                    It is manufactured by Infineon and marketed as the <NoWrap>&quot;S-Gold 2.&quot;</NoWrap>
                 </p>
 
                 <Clear />

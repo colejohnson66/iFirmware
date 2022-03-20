@@ -22,6 +22,7 @@
  */
 
 import A from "@components/A";
+import NoWrap from "./NoWrap";
 import React from "react";
 
 // links from https://en.wikipedia.org/wiki/Template:IEEE_standards
@@ -63,7 +64,7 @@ type WiFiProps = {
 
 export default function WiFi(props: WiFiProps): React.ReactElement {
     return (
-        <span className="whitespace-nowrap">
+        <NoWrap>
             {props.standards.map((standard, idx) => (
                 <React.Fragment key={idx}>
                     {idx !== 0 && " / "}
@@ -72,6 +73,6 @@ export default function WiFi(props: WiFiProps): React.ReactElement {
                         : `802.11${standard}`}
                 </React.Fragment>
             ))}
-        </span>
+        </NoWrap>
     );
 }

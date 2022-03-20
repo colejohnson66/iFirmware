@@ -25,8 +25,8 @@ import A from "@components/A";
 import Breadcrumb from "@components/Breadcrumb";
 import Clear from "@components/Clear";
 import Layout from "@components/Layout";
+import NoWrap from "@components/NoWrap";
 import Toc from "@components/Toc";
-import Unit from "@components/Unit";
 
 export default function Page(): React.ReactElement {
     return (
@@ -43,7 +43,7 @@ export default function Page(): React.ReactElement {
                 </Toc.Root>
                 <p>
                     The S5L8900 is a 32-bit ARM processor used in the <A href="/device/iphone/2g">original iPhone</A>, <A href="/device/iphone/3g">iPhone 3G</A>, and <A href="/device/ipod/1g">first generation iPod touch</A>.
-                    It is an <A href="https://developer.arm.com/documentation/ddi0301/h/">ARM1176JZ(F)-S</A> capable of running at <Unit value={620} unit="MHz" />, but downclocked to <Unit value={412} unit="MHz" /> (<Unit value={400} unit="MHz" /> until <A href="/ios/1/1">iPhone OS 1.1.2</A>).
+                    It is an <A href="https://developer.arm.com/documentation/ddi0301/h/">ARM1176JZ(F)-S</A> capable of running at <NoWrap>620 MHz</NoWrap>, but downclocked to <NoWrap>412 MHz</NoWrap> (<NoWrap>400 MHz</NoWrap> until <A href="/ios/1/1">iPhone OS 1.1.2</A>).
                 </p>
 
                 <Clear />

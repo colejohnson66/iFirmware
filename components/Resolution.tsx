@@ -21,8 +21,8 @@
  * =============================================================================
  */
 
+import NoWrap from "./NoWrap";
 import React from "react";
-import Unit from "@components/Unit";
 
 type ResolutionProps = {
     diagonal: string | number;
@@ -32,8 +32,8 @@ type ResolutionProps = {
 
 export default function Resolution(props: ResolutionProps): React.ReactElement {
     return (
-        <span className="whitespace-nowrap">
-            <Unit value={props.diagonal} unit="in" /> diagonal, {props.width}&times;{props.height} pixels
-        </span>
+        <>
+            <NoWrap>{props.diagonal} in diagonal, {props.width}&times;{props.height} pixels</NoWrap>
+        </>
     );
 }

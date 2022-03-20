@@ -26,6 +26,7 @@ import BasebandVersionList from "@library/BasebandVersionList";
 import Breadcrumb from "@components/Breadcrumb";
 import Clear from "@components/Clear";
 import Layout from "@components/Layout";
+import NoWrap from "@components/NoWrap";
 import Toc from "@components/Toc";
 
 export default function Page(): React.ReactElement {
@@ -42,7 +43,7 @@ export default function Page(): React.ReactElement {
                 </Toc.Root>
                 <p>
                     The XMM6180 is the baseband processor used in the <A href="/device/ipad/2g">iPad 2</A> (<code>iPad2,2</code> model) and <A href="/device/iphone/4">iPhone 4</A> (<code>iPhone3,1</code> and <code>iPhone3,2</code> models).
-                    It is manufactured by Infineon and marketed as the <span className="whitespace-nowrap">&quot;X-Gold 618.&quot;</span>
+                    It is manufactured by Infineon and marketed as the <NoWrap>&quot;X-Gold 618.&quot;</NoWrap>
                 </p>
 
                 <Clear />

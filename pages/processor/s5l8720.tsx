@@ -25,8 +25,8 @@ import A from "@components/A";
 import Breadcrumb from "@components/Breadcrumb";
 import Clear from "@components/Clear";
 import Layout from "@components/Layout";
+import NoWrap from "@components/NoWrap";
 import Toc from "@components/Toc";
-import Unit from "@components/Unit";
 
 export default function Page(): React.ReactElement {
     return (
@@ -43,7 +43,7 @@ export default function Page(): React.ReactElement {
                 </Toc.Root>
                 <p>
                     The S5L8720 is the processor used in the <A href="/device/ipod/2g">iPod touch (2nd generation)</A>.
-                    It runs at <Unit value={533} unit="MHz" />.
+                    It runs at <NoWrap>533 MHz</NoWrap>.
                 </p>
 
                 <Clear />
