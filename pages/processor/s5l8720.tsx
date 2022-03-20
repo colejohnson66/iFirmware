@@ -55,7 +55,7 @@ export default function Page(): React.ReactElement {
                     By having an <em>un</em>tethered bootrom level exploit, a computer is not needed to assist in booting the device.
                 </p>
                 <p>
-                    There are two known exploits for the S5L8720: <A href="/jailbreak/explot/24kpwn">24kPwn (0x24000 Segment Overflow)</A> (untethered; old bootrom only) and <A href="/jailbreak/exploit/steaks4uce"><code>usb_control_msg(0xA1, 1)</code></A> (tethered; both bootroms).
+                    There are two known exploits for the S5L8720: <A href="/jailbreak/exploit/24kpwn">24kPwn (0x24000 Segment Overflow)</A> (untethered; old bootrom only) and <A href="/jailbreak/exploit/steaks4uce"><code>usb_control_msg(0xA1, 1)</code></A> (tethered; both bootroms).
                 </p>
 
                 <h2 id="headingBootroms">Bootroms</h2>

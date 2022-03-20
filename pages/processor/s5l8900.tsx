@@ -38,7 +38,7 @@ export default function Page(): React.ReactElement {
             </Breadcrumb.Root>
             <Layout.Content>
                 <Toc.Root>
-                    <Toc.Entry href="#headingExplots" text="Exploits" />
+                    <Toc.Entry href="#headingExploits" text="Exploits" />
                     <Toc.Entry href="#headingKeys" text="Key 0x837" />
                 </Toc.Root>
                 <p>
@@ -55,7 +55,7 @@ export default function Page(): React.ReactElement {
                     By having an <em>un</em>tethered bootrom level exploit, a computer is not needed to assist in booting the device.
                 </p>
                 <p>
-                    There are two known exploits for the S5L8900: <A href="/jailbreak/explot/pwnage">Pwnage</A> and <A href="/jailbreak/exploit/pwnage2">Pwnage 2.0</A>.
+                    There are two known exploits for the S5L8900: <A href="/jailbreak/exploit/pwnage">Pwnage</A> and <A href="/jailbreak/exploit/pwnage2">Pwnage 2.0</A>.
                 </p>
 
                 <h2 id="#headerKeys">Key 0x837</h2>
