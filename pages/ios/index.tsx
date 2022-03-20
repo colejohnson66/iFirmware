@@ -78,7 +78,7 @@ export default function Page(): React.ReactElement {
 
                 <h3 id="headingName">Name</h3>
                 <p>
-                    Initially, iOS didn't even have a name;
+                    Initially, iOS didn&apos;t even have a name;
                     It was initially just said to run a trimmed down version of <A href="https://en.wikipedia.org/wiki/MacOS">Mac OS X</A> (now <i>macOS</i>).
                     With the release of the <A href="/ios/2">iPhone OS 2</A> and <A href="/ios/sdk">iPhone SDK</A>, Apple dubbed it <i>iPhone OS</i>.
                     Initially chosen as it was what ran on the iPhone, it later was utilized by the iPod touch, iPad, and Apple TV (second generation and newer).
@@ -86,7 +86,7 @@ export default function Page(): React.ReactElement {
                     This name was utilized for all <A href="/device">iDevices</A> for many years.
                 </p>
                 <p>
-                    With the release of the <A href="/device/watch/1g">original Apple Watch</A> on <DateTime value="2015-04-24" />, Apple released &quot;watchOS&quot;, a trimmed down version of iOS that's designed for the small screen of the Watch.
+                    With the release of the <A href="/device/watch/1g">original Apple Watch</A> on <DateTime value="2015-04-24" />, Apple released &quot;watchOS&quot;, a trimmed down version of iOS that&apos;s designed for the small screen of the Watch.
                     Unlike the (then unreleased) tvOS and iPadOS which kept version number parity with iOS, the original Apple Watch was released with <A href="/ios/watch/1">watchOS 1.0</A>, based on <A href="/ios/8/2">iOS 8.2</A>.
                 </p>
                 <p>
@@ -105,7 +105,7 @@ export default function Page(): React.ReactElement {
                 <p>
                     iOS (and watchOS, tvOS, and iPadOS) feature(s) a <A href="http://en.wikipedia.org/wiki/Hybrid_kernel">hybrid kernel</A> known as <A href="https://en.wikipedia.org/wiki/XNU">XNU</A>.
                     It is mostly programmed in ARM assembly, C, C++, Objective-C, and Swift.
-                    As XNU is <A href="https://en.wikipedia.org/wiki/Unix-like">Unix-like</A>, it uses "union mounting" (compared to the Windows way of using drive letters).
+                    As XNU is <A href="https://en.wikipedia.org/wiki/Unix-like">Unix-like</A>, it uses &quot;union mounting&quot; (compared to the Windows way of using drive letters).
                     The flash is partitioned into two separate blocks: one for the operating system (mounted at <code>/</code>) and one for the user data (mounted at <code>/private/var</code>).
                 </p>
 
@@ -120,7 +120,7 @@ export default function Page(): React.ReactElement {
                 <p>
                     Apple has maintained a steady release schedule with iOS&apos; (and related) major releases;
                     A new major version is released with every new flagship iPhone.
-                    Currently, iOS is on it's 15th <em>major</em> release with iOS 16 expected to be announced at WWDC 2022.
+                    Currently, iOS is on it&apos;s 15th <em>major</em> release with iOS 16 expected to be announced at WWDC 2022.
                 </p>
                 {/* <p>
                     Each link below will take you to a page dedicated to that major version and its new features.

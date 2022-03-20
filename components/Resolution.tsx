@@ -36,4 +36,4 @@ export default function Resolution(props: ResolutionProps): React.ReactElement {
             <Unit value={props.diagonal} unit="in" /> diagonal, {props.width}&times;{props.height} pixels
         </span>
     );
-};
+}

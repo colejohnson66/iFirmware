@@ -64,12 +64,12 @@ export default function Page(): React.ReactElement {
                     </Toc.Entry>
                 </Toc.Root>
                 <p>
-                    Jailbreaking is the process of patching iOS to break out of the "jail" imposed by the system on the user.
+                    Jailbreaking is the process of patching iOS to break out of the &quot;jail&quot; imposed by the system on the user.
                     The jail is used to prevent access to the device as a <A href="https://en.wikipedia.org/wiki/Superuser">root</A> user.
                     This, in turn, prevents the user from changing system files and installing software not available through the official <A href="/ios/app/appStore">App Store</A>.
                 </p>
                 <p>
-                    Apple's purported purpose of patching the holes is to prevent users from security vulnerabilities.
+                    Apple&apos;s purported purpose of patching the holes is to prevent users from security vulnerabilities.
                     However, many have speculated that the real reason is to enforce distribution on the App Store, where Apple charges US$99 per year and takes up to 30% of the revenue.
                 </p>
 
@@ -91,7 +91,7 @@ export default function Page(): React.ReactElement {
                 <h3 id="headingScams">Scams</h3>
                 <p>
                     Over the years, there have been hundreds of jailbreaking scams.
-                    These scams commonly come in the form of charging for a free jailbreak tool, or charging for a "new" tool that supports devices and iOS versions with no published exploits.
+                    These scams commonly come in the form of charging for a free jailbreak tool, or charging for a &quot;new&quot; tool that supports devices and iOS versions with no published exploits.
                     Other times, they are simply malware for your computer.
                 </p>
 
@@ -114,33 +114,33 @@ export default function Page(): React.ReactElement {
 
                 <h3 id="headingTethered">Tethered vs. Untethered</h3>
                 <p>
-                    Whenever the device boots up, the kernel must be patched in order to allow "unsigned" software to run.
-                    This is accomplished in many different ways, but some require a computer for every boot. This distinction has given rise to the terms "untethered" and "tethered" jailbreaks.
+                    Whenever the device boots up, the kernel must be patched in order to allow &quot;unsigned&quot; software to run.
+                    This is accomplished in many different ways, but some require a computer for every boot. This distinction has given rise to the terms &quot;untethered&quot; and &quot;tethered&quot; jailbreaks.
                 </p>
                 <p>
                     A &quot;tethered&quot; jailbreak is the most common kind.
                     Whenever the device boots up, it will detect the patched kernel and refuse to boot, instead going into <A href="https://www.theiphonewiki.com/wiki/Recovery_Mode">recovery mode</A>.
                     The way to fix this involves using a tool (typically provided with the jailbreaking software) to upload a temporary patch that will allow the device to boot.
-                    As such, the name comes from the fact that your device must be "tethered" (connected) to a computer in order to boot.
+                    As such, the name comes from the fact that your device must be &quot;tethered&quot; (connected) to a computer in order to boot.
                 </p>
                 <p>
-                    In contrast, an "untethered" jailbreak does <em>not</em> require a computer to boot up.
+                    In contrast, an &quot;untethered&quot; jailbreak does <em>not</em> require a computer to boot up.
                     These commonly utilize exploits in the bootrom that patch the code signing requirement.
                 </p>
 
                 <h3 id="headingSemiTethered">Semi-Tethered</h3>
                 <p>
-                    More recently, as Apple's system has become more strict, two new forms of jailbreaks have appeared: "semi-tethered" and "semi-untethered."
-                    As their names imply they are "tethered" in some sorts, and require software to patch the kernel every boot.
+                    More recently, as Apple&apos;s system has become more strict, two new forms of jailbreaks have appeared: &quot;semi-tethered&quot; and &quot;semi-untethered.&quot;
+                    As their names imply they are &quot;tethered&quot; in some sorts, and require software to patch the kernel every boot.
                     However, they are unique in that the device will boot and function normally without needing a patch on every boot.
                 </p>
                 <p>
-                    A "semi-tethered" jailbreak is one where the device, in the absence of an exploit, will boot and function as if there is no jailbreak.
+                    A &quot;semi-tethered&quot; jailbreak is one where the device, in the absence of an exploit, will boot and function as if there is no jailbreak.
                     It will not have a patched kernel, and, as such, attempts to run unsigned apps like <A href="/ios/app/cydia">Cydia</A> will fail.
                     In order to fix this, the device must be rebooted and patched with the help of software external to the device (commonly provided with the jailbreaking software).
                 </p>
                 <p>
-                    A "semi-untethered" jailbreak is similar to a semi-tethered one, but with a minor difference: the tool to run the exploits is on the device.
+                    A &quot;semi-untethered&quot; jailbreak is similar to a semi-tethered one, but with a minor difference: the tool to run the exploits is on the device.
                     In other words, when a device is booted up, it will function as stock, but one can run an app that is present on the device to reboot and path the device.
                 </p>
 

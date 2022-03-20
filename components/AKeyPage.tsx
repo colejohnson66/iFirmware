@@ -36,8 +36,8 @@ type AKeyPageProps = {
 
 export default function AKeyPage(props: AKeyPageProps): React.ReactElement {
     return (
-        <A href={`/key/${props.build.toLowerCase()}/${props.device.toLowerCase().replace(',', '-')}`}>
+        <A href={`/key/${props.build.toLowerCase()}/${props.device.toLowerCase().replace(",", "-")}`}>
             {props.version} ({props.build})
         </A>
-    )
+    );
 }

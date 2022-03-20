@@ -58,7 +58,7 @@ export default function Page(): React.ReactElement {
                 <p>
                     When announced and released, the iPhone 2G was simply called <i>iPhone</i>.
                     However, with the release of the <A href="/device/iphone/3g">iPhone 3G</A> in <DateTime value="2008" />, the original iPhone became known as the &quot;iPhone <em>2G</em>.&quot;
-                    The reasoning is believed to be two-fold: it is the iPhone preceding the "3G" (and 2 is one before 3), and it only supported <A href="https://en.wikipedia.org/wiki/GSM">GSM</A> and <A href="https://en.wikipedia.org/wiki/Enhanced_Data_Rates_for_GSM_Evolution">EDGE</A> networks (commonly called &quot;2G&quot; networks).
+                    The reasoning is believed to be two-fold: it is the iPhone preceding the &quot;3G&quot; (and 2 is one before 3), and it only supported <A href="https://en.wikipedia.org/wiki/GSM">GSM</A> and <A href="https://en.wikipedia.org/wiki/Enhanced_Data_Rates_for_GSM_Evolution">EDGE</A> networks (commonly called &quot;2G&quot; networks).
                 </p>
 
                 <h2 id="headingSpecs">Technical Specs</h2>
@@ -117,9 +117,9 @@ export default function Page(): React.ReactElement {
 
                 <h2 id="headingHacking">Hacking</h2>
                 <p>
-                    Naturally, as a first generation device, the original iPhone is one of the more "hack-friendly" <A href="/device">iDevices</A>.
-                    Within two months of its release, <A href="https://www.theiphonewiki.com/wiki/User:Geohot">geohot</A> (George Hotz) "unlocked" the AT&amp;T only phone to <A href="https://www.youtube.com/watch?v=tvJ1RGlxe8Q">work on T-Mobile</A>.
-                    A few months later, the <A href="https://www.theiphonewiki.com/wiki/IPhone_Dev_Team">iPhone Dev Team</A> discovered "<A href="/jailbreak/exploit/pwnage">Pwnage</A>," a bootrom level <A href="/jailbreak#headingTethered"><em>untethered</em></A> exploit that allowed jailbreaking the device on <em>any</em> version of <A href="/ios">iPhone OS</A>.
+                    Naturally, as a first generation device, the original iPhone is one of the more &quot;hack-friendly&quot; <A href="/device">iDevices</A>.
+                    Within two months of its release, <A href="https://www.theiphonewiki.com/wiki/User:Geohot">geohot</A> (George Hotz) &quot;unlocked&quot; the AT&amp;T only phone to <A href="https://www.youtube.com/watch?v=tvJ1RGlxe8Q">work on T-Mobile</A>.
+                    A few months later, the <A href="https://www.theiphonewiki.com/wiki/IPhone_Dev_Team">iPhone Dev Team</A> discovered &quot;<A href="/jailbreak/exploit/pwnage">Pwnage</A>,&quot; a bootrom level <A href="/jailbreak#headingTethered"><em>untethered</em></A> exploit that allowed jailbreaking the device on <em>any</em> version of <A href="/ios">iPhone OS</A>.
                 </p>
 
                 <h2 id="headingExternalLinks">External Links</h2>
