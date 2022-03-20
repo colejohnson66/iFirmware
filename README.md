@@ -1,4 +1,4 @@
-# iDecryptIt (`idecryptit-web`)
+# iDecryptIt Website (`idecryptit-web`)
 
 The [iDecryptIt website](https://idecryptit.com/) is designed to facilitate a one-stop shop for information regarding the firmwares used in iPhone OS, iOS, iPadOS, and tvOS.
 
@@ -14,8 +14,8 @@ Then install `yarn` if you don't have it:
 Then you can run the following:
 
 ```bash
-> git clone https://github.com/colejohnson66/idecryptit-web
-> cd idecryptit-web
+> git clone https://github.com/colejohnson66/iDecryptItWeb
+> cd iDecryptItWeb
 > yarn install
 > yarn dev
 ```
@@ -28,9 +28,7 @@ Enter that URL into your favorite browser to begin browsing.
 
 ## Roadmap
 
-Ultimately, this website is designed to be a replacement for my popular (but no longer updated) program, [iDecryptIt](https://sourceforge.net/projects/idecryptit/) (with many added features).
-This includes the ability to display keys for a given firmware, decrypt any firmware file, and more.
-All the decrypting will be done locally through JavaScript with no server involvement.
+Ultimately, this website is designed to be a place for all my knowledge regarding Apple's iDevice platform.
 
 ## License
 
