@@ -33,7 +33,7 @@ export default function Page(): React.ReactElement {
         <Layout.Root navGroup="baseband" pageTitle="PMB8878" canonical="/baseband/pmb8878">
             <Layout.Title title="PMB8878" />
             <Breadcrumb.Root>
-                <Breadcrumb.Item href="#">Stub</Breadcrumb.Item>
+                <Breadcrumb.Item href="/baseband">Baseband</Breadcrumb.Item>
                 <Breadcrumb.Item>PMB8878</Breadcrumb.Item>
             </Breadcrumb.Root>
             <Layout.Content>
@@ -64,8 +64,7 @@ export default function Page(): React.ReactElement {
                     ["07.08.00", "4.2 beta", "8C5091e"],
                     ["07.09.00", "4.2 beta 2", "8C5101"],
                     ["07.10.00", "4.2 beta 3", "8C5115c"],
-                    ["4.2", "8C134"],
-                    ["4.2", "8C134b"],
+                    ["4.2", <>Builds 8C134 and 8C134b</>],
                     ["4.2.1 GM", "8C148"],
                     ["4.2.1", "8C148"],
                     ["07.11.00", "4.3 beta", "8F5148b"],
