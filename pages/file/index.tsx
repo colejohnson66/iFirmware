@@ -69,6 +69,7 @@ export default function Page(): React.ReactElement {
                     ["/format/img2", "IMG2"],
                     ["/format/img3", "IMG3"],
                     ["/format/img4", "IMG4"],
+                    ["/format/iboot-image", "iBoot Image"],
                 ])}
 
                 <h2 id="headingFiles">IPSW Files</h2>
