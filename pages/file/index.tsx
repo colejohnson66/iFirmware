@@ -82,21 +82,21 @@ export default function Page(): React.ReactElement {
                     ["/file/ramdisk", "Update and Restore Ramdisks"],
                     ["/file/aci-bt-fw", "ACI Bluetooth Firmware"],
                     ["/file/aci-wifi-fw", "ACI WiFi Firmware"],
-                    ["/file/adc-petra", "ADC Petra"],
-                    ["/file/ane", "ANE"], //             Copilot suggests: Apple Network Extensions
+                    ["/file/adc-petra", "ADC Petra", "image signal processor"],
+                    ["/file/ane", "Apple Neural Extensions"],
                     ["/file/ansf", "ANSF"], //           Copilot suggests: Apple Network Services Framework
-                    ["/file/aop-fw", "AOP Firmware"], // Copilot suggests: Apple On-chip Firmware
-                    ["/file/apple-ave", "Apple AVE"], // Copilot suggests: Apple Audio Video Encoder
+                    ["/file/aop-fw", "\"Always On Processor\" Firmware"],
+                    ["/file/apple-ave", "Apple Audio/Video Encoder"],
                     ["/file/apple-logo", "Apple Logo"],
-                    ["/file/apple-maggie", "Apple Maggie"],
+                    ["/file/apple-maggie", "Apple Maggie", "Lattice iCE5LP4K-SWG36"],
                     ["/file/arm-fw", "ARM Firmware"],
                     ["/file/audio-codec", "Audio Codec"],
                     ["/file/audio-dsp", "Audio DSP Firmware"],
                     ["/file/battery-charging", "Battery Charging"],
                     ["/file/battery-full", "Battery Full"],
                     ["/file/battery-low", "Battery Low"],
-                    ["/file/dali", "DALI"], //           Copilot suggests: Digital Audio Link Interface
-                    ["/file/dcp", "DCP"], //             Copilot suggests: Device Configuration Profile
+                    ["/file/dali", "DALI"], // Copilot suggests: Digital Audio Link Interface
+                    ["/file/dcp", "DCP"], // Copilot suggests: Device Configuration Profile
                     ["/file/device-tree", "Device Tree"],
                     ["/file/glyph-charging", "Glyph Charging"],
                     ["/file/glyph-plugin", "Glyph Plug-in"],
@@ -106,23 +106,23 @@ export default function Page(): React.ReactElement {
                     ["/file/iboot", "iBoot"],
                     ["/file/iboot-data", "iBoot Data"],
                     ["/file/ibss", "iBSS", "iBoot Single Stage"],
-                    ["/file/isp", "ISP"], //             Copilot suggests: Image Service Provider
+                    ["/file/isp", "ISP"], // Copilot suggests: Image Service Provider
                     ["/file/kernelcache", "Kernelcache"],
                     ["/file/leap-haptics", "Leap Haptics"], // Copilot suggests: Leap Motion Haptics
-                    ["/file/liquid-detect", "Liquid Detection"],
+                    ["/file/liquid-detect", "Liquid Damage Detection"],
                     ["/file/llb", "LLB", "Low Level Bootloader"],
                     ["/file/low-power-mode", "Low Power Mode"],
                     ["/file/low-power-find-my-mode", "Low Power \"Find My\" Mode"],
                     ["/file/mconnector", "M Connector"], // Copilot suggests: Mobile Connector
                     ["/file/multitouch", "Multitouch Firmware"],
                     ["/file/need-service", "Need Service"],
-                    ["/file/pmp", "PMP"], //             Copilot suggests: Power Management Policy
-                    ["/file/rans", "RANS"], //           Copilot suggests: Recovery Asset Network Service
+                    ["/file/pmp", "Power Management Processor"],
+                    ["/file/rans", "RANS"], // Copilot suggests: Recovery Asset Network Service
                     ["/file/recovery-mode", "Recovery Mode"],
-                    ["/file/rtp", "RTP"], //             Copilot suggests: Remote Terminal Protocol
-                    ["/file/sep-firmware", "SEP Firmware"], // Copilot suggests: Secure Encrypted Persistent Firmware
+                    ["/file/rtp", "RTP"], // Copilot suggests: Remote Terminal Protocol
+                    ["/file/sep-firmware", "Secure Enclave Processor Firmware", "SEP firmware"],
                     ["/file/smart-io-firmware", "SmartIO Firmware"],
-                    ["/file/wireless-power", "Wireless Power"],
+                    ["/file/wireless-power", "Wireless Charging Controller"],
                 ])}
             </Layout.Content>
         </Layout.Root>
