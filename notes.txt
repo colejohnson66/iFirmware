@@ -1,20 +1,2 @@
 http://newosxbook.com/bonus/vol1AppA.html
-
-
-IMG3/IMG4 tags
-
-rosi - Restore Ramdisk
-krnl - Kernelcache
-logo - AppleLogo
-chg0, chg1 - BatteryCharging
-batF - BatteryFull
-bat0, bat1 - BatteryLow
-dtre, rdtr - DeviceTree
-glyP - GlyphPlugin
-ibot - iBoot
-ibec - iBEC
-ibss - iBSS
-illb - LLB
-liqd - LiquidDetect
-recm - RecoveryMode
-sepi, rsep - SEP Firmware
+https://www.theiphonewiki.com/wiki/TYPE
