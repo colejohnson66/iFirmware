@@ -51,7 +51,7 @@ export default function HexViewDetailTable(props: HexViewDetailTableProps): Reac
             <tbody>
                 {props.entries.map((entry, idx) => (
                     <tr key={idx}>
-                        <td className={`border border-slate-700 p-2 text-center ${typeof entry[3] !== "undefined" ? ColorClasses[entry[3] % ColorClasses.length] : "bg-slate-100"}`}>0x{entry[0].toString(16).toUpperCase()}</td>
+                        <td className={`border border-slate-700 p-2 text-center ${typeof entry[3] !== "undefined" ? ColorClasses[entry[3] % ColorClasses.length] : "bg-slate-100"} font-mono`}>0x{entry[0].toString(16).toUpperCase()}</td>
                         <td className="border border-slate-700 bg-slate-100 p-2 text-center">{entry[1]}</td>
                         <td className="border border-slate-700 bg-slate-100 p-2">{entry[2]}</td>
                     </tr>
