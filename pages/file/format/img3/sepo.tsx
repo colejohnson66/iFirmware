@@ -55,7 +55,7 @@ export default function Page(): React.ReactElement {
    0  uint32   magic      // 'OPES' ('SEPO' in little endian)
    4  uint32   paddedSize // including header
    8  uint32   size
-   C  uint32   value      // \`size\` bytes
+   C  uint32   value
   10  uint8[]  padding    // optional
 }`}</pre>
 
