@@ -55,7 +55,7 @@ function ProcessChunk(entries: HexViewChunkEntry): React.ReactElement {
             const className = highlight ? ColorClasses[parseInt(highlightColor) % ColorClasses.length] : "bg-slate-100";
             ret.push(
                 <td key={`${idx}-${byteIdx}`}
-                    className={`${className} text-center p-1`}>{byte}</td>
+                    className={`${className} text-center p-1 font-mono`}>{byte}</td>
             );
         });
     });
@@ -73,13 +73,13 @@ export default function HexView(props: HexViewProps): React.ReactElement {
             <thead>
                 <tr className="border-b border-slate-600">
                     <th className="border border-slate-600 p-1">Offset</th>
-                    {[...Array(16)].map((_, idx) => <th key={idx} className="text-center p-1">{idx.toString(16).toUpperCase()}</th>)}
+                    {[...Array(16)].map((_, idx) => <th key={idx} className="text-center p-1 font-mono">{idx.toString(16).toUpperCase()}</th>)}
                 </tr>
             </thead>
             <tbody>
                 {props.chunks.map((chunk, idx) => (
                     <tr key={idx}>
-                        <th className="border-r border-slate-600 p-1 text-center">{(initialChunkOffset + idx * 16).toString(16).toUpperCase()}</th>
+                        <th className="border-r border-slate-600 p-1 text-center font-mono">{(initialChunkOffset + idx * 16).toString(16).toUpperCase()}</th>
                         {idx === 0 && bytesToSkip !== 0 && <td colSpan={bytesToSkip} />}
                         {ProcessChunk(chunk)}
                     </tr>
