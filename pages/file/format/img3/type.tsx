@@ -70,7 +70,7 @@ export default function Page(): React.ReactElement {
                 <p>
                     The following tag is from the <A href="/file/file/apple-logo">AppleLogo</A> payload from the <A href="/key/14A403/iPad3,6">10.0.1 (build 14A403) build for the iPad 4 (<code>iPhone3,6</code>)</A>.
                 </p>
-                <HexView initialOffset={0x14} chunks={[
+                <HexView initialOffset={0x14} size={0x20} chunks={[
                     [
                         "h0 45 50 59 54",
                         "20 00 00 00",

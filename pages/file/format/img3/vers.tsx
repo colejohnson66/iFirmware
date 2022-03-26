@@ -67,7 +67,7 @@ Img3VersTag {
                 <p>
                     The following tag is from the <A href="/file/file/apple-logo">AppleLogo</A> payload from the <A href="/key/5A347/iPhone1,1">2.0 (build 5A347) build for the iPhone (<code>iPhone1,1</code>)</A>.
                 </p>
-                <HexView initialOffset={0x1C5C} chunks={[
+                <HexView initialOffset={0x1C5C} size={0x20} chunks={[
                     ["h0 53 52 45 56"],
                     [
                         "20 00 00 00",

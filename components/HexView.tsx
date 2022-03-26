@@ -38,6 +38,7 @@ type HexViewChunkEntry = string[];
 
 type HexViewProps = {
     initialOffset: number;
+    size: number;
     chunks: HexViewChunkEntry[];
 };
 
@@ -95,7 +96,9 @@ function ChunkToAsciiCells(skip: number, entries: HexViewChunkEntry): React.Reac
 
 export default function HexView(props: HexViewProps): React.ReactElement {
     const initialChunkOffset = 16 * Math.floor(props.initialOffset / 16);
-    const bytesToSkip = props.initialOffset % 16;
+    const bytesToSkipStart = props.initialOffset % 16;
+    const bytesToSkipEnd = 16 - ((props.initialOffset + props.size) % 16);
+
 
     return (
         <table className="border border-slate-600 mb-4">
@@ -111,10 +114,12 @@ export default function HexView(props: HexViewProps): React.ReactElement {
                 {props.chunks.map((chunk, idx) => (
                     <tr key={idx}>
                         <th className="border-r border-slate-600 bg-slate-200 p-1 text-center font-mono">{(initialChunkOffset + idx * 16).toString(16).toUpperCase()}</th>
-                        {idx === 0 && bytesToSkip !== 0 && <td colSpan={bytesToSkip} className="bg-slate-100" />}
+                        {idx === 0 && bytesToSkipStart !== 0 && <td colSpan={bytesToSkipStart} className="bg-slate-100" />}
                         {ChunkToHexCells(chunk)}
+                        {idx === props.chunks.length - 1 && bytesToSkipEnd !== 0 && <td colSpan={bytesToSkipEnd} className="bg-slate-100" />}
                         {idx === 0 && <th rowSpan={props.chunks.length} className="border border-slate-600 bg-slate-100">&nbsp;</th>}
-                        {ChunkToAsciiCells(idx === 0 ? bytesToSkip : 0, chunk)}
+                        {ChunkToAsciiCells(idx === 0 ? bytesToSkipStart : 0, chunk)}
+                        {idx === props.chunks.length - 1 && bytesToSkipEnd !== 0 && <td colSpan={bytesToSkipEnd} className="bg-slate-100" />}
                     </tr>
                 ))}
             </tbody>
