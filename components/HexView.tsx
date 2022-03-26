@@ -63,6 +63,7 @@ function ProcessChunk(entries: HexViewChunkEntry): React.ReactElement {
     return <>{ret}</>;
 }
 
+// TODO: Add text view of bytes to the right
 export default function HexView(props: HexViewProps): React.ReactElement {
     const initialChunkOffset = 16 * Math.floor(props.initialOffset / 16);
     const bytesToSkip = props.initialOffset % 16;
