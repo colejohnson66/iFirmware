@@ -73,7 +73,8 @@ export default function Page(): React.ReactElement {
                 <HexView initialOffset={0x14} chunks={[
                     [
                         "h0 45 50 59 54",
-                        "20 00 00 00 04 00 00 00",
+                        "20 00 00 00",
+                        "04 00 00 00",
                     ],
                     [
                         "h1 6F 67 6F 6C",
