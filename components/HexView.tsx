@@ -72,15 +72,15 @@ export default function HexView(props: HexViewProps): React.ReactElement {
         <table className="border border-slate-600 mb-4">
             <thead>
                 <tr className="border-b border-slate-600">
-                    <th className="border border-slate-600 p-1">Offset</th>
-                    {[...Array(16)].map((_, idx) => <th key={idx} className="text-center p-1 font-mono">{idx.toString(16).toUpperCase()}</th>)}
+                    <th className="border border-slate-600 bg-slate-200 p-1 text-center">Offset</th>
+                    {[...Array(16)].map((_, idx) => <th key={idx} className="bg-slate-200 p-1 text-center font-mono">{idx.toString(16).toUpperCase()}</th>)}
                 </tr>
             </thead>
             <tbody>
                 {props.chunks.map((chunk, idx) => (
                     <tr key={idx}>
-                        <th className="border-r border-slate-600 p-1 text-center font-mono">{(initialChunkOffset + idx * 16).toString(16).toUpperCase()}</th>
-                        {idx === 0 && bytesToSkip !== 0 && <td colSpan={bytesToSkip} />}
+                        <th className="border-r border-slate-600 bg-slate-200 p-1 text-center font-mono">{(initialChunkOffset + idx * 16).toString(16).toUpperCase()}</th>
+                        {idx === 0 && bytesToSkip !== 0 && <td colSpan={bytesToSkip} className="bg-slate-100" />}
                         {ProcessChunk(chunk)}
                     </tr>
                 ))}
