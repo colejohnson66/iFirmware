@@ -32,7 +32,7 @@ import Toc from "@components/Toc";
 export default function Page(): React.ReactElement {
     return (
         <Layout.Root navGroup="file" pageTitle={<>IMG3 Tag: <code>SEPO</code></>} canonical="/file/format/img3/sepo">
-            <Layout.Title title="IMG3 Tag: VERS" />
+            <Layout.Title title="IMG3 Tag: SEPO" />
             <Breadcrumb.Root>
                 <Breadcrumb.Item href="/file">Firmware Files</Breadcrumb.Item>
                 <Breadcrumb.Item href="/file/format/img3">IMG3</Breadcrumb.Item>
