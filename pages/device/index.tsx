@@ -101,6 +101,7 @@ export default function Page(): React.ReactElement {
                 {List([
                     ["/remote/1g", "Siri Remote"],
                     ["/remote/2g", "Siri Remote (2nd generation)"],
+                    ["/remote/3g", "Siri Remote (3rd generation)"],
                 ])}
 
                 <h2 id="headingListAppleWatch">Apple Watch</h2>
@@ -178,6 +179,7 @@ export default function Page(): React.ReactElement {
                     ["/ipad-air/2g", "iPad Air 2"],
                     ["/ipad-air/3g", "iPad Air (3rd generation)"],
                     ["/ipad-air/4g", "iPad Air (4th generation)"],
+                    ["/ipad-air/5g", "iPad Air (5th generation)"],
                 ])}
 
                 <h3 id="headingIPadMini">iPad mini</h3>
