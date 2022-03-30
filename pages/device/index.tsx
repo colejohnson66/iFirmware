@@ -48,12 +48,19 @@ export default function Page(): React.ReactElement {
             </Breadcrumb.Root>
             <Layout.Content>
                 <Toc.Root>
-                    <Toc.Entry href="#headingListAirPods" text="AirPod" />
-                    <Toc.Entry href="#headingListAirTags" text="AirTag" />
+                    <Toc.Entry href="#headingListAirTag" text="AirTag" />
                     <Toc.Entry href="#headingListAppleTV" text="Apple TV">
                         <Toc.Entry href="#headingListAppleTVAccessories" text="Accessories" />
                     </Toc.Entry>
                     <Toc.Entry href="#headingListAppleWatch" text="Apple Watch" />
+                    <Toc.Entry href="#headingListHeadphones" text="Headphones">
+                        <Toc.Entry href="#headingListAirPods" text="AirPods" />
+                        <Toc.Entry href="#headingListBeats" text="Beats">
+                            <Toc.Entry href="#headingListBeatsBeats" text="Beats" />
+                            <Toc.Entry href="#headingListBeatsSolo" text="Beats Solo" />
+                            <Toc.Entry href="#headingListBeatsStudio" text="Beats Studio" />
+                        </Toc.Entry>
+                    </Toc.Entry>
                     <Toc.Entry href="#headingHomePod" text="HomePod" />
                     <Toc.Entry href="#headingIPad" text="iPad">
                         <Toc.Entry href="#headingIPadIPad" text="iPad" />
@@ -73,18 +80,9 @@ export default function Page(): React.ReactElement {
 
                 <Clear />
 
-                <h2 id="headingListAirPods">AirPods</h2>
+                <h2 id="headingListAirTag">AirTag</h2>
                 {List([
-                    ["/airpods/1g", "AirPods"],
-                    ["/airpods/2g", "AirPods (2nd generation)"],
-                    ["/airpods/3g", "AirPods (3rd generation)"],
-                    ["/airpods/pro", "AirPods Pro"],
-                    ["/airpods/max", "AirPods Max"],
-                ])}
-
-                <h2 id="headingListAirTags">AirTags</h2>
-                {List([
-                    ["/airtags/1g", "AirTags"],
+                    ["/airtags/1g", "AirTag"],
                 ])}
 
                 <h2 id="headingListAppleTV">Apple TV</h2>
@@ -116,6 +114,38 @@ export default function Page(): React.ReactElement {
                     ["/watch/se", "Apple Watch SE"],
                     ["/watch/series6", "Apple Watch Series 6"],
                     ["/watch/series7", "Apple Watch Series 7"],
+                ])}
+
+                <h2 id="headingListHeadphones">Headphones</h2>
+
+                <h3 id="headingListAirPods">AirPods</h3>
+                {List([
+                    ["/airpods/1g", "AirPods"],
+                    ["/airpods/2g", "AirPods (2nd generation)"],
+                    ["/airpods/3g", "AirPods (3rd generation)"],
+                    ["/airpods/pro", "AirPods Pro"],
+                    ["/airpods/max", "AirPods Max"],
+                ])}
+
+                <h3 id="headingListBeats">Beats</h3>
+
+                <h4 id="headingListBeatsBeats">Beats</h4>
+                {List([
+                    ["/beats/x", "Beats X"],
+                    ["/beats/fit-pro", "Beats Fit Pro"],
+                    ["/beats/flex", "Beats Flex"],
+                ])}
+
+                <h4 id="headingListBeatsSolo">Beats Solo</h4>
+                {List([
+                    ["/beats-solo/3-wireless", "Beats Solo3 Wireless"],
+                    ["/beats-solo/pro", "Beats Solo Pro"],
+                ])}
+
+                <h4 id="headingListBeatsStudio">Beats Studio</h4>
+                {List([
+                    ["/beats-studio/3-wireless", "Beats Studio3 Wireless"],
+                    ["/beats-studio/buds", "Beats Studio Buds"],
                 ])}
 
                 <h2 id="headingHomePod">HomePod</h2>
