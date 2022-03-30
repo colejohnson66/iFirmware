@@ -37,7 +37,7 @@ function List(args: [string, string, string[]][]): React.ReactElement {
                     {/* <dt><A href={`/device${deviceSlug}`}>{device}</A></dt> */}
                     <dt>{device}</dt>
                     {devices && devices.map((device, deviceIdx) => (
-                        <dd key={deviceIdx}><A href={`/file/file/device-tree/${device}`}>{device}</A></dd>
+                        <dd key={deviceIdx}><A href={`/fw/file/device-tree/${device}`}>{device}</A></dd>
                     ))}
                 </React.Fragment>
             ))}
@@ -47,10 +47,10 @@ function List(args: [string, string, string[]][]): React.ReactElement {
 
 export default function Page(): React.ReactElement {
     return (
-        <Layout.Root navGroup="file" pageTitle="DeviceTree" canonical="/file/file/device-tree">
+        <Layout.Root navGroup="fw" pageTitle="DeviceTree" canonical="/fw/file/device-tree">
             <Layout.Title title="DeviceTree" />
             <Breadcrumb.Root>
-                <Breadcrumb.Item href="/file">Firmware Files</Breadcrumb.Item>
+                <Breadcrumb.Item href="/fw">Firmware Files</Breadcrumb.Item>
                 <Breadcrumb.Item>DeviceTree</Breadcrumb.Item>
             </Breadcrumb.Root>
             <Layout.Content>
@@ -82,11 +82,11 @@ export default function Page(): React.ReactElement {
                 </Toc.Root>
                 <p>
                     A device tree (or DeviceTree) is a tree containing information about a device&apos;s various ports and peripherals.
-                    It is used by bootloaders (<A href="/file/file/iboot">iBoot</A> in the case of iOS) to provide the kernel with a map of the hardware.
+                    It is used by bootloaders (<A href="/fw/file/iboot">iBoot</A> in the case of iOS) to provide the kernel with a map of the hardware.
                     In iOS&apos; case, most nodes in the tree file are empty (null), and are instead populated by iBoot before control is passed over to the kernel (XNU).
                 </p>
                 <p>
-                    This file is present in all <A href="/file/format/ipsw">IPSW</A> files and is believed to be the same for every version of iOS (but different for each device).
+                    This file is present in all <A href="/fw/format/ipsw">IPSW</A> files and is believed to be the same for every version of iOS (but different for each device).
                     Despite being the same for every version of iOS, the encryption keys are different each time.
                 </p>
 
@@ -94,7 +94,7 @@ export default function Page(): React.ReactElement {
 
                 <h2 id="headingFormat">Payload Format</h2>
                 <p>
-                    Once extracted from the outer container (<A href="/file/format/img2">IMG2</A>, <A href="/file/format/img3">IMG3</A>, or <A href="/file/format/img4">IMG4</A>), the device tree can be dumped.
+                    Once extracted from the outer container (<A href="/fw/format/img2">IMG2</A>, <A href="/fw/format/img3">IMG3</A>, or <A href="/fw/format/img4">IMG4</A>), the device tree can be dumped.
                     It follows a simple binary tree format that can be described in just three structures (two if you don&apos;t count the root node):
                 </p>
                 <pre>{`DeviceTree {

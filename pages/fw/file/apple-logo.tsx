@@ -29,10 +29,10 @@ import Toc from "@components/Toc";
 
 export default function Page(): React.ReactElement {
     return (
-        <Layout.Root navGroup="file" pageTitle="AppleLogo" canonical="/file/file/apple-logo">
+        <Layout.Root navGroup="fw" pageTitle="AppleLogo" canonical="/fw/file/apple-logo">
             <Layout.Title title="AppleLogo" />
             <Breadcrumb.Root>
-                <Breadcrumb.Item href="/file">Firmware Files</Breadcrumb.Item>
+                <Breadcrumb.Item href="/fw">Firmware Files</Breadcrumb.Item>
                 <Breadcrumb.Item>AppleLogo</Breadcrumb.Item>
             </Breadcrumb.Root>
             <Layout.Content>
@@ -48,7 +48,7 @@ export default function Page(): React.ReactElement {
 
                 <h2 id="headingFormat">Payload Format</h2>
                 <p>
-                    Once extracted from the outer container (<A href="/file/format/img2">IMG2</A>, <A href="/file/format/img3">IMG3</A>, or <A href="/file/format/img4">IMG4</A>), the AppleLogo is an <A href="/file/format/iboot-image">iBootImage</A>.
+                    Once extracted from the outer container (<A href="/fw/format/img2">IMG2</A>, <A href="/fw/format/img3">IMG3</A>, or <A href="/fw/format/img4">IMG4</A>), the AppleLogo is an <A href="/fw/format/iboot-image">iBootImage</A>.
                     The actual resolution of the AppleLogo image will generally <em>not</em> be the same as the resolution of the device&apos;s screen;
                     Instead, the AppleLogo is shown at a 1:1 scale in the center of the device.
                 </p>

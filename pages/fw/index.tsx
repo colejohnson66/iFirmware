@@ -32,7 +32,7 @@ function List(args: [string, string, string?][]): React.ReactElement {
         <ul>
             {args.map(([url, name, paren]) => (
                 <li key={url}>
-                    <A href={`/file${url}`}>{name}</A>{paren && ` (${paren})`}
+                    <A href={`/fw${url}`}>{name}</A>{paren && ` (${paren})`}
                 </li>
             ))}
         </ul>
@@ -41,7 +41,7 @@ function List(args: [string, string, string?][]): React.ReactElement {
 
 export default function Page(): React.ReactElement {
     return (
-        <Layout.Root navGroup="file" pageTitle="Firmware Files" canonical="/file">
+        <Layout.Root navGroup="fw" pageTitle="Firmware Files" canonical="/fw">
             <Layout.Title title="Firmware Files" />
             <Breadcrumb.Root>
                 <Breadcrumb.Item>Firmware Files</Breadcrumb.Item>
@@ -52,7 +52,7 @@ export default function Page(): React.ReactElement {
                     <Toc.Entry href="#headingFiles" text="IPSW Files" />
                 </Toc.Root>
                 <p>
-                    There are many different files contains in an <A href="/file/format/ipsw">IPSW</A> firmware file.
+                    There are many different files contains in an <A href="/fw/format/ipsw">IPSW</A> firmware file.
                 </p>
 
                 <Clear />

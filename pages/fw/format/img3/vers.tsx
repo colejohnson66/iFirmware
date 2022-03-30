@@ -31,11 +31,11 @@ import Toc from "@components/Toc";
 
 export default function Page(): React.ReactElement {
     return (
-        <Layout.Root navGroup="file" pageTitle={<>IMG3 Tag: <code>VERS</code></>} canonical="/file/format/img3/vers">
+        <Layout.Root navGroup="fw" pageTitle={<>IMG3 Tag: <code>VERS</code></>} canonical="/fw/format/img3/vers">
             <Layout.Title title="IMG3 Tag: VERS" />
             <Breadcrumb.Root>
-                <Breadcrumb.Item href="/file">Firmware Files</Breadcrumb.Item>
-                <Breadcrumb.Item href="/file/format/img3">IMG3</Breadcrumb.Item>
+                <Breadcrumb.Item href="/fw">Firmware Files</Breadcrumb.Item>
+                <Breadcrumb.Item href="/fw/format/img3">IMG3</Breadcrumb.Item>
                 <Breadcrumb.Item><code>VERS</code> Tag</Breadcrumb.Item>
             </Breadcrumb.Root>
             <Layout.Content>
@@ -44,7 +44,7 @@ export default function Page(): React.ReactElement {
                     <Toc.Entry href="#headingExample" text="Example Tag" />
                 </Toc.Root>
                 <p>
-                    The <code>VERS</code> <A href="/file/format/img3">IMG3</A> tag is a string containing the target <A href="/file/file/iboot">iBoot</A> version of the image.
+                    The <code>VERS</code> <A href="/fw/format/img3">IMG3</A> tag is a string containing the target <A href="/fw/file/iboot">iBoot</A> version of the image.
                     It is unknown if this tag&apos;s value is verified anywhere in the system.
                 </p>
 
@@ -65,7 +65,7 @@ Img3VersTag {
 
                 <h2 id="headingExample">Example Tag</h2>
                 <p>
-                    The following tag is from the <A href="/file/file/apple-logo">AppleLogo</A> payload from the <A href="/key/5A347/iPhone1,1">2.0 (build 5A347) build for the iPhone (<code>iPhone1,1</code>)</A>.
+                    The following tag is from the <A href="/fw/file/apple-logo">AppleLogo</A> payload from the <A href="/key/5A347/iPhone1,1">2.0 (build 5A347) build for the iPhone (<code>iPhone1,1</code>)</A>.
                 </p>
                 <HexView initialOffset={0x1C5C} size={0x20} chunks={[
                     ["h0 53 52 45 56"],

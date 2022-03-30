@@ -31,11 +31,11 @@ import Toc from "@components/Toc";
 
 export default function Page(): React.ReactElement {
     return (
-        <Layout.Root navGroup="file" pageTitle={<>IMG3 Tag: <code>SEPO</code></>} canonical="/file/format/img3/sepo">
+        <Layout.Root navGroup="fw" pageTitle={<>IMG3 Tag: <code>SEPO</code></>} canonical="/fw/format/img3/sepo">
             <Layout.Title title="IMG3 Tag: SEPO" />
             <Breadcrumb.Root>
-                <Breadcrumb.Item href="/file">Firmware Files</Breadcrumb.Item>
-                <Breadcrumb.Item href="/file/format/img3">IMG3</Breadcrumb.Item>
+                <Breadcrumb.Item href="/fw">Firmware Files</Breadcrumb.Item>
+                <Breadcrumb.Item href="/fw/format/img3">IMG3</Breadcrumb.Item>
                 <Breadcrumb.Item><code>SEPO</code> Tag</Breadcrumb.Item>
             </Breadcrumb.Root>
             <Layout.Content>
@@ -44,7 +44,7 @@ export default function Page(): React.ReactElement {
                     <Toc.Entry href="#headingExample" text="Example Tag" />
                 </Toc.Root>
                 <p>
-                    The <code>SEPO</code> (Security Epoch) <A href="/file/format/img3">IMG3</A> tag specifies the security epoch required for the device to load the provided image.
+                    The <code>SEPO</code> (Security Epoch) <A href="/fw/format/img3">IMG3</A> tag specifies the security epoch required for the device to load the provided image.
                     It is believed to be used to allow Apple to prevent devices from loading previously vulnerable firmwares.
                 </p>
 
@@ -61,7 +61,7 @@ export default function Page(): React.ReactElement {
 
                 <h2 id="headingExample">Example Tag</h2>
                 <p>
-                    The following tag is from the <A href="/file/file/apple-logo">AppleLogo</A> payload from the <A href="/key/5A347/iPhone1,1">2.0 (build 5A347) build for the iPhone (<code>iPhone1,1</code>)</A>.
+                    The following tag is from the <A href="/fw/file/apple-logo">AppleLogo</A> payload from the <A href="/key/5A347/iPhone1,1">2.0 (build 5A347) build for the iPhone (<code>iPhone1,1</code>)</A>.
                 </p>
                 <HexView initialOffset={0x1C7C} size={0x10} chunks={[
                     ["h0 45 50 45 53"],

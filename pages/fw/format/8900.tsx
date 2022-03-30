@@ -29,10 +29,10 @@ import Toc from "@components/Toc";
 
 export default function Page(): React.ReactElement {
     return (
-        <Layout.Root navGroup="file" pageTitle="8900" canonical="/file/format/8900">
+        <Layout.Root navGroup="fw" pageTitle="8900" canonical="/fw/format/8900">
             <Layout.Title title="8900" />
             <Breadcrumb.Root>
-                <Breadcrumb.Item href="/file">Firmware Files</Breadcrumb.Item>
+                <Breadcrumb.Item href="/fw">Firmware Files</Breadcrumb.Item>
                 <Breadcrumb.Item>8900</Breadcrumb.Item>
             </Breadcrumb.Root>
             <Layout.Content>
@@ -41,8 +41,8 @@ export default function Page(): React.ReactElement {
                 </Toc.Root>
                 <p>
                     So called due to both their <A href="https://en.wikipedia.org/wiki/File_format#Magic_number">magic number</A> and their use on the <A href="/processor/s5l8900">S5L8900 processor</A>, 8900 files are very basic.
-                    Their usage was, as far as is known, to simply provide a wrapper for <A href="/file/format/img2">IMG2</A> and <A href="/file/format/dmg">DMG</A> files.
-                    They can only be parsed by <A href="/file/file/iboot">iBoot</A>-304 (iPhone OS 2.0 beta 3) or earlier and the S5L8900.
+                    Their usage was, as far as is known, to simply provide a wrapper for <A href="/fw/format/img2">IMG2</A> and <A href="/fw/format/dmg">DMG</A> files.
+                    They can only be parsed by <A href="/fw/file/iboot">iBoot</A>-304 (iPhone OS 2.0 beta 3) or earlier and the S5L8900.
                     Later processors have no support for this format.
                 </p>
 

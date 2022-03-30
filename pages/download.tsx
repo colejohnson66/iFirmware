@@ -41,7 +41,7 @@ export default function Page(): React.ReactElement {
                     <Toc.Entry href="#headingHistory" text="History" />
                 </Toc.Root>
                 <p>
-                    iDecryptIt is a Windows only program designed to decrypt the <A href="/file/root-fs">root filesystem</A>.
+                    iDecryptIt is a Windows only program designed to decrypt the <A href="/fw/file/root-fs">root filesystem</A>.
                     It&apos;s development was on hiatus for three and a half years and is currently in the process of a complete rewrite with added features.
                     Development historically took place on <A href="https://sourceforge.net/projects/idecryptit">SourceForge</A>, but is now taking place on <A href="https://github.com/colejohnson66/iDecryptIt">GitHub</A>.
                 </p>

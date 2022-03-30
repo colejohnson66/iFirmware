@@ -31,11 +31,11 @@ import Toc from "@components/Toc";
 
 export default function Page(): React.ReactElement {
     return (
-        <Layout.Root navGroup="file" pageTitle={<>IMG3 Tag: <code>TYPE</code></>} canonical="/file/format/img3/type">
+        <Layout.Root navGroup="fw" pageTitle={<>IMG3 Tag: <code>TYPE</code></>} canonical="/fw/format/img3/type">
             <Layout.Title title="IMG3 Tag: TYPE" />
             <Breadcrumb.Root>
-                <Breadcrumb.Item href="/file">Firmware Files</Breadcrumb.Item>
-                <Breadcrumb.Item href="/file/format/img3">IMG3</Breadcrumb.Item>
+                <Breadcrumb.Item href="/fw">Firmware Files</Breadcrumb.Item>
+                <Breadcrumb.Item href="/fw/format/img3">IMG3</Breadcrumb.Item>
                 <Breadcrumb.Item><code>TYPE</code> Tag</Breadcrumb.Item>
             </Breadcrumb.Root>
             <Layout.Content>
@@ -44,7 +44,7 @@ export default function Page(): React.ReactElement {
                     <Toc.Entry href="#headingExample" text="Example Tag" />
                 </Toc.Root>
                 <p>
-                    The <code>TYPE</code> <A href="/file/format/img3">IMG3</A> tag is a four byte little endian string that states what type of firmare image the payload is.
+                    The <code>TYPE</code> <A href="/fw/format/img3">IMG3</A> tag is a four byte little endian string that states what type of firmare image the payload is.
                     This tag was not present in earlier versions of iPhone OS/iOS;
                     It is unknown when it was added.
                     Its purpose is also unknown as the <code>ident</code> field in the IMG3 header has the same value.
@@ -68,7 +68,7 @@ export default function Page(): React.ReactElement {
 
                 <h2 id="headingExample">Example Tag</h2>
                 <p>
-                    The following tag is from the <A href="/file/file/apple-logo">AppleLogo</A> payload from the <A href="/key/14A403/iPad3,6">10.0.1 (build 14A403) build for the iPad 4 (<code>iPhone3,6</code>)</A>.
+                    The following tag is from the <A href="/fw/file/apple-logo">AppleLogo</A> payload from the <A href="/key/14A403/iPad3,6">10.0.1 (build 14A403) build for the iPad 4 (<code>iPhone3,6</code>)</A>.
                 </p>
                 <HexView initialOffset={0x14} size={0x20} chunks={[
                     [
@@ -87,7 +87,7 @@ export default function Page(): React.ReactElement {
                     [0x18, 4, <><code>paddedSize</code>: This tag is 0x20 (32) bytes long.</>],
                     [0x1C, 4, <><code>size</code>: The actual payload is 4 bytes long.</>],
                     [0x20, 4, <><code>value</code>: The actual value of the tag.
-                        When interpreted in little endian order, this gives the ASCII string <code>LOGO</code> (indicating that it&apos;s an <A href="/file/file/apple-logo">AppleLogo</A> file).</>, 1],
+                        When interpreted in little endian order, this gives the ASCII string <code>LOGO</code> (indicating that it&apos;s an <A href="/fw/file/apple-logo">AppleLogo</A> file).</>, 1],
                     [0x24, 16, <><code>padding</code></>],
                 ]} />
             </Layout.Content>

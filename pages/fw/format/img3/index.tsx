@@ -32,7 +32,7 @@ function TagList(args: [string, React.ReactNode?, string?][]): React.ReactElemen
         <ul>
             {args.map(([tag, description, paren]) => (
                 <li key={tag}>
-                    <A href={`/file/format/img3/${tag}`}><code>{tag.toUpperCase()}</code></A>{description && <>: {description}</>}{paren && ` (${paren})`}
+                    <A href={`/fw/format/img3/${tag}`}><code>{tag.toUpperCase()}</code></A>{description && <>: {description}</>}{paren && ` (${paren})`}
                 </li>
             ))}
         </ul>
@@ -41,10 +41,10 @@ function TagList(args: [string, React.ReactNode?, string?][]): React.ReactElemen
 
 export default function Page(): React.ReactElement {
     return (
-        <Layout.Root navGroup="file" pageTitle="IMG3" canonical="/file/format/img3">
+        <Layout.Root navGroup="fw" pageTitle="IMG3" canonical="/fw/format/img3">
             <Layout.Title title="IMG3" />
             <Breadcrumb.Root>
-                <Breadcrumb.Item href="/file">Firmware Files</Breadcrumb.Item>
+                <Breadcrumb.Item href="/fw">Firmware Files</Breadcrumb.Item>
                 <Breadcrumb.Item>IMG3</Breadcrumb.Item>
             </Breadcrumb.Root>
             <Layout.Content>
@@ -58,16 +58,16 @@ export default function Page(): React.ReactElement {
                     </Toc.Entry>
                 </Toc.Root>
                 <p>
-                    Initially used in iPhone OS 2.0 beta 4, IMG 3 files were created to address the problems with the older <A href="/file/format/8900">8900</A>/<A href="/file/format/img2">IMG2</A> combination.
+                    Initially used in iPhone OS 2.0 beta 4, IMG 3 files were created to address the problems with the older <A href="/fw/format/8900">8900</A>/<A href="/fw/format/img2">IMG2</A> combination.
                     This format was used on all devices using 32-bit processors (<A href="/processor/s5l8955">S5L8955</A> (A6X) and earlier).
-                    All 64-bit processors (<A href="/processor/s5l8960">S5L8960</A> (A7) and newer) use the <A href="/file/format/img4">IMG4</A> format.
+                    All 64-bit processors (<A href="/processor/s5l8960">S5L8960</A> (A7) and newer) use the <A href="/fw/format/img4">IMG4</A> format.
                 </p>
 
                 <Clear />
 
                 <h2 id="headingImg2Problems">Problems with IMG2</h2>
                 <p>
-                    The biggest problem with the <A href="/file/format/8900">8900</A>/<A href="/file/format/img2">IMG2</A> format combination was that they all were encrypted with the same key: <A href="/processor/s5l8900#headingKeys">Key 0x837</A>.
+                    The biggest problem with the <A href="/fw/format/8900">8900</A>/<A href="/fw/format/img2">IMG2</A> format combination was that they all were encrypted with the same key: <A href="/processor/s5l8900#headingKeys">Key 0x837</A>.
                     IMG3 addressed this glaring security hole by encrypting each payload with its own IV/key.
                     This IV/key pair is stored in the file with the payload, but is <em>itself</em> encrypted with the <A href="https://www.theiphonewiki.com/wiki/GID_Key">GID key</A>, a key shared by all devices with the same processor.
                     The GID key is burned into the processor and cannot be accessed directly; Instead, every time the key is needed, the processor will be instructed to use it (at no time providing it to the kernel or user code).
@@ -75,7 +75,7 @@ export default function Page(): React.ReactElement {
 
                 <h2 id="headingFormat">File Format</h2>
                 <p>
-                    Despite requiring a bit more to process, at least when compared to the <A href="/file/format/8900">8900</A>/<A href="/file/format/img2"><a>IMG2</a></A> combination, the IMG3 file is quite simple.
+                    Despite requiring a bit more to process, at least when compared to the <A href="/fw/format/8900">8900</A>/<A href="/fw/format/img2"><a>IMG2</a></A> combination, the IMG3 file is quite simple.
                     It consists of a 20 byte header followed by a series of <A href="headingTags">tags</A>, one after the other.
                 </p>
                 <pre>{`Img3
