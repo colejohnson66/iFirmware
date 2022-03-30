@@ -97,7 +97,8 @@ function ChunkToAsciiCells(skip: number, entries: HexViewChunkEntry): React.Reac
 export default function HexView(props: HexViewProps): React.ReactElement {
     const initialChunkOffset = 16 * Math.floor(props.initialOffset / 16);
     const bytesToSkipStart = props.initialOffset % 16;
-    const bytesToSkipEnd = 16 - ((props.initialOffset + props.size) % 16);
+    const endOffset = props.initialOffset + props.size;
+    const bytesToSkipEnd = (16 - (endOffset % 16)) % 16; // mod 16 ensures `(endOffset % 16) == 0` makes this 0
 
 
     return (
