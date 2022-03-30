@@ -56,13 +56,13 @@ export default function Page(): React.ReactElement {
    4  uint32     paddedSize // including header
    8  uint32     size
    C  uint32     cryptType  // 1: IV/Key are encrypted with the GID key
-                            // 2: Used with a second KBAG for the `}<A href="/processor/s5l8920">S5L8920</A>{`; use is unknown
-  10  uint32     aesType    // the number of bits in the key:
+                            // 2: IV/Key are encrypted with the `}<i>development</i>{` GID key
+  10  uint32     aesSize    // the number of bits in the key:
                             //  0x80: AES-128 (16 bytes)
                             //  0xC0: AES-192 (24 bytes)
                             // 0x100: AES-256 (32 bytes)
   14  uint8[16]  iv
-  24  uint8[]    key        // \`aesType / 8\` bytes
+  24  uint8[]    key        // \`aesSize / 8\` bytes
 ????  uint8[]    padding    // optional
 }`}</pre>
 
@@ -87,7 +87,7 @@ export default function Page(): React.ReactElement {
                     [0x1C90, 4, <><code>paddedSize</code>: This tag is 0x44 (68) bytes long.</>],
                     [0x1C94, 4, <><code>size</code>: The actual payload is 0x38 (56) bytes long.</>],
                     [0x1C98, 4, <><code>cryptType</code>: This tag is encrypted with the GID key.</>, 1],
-                    [0x1C9C, 4, <><code>aesType</code>: The key is 0x80 (128) bits long.</>, 2],
+                    [0x1C9C, 4, <><code>aesSize</code>: The key is 0x80 (128) bits long.</>, 2],
                     [0x1CA0, 16, <><code>iv</code>: The encrypted IV.</>, 3],
                     [0x1CB0, 16, <><code>key</code>: The encrypted key.</>, 4],
                     [0x1CC0, 16, <><code>padding</code></>],
