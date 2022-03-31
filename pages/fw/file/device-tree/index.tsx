@@ -28,22 +28,22 @@ import Layout from "@components/Layout";
 import React from "react";
 import Toc from "@components/Toc";
 
-function List(args: [string, string, string[]][]): React.ReactElement {
-    return (
-        <dl>
-            {/* eslint-disable-next-line @typescript-eslint/no-unused-vars */}
-            {args.map(([deviceSlug, device, devices], rowIdx) => (
-                <React.Fragment key={rowIdx}>
-                    {/* <dt><A href={`/device${deviceSlug}`}>{device}</A></dt> */}
-                    <dt>{device}</dt>
-                    {devices && devices.map((device, deviceIdx) => (
-                        <dd key={deviceIdx}><A href={`/fw/file/device-tree/${device}`}>{device}</A></dd>
-                    ))}
-                </React.Fragment>
-            ))}
-        </dl>
-    );
-}
+// function List(args: [string, string, string[]][]): React.ReactElement {
+//     return (
+//         <dl>
+//             {/* eslint-disable-next-line @typescript-eslint/no-unused-vars */}
+//             {args.map(([deviceSlug, device, devices], rowIdx) => (
+//                 <React.Fragment key={rowIdx}>
+//                     {/* <dt><A href={`/device${deviceSlug}`}>{device}</A></dt> */}
+//                     <dt>{device}</dt>
+//                     {devices && devices.map((device, deviceIdx) => (
+//                         <dd key={deviceIdx}><A href={`/fw/file/device-tree/${device}`}>{device}</A></dd>
+//                     ))}
+//                 </React.Fragment>
+//             ))}
+//         </dl>
+//     );
+// }
 
 export default function Page(): React.ReactElement {
     return (
@@ -56,7 +56,7 @@ export default function Page(): React.ReactElement {
             <Layout.Content>
                 <Toc.Root>
                     <Toc.Entry href="#headingFormat" text="Payload Format" />
-                    <Toc.Entry href="#headingListAirTags" text="AirTag" />
+                    {/* <Toc.Entry href="#headingListAirTags" text="AirTag" />
                     <Toc.Entry href="#headingListAppleTV" text="Apple TV">
                         <Toc.Entry href="#headingListAppleTVAccessories" text="Accessories" />
                     </Toc.Entry>
@@ -78,16 +78,13 @@ export default function Page(): React.ReactElement {
                         <Toc.Entry href="#headingIPadAccessories" text="Accessories" />
                     </Toc.Entry>
                     <Toc.Entry href="#headingIPhone" text="iPhone" />
-                    <Toc.Entry href="#headingIPodTouch" text="iPod touch" />
+                    <Toc.Entry href="#headingIPodTouch" text="iPod touch" /> */}
                 </Toc.Root>
                 <p>
                     A device tree (or DeviceTree) is a tree containing information about a device&apos;s various ports and peripherals.
                     It is used by bootloaders (<A href="/fw/file/iboot">iBoot</A> in the case of iOS) to provide the kernel with a map of the hardware.
                     In iOS&apos; case, most nodes in the tree file are empty (null), and are instead populated by iBoot before control is passed over to the kernel (XNU).
-                </p>
-                <p>
-                    This file is present in all <A href="/fw/format/ipsw">IPSW</A> files and is believed to be the same for every version of iOS (but different for each device).
-                    Despite being the same for every version of iOS, the encryption keys are different each time.
+                    This file is present in all <A href="/fw/format/ipsw">IPSW</A> files.
                 </p>
 
                 <Clear />
@@ -116,7 +113,7 @@ DTreeNodeProp {
 }`}
                 </pre>
 
-                <h2 id="headingListAirTags">AirTags</h2>
+                {/* <h2 id="headingListAirTags">AirTags</h2>
                 {List([
                     ["/airtag/1g", "AirTag", ["AirTag1,1"]],
                 ])}
@@ -289,7 +286,7 @@ DTreeNodeProp {
                     ["/ipod-touch/5g", "iPod touch 5G", ["iPod5,1"]],
                     ["/ipod-touch/6g", "iPod touch 6G", ["iPod7,1"]],
                     ["/ipod-touch/7g", "iPod touch 7G", ["iPod9,1"]],
-                ])}
+                ])} */}
             </Layout.Content>
         </Layout.Root>
     );
