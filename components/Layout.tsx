@@ -57,7 +57,7 @@ const Navigation: NavigationItem[] = [
     { name: "Baseband", href: "/baseband", navGroup: "baseband" },
     { name: "Processors", href: "/processor", navGroup: "processor" },
     { name: "Keys", href: "/key", navGroup: "key" },
-    { name: "Files", href: "/file", navGroup: "fw" },
+    { name: "Files", href: "/fw", navGroup: "fw" },
     // { name: "Filesystem Browser", href: "/fs", navGroup: "fs" },
     { name: "OTA Updates", href: "/ota", navGroup: "ota" },
     // { name: "Decrypt", href: "/decrypt", navGroup: "decrypt" },
