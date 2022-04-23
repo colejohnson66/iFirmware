@@ -54,7 +54,6 @@ export default function Page(): React.ReactElement {
         <Layout.Root navGroup="ota" pageTitle="OTA Updates" canonical="/ota">
             <Layout.Title title="OTA Updates" />
             <Breadcrumb.Root>
-                <Breadcrumb.Item href="#">Stub</Breadcrumb.Item>
                 <Breadcrumb.Item>OTA Updates</Breadcrumb.Item>
             </Breadcrumb.Root>
             <Layout.Content>

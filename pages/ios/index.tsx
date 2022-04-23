@@ -46,7 +46,6 @@ export default function Page(): React.ReactElement {
         <Layout.Root navGroup="ios" pageTitle="iOS" canonical="/ios">
             <Layout.Title title="iOS" />
             <Breadcrumb.Root>
-                <Breadcrumb.Item href="#">Stub</Breadcrumb.Item>
                 <Breadcrumb.Item>iOS</Breadcrumb.Item>
             </Breadcrumb.Root>
             <Layout.Content>
