@@ -4,20 +4,20 @@
  * =============================================================================
  * Copyright (c) 2022 Cole Tobin
  *
- * This file is part of iDecryptIt-Web.
+ * This file is part of iFirmware.
  *
- * iDecryptIt-Web is free software: you can redistribute it and/or modify it
- *   under the terms of the GNU Affero General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or (at your
- *   option) any later version.
+ * iFirmware is free software: you can redistribute it and/or modify it under
+ *   the terms of the GNU Affero General Public License as published by the Free
+ *   Software Foundation, either version 3 of the License, or (at your option)
+ *   any later version.
  *
- * iDecryptIt-Web is distributed in the hope that it will be useful, but WITHOUT
- *   ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- *   FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License
- *   more details.
+ * iFirmware is distributed in the hope that it will be useful, but WITHOUT ANY
+ *   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ *   FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License more
+ *   details.
  *
  * You should have received a copy of the GNU Affero General Public License
- *   along with iDecryptIt-Web. If not, see <http://www.gnu.org/licenses/>.
+ *   along with iFirmware. If not, see <http://www.gnu.org/licenses/>.
  * =============================================================================
  */
 
@@ -49,7 +49,7 @@ type NavigationItem = {
     navGroup: NavGroup;
 }
 const Navigation: NavigationItem[] = [
-    { name: "iDecryptIt", href: "/", navGroup: "home" },
+    { name: "iFirmware", href: "/", navGroup: "home" },
     { name: "Download", href: "/download", navGroup: "download" },
     { name: "iOS", href: "/ios", navGroup: "ios" },
     { name: "Jailbreak", href: "/jailbreak", navGroup: "jailbreak" },
@@ -69,8 +69,8 @@ function LayoutRoot(props: LayoutRootProps | LayoutRoot404Props): React.ReactEle
     return (
         <>
             <Head>
-                {props.navGroup === "home" && <title>iDecryptIt</title>}
-                {props.canonical && <link rel="canonical" href={`https://idecryptit.com${props.canonical}`} />}
+                {props.navGroup === "home" && <title>iFirmware</title>}
+                {props.canonical && <link rel="canonical" href={`https://ifirmware.dev${props.canonical}`} />}
                 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
             </Head>
             <div className="min-h-full flex flex-col">
@@ -163,7 +163,7 @@ type LayoutTitleProps = {
 function LayoutTitle(props: LayoutTitleProps): React.ReactElement {
     return (
         <Head>
-            <title>{props.title} | iDecryptIt</title>
+            <title>{props.title} | iFirmware</title>
         </Head>
     );
 }

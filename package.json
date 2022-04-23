@@ -1,16 +1,16 @@
 {
-    "name": "idecryptit-web",
+    "name": "ifirmware",
     "version": "0.1.0",
-    "description": "Source code for the iDecryptIt website",
+    "description": "Source code for the iFirmware website",
     "author": "Cole Tobin <coleharrisjohnson@gmail.coom>",
     "license": "AGPL-3.0-or-later",
     "private": true,
     "repository": {
         "type": "git",
-        "url": "https://github.com/colejohnson66/iDecryptItWeb.git"
+        "url": "https://github.com/colejohnson66/iFirmware.git"
     },
     "bugs": {
-        "url": "https://github.com/colejohnson66/iDecryptItWeb/issues"
+        "url": "https://github.com/colejohnson66/iFirmware/issues"
     },
     "scripts": {
         "dev": "next",

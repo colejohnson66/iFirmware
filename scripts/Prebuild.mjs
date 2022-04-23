@@ -4,20 +4,20 @@
  * =============================================================================
  * Copyright (c) 2022 Cole Tobin
  *
- * This file is part of iDecryptIt-Web.
+ * This file is part of iFirmware.
  *
- * iDecryptIt-Web is free software: you can redistribute it and/or modify it
- *   under the terms of the GNU Affero General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or (at your
- *   option) any later version.
+ * iFirmware is free software: you can redistribute it and/or modify it under
+ *   the terms of the GNU Affero General Public License as published by the Free
+ *   Software Foundation, either version 3 of the License, or (at your option)
+ *   any later version.
  *
- * iDecryptIt-Web is distributed in the hope that it will be useful, but WITHOUT
- *   ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- *   FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License
- *   more details.
+ * iFirmware is distributed in the hope that it will be useful, but WITHOUT ANY
+ *   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ *   FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License more
+ *   details.
  *
  * You should have received a copy of the GNU Affero General Public License
- *   along with iDecryptIt-Web. If not, see <http://www.gnu.org/licenses/>.
+ *   along with iFirmware. If not, see <http://www.gnu.org/licenses/>.
  * =============================================================================
  */
 
@@ -79,7 +79,7 @@ const SiteMapLines = [
     "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
     "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">",
 ];
-SiteMapLines.push(...list.map((entry) => `    <url><loc>https://idecryptit.com${entry}</loc></url>`));
+SiteMapLines.push(...list.map((entry) => `    <url><loc>https://ifirmware.dev${entry}</loc></url>`));
 SiteMapLines.push(
     "</urlset>",
     "");

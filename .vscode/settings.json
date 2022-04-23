@@ -8,6 +8,7 @@
         "geohot",
         "Hotz",
         "iboot",
+        "iFirmware",
         "IPSW",
         "jailbreaking",
         "kbag",
@@ -21,6 +22,7 @@
         "Siri",
         "struct",
         "unencrypted",
+        "Vercel",
         "WWDC"
     ],
     "editor.formatOnSave": true,

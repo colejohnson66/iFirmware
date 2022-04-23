@@ -1,6 +1,6 @@
-# iDecryptIt Website (`idecryptit-web`)
+# iFirmware Website (`ifirmware`)
 
-The [iDecryptIt website](https://idecryptit.com/) is designed to facilitate a one-stop shop for information regarding the firmwares used in iPhone OS, iOS, iPadOS, and tvOS.
+The [iFirmware website](https://ifirmware.dev/) is designed to facilitate a one-stop shop for information regarding the firmwares used in iPhone OS, iOS, iPadOS, and tvOS.
 
 ## Running a Copy
 
@@ -14,8 +14,8 @@ Then install `yarn` if you don't have it:
 Then you can run the following:
 
 ```bash
-> git clone https://github.com/colejohnson66/iDecryptItWeb
-> cd iDecryptItWeb
+> git clone https://github.com/colejohnson66/iFirmware
+> cd iFirmware
 > yarn install
 > yarn dev
 ```
@@ -32,4 +32,4 @@ Ultimately, this website is designed to be a place for all my knowledge regardin
 
 ## License
 
-The iDecryptIt website is licensed under [GNU Affero General Public License 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html) or later.
+The iFirmware website is licensed under [GNU Affero General Public License 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html) or later.
