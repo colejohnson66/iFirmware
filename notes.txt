@@ -1,2 +1,4 @@
 http://newosxbook.com/bonus/vol1AppA.html
+http://newosxbook.com/bonus/iBoot.pdf
 https://www.theiphonewiki.com/wiki/TYPE
+https://github.com/aidansteele/osx-abi-macho-file-format-reference

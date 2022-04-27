@@ -138,7 +138,6 @@ DTreeNodeProp {
                 {List([
                     ["/remote/1g", "Siri Remote", []],
                     ["/remote/2g", "Siri Remote (2nd generation)", []],
-                    ["/remote/3g", "Siri Remote (3rd generation)", []],
                 ])}
 
                 <h2 id="headingListAppleWatch">Apple Watch</h2>

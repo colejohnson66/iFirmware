@@ -83,13 +83,13 @@ export default function Page(): React.ReactElement {
                     ["/file/aci-bt-fw", "ACI Bluetooth Firmware"],
                     ["/file/aci-wifi-fw", "ACI WiFi Firmware"],
                     ["/file/adc-petra", "ADC Petra", "image signal processor"],
-                    ["/file/ane", "Apple Neural Extensions"],
-                    ["/file/ansf", "ANSF"], //           Copilot suggests: Apple Network Services Framework
+                    ["/file/ane", "Apple Neural Engine"],
+                    ["/file/ansf", "ANSF"], // Copilot suggests: Apple Network Services Framework
                     ["/file/aop-fw", "\"Always On Processor\" Firmware"],
                     ["/file/apple-ave", "Apple Audio/Video Encoder"],
                     ["/file/apple-logo", "Apple Logo"],
                     ["/file/apple-maggie", "Apple Maggie", "Lattice iCE5LP4K-SWG36"],
-                    ["/file/arm-fw", "ARM Firmware"],
+                    ["/file/arm-fw", "ARM Firmware", "GPU scheduler/command stream processor"],
                     ["/file/audio-codec", "Audio Codec"],
                     ["/file/audio-dsp", "Audio DSP Firmware"],
                     ["/file/battery-charging", "Battery Charging"],
@@ -103,14 +103,14 @@ export default function Page(): React.ReactElement {
                     ["/file/haptic-assets", "Haptic Assets"],
                     ["/file/homer", "Homer Firmware"],
                     ["/file/ibec", "iBEC", "iBoot Epoch Change"],
-                    ["/file/iboot", "iBoot"],
+                    ["/file/iboot", "iBoot", "iBoot stage 2"],
                     ["/file/iboot-data", "iBoot Data"],
                     ["/file/ibss", "iBSS", "iBoot Single Stage"],
                     ["/file/isp", "ISP"], // Copilot suggests: Image Service Provider
                     ["/file/kernelcache", "Kernelcache"],
                     ["/file/leap-haptics", "Leap Haptics"], // Copilot suggests: Leap Motion Haptics
                     ["/file/liquid-detect", "Liquid Damage Detection"],
-                    ["/file/llb", "LLB", "Low Level Bootloader"],
+                    ["/file/llb", "LLB", "Low Level Bootloader; iBoot stage 1"],
                     ["/file/low-power-mode", "Low Power Mode"],
                     ["/file/low-power-find-my-mode", "Low Power \"Find My\" Mode"],
                     ["/file/mconnector", "M Connector"], // Copilot suggests: Mobile Connector
@@ -118,7 +118,7 @@ export default function Page(): React.ReactElement {
                     ["/file/need-service", "Need Service"],
                     ["/file/pmp", "Power Management Processor"],
                     ["/file/rans", "RANS"], // Copilot suggests: Recovery Asset Network Service
-                    ["/file/recovery-mode", "Recovery Mode"],
+                    ["/file/recovery-mode", "Recovery Mode", "\"Connect to iTunes\" graphic"],
                     ["/file/rtp", "RTP"], // Copilot suggests: Remote Terminal Protocol
                     ["/file/sep-firmware", "Secure Enclave Processor Firmware", "SEP firmware"],
                     ["/file/smart-io-firmware", "SmartIO Firmware"],
