@@ -1,0 +1,4404 @@
+{
+  "5A347": {
+    "Version": "2.0",
+    "Build": "5A347",
+    "Device": "iPhone1,2",
+    "Codename": "Big Bear",
+    "Baseband": "01.45.00",
+    "DownloadUrl": "https://secure-appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-4955.20080710.bgt53/iPhone1,2_2.0_5A347_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-3782-2.dmg",
+      "Encrypted": true,
+      "Key": "2cfca55aabb22fde7746e6a034f738b7795458be9902726002a8341995558990f41e3755"
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-3783-2.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "29681f625d1f61271ec3116601b8bcde",
+        "Key": "850afc271132d15ae6989565567e65bf"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5d1c8f19b86411f032d647de174ca7cd",
+        "Key": "94bf8963c8ef945e919adb1ee38f8d74"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "aa35ebd31aa4b234942c82c9cc554da2",
+        "Key": "82ada2c6ded2d09c3641dce0a6e3b994"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8a75fd316a6ed1c50ee361560b3d2ff0",
+        "Key": "5710d5ed5ecb579dc5ce19637968329a"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f801d9f5a539a4cff9a2346593cc0e94",
+        "Key": "b166c4676bf65ffcaab58b5f0b78fe7d"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6aad442a5849a45688fbcd7bc409ab9c",
+        "Key": "855bbebec01ed2f1e939370645863fac"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b2866546a751f9d6557c37e761c28401",
+        "Key": "117f24929aa7c66e67d5ead2a0972780"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "38d71e258626bbfe04d4657b25f6b054",
+        "Key": "872781af5cb0878b9a8f79d604bf6bd8"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.s5l8900x",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3525bab8a8375143469c5c6a4533d9bc",
+        "Key": "e8a54cb7b34773d67a2e6540c588129f"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a722c93e4a9dfd101e673cab380f20c7",
+        "Key": "3bf51c19a575f709b8440a88426cca1c"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1007fd4b6d504082573ae48d96fa88e7",
+        "Key": "94bd127dfec81a27a486d599b821875e"
+      }
+    }
+  },
+  "5B108": {
+    "Version": "2.0.1",
+    "Build": "5B108",
+    "Device": "iPhone1,2",
+    "Codename": "Big Bear",
+    "Baseband": "01.48.02",
+    "DownloadUrl": "https://secure-appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-5134.20080729.Q2W3E/iPhone1,2_2.0.1_5B108_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-3796-9.dmg",
+      "Encrypted": true,
+      "Key": "2cfca55aabb22fde7746e6a034f738b7795458be9902726002a8341995558990f41e3755"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-3881-4.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e33d5c7af40422bb32a9e522cb0448b0",
+        "Key": "fc0dfb4d99bfb020621f28f3d6ed774b"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-3882-4.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "024fdbba71ebf34df5b525cd975aefe8",
+        "Key": "219eac3e01276c7ec50432123f50971a"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bf67cfba9160ad7dbdf44f2baf176458",
+        "Key": "4b69f6c9eed042cacf89fc575ff3b193"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f0408fd6dc0778876c58fb59d37d44b1",
+        "Key": "b41941f8d30bc06e2268a7e89eb2c018"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3ce0dd810dbad8b90407a57acca80ff2",
+        "Key": "bd80bf6f43aa13c7e6518faee262e3ab"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1cc36eafa09616b4a879fcf1faf970a8",
+        "Key": "6da79b6e3f0f496f8651593916ff2b32"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "28bebce29b48781aafc9b5109dccc83f",
+        "Key": "497914be358babb79cad2877fed02add"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a6ece338e8db3eefa4a38201c8e5033f",
+        "Key": "e69a0d9f9fba2e33269c140d54cc5223"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e5da914dbe543767dc71a076dfbf7317",
+        "Key": "467b29af0350ba297cffd14bfb0f94c8"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.s5l8900x",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "285df0aa00b76e8c0b9870a4dd7bd5f6",
+        "Key": "444f19d072e725f8a27d88ce50ce73de"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2e5e5657ea41b468c2a7712d01ec6342",
+        "Key": "c40d0fd13597a59bc1ce48c783de10a4"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0e1504c70c2b7eabe2488a5bf7b1ac60",
+        "Key": "2e5d3470a5a1c9ab8b6c7c334569e86f"
+      }
+    }
+  },
+  "5C1": {
+    "Version": "2.0.2",
+    "Build": "5C1",
+    "Device": "iPhone1,2",
+    "Codename": "Big Bear",
+    "Baseband": "02.08.01",
+    "DownloadUrl": "https://secure-appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-5241.20080818.t5Fv3/iPhone1,2_2.0.2_5C1_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-3978-1.dmg",
+      "Encrypted": true,
+      "Key": "31e3ff09ff046d5237187346ee893015354d2135e3f0f39480be63dd2a18444961c2da5d"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-3984-1.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "537eb4e7129ea81f572ec23dbec42b80",
+        "Key": "cc028fd29dc27f895e401d9865e72100"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-3990-1.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e3ae96be1b77d92431e9458381cffdc7",
+        "Key": "0efc377a2982a98b2ab2e3c098a12908"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bf67cfba9160ad7dbdf44f2baf176458",
+        "Key": "4b69f6c9eed042cacf89fc575ff3b193"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "aa35ebd31aa4b234942c82c9cc554da2",
+        "Key": "82ada2c6ded2d09c3641dce0a6e3b994"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8a75fd316a6ed1c50ee361560b3d2ff0",
+        "Key": "5710d5ed5ecb579dc5ce19637968329a"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1cc36eafa09616b4a879fcf1faf970a8",
+        "Key": "6da79b6e3f0f496f8651593916ff2b32"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6aad442a5849a45688fbcd7bc409ab9c",
+        "Key": "855bbebec01ed2f1e939370645863fac"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b2866546a751f9d6557c37e761c28401",
+        "Key": "117f24929aa7c66e67d5ead2a0972780"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e5da914dbe543767dc71a076dfbf7317",
+        "Key": "467b29af0350ba297cffd14bfb0f94c8"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.s5l8900x",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a722c93e4a9dfd101e673cab380f20c7",
+        "Key": "3bf51c19a575f709b8440a88426cca1c"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0e1504c70c2b7eabe2488a5bf7b1ac60",
+        "Key": "2e5d3470a5a1c9ab8b6c7c334569e86f"
+      }
+    }
+  },
+  "5F136": {
+    "Version": "2.1",
+    "Build": "5F136",
+    "Device": "iPhone1,2",
+    "Codename": "Sugar Bowl",
+    "Baseband": "02.11.07",
+    "DownloadUrl": "https://secure-appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-5198.20080909.K3294/iPhone1,2_2.1_5F136_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-3940-43.dmg",
+      "Encrypted": true,
+      "Key": "562ca0f7963eafb462da74a9c1f01a45c30a7eb5f1f493feceecae03ee6521a334f4ff68"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-4118-1.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4b9a4d90965381c1fec08922f7242644",
+        "Key": "d77bd81b9d1adc01fe540eecd885547b"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-4122-1.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "66a5b36499cb2af303747b473ef0b219",
+        "Key": "a05dd9094438c350f3ecc97ad13ab065"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c9721629a4d994932c802f4277a9bcee",
+        "Key": "97bfa5c532bf1cef85a147c9eb78e77a"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "095cb632f03188472155550a5afaca96",
+        "Key": "3ba1dcc3c2884e458a1dccf399673240"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9d873607198be55fe05279660f475ddf",
+        "Key": "b2e0d1a9abcb357a195db400d9b8850d"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d191a46cb673216b516dbf299d7c1c2e",
+        "Key": "8c0d15eeb8f71fb8b436833ab1ad54b1"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d8f06a161d85531d03d2a866cb08ddb4",
+        "Key": "2fdfd8ab501fd282119a9512e0baf49b"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d7b54d4ac934dca7f0bf435c1506463e",
+        "Key": "e9d3ffcd6d0407d474f422c8b44bab45"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6f1ea15d6e593050c98559c243bfb144",
+        "Key": "5f378e5445fc9e62257235c7dd4154fe"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.s5l8900x",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2b4764d4c5bdeaa4cea2100eac7c47bb",
+        "Key": "de52cebf74b7747360535fde5c331bd1"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "eff5044eb637cbe585483d600b5d63aa",
+        "Key": "35ce4d3c40739be59b8d68e037000881"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "80a64935155a9af54e39fb7c0aa52bd1",
+        "Key": "e54dede9164129300cf0c6a6a0232ce8"
+      }
+    }
+  },
+  "5G77": {
+    "Version": "2.2",
+    "Build": "5G77",
+    "Device": "iPhone1,2",
+    "Codename": "Timberline",
+    "Baseband": "02.28.00",
+    "DownloadUrl": "https://secure-appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-5778.20081120.Aqw4R/iPhone1,2_2.2_5G77_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-4380-1.dmg",
+      "Encrypted": true,
+      "Key": "dc39d88afe4cbd8a3f36824b8fd68acf04ac72718c09100816c5cb89889b8079e96802f0"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-4377-1.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "93c059c2116e1957a3c414ec336b1d27",
+        "Key": "4cce03e3467e5c830f1ac8bd9cabe8ae"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-4378-1.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "182cdda90a38870de96880ee7ff5bbbc",
+        "Key": "eea6e87824a3c0b0be86e8e2bbd8cfe9"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "24b311c220a2d5947e45c37a24e91c90",
+        "Key": "4157f794afedbb68b6e3d40771b23fd8"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5068d2027da5d46e94c4170c21809fed",
+        "Key": "347a35e53f936eb6a76112c3de56f63d"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "58df67cbcb317f0e985c666f32831f60",
+        "Key": "fb3250f9433cb413a02d29e29bad763a"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0e3c03beffb18f79265c1714f44b7916",
+        "Key": "79289e93e78a578900a46c0b8ea474b8"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "79c6b415cc8c233177a6d40cd9eb7da4",
+        "Key": "8d4acfabf47b0ba2dd70af01f9bfb342"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "29d15f78e15a078e7df10c45454a7972",
+        "Key": "d7b6f56ae49e9eb88d86969b89e35426"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "85a5cf386038be29603b6a21160dd8f8",
+        "Key": "7abaae0c10cbc47359f052e83836d47f"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.s5l8900x",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ff4c66886a10aaea2a8fff0f70dd201a",
+        "Key": "a3ad8e780bc8148e8e6299d3352b96bc"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "45b5066c86a99369fd2c4b4d637931ce",
+        "Key": "92ec1d11c5f489c3c4e5e3677a44b4ed"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "46f155e69a37cbbf2b6c81fd1fe7a9c7",
+        "Key": "f26e84c8d9ea34ea913608b47d66bdf7"
+      }
+    }
+  },
+  "5H11": {
+    "Version": "2.2.1",
+    "Build": "5H11",
+    "Device": "iPhone1,2",
+    "Codename": "SUTimberline",
+    "Baseband": "02.30.03",
+    "DownloadUrl": "https://secure-appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-5828.20090127.aQLi8/iPhone1,2_2.2.1_5H11_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-4451-16.dmg",
+      "Encrypted": true,
+      "Key": "ee4eeeb62240c1378c739696dff9fef2c88834e98877f55a29c147e7d5b137967197392a"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-4437-16.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4118a23cfea0b5b4e09fa2664acbf719",
+        "Key": "2d2b3f82677a71cdc7f038abc5e8c7d0"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-4443-16.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "29ff3d43c4001b978963dee437e25386",
+        "Key": "da010f69b0e2034b4ce7b7c90b63bad5"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a51b9842b29d057096142a2ad79ae7f0",
+        "Key": "b10c2c9c6eb9f750564b46c83ae2d7c7"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5c7680438b7f7c41d825438939d21f25",
+        "Key": "6a5adb8b2f560527ff9fa0a3f04ec09d"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "76d03d77e71620ca66417f616f3cf405",
+        "Key": "b1537f8943e0fde45703e5e97ffc1f70"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8271a7a08c5f50369bbad5345dcf9311",
+        "Key": "f60dc6fbebd1c95dbbed418a427a8175"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6d466e39c5d5df2b18459746943e35f9",
+        "Key": "3ff300a21236477ae015ca5a3a1c4c35"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "489c01632c3e9fd57e328aa0b09dc825",
+        "Key": "41d85d6098e19eb38a4c327c5c983c1f"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fed02c39a823e52a115e29669d51eb8f",
+        "Key": "e47196d2050e913e6eee6fbc00d47a62"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.s5l8900x",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "661f05d1599967135b86e82e2377b58d",
+        "Key": "f6f00f9369bb19855b9a3d0a69e15a2d"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e060580b9260f151c7a9a8e28dc648fd",
+        "Key": "0bc98e125a055bacf687597d145bfe23"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "232d64600a89d970fd4e12795ae17dbf",
+        "Key": "46ab218dab1d7704e008d165c35aaeac"
+      }
+    }
+  },
+  "7A238j": {
+    "Version": "3.0 beta",
+    "Build": "7A238j",
+    "Device": "iPhone1,2",
+    "Codename": "KirkVail",
+    "Baseband": "04.20.01",
+    "RootFS": {
+      "Filename": "018-4789-1.dmg",
+      "Encrypted": true,
+      "Key": "e14a53de98b86018e9054b567c491bea9f55235729b3728315ab0b1ed0c82e568a35c0ba"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-4792-1.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-4793-1.dmg",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": false
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.s5l8900x",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": false
+    }
+  },
+  "7A259g": {
+    "Version": "3.0 beta 2",
+    "Build": "7A259g",
+    "Device": "iPhone1,2",
+    "Codename": "KirkVail",
+    "Baseband": "04.22.01",
+    "RootFS": {
+      "Filename": "018-4872-6.dmg",
+      "Encrypted": true,
+      "Key": "59a86b5a4fcc76fcade07fddf72c72d36a6e105bc0c727f508f2b1313eb1b74d97ca8a81"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-4875-7.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fa01c6ecfc186a0986e2311d20d96ac4",
+        "Key": "b111bdb4f4a45eb2be94f43bdfc5796f"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-4877-7.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "dc4d3e13d9cb5f7cdc504db6b5ab137d",
+        "Key": "875cace71c62cda899d1c22c60466170"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e2078a1ad42c96de4fd461489a49eccb",
+        "Key": "40437cb78862c4cb877e92d7fbe4edbc"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "90f968c6d3d1df26490ca45ec4e81db9",
+        "Key": "de5ee8451ad5ff310070fcdbf0c773d4"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "71f123a4e95a7e023e8e8b6220164e94",
+        "Key": "f0168c63207ef94eca26776e3a891987"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "749881b7c49be350e60748c2a684b4ac",
+        "Key": "6a111d62d12f03b7dcc29adfca4a9c24"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "167427a314e24898b7e9893349f75192",
+        "Key": "37bb913619556352ec75cd9f2243a9f2"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "908b652c391fba2fb79eefe8b7bce1e9",
+        "Key": "0768740868c0ca80b28dce20549c67eb"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a8b70979cfc65715280168a1513aa9a0",
+        "Key": "56e136a3993d2f90951c9db3aefa7628"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "18dd2a37f1dd6b08e7ff88102062f4b2",
+        "Key": "d46f1b882d91ce2eacf95803d2464cd2"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1e81a31461afd0ecaf03bf332de77df3",
+        "Key": "20a5c35485edf01ada9e09ea7cfa952f"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9315a98e7561b994ba265b26ccfb8efa",
+        "Key": "62e556782851babcfbcd58ccb6691548"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.s5l8900x",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "efdeabe17b8f5eba27b3c84f935cfa25",
+        "Key": "be80bd19981eb71273d9fec52a2d0045"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "be60a94cc6731d22450823b85289bfb4",
+        "Key": "ca8bb64a40ef7a937d42ba0fa940e397"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "870a1354b64ed616f20f225b1aaa4799",
+        "Key": "fa6886e42929926d478e38cbaab86c25"
+      }
+    }
+  },
+  "7A280f": {
+    "Version": "3.0 beta 3",
+    "Build": "7A280f",
+    "Device": "iPhone1,2",
+    "Codename": "KirkVail",
+    "Baseband": "04.24.02",
+    "RootFS": {
+      "Filename": "018-4905-4.dmg",
+      "Encrypted": true,
+      "Key": "681931d93b97efbe4f6fbdc32c41f79e77e579af1e6a4ff8b811ef5331c65527062ea02a"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-4909-4.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e2b0961be90220cdbf2a3005bd3fca4c",
+        "Key": "117b71d449a2f19e8cfbbed4e37a3903"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-4911-4.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "788845a3dfe5939ceb372f1c8eaa6947",
+        "Key": "66fbd72aee95845c75c8decb13b71f14"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "846ab0be214f9cb2eb97f3890d80bb22",
+        "Key": "90dacbc54ab26cb295788fc8c55828e5"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1765fb57d2ed215db5df86acfd55523e",
+        "Key": "e85df946c653e0b4dbbfebee1fc70af4"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e5142b9cdd296dcbe66bae9f3bd001ac",
+        "Key": "1a64d3cb8c86d2ef14938a1e92d0a0f5"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "225f0b33fbf48856ea920c829fed73ed",
+        "Key": "e80a7fbfef6aa25a16074718e74b1b21"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a6ed737abcfc740b687cc649f0aac397",
+        "Key": "2a8f02e4c3b36201b722404528c390de"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "acd7d85c63c08a7bee4aaf080e19e11d",
+        "Key": "e63f7d122cdcfa2f6054630248220e15"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e479f0e182a0c577799e1aac76c0193b",
+        "Key": "478f6a2781bd0dc1c32a33faf8fca20b"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7ef9ee20dc601030848f29bd271d873f",
+        "Key": "0c89a5ce413aa7fff1db952925b49187"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9d98b3222bf16ce849f3014e46f75915",
+        "Key": "276ee796e86d6f3a0e0c63e405e7d0fe"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8f14137e07edbde9852a433d6f6719f7",
+        "Key": "389f1b01c26f9a625f6761c1bfa3cc9b"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.s5l8900x",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3fbc9aae3c2cf43e5acc2f0762f85ebd",
+        "Key": "1a8de62f4e70d40c0a4e6028f34556d6"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "42d5e8de121c65ba015eaf25bbff7f14",
+        "Key": "5c23685c1fc2831d0dfdce61625e98dc"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "255519b56cf0521e65c998f5c42e1b8e",
+        "Key": "c0d7600610fb80fc80aea8d7d65ed331"
+      }
+    }
+  },
+  "7A300g": {
+    "Version": "3.0 beta 4",
+    "Build": "7A300g",
+    "Device": "iPhone1,2",
+    "Codename": "KirkVail",
+    "Baseband": "04.26.04",
+    "RootFS": {
+      "Filename": "018-4944-006.dmg",
+      "Encrypted": true,
+      "Key": "82be184d47ed384061c8efb78378c9759b18b022a0c09437eaced1a19e4002cea80cd7f5"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-4948-006.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "82a552f11da74d0ec78c958ebd08f90b",
+        "Key": "3341d4714b41658e4119105c1fd7e9e5"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-4949-006.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "93e428ed7d03798a9737cedeac4f9cb1",
+        "Key": "1b1db3ebe9624b5a868573a894fcb13a"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2f8e1d9fd9bf685ee972b7ac1ee4047a",
+        "Key": "f74024f60bfc12989c313e7ce336abf0"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5fc5426f70b7e0dfecfd6d516a237715",
+        "Key": "a83eeaecddab1764b6e7dc8420b3e12c"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f03de4ac70f7c361c81589744da63c18",
+        "Key": "44e0ed1bf9b4a7196fd426412936f289"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "41a4bda385fe84f442179972709a9f65",
+        "Key": "0a4d527ba1f647230651567ec25dba9d"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8c2d601ad49f0eb91b6c8f129b707374",
+        "Key": "a32d44cdca696f4447f31e44bcc63787"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a173b2c0682f6c0374a416e1fdcab4a9",
+        "Key": "28db5aa869bd3200811e8749b97e9986"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d9dd9dfce45378427212ff046cea1ce0",
+        "Key": "13aa2309ec2f695708a392d8b834140a"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "444e093570cc8adec57fd8141e4eaca0",
+        "Key": "8c5a7d7bcdb97f272032651f951a8684"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "508130ddbc7f66c5990ae63aefa847e9",
+        "Key": "d1e4c48a20113db5bf7c14788d80ca61"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "82a52e1ee0371e8fcd75a56a4a1e6c77",
+        "Key": "94e57012bbf9b8f38c6ea958af5b4521"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.s5l8900x",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8706014f11e048b42d264054c1fdf299",
+        "Key": "c877eba49f680c54f902b4450a0a6b44"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2e396196f99b967c585cc62738fdcc38",
+        "Key": "1f90ac3957f1b8ab2330b7fd2dde03b0"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "51962427d52b3aa5b824985de97e8682",
+        "Key": "12c7e58b8c507ac60c6e18eb5dd28c81"
+      }
+    }
+  },
+  "7A312g": {
+    "Version": "3.0 beta 5",
+    "Build": "7A312g",
+    "Device": "iPhone1,2",
+    "Codename": "KirkVail",
+    "Baseband": "04.26.08",
+    "RootFS": {
+      "Filename": "018-4965-005.dmg",
+      "Encrypted": true,
+      "Key": "f7b1edb0ee9196a1393dccdc8d090051308b84ab322bf860cb1d3ca566ef2e29752fa79a"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-4970-005.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f89a31a33320bd33e81a6a0d6bd88c11",
+        "Key": "5e35c8ad04a0907b96bbcfc336984888"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-4972-005.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5508fd2d20f22048d4bc1780a0b1caff",
+        "Key": "198feafd04973fc8b07a052be75b9288"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "de8f6685fa51b07179be2c39378d4bbe",
+        "Key": "2d5274ae7f0aa794db1a037953cb5ba5"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4773d745e1fee102abb722742f17adb6",
+        "Key": "07edfdf7452460ef05d60f408ab9dc87"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "08fe222445bbc3fa382030136705a5d6",
+        "Key": "a035ebe86d384220280f0665a3fb00a6"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8994809a7b6c5351ac98ee77e5845d8b",
+        "Key": "5b5053ad21a6f351a47028885178ffbe"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "222d186068e18de349a04570d45df429",
+        "Key": "92d1083cce1e304a5e12ae6ab8349385"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "aaf9f77ceec98f1a81a224bf0838372f",
+        "Key": "29bb1238a440379c74b2ff31cf3291eb"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "192e60f461a9753e41bb6ac94add6c51",
+        "Key": "dce929b026b7d730b566fa8381ff6724"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2445f08d13b8a5905ccacd5bd7af8e71",
+        "Key": "4c5d738f6210f16ff00a0a9e520bd3d1"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cd2aaae66ad048d3de549f8a732ce70c",
+        "Key": "3c9939314c399e440da18f7255b39f1e"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6cbc8e6c7a5b912076461b3a547cc508",
+        "Key": "5189ceed74f429f42f28e4054d7e3dc3"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.s5l8900x",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1576ed9eee98399591c63605eada9964",
+        "Key": "8ebafc88389be5aca5d834ed9e223338"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "52f9afeb421031f366bef197d05af47b",
+        "Key": "86724688baa39e88b5f6855b1865b63b"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "43930a4f5edc06902f6dad308bc523bf",
+        "Key": "cf5d545719acd738386b107532aa6d5c"
+      }
+    }
+  },
+  "7A341": {
+    "Version": "3.0 [[Golden Master|GM]] and 3.0",
+    "Build": "7A341",
+    "Device": "iPhone1,2",
+    "Codename": "Kirkwood",
+    "Baseband": "04.26.08",
+    "DownloadUrl": "https://secure-appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-6578.20090617.VfgtU/iPhone1,2_3.0_7A341_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-5301-002.dmg",
+      "Encrypted": true,
+      "Key": "8d5d1fea02d627c9e9b0d994c3cfdeaab9780c86ac908db15461efe44eddd19f8924b6b2"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-5303-002.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0dc67d4f50ac62ee142b99baa569d0f4",
+        "Key": "5a0f82979f336baa58ed37926bd89dfe"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-5305-002.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "caca33f1aca029320d60873a4deed68d",
+        "Key": "9962589aabb4d5ec56b7a867ab5b11b0"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "30c0cb05ae49d0484392261b2c8b21a8",
+        "Key": "f9841fa3197f0bd9fd162ce170c5f6f9"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "dce93ec9df98cf590c0b792bcbccca8b",
+        "Key": "a3f0c602763852309469648116df4722"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0c794909235d360af8a2aad92b92c281",
+        "Key": "6eb1142e1f77f87687da00c796e4eb61"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "04bb4dd56ca411dd5a6c4cff06eac5e3",
+        "Key": "e518c7f9df797bc7a9c5e7256a6a85dd"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6ed7927936a0b7227ade1cae7baf6a8d",
+        "Key": "b6a8c1a9b7dc523146558422305e2237"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "eb3a27a0d16927a3be24bf4f7e75df21",
+        "Key": "7bf6775691685437193e089299979171"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5e6bca89f06c8dc4f3868fa4caba9d40",
+        "Key": "1852158326954e1379ee3aebe1d5c50c"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c62f0a6d0c296b1859599a614ecabd80",
+        "Key": "f5a6ae904d976741cbefabd527f5027c"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "38ff24afa0422c6be244ea0be00ce12d",
+        "Key": "689f91dab29610b6064e450901f3d87f"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "674a95015a8d33cd2f1f259ebe01aca7",
+        "Key": "4a8d6657297ca45cf6bec0854ee0a2e8"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.s5l8900x",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a4db9183cd79722b4146c9de09ab29c5",
+        "Key": "02418105dfb3be2af2a76248e026f702"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5827a2f59a92f6d3ed16712a2185c9d7",
+        "Key": "6a44e62d072062ba03b5b634a67d6b20"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "848d4cef8e4d8182c3f10062cf5347fe",
+        "Key": "5a56972f4750335c448f3219269ed202"
+      }
+    }
+  },
+  "7A400": {
+    "Version": "3.0.1",
+    "Build": "7A400",
+    "Device": "iPhone1,2",
+    "Codename": "Kirkwood",
+    "Baseband": "04.26.08",
+    "DownloadUrl": "https://secure-appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-6972.20090731.Zx3Rr/iPhone1,2_3.0.1_7A400_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-5798-001.dmg",
+      "Encrypted": true,
+      "Key": "62deb9e26f11ef6d0ce2afc85becdcf65b81486b3430a9930cccaccd6879c405e06d8ac3"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-5803-001.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b45759a73c69f440733a5a258a09a86f",
+        "Key": "e4d7c7f324c55f8a31e863eae539c668"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-5809-001.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "391949ef28cd2f20aa06f04e0e621c72",
+        "Key": "3bb4e6ec9117ea60cfcf4649d296bea9"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "30c0cb05ae49d0484392261b2c8b21a8",
+        "Key": "f9841fa3197f0bd9fd162ce170c5f6f9"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "dce93ec9df98cf590c0b792bcbccca8b",
+        "Key": "a3f0c602763852309469648116df4722"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0c794909235d360af8a2aad92b92c281",
+        "Key": "6eb1142e1f77f87687da00c796e4eb61"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "04bb4dd56ca411dd5a6c4cff06eac5e3",
+        "Key": "e518c7f9df797bc7a9c5e7256a6a85dd"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6ed7927936a0b7227ade1cae7baf6a8d",
+        "Key": "b6a8c1a9b7dc523146558422305e2237"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "eb3a27a0d16927a3be24bf4f7e75df21",
+        "Key": "7bf6775691685437193e089299979171"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5e6bca89f06c8dc4f3868fa4caba9d40",
+        "Key": "1852158326954e1379ee3aebe1d5c50c"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c62f0a6d0c296b1859599a614ecabd80",
+        "Key": "f5a6ae904d976741cbefabd527f5027c"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "38ff24afa0422c6be244ea0be00ce12d",
+        "Key": "689f91dab29610b6064e450901f3d87f"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "674a95015a8d33cd2f1f259ebe01aca7",
+        "Key": "4a8d6657297ca45cf6bec0854ee0a2e8"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.s5l8900x",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "63680cd8965137a064a3d19a689a80b3",
+        "Key": "5bf1ea6596f26dc37ee2b2b6a43e1320"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5827a2f59a92f6d3ed16712a2185c9d7",
+        "Key": "6a44e62d072062ba03b5b634a67d6b20"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "848d4cef8e4d8182c3f10062cf5347fe",
+        "Key": "5a56972f4750335c448f3219269ed202"
+      }
+    }
+  },
+  "7C106c": {
+    "Version": "3.1 beta 2",
+    "Build": "7C106c",
+    "Device": "iPhone1,2",
+    "Codename": "NorthVail",
+    "Baseband": "05.10.01",
+    "RootFS": {
+      "Filename": "018-5682-005.dmg",
+      "Encrypted": true,
+      "Key": "53d70939701dc784e38ab2861d85548937a2a187ad05006556cbc4183962a4aceafcbead"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-5685-005.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "44340917bd1d694baf55abf95a4f91c4",
+        "Key": "f1713d10a80bf38c2fd6d04dc4782588"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-5687-005.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "93167250ebc70c88a3f1b352015e5d94",
+        "Key": "f31c01b52357aa8c0656e098305ac2b8"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fd9d743c873c331efd866572d43c079f",
+        "Key": "a03665e7d060302ae56cee80547f688c"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e83a1b657e672be60562129b87fc8b51",
+        "Key": "f4fb221a8905de6f587ba91d9aa5a776"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f96e8ad5821e7f7fec67f1765459c74c",
+        "Key": "38a144117196a16f4f2e15695aca4bea"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "16ccea6eb3ed307c5e28cc2fdc7fbfa0",
+        "Key": "b78da3cf9383b22891902a3a760d2d60"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d728e5cb8af003747b84e14a04786e97",
+        "Key": "9a6882046c77fc153c9b7fb25c8c7aff"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "df0e2795259b20d6997f4f4c135cfb6b",
+        "Key": "b283b374d3970b71922a1bb6da1468c5"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d75c9e49f24ccea5901da29fa2bf5331",
+        "Key": "640842478e302979ff3314bfa780734f"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "50b7b5052ba56a1ec853c34c10259ff2",
+        "Key": "8ed39c82eaeab0b235778269a5eb2956"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d21a132b31c6eb61c2a35df944047e67",
+        "Key": "1071a024fec0325e13761b402fe64703"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f89c9287d6048b654af88c92e52d80b2",
+        "Key": "73c56734f167a18ee46a3625529e8f81"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.s5l8900x",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1a52873eeae40e191e35a31144709846",
+        "Key": "700ac5f99633a9f3658c3b7955f2fa09"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ce65c39a627705f492f5c4b920357db1",
+        "Key": "f9e2a768addd01db8433ffd6a936e74c"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "17c052d2bd1fb0ff922452b84617cb29",
+        "Key": "cb74560e4ca85b6cecd22cbe24a5b74b"
+      }
+    }
+  },
+  "7C116a": {
+    "Version": "3.1 beta 3",
+    "Build": "7C116a",
+    "Device": "iPhone1,2",
+    "Codename": "NorthVail",
+    "Baseband": "05.11.04",
+    "RootFS": {
+      "Filename": "018-5720-004.dmg",
+      "Encrypted": true,
+      "Key": "a002b590b422ecbeee55b949bae4b7abe7d5a7a8e0346f6270c47a84e2398021068a46ed"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-5764-001.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c5dfeafe7d2d8295ed07623b3edcf807",
+        "Key": "18736bb7e9ed1bfd89f60a357fabbf66"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-5765-001.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "034115d9dc32dd292aa9a3053ead04cb",
+        "Key": "f13905c44e8a4ff329543270e4d7d9ba"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f3f3a170f79dc3466df989bb0c25174e",
+        "Key": "80fb1784e0bf61ab4ba4fa9b76d67b73"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e562ff91bda0603a6ee574b41d7984dd",
+        "Key": "ac218e98c155c1d31e73098abed8a90f"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7b449a6125dcad42836b4376769e4f4f",
+        "Key": "648f7296b9bdcfb0366a14c05719e425"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b5376d1d475991199e7cfc87306507db",
+        "Key": "f31a207d8b2e484add12e61c682ae711"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d2beb038b7d5bdb9a4495ea4833ec502",
+        "Key": "c60e4d5f010d5269794766d3f6c8b8a8"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d4d54783610f63357ae24429cb5d38ae",
+        "Key": "0e8d1aa24d95b980d20db3fcc102152f"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "729daa1aea4b8e429e734ac892fac0ce",
+        "Key": "90b26f274f0ee621449c1ea71929ab06"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e454c1387eaf702fc80d16323adfa7d9",
+        "Key": "6d4c846d7b64d80c80c1a801c14d19a5"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7a911029ae3fadf897d6c6bed7f8a746",
+        "Key": "1ec4e7165838760261dcfa058b9711e5"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a0c3691d487fa49bc92d1d50c9d7d1a9",
+        "Key": "5da53587e7d2e274f75d5240eec58034"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.s5l8900x",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5686c3c047cb5638eee6aa838388e5c0",
+        "Key": "cec6d5c75b8cf34749b39511109d7938"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "66cb443b638e3bd9dfa27686c99c0d42",
+        "Key": "1c1f241c2aad5f8142ec3bad19e55ec8"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9f63733889ff98b3548d7b89c1854d83",
+        "Key": "9c93348d0c9a97800a4adff75225ac14"
+      }
+    }
+  },
+  "7C144": {
+    "Version": "3.1",
+    "Build": "7C144",
+    "Device": "iPhone1,2",
+    "Codename": "Northstar",
+    "Baseband": "05.11.07",
+    "DownloadUrl": "https://secure-appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-6600.20090909.AwndZ/iPhone1,2_3.1_7C144_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-5343-086.dmg",
+      "Encrypted": true,
+      "Key": "5bfa05ddbeb19ad7d2af3d7012adba6d82002d9d7e7b3771d11702728d15d8f8d52f3573"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-5348-086.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "71f6eb862e503153d7cfaca2bd035077",
+        "Key": "8ab278e2094fcdfe05e6c29c778595e0"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-5351-086.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "73b1c28fc8fbfc6860cfb5f65962a71c",
+        "Key": "081091184b13fb72ffd91d19dce9b199"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1b8a5224f45aa94cfc02a8ceba55d6d8",
+        "Key": "d2dad0c5dc935afddd628a2c2c243c4f"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9dc5cb4730b7ff858336144f34fb130c",
+        "Key": "1f15304209b7fc8c36651e86a1adb1cf"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5a0973cc7b5229220a3bb897bdfc463a",
+        "Key": "91872731b7ffb34e34300f5785711d7b"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "06bf68bef1bf08c803760992f06d82df",
+        "Key": "9962b39f775d6941109d0ca06f22cbe5"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fe5b6ad072835ba24d4a513768882355",
+        "Key": "c1bcd4b18161303135f386a5b3f5b645"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e812b8e53545874e8727dcc39e01e2fa",
+        "Key": "79fcf4f159a5fbfef5baaaa347926720"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "91b33e5282e0d9594f08171ebb85f97d",
+        "Key": "e15089b323cd453898498d0e3918bb8f"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "63a79f76df4d1abc8d07d3a01cc47b5a",
+        "Key": "cc53f9fc36f1a3efc02b490fdba035e1"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d28b9cb54a828d5259dc588f19cf3302",
+        "Key": "83e6c7256fc5444b592ccbe67d1a950a"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a5ee452933ada902193420e3956b7559",
+        "Key": "1ebc381cd5ad04343ca0b08e9beab8ac"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.s5l8900x",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "612726fff1a589a3a8906dd6b1129e86",
+        "Key": "258303b6d261e6476de63bc9f185b9f0"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "da6863bd5a4236e1f487e5a53136fb72",
+        "Key": "da443d5458ace1d3be8f1f5aa16733eb"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0f7415895cfe5aea623503ce9db49e07",
+        "Key": "2648aeb9ab66fe6f2c0fbfd571d1ebc0"
+      }
+    }
+  },
+  "7C97d": {
+    "Version": "3.1 beta",
+    "Build": "7C97d",
+    "Device": "iPhone1,2",
+    "Codename": "NorthVail",
+    "Baseband": "05.08.01",
+    "RootFS": {
+      "Filename": "018-5423-007.dmg",
+      "Encrypted": true,
+      "Key": "f526d42d44dcf61dadf5a0b4be7eb18dafd66c88ec6d91e3ac2f08d3179b63ce64108530"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-5431-007.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e2ab0e67e5da136f282f14e75e3b3d3d",
+        "Key": "3288791be4305fc751690675c0bebb56"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-5437-007.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "982dcbe378752b4b23aca166db13f496",
+        "Key": "08d0e64f806d80b697c742604d4bbd32"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "619b307c3ec8c886b9034d2252ac780e",
+        "Key": "382ea82ad22092f19ca68e0a6f141777"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "493d4b503e9b37bdf07eb2436d8ac9f9",
+        "Key": "83f0d235978ba7f7d214f08759dbfc84"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6f870ce7ec1f7e6a0a908b5b8ab40097",
+        "Key": "adc7738c703e40cddf6969ba7d451ddd"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e3ecc335df76d0a966f2edf69bd87c37",
+        "Key": "ea24941e2c57e8d65c418209e1583236"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8fc40643de1dd6892ab9890f9a9e6bd1",
+        "Key": "8566d395bda89725955f418d581d38f6"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "24fd09e35578c033d48d7d8e23817236",
+        "Key": "67c658736a18df85b7dad2838f0c1a7f"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5c87997bba027bf01afb530f44cdc3c6",
+        "Key": "d46bc5bc9e091864ee464cf3fe37aaf6"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "96bb360df6b15f0d8f26c3c572a1ae1c",
+        "Key": "e29420ebe6c502a7f4bd05a1c0847a9a"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "32b6ee5b67fb11efd254156cd2d2f872",
+        "Key": "52ff14ac075e2f9b53aa7fa0d57ec152"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5ec36143c364d0d5c572673b49383153",
+        "Key": "b9c6c59098f101c86219ecb0f10b642f"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.s5l8900x",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "72c3dafe622632a7fd55d0ea13565cde",
+        "Key": "52643c3b092499e1bbfe5b322e2e3adf"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0a27d5c860c24bbdeced6c3b17d92704",
+        "Key": "5db3f04c32970145e4b3f572faeab852"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a283e624b545b5dd66ad58bcd8a36943",
+        "Key": "e92795b866b275d3e8bdca42c279e1b8"
+      }
+    }
+  },
+  "7D11": {
+    "Version": "3.1.2",
+    "Build": "7D11",
+    "Device": "iPhone1,2",
+    "Codename": "Northstar",
+    "Baseband": "05.11.07",
+    "DownloadUrl": "https://secure-appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-7265.20091008.Xsd32/iPhone1,2_3.1.2_7D11_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-6028-014.dmg",
+      "Encrypted": true,
+      "Key": "a8a886d56011d2d98b190d0a498f6fcac719467047639cd601fd53a4a1d93c24e1b2ddc6"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-6134-014.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "dc2c487fd5ce7d89c2fcfbec5846f40f",
+        "Key": "998aa71f7816e979697b2d4b25e6a8a0"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-6136-014.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0e128e1f69806afc476b73250908d641",
+        "Key": "6a4db11073eb748bad1fabafb066fe13"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "677b4c711e3cacb72505feae8e1eae5d",
+        "Key": "1fb738d6c091113d7dfdd89864a718d9"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b2bb770f2627f5f91c887d2900422979",
+        "Key": "700ac0237ad0e7c8c09bbfb032869a11"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "32f47e1fb326271dde768cc77b9b19d2",
+        "Key": "717d08aca631fe7cf1c72faf10bfa5e2"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1516dfa70e4139b8330fdb95cf7b1106",
+        "Key": "14be236d0770304b1a3cee7ef6c3ee1c"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bda02a558e2c2ea772018a538284de0b",
+        "Key": "08bb04ffc5fbdf0552c47276e39ea15f"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9197c05fcf74a95666787e0a344b9153",
+        "Key": "c5e5604dc32a6a1ebe947b85d97775f9"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2aeb14ac71c98c793f496da817fba758",
+        "Key": "82e003f89bb37bebbe63fabcfed9c4b7"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "949d2235d5aa716d6332abc22db317ef",
+        "Key": "4e3ed0ef0df688197c48663058a3abd2"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b47e791f67129f74b6e9cb2a4863c6ec",
+        "Key": "0193270305e3a3fe4ae7abe7091682dd"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "13e320617bc655211e2b68042d4508f8",
+        "Key": "a4039d79cd6d41ce2b755ed566902103"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.s5l8900x",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "25b7f586d184c329d3d05953a6516a36",
+        "Key": "dd03b5b52a53d3582b18a0052ef84038"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d5c7d656e4533dc0f429419fa621c17f",
+        "Key": "eb00de66770bd68b6bab894b6f7e17fb"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "dbf44c3cc2944b87bdecdbdcd8e42b82",
+        "Key": "6d7d035c04c60ab2776a5e7c729daf0a"
+      }
+    }
+  },
+  "7E18": {
+    "Version": "3.1.3",
+    "Build": "7E18",
+    "Device": "iPhone1,2",
+    "Codename": "SUNorthstarTwo",
+    "Baseband": "05.12.01",
+    "DownloadUrl": "https://secure-appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-7468.20100202.pbnrt/iPhone1,2_3.1.3_7E18_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-6482-014.dmg",
+      "Encrypted": true,
+      "Key": "bf5eb72cd65e9c37cf9920707cb6b4f7ecc10b38cfec6b167002ac9fd6a3ab6643e45005"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-6488-015.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "28f586f972f37ada68ccb1db9c0809d7",
+        "Key": "05ad3977f313f7efaf9263bb33915af0"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-6494-014.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "25e713dd5663badebe046d0ffa164fee",
+        "Key": "7029389c2dadaaa1d1e51bf579493824"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "29900b1381b112bc6ca157b8d5e533fb",
+        "Key": "f991b79dc86f1ed7d997785b4e93c0b9"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4a7131c4e4ab53c54c9cd67000022c0c",
+        "Key": "5c5e265adf97ff887f83c1964cd26fbc"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d95821f8d527c863bc83384b2a49d70f",
+        "Key": "3e94246a2893d04223b960ec163a0d1f"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b510390a90fe02ba01fc72e25bc4bed0",
+        "Key": "92669d64fb9ea886317d8c38b3cf88cd"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "18c4cc5b9881a7f46fb6816b6bf98621",
+        "Key": "7a2f4af7bfad3190a119533432e4ea79"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "43046878e50b200c94208e71d54d7d46",
+        "Key": "3b2abd9b9b4cc7ed6e9981ba208f129c"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "77cbb8d3e874efa1364cab1bbd38a8fc",
+        "Key": "9532919c4b4ff636f0559ff25be64f35"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f063514314d014e962d072d144869448",
+        "Key": "4efaa97201e0be8eebc633be2bd8e80e"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e2cbdecb935e44022411251450e09e25",
+        "Key": "51e76b6183f5de42988cd3f983714c11"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bc3a7ecbad75285a0b9ea96e268ac0c2",
+        "Key": "fcce502abcfac78aad6e842f64f79864"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.s5l8900x",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "31e711201cf4dcf47be5be2a5b1b87a1",
+        "Key": "d0dfac22c03212f8a75fc9c69fe548b6"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e16e51ec62db28fb3d84a9ee0f8ef502",
+        "Key": "de308342ba029c5c569f3a96f2723f3b"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1df103ab51af7ad9f8488d9e3b9edf11",
+        "Key": "72e3360fae2d22252f497bd08d060d83"
+      }
+    }
+  },
+  "8A230m": {
+    "Version": "4.0 beta",
+    "Build": "8A230m",
+    "Device": "iPhone1,2",
+    "Codename": "ApexVail",
+    "Baseband": "05.13.03",
+    "RootFS": {
+      "Filename": "018-7338-033.dmg",
+      "Encrypted": true,
+      "Key": "0da2d3316d5ee7cd1858e4035e451387cd8156e97535fb09028859e68e5b7b39a6649552"
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-7262-033.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9b855e7bd477ee1aa7e9e7fb12f83555",
+        "Key": "8fdfffcdaeef27851895a20a0bdea857"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "361c1c28e6852913e06f96e91d7c385e",
+        "Key": "a6fc9cfe8fa87e7ff7b0161657bb698a"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7d7deddd3fd362a556bb36dbc16ca421",
+        "Key": "552c0fa30680ffa8e61df596f5fb3c02"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f0b76a68b1ed9124c35ec10a46d3276b",
+        "Key": "2ff5f9ff76febcc267d79509fbe07db6"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "dd595a921778aa1e65ca439d0df14adc",
+        "Key": "99644456161b16711d281a66518029c4"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "50f58411dd099a19ad8d27981c6c8e87",
+        "Key": "43756077b49b6e32cca33528effea7b0"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cd86743a9c1ad6375ffa64daaa83ba8c",
+        "Key": "68be4d617cf3f21bdba4208708c4e6ec"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5d106cc461375f18aec210781cd7e54b",
+        "Key": "e7948805fa278abc98ac979df1e07e43"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "28aae57ba62f4aeefd3a3a1cc55ccd36",
+        "Key": "ac8533d650e19c73ee37491724838408"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6c2c613da48652f36a73fba1d82cf2f4",
+        "Key": "62467820ebb188db32faf35e764df7ad"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a5d5f2da16de151e64d5a51623c89365",
+        "Key": "380febccd707b8592effd2e65e9d6b6b"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n82",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9707d6dc41ab0b3636818a8c6ef7eb5d",
+        "Key": "5363f28636508da8e536f318cdf857cb"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "NeedService": {
+      "Filename": "needservice.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0d8036f2d8d7e877abc4515a428b5d13",
+        "Key": "bc8a1bd6d85c40da2c3e88ddfaa6a327"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "09a68880f5e8378192981b2961c203e8",
+        "Key": "f6d30a2a73851fb919bf65ce3d0f3b79"
+      }
+    }
+  },
+  "8A248c": {
+    "Version": "4.0 beta 2",
+    "Build": "8A248c",
+    "Device": "iPhone1,2",
+    "Codename": "ApexVail",
+    "Baseband": "05.13.03",
+    "RootFS": {
+      "Filename": "018-7450-002.dmg",
+      "Encrypted": true,
+      "Key": "6c985e4ca537ca7b2d8a8a805a409d308eb2442766e2e8ec4e102bdef6aca760d7894a0e"
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-7411-002.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "85acea92d9ba1506d10829089f132a04",
+        "Key": "bd0e0602e5e6c57e8613254d2137903f"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2319810151eaf91ddc377b8ab1dfde56",
+        "Key": "17242f9cc14149905dc92825fb42ee74"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f8e506c57cb484faaedf798868731958",
+        "Key": "08e991b29a4afadbd42d509dbba14aba"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "04041e6bbde97ff5fa7ba9fd3b5a15ba",
+        "Key": "09b529037f22ab8fbf37643ba8b388a3"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c196aa4496f3e0d3efb9e10ae24057dc",
+        "Key": "59762484b9b5185c6e1c15e1cd6f7d06"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "72d4f79a23f9e91fd9ff4913831f7bbe",
+        "Key": "79393429b6109b783d69ccfcbee6669e"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1e92175fbc7eece4012fcc24528a2298",
+        "Key": "bc5f69b1bdb6f2888a0793114bbeb459"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "37c23bb430f5a875ba29373c96ebff8f",
+        "Key": "9d455d1a711ddb5dc9233bda16ddb2e1"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9ca8c7d5ea9a89f979c5e96726b023e7",
+        "Key": "1f37e0e4b0c9fdf4632a4f712d50e644"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "65c3f1e72b835f402956c97016fc4a88",
+        "Key": "3bb3012e7c8a2a181ec6ca1551e120bc"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "12486035493acddcbb65f84f1162934d",
+        "Key": "19e27060102779dc317fe8df00bf5abc"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n82",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "66392219db85de3b84190cdd138c58d0",
+        "Key": "e957a969a51d2916be6bf39287a14b76"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ccf988f1fb797661ed2a15c53d1afa00",
+        "Key": "398f10b47a73ade291acc762fe9f484e"
+      }
+    }
+  },
+  "8A260b": {
+    "Version": "4.0 beta 3",
+    "Build": "8A260b",
+    "Device": "iPhone1,2",
+    "Codename": "ApexVail",
+    "Baseband": "05.13.04",
+    "RootFS": {
+      "Filename": "018-7686-006.dmg",
+      "Encrypted": true,
+      "Key": "fd5f13cf40acec55cf2c8f59b009c26cd5cc7676be5c305333650632a3898ebea060b259"
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-7643-006.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7e40baf8e1da5def015336b045e3bac5",
+        "Key": "44ba76f6c5ee515854e5fc9933bdb54b"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "361c1c28e6852913e06f96e91d7c385e",
+        "Key": "a6fc9cfe8fa87e7ff7b0161657bb698a"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "851b443b075f39903573d806f894ad98",
+        "Key": "71b4f9e2ca1ce9203263265581f3a796"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "148add0243ca033b017ac1b193a44923",
+        "Key": "a4eb0840d268d64d26fe14ad1531191f"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "139b3cd152f3abc844c0a0406de7a7f4",
+        "Key": "39a7a133966790c41801dbc0bfac492c"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e160c6143910c2c2809175d876736175",
+        "Key": "9299d509a9daf2a464873b5ca1e656a4"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "aea7b5ec5df4f18be98601a8bfcc1f90",
+        "Key": "80f8f637eb8bba3b306079b3ecfec944"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5d106cc461375f18aec210781cd7e54b",
+        "Key": "e7948805fa278abc98ac979df1e07e43"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b73c35dd04e01125be2c787928def1ab",
+        "Key": "7e52984d93eedf4ea7b2959b0ee6d278"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8c10337f33d448e863eb6ce7e1458450",
+        "Key": "6e52b3e71f4134206ce4c5d00e386d96"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a5d5f2da16de151e64d5a51623c89365",
+        "Key": "380febccd707b8592effd2e65e9d6b6b"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n82",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9707d6dc41ab0b3636818a8c6ef7eb5d",
+        "Key": "5363f28636508da8e536f318cdf857cb"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "09a68880f5e8378192981b2961c203e8",
+        "Key": "f6d30a2a73851fb919bf65ce3d0f3b79"
+      }
+    }
+  },
+  "8A274b": {
+    "Version": "4.0 beta 4",
+    "Build": "8A274b",
+    "Device": "iPhone1,2",
+    "Codename": "ApexVail",
+    "Baseband": "05.13.04",
+    "RootFS": {
+      "Filename": "018-7721-002.dmg",
+      "Encrypted": true,
+      "Key": "21d0c050aa528124eb5e0a998fe4a7581e7325ce38c3b3ebaf36cc5b326d8c1859e49c2e"
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-7707-001.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "24185ff8d1061981469e156137284d0d",
+        "Key": "743f9d374df6b46d36dd0425a8f8100b"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ea9e0ba0908aa397b07f0e291e84431",
+        "Key": "6e8ce5585bc9bc6d1ec1960411a535e6"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "925ae30ebadb37ac376c1eb8bcfee617",
+        "Key": "442cdf38c421e802c1cdd0efa0383ab3"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0131036dbd28ed86c464927e05088985",
+        "Key": "4204d0d25d85c02f4fa25d7fefd18207"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "85fcee9d5f56a06a0d5d8a05ae8bdbac",
+        "Key": "f856db673017f4960e54a1d0fbba9de0"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7e84901bb5d90f5612cc2880832de053",
+        "Key": "9ed7a0194aa2b22417af88b6591edd6a"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "650ca9a1e010f96d451d73a00fcf98c8",
+        "Key": "a21e328150dff8cc7580fe8922b85100"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "34f2a9491fdeb9a33e41be636787b817",
+        "Key": "496e31645aceddad8756c489aa4a01ca"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f6f6ade43134d957bc575f85c588ea24",
+        "Key": "001f33c94cf8e337c02a7b062ec0ccc6"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "879881bf87b098be0e1831a962856d9b",
+        "Key": "2e851ca6a1db1244e725363ae6088cd8"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e02079afe2a071a67f754455eb0fe36c",
+        "Key": "d39f6cf014ec95c5a16e767583393f20"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n82",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "39b8fdd6fb949193ed6aa19a26fca623",
+        "Key": "e1536fa62db5f11dd2211cda29cae643"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bc6b22f9f5fe0a0daaadfbecb9925664",
+        "Key": "3d6a80450fc9fa76633e0d6173964d44"
+      }
+    }
+  },
+  "8A293": {
+    "Version": "4.0 [[Golden Master|GM]] and 4.0",
+    "Build": "8A293",
+    "Device": "iPhone1,2",
+    "Codename": "Apex",
+    "Baseband": "05.13.04",
+    "DownloadUrl": "https://secure-appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone4/061-7436.20100621.58Yt4/iPhone1,2_4.0_8A293_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-5536-600.dmg",
+      "Encrypted": true,
+      "Key": "09e054a8dd6c11c7f41ad9e614a8d564aa7d0c653585f29c0b07d1f0a1e1dc0040624a16"
+    },
+    "RootFSBeta": {
+      "Filename": "018-7317-130.dmg",
+      "Encrypted": true,
+      "Key": "f1e2bb18a353dacf3f1ce7de8adcfb26d93fe676695bc9504c874a6ce671d2d3047b121d"
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-6460-388.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "331aad2c1849d31fb956f92676d5f2f2",
+        "Key": "3c3591997371c221a7fffc58620a96fd"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6cd67432902ddf1129feb49c48a427ed",
+        "Key": "13545fd4d707ed1e88436d7164f354e3"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fb770f11a79e336205d6d99fae014b15",
+        "Key": "590ac0cd2c14b540b9161995dadb0022"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4c3107bb2e9e5ace8c358f1b4d031b07",
+        "Key": "61784803fdfc1e183f939c922ed3026b"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9e889e3834a2f716a45f3fec6e51a2ea",
+        "Key": "2f62dcaea41eabeaab7c0303add695da"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f4d19c6bb451dcea6a07dc2968bbd568",
+        "Key": "6be3422c52d2a6ecf553c87c69165feb"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "127ca09791eb5b29986a802de6b437c3",
+        "Key": "b664a25d696862e247b34e50798e7da1"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a52a7beef61bddf5a74c80ca8ceadcce",
+        "Key": "6cb91eb1f02b40de74eb05edd9a57cb3"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "39403846d11f431079f2747b7d483bc6",
+        "Key": "2a8af8d639e9cf90298bb8b1e936b13a"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "80c372290c446c2c3a4a89f55279c775",
+        "Key": "7d1baec399c511acbfe1da7a8d922cc7"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "32bbdf3d85a713952503c2bbeb4d69a5",
+        "Key": "3470f3841b87b161517588c21534b03b"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n82",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0182586ff40f56d59148020a5660a3c2",
+        "Key": "3861ea3f4b0e926552e6407fb33047ff"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6b372ecbbcd1fc01f94c719c82cef173",
+        "Key": "93f647f7ef2680c677a25149260fb88c"
+      }
+    }
+  },
+  "8A306": {
+    "Version": "4.0.1",
+    "Build": "8A306",
+    "Device": "iPhone1,2",
+    "Codename": "Apex",
+    "Baseband": "05.13.04",
+    "DownloadUrl": "https://secure-appldnld.apple.com/iPhone4/061-8616.20100715.phnt4/iPhone1,2_4.0.1_8A306_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-8227-001.dmg",
+      "Encrypted": true,
+      "Key": "38a4937108c1c271c82013dff870bab10793292ab594ae7878175cf2bfb6bb9633419ff9"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-8230-001.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0c90b80e2c59667bb368f20c90b6eb25",
+        "Key": "414fcce1c9282ce85217b7bbabfc31b0"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-8233-001.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cefc2ee02478de0ad2a9fb6d4f040ebe",
+        "Key": "3d757af42d4ef3c8f80f38ef67257e54"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6cd67432902ddf1129feb49c48a427ed",
+        "Key": "13545fd4d707ed1e88436d7164f354e3"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fb770f11a79e336205d6d99fae014b15",
+        "Key": "590ac0cd2c14b540b9161995dadb0022"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4c3107bb2e9e5ace8c358f1b4d031b07",
+        "Key": "61784803fdfc1e183f939c922ed3026b"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9e889e3834a2f716a45f3fec6e51a2ea",
+        "Key": "2f62dcaea41eabeaab7c0303add695da"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f4d19c6bb451dcea6a07dc2968bbd568",
+        "Key": "6be3422c52d2a6ecf553c87c69165feb"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "127ca09791eb5b29986a802de6b437c3",
+        "Key": "b664a25d696862e247b34e50798e7da1"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a52a7beef61bddf5a74c80ca8ceadcce",
+        "Key": "6cb91eb1f02b40de74eb05edd9a57cb3"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "39403846d11f431079f2747b7d483bc6",
+        "Key": "2a8af8d639e9cf90298bb8b1e936b13a"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "80c372290c446c2c3a4a89f55279c775",
+        "Key": "7d1baec399c511acbfe1da7a8d922cc7"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "32bbdf3d85a713952503c2bbeb4d69a5",
+        "Key": "3470f3841b87b161517588c21534b03b"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n82",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "41c48897f7aaac8beabecc756538da3c",
+        "Key": "a943efa20d4b9fc4d8d21a0a2b8159ea"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "01eed7746a8bde7d37e1aac351983793",
+        "Key": "67d37da5deef2ad5b14eb5b713f68ca7"
+      }
+    }
+  },
+  "8A400": {
+    "Version": "4.0.2",
+    "Build": "8A400",
+    "Device": "iPhone1,2",
+    "Codename": "Apex",
+    "Baseband": "05.13.04",
+    "DownloadUrl": "https://secure-appldnld.apple.com/iPhone4/061-8802.20100811.XcfpR/iPhone1,2_4.0.2_8A400_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-8376-002.dmg",
+      "Encrypted": true,
+      "Key": "aa5ea4b38e5a7d9f2d95ab7c015e5531050af66f82a30e6a83994f8f802d352e236a0250"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-8383-002.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ff8f6e76c72d24ec44568fd88e112e0f",
+        "Key": "3b4e09f595984bc89e4c524a504866df"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-8389-002.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d464c589db4c00bfe2c844e5cce76e23",
+        "Key": "db611a918217b941e4736fb806cf8e95"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6cd67432902ddf1129feb49c48a427ed",
+        "Key": "13545fd4d707ed1e88436d7164f354e3"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fb770f11a79e336205d6d99fae014b15",
+        "Key": "590ac0cd2c14b540b9161995dadb0022"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4c3107bb2e9e5ace8c358f1b4d031b07",
+        "Key": "61784803fdfc1e183f939c922ed3026b"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9e889e3834a2f716a45f3fec6e51a2ea",
+        "Key": "2f62dcaea41eabeaab7c0303add695da"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f4d19c6bb451dcea6a07dc2968bbd568",
+        "Key": "6be3422c52d2a6ecf553c87c69165feb"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "127ca09791eb5b29986a802de6b437c3",
+        "Key": "b664a25d696862e247b34e50798e7da1"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a52a7beef61bddf5a74c80ca8ceadcce",
+        "Key": "6cb91eb1f02b40de74eb05edd9a57cb3"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "39403846d11f431079f2747b7d483bc6",
+        "Key": "2a8af8d639e9cf90298bb8b1e936b13a"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "80c372290c446c2c3a4a89f55279c775",
+        "Key": "7d1baec399c511acbfe1da7a8d922cc7"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "32bbdf3d85a713952503c2bbeb4d69a5",
+        "Key": "3470f3841b87b161517588c21534b03b"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n82",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9746365b664b2ab8cb8ed1b283cd63c5",
+        "Key": "e869b1323671babf3f94998225a3c88f"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "01eed7746a8bde7d37e1aac351983793",
+        "Key": "67d37da5deef2ad5b14eb5b713f68ca7"
+      }
+    }
+  },
+  "8B117": {
+    "Version": "4.1 [[Golden Master|GM]] and 4.1",
+    "Build": "8B117",
+    "Device": "iPhone1,2",
+    "Codename": "Baker",
+    "Baseband": "05.14.02",
+    "DownloadUrl": "https://secure-appldnld.apple.com/iPhone4/061-7932.20100908.3fgt5/iPhone1,2_4.1_8B117_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-7060-114.dmg",
+      "Encrypted": true,
+      "Key": "4c3c83d3899ea9bef415b1c9c656aaef966b2362494d2c9093a9283d388257562a228c86"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-7072-079.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4f545fda195abfded796f10627fedd6f",
+        "Key": "dc4ee98876c3106888fc501576f0c1b7"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-7079-079.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a0fc6ca4ef7ef305d975e7f881ddcc7f",
+        "Key": "18eab1ba646ae018b013bc959001fbde"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9cdcfbdf36175c103d4f3d4993bc8423",
+        "Key": "91f2b4c9a8a69f502a294200472059f3"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "be8c599d54c7db4c73d5f625dabe5b9e",
+        "Key": "b999597f1c7c5e69787e557c7d4005a0"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "717b2fc18a4144734472d610d35e6cad",
+        "Key": "ad089848459714cc4b8eccc20b39ec49"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "274fdb766f0429b42b567233e6efaa98",
+        "Key": "a326f6b58fcfe493146430bead54a040"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "040eafd07ba3f2cfa489ea63057e5431",
+        "Key": "ef36455a0bdaa272930e258a601d2085"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "61bcf143fdf8eef414f1a54117418691",
+        "Key": "5f24bbec11ae22f04956a16d6cfe851b"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1500e2b65dc6e9bc958d92f014f090a5",
+        "Key": "15118cb6f0f542da929cb5858cb6fdb2"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2002b24db0abaad78411e3cf47007aff",
+        "Key": "fe54f722d6ddb22cc263ef5e8b1c0235"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4236670ec4fdab27363451fdb27e633f",
+        "Key": "d23902e0efe394a1f09b37c6e86dd6a3"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4c8dd5528dcf283bec1ecd8d741aa540",
+        "Key": "9b5a1fc8c62912cc1404a6bd5cc45685"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n82",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7238dcea75bf213eff209825a03add51",
+        "Key": "0295d4ef87b9db687b44f54c8585d2b6"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8926b78e0a2b9e4ec9dd34b0f99148fb",
+        "Key": "536e5c0303edd8f11ca90535c0770963"
+      }
+    }
+  },
+  "8B5080c": {
+    "Version": "4.1 beta",
+    "Build": "8B5080c",
+    "Device": "iPhone1,2",
+    "Codename": "BakerVail",
+    "Baseband": "05.13.04",
+    "RootFS": {
+      "Filename": "018-8218-003.dmg",
+      "Encrypted": true,
+      "Key": "980269f302a65bf50a9f800b46da74a2e83a498c69244a618827e1ebddbfc334c3da2ea3"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-8155-003.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ac3baa36576ebb3b6d47af41562f9fa4",
+        "Key": "97fe89fd2ad21e67aff938008e47b026"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-8163-003.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ef524b803d498940b73b3056d2b3d0f8",
+        "Key": "1a9a7cd8eccfaa988b205b3152a2e148"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7f7ffed3aa4d05220dc0fd18a480501f",
+        "Key": "367bcbae2563a8b5b74e5b5c7257e94e"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e57cde1627e31d82055ed01b8b0b7a4a",
+        "Key": "ac19f74248a8b097b0b475c81b6faf27"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f9d766582990db3f0a9bf1ff5d9ac4d7",
+        "Key": "b276cc236f5d1d8cf5efd4b97ec6d823"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e66c80ee6a13cf4eb256b84b0df721d7",
+        "Key": "c5bd697138e0e281907d2293b78523af"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5200477e5f3b9115ce2853afb436e912",
+        "Key": "cba5744ef5cf4c7ee7efe06014f35768"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5062bf8d42948588889d483f197818cd",
+        "Key": "48693731b26bd95ca32903a8a33e049d"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cc6a3e1a076c36d19cf20d75edabb8f4",
+        "Key": "e360c3c2ba0c9830ea31fac3117a9687"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b3797b0d4e9b3dfe8dedb3374dc2b7fb",
+        "Key": "8c83c5695f2c64b9b298822d6b03ea4b"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0f75d2a4227c170d4fb8f25df48e620a",
+        "Key": "a40653048ae846ad55be1dfdbe0c9ca3"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2864c913d710b850799c6fcc82c1a67b",
+        "Key": "dfbaa41fd325a0c629ac40eaf6bb5c8e"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n82",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a30dbbce36aa230b1cce689f43e6fafe",
+        "Key": "fc08287a1ce308d08fde15fca43730ff"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c843be466bf6c2d8c73bd1b5e2b3691c",
+        "Key": "dcc046aef9d6ab49b9446c9ba0bd4123"
+      }
+    }
+  },
+  "8B5091b": {
+    "Version": "4.1 beta 2",
+    "Build": "8B5091b",
+    "Device": "iPhone1,2",
+    "Codename": "BakerVail",
+    "Baseband": "05.14.01",
+    "RootFS": {
+      "Filename": "018-8218-005.dmg",
+      "Encrypted": true,
+      "Key": "2d3ff466c8e7059dfc0ea90e23d98fd706be8890141d39fca018563c3976af1ed33147e8"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-8259-002.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8f83426a39ebf3faab857e58cc0a22ee",
+        "Key": "920fefe670578a0f1a0d78094bd4377c"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-8262-002.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "68230649700fcc1770234c954b78ee30",
+        "Key": "47c4f74baecb414648dab511fd3bd559"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5973d8bdcbfad7f905d39a4ffbda9a0e",
+        "Key": "d7cda941ed6b9c2c218c7fe22e396a7f"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "94046d586ffc695ccaa7fd9ff91f6991",
+        "Key": "e46a960983cbfa5a8fe0b9c8b64d0a58"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1c40ecdfc5c13ccfea35bd4f101249d7",
+        "Key": "72885d561ca28c6cc9351c51156b8a40"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "34f4ee3cd058ecb260912ac1061f024a",
+        "Key": "d43dbf01fd0b98c66409f9d6f4ccdd3b"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d81055e8ce9b8b9f1c3eecedae9aba0a",
+        "Key": "66fcda893dd63f9841d7e2dfa8cf0ffa"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "59c8518801b63270140147d498cefb8b",
+        "Key": "8235611bf77a697a746d3863af107414"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "66b9987c02364898dbd80d1a1f284c64",
+        "Key": "3358df1237f34a81e8e330636d9511a3"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "870e619013b6ee40ac5b64f06636609a",
+        "Key": "dbda24e1d98e917f6e956b0abd534ada"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0bce3ff493125bd1b7dc91e96a561272",
+        "Key": "132ace68ca4c6fde931f8d8a85e4a05a"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "53956f3cf811b979d8170bafebf18840",
+        "Key": "b930a6cd3cf9d37fa10790fd4628eb68"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n82",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "98bfb791542626e8374fd0a347ad1ba4",
+        "Key": "cbf77e568b1f70ab8de1091f0fc9b578"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c76160c24e72624cd1a3b19a059a70e4",
+        "Key": "ef931dc75d18e05ba16e0f8530ce0d71"
+      }
+    }
+  },
+  "8C134": {
+    "Version": "4.2 [[Golden Master|GM]]",
+    "Build": "8C134",
+    "Device": "iPhone1,2",
+    "Codename": "Jasper",
+    "Baseband": "05.15.04",
+    "DownloadUrl": "https://secure-appldnld.apple.com/iPhone4/061-9596.20101105.xs96t/iphone1,2_4.2_8c134_restore.ipsw",
+    "RootFS": {
+      "Filename": "018-9737-004.dmg",
+      "Encrypted": true,
+      "Key": "f0db1eef22f887fd7c232812acc374d8e14cc382e4fea72766d08a96d4c175478bc6470a"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-9741-004.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2e3774b24d8a6db1af5e2de69481fcbd",
+        "Key": "dc6a44932280c47fdccf962c4f72408a"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-9744-004.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a8c3edff14d6931306cf35f65e4c4d3a",
+        "Key": "e05e35feff98592087966b1b269335e8"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7ac3b3cc96fe0466b84b25829e6b44a0",
+        "Key": "ba9241b3e214dcca8cd20dddf3699acb"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "52449843e3008594ce9701f595cbf248",
+        "Key": "0b4d5ad39330c4239c73f3856aba10c1"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a1a1bae55456e0a03cf0e191522a483c",
+        "Key": "92a87fb19b85acb8ea1d1ba6876fa35d"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4f2dbf7d73934b89b22c95700a4368ca",
+        "Key": "2f1544cd704289c5e661313b15a43e06"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "42e8550eeefd1f4cf7366d320c526dca",
+        "Key": "fcf2f53f829dfa6df66c27f42568fa21"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fcb81e8bdeeb70738fe303923383b5c7",
+        "Key": "d75d3eb28d20ba09f94aeb880a56bbdb"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "34e494314bbc370905c88564b76f3257",
+        "Key": "1fa64d180acddd10346a70a2edccf494"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "daefb6ee392b07d262c3eadc3d5593dc",
+        "Key": "3bdc313715a8931a5bae33f65148a727"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e2eb9f4224edbf1bd43b8ff582c64ba7",
+        "Key": "352070e9b649141ce967961292f3e796"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "79ec4fb2d57ea1896febf5244a39aed1",
+        "Key": "2841457265327a4c4d0eebdbbd90c0de"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n82",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "61d94cf29224b0294c9220241a6eece5",
+        "Key": "2c84d0b1bd020f7f13b7e200cf477c14"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e26f281077fcbd85af323327258c1a3c",
+        "Key": "6f12794e39135f36f4edf8b11194b783"
+      }
+    }
+  },
+  "8C148": {
+    "Version": "4.2.1 [[Golden Master|GM]] and 4.2.1",
+    "Build": "8C148",
+    "Device": "iPhone1,2",
+    "Codename": "Jasper",
+    "Baseband": "05.15.04",
+    "DownloadUrl": "https://secure-appldnld.apple.com/iPhone4/061-9853.20101122.Vfgt5/iPhone1,2_4.2.1_8C148_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-0015-002.dmg",
+      "Encrypted": true,
+      "Key": "82c9280927224637c77a96a26d22f42f2ca08fa9a798a8d06fbc8202fc83ec7f45dda79e"
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-0022-002.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "694b0eef314fb613cd51830fa9f5aa3e",
+        "Key": "160e72355c3053a726b6ea5305619515"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-0029-002.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "673d874f06e87e018adbe8a34425df19",
+        "Key": "91fd0e11469cafd56cff8ac906e54b93"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7ac3b3cc96fe0466b84b25829e6b44a0",
+        "Key": "ba9241b3e214dcca8cd20dddf3699acb"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d0b66a703ab9f0ed4305b7a024e228c3",
+        "Key": "3fb475b627041a4746866b6b43b9455b"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ed8d58918d881aa366a1b06efb38f4cc",
+        "Key": "55dbf95d6ad638ef7e8b6de0d6f5a16d"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5bfd936749eff5a063fcd1db12f46899",
+        "Key": "7ae07b9e3a01fdee6be4b5c528613c81"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "241ad6cc0932702d99851a9edb4150ad",
+        "Key": "217cdcc14d0a458ce33ace8b81e94336"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0e925344196cf625ceba814c76f9b6ee",
+        "Key": "dc62f8f1db98cbe7e80d7f5cd3f4988f"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "34e494314bbc370905c88564b76f3257",
+        "Key": "1fa64d180acddd10346a70a2edccf494"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6553267a1976ab11b56c6268e57bf325",
+        "Key": "a66de26baa6710b663f6b2586e3be7f9"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1b8c5da60ef92616746bc7d517a07faa",
+        "Key": "6558696bcf94261016fc02defd5b505c"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "79ec4fb2d57ea1896febf5244a39aed1",
+        "Key": "2841457265327a4c4d0eebdbbd90c0de"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n82",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "63e4f6107e33379100b2f3e1cc0fdd94",
+        "Key": "899504f05b254e543d98fcff61d1dc03"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e26f281077fcbd85af323327258c1a3c",
+        "Key": "6f12794e39135f36f4edf8b11194b783"
+      }
+    }
+  },
+  "8C5091e": {
+    "Version": "4.2 beta",
+    "Build": "8C5091e",
+    "Device": "iPhone1,2",
+    "Codename": "JasperVail",
+    "Baseband": "05.15.01",
+    "RootFS": {
+      "Filename": "018-9180-004.dmg",
+      "Encrypted": true,
+      "Key": "d0f82b8265e26578537ed41a4a99eab5ba60c09057ba598b74a396b5f3b63ed1e496066c"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-8908-010.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2ac8646e4443066494dc8e92bff64a4d",
+        "Key": "43a28c3d8ebbd796bc028d3ee8b24546"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-8917-005.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "db326bcf4f02a564dfaca09da41d48e7",
+        "Key": "6fcfa8ee3f015107952a18f405f4a5c9"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0fbc726d2ddfcfa754b7f8e943adfe97",
+        "Key": "bb591f6708d89dc7ca1cb171f841a475"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9ce0f9a2b59c4d8019b7afb678325330",
+        "Key": "fe81ddb22295cee69b20a57f277d3611"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bad86e5ebcbf27a10e9130b5cebf92f4",
+        "Key": "aade0b23cdcc9d27a9431bf781e3375d"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "289000c1d5189197b4fc67f91ffd8df2",
+        "Key": "13d7fb40851c68a19ae60670b33c068a"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "493986a29a9bb7d10b36cfff84766ffe",
+        "Key": "662aba293fc03fcd8bf7638319a6f7d6"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "17a190e2c177a04637129e24cf30c836",
+        "Key": "3677bd053e5c15a35caccf69c9c06903"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f24bbbabd969fe6b834207ce94e74a7f",
+        "Key": "1b35692fcecc324c3d28ed3deee333e7"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "08ac5111f87e39455ee607d71dd8622d",
+        "Key": "70f6c6f6793a1f660aa55e32db6a1733"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0302c13f5ba5ad7354e0308d1fb1cfbd",
+        "Key": "a40f9a73416bc2562ec8cf6bec79c6d2"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6e07f36bd3d9de01ecca99233dffdaba",
+        "Key": "0f5b8461f56a83cc703c6b9d780bff93"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n82",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bce06eaf1a26da716d4f8443742ca5b1",
+        "Key": "815a3b209b5271ee7dca6f2f7afade5a"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f5238ba101fbb510e1d94f4ba3f001b8",
+        "Key": "3bee8a184413ad014bff3395cf79c267"
+      }
+    }
+  },
+  "8C5115c": {
+    "Version": "4.2 beta 3",
+    "Build": "8C5115c",
+    "Device": "iPhone1,2",
+    "Codename": "JasperVail",
+    "Baseband": "05.15.04",
+    "RootFS": {
+      "Filename": "018-9701-005.dmg",
+      "Encrypted": true,
+      "Key": "8e95228c59eaa90109127066a0b046c1f855f6c311ceee3c87233cd5c40e54ba16c9857c"
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-9684-004.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2f34c6210765646c389ac16ae392e821",
+        "Key": "959241de138bfeedbd4da5262b4aae92"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-9687-004.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0a2e898f2fd98867c9ab812367ccfa74",
+        "Key": "a365330ec3a0bb218bae162fe0de02f8"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "74280de7f1961694f2b5e253ec48dbdc",
+        "Key": "0742e90f8b477ee263c6622e9879f085"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5e09164775457d4703f937750df350ac",
+        "Key": "321e0d94b3fc3817491a57de122eba0c"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f3ef54e60d4f12fd6fd12adc1529bf6d",
+        "Key": "59fa2e9f6d9c3a07f4a058efac8a7448"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2121b3db939bc9b37893c9f30d656997",
+        "Key": "6c28a3ca24aed3a135066865794a7af6"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3937e0a15d2647c09673efc335d80315",
+        "Key": "b6743657e10a0430d4960ec414ae1419"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6cca41e0f8408b8f9395c89de7ae92ac",
+        "Key": "ab638f76c6f0b3148824def51a75e760"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n82ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "edc39d16feb7f9188f5c958a69a13b14",
+        "Key": "5ca7fc771562cdebd7b5d20ea1229524"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1039836497325d9d85dc0d87abd465b5",
+        "Key": "dfc00d0253d8c1352d015c6c12670c6f"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7399fbbf7f2a8d3b7c3c4d38538beeb0",
+        "Key": "3134c97c8fcb04973c15c92aaf2c55f3"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.n82ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a0641345d0295d8e8e9d3ceea83beac0",
+        "Key": "3b313e3347f23996c541b5530d51a845"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n82ap.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n82",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "258b1e4da1ed38454168f9d62f8cd479",
+        "Key": "66fa8a68f31ca7c227c3a270a9361174"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n82ap.RELEASE.img3",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode.s5l8900x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7419ee99460fee40c348d892cc0d1be0",
+        "Key": "609c95b2c7eb9d2245e176bac0772e8c"
+      }
+    }
+  }
+}

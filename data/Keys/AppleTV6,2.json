@@ -1,0 +1,2211 @@
+{
+  "17K449": {
+    "Version": "13.3",
+    "Build": "17K449",
+    "Device": "AppleTV6,2",
+    "Codename": "YagerC",
+    "DownloadUrl": "https://updates.cdn-apple.com/2019FallFCS/patches/061-15787/7D2D079E-155E-11EA-A7CD-BBAFEBE5D6D3/com_apple_MobileAsset_SoftwareUpdate/9785aec8459a690a1befcd9b786884e48afe9af0.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "038-02160-057.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aap.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8ed94012405d79e273eca7db5a3997e4",
+        "Key": "017c1da27a68fdf06f58ebb8379f3a02cb10814919215fd8195435866cbfeca7"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f31dbbc7ad79739627177040e52f6e87",
+        "Key": "ad823b9bed4068bd8db42035493883e4cf2f474ccaeda0ce132b9c2a8604ffde"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a1be8d7e045ea66b5985c8a3fc05dd94",
+        "Key": "e40278bd660fed5a50d979d4fc53cf0c04f3fe26c5644d4cb32e4c3ac1ccc410"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a4e5f06e6a12a3437bf5503b186ed3a9",
+        "Key": "2d456de5d139ea6b364a66b0fd544de49d622327fc420fdaa1738a3ce093fcf2"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j42d.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "8951C84E3718B5C4F8734E9B1CE3CDFD129005A758F5D1E070B00FC6069DDD885B7BEB266E6BE1918008E7E365F60829"
+    }
+  },
+  "17M61": {
+    "Version": "13.4.8 [[Golden Master|GM]] and 13.4.8",
+    "Build": "17M61",
+    "Device": "AppleTV6,2",
+    "Codename": "YagerG",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020SummerSeed/patches/061-92077/73A5B815-38F1-4474-812D-F24E5A88575C/com_apple_MobileAsset_SoftwareUpdate/8988ef3518b1f20f95c66d03be3c15eb4e1be2a0.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "038-50764-064.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aap.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a29bb24b134a358993e41079e7a03d6d",
+        "Key": "828a4ddc4f0c043c9af5994c9c652b617a9fedb308b4f57e308793e51d99694a"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d09179742f79a679039873d616f231f2",
+        "Key": "04fa67c6513539bd11d8eef9c5e046cf82d73e88e9198d39711f47d78ea6b640"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1b38fc0bedf3892b2f4525a470b448a3",
+        "Key": "6537717f8cbfccabb0131de4798be9409d87f0412ece6308c4880bb21513e931"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "132902e3146ec67c6b0ad1b2ebfd91b3",
+        "Key": "f4e129cdd73f79034431bcd4d848c6fa83ae7127f41a90ca24761edb14e57129"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j42d.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "BFA21E1C910DAD2590BD447DFAA9E2F2363BB220362441BF9DE2932470A0CF158FC5A3515489410E22ABDB6231977A38"
+    }
+  },
+  "18J386": {
+    "Version": "14.0 [[Golden Master|GM]] and 14.0",
+    "Build": "18J386",
+    "Device": "AppleTV6,2",
+    "Codename": "Archer",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020SummerFCS/patches/001-33400/9307621A-5CB1-4BF2-B5B1-15FD9590D5EA/com_apple_MobileAsset_SoftwareUpdate/3b30f717c9a3da3c08feca8084ada66b312b7628.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "048-57372-538.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aap.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "00da81db9a890a73513a907bd2b7adcc",
+        "Key": "e656b329ad9f60ea4762e91943d15a0dffd1aa314cbc9a0c6b87b28aef55cf1c"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1597202e0ab569ee8808300269721a6f",
+        "Key": "83e102f5c93c75240d39870d906554e098244e33c3ebbd277aadab13b053dd7f"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "136b417b50ef7c664128149b15221c74",
+        "Key": "d98b7f7a9b7869716142bb7120063f43a75a0f8bc9d203e5b793aeec56c76494"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b7dc6b397c1eab0b66fda0443dd2bad3",
+        "Key": "cea82bfb448676f58d960c704f551ccbc32d1f381025f1ad40663c198d3da7a9"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j42d.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "27B3DF0CFFFF1FC8F678C56E6C42A41B138EB874AFE82359B9DA9FAC18A5C13F01254969961957AAA7D11B8EF0265695"
+    }
+  },
+  "18J400": {
+    "Version": "14.0.1",
+    "Build": "18J400",
+    "Device": "AppleTV6,2",
+    "Codename": "Archer",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020SummerFCS/patches/001-47352/4670163D-3687-4C79-AB74-BCF565A63CFB/com_apple_MobileAsset_SoftwareUpdate/0679f268ca27a2eec44b4fa799a684bef6d964ff.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "038-87880-001.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aap.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "00da81db9a890a73513a907bd2b7adcc",
+        "Key": "e656b329ad9f60ea4762e91943d15a0dffd1aa314cbc9a0c6b87b28aef55cf1c"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1597202e0ab569ee8808300269721a6f",
+        "Key": "83e102f5c93c75240d39870d906554e098244e33c3ebbd277aadab13b053dd7f"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "136b417b50ef7c664128149b15221c74",
+        "Key": "d98b7f7a9b7869716142bb7120063f43a75a0f8bc9d203e5b793aeec56c76494"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b7dc6b397c1eab0b66fda0443dd2bad3",
+        "Key": "cea82bfb448676f58d960c704f551ccbc32d1f381025f1ad40663c198d3da7a9"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j42d.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "27B3DF0CFFFF1FC8F678C56E6C42A41B138EB874AFE82359B9DA9FAC18A5C13F01254969961957AAA7D11B8EF0265695"
+    }
+  },
+  "18J411": {
+    "Version": "14.0.2",
+    "Build": "18J411",
+    "Device": "AppleTV6,2",
+    "Codename": "Archer",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020SummerFCS/patches/001-54444/AE36EDD5-22DF-4E0E-B856-4FC321E03211/com_apple_MobileAsset_SoftwareUpdate/aa6cd3ad4a3ff0caaad4d7ddd337432a8ce71e68.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "038-87880-003.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aap.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "00da81db9a890a73513a907bd2b7adcc",
+        "Key": "e656b329ad9f60ea4762e91943d15a0dffd1aa314cbc9a0c6b87b28aef55cf1c"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1597202e0ab569ee8808300269721a6f",
+        "Key": "83e102f5c93c75240d39870d906554e098244e33c3ebbd277aadab13b053dd7f"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "136b417b50ef7c664128149b15221c74",
+        "Key": "d98b7f7a9b7869716142bb7120063f43a75a0f8bc9d203e5b793aeec56c76494"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b7dc6b397c1eab0b66fda0443dd2bad3",
+        "Key": "cea82bfb448676f58d960c704f551ccbc32d1f381025f1ad40663c198d3da7a9"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j42d.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "27B3DF0CFFFF1FC8F678C56E6C42A41B138EB874AFE82359B9DA9FAC18A5C13F01254969961957AAA7D11B8EF0265695"
+    }
+  },
+  "18K5027e": {
+    "Version": "14.2 beta",
+    "Build": "18K5027e",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherBSeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020FallSeed/patches/001-36917/BBFD87B9-C876-448C-BC0D-5BB74F07FAD8/com_apple_MobileAsset_SoftwareUpdate/5f85f5fd94fa6bfbda72bd6517d92b3442fccd79.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "038-78751-014.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aap.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "77902802616f34fd85b84f71a28497f7",
+        "Key": "590c45202da2294a953c8e46a389986628d3eee647fe8b730cf996c916ad4275"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5b135ea399e951a50281ec7408472c98",
+        "Key": "1236e17623dcb6dca39e43150a4e4cc89585b88da2f22cf1a535e455f7fdb2e4"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "701b8bcfe06981493b079ed0810dc4a0",
+        "Key": "fb0a6d97b53e78d7752a42ac27a604978c7312d7bc490b538c7af453edc08fd6"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "12399261f31c3e8a67c4af145dea9982",
+        "Key": "12b7c21c766b50ff33a2be2dda5679d1e448e7170196c932a7e795dfefab17a1"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "688ED63B99DDB3AE3DF2278D2A58579B05779BA9EFB8CA8007E5C37C31BE094BAC51BDA2BD2C0CCD9F2896DB593669ED"
+    }
+  },
+  "18K5036d": {
+    "Version": "14.2 beta 2",
+    "Build": "18K5036d",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherBSeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020FallSeed/patches/001-50881/440BC383-36DC-4E8B-9BE7-AFF7084C9046/com_apple_MobileAsset_SoftwareUpdate/0fd397192b22eff648f41c0d6ec0d993b7785a7b.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "038-78751-019.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aap.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1578d71906fc2f410bf2c38020a00f34",
+        "Key": "5bab51f5608cd88198ae86e16d5160778b6b2b9c2c71e08e82c066e5c3a6938c"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4a85cf2c42d836aa2f97fd420a14d166",
+        "Key": "93a0584aeb403adaa46ed6550847b81bcc3d89ac23535111fbe7ce5be88bff2f"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c1c20248b469dd9d916c4a43b42063ed",
+        "Key": "ebaa98690adaac63acd399d37c51da9776a32290eff0481cc24df98260e8561a"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0036864c34bc19c9f779f6aec9e7f431",
+        "Key": "c01401723937016237a0855bc8008bc1f2ebb9de4ae1565e682c078c84fcdbcd"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "CEDDC95C99C9CEC54A1CE41D5BB926FFEB550D6F7BCF650DB8B9291C69B3E5457448946ED20EA2178B3D151697348A96"
+    }
+  },
+  "18K5047f": {
+    "Version": "14.2 beta 3",
+    "Build": "18K5047f",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherBSeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020FallSeed/patches/001-59302/A94781D1-2ED7-475F-82A4-0BB122A78F73/com_apple_MobileAsset_SoftwareUpdate/3b854e8e2068038eaf166c441b1691c8ed035ccf.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "038-78751-028.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aap.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "619723fa4b7932c43a523108c0ecc290",
+        "Key": "7e9ead80c5a2be7dd7b79fc7a500b3440374a7387725bb50e267c5819a989445"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7556e9ea4d0f9b35d1f51620d91bad1a",
+        "Key": "1f1915b9e32ff505ee583c4f92be5b5d7aaca088c5253da936088563ea57d70e"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "55fa3b9d03f6b03dcf61b67284b334dd",
+        "Key": "dbd0d7797c8f4498a58716293361824af879ebb801a2bb108714c9f1954e6658"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bd4eed263746f556fb9d39e7b72514d7",
+        "Key": "58ca8a80b548f47d3a71f1138519e2b4a6bd9c1838ca3767319683e6cca8fa15"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "4C9D157CD9C2BCF04E80CF650D5FEA23E1EA62A68151685E90783D99E9B2D250CFF0347ED3FCCA1865EADBAB99E3302E"
+    }
+  },
+  "18K5057a": {
+    "Version": "14.2 beta 4",
+    "Build": "18K5057a",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherBSeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020FallSeed/patches/001-61223/7CE2BF9E-36F8-49AE-BCA0-7D79E96164AC/com_apple_MobileAsset_SoftwareUpdate/456bf1848075ff9c3aab6d9d2a66b9896b3513c6.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "038-78751-032.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c843fec669997daa829e83c4cfba7d35",
+        "Key": "40b640fa853219866bb5945f696358b9279fe5bc8ac68899dd74b76c080e748a"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "da1edbd23d29d8a4faff8054ddb191c8",
+        "Key": "f9368a374cf5dbd578d60affe761cd3b8684d3e94beeccd8a09f47af5ae23316"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "75bed125950953dcbd53093f5b5091eb",
+        "Key": "2813320c2242e59b9ba4af35d4b212ec473dd0b35d968b647bd84e5e1244b9f7"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2b6dcffa1cb29a5e5840c8cabed87db7",
+        "Key": "4383f59695e17fe07936fa245fcb357193fd1339a837343813406fe08b30ca16"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "44DF50D353047DB85886A81CE10DCDF2DC24653D8CBAB7987C0DD08C4F967418EB70B21D55B5850A24BE4B81560DA932"
+    }
+  },
+  "18K5545e": {
+    "Version": "14.3 beta",
+    "Build": "18K5545e",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherCSeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020WinterSeed/patches/001-78938/09448C96-970F-427E-9A7E-F33A142BDD44/com_apple_MobileAsset_SoftwareUpdate/cfd13194e4dd274a912a7881aabd63f5e357c7a4.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "038-90311-019.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f34f7f22e0ba23586f85b9a22a62de47",
+        "Key": "7034ec3b90f41dbe1e89f4ccbfcd115288e0888c520d7cab04469a02fdb61bdd"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e95df9d887b0cb53b25755934c5b5932",
+        "Key": "d20b17469f365a95bdd69b61d14a03c9fc9c4427d51f90f8744aa7906ea86c38"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "65f712a6b7a226a41e9c9e9521fcf806",
+        "Key": "1e14673727094234c5f5814b28b7fe80eb6050b2a37b40a3c5c9a761249e26d1"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5986a7f338e9803db187530b0eeb8b37",
+        "Key": "d32da199f27a4da538714fce1de6c42ff115ef5a03d254787e233faf10f62f17"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "94D1A9C4CF2829757633ACCD56ED61C3FAB5469BA641E48CBB9B408A9CE0B908C66012748BD0128705A8770DF5AE16C7"
+    }
+  },
+  "18K5556a": {
+    "Version": "14.3 beta 2",
+    "Build": "18K5556a",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherCSeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020WinterSeed/patches/001-82794/A40514B1-68A9-48C8-914A-A281E6C90DBA/com_apple_MobileAsset_SoftwareUpdate/d3218bf5bceceb9d5d0095b933c6ec34a93832c2.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "038-90311-024.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0bab326e5381bcb93c8eab89be7857c7",
+        "Key": "fdac1e90d17d6e1ac0f4fa604c5251b67e1d993733ec0a923651276f8b53387e"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0c643ea46787414d8de4c35b5b6ca16d",
+        "Key": "85ae0409c5bafc3911cb952187a96f6afe21526480f7f8f8b9cf655417ea1c83"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bec191c0d0a61038ce225421c85ed1c2",
+        "Key": "df100886a11601d1586038970a4a93135a8d4817d943780d5d455c67076ee627"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2a1efa7283aeede1084c860a0cf6a172",
+        "Key": "e5564b5fa1f4f54cda0a15adcb55ce423a5afb0025a28c3edf752bafa776019e"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "3CD97D91977D80E59FDBAB17D4990B3787A94A8F5420A66C4029914EAF915DD67463CC955EFA2EB1A5728FD6C93A010B"
+    }
+  },
+  "18K5559a": {
+    "Version": "14.3 beta 3",
+    "Build": "18K5559a",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherCSeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020WinterSeed/patches/001-85504/FF425B53-67FA-4923-ACC1-5DFFF9023F41/com_apple_MobileAsset_SoftwareUpdate/057b9732ae0edc93fdcf704da94df5221fd709fe.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "038-90311-026.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0bab326e5381bcb93c8eab89be7857c7",
+        "Key": "fdac1e90d17d6e1ac0f4fa604c5251b67e1d993733ec0a923651276f8b53387e"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0c643ea46787414d8de4c35b5b6ca16d",
+        "Key": "85ae0409c5bafc3911cb952187a96f6afe21526480f7f8f8b9cf655417ea1c83"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bec191c0d0a61038ce225421c85ed1c2",
+        "Key": "df100886a11601d1586038970a4a93135a8d4817d943780d5d455c67076ee627"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2a1efa7283aeede1084c860a0cf6a172",
+        "Key": "e5564b5fa1f4f54cda0a15adcb55ce423a5afb0025a28c3edf752bafa776019e"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "3CD97D91977D80E59FDBAB17D4990B3787A94A8F5420A66C4029914EAF915DD67463CC955EFA2EB1A5728FD6C93A010B"
+    }
+  },
+  "18K561": {
+    "Version": "14.3",
+    "Build": "18K561",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherC",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020WinterFCS/patches/001-72992/0B2E0E53-F7A9-45FF-AFF3-6136027FD0C3/com_apple_MobileAsset_SoftwareUpdate/5b155485ef0fe4d41d3f92e5b0dfd0c0a663b7c1.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "038-82091-069.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "88d90fca8c326f794de546c3a39eed41",
+        "Key": "ac554da0481f656437ff92e49a958ae557d6c9c16de5d9ab6ef5e3b52e096c64"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "114a066816807293b549d095389cff7f",
+        "Key": "1a3584de2428c2e4ddcd27803bafc0285f74438c54e716ca8c4c76119af5b3bd"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "389b5ebedae6ace57f324c90514eb4a6",
+        "Key": "7408c8c40d2540eb210478658c74b722ad8c590f5a37ef490ab640c1b30675a2"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9b77fbad2f18dd64cd2ace8a952eee37",
+        "Key": "b4ad82cf449c48e6d5cde92dab06240452e098f00cf84feda0281441e78c45e7"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "87D7587BA4002B2A4EBA6D19A3AB8C240CA7786A66D1D57EC362098A606DD35D9D40D9735AD4EB6C46472AD1EFF90A00"
+    }
+  },
+  "18K57": {
+    "Version": "14.2",
+    "Build": "18K57",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherB",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020FallFCS/patches/001-55414/1C01F6C7-81FE-40F4-ABD8-9CA61DBC18BE/com_apple_MobileAsset_SoftwareUpdate/917ced2d462c08e49041be8686483deb88e01aa1.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "038-64681-100.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aap.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e322ee4881ee6e829632fc5208aa4061",
+        "Key": "d3cd0bb5a5637b0728947b37e164dba9a13c8ff4c6127474cddea3bbb92331c2"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "35c97e3c42428a8672a6e9a073e7e333",
+        "Key": "493a1d714b8cc754636416f8e3b4c95c1d333653d06f31823f929565ba030bae"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "24c298622c21cdc2e5713f7f26b80498",
+        "Key": "0aa6147064391ab8467d83c6c5d881776d03eeb68ee91760e6caab7ab6b40694"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "931f034a91c2db1cdc45fbb0ea807b62",
+        "Key": "4a2f73fc135b3370b317e3d26567f31afc197930bbd56a4740ffbeca9594cfcf"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j42d.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5d5dd56d659ed5f13056ec3c3212f910",
+        "Key": "50b0699375db3a871ae5320c1ad9e642b8e32fae5a7fe8ffa34c0e69c43739fb"
+      }
+    }
+  },
+  "18K5780c": {
+    "Version": "14.4 beta",
+    "Build": "18K5780c",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherDSeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020WinterSeed/patches/001-89058/EC32E52E-D59C-41D2-8E5D-E79E2E1F66C7/com_apple_MobileAsset_SoftwareUpdate/16e5e3aa771e55479c51f2557375ea69a9cbbb98.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "018-05991-009.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "839792696be56d84d5f97afbc2d385da",
+        "Key": "b9fa4db88e7fc738d899ebdd3b16d56ec34dda52d8d5726dc93057021e097db6"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "594ca86d60ab0c34e34dc3165d842772",
+        "Key": "c276045fe771709c7ab177334c19676a1e84a9cbda4984e1faec7eff65150ac2"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "09150ab1c6f9f1e0255a8a1507e724bf",
+        "Key": "3f1ff4ffaccd3aec88a6b7f8ab132022efe94077b6c67dd12ae106c54c48e0c9"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "256b975fa7938ac8e9efce8bb5bbbc69",
+        "Key": "fac6cc61989583a236bc737e7f6e080c28af15aef428bdf376a2deab5e9c6e5e"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c41639545b064df0fb10ad8d4c2fe834",
+        "Key": "310a9ba0397dbb56dacdadd527ed5fcacadafae4167cbb19ed9012849c355d4c"
+      }
+    }
+  },
+  "18K5793d": {
+    "Version": "14.4 beta 2",
+    "Build": "18K5793d",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherDSeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020WinterSeed/patches/001-94812/B36D3628-00C6-4EDF-A922-6B98010C49D7/com_apple_MobileAsset_SoftwareUpdate/45f1191de1839b1615ad75b2260dfbd2b81972ba.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "018-05991-015.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "adccdcb5260584b8ff5edab9384fc8c5",
+        "Key": "52da99c172695407c1bb1be50e97f88c8bda8502ba456295d879fa7466da051d"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f05712354be1ea0e406f579d99280b74",
+        "Key": "73681864f25980754f8f34c1a09bc00de2296ff0cdf3e7f3e1e448c2b8370f64"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c16322d978933f646d970e1808f106a6",
+        "Key": "b9bc9a7c9d2c08de071820c16efe6299b8f4596f41bfde61aa98c104988bfdc3"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "82c7048dad8d661dbd89a08b09e31846",
+        "Key": "81b9ffc08e5eb248957edc80f0990f41eb8d54b8869a7f73cc7074a1d6375f68"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e3445df5938a727d5c13a4b1806a46a7",
+        "Key": "626abdc36451b575761f4f42ef054d93680424bd95481be479963be25faad0e4"
+      }
+    }
+  },
+  "18K802": {
+    "Version": "14.4",
+    "Build": "18K802",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherD",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterFCS/patches/001-63539/2921EC8A-FE81-4186-BD8B-16C173CCC984/com_apple_MobileAsset_SoftwareUpdate/5012c13f38e73ed6d07c5ecdec813971cd7d5c93.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "038-95192-059.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b0f9fd7a79f4251bc70452f1671b6e9e",
+        "Key": "8e1aa5a8af857c493a99f35d860e60f3757de8784c961b8d31345fe3ab68735b"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0f9bfbda67f1ccc61adaa302aaa12f9a",
+        "Key": "b429cf85a9bbf1d0ae12da3e16c3c98337d9687e78d6a5a390c0daf78963b1db"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4bb9196a80253f308cac56581a89eb03",
+        "Key": "a69aa89e08f53751f915039a766ebf5670d0c79aa8527b63c6e72e3fa0749efe"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5a1bdb2ebd1e8ed285e8f3c8030664e7",
+        "Key": "4acf1965a1ad5397896564b6814331d2ad56464099d4a3f90215e665c28b314e"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d247408088deb75a4cfed318693ed11c",
+        "Key": "853195e39eec173c781acaa0406a417ed0238767a10e6df31f2da2e5c4b90518"
+      }
+    }
+  },
+  "18L204": {
+    "Version": "14.5 [[Release Candidate|RC]] and 14.5",
+    "Build": "18L204",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherE",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SpringFCS/patches/001-29993/3E90EC80-6A18-414C-AD8D-234F0CEB1427/com_apple_MobileAsset_SoftwareUpdate/70ebdd122c387cca8e2e1800bf64dd69d29f8a76.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "038-72728-218.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e16183cc2dec8567b5c6d2e42e9a5c61",
+        "Key": "3aeef78cd92171302ee41386dcf3af23e4aa9c5afcfaf2d307d9dce0894b0a81"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "91e94e786e1e98d0c388e34926875d75",
+        "Key": "279c4e5dabfdfce207b23a5da5bec7366c210544b604d3e926e179a619818cf9"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3c068db8677f7903784066d4f8ed4b74",
+        "Key": "c40e0abaa1c8e7997346bb3cfc247aa150c3c22669519e98d9206737742618f6"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9df713540686e0e93b338d623e41923b",
+        "Key": "34d02473f986214460aa9eee027d982c3ea43e4148e88f775dccfbb567ac5531"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "3529F5A69EC428B8C19BDB5E35F6BBFB52AFC2F271ABEA5FCF427AE8DC10F8E4963D9F3FE267ED23E377A752080F3FD0"
+    }
+  },
+  "18L5149j": {
+    "Version": "14.5 beta",
+    "Build": "18L5149j",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherESeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterSeed/patches/071-02752/5BE23440-A42B-4318-89B7-2AC4EB7B6207/com_apple_MobileAsset_SoftwareUpdate/7d6f029da35ed75a7c7c90ef1abaeeef924ccc64.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "038-97294-024.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c67ae2f0564732fe52509d338e56a457",
+        "Key": "bddb975d40ceb2d60e44092d6783280cf25c821410a2335b785b2689bfd0000d"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "40a683516b97bf57a10f0a4a25b390d4",
+        "Key": "6a8871b834b8bb7155a46124e0bccab16975edbb9bb37e8a0034008b0e7cabb0"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "20bb8e41a64f27e19fcf88ebb666c2ab",
+        "Key": "023f5c981a87f181177ced8f665533df4ed5f132b214c509b4bbffcad189436b"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "30a6db6951acbb63585a1b46f1c557f5",
+        "Key": "41e38312305b53f4533b7808c2e677039e9e5240225fee3395006ecae54fb169"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "FA3F616C6DCA6656DB87E7026B5D3C9583942AB59A85CFF4D4869CF10E5FDA28103E2BACE3B17DFB63C5C4178E3B9860"
+    }
+  },
+  "18L5163d": {
+    "Version": "14.5 beta 2",
+    "Build": "18L5163d",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherESeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterSeed/patches/071-03704/1BD2B0FC-D4EA-4830-83A9-EFE3BEBDE4AA/com_apple_MobileAsset_SoftwareUpdate/24d9400aabeca48dd07063649214dd11e5ddd4e3.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "038-97294-030.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cd6d25d005f1ae0acc310227cae54bbc",
+        "Key": "6efcdcfa6969545961b8b11cc3b161704c2f598ced4d7b0be1a036cc22e4424c"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c32bd0ed94e4502e9a9383f2180d046b",
+        "Key": "cf8f31600e3c4f2730f64d4b1418b6c24c4104b879cfc030e00572cd51ef2805"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5caaf684794bd72379d674682c5cd678",
+        "Key": "c67f7abee9ab5a09f92c32f2d85cb25eda51c5694d6b90f44520f85c219415c9"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e77ec69c72dcd66725f04a4f9fe5ce69",
+        "Key": "1f3c0328fe10657413231431d28f1347a5e4ccae1a0f2f98e7180b6464ac5608"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "0F9DBCD143A6ABF8DAC3406C207517F2C8C0CA8D3CAE4DEA886865CCA246645C46629D6066839F3895026B96F474978A"
+    }
+  },
+  "18L5173f": {
+    "Version": "14.5 beta 3",
+    "Build": "18L5173f",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherESeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterSeed/patches/071-11111/B77F9C7A-EC82-40E2-9AEB-2B97A51A63F8/com_apple_MobileAsset_SoftwareUpdate/9af87c5384a11e53192b07a7a0282493a126486d.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "018-25195-009.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "64f70a3d9710625af9ed8377aeb7b20c",
+        "Key": "3e1826b23d5144d022c97d0d2c29cf6acc1fbca19cc95519a96f4019decb0313"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1830fb5c8ca144eab67cbcdeebddca47",
+        "Key": "4cea7a795ac0479ebeba686691fad5479b612b43b9848d0bf3756bafe1aad386"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "986de9ef507b01f599288e99b8bab41a",
+        "Key": "44386b6fbaa4e130cd7ec4990fbd225882e35ce2626102ede541515e1864953d"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c564edb5ecd26fe4b08d1b6234649e1f",
+        "Key": "ff2e38ea8834aa5e01e7e09a92f8cc68b0708f1d5e5cbca2ad8d500ae60ea1d4"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "6D6CE8A74E9CB6BE197547916EB331FD95367637D1C4224FACDEC4AE8E414DAC53C2BE7EFEFAB244F723AC1951A793DE"
+    }
+  },
+  "18L5186a": {
+    "Version": "14.5 beta 4",
+    "Build": "18L5186a",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherESeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterSeed/patches/071-16852/4B14B971-C9DA-4343-AF59-D62180649EA0/com_apple_MobileAsset_SoftwareUpdate/d59df23500be45f0b95ff38681135514bed3e10c.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "018-25195-013.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "25bf3cc7bfd6207e282064435e796288",
+        "Key": "5af19eee41ee0b87ee4fae62897c63b2338b565ea82e983a45c17be05a1c4f03"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9fb8c104204c2a8c2ec00afd6c6030e6",
+        "Key": "bc5593038012f5b817437b935cacf353575dbec525282394abb728e5c2d06412"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "897b991f8eed2c878aebaf4cf5938127",
+        "Key": "f4ec11cf4cd354e9ed01230c4b099d6e173496a1034eae64d90cddf36044f55f"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "030d9d002a408626b8cf2d35cc20da50",
+        "Key": "bfdc43afa66c1fab9bb797367f755f6f80f2a890a0e7213d10b74bf397738cce"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "9C598640FDCD033C1006548C6ABC80F88E03EA6D4C2085D5F2CA653A33D105AB35E423AFBF924AB8E775829A2AD2FDF4"
+    }
+  },
+  "18L5193a": {
+    "Version": "14.5 beta 5",
+    "Build": "18L5193a",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherESeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterSeed/patches/071-20422/29B30BBE-A251-46AC-9EFD-063FBFEC43D6/com_apple_MobileAsset_SoftwareUpdate/2c645c1a8adeb17ceff7345be2a0765eb73badfa.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "018-25195-016.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "25bf3cc7bfd6207e282064435e796288",
+        "Key": "5af19eee41ee0b87ee4fae62897c63b2338b565ea82e983a45c17be05a1c4f03"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9fb8c104204c2a8c2ec00afd6c6030e6",
+        "Key": "bc5593038012f5b817437b935cacf353575dbec525282394abb728e5c2d06412"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "897b991f8eed2c878aebaf4cf5938127",
+        "Key": "f4ec11cf4cd354e9ed01230c4b099d6e173496a1034eae64d90cddf36044f55f"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "030d9d002a408626b8cf2d35cc20da50",
+        "Key": "bfdc43afa66c1fab9bb797367f755f6f80f2a890a0e7213d10b74bf397738cce"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "9C598640FDCD033C1006548C6ABC80F88E03EA6D4C2085D5F2CA653A33D105AB35E423AFBF924AB8E775829A2AD2FDF4"
+    }
+  },
+  "18L5200a": {
+    "Version": "14.5 beta 6",
+    "Build": "18L5200a",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherESeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterSeed/patches/071-24615/5C88685E-2CA6-4333-A971-75D8E70DC3A1/com_apple_MobileAsset_SoftwareUpdate/d747b221083ba29b158c5865ecc747fc9ebb10e6.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "018-25195-020.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5a16a9a825f38b1f042e2502ceec73e8",
+        "Key": "e78282d79200723b981f0ad2d81cb82d8b674991c49b2921278c3c9810f5d889"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "37fa03a230f34bbe1cb919032b24874f",
+        "Key": "f8a02522945f2a8963356ece452fa2a185c023fa4c3b5b3df58a7fc3f79a0e72"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "897b991f8eed2c878aebaf4cf5938127",
+        "Key": "f4ec11cf4cd354e9ed01230c4b099d6e173496a1034eae64d90cddf36044f55f"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d7671c2a427fc4e2e40df569c5fe7c03",
+        "Key": "61af0228b3ede911e8df38092252a42b0afc07fcaa1018f830f05b6284f3e89b"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "42BEC0211C0BDF903037D773E0543060DCA0A224695E969C6411928308A2B39C3957F5DD4CDD438DEFDA25D1E48C34AB"
+    }
+  },
+  "18L5203a": {
+    "Version": "14.5 beta 7",
+    "Build": "18L5203a",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherESeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterSeed/patches/071-26802/6E9EF065-6C77-46CE-AB44-636045D067F8/com_apple_MobileAsset_SoftwareUpdate/1b2f39e9481839c522ad6523292c17e85a9cd7bf.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "018-25195-022.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5a16a9a825f38b1f042e2502ceec73e8",
+        "Key": "e78282d79200723b981f0ad2d81cb82d8b674991c49b2921278c3c9810f5d889"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "37fa03a230f34bbe1cb919032b24874f",
+        "Key": "f8a02522945f2a8963356ece452fa2a185c023fa4c3b5b3df58a7fc3f79a0e72"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "897b991f8eed2c878aebaf4cf5938127",
+        "Key": "f4ec11cf4cd354e9ed01230c4b099d6e173496a1034eae64d90cddf36044f55f"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d7671c2a427fc4e2e40df569c5fe7c03",
+        "Key": "61af0228b3ede911e8df38092252a42b0afc07fcaa1018f830f05b6284f3e89b"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "42BEC0211C0BDF903037D773E0543060DCA0A224695E969C6411928308A2B39C3957F5DD4CDD438DEFDA25D1E48C34AB"
+    }
+  },
+  "18L5546f": {
+    "Version": "14.6 beta",
+    "Build": "18L5546f",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherFSeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterSeed/patches/071-27607/EDAEC386-C949-40BC-9335-C8BAF2548296/com_apple_MobileAsset_SoftwareUpdate/35718d7ed01875e995df076cee2450ce22d149be.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "018-34016-018.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "be18514973b7cf921951d5982bf35bd1",
+        "Key": "57ed344311509d1aa0ce76c9f3ec91845a07d6687f637ed00d5dddf45a593b8c"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a4708aff088e71948cdf4d637b3d5f9b",
+        "Key": "ac94593236be0b5a4daed9822ae6715d177ced756da79503ddd38d57815454ff"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "72e36c40078051cf8e57246294698bd4",
+        "Key": "dd4221185f0ea2fc1da782b4957a1e24e1c5d28814e35fb5d5f18dfd79bb4a6a"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5af16eb76e53b7e495dc1a1071a6c594",
+        "Key": "6d2d24d54f83579bdb54b88b0b0583de47b07eaa7530b52b1cc3056703f89f25"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e943b7cbec77dfdf23c1f77abf8e603b",
+        "Key": "d94616eb12654472da871e7a94a292216c448e99c88da700bf2165aa74b6741e"
+      }
+    }
+  },
+  "18L5555c": {
+    "Version": "14.6 beta 2",
+    "Build": "18L5555c",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherFSeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterSeed/patches/071-32354/03706F8B-B6DA-4730-BD4C-E6DBA764B347/com_apple_MobileAsset_SoftwareUpdate/932feb66148a3c911f24d5b1b1a3567437b4533b.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "018-34016-022.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6c254b53c39a8f5b9f9d554366729ec8",
+        "Key": "6f957e3d2448b8e0b783fa19b939ed4fcedad00a0c0e1c2becf30f5489710dad"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3ef95bfd33bc98fcf7423edf36197f7a",
+        "Key": "7e44ef4bcd85aea43cd42cfed21c0c324a00e80a609b6e29faed8092dcc640b7"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9e29e7928bbea50293298a803785510e",
+        "Key": "df0455ad103877e27faffbedb3588a27c860c0a2ee00b3a71cfaf86c9554edce"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ca5fc879a3fcc86f671788c4e7b2923d",
+        "Key": "bc44c535d4346dd1fe051f17089fa51a8039e623f82cfb71fb52d5d72889f2a6"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d8c2fa5628e5050626fdbd2ed22c8436",
+        "Key": "781066b195ecf52246da5d05451144fbe12850bd898a1e84330e7fc369d1213b"
+      }
+    }
+  },
+  "18L5565a": {
+    "Version": "14.6 beta 3",
+    "Build": "18L5565a",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherFSeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterSeed/patches/071-38378/87F02A16-5F42-4995-B007-6949589E30AF/com_apple_MobileAsset_SoftwareUpdate/acb648c950d0093debe1fd295583135cc8e282b9.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "018-34016-027.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "90554df7110c8ee73819e65f31733cf4",
+        "Key": "be1572c8d2b917221fbc789b3977e1225e19d379daad003ad2ab63e9fa2b839e"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2b9b8345a5789ecf7196abc7cc09ac76",
+        "Key": "0c9eb692c0aecadb92a88d08ebbd778b5d3c05b5478d2ffc28a96529d048e614"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b01be74aeecdfd3ce4ed855137164360",
+        "Key": "8bef68a36e9472e4963227f6a041d82a71a30f418a8eae5ecc594f00f0e689f9"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f60c5c666ea074ddd3432c32ee63e48d",
+        "Key": "ca1386294604a9948070375ad1d9e53fab2c736d640492a93b0aa19b3c7c8052"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b5069ed868a8df76106c07b7717c98cf",
+        "Key": "873ef205980f213a328a56395a026a562dde9db51fbfc733dfcf58e7c912a95e"
+      }
+    }
+  },
+  "18L569": {
+    "Version": "14.6 [[Release Candidate|RC]] and 14.6",
+    "Build": "18L569",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherF",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SpringFCS/patches/071-44019/93562CF2-9328-4C86-8AF1-3108BB83B716/com_apple_MobileAsset_SoftwareUpdate/2edfd95b64e3adde0b7ffef7cd315ce4595c84b2.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "018-18919-081.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "416dd0328052fd84c71441fc0e7efcab",
+        "Key": "9ad44c1f49e5d4fc7ed6b44555bd29048f9e9fc6a56fce12171921e37719ff8d"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "71ffa17aee80ee7acd853cf709ee9431",
+        "Key": "111231ea057059d2616055b97a5c2d5e36f1530f9f0f73250365adae1fd6cb2a"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b66dd75c67876d3f51ad71a4350cbc7e",
+        "Key": "a4b44a14218539bbc08094bb830b604d039eab58e9dbb0f474b639c0f5aaf14b"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c4067423b7a27d7a61f7658493970e76",
+        "Key": "68707ae8575dbce9b687954caf0e1695af639eb441726e0e763c85564b09ab55"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6ea36853f41499fd561f16e060b488b9",
+        "Key": "f9f80e2b2ec1aa124b8a06eae947b9c8d5bc00add4e40299d8f3d4fb5e522145"
+      }
+    }
+  },
+  "18M5523d": {
+    "Version": "14.7 beta",
+    "Build": "18M5523d",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherGSeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SpringSeed/patches/071-35707/987E0AA0-3056-49CF-9C49-C23736D1BFDC/com_apple_MobileAsset_SoftwareUpdate/24c8002a912ff842fbd22a641f08e03dbc53e5f2.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "018-42037-009.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "247765acc2e08fa4dc30cfbb8eb0945d",
+        "Key": "aa03829c2a03fb20140d167425184f0c25dac0162e17090885e153af2672257f"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "405a96a0384ebfca810e50dbc71e71f6",
+        "Key": "7b51469f5db11602d67bd3950735c1894b46ba2961ce5fe725297d021544e921"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5b4d276f92c8359ff99d0b37ede73d48",
+        "Key": "05a24dac349e35c8630768c3d6b991becfebda75f7e82e551973a9f038a4e225"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b4687e8df2a16ba1326e7ec204b64ad8",
+        "Key": "e03a79b326d0236bab2d58614c8768911e1663c6ec279a5ac32033cfd3efbfeb"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e927e0d33da82ac44b2e92875369da91",
+        "Key": "d89390f264308c07c7c0bc6e06d8d380f74c87e4948c9c8aed4ecfed4967e54d"
+      }
+    }
+  },
+  "18M5533c": {
+    "Version": "14.7 beta 2",
+    "Build": "18M5533c",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherGSeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SpringSeed/patches/071-49126/75B2C769-03C1-48AF-BC7D-F115F10FB397/com_apple_MobileAsset_SoftwareUpdate/b527ae6cb6220c38b2f8a8f52293f7196d95d56c.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "018-42037-014.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "523a2f76d89ec2a34080347bbe9a2cbd",
+        "Key": "161447130b29f22b030f3ff3d1839bbff3101e8132315aacc61e6a871d7ef087"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "410cdac8238d6e81a3825639133f790c",
+        "Key": "26da9e6d447c2476ac7c663f612081f9bedd5543abcc7de06cc84d99ed1be59d"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a3e4aa8a9934acb4cddda80999cfe90a",
+        "Key": "b09531f1f5d6eb2a583c61b59518be73788adb2ae35fce596d6f6b28fff08967"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "946e1e3e77ff5c923a506433d954eb6d",
+        "Key": "6017187c36f7e6cce63c7c52f6c7aa4116784d8ed490bf69088aea419393389e"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cc9eeb0cb55aa9e347abde340b162506",
+        "Key": "133525fc06b6e30aabcc801a0b68de74c38391e1b1b286a051b456d4f0ee29bc"
+      }
+    }
+  },
+  "18M5542c": {
+    "Version": "14.7 beta 3",
+    "Build": "18M5542c",
+    "Device": "AppleTV6,2",
+    "Codename": "ArcherGSeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SpringSeed/patches/071-55729/5798A7C8-9265-4E71-8388-AE048DF6245A/com_apple_MobileAsset_SoftwareUpdate/3b1f37ef05c4d2a23ea30d34258f8ce8b53d4ab4.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "018-42037-020.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-j105aaop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j105aa.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d1e8f73d865f146f6e2859bf6b2661aa",
+        "Key": "254644deef80212312ca2732edd8e070999184f5c0f0adb858d2255d4e09e9ac"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5b9c8ff1c63df72018c8986163ead67c",
+        "Key": "5ceeacd51dbe66a673e265664fd5ba2bc13582b11eb989da735aedcacd4671ee"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a868a5c85c2511359a16313cf5d92423",
+        "Key": "35b62a7427b5d3196c78dd06c7344ea64472419a9fe9f1b747886c7d067e3ee5"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j105a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3731eb95ed9dce582585ae6abc543ce4",
+        "Key": "ee6bf14425a6377d3d68f91738a363bb653c76aa05de8a37cfb5ca51c7ee5bb7"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv5.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j105a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3b4eb10164390c8bbbda57d0a9a303a0",
+        "Key": "e00bc88999b2d943b96fa6a13582b326aeb0415509d2dd4e126a4c03f4bfb681"
+      }
+    }
+  }
+}

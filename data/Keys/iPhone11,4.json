@@ -1,0 +1,5118 @@
+{
+  "16A366": {
+    "Version": "12.0",
+    "Build": "16A366",
+    "Device": "iPhone11,4",
+    "Codename": "Peace",
+    "Baseband": "1.00.07",
+    "DownloadUrl": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-65188/11BE19F6-AC8E-11E8-A312-F5CEDE149863/iPhone11,4,iPhone11,6_12.0_16A366_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-10782-224.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-16246-204.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-15811-206.dmg",
+      "Encrypted": false
+    },
+    "ADCPetra": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-iphone11aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fe011cced29567d4aad44edb9bf61896",
+        "Key": "a36109c688e2761e94d554449447eb1d2f521fbb01ea8eac4915b23e30dd3bdd"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e7db79d1feac4894e6958b1515550fc1",
+        "Key": "16772c37cc1ede1d0c40caa88e45831318de1c014c5de5aaed6682b0cb2efbb7"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ba59fed798a5c2c7babaec8b7d4f1987",
+        "Key": "7c963b830611d7115520508150b936b1beaa174500bb1aaafaf8cf857fcf6a41"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LiquidDetect": {
+      "Filename": "liquiddetect@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2c326ebd6b3756f2414f7873c8953c8f",
+        "Key": "adb5c3cd033e080e77b832ef1ae68289ed0578bb00d994bcdb68115f3c65cb40"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "4AF39646B774EE45FF1C56F14160FB1DEB506EE68FFBE48AFFF18D124F18307CCCEC65ED1BD8B5E70E511A6C5D591A3C"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "16A405": {
+    "Version": "12.0.1",
+    "Build": "16A405",
+    "Device": "iPhone11,4",
+    "Codename": "Peace",
+    "Baseband": "1.00.08",
+    "DownloadUrl": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/041-11416/CCEBD232-C7FE-11E8-88A9-9764A21C4389/iPhone11,4,iPhone11,6_12.0.1_16A405_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-10782-230.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-16246-211.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-15811-213.dmg",
+      "Encrypted": false
+    },
+    "ADCPetra": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-iphone11aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "14d4c046a2f24652a7259024d128a319",
+        "Key": "a2100d02ed9b56659e99908cc2b3a95ecc5623a055c6fad4c12627bbf37e5cf4"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e6131044c8d6d0a484477d4eec7e1383",
+        "Key": "2c2dfddca5b40a3424fec807cc5aaf84a39db07098008def494082d5d4940020"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a45b1240342163b137418f9c66909cc6",
+        "Key": "49ad356594bb5cc3d3f7034c5ffbf42b42cc0abc543dc8d6eddc88f73b153772"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LiquidDetect": {
+      "Filename": "liquiddetect@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "55ea7ffca1be51551045be2b4f9b325f",
+        "Key": "92a62f1a0a7124d98da785dc5df23e288bd1f7fba3f9523a95719237469eef4e"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "5C88F56B65B0421EF859F669360C95ED46B8CC7C9DB89BD8E1AED7C57A22B5277E208F1D52B9E122A77DB9FE30394B63"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "16B92": {
+    "Version": "12.1",
+    "Build": "16B92",
+    "Device": "iPhone11,4",
+    "Codename": "PeaceB",
+    "Baseband": "1.01.30",
+    "DownloadUrl": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-90889/963D8D76-D4BE-11E8-B98A-E7921E792DF5/iPhone11,4,iPhone11,6_12.1_16B92_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-32261-103.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-32085-104.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-32410-104.dmg",
+      "Encrypted": false
+    },
+    "ADCPetra": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-iphone11aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "59f22f82392bb0c64fabfcba11f7eb43",
+        "Key": "041edd1c7769087bac48f03def908bc8e1f5273dd71036a8b98778921da82b81"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "84334f66919887dbee20496f77973f43",
+        "Key": "913aaf0ba65c331fbb6a10c75f35d731458a018fb40a75f52abf5d0995c594ef"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a8c9d5666d555f85fb6fff6f325dd721",
+        "Key": "b988b01008b5af4646f4ea1a685acff94b455a3be80d81c181667881718a4bb8"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LiquidDetect": {
+      "Filename": "liquiddetect@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "89e73d2e1d033be1b7b58897ad967a4a",
+        "Key": "d391c16401b135ec437c4bdd12a0224c127884752cad4f012c10ac53a7e7cee7"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "94ED49E66BD3C58BB20843988C2F088933BD40E7B2822DC0C6EAB5EE162466E210D359D1E94C7CED7FBDE4FD7E9EB24D"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "16C101": {
+    "Version": "12.1.2",
+    "Build": "16C101",
+    "Device": "iPhone11,4",
+    "Codename": "PeaceC",
+    "Baseband": "1.02.18",
+    "DownloadUrl": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/041-27230/5EAF059C-FF0C-11E8-9EC2-AD09449A9B94/iPhone11,4,iPhone11,6_12.1.2_16C101_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-40219-060.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-40035-061.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-40187-060.dmg",
+      "Encrypted": false
+    },
+    "ADCPetra": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-iphone11aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@1920~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "91d7c6bd987fc4c6a63571d1b05ab16d",
+        "Key": "399271853720b092063898d3f74c88b2daecbe1f7510b696c9ba9b2baab9aca0"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3b100ff1fbd80f8a2b5b19413c86352c",
+        "Key": "cfb221810c764d95e88cb475ce039b6dcc0fbffc9dd5f15084304971f86e4c88"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "419a30ed04226ada55e4be18cd462b59",
+        "Key": "360c84f5377f3f1b30d278682941ca8bff0c02d7671837767ac8211304aca66a"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LiquidDetect": {
+      "Filename": "liquiddetect@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bea778f3de7cbc1885be68309b5c8771",
+        "Key": "de293d03a62b280464dd2bff95b09d6a39a4b2f634c03b2a018ff8f10f449f82"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "7EB4CE4BDFF23138B1D84059FE332C505AD47A5B4744D0446EA605A83F010AD6CB9DC772E0440EEE4A9A729D9314A6BE"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "16C104": {
+    "Version": "12.1.2",
+    "Build": "16C104",
+    "Device": "iPhone11,4",
+    "Codename": "PeaceC",
+    "Baseband": "1.02.18",
+    "DownloadUrl": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/041-28419/A2AC11CC-02EA-11E9-A719-F9881EE8EF94/iPhone11,4,iPhone11,6_12.1.2_16C104_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-40219-063.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-40035-064.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-40187-063.dmg",
+      "Encrypted": false
+    },
+    "ADCPetra": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-iphone11aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@1920~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "91d7c6bd987fc4c6a63571d1b05ab16d",
+        "Key": "399271853720b092063898d3f74c88b2daecbe1f7510b696c9ba9b2baab9aca0"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3b100ff1fbd80f8a2b5b19413c86352c",
+        "Key": "cfb221810c764d95e88cb475ce039b6dcc0fbffc9dd5f15084304971f86e4c88"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "419a30ed04226ada55e4be18cd462b59",
+        "Key": "360c84f5377f3f1b30d278682941ca8bff0c02d7671837767ac8211304aca66a"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LiquidDetect": {
+      "Filename": "liquiddetect@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bea778f3de7cbc1885be68309b5c8771",
+        "Key": "de293d03a62b280464dd2bff95b09d6a39a4b2f634c03b2a018ff8f10f449f82"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "7EB4CE4BDFF23138B1D84059FE332C505AD47A5B4744D0446EA605A83F010AD6CB9DC772E0440EEE4A9A729D9314A6BE"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "16C50": {
+    "Version": "12.1.1",
+    "Build": "16C50",
+    "Device": "iPhone11,4",
+    "Codename": "PeaceC",
+    "Baseband": "1.02.18",
+    "DownloadUrl": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/041-05353/58534B4A-E9F9-11E8-8224-C70325928104/iPhone11,4,iPhone11,6_12.1.1_16C50_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-40219-058.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-40035-059.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-40187-058.dmg",
+      "Encrypted": false
+    },
+    "ADCPetra": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-iphone11aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@1920~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4506ab8cc121112dd6a1f7fce3ef95cc",
+        "Key": "6e34ed0628de213da017dbbd772c65339b293259c5f644a026fa595efdcf838d"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "133781b0da70d45b56159d69b3c64082",
+        "Key": "1ac09581d9aac9321e0a8591fd2c3a810ae6df3e79a02f9d25b6a361498928a4"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "20a7fb63019bddb1ee2361757568f961",
+        "Key": "84f08f3c49c3db6c008ae3054a93c242d7b5dd252cfbb5f8f6edbcc2dbbaedda"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LiquidDetect": {
+      "Filename": "liquiddetect@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c99bbab552f9c55e73197d119f7f7b6b",
+        "Key": "d22a6b43fe277920920c777e437c85cf1acefd82d467192121015c6dd96e05b6"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "CB05A914A41831B11E34675FDA379F9670E5F3AF1F114D9337028CACF26E356A7B02A85AA3E82BBB4DFCEEC92903C139"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "16D40": {
+    "Version": "12.1.3",
+    "Build": "16D40",
+    "Device": "iPhone11,4",
+    "Codename": "PeaceD",
+    "Baseband": "1.03.08",
+    "DownloadUrl": "https://updates.cdn-apple.com/2019WinterFCS/fullrestores/041-31121/BFC969CA-18D0-11E9-8108-1DE56784396E/iPhone11,4,iPhone11,6_12.1.3_16D40_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-48710-040.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-48460-040.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-48822-040.dmg",
+      "Encrypted": false
+    },
+    "ADCPetra": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-iphone11aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@1920~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9acb32a158f9438451abbf04e3e1f38a",
+        "Key": "788d0c885fbb55289252cacc81a47c4de741c0daf06b059f840bf8cc65f7fd9c"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e210e88c225064f6faa392e456add2a9",
+        "Key": "0cd3409f6ea899fdc6001a6b220bfa03b31a4790d0ac1ddfb4bd0d55c6f900ab"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "573e1ea79699e553e954216b9cf7c3ab",
+        "Key": "0c3a301d8cdf5fb6ec31ff9f2e65db28b35311b1044d77b7f3cd368ce593c563"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LiquidDetect": {
+      "Filename": "liquiddetect@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fbdcf634f0880582fb65ff092fd94a90",
+        "Key": "ecf61dbeac9c21bb9ca5566221f0903ba64a73f862ed969dd54c3fc9d4ffab2a"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "3EEDF69795B3EF7B8889371B0E56E65E99A2489AEEAB9BE8ECEE547616198A079E93A3991ACD0FF154090B3D22C4913A"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "16D57": {
+    "Version": "12.1.4",
+    "Build": "16D57",
+    "Device": "iPhone11,4",
+    "Codename": "PeaceD",
+    "Baseband": "1.03.08",
+    "DownloadUrl": "https://updates.cdn-apple.com/2019WinterFCS/fullrestores/041-39277/31DCC7DA-292C-11E9-A7C6-3211412B0A59/iPhone11,4,iPhone11,6_12.1.4_16D57_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-48710-048.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-48822-048.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-48460-048.dmg",
+      "Encrypted": false
+    },
+    "ADCPetra": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-iphone11aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@1920~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9acb32a158f9438451abbf04e3e1f38a",
+        "Key": "788d0c885fbb55289252cacc81a47c4de741c0daf06b059f840bf8cc65f7fd9c"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e210e88c225064f6faa392e456add2a9",
+        "Key": "0cd3409f6ea899fdc6001a6b220bfa03b31a4790d0ac1ddfb4bd0d55c6f900ab"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "573e1ea79699e553e954216b9cf7c3ab",
+        "Key": "0c3a301d8cdf5fb6ec31ff9f2e65db28b35311b1044d77b7f3cd368ce593c563"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LiquidDetect": {
+      "Filename": "liquiddetect@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fbdcf634f0880582fb65ff092fd94a90",
+        "Key": "ecf61dbeac9c21bb9ca5566221f0903ba64a73f862ed969dd54c3fc9d4ffab2a"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "3EEDF69795B3EF7B8889371B0E56E65E99A2489AEEAB9BE8ECEE547616198A079E93A3991ACD0FF154090B3D22C4913A"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "16E227": {
+    "Version": "12.2",
+    "Build": "16E227",
+    "Device": "iPhone11,4",
+    "Codename": "PeaceE",
+    "Baseband": "1.04.30",
+    "DownloadUrl": "https://updates.cdn-apple.com/2019SpringFCS/fullrestores/091-78912/ECE048A2-499F-11E9-AD15-D14576CE070F/iPhone11,4,iPhone11,6_12.2_16E227_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-23412-264.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-23628-272.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-23390-272.dmg",
+      "Encrypted": false
+    },
+    "ADCPetra": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-iphone11aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@1920~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f1127a795c24512c7f41e927732b2b17",
+        "Key": "c6a79aceba11adaf2c0392f980c15cfea48236ead5c6195f1595b4fd4d96661b"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0ef7cde16bc4c75acb16ca135a365b81",
+        "Key": "7fe960370bf248c8b69f509223a4be17f96e13f3e66cbc840e292d05ea7d1f6d"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "24f763765653c957eb0fcfe17b3dc6c0",
+        "Key": "c828e112de6af453f532e73a6d253d6487e24e8e7a3e7c483b6c76844934bb63"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LiquidDetect": {
+      "Filename": "liquiddetect@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cf0c53dc5d197c2f865be6f9da01e74a",
+        "Key": "dc6e2f8fdda47f2c55644af8e0fa3e5a8606226e5141074ad6313288e9f681d5"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "FBBDEA4DAB164BF8A1B716283468CD1DD57A1632A16B41C1E330FA00CA1BA25EE40594F290D155A7CE07C02234110104"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "16F156": {
+    "Version": "12.3",
+    "Build": "16F156",
+    "Device": "iPhone11,4",
+    "Codename": "PeaceF",
+    "Baseband": "1.05.03",
+    "DownloadUrl": "https://updates.cdn-apple.com/2019SpringFCS/fullrestores/041-61712/B8C1EB50-71E2-11E9-82AF-F583412A1E9F/iPhone11,4,iPhone11,6_12.3_16F156_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-42630-178.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-43107-180.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-42497-181.dmg",
+      "Encrypted": false
+    },
+    "ADCPetra": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-iphone11aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@1920~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "561d1bac891607ccefafb385d1983dd0",
+        "Key": "aca94500dd917566270f822f13ffd71b09da2e2917fab3681f1553964a63a875"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3dd4c43df16099f512dbf8d739fccc2b",
+        "Key": "acb7bc9c8a5de23ed26195fc26aa8e4809b05ca61cc1e4513294b4cb7478a47c"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8b9d7d630e8c523122994e4c8b98351d",
+        "Key": "d7eadd48f6a46136400269856de52427369d839f8fe0b0caedf06cfa732d4397"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LiquidDetect": {
+      "Filename": "liquiddetect@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "764bbdecb7dd6b99ef228d37d1bdad03",
+        "Key": "6f3b48f6858d9073c92f1ca85936b1e89f5bb0ed2ec7965439345016d5d672d4"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "E5A940E9B5493EE1BB515598402E52F3739ED7ABCDE77BDF8B5C3067F978C9B909BB83A1DB24B2B29E49155BBCF93E99"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "16F203": {
+    "Version": "12.3.1",
+    "Build": "16F203",
+    "Device": "iPhone11,4",
+    "Codename": "PeaceF",
+    "Baseband": "1.05.04",
+    "DownloadUrl": "https://updates.cdn-apple.com/2019SpringFCS/fullrestores/041-68225/CC3C527E-7C96-11E9-A243-39F06256CCDB/iPhone11,4,iPhone11,6_12.3.1_16F203_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-42630-182.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-43107-184.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-42497-185.dmg",
+      "Encrypted": false
+    },
+    "ADCPetra": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-iphone11aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bf4f3841af1b93d1714b9cc157c96478",
+        "Key": "fa08255daa82414a92ca2beb958c5095f42d2ef750481fd54534674752665dd1"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c69fa5756a7d1ad3a0453b706d4a8cce",
+        "Key": "1b31a1a5e3001de428b556804302e11b6034f81e7c0fcd544fca8598ef5b9d51"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "feab9a58395091ec6604872c99e7bb7c",
+        "Key": "88c577d84efe9a0b37205601a9db2b84c3094f5b9b70dde2ad5ebed14f0999a9"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LiquidDetect": {
+      "Filename": "liquiddetect@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ed27535e9d2cf695940533db615e6562",
+        "Key": "0994412382cc93ebce65e656a931f4527314e04bdc50e43fdc6ee4403bf22b76"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "F413FD93466095BD8CE688E6CF0931A4287CB71A14DA4CDF22D06BD0AC317614E742D5C50D37BF00BED0970C376D837D"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "17A577": {
+    "Version": "13.0",
+    "Build": "17A577",
+    "Device": "iPhone11,4",
+    "Codename": "YukonPre",
+    "Baseband": "2.00.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2019FallFCS/fullrestores/061-08680/B9063AE6-C875-11E9-AC7C-A0936C418163/iPhone11,2,iPhone11,4,iPhone11,6_13.0_17A577_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-96147-001.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-96490-001.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-96113-001.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a4e2788a962da6d5d35f301c67fc67f4",
+        "Key": "4c0912bdc48e5f5ae4d171bbdd0aa2b553feacb6c7ff2f33e837e2133ef5ca70"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4f0d43b254dc474f359e9c661f83b760",
+        "Key": "49b0e1171aa8d27998a1d3b642360d60d049d8d5c8c0e7d29657ed943888c163"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "09b295e8f4abe256f41fedeae2cd6ff5",
+        "Key": "db63c0336ed304544f463387cd89ccc146ca9c659b8617eafec3919538b07b35"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e389b88bd91fb0807b07c8ed2449f051",
+        "Key": "e742186270f92400d88d20ad3227abe6f46e3ded1c108f3e4fa00ae41d6fd04a"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "65355116c1e372781c16dbf0f3933f416222297411535698a5a2a84a9ea5164f0fbaed88e3ff329d469d3aed1cd954b2"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "17A844": {
+    "Version": "13.1",
+    "Build": "17A844",
+    "Device": "iPhone11,4",
+    "Codename": "Yukon",
+    "Baseband": "2.01.08",
+    "DownloadUrl": "https://updates.cdn-apple.com/2019FallFCS/fullrestores/061-07116/DCE3E14E-D986-11E9-AAC0-8820DCDBD6A3/iPhone11,2,iPhone11,4,iPhone11,6_13.1_17A844_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-95606-019.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-00782-726.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-00960-724.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a5088d1c73b5f51542b6f42cba3bd2cb",
+        "Key": "bc8b8fec1f8b9b66d213b33f8d96d9d5114730553bd85ec37fab6a7ee2df82a8"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "442ad575ccc3f117ff58b257b6688ec0",
+        "Key": "3503ae4bd3fdf1d607a28149b54fdc6e23003f1d5976ea891c3629fdba785327"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7d7328c10fe28247b1d82fff22262d47",
+        "Key": "98e61d7dd00cd5d27481421a1ed774095bdc879318ec8fd2bc02f74ee6a9e8ba"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "85e2047fcdba53328c9fa69887e2c102",
+        "Key": "481e695c1beb4ea61fa935bcfc805e8efebcbd5ac9eb51f6369af5d5bdaed071"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "575288109f3fb855a124b4105faadc8af2d8626166c46a99731695c2fc0741db3450e1b298f658e80e9defaa426c5033"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "17A854": {
+    "Version": "13.1.1",
+    "Build": "17A854",
+    "Device": "iPhone11,4",
+    "Codename": "Yukon",
+    "Baseband": "2.01.08",
+    "DownloadUrl": "https://updates.cdn-apple.com/2019FallFCS/fullrestores/061-18556/E8C951B8-DED8-11E9-8F4C-F7330AF72BB6/iPhone11,2,iPhone11,4,iPhone11,6_13.1.1_17A854_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-95606-024.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-00782-731.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-00960-729.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a5088d1c73b5f51542b6f42cba3bd2cb",
+        "Key": "bc8b8fec1f8b9b66d213b33f8d96d9d5114730553bd85ec37fab6a7ee2df82a8"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "442ad575ccc3f117ff58b257b6688ec0",
+        "Key": "3503ae4bd3fdf1d607a28149b54fdc6e23003f1d5976ea891c3629fdba785327"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7d7328c10fe28247b1d82fff22262d47",
+        "Key": "98e61d7dd00cd5d27481421a1ed774095bdc879318ec8fd2bc02f74ee6a9e8ba"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "85e2047fcdba53328c9fa69887e2c102",
+        "Key": "481e695c1beb4ea61fa935bcfc805e8efebcbd5ac9eb51f6369af5d5bdaed071"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "575288109f3fb855a124b4105faadc8af2d8626166c46a99731695c2fc0741db3450e1b298f658e80e9defaa426c5033"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "17A861": {
+    "Version": "13.1.2",
+    "Build": "17A861",
+    "Device": "iPhone11,4",
+    "Codename": "Yukon",
+    "Baseband": "2.01.08",
+    "DownloadUrl": "https://updates.cdn-apple.com/2019FallFCS/fullrestores/061-25746/108B735E-E1FC-11E9-B821-95BD49B3F904/iPhone11,2,iPhone11,4,iPhone11,6_13.1.2_17A861_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-95606-026.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-00782-733.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-00960-731.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a5088d1c73b5f51542b6f42cba3bd2cb",
+        "Key": "bc8b8fec1f8b9b66d213b33f8d96d9d5114730553bd85ec37fab6a7ee2df82a8"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "442ad575ccc3f117ff58b257b6688ec0",
+        "Key": "3503ae4bd3fdf1d607a28149b54fdc6e23003f1d5976ea891c3629fdba785327"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7d7328c10fe28247b1d82fff22262d47",
+        "Key": "98e61d7dd00cd5d27481421a1ed774095bdc879318ec8fd2bc02f74ee6a9e8ba"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "85e2047fcdba53328c9fa69887e2c102",
+        "Key": "481e695c1beb4ea61fa935bcfc805e8efebcbd5ac9eb51f6369af5d5bdaed071"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "575288109f3fb855a124b4105faadc8af2d8626166c46a99731695c2fc0741db3450e1b298f658e80e9defaa426c5033"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "17A878": {
+    "Version": "13.1.3",
+    "Build": "17A878",
+    "Device": "iPhone11,4",
+    "Codename": "Yukon",
+    "Baseband": "2.01.08",
+    "DownloadUrl": "https://updates.cdn-apple.com/2019FallFCS/fullrestores/061-30508/29C63318-EB7A-11E9-B59E-B110329334FA/iPhone11,2,iPhone11,4,iPhone11,6_13.1.3_17A878_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-95606-037.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-00782-744.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-00960-742.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a0cda4f08072dc40643280a78a9f22da",
+        "Key": "4570e54e26779db453b285f3fa7ba5483b809a6a73e2859c42478c0e8d7e487b"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1b4f8c02458f1622e5f5a0921b6f4750",
+        "Key": "d2e28d1933081cde939648dfafb47113562897589ec06add0b1c42106e635cbe"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "716f5d751570f854e925be72d542fdbe",
+        "Key": "ecc741571305000c09a5c6a559d1765062adf91ac6c3c8174c811caf2aba32c6"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1c980752e6065bcdda5b715da1a6f96c",
+        "Key": "6d6d657d09102b4c8c08a48d38c2b9b57cf8a77a12cdc879249faccab19d81fa"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "d10186d6802b0d72769e6f1c3361b8f3d4e0d55f9060d9e6cf0b7e801815d6fc3891e3d482b0b80ca1268a1f491b3d5c"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "17B102": {
+    "Version": "13.2.2",
+    "Build": "17B102",
+    "Device": "iPhone11,4",
+    "Codename": "YukonB",
+    "Baseband": "2.02.12",
+    "DownloadUrl": "https://updates.cdn-apple.com/2019FallFCS/fullrestores/061-45344/8C588C06-FEB7-11E9-A534-D1266B3C507D/iPhone11,2,iPhone11,4,iPhone11,6_13.2.2_17B102_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-90228-105.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-90610-108.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-90648-109.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fc119ee47abb34dd4792c56dbfc0dae5",
+        "Key": "5c4338f648e29335cba3f748aa277cd263dfedbcc8eff1a79d69e77beea2f4ef"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "84422a63028d9e2d50e77c9e9a1100e5",
+        "Key": "0f38b87d557a81ecad456570ed60b9b00a640179e4a7ebff73f990c73df26e93"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e27874142c8e4d4e5bb6b22a56b7d983",
+        "Key": "092a911494ff8e8172507d2fd066dd039e5f30fdf5004be3248b6dcdf23f37c2"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "76196a21a73b63afe5b976a2a0833743",
+        "Key": "4d99753d78ec5e79f94975fd73d468017f45e63d6acef02fa10bba72d415a017"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "58f9d44d578db24c7e9bf25c9412d9257d2a01a14b56547911bbfeb24ccbf55750b0c90d4d4b389536a76b32d692da3a"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "17B111": {
+    "Version": "13.2.3",
+    "Build": "17B111",
+    "Device": "iPhone11,4",
+    "Codename": "YukonB",
+    "Baseband": "2.02.12",
+    "DownloadUrl": "https://updates.cdn-apple.com/2019FallFCS/fullrestores/061-49206/CA741BD2-0672-11EA-9EC9-4D9B5A676FB4/iPhone11,2,iPhone11,4,iPhone11,6_13.2.3_17B111_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-90228-107.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-90610-110.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-90648-111.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fc119ee47abb34dd4792c56dbfc0dae5",
+        "Key": "5c4338f648e29335cba3f748aa277cd263dfedbcc8eff1a79d69e77beea2f4ef"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "84422a63028d9e2d50e77c9e9a1100e5",
+        "Key": "0f38b87d557a81ecad456570ed60b9b00a640179e4a7ebff73f990c73df26e93"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e27874142c8e4d4e5bb6b22a56b7d983",
+        "Key": "092a911494ff8e8172507d2fd066dd039e5f30fdf5004be3248b6dcdf23f37c2"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "76196a21a73b63afe5b976a2a0833743",
+        "Key": "4d99753d78ec5e79f94975fd73d468017f45e63d6acef02fa10bba72d415a017"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "58f9d44d578db24c7e9bf25c9412d9257d2a01a14b56547911bbfeb24ccbf55750b0c90d4d4b389536a76b32d692da3a"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "17B84": {
+    "Version": "13.2",
+    "Build": "17B84",
+    "Device": "iPhone11,4",
+    "Codename": "YukonB",
+    "Baseband": "2.02.12",
+    "DownloadUrl": "https://updates.cdn-apple.com/2019FallFCS/fullrestores/041-81638/FC4275C6-F4E5-11E9-B59D-9EC134390AC5/iPhone11,2,iPhone11,4,iPhone11,6_13.2_17B84_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-90228-102.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-90610-105.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-90648-106.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "59f56b269e6abad5bf6b187ac0804d06",
+        "Key": "759d40ce58f312682faead4107bda7e8677780cd6ee12d568df121885568842d"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "762e3ae0a430d2c20d10699b924b2379",
+        "Key": "d919b362d6f2eaa2e733ea5eb408951131b128c1f7e98420c0153ba42f8dd0cd"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bf382d8c1507e44aa33f351f2cab4efc",
+        "Key": "e63135071b31e1f7a95fc4b5d5e199786f5123d063347a13eac1e260c06841d5"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c5f2c26406e038497cb902f770efbb36",
+        "Key": "efd1b84410a2cd219d364ad54dda2fa52887654705eb7f36ba96f5ff0ca7cba1"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "871b6b11ba18ada2813c19373c79be500559445be53226db382ce2d6024a0b3b68834f69d88524ba8f6c00d596653e04"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "17C54": {
+    "Version": "13.3",
+    "Build": "17C54",
+    "Device": "iPhone11,4",
+    "Codename": "YukonC",
+    "Baseband": "2.03.07",
+    "DownloadUrl": "https://updates.cdn-apple.com/2019FallFCS/fullrestores/061-61284/1ED66766-179E-11EA-AE05-B2F362E1CA37/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_13.3_17C54_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-03630-068.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-02948-072.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-03082-072.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d6aae50d462d9f9911b5a93dd29120d5",
+        "Key": "1e91ec394409fd13089ed0a5891f207b8c263e60827a0073b554e6c7e53620ca"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e45cf2e6189f15f1629c29e9eb72fac5",
+        "Key": "40413500694901cbda5ee3351508d5baf996215fcdea14dfd61b54c3435864c7"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "11c5e218aa583ec6071038b953d2891d",
+        "Key": "88fd8800a769633a9075e1f7bb15e1a3792ce070a2e76e3fef4b02fdc845d49a"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3ecacebef2bec2998c15760501c4f0e1",
+        "Key": "44f7a07eaaf8dbf2ebd6a11b803207ed6f00010290dfd400c675806e06cb6721"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "f34d07e4865cb52f835441844347860eb8a4e3d151639a6f05d609bf0ec64f46b017aa412123ed35d1085676f923ae8b"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "17D50": {
+    "Version": "13.3.1",
+    "Build": "17D50",
+    "Device": "iPhone11,4",
+    "Codename": "YukonD",
+    "Baseband": "2.04.03",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020WinterFCS/fullrestores/061-40459/74F04189-CC9F-4FE9-8CC5-6538B1A11951/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_13.3.1_17D50_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-15467-056.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-14542-058.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-15307-058.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fe942b58b2a51f297af5c3a7d6ec6580",
+        "Key": "8aba8b093b7061f87a509b98110ad213e2b9b971693f056e3f7c2286306e8eda"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "27b1ff1b6864e28ee46140e87478439e",
+        "Key": "f57bc0b6c5cab94eb67d783f882974f78d66d047ee9453a772ce8fa19715e665"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "580007b14558adf3ed4f6336223a1e02",
+        "Key": "545ac92570337a9ddcab73a5358cea8f01c780c885650fbb1c907764378488b3"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a6ea0ec4edd354e3c9f6a730398499db",
+        "Key": "77f47e06cc2a84fb3a85174b30da5bf04be2c37810da4ce8a0f49b287b3473fb"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "01349778719d8bb476fad1aa501b0b5b5d7ab34effe51d0c4f4f50431c1ee380ada1f11d018bab622577e6a915293d5d"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "17E255": {
+    "Version": "13.4",
+    "Build": "17E255",
+    "Device": "iPhone11,4",
+    "Codename": "YukonE",
+    "Baseband": "2.05.13",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020WinterFCS/fullrestores/061-20287/0C81F0D6-2166-4954-A6CB-B1F5792C6F12/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_13.4_17E255_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-03647-154.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-65411-363.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-65173-368.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "079c7ff1237ab9039268cb1d003c83f7",
+        "Key": "8f0f2d8f1af30b0153a8dd0fd6f7dab843ac5d6dc91bfb7cfe5ad896109d04f5"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "294b66ac9ed36dd7c15ddb9d0e17578e",
+        "Key": "cfa2a686e65e1a962b649fa86df50fba41c0f02a5c36caf65cdfd7f60db25fe5"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "22f9481fa41f5962539e77329752838b",
+        "Key": "e967344692841cd25ee32598b0ca4c332284bad4b7d092caae76fa37b9b26916"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d8370f509e16be6bdd4e797d0e2be260",
+        "Key": "18181d1e5339669960c1448fa7fb544429e916743b9e79d36cf5a0e7155a0fbb"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "89d8dd4d2256744380102c9d4f82d4beaaeb1c0ade0a6ca124e08a7b678b5bd6cc57775f69c37ed13b44f738c772b993"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "17E262": {
+    "Version": "13.4.1",
+    "Build": "17E262",
+    "Device": "iPhone11,4",
+    "Codename": "YukonE",
+    "Baseband": "2.05.13",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020WinterFCS/fullrestores/061-91154/8CBD34FB-AE6D-47DD-87A6-5F613CD115F3/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_13.4.1_17E262_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-03647-158.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-65411-367.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-65173-372.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "079c7ff1237ab9039268cb1d003c83f7",
+        "Key": "8f0f2d8f1af30b0153a8dd0fd6f7dab843ac5d6dc91bfb7cfe5ad896109d04f5"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "294b66ac9ed36dd7c15ddb9d0e17578e",
+        "Key": "cfa2a686e65e1a962b649fa86df50fba41c0f02a5c36caf65cdfd7f60db25fe5"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "22f9481fa41f5962539e77329752838b",
+        "Key": "e967344692841cd25ee32598b0ca4c332284bad4b7d092caae76fa37b9b26916"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d8370f509e16be6bdd4e797d0e2be260",
+        "Key": "18181d1e5339669960c1448fa7fb544429e916743b9e79d36cf5a0e7155a0fbb"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "89d8dd4d2256744380102c9d4f82d4beaaeb1c0ade0a6ca124e08a7b678b5bd6cc57775f69c37ed13b44f738c772b993"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "17F75": {
+    "Version": "13.5",
+    "Build": "17F75",
+    "Device": "iPhone11,4",
+    "Codename": "YukonF",
+    "Baseband": "2.06.00",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020SpringFCS/fullrestores/061-71920/ECA2EA6C-DE74-409B-AECE-C2ECC03A9D4A/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_13.5_17F75_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-35088-082.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-34848-088.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-35044-088.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "586e3338ac9ccce3283379c398de071d",
+        "Key": "a3d041ffb7a72399b065bcb76b56da6dbe96cbac3167fce3d432ca772dacb81f"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "35a87c7d9c0affd232d50ee3e9f10ede",
+        "Key": "20278c75171bbe40c1ac77b4ade3fed867a332cad1b823b78480e7538c3724a2"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a21291e66a3dba5f13342c3fc2f9f347",
+        "Key": "b83093b157d131188bb50666c016aaae662b535dd761e99dac1b4dea7107a1c3"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "df27d5d233e1e2003641028a847577ad",
+        "Key": "8ac607a1908e29214433293652257d414c74a857b6ac18c54138d9dc926deac5"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "8848e4011199a66b518197a10884afabfefa1cb02e3a6291f81c4dfd5d644da1563149715d39f67c187d3b2ac6e04a5a"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "17F80": {
+    "Version": "13.5.1",
+    "Build": "17F80",
+    "Device": "iPhone11,4",
+    "Codename": "YukonF",
+    "Baseband": "2.06.00",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020SpringFCS/fullrestores/001-09223/5B65BCF0-A082-11EA-AE88-6FEDF1CFE6E8/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_13.5.1_17F80_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-35088-084.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-34848-090.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-35044-090.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "06e68eaaf1d26c85043c661e881fd4b6",
+        "Key": "74f27d2383e625299ca425f431629e1fc7dff0788157ac9d499eccfd6c9175a7"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "66378b3ea85b77ed325001e611dfc494",
+        "Key": "206964fb4a805db210fc9757ca51a85137fffc30fc0bc3583d3efcddf44b13bf"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "850959af3a8e0448f772d65616609d24",
+        "Key": "1e62c7ddd23b0713770d866eb87e479dd2b38a2d2fa1d349e1d7767c6a817706"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2251888fe50986be7846adb4bfdf0d4e",
+        "Key": "b483bd50d886d156b8efab0945e7a6bdd85a3cf7ca0bae854607246df94ed89e"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "e071a7cf044b44d31f76ba40c4d9bdd64e0770cd1bce72a9dafa22975cf1695f7b0c5fe18f10b8c7dee58f16822a1cb4"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "17G68": {
+    "Version": "13.6",
+    "Build": "17G68",
+    "Device": "iPhone11,4",
+    "Codename": "YukonG",
+    "Baseband": "2.07.00",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020SummerSeed/fullrestores/061-92929/A243A2C9-125F-4A74-A5D8-227504A0610C/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_13.6_17G68_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-51526-078.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-51249-078.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-51725-078.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6ec67ab790ba9a20e4a455a0d68a511b",
+        "Key": "757473f8dc782f9bccec501fc2c8cde428053c9d83903a785282de535c5f25bb"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cecb88080a909763c6094cab4fb04f15",
+        "Key": "2c123c4fc4c4660abfc93d845f05a346c05c3b5679f053e44913a680bf2ce4d2"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d667efbfc38c01e11bd00c8d2ca8687d",
+        "Key": "abdbab07800cf85bd38891450d09b1e886308309614ddb37d1409a82bd1be5d1"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c4e4e36c92265e3254d3d76a0bd252e0",
+        "Key": "cf33e636f4a03c2b36a730247fa90141cd31673cf56059f1e512c6287050bbdb"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "5567c2b1fc1abf816d203b37c86b858db2b2dc57ecbbb0eefe0ed79c96bab4d3fdc108986aefbd6f5b49cd9cae184885"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "17G80": {
+    "Version": "13.6.1",
+    "Build": "17G80",
+    "Device": "iPhone11,4",
+    "Codename": "YukonG",
+    "Baseband": "2.07.00",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020SummerFCS/fullrestores/001-29362/88D9E49F-6964-4F9F-9F8F-31AFBEBFE7DA/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_13.6.1_17G80_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-51526-079.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-51249-079.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-51725-079.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6ec67ab790ba9a20e4a455a0d68a511b",
+        "Key": "757473f8dc782f9bccec501fc2c8cde428053c9d83903a785282de535c5f25bb"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cecb88080a909763c6094cab4fb04f15",
+        "Key": "2c123c4fc4c4660abfc93d845f05a346c05c3b5679f053e44913a680bf2ce4d2"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d667efbfc38c01e11bd00c8d2ca8687d",
+        "Key": "abdbab07800cf85bd38891450d09b1e886308309614ddb37d1409a82bd1be5d1"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c4e4e36c92265e3254d3d76a0bd252e0",
+        "Key": "cf33e636f4a03c2b36a730247fa90141cd31673cf56059f1e512c6287050bbdb"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "5567c2b1fc1abf816d203b37c86b858db2b2dc57ecbbb0eefe0ed79c96bab4d3fdc108986aefbd6f5b49cd9cae184885"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "17H35": {
+    "Version": "13.7",
+    "Build": "17H35",
+    "Device": "iPhone11,4",
+    "Codename": "YukonH",
+    "Baseband": "2.07.00",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020SummerFCS/fullrestores/001-42005/4D946BA1-A613-430C-B5E0-C424B5B9715A/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_13.7_17H35_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-68737-036.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-69106-036.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-69143-036.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "14d46383e76b8357260d353d5bf0c348",
+        "Key": "45b427263bbfba329f39a10ad6454aab6afb39792250ad20ccbc6051518d729f"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "059a89ea7454b17d1818ef78f443d9e6",
+        "Key": "a14e2a2014e87ce39d66d1a8cbed5428fb813f7e0ff71d63429f7b79c78b7c0d"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b429b53c92ac53ccaf956a298d007181",
+        "Key": "12100ebf74f4f9f7858513606bd025541381774d408d3600e6f66cb3c9fd93f1"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "dcf074ba5761bbc4f7fe83b141a6dc6c",
+        "Key": "48c148def87402a5d90cf3bd3984ff1dfc9f101457ad80a1699bbf5df6c063a4"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "e68ca28777a7a50b639e5bf922204ac4690f15ee13b0e38666989f9d86bad509315725d6faf9db41a4e933029e545d61"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmwareT8020.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "18A373": {
+    "Version": "14.0",
+    "Build": "18A373",
+    "Device": "iPhone11,4",
+    "Codename": "Azul",
+    "Baseband": "3.00.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020SummerFCS/fullrestores/001-46850/8A4DA7D0-40E1-4079-A159-5B0983102B66/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_14.0_18A373_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-03666-369.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-58645-641.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-58517-636.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H11.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8ec1c85d7d37633739b235bd37ef4660",
+        "Key": "01bce251984f2d641296f547a8906cd809eb4a63d3a3c075a5e8f2f8659e5fdc"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "33bd4b1aa93b453543952ef9e6ca5291",
+        "Key": "954795ea29b9fe507cd129f08e6a3e497fbfd686c61570b44c0c35d2493f7cdf"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "707a6d8762b16e6b0e0f9863ca16054c",
+        "Key": "c3359bd0e19d70afc4c23f88855b6b8a8c086826cce38cf7afed6b6eaef3b0aa"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7369ad36ea31c0882c327969ffa4ebdb",
+        "Key": "369866009ae8ac914a207a89e1c50ee4b82071b09cc902dd7c51f12c6e8f9c72"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "77f95b4fe66c5ad0664bf2ae03c4dc917b8926771926d90dc08f1bf0a9a37b3657bec6fbdd443c0bc40ac88624a96af3"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv2.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "18A393": {
+    "Version": "14.0.1",
+    "Build": "18A393",
+    "Device": "iPhone11,4",
+    "Codename": "Azul",
+    "Baseband": "3.00.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020SummerFCS/fullrestores/001-50347/70300CF7-57F4-4469-8DE5-4C36310594B9/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_14.0.1_18A393_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-85449-003.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-85666-003.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-85668-003.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H11.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8ec1c85d7d37633739b235bd37ef4660",
+        "Key": "01bce251984f2d641296f547a8906cd809eb4a63d3a3c075a5e8f2f8659e5fdc"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "33bd4b1aa93b453543952ef9e6ca5291",
+        "Key": "954795ea29b9fe507cd129f08e6a3e497fbfd686c61570b44c0c35d2493f7cdf"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "707a6d8762b16e6b0e0f9863ca16054c",
+        "Key": "c3359bd0e19d70afc4c23f88855b6b8a8c086826cce38cf7afed6b6eaef3b0aa"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7369ad36ea31c0882c327969ffa4ebdb",
+        "Key": "369866009ae8ac914a207a89e1c50ee4b82071b09cc902dd7c51f12c6e8f9c72"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "77f95b4fe66c5ad0664bf2ae03c4dc917b8926771926d90dc08f1bf0a9a37b3657bec6fbdd443c0bc40ac88624a96af3"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv2.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "18B92": {
+    "Version": "14.2",
+    "Build": "18B92",
+    "Device": "iPhone11,4",
+    "Codename": "AzulB",
+    "Baseband": "3.01.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020FallFCS/fullrestores/001-74658/96D473B0-9ADD-4A40-8DB3-38892C812FDE/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_14.2_18B92_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-01488-004.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-00699-004.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-01496-004.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H11.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b196e825f5d8daa15cb00f61b4cc1498",
+        "Key": "bf17806ec1e9ca1ba0c91f081f43941015adce408841144d8f2fbc8f11df93f7"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8d4474e465cb5e17a82afe06004627db",
+        "Key": "09be4a3768b1b190e80b601610f79f33b8badc4ae50fba62cc7a6c03d14882a4"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9ac136d4b6a001bd79e1e703338b6a77",
+        "Key": "904818210dcb26f1fb29995d37198025271566a990f9a603a51a3f05c977ea66"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3e05c702956511922312ec998561a40c",
+        "Key": "bcfa2bbd696d18ad47156af2bf737ca8bffb592385b46b9c657a8ca9c9ad658c"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "9f0687c170e275d8afc8c999ae2aea441457acd7a53e5004fb7ab3dd2526e610711f3666bffd7a55852b85dfe3b31de8"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv2.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "18C66": {
+    "Version": "14.3",
+    "Build": "18C66",
+    "Device": "iPhone11,4",
+    "Codename": "AzulC",
+    "Baseband": "3.02.02",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020WinterFCS/fullrestores/001-87493/276DDA26-A771-413E-8BAF-FD7409E1897C/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_14.3_18C66_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-83051-078.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-83019-083.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-83075-083.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H11.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "aa426c167abf9476cc2da74c7ed15aca",
+        "Key": "ff1472c12f08f6da4979ea576a4accbc4b62541b2c92a1c32b4c58dd5b0c32b5"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "adc68284fb50e177b5bf7a8980ca3f5c",
+        "Key": "f957c2d68da09e0c0c380e1a67f2d9451bca126fc9dd1f9e354c93c576e741b7"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e545db1e09bd03a6c9b658fa4dfefdab",
+        "Key": "18e275e58fef4fe9227f80df7199848a5462eb4b30dec9a805d7c8732d0df3e8"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "88c8bf33e6203a84a1ae71ef26057859",
+        "Key": "2bd378b7db9271b2f501f990daccf073e35e005a51737143ff6801085f055da6"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "5681cfa94d4a2879f9402a835a5aff26b05d39efafd8a41869fcfcf8047d3ea52ecb72a3d2979555a4c504eb28872aad"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv2.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "18D52": {
+    "Version": "14.4",
+    "Build": "18D52",
+    "Device": "iPhone11,4",
+    "Codename": "AzulD",
+    "Baseband": "3.02.02",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterFCS/fullrestores/001-98182/541B0687-8E1D-45FE-8592-15988761215B/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_14.4_18D52_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-96439-062.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-96331-062.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-96262-062.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H11.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "aa8ace8ad70096c11225213ab37d3de0",
+        "Key": "a568e862f98394500ecf71b0dc93f23b717f3a914f4c6acf1bd49c1f92392a28"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "71f5c49afd169cb681d74c380ea65e7b",
+        "Key": "984e8a70a681b89ba569470dab2a8f03061ac97d1c65cc3d10c3d8bd0e798214"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d7ece0a033876c85b0ada3c9b358675b",
+        "Key": "02a6f057bee0480a9f914f956d0f7b05e6cb1eaf55c0c102a64c3085510e6a89"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b6cf0b1c5b1f70f683ed0b0b36134f78",
+        "Key": "b13e3140cf0469e11828ac225217da0c28f463ce53b67367a23ce9a9449ec83d"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "f92fc298286dca567d945736aaca585250944fd9a5e14d146f18998fa01ab342a2c96d99fe65997d31dc4dbf96e3362f"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv2.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "18D61": {
+    "Version": "14.4.1",
+    "Build": "18D61",
+    "Device": "iPhone11,4",
+    "Codename": "AzulD",
+    "Baseband": "3.02.02",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterFCS/fullrestores/071-12431/94EB0E66-1068-4B52-8DFE-9F05C5F1DD62/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_14.4.1_18D61_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-96439-064.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-96331-064.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-96262-064.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H11.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "aa8ace8ad70096c11225213ab37d3de0",
+        "Key": "a568e862f98394500ecf71b0dc93f23b717f3a914f4c6acf1bd49c1f92392a28"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "71f5c49afd169cb681d74c380ea65e7b",
+        "Key": "984e8a70a681b89ba569470dab2a8f03061ac97d1c65cc3d10c3d8bd0e798214"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d7ece0a033876c85b0ada3c9b358675b",
+        "Key": "02a6f057bee0480a9f914f956d0f7b05e6cb1eaf55c0c102a64c3085510e6a89"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b6cf0b1c5b1f70f683ed0b0b36134f78",
+        "Key": "b13e3140cf0469e11828ac225217da0c28f463ce53b67367a23ce9a9449ec83d"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "f92fc298286dca567d945736aaca585250944fd9a5e14d146f18998fa01ab342a2c96d99fe65997d31dc4dbf96e3362f"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv2.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "18D70": {
+    "Version": "14.4.2",
+    "Build": "18D70",
+    "Device": "iPhone11,4",
+    "Codename": "AzulD",
+    "Baseband": "3.02.02",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterFCS/fullrestores/071-22729/77571761-8A7F-4F67-BB19-12D9BC82405B/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_14.4.2_18D70_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-96439-065.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-96331-065.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-96262-065.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H11.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "aa8ace8ad70096c11225213ab37d3de0",
+        "Key": "a568e862f98394500ecf71b0dc93f23b717f3a914f4c6acf1bd49c1f92392a28"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "71f5c49afd169cb681d74c380ea65e7b",
+        "Key": "984e8a70a681b89ba569470dab2a8f03061ac97d1c65cc3d10c3d8bd0e798214"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d7ece0a033876c85b0ada3c9b358675b",
+        "Key": "02a6f057bee0480a9f914f956d0f7b05e6cb1eaf55c0c102a64c3085510e6a89"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b6cf0b1c5b1f70f683ed0b0b36134f78",
+        "Key": "b13e3140cf0469e11828ac225217da0c28f463ce53b67367a23ce9a9449ec83d"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "f92fc298286dca567d945736aaca585250944fd9a5e14d146f18998fa01ab342a2c96d99fe65997d31dc4dbf96e3362f"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv2.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  },
+  "18E199": {
+    "Version": "14.5",
+    "Build": "18E199",
+    "Device": "iPhone11,4",
+    "Codename": "AzulE",
+    "Baseband": "3.03.05",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SpringFCS/fullrestores/071-17683/D86CD51B-4DF2-4394-8BDA-391894407C54/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_14.5_18E199_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-45028-249.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-45482-292.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-45071-293.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H11.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "afa236f8c8907bf0ac33e37dc475684e",
+        "Key": "35ae6f91b7cab4bdcfda08a55158af6870063a52ac474bb976fc4bc4507f4c1f"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "40e5cea5e5d4a6cac0e450bd38f809e9",
+        "Key": "828e99b04eb31b7bade107b40d025df4e4e08a39a014962704b0afe838d097c7"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c315f3a5fba68d0a3ed00830c918e2c6",
+        "Key": "0257e62a0b58788abf5b1d6a1e85847e17ee05d7655343f5556cd8d50cdcd4c5"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5ce2b61946aa32345c70b337ff63e7a0",
+        "Key": "4ec10bd71e0babc5335a9020707253faff66a41379ea1711b77e5a275d7b72e9"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "d1619c96cca43a5675d42b19694cdd7f339c0fc6c415cdc706ca17756d7a86b0fa0e2cb4222cf6ab884ac377ff350876"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv2.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
+  }
+}

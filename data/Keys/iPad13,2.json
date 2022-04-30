@@ -1,0 +1,6581 @@
+{
+  "18A373": {
+    "Version": "14.0 [[Golden Master|GM]] and 14.0",
+    "Build": "18A373",
+    "Device": "iPad13,2",
+    "Codename": "Azul",
+    "Baseband": "2.00.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020SummerFCS/fullrestores/001-46801/1BBA59CA-BFCB-4936-8A98-FCC3511F8DE3/iPad_Fall_2020_14.0_18A373_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-04284-362.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-58645-641.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-58517-636.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1f62c6a09941bb3e7cb425fad2e737c1",
+        "Key": "c7adbf5451264be03245b25f6931b229d7a294b9699fc3e629a8152ddd7dcf95"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "469e72d25d2837e0c3c4d2400503c26c",
+        "Key": "3483e7fadc42f1355b0c5016e71dfe754ad32bc14b8dfe24299bdf3c63a0b8f0"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e74c8a6ba009faa01c1eceee1996df09",
+        "Key": "7ab877899c7ab7346d54d28b14487bb9c43dbc499cedf3a41ad30ffcd100e45f"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b1cbb275e05953160a7f0f77dce2afab",
+        "Key": "d8f40e9cb5a42e325f747a8dcfc1a9f620170bd7267a347af5ab2a3a3b530356"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9004794e79e66c051b457385fbf9f7b6",
+        "Key": "5404484ab47fb422e31daf78182770ab54c199b0bc06493c910cd39a9afd8d95"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "f5bda83d36f7738c009fde695abd25d13f37fe6dbaae3c90838ef1a9d64033ac10641c3c0ef511704b1e9a83dcdb0306"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18A393": {
+    "Version": "14.0.1",
+    "Build": "18A393",
+    "Device": "iPad13,2",
+    "Codename": "Azul",
+    "Baseband": "2.00.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020SummerFCS/fullrestores/001-50324/0390AAF1-B43C-4481-8215-174CF4CA1BDA/iPad_Fall_2020_14.0.1_18A393_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-85657-003.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-85666-003.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-85668-003.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1f62c6a09941bb3e7cb425fad2e737c1",
+        "Key": "c7adbf5451264be03245b25f6931b229d7a294b9699fc3e629a8152ddd7dcf95"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "469e72d25d2837e0c3c4d2400503c26c",
+        "Key": "3483e7fadc42f1355b0c5016e71dfe754ad32bc14b8dfe24299bdf3c63a0b8f0"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e74c8a6ba009faa01c1eceee1996df09",
+        "Key": "7ab877899c7ab7346d54d28b14487bb9c43dbc499cedf3a41ad30ffcd100e45f"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b1cbb275e05953160a7f0f77dce2afab",
+        "Key": "d8f40e9cb5a42e325f747a8dcfc1a9f620170bd7267a347af5ab2a3a3b530356"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9004794e79e66c051b457385fbf9f7b6",
+        "Key": "5404484ab47fb422e31daf78182770ab54c199b0bc06493c910cd39a9afd8d95"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "f5bda83d36f7738c009fde695abd25d13f37fe6dbaae3c90838ef1a9d64033ac10641c3c0ef511704b1e9a83dcdb0306"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18A8395": {
+    "Version": "14.1 [[Golden Master|GM]] and 14.1",
+    "Build": "18A8395",
+    "Device": "iPad13,2",
+    "Codename": "AzulHW",
+    "Baseband": "2.01.05",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020SummerFCS/fullrestores/001-56133/DE21741A-9261-4606-B444-89CC12C259C4/iPad_Fall_2020_14.1_18A8395_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-70132-074.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-70164-081.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-70146-081.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4c9f6e302ee9a36c42526dbe5dd4d80c",
+        "Key": "23ba27b597702b9b9a9a6f1632bc1e2e5438735672b7bd70afb094fbdd3d27a2"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a33148065eaa170fa5492eae5f7836ef",
+        "Key": "f13c0bd3a0b149e4bcdaf232d45c42f5449a13a341c8c3a0e5499370bdb46e29"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e519868aaaf8dab58e559195d37c80ce",
+        "Key": "6bcf839646ea69628e5b8a9c50566943a168f54a047a79ee53dcc3cef3296c01"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "be868e63e126015070b792ef658e2f00",
+        "Key": "469382b4e8d581c30ec3615d600c9df3c40cc3f200faf2ff80715f8dcf8146e1"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6bc75c9d01ce059afd33f2beb90bf3d7",
+        "Key": "27f63a6ea1bbd666afadf8dbe6b9a2943b70bddfc8153835b51bc148839b0ea7"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "a0e02b60cb78b01e4d9243cf5ac546f841eeedb5f2bce5dc17f0915302c9c4a96bb112d2053a4209b50f8dff36891ab5"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18B92": {
+    "Version": "14.2",
+    "Build": "18B92",
+    "Device": "iPad13,2",
+    "Codename": "AzulB",
+    "Baseband": "2.02.04",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020FallFCS/fullrestores/001-73498/28141CAE-4EB2-4234-BCD4-96F5F0084AB0/iPad_Fall_2020_14.2_18B92_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-00949-004.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-00699-004.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-01496-004.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6118e469a857a00d794dc27dc1272329",
+        "Key": "d7d7b526a623ae249e5055234ec2a9e4c64ee66b66a6412912847eb4640084e0"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "23291fed59e57cf43043ed3c184ca4ef",
+        "Key": "63f393e0bd71505964ba2afc56508799ba8141e9965f5c6161be922d9bb21ee3"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "04afc25bc046f855cd96816de1d87620",
+        "Key": "6df995a71babc1d5a28b2933a7d0f404d7d2b16f7010894e8a86823dee722275"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "99cdcfdd5c0c3687c221877ef0178f23",
+        "Key": "00ebc0e412a4ce7e042db43dbc1d2ee1725fe7b94976597a1387b3f9e6be4338"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6757640ca9201433fe2fb0c2d3f874e1",
+        "Key": "469c70a9f93bfb9566c76a250a54c3c97bc92792ab2b76b3b28fbfd3887ef818"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "33db2d261371004e00159308c8610c67863589b356afb7d614b1869219fe77131663d522c2cd8fc12a7e9f9fcaca34f9"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18C66": {
+    "Version": "14.3 [[Release Candidate|RC]] 2 and 14.3",
+    "Build": "18C66",
+    "Device": "iPad13,2",
+    "Codename": "AzulC",
+    "Baseband": "2.03.04",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020WinterFCS/fullrestores/001-87984/F3509785-C339-4987-972D-6B885E7269E4/iPad_Fall_2020_14.3_18C66_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-83248-079.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-83019-083.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-83075-083.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1152774dce089b4eb34cdc9fe4245d06",
+        "Key": "ee710f776957527765cbc603e328c9b0db6e6e96a318166823e36e7c0e7df25b"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f99032eebd71cf6aa2c20179cf210761",
+        "Key": "69cf4354ecb413ef11441692026161697cc7b1075192cf190690a51a13630a1c"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "be71df541341ab9a19060d316b6ad835",
+        "Key": "22543edcadd2521d07d0ed95913c8b6faef7821e7f87b6aded3b43b79d4c014d"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e1c3de1a78aaa3ee3048c1fc6e45ac9e",
+        "Key": "f4d4fb3e79500c6400a4667b80c6f2516d760f157258b6b466d995648e49d4e7"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6e4cb6a451a0021ed6e1b0f84c323d8f",
+        "Key": "7ae0fd720cb1e18c02914236aded56bc42a8f118c4449bcc608f8bc13fa74ffc"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "ea80f17dfd8d3bc7fd806b43d1867cbb100051eb2453a375f4bfbc81bcca26d0bcaf5d93a7972f8fae14e60da5f9c3fb"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18D5030e": {
+    "Version": "14.4 beta",
+    "Build": "18D5030e",
+    "Device": "iPad13,2",
+    "Codename": "AzulDSeed",
+    "Baseband": "2.03.03",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/001-89266/4E455B32-E773-4B82-91BA-DFB73F09F563/iPad_Fall_2020_14.4_18D5030e_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-06595-013.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-06519-012.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-06663-012.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f1cc61cd97676ee4cfb229ba337f5549",
+        "Key": "a53e59a4f405d90f99d038220397edb1dc2604608077439b296b0e721a3ad7da"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3292813b6e218f3e53f9a6361c8b71aa",
+        "Key": "69913466c3a1a55d8b9a52e82d62e36ed4506a63c5f0f11ddd7a4975b984fa4a"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1883da85d65d935cac5fab7b9d39c817",
+        "Key": "8e8fb50f5e16e7eae7000691dc15df3954f31b32852789c236905cc1178dd1b0"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c0f4918e598a1506bfee48086ca35712",
+        "Key": "2d2cde9c2872d0933be0ae5f170afdfce407ea2116750e8d82a98b3c050b461e"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "aa5700eca103cde7e7385dbd394a5e62",
+        "Key": "79fb356d32c45df4ac3d7836137b2caceae5707367f428e891532300502b8a30"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "bd13b8d377396d8549a735d3a6215d7d59a6bb8c1d2941b4bdbdbc1254d029c0a403763fe6145eae42395b848ef45a9a"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18D5043d": {
+    "Version": "14.4 beta 2",
+    "Build": "18D5043d",
+    "Device": "iPad13,2",
+    "Codename": "AzulDSeed",
+    "Baseband": "2.03.04",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/001-94882/149C4AEB-0EA4-4880-BAF8-BBDD150C78CE/iPad_Fall_2020_14.4_18D5043d_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-06595-018.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-06519-017.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-06663-017.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "72e62ec0d6cec8052f489928a37e42d8",
+        "Key": "c63ec8387c92b997711dda233b3a2ad0827c407e18dd6dba4a7e596148f0c15d"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4550ada09bba40b8b3d0d0a19f617b33",
+        "Key": "f4a20a74f165c9cafde5a7e42a5cf8f7b0afe0b73b45358fa0e2ff5e6c262447"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3d26df54e066e49404ae8da6e22b3e05",
+        "Key": "ce0113d2079c9d7de9437bf590494e76f29fbf75bb732c1f6c149ada52dace7c"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c2fee1364b3f3fb422602a8c9decd44f",
+        "Key": "cb4daf547c55aa2014f969d6237ee91a862f79df1acdb0eae66df751eb4c0f9b"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4393381a18ae42d217d4b07e0965103f",
+        "Key": "6be2bc284465149c19da1ef269f7b3959ebc322cf9694573d23269459bb906a6"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "ea44b755ba28a5437c3ecdb8fe9239e9bac6d09e31530b026f37fb422d37400d45f9e3c8d0d9bc5a67111deb3cb80b81"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18D52": {
+    "Version": "14.4 [[Release Candidate|RC]] and 14.4",
+    "Build": "18D52",
+    "Device": "iPad13,2",
+    "Codename": "AzulD",
+    "Baseband": "2.03.04",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterFCS/fullrestores/001-98245/02FE8E4B-8A6D-4EA0-9C1D-F19A62F9D9CE/iPad_Fall_2020_14.4_18D52_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-96427-062.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-96331-062.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-96262-062.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "111d17a35df998ccbe7fee9ef849df3d",
+        "Key": "d5b0e52ab0b8606fa78990899d1b76cf0879cdfc4ebb32556ba4901b79469822"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "02c14fbb4df64271c4fa1174d27e6182",
+        "Key": "c8220c99bcf77ffa99acda599b4b1484886789f79ab45496098fb685ecdf1ac2"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "eeba4dd67f33d48130fdbb661ce10686",
+        "Key": "150553b8428e5546da563006c19f24d15d91f758bba93960e1691c1f041315ca"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "25ac2b342795b094dfe698a7007b8b57",
+        "Key": "cdf111f828661818f110a238a8f877e554f9b37e8f64b9e88f569d7b8f75f7d5"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c65952a878a66f7a86505b14c474872c",
+        "Key": "bb1cb6ea67a9cd7ad485f4999ee61a3760a4f253cd385bbd3711284529985f20"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "8287b83142f957419ec045da3288f8b5aa51ef6e4b528aca16932c12bd9295da100bb2fdaf0f4838914665ff80d7efb5"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18D61": {
+    "Version": "14.4.1",
+    "Build": "18D61",
+    "Device": "iPad13,2",
+    "Codename": "AzulD",
+    "Baseband": "2.03.04",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterFCS/fullrestores/071-12701/31C0C5AB-2897-4340-9062-82A4BC79F166/iPad_Fall_2020_14.4.1_18D61_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-96427-064.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-96331-064.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-96262-064.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "111d17a35df998ccbe7fee9ef849df3d",
+        "Key": "d5b0e52ab0b8606fa78990899d1b76cf0879cdfc4ebb32556ba4901b79469822"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "02c14fbb4df64271c4fa1174d27e6182",
+        "Key": "c8220c99bcf77ffa99acda599b4b1484886789f79ab45496098fb685ecdf1ac2"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "eeba4dd67f33d48130fdbb661ce10686",
+        "Key": "150553b8428e5546da563006c19f24d15d91f758bba93960e1691c1f041315ca"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "25ac2b342795b094dfe698a7007b8b57",
+        "Key": "cdf111f828661818f110a238a8f877e554f9b37e8f64b9e88f569d7b8f75f7d5"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c65952a878a66f7a86505b14c474872c",
+        "Key": "bb1cb6ea67a9cd7ad485f4999ee61a3760a4f253cd385bbd3711284529985f20"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "8287b83142f957419ec045da3288f8b5aa51ef6e4b528aca16932c12bd9295da100bb2fdaf0f4838914665ff80d7efb5"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18D70": {
+    "Version": "14.4.2",
+    "Build": "18D70",
+    "Device": "iPad13,2",
+    "Codename": "AzulD",
+    "Baseband": "2.03.04",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterFCS/fullrestores/071-23188/9037A81A-5E7A-4952-B60A-85352A363F51/iPad_Fall_2020_14.4.2_18D70_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-96427-065.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-96331-065.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-96262-065.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "111d17a35df998ccbe7fee9ef849df3d",
+        "Key": "d5b0e52ab0b8606fa78990899d1b76cf0879cdfc4ebb32556ba4901b79469822"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "02c14fbb4df64271c4fa1174d27e6182",
+        "Key": "c8220c99bcf77ffa99acda599b4b1484886789f79ab45496098fb685ecdf1ac2"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "eeba4dd67f33d48130fdbb661ce10686",
+        "Key": "150553b8428e5546da563006c19f24d15d91f758bba93960e1691c1f041315ca"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "25ac2b342795b094dfe698a7007b8b57",
+        "Key": "cdf111f828661818f110a238a8f877e554f9b37e8f64b9e88f569d7b8f75f7d5"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c65952a878a66f7a86505b14c474872c",
+        "Key": "bb1cb6ea67a9cd7ad485f4999ee61a3760a4f253cd385bbd3711284529985f20"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "8287b83142f957419ec045da3288f8b5aa51ef6e4b528aca16932c12bd9295da100bb2fdaf0f4838914665ff80d7efb5"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18E199": {
+    "Version": "14.5 [[Release Candidate|RC]] and 14.5",
+    "Build": "18E199",
+    "Device": "iPad13,2",
+    "Codename": "AzulE",
+    "Baseband": "2.04.07",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SpringFCS/fullrestores/071-17713/281B0BAF-0966-4406-BF9B-FE0B64ED8769/iPad_Fall_2020_14.5_18E199_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-45085-253.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "038-45482-292.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-45071-293.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ac56e60a8bf7721eb48ee20122f38834",
+        "Key": "6839e0a8da95c5808d26555392b4e83c6d06d16ee66b06e8dab8680b5b2fcf4f"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a8a5a1a394a2d9ad2da376455bab5342",
+        "Key": "5737b67d1b7dbb8064acad405b09b14d441ba52c2bd053bfdb2b529b6978829d"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1e711825cd4d2d21143a98d5a8388f09",
+        "Key": "44f2418532d8e7e1dfac88f1c8e9f61a475ea88dfcbe902c30e5c514fd153b36"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "77bd481e1bd2e55505dd18b042f0df9c",
+        "Key": "9f91273add604e814b51e6476ba2fd9e873dcea443aa316f7fd1a80a4f7f680d"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "775e2b7ba947d5be0348793960171c21",
+        "Key": "1e7725c1557afc38dbb13bde061d9db6b4877151391813117fa0604625187f8a"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "cab692281f8629ae05d7617fce6617330b69466c51c2d7ddaa21b998d97a523c391dffbba2397e8db39d7f0281e42e62"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18E212": {
+    "Version": "14.5.1",
+    "Build": "18E212",
+    "Device": "iPad13,2",
+    "Codename": "AzulE",
+    "Baseband": "2.04.07",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SpringFCS/fullrestores/071-34389/CE147D9C-1488-430D-9AED-138CD1CB8C0C/iPad_Fall_2020_14.5.1_18E212_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-39775-002.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-39340-002.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-39728-002.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "77de62d340682ff36dea4df43161f303",
+        "Key": "140403b861ff59459e4d078ae84b6a1d1df33d0f16ac17e61252578bdf101746"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "282f5bd66dc239ccbf4db03bc45ec202",
+        "Key": "c3689b12b32c53c6626b2b6f922b4fb447bfe859b901d54e0034a705609a817b"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fd5fdf14c66ae4f15a01faf096e907b5",
+        "Key": "317b8224be097d9d5341f7ed2241f6cae8a441bf95ccce5c5d71a0347b0c62ea"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "69a00c1efd08cb7436a85be4df1333aa",
+        "Key": "a70a14d9751e712ab2224a63d02509f7c0fcdb1d90d1b2b0cd933322c47afeeb"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1fb9aebca89b96644d708f9f2d0aeb64",
+        "Key": "85e1aa9e47500983868f897c6033cc9157ae8a21eca155e9df75500dac85610e"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "36c3a8778107b0832456e36259a74aac429b6be2a984f4a71232b6ed53a4ee61a30f362e05dad134ba57ac60e4fd46bb"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18E5140j": {
+    "Version": "14.5 beta",
+    "Build": "18E5140j",
+    "Device": "iPad13,2",
+    "Codename": "AzulESeed",
+    "Baseband": "2.04.00",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/071-03020/0CEF9992-07AE-482A-A0C0-4EBD6B597019/iPad_Fall_2020_14.5_18E5140j_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-02280-018.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-02165-023.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-01892-023.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b869ef17f117ecc669fdb5df2918e2b8",
+        "Key": "f1f56a4907ea88231deb121ccdd06b9e954e5db675e6602ebc826b0886136c73"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6b7a60f8d3042c8e15921c60a755548d",
+        "Key": "d9b1759a145981199307f852ec7691af156e13f75d21152a062c4732a9578638"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8fe2e8464407f09ce5c63293634e07e1",
+        "Key": "b3b047f3f204112f9398d039f14481e333ea84d28c09f81a8bcf8a0f0a3ce2fb"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b2760beb921d4bb7c29f847c5c7ea03a",
+        "Key": "6bd0adbd730af979e9008e67daaf48f9fbebcbde421ff72302b61466c1e50e98"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3d9e61e6363212a8d17db1bb0962698b",
+        "Key": "a2a2de65c1a12d5bc16589f0507eb6682a8b22e49e78db8ec869d7405069ef80"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "8e45baf061b5d145f9650ffd866d5da1aa48141dd40c6a94b7c2380adb81f83bc10b48b7cb23bc5accc26e470e7d303d"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18E5140k": {
+    "Version": "14.5 beta",
+    "Build": "18E5140k",
+    "Device": "iPad13,2",
+    "Codename": "AzulESeed",
+    "Baseband": "2.04.00",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/071-03493/7601C8DD-16EC-41CE-BAC8-D864B828706A/iPad_Fall_2020_14.5_18E5140k_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-02280-019.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-02165-024.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-01892-024.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b869ef17f117ecc669fdb5df2918e2b8",
+        "Key": "f1f56a4907ea88231deb121ccdd06b9e954e5db675e6602ebc826b0886136c73"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6b7a60f8d3042c8e15921c60a755548d",
+        "Key": "d9b1759a145981199307f852ec7691af156e13f75d21152a062c4732a9578638"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8fe2e8464407f09ce5c63293634e07e1",
+        "Key": "b3b047f3f204112f9398d039f14481e333ea84d28c09f81a8bcf8a0f0a3ce2fb"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b2760beb921d4bb7c29f847c5c7ea03a",
+        "Key": "6bd0adbd730af979e9008e67daaf48f9fbebcbde421ff72302b61466c1e50e98"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3d9e61e6363212a8d17db1bb0962698b",
+        "Key": "a2a2de65c1a12d5bc16589f0507eb6682a8b22e49e78db8ec869d7405069ef80"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "8e45baf061b5d145f9650ffd866d5da1aa48141dd40c6a94b7c2380adb81f83bc10b48b7cb23bc5accc26e470e7d303d"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18E5154f": {
+    "Version": "14.5 beta 2",
+    "Build": "18E5154f",
+    "Device": "iPad13,2",
+    "Codename": "AzulESeed",
+    "Baseband": "2.04.06",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/071-04978/AC7E1846-E2DB-4D00-BE71-38C3514446EC/iPad_Fall_2020_14.5_18E5154f_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-02280-025.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-02165-033.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-01892-034.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8189c3a2381637634ae0260c063857e7",
+        "Key": "517ef8c8123cc269c3472af397898e492bf86cf35ffbfe4d871558304a9c3b9e"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "91ba84751a26d90df46f4654473104f7",
+        "Key": "72380aae8e1fdb8c93237d1d8ec922fbb2ea57b61424180c860353db1c34abfe"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5b25fe05f9ef90fd6b7aec2140f7e729",
+        "Key": "1fffaf6b73b8c73a0580d100cecdc8f38f5ce0fcb1ac1854b15217114d7fef4d"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6566c17f4039d6c339bc559e11cd696a",
+        "Key": "be66676c0aebcd1928a523ec5f640e6418ff418ca829ed7833cd25e9f75d3519"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7423dcd0044cb220603df6e04fa02f45",
+        "Key": "bebf9fb7107dc2991ed6b70edf141e38ff95cc742acfcccc1962753d20f3242b"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "f8bd45643983e325c5ed7c637ee431ed208a0ff7f584beb308fde1c92766496b2b9ef532993d598c6a529d7307f06c24"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18E5164h": {
+    "Version": "14.5 beta 3",
+    "Build": "18E5164h",
+    "Device": "iPad13,2",
+    "Codename": "AzulESeed",
+    "Baseband": "2.04.07",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/071-10718/A4BF919B-8B0D-4FC8-905C-3CF28A1D7E9D/iPad_Fall_2020_14.5_18E5164h_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-24633-009.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-25062-010.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-24878-010.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cef4ff1f10bf298eacb9b7dd8dce72c7",
+        "Key": "6f3cb1f7e0457d430c7f908a9a0fde3f02938843a9c5bc2f19c6df766e1b6b25"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "613ee0d143a6ec4308b1fd7facaf28d6",
+        "Key": "5a68d3c4f69715ef547f2a83ce75a2c12dfe9de15bfbdb7b530cad4c2c79eed9"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8df0bae93e2e1675ad24a235bf146104",
+        "Key": "1e3662dad1855fa81748aa9c33add2bf634aea8818e7303d04946a62c1dc0c8e"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "eeffc6185e563e0c082db48a83dfbc26",
+        "Key": "122093552cf0f9cab20b062caccbe9767300b3c2394e30af0510a8aabce29d21"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "beac0ab0e4cf401052de16beaf426181",
+        "Key": "d9d7ea65dbe2e8aed47426136efb1fc6c3ab825cabce1373fe6b480e5bedb91a"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "58e54ad25348d636a5e6c2998663d799ff27cc49e44f1479ccafc07c55e5b9575dd048730666dcd40c63dd3359ff6642"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18E5178a": {
+    "Version": "14.5 beta 4",
+    "Build": "18E5178a",
+    "Device": "iPad13,2",
+    "Codename": "AzulESeed",
+    "Baseband": "2.04.07",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterSeed/fullrestores/071-17315/849233E8-2206-4EC4-9473-C9BE39ADBA34/iPad_Fall_2020_14.5_18E5178a_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-24633-013.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-25062-014.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-24878-014.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4f27a959e58ceb1744e6cd2a0503f836",
+        "Key": "e66fcf49a05b00d828f6623cca4564308fdd39d88e5b316a7e10678edf8d070f"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d8c10e8505fc44ca7ad49aa6c25face8",
+        "Key": "b962c9ce7840b68a06cd5957b5bfa6adad4c2e26bcbacc0379943a4ead95a2ff"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "abc2daae0e2d927355092b04986861e4",
+        "Key": "4a93cfadc9624ace11892ba3a19d8d2ff3ae25d575ef5285d6cf1e81647c6d76"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "64c33ad1fce955632f77fd9b51fb2fad",
+        "Key": "ef2fab8f8dca9d39471836df9038ffac79a3d2e72ea3114ba2928752fa92cc07"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "754433ac7c6edfe5ededd65e23f6e76c",
+        "Key": "44878c87489c3c8d40ac49a882765a0e18367fb534f46b3aad0c31db0ffe5569"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "f3555ef59a40dee7fdd17289361f883b6b559dacc13d175de170619ed31066f9aede0b2e65cb04e2d301e8d9779e8806"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18E5186a": {
+    "Version": "14.5 beta 5",
+    "Build": "18E5186a",
+    "Device": "iPad13,2",
+    "Codename": "AzulESeed",
+    "Baseband": "2.04.07",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterSeed/fullrestores/071-19436/8B7E6803-ACEF-4A9F-8207-B4917C01E25F/iPad_Fall_2020_14.5_18E5186a_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-24633-020.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-25062-021.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-24878-022.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d84c37e248dc929a5b053ae8663a21e7",
+        "Key": "88f0325e2c8703e52220d43cd27248d766c68200641a12ebfc8d05a590a35bf8"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1cdb143b0860ad65713049b2fd4588dd",
+        "Key": "cdcdff48945f7d51882b6ed8f8ad348c75b8b6754e9f37dcac087660eb9b557d"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3fa07b8d5a0d2a2b749a479a2e0cdde9",
+        "Key": "10c33760fffab110c2f528f191e54733421ceeab374a40a8608e63692d571a11"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ac1336382589e0305baeb57b5f6eb5aa",
+        "Key": "ec5510891ed0bca06e2a815278fadc0eed50e23f941930bd28c409a705a5d3b9"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7a1f2764e4189d25249a806cddb32de5",
+        "Key": "9515e35a993b52da9701c85e91980a8a05fdb651fc2fc5a9b3cc356dc156fccb"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "4b1753e55003904f15584fde60ff056272c612a4e9abd71175f1567297764751f7794e4adfbed6ea61e0df028a4586b0"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18E5194a": {
+    "Version": "14.5 beta 6",
+    "Build": "18E5194a",
+    "Device": "iPad13,2",
+    "Codename": "AzulESeed",
+    "Baseband": "2.04.07",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterSeed/fullrestores/071-24397/4A0D1ABF-B1CD-4FE6-B7C5-C951B36B750A/iPad_Fall_2020_14.5_18E5194a_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-24633-026.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-25062-027.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-24878-028.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "99d5a68001078d2dd409dc0a9e907ef4",
+        "Key": "4c8566d848245c0a318586e75201f1bad726256b23449816adfd1ef41bba7755"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "654e2a09e27cae54eea00e08a3eb1293",
+        "Key": "52feacf8d6ca3dd7d0845810b28b5e0895a48d99f0caed6f1889f579ae85211c"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3d3f4796cb810c48ad0f8a1c985e3d9e",
+        "Key": "b4131e5e6baf26eb4013446c9350b616d166be20e53c5bbe32a4921a79205d92"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d5a19eafdbe0f9bf36acee57142f701a",
+        "Key": "d886d61bc040cd9472df75474b3c3dfc6cc257435fb21e9e4bfda5c3c086bd37"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "59cb7bf7695d29b13dbdd934d007106c",
+        "Key": "2fc4bbb19f30948723155d5a9ed9b2a090fdc5cb395cb3863722b719fceb6ca3"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "730b5303479b2ede5b9e947bad1821f232c367644edf87ccb355f9e4816646ed58f0797fbc25f646bddcfec9a9b094e8"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18E5198a": {
+    "Version": "14.5 beta 7",
+    "Build": "18E5198a",
+    "Device": "iPad13,2",
+    "Codename": "AzulESeed",
+    "Baseband": "2.04.07",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterSeed/fullrestores/071-27050/2511F5BF-3DFB-4ADE-875F-E38611861964/iPad_Fall_2020_14.5_18E5198a_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-24633-028.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-25062-029.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-24878-030.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "99d5a68001078d2dd409dc0a9e907ef4",
+        "Key": "4c8566d848245c0a318586e75201f1bad726256b23449816adfd1ef41bba7755"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "654e2a09e27cae54eea00e08a3eb1293",
+        "Key": "52feacf8d6ca3dd7d0845810b28b5e0895a48d99f0caed6f1889f579ae85211c"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3d3f4796cb810c48ad0f8a1c985e3d9e",
+        "Key": "b4131e5e6baf26eb4013446c9350b616d166be20e53c5bbe32a4921a79205d92"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d5a19eafdbe0f9bf36acee57142f701a",
+        "Key": "d886d61bc040cd9472df75474b3c3dfc6cc257435fb21e9e4bfda5c3c086bd37"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "59cb7bf7695d29b13dbdd934d007106c",
+        "Key": "2fc4bbb19f30948723155d5a9ed9b2a090fdc5cb395cb3863722b719fceb6ca3"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "730b5303479b2ede5b9e947bad1821f232c367644edf87ccb355f9e4816646ed58f0797fbc25f646bddcfec9a9b094e8"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18E5199a": {
+    "Version": "14.5 beta 8",
+    "Build": "18E5199a",
+    "Device": "iPad13,2",
+    "Codename": "AzulESeed",
+    "Baseband": "2.04.07",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterSeed/fullrestores/071-28295/5E0143EC-DAEA-4DEC-AEF7-EB491BE074F2/iPad_Fall_2020_14.5_18E5199a_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-24633-029.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-25062-030.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-24878-031.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "99d5a68001078d2dd409dc0a9e907ef4",
+        "Key": "4c8566d848245c0a318586e75201f1bad726256b23449816adfd1ef41bba7755"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "654e2a09e27cae54eea00e08a3eb1293",
+        "Key": "52feacf8d6ca3dd7d0845810b28b5e0895a48d99f0caed6f1889f579ae85211c"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3d3f4796cb810c48ad0f8a1c985e3d9e",
+        "Key": "b4131e5e6baf26eb4013446c9350b616d166be20e53c5bbe32a4921a79205d92"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d5a19eafdbe0f9bf36acee57142f701a",
+        "Key": "d886d61bc040cd9472df75474b3c3dfc6cc257435fb21e9e4bfda5c3c086bd37"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "59cb7bf7695d29b13dbdd934d007106c",
+        "Key": "2fc4bbb19f30948723155d5a9ed9b2a090fdc5cb395cb3863722b719fceb6ca3"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "730b5303479b2ede5b9e947bad1821f232c367644edf87ccb355f9e4816646ed58f0797fbc25f646bddcfec9a9b094e8"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18F5046e": {
+    "Version": "14.6 beta",
+    "Build": "18F5046e",
+    "Device": "iPad13,2",
+    "Codename": "AzulFSeed",
+    "Baseband": "2.04.07",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021WinterSeed/fullrestores/071-19095/EA69F969-B1F2-465A-9EBD-FFD16F07781E/iPad_Fall_2020_14.6_18F5046e_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-31392-012.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-31801-018.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-31479-018.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "033cb58e8a4fe45a38f6e4cbe4a7a77d",
+        "Key": "448884236297176469218a3b8144f78b7d494d230d83ba08dca823daa72efa97"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "660a6f7ac232bfaeba789a570729e812",
+        "Key": "50bb4237e62546e94a350ca88638b4843b36b2ac6f5ff6a490bb928fab5f7344"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c76dd7000b595ad7765f9a206811fd82",
+        "Key": "210e4dfd60b29b5f66d809180f13bab1aad1f26f02a3f63d8527b64edb4376fe"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "01bdd061aadd5f9f730a63f736544820",
+        "Key": "62bb62789cc9aa13971024a2d051f791d6ab90178c31fe40f48b0bbdf75d9f97"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b2d78102ad10737728a1f753b9178a13",
+        "Key": "db8aa3702748bf233bafd4aa326bf1a49f34f1abacd0eba2723544d580c5e91f"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "bd8b71013531f60621b89604a95e2f18dfc7fe24bc5f6d6ca591fa0dad7a65ca18698b5bc1c10f16e7d928c3de8cc56f"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18F5046f": {
+    "Version": "14.6 beta",
+    "Build": "18F5046f",
+    "Device": "iPad13,2",
+    "Codename": "AzulFSeed",
+    "Baseband": "2.04.07",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SpringSeed/fullrestores/071-29516/8CDDD1F5-99F6-4337-A882-BCCFAD13EC9D/iPad_Fall_2020_14.6_18F5046f_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-31392-013.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-31801-019.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-31479-019.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "033cb58e8a4fe45a38f6e4cbe4a7a77d",
+        "Key": "448884236297176469218a3b8144f78b7d494d230d83ba08dca823daa72efa97"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "660a6f7ac232bfaeba789a570729e812",
+        "Key": "50bb4237e62546e94a350ca88638b4843b36b2ac6f5ff6a490bb928fab5f7344"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c76dd7000b595ad7765f9a206811fd82",
+        "Key": "210e4dfd60b29b5f66d809180f13bab1aad1f26f02a3f63d8527b64edb4376fe"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "01bdd061aadd5f9f730a63f736544820",
+        "Key": "62bb62789cc9aa13971024a2d051f791d6ab90178c31fe40f48b0bbdf75d9f97"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b2d78102ad10737728a1f753b9178a13",
+        "Key": "db8aa3702748bf233bafd4aa326bf1a49f34f1abacd0eba2723544d580c5e91f"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "bd8b71013531f60621b89604a95e2f18dfc7fe24bc5f6d6ca591fa0dad7a65ca18698b5bc1c10f16e7d928c3de8cc56f"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18F5055b": {
+    "Version": "14.6 beta 2",
+    "Build": "18F5055b",
+    "Device": "iPad13,2",
+    "Codename": "AzulFSeed",
+    "Baseband": "2.05.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SpringSeed/fullrestores/071-30626/DAF4B5B2-34AD-4D8D-B85C-38677D0CB53F/iPad_Fall_2020_14.6_18F5055b_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-31392-016.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-31801-022.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-31479-022.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7060ac386e40d507e9e5c883af70db17",
+        "Key": "106acee263e2825cf9297fe6aef55423b8c2c2fd0ed097b906db5767f0d7186d"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "afa1351916fd7e56d02a633fa66a4ae7",
+        "Key": "af313bcd73dba4e1bec7eeac79369da1c5b705a89ecf2d3a3b03211275c069d8"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "05754da2f1b68f13dc05984edffc1f73",
+        "Key": "3da0e01596198e7ab1609910d3cc42fc3a672dd5c955b6f3343bcb42806779b9"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "047d2cdbe5d45bd23d76b7d7e5ed0583",
+        "Key": "2dde398ad5ccae8c30aae95d06a67f4672cd72f7c5bc0af205c9a451c17a7ec9"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6d6914b7a1c7e80833a34f1cda5f0bef",
+        "Key": "f464ac73b89a805695ddd347357275d635411e69b79beecb5ecc04ae9596c55e"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "6a84682e5e2023ecbdd410c8d680dd17086d99b2ba5769c036be3e999193d3db0c3c324f1820b252cebe8d25db1fb560"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18F5065a": {
+    "Version": "14.6 beta 3",
+    "Build": "18F5065a",
+    "Device": "iPad13,2",
+    "Codename": "AzulFSeed",
+    "Baseband": "2.05.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SpringSeed/fullrestores/071-39941/9F5A52F4-16BC-40FB-AB42-BE182F98C1C0/iPad_Fall_2020_14.6_18F5065a_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-31392-021.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-31801-027.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-31479-027.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "30936b8cd7eede4300ed4e700e2c4b39",
+        "Key": "08a569ccb390b0aad36a670470afa859cee36a20550e4507ce771ef4248de256"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e363483ad1c03e082aa50f69904b05f1",
+        "Key": "d04b1c24dda21bdf8ca5144b2e464f84491e83a1c9cf6ee02928ee85bf7ac3e5"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "57d4201130fb6055dd57036cb827bfe6",
+        "Key": "1166fcc5a89ef4c30547cba9b2c7a5fe5a63760ede7b0dd5a7858dbf7ba5fb93"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cf1f06fdbfb42e2a45301a885397ca67",
+        "Key": "075bf53caa3af177c2d326bb1af8c487bf3f6bce243c9afe08b0061daae6a18e"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "70019bd4c9dbf02fd51beb2e852fe89a",
+        "Key": "9524c67baee316ed26ecb7927093c77f4b551da5290e3b68d51930d0789c0b75"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "96f83ad5b9390909e708dbaa4807542b6bbe2bc0dc10657c3a5d265b482488771ec06a4486c0572796de9907a7b56c91"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18F71": {
+    "Version": "14.6 [[Release Candidate|RC]]",
+    "Build": "18F71",
+    "Device": "iPad13,2",
+    "Codename": "AzulF",
+    "Baseband": "2.05.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SpringFCS/fullrestores/071-43586/6D3EAE07-F054-4378-8BA5-67C3C9D3B801/iPad_Fall_2020_14.6_18F71_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-17865-086.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-17913-089.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-17562-088.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4842f206dc2170a75efa06414c27e26b",
+        "Key": "7c9050ea25f0ae0831276742ac3dde85efa3cc74de364cc7ef3037ad39dbe57d"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d82bcced2f7c08407aa45861e7442d49",
+        "Key": "d6e408c89da92fd2415ef92aca06aa40269ff207693b4c3ac2b4778dc6193364"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f3c527c35239441cf1278399d3d97b6a",
+        "Key": "0ca1e304e81370bd376eeea72dd60e51bf0f18d55e536baacf050f9e4688c405"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "96f42cffdc0d0606f9d0ec10ac5f89a4",
+        "Key": "fa481a17497c01a20c13afd0f8b362557cafb892e3a821118a395a19e3bd79cc"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c7697aec2272b6c2ba9a22bb6bb432c9",
+        "Key": "2c5bf0fa08001055f99c8924b7761d46c0be68d276a390df7088081c007d7de0"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "be0be3f1be60efd5a6f09988986ec0d29efe3418054a4331cb499e8c1bce25d59247301549889a3826f032ddff7125b5"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18F72": {
+    "Version": "14.6 [[Release Candidate|RC]] 2 and 14.6",
+    "Build": "18F72",
+    "Device": "iPad13,2",
+    "Codename": "AzulF",
+    "Baseband": "2.05.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SpringFCS/fullrestores/071-45334/20FC9D85-2A43-4FC8-B6E2-CD2CEEAC98FC/iPad_Fall_2020_14.6_18F72_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-17865-088.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-17913-091.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-17562-090.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4842f206dc2170a75efa06414c27e26b",
+        "Key": "7c9050ea25f0ae0831276742ac3dde85efa3cc74de364cc7ef3037ad39dbe57d"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d82bcced2f7c08407aa45861e7442d49",
+        "Key": "d6e408c89da92fd2415ef92aca06aa40269ff207693b4c3ac2b4778dc6193364"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f3c527c35239441cf1278399d3d97b6a",
+        "Key": "0ca1e304e81370bd376eeea72dd60e51bf0f18d55e536baacf050f9e4688c405"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "96f42cffdc0d0606f9d0ec10ac5f89a4",
+        "Key": "fa481a17497c01a20c13afd0f8b362557cafb892e3a821118a395a19e3bd79cc"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c7697aec2272b6c2ba9a22bb6bb432c9",
+        "Key": "2c5bf0fa08001055f99c8924b7761d46c0be68d276a390df7088081c007d7de0"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "be0be3f1be60efd5a6f09988986ec0d29efe3418054a4331cb499e8c1bce25d59247301549889a3826f032ddff7125b5"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18G5023c": {
+    "Version": "14.7 beta",
+    "Build": "18G5023c",
+    "Device": "iPad13,2",
+    "Codename": "AzulGSeed",
+    "Baseband": "2.04.06",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SpringSeed/fullrestores/071-36448/EAF3F6E2-4CE6-45DB-A9B7-3E53BB71D8DE/iPad_Fall_2020_14.7_18G5023c_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-42755-008.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-42983-009.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-42720-009.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ca4f0b10ccff82e12bc57d515808116a",
+        "Key": "f80c1ceb01c8bbbc12c692717b39dad7d881daf8bff3b17947633f56fd205ce5"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7fbeaa414e19809e89799c497c9e14d5",
+        "Key": "166f74714ab04a5e3231357661086035d59d478d6dd1dc71042ccb0ce086c3a2"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9a89a0d14a29610b48cd54d8f9ce8e11",
+        "Key": "7d7c436c819f089baca736d745edb45ddf5e06326c7300f09eecfa20ed1b7094"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5e26dd26c78fa0f929c6b320cceca0ba",
+        "Key": "8f69d58dc3ca972dcb39a9eb12981d30829da25d32b1adda366690393436c9ee"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "52829f32c2a952782f0b2596540de7a8",
+        "Key": "fef3fdff25343c5c458dd14cc9cfedd7acef81d6a821e61accb219970e7ac763"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "98edead94570c44c645d59cab87621724543e03fc0a51a70ae37d3abfe2b5c8de9a7866bac7f997338ed9f4734780d49"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18G5033e": {
+    "Version": "14.7 beta 2",
+    "Build": "18G5033e",
+    "Device": "iPad13,2",
+    "Codename": "AzulGSeed",
+    "Baseband": "2.04.06",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SpringSeed/fullrestores/071-49484/5CBF786B-6AC9-498A-9C0E-E144941A2599/iPad_Fall_2020_14.7_18G5033e_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-42755-014.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-42983-015.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-42720-015.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "325aa2c6e8211185236e12d9cd286dc0",
+        "Key": "8a35c2ce11162c970093bb9963d71f7eaab5b5010f1148cb317f6b7538d48d4c"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0d72232c4e4f92a707c13d7be40542d7",
+        "Key": "8d4ebfc24d1efe880d6155571bc217353b1f6227a07da35064d20a259cf0407b"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5a448d7c11d90504f332fac6b3d3e8a3",
+        "Key": "2d5ea586634042c197398ff6d722d0970d25598d44f8efaa2df8234d331555c1"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "64e0d9f161c5aae4243a836c8a0e54b7",
+        "Key": "5d80d7b0f89bef85a11edfd94d260ffd7b00bea3d363fd549ab553c0eca83a17"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "819e79c063042623491a987e39f0e1c1",
+        "Key": "b0301f5686d15df2485f79134b77c1830dd9d9f3c9334daaed18c79b7cbb2896"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "adf523a011ed3d963ac7bec5f023c816fb1545515b78498ee32b898c250f55cb1f4e4979be37bdbce585f2ec6cb24e94"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18G5042c": {
+    "Version": "14.7 beta 3",
+    "Build": "18G5042c",
+    "Device": "iPad13,2",
+    "Codename": "AzulGSeed",
+    "Baseband": "2.05.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SpringSeed/fullrestores/071-54838/5E70D0C1-1D47-4CCB-B128-BF4A48DA1997/iPad_Fall_2020_14.7_18G5042c_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-42755-017.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-42983-019.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-42720-019.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "eaae694b96193cab862b8d49e58358db",
+        "Key": "6e7eff40f6513fa7b85fa14f0d20ccb8911482d88d4e27dcd97812441806300e"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ad08d6f5df9c86743797555851a076ce",
+        "Key": "fbf8a618fda2c15372e1a2c93fc51739ca0508d6e9b5d01a405931ff7762ef37"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "88220cce234ad819fcd1723bf46a8567",
+        "Key": "f733219ec83cef7644da240a36c35951eb922bea1734c3073f58fc857f8b969d"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "870a80267597fd962cafb16429fcac62",
+        "Key": "6755d2cee3a2cbf2718859afbd3e8d6f55b5e0aa8f9562ba647bb5c92ca22ef7"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4a55ee9eb08f661cddd4175cd93cd5e9",
+        "Key": "137409548afbc75bd172104cee73ac5500bbc87e0b066be38992ef7a081aee89"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "0bcefe176cf9bd12c78540914141329ec719cb225ff39530fbd69e3ab897fdc0c2c5e1232efb3f6edfedc34a11895825"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18G5052d": {
+    "Version": "14.7 beta 4",
+    "Build": "18G5052d",
+    "Device": "iPad13,2",
+    "Codename": "AzulGSeed",
+    "Baseband": "2.05.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SpringSeed/fullrestores/071-60089/538D73A8-99C2-42F7-B79C-777D65C53E29/iPad_Fall_2020_14.7_18G5052d_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-42755-023.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-42983-025.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-42720-025.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6296d627f9cc12e912274de771838f6b",
+        "Key": "4a1328e9da27bad3b22994fc1dc3ab0da5d56788738276bed9a148a577457a53"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "19ad8478ee9b1b971fbdf821099580fd",
+        "Key": "66a911c71ba7174ed2a9c660306885c7ad0056600704cc317a1f436a941f240e"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "81ceadd93f34e8d97fbb1bacb9301466",
+        "Key": "75b0355af7c2d3007277084566ffe592c806f3da064559ad61c30be9e801f937"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f83143a68fb696a6e41ec8e67813ff40",
+        "Key": "ae100ef08de9b8ad4087844bc687741eba50c627478a5a212248990014938fc6"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9d1737f6622ca5e8d3eb0f557467f81a",
+        "Key": "105962cf9b99e37931c54483ce0f577b119c00639e62292b77bff2dd337eb773"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "a9ff33bbdc8d3bb11f3c691bcabaefa647c64eb79f225d43a254d586c64cdb770b43778d865324fe4e443b015835379a"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18G5063a": {
+    "Version": "14.7 beta 5",
+    "Build": "18G5063a",
+    "Device": "iPad13,2",
+    "Codename": "AzulGSeed",
+    "Baseband": "2.05.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SpringSeed/fullrestores/071-66390/550C5DD9-CF6B-43D4-B18E-A958BA86AEC4/iPad_Fall_2020_14.7_18G5063a_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-42755-027.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-42983-030.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-42720-029.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e84689e180b8575b1fff59cf2d769bc1",
+        "Key": "e732c0efc804fe201180a43391e51a6c2aed57e2fb161ddb6d7a77f331d187d9"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "61f57830e01c7865e6f694897f523ceb",
+        "Key": "397e0f5d3cf671f90d521deca2ed07711488922d8d29cd702c4c411b898985eb"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0b51e984b28d0da179fc288276102f61",
+        "Key": "cfa9c6a0b45516eac11c25d8f62b37cad2b5f7f6f8cd0ec2861dad096e3611a9"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8826a2ccd6619946036eb461af7825d3",
+        "Key": "ad5a04725393776d50dfe9056bf911473977d12683875527d07755978d2d0581"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c609b6056b96a29945e12c174d675355",
+        "Key": "40f53eeb3333383e3f1ac8caf9df3e835d9fe71004ff142a6e1f92328531cd90"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "7c5acf6b0a592cb10f0483f8dcaa6ce3cee63243f03bc3b51c108b20e3f420ee97ee5c321e68f8d633f5d9f66f9d42ae"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18G68": {
+    "Version": "14.7 [[Release Candidate|RC]]",
+    "Build": "18G68",
+    "Device": "iPad13,2",
+    "Codename": "AzulG",
+    "Baseband": "2.05.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SummerFCS/fullrestores/071-69595/A1C1F2C5-2335-446A-B8ED-F6B4EE6B42CA/iPad_Fall_2020_14.7_18G68_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-60256-002.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-60452-002.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-60262-002.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "07b6ba45812938b2862827c9b8a0b54d",
+        "Key": "62070c60df633f9e3a01da8011a72b0768415dfa3994c8cd2b40e427a2aa9dde"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2b9d042f405e602f1b9cb535e68cf59f",
+        "Key": "3a7d986f97edfa5dd0d432fd5c9e910f79554c27331f3bcfbe73558af96b7d80"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e9bb6f252865d981718c632fa902a95a",
+        "Key": "e4332d41a6d58380d8f0f1e5b1a5df441f6308958c506dc881ac3a32563aa83c"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f79ff1de8bf268fe0cdd11e67c1f53ab",
+        "Key": "6a765df873793930e7d9f6f82618f205f5782400d0a35f205db6cee0449a0495"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4112eb1232f348db9c6ca4e6e310d278",
+        "Key": "ae2fed9848e20f34a556305d66281305c67ea5b961b7bea0db1f4eef3c3cead7"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "d9b983bbca898d350f89e819bb20736407decb6afd378ea8c6bc4f00b0888b0eeb4e98a0661c849e5afb852140a93dcb"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18G69": {
+    "Version": "14.7",
+    "Build": "18G69",
+    "Device": "iPad13,2",
+    "Codename": "AzulG",
+    "Baseband": "2.05.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SummerFCS/fullrestores/071-71170/426627CB-709B-44CE-AD6D-C70023C6117C/iPad_Fall_2020_14.7_18G69_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-60256-003.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-60452-003.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-60262-003.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "07b6ba45812938b2862827c9b8a0b54d",
+        "Key": "62070c60df633f9e3a01da8011a72b0768415dfa3994c8cd2b40e427a2aa9dde"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2b9d042f405e602f1b9cb535e68cf59f",
+        "Key": "3a7d986f97edfa5dd0d432fd5c9e910f79554c27331f3bcfbe73558af96b7d80"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e9bb6f252865d981718c632fa902a95a",
+        "Key": "e4332d41a6d58380d8f0f1e5b1a5df441f6308958c506dc881ac3a32563aa83c"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f79ff1de8bf268fe0cdd11e67c1f53ab",
+        "Key": "6a765df873793930e7d9f6f82618f205f5782400d0a35f205db6cee0449a0495"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4112eb1232f348db9c6ca4e6e310d278",
+        "Key": "ae2fed9848e20f34a556305d66281305c67ea5b961b7bea0db1f4eef3c3cead7"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "d9b983bbca898d350f89e819bb20736407decb6afd378ea8c6bc4f00b0888b0eeb4e98a0661c849e5afb852140a93dcb"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18G70": {
+    "Version": "14.7",
+    "Build": "18G70",
+    "Device": "iPad13,2",
+    "Codename": "AzulG",
+    "Baseband": "2.05.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SummerFCS/fullrestores/071-72349/2FCEAC2B-9E5E-46FF-B1E1-CD33500800DD/iPad_Fall_2020_14.7_18G70_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-60256-004.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-60452-004.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-60262-004.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "07b6ba45812938b2862827c9b8a0b54d",
+        "Key": "62070c60df633f9e3a01da8011a72b0768415dfa3994c8cd2b40e427a2aa9dde"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2b9d042f405e602f1b9cb535e68cf59f",
+        "Key": "3a7d986f97edfa5dd0d432fd5c9e910f79554c27331f3bcfbe73558af96b7d80"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e9bb6f252865d981718c632fa902a95a",
+        "Key": "e4332d41a6d58380d8f0f1e5b1a5df441f6308958c506dc881ac3a32563aa83c"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f79ff1de8bf268fe0cdd11e67c1f53ab",
+        "Key": "6a765df873793930e7d9f6f82618f205f5782400d0a35f205db6cee0449a0495"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4112eb1232f348db9c6ca4e6e310d278",
+        "Key": "ae2fed9848e20f34a556305d66281305c67ea5b961b7bea0db1f4eef3c3cead7"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "d9b983bbca898d350f89e819bb20736407decb6afd378ea8c6bc4f00b0888b0eeb4e98a0661c849e5afb852140a93dcb"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "18G82": {
+    "Version": "14.7.1",
+    "Build": "18G82",
+    "Device": "iPad13,2",
+    "Codename": "AzulG",
+    "Baseband": "2.05.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SummerFCS/fullrestores/071-73635/E88291B7-63B2-42D7-BD75-510AA7B86490/iPad_Fall_2020_14.7.1_18G82_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-60256-007.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-60452-007.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-60262-007.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "59f6f956a64afddefd03da4091da26c7",
+        "Key": "0d75b2f04d2e58a269e64d82fd7bd0f0cf1d2d0cf13fb84a0f7ef4e92a370d88"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "325d26dd0d3a5801db4cdd939cd63e03",
+        "Key": "2d97c3a44159077d93ca84f4660b29a3cb50de60b4d7bf776e179527aa31b4e3"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c72a5320b9604aba02a418009486b415",
+        "Key": "fc9cfb32520dd689969bf852940e820b532147f109452a513b60d2358b5788fb"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a77544883cb10a6dd840d632c7719d9c",
+        "Key": "f2cb0aa58d5302324aa77a6be53fa6a7632e58dafb3a8df82fe3866fe305a2e1"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c560d7b581c0104eec4b8e9b92be6679",
+        "Key": "52d6313a2a372529cde599c5cccae28164e7bcb2b2016784320451fbd09f9702"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "877838d313ec3a9060f0e39aad84649fe51c317d474392faa526e873fce4052d28726be7f13824cec58d76ff925f6d23"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "19A5261w": {
+    "Version": "15.0 beta",
+    "Build": "19A5261w",
+    "Device": "iPad13,2",
+    "Codename": "SkySeed",
+    "Baseband": "2.50.04",
+    "DownloadUrl": "https://download.developer.apple.com/WWDC_2021/iPadOS_15_beta/iPad_Fall_2020_15.0_19A5261w_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-22311-060.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-22499-084.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-22466-084.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "902396431a46c242ccc7055b9007fee6",
+        "Key": "1e550392e1781c5ad520609f91b73087aad465342c84b41b76df635ae557377a"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c83262e6964f925883cc2e7db47c0354",
+        "Key": "e8c404cccd3ce3430809a8b2b2bcc661b9fe7ceb05c5a2e58d779d14be57e69c"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "87bb654cb29ca16f6a7ce00c2e09f888",
+        "Key": "d16d9ce3b2182ebf3b9bc951de23aec7f386a89fdd8a3fcc5a1b3a1880bf3724"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2b5c796274211a242689a50e421cedec",
+        "Key": "37be4ac44d842ac77a8c59c0aa10a64a911932115dd84f4c8d5ba02a5f068899"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "046528fe792269aa7936e38df6467fb5",
+        "Key": "f93d97bf1a8a54a640eb1f4b433c767e0c66266950fe95c748781dda60ea2bf0"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "f6e5e4ee120301018703b56482f8671900fda5863b3bd31f5772268caad31d5aed9f0a69373cb1be6f2f616ac2ebe865"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "19A5281h": {
+    "Version": "15.0 beta 2",
+    "Build": "19A5281h",
+    "Device": "iPad13,2",
+    "Codename": "SkySeed",
+    "Baseband": "2.50.04",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SummerSeed/fullrestores/071-59186/4BAD29FF-CE5B-46DB-95C5-E3F16CCA3F4F/iPad_Fall_2020_15.0_19A5281h_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-22311-070.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-22499-094.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-22466-094.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "eae57e118a403c3dc2852eb5c7d0ad2a",
+        "Key": "ab6107108e69ed8447c77fd3577d5ddeaeac61d149ba0b2071f33493e35842df"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1dec6c2345fe9fa7de4cf099b1f999d9",
+        "Key": "7c8198b53ac34c20f0b2acbb2e58586abb5f0526d31703bc6302347cf915d88c"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "01898a24c7f0d7b1d9d8bcc0e46994c4",
+        "Key": "bc438d0f791cdbc4ecf65688f561c01989032392012a07cebd0bba37078410e6"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b0c3355aaa335792dc0394952111a4b4",
+        "Key": "6d3ce162cf8f5583e0f7ec18fc5f03ef764171c7c0001e30ea3f41e0a0036de4"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e1122d08781a04d7da064549582e6bb0",
+        "Key": "c64c577ee4b658a1edc14c9a2d3f432e5792a933ccbcb4bb8827b046610f555d"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "b7efb5fd96569adaabfcdc6c61bfb79a6a1debea926179d0d7ebd57af1481c6a2acb8e5ac77c1ee79ee71dcb4fa46ed5"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "19A5281j": {
+    "Version": "15.0 beta 2",
+    "Build": "19A5281j",
+    "Device": "iPad13,2",
+    "Codename": "SkySeed",
+    "Baseband": "2.50.04",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SummerSeed/fullrestores/071-61614/5811C441-D88B-4F2B-8820-5C70381EDE44/iPad_Fall_2020_15.0_19A5281j_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-22311-072.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-22499-096.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-22466-096.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "eae57e118a403c3dc2852eb5c7d0ad2a",
+        "Key": "ab6107108e69ed8447c77fd3577d5ddeaeac61d149ba0b2071f33493e35842df"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1dec6c2345fe9fa7de4cf099b1f999d9",
+        "Key": "7c8198b53ac34c20f0b2acbb2e58586abb5f0526d31703bc6302347cf915d88c"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "01898a24c7f0d7b1d9d8bcc0e46994c4",
+        "Key": "bc438d0f791cdbc4ecf65688f561c01989032392012a07cebd0bba37078410e6"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b0c3355aaa335792dc0394952111a4b4",
+        "Key": "6d3ce162cf8f5583e0f7ec18fc5f03ef764171c7c0001e30ea3f41e0a0036de4"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e1122d08781a04d7da064549582e6bb0",
+        "Key": "c64c577ee4b658a1edc14c9a2d3f432e5792a933ccbcb4bb8827b046610f555d"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "b7efb5fd96569adaabfcdc6c61bfb79a6a1debea926179d0d7ebd57af1481c6a2acb8e5ac77c1ee79ee71dcb4fa46ed5"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "19A5297e": {
+    "Version": "15.0 beta 3",
+    "Build": "19A5297e",
+    "Device": "iPad13,2",
+    "Codename": "SkySeed",
+    "Baseband": "2.50.05",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SummerSeed/fullrestores/071-63227/B9F40759-307E-4D8D-BB8A-3811BA353A4F/iPad_Fall_2020_15.0_19A5297e_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-22311-078.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-22499-103.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-22466-103.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4f982bade604395f5c3e716ed8693433",
+        "Key": "ea8cf5fc5833d5e600b0412391294e24b64f16f2dea6d0301e0ad37ef06aedc5"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "65c49ff5cc7ea9d25f487ac35992d710",
+        "Key": "2e4cbc3242158fa78ab536fc5e3ea34393ce230556b27693f3e364930dd2b1f3"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1a99f1905e5ecc665b64129a41777a93",
+        "Key": "f2c005dbc583604bbf0006bed04da69c27006c891d9050d03192349083ff071a"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "89dd0cc36d7ca0dfc6b1223555504907",
+        "Key": "7a16dd971f840b39fe5d03a9fd2189a9b72192ce2b078874802e66a1bf923a8d"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bc51a832d8fd0a8f63897fb4178113ea",
+        "Key": "27600e474dc4a793f32ac0cf89910ec91395b1545a9145f8fea5214475b8dafe"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "3e6c3c9d15dec04e51013ab47b5417e786e02849c40e4d9eb3aaa7bc203705a4773663cc22932f1c63a4628cb1fa39d6"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "19A5307g": {
+    "Version": "15.0 beta 4",
+    "Build": "19A5307g",
+    "Device": "iPad13,2",
+    "Codename": "SkySeed",
+    "Baseband": "2.50.05",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SummerSeed/fullrestores/071-75996/2F0CA3F6-21FA-4B5D-BFFE-21CBA3F9F193/iPad_Fall_2020_15.0_19A5307g_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-62628-008.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-62538-008.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-62624-008.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b3696bd105d14f7d0a7fb4f3a473804b",
+        "Key": "812288d607b3620dd005854d860b1a63a4dfc64c259fc6a35e4dc962f0259bb7"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fb916ff67e9ea7367d2ebdffab02dc5f",
+        "Key": "29c0db4a86d463f7fc69a5fd0095ef2344e251244f9d6e6fa345aef82a5945ce"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1b470d7972274e8d948b9d9cce5c0bf0",
+        "Key": "3ab1ac937bec19df4aba74d4e03354a84c9daa5e878156a2ae7d03138a66dd3c"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "79cb575c371d2e47a735a645cab29d11",
+        "Key": "61e308c23cdae3cb65eaef712a0230d095b106f098b6a8b4c328394b30d5c3ee"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "785bcf154ee2fdf259a26aeb111584a3",
+        "Key": "d3444a1bbbe75e8708f2f66f0e2a3bb1083dfa0fada84b82fac12a769a14dedd"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "a87f6e431859a444911a2960c8eb4210f326039fb4d8fb029fc816807c1ec78eccd3dcc0865dc9d964b419a264efa747"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "19A5318f": {
+    "Version": "15.0 beta 5",
+    "Build": "19A5318f",
+    "Device": "iPad13,2",
+    "Codename": "SkySeed",
+    "Baseband": "2.50.05",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SummerSeed/fullrestores/071-79951/F91F1475-9EF2-46B8-ABEF-F497A0E90D3C/iPad_Fall_2020_15.0_19A5318f_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-62628-017.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-62538-017.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-62624-017.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3a275b7b09266facfc1c239d977b7a4b",
+        "Key": "0b5ccec55bf36bb80c575fd58962b9370a157d85c0f954edc6e08093d29751d4"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "48d74835fb5b8de51b58c0b051769b0b",
+        "Key": "6fa32311d170029dfd9d9503d6d5713b1024363515ef41e37b249781ca02af06"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cbce8fd73759a7c7b9898657cca2e1dc",
+        "Key": "0313c3b89ec6c0e2e7c0a2e62f0144af6f19812e3436fc51065af30540182a0c"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7a6684d90f6870e87ce88ff21d8b78c5",
+        "Key": "75afeb06bea57a6a783e72520f934d604811309030de9354b316b6d5dd2b0744"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "991a1f819801ca30c51513ee27ef0bcf",
+        "Key": "73623450f3a5c5224259bcec5be9fa0c46089923594680c5a83fcce719ce0790"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "0af6bf4493891bfaa27328477360bb49c220e3c0cfa708b9b1fd61cf9d1e0b743b0a0ae5b3f27c317ac617d29833f65a"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  },
+  "19A5325f": {
+    "Version": "15.0",
+    "Build": "19A5325f",
+    "Device": "iPad13,2",
+    "Codename": "SkySeed",
+    "Baseband": "3.00.00",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SummerSeed/fullrestores/071-84686/B346F4E9-03CA-48A6-9708-17CDBE73152F/iPad_Fall_2020_15.0_19A5325f_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-67143-006.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-67264-007.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-67123-007.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h13_ane_fw_styx_j30x.im4p",
+      "Encrypted": false
+    },
+    "ANSF": {
+      "Filename": "ansf.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad13paop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H13.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g13p.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2360~ipad.im4p",
+      "Encrypted": false
+    },
+    "DCP": {
+      "Filename": "ipad13pdcp.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j308ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2a221f5dac06ab65c54e5134e279689c",
+        "Key": "9b81bcb3919b281c15b6dbe72c8d5f5fa11ab013a4c47f5bf6cd0c63718f5d12"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "98a813551207596720e556dd23b70d10",
+        "Key": "1315423d2adf20e0c5eb57ee4be013fb7857133726bfdabbfd5238266d8382dd"
+      }
+    },
+    "iBootData": {
+      "Filename": "iBootData.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "efa0b13fe13c5634cc2f2bf51eb8d2f6",
+        "Key": "9dabe1d03ff4e259c996d4431d8db294a8f48a96714b5b1dee9ddc5535870233"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "88712a576be14dc30dadb30319b68d02",
+        "Key": "ce718e8f01f7dbf04d5fb81b961302c3e9cdeee2b90ce52124e2cd29e4002d59"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-pallas-j30x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad13p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ce8fc890762e6a65463a1919e1380b6b",
+        "Key": "546c59a2f2aaaae181bd4d4cfbcef46d990c25c23ee539864f3e9a0d236537a9"
+      }
+    },
+    "MConnector": {
+      "Filename": "mconnector_rev13p.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "J308_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "PMP": {
+      "Filename": "t8101pmp.im4p",
+      "Encrypted": false
+    },
+    "RANS": {
+      "Filename": "rans.t8101.release.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2360~ipad-USBc.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j308.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "ce67937935b521e94986c3d2d93c17a683b605f8a88fad49c785eb1836bf45ecff85a42a2d35ea1945e2b1f024387fff"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv4.im4p",
+      "Encrypted": false
+    }
+  }
+}

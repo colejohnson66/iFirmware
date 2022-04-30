@@ -1,0 +1,93 @@
+{
+  "18R5552f": {
+    "Version": "7.1 beta",
+    "Build": "18R5552f",
+    "Device": "Watch5,12",
+    "Codename": "HunterBSeed",
+    "Baseband": "3.01.03",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020FallSeed/patches/001-36676/2CDB0C3C-1803-4627-B7CB-660BFD3A756D/com_apple_MobileAsset_SoftwareUpdate/63531acd54d6e802d13a0340e98164deef4ccb29.zip",
+    "UpdateRamdiskOTA": {
+      "Filename": "038-78092-020.dmg.image-img4.dmg",
+      "Encrypted": false
+    },
+    "ACIBTFirmware": {
+      "Filename": "BT_FW_m9.im4p",
+      "Encrypted": false
+    },
+    "ACIWiFiFirmware": {
+      "Filename": "wifi_armv7r_m9_rtkit_image.im4p",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_mercury.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-n140aop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@132~watch.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11m.im4p",
+      "Encrypted": false
+    },
+    "Dali": {
+      "Filename": "dali-ui.n142b.release.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n142bap.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.n142b.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "237C0E9BAF8C2B559BEB08F99FD673B371DF67E56F487862D876A49184D27FF375E35658D31C425B66EB23D338523CAA"
+    },
+    "iBoot": {
+      "Filename": "iBoot.n142b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0326ae34313ae82061261b1cfe1b2332",
+        "Key": "1631a6eff46189ab25534b9739fb5005d4dceeaac27c422504bf540048a16068"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n142b.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "1EDD4F831AA9F8637AB3ED7FFD261C06A8D2694B67AE68CD70A60096FDEA77C4D2DC8FFD28592095636C9852E0AC739F"
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.watch5",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.n142b.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "CE76D29AB481A993E6A426974A317BA13FCE4822D2571E900FB3809BCB3540E79246845BB7F5F90809588D8B0DB38FD3"
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@448~watch.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.n142b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "668a4ec73c4b8c6f35e57c0815476bf4",
+        "Key": "f593d248c232f16de2d0957cf9641c3c049028e37687939db35dee3766483658"
+      }
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv2.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.watch4.im4p",
+      "Encrypted": false
+    }
+  }
+}

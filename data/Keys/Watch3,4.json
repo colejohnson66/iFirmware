@@ -1,0 +1,482 @@
+{
+  "18T567": {
+    "Version": "7.5",
+    "Build": "18T567",
+    "Device": "Watch3,4",
+    "Codename": "HunterF",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021SpringFCS/fullrestores/071-42644/1F4CFC98-2077-4C0D-A067-CB3A5B81426A/Watch3,4_7.5_18T567_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-19590-077.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-19106-077.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-19204-077.dmg",
+      "Encrypted": false
+    },
+    "ACIBTFirmware": {
+      "Filename": "BT_FW.im4p",
+      "Encrypted": false
+    },
+    "ACIWiFiFirmware": {
+      "Filename": "wifi_armv7r_m8p_rtkit_image.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-m8paop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@132~watch.im4p",
+      "Encrypted": false
+    },
+    "Dali": {
+      "Filename": "dali-ui.n121b.release.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n121bap.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7e039bf0b18727140d8b2878f5c57606",
+        "Key": "bdba28c69df904135e1a9f73a3a951e808a912711efd7ac04b7cb081487ff958"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a9c01836c5c074b9d408fa495a864145",
+        "Key": "25ecefea92482a1898b0fb63101f6eee963539b4a7bc1923373cdebecb5fe765"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ecd6c608b4ad363aa2d32f9494381d62",
+        "Key": "555e83210ef4679e0429565a696117833013688744a7025d4dfe55d1f11398ae"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.watch3",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "12da77bfaac88cbcbcfea28786b05c67",
+        "Key": "829fc117e9c47998115fe2716a18d954396d711aff1cb7b8a6da70b1819c7588"
+      }
+    },
+    "Multitouch": {
+      "Filename": "N121b_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@132~watch.im4p",
+      "Encrypted": false
+    },
+    "RTPFirmware": {
+      "Filename": "rtpfw.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "47eb9ac513ec0822d06dccedbc7d326fec917c78f1d20af0936fdc548fc8a574ba7d547472fea574a673decf33ea3153"
+    }
+  },
+  "19R346": {
+    "Version": "8.0 [[Release Candidate|RC]] and 8.0",
+    "Build": "19R346",
+    "Device": "Watch3,4",
+    "Codename": "Jupiter",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021FallFCS/fullrestores/071-98581/FFC5D5DA-8DD7-40CF-8E8F-9B0FD55694DD/Watch3,4_8.0_19R346_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-78513-002.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-78482-002.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-78664-002.dmg",
+      "Encrypted": false
+    },
+    "ACIBTFirmware": {
+      "Filename": "BT_FW.im4p",
+      "Encrypted": false
+    },
+    "ACIWiFiFirmware": {
+      "Filename": "wifi_armv7r_m8p_rtkit_image.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-m8paop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@132~watch.im4p",
+      "Encrypted": false
+    },
+    "Dali": {
+      "Filename": "dali-ui.n121b.release.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n121bap.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fc54d4cc14320dbfca7c5d779daa9b18",
+        "Key": "c38bc3db9167705de1c443745542ec221d24ef7d238827e154e71b77c7dab3b8"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d5d5140ce2a2de7e8cfe96eb0291e444",
+        "Key": "8dc8463cd371e9fe200887fb3a0344a7647c12017a9223e4c134ceb3c297d7ef"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6795a4191540c06599786727a97a9622",
+        "Key": "77c807aba9b4b9828362fd48e71ca0ad5a493c95fea17de91ca3c6a1f0b88f87"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.watch3",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "84a30143f07f70d54408741fe7ff32c5",
+        "Key": "58d199bc1fa4e165cfba8531d1f326456758cd4339dc87b15f0ce752ab5fff0f"
+      }
+    },
+    "Multitouch": {
+      "Filename": "N121b_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@132~watch.im4p",
+      "Encrypted": false
+    },
+    "RTPFirmware": {
+      "Filename": "rtpfw.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "EC9421223981847988AD68D96761226F653C3AB0807816BA75FFAF5F2B04BFCA7E2A2DDEADF1637DF48F6AA74503D6F5"
+    }
+  },
+  "19R354": {
+    "Version": "8.0.1",
+    "Build": "19R354",
+    "Device": "Watch3,4",
+    "Codename": "Jupiter",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021FCSFall/fullrestores/002-12994/C2BC3F40-0081-4663-97B5-32B7AE000129/Watch3,4_8.0.1_19R354_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-78513-007.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-78482-007.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-78664-007.dmg",
+      "Encrypted": false
+    },
+    "ACIBTFirmware": {
+      "Filename": "BT_FW.im4p",
+      "Encrypted": false
+    },
+    "ACIWiFiFirmware": {
+      "Filename": "wifi_armv7r_m8p_rtkit_image.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-m8paop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@132~watch.im4p",
+      "Encrypted": false
+    },
+    "Dali": {
+      "Filename": "dali-ui.n121b.release.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n121bap.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7f6a50f454050d6ff5a60042399cdc80",
+        "Key": "4e1e3230235128a48a53da2a2dcd99bbfd446a6e39d7777a4ce89e8e2d343b60"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e68e10e35b20514ade5ba8db0d07d2ce",
+        "Key": "c5758d70c7259a02be4591a06bb1592382bdb18f878b578449f9ea5d2d325257"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6b8ef4d4b35a26e006ee33bf98e93a43",
+        "Key": "840a5656b3f30526daca100a2db8f768fb86e7344a3aa33fb6b9edb420e095f3"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.watch3",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "85582ab1173b10ab73500faa5d97d836",
+        "Key": "131c6f1e3f47d6eaa773437ffa1942bbb2f35296d90647a668919ac76f4b3a06"
+      }
+    },
+    "Multitouch": {
+      "Filename": "N121b_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@132~watch.im4p",
+      "Encrypted": false
+    },
+    "RTPFirmware": {
+      "Filename": "rtpfw.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "7e40dcb529295d19b99c84fb49f170db40a4d511badf75a65d168a7d86a7cead4336762f1334b09fd986576b1a919ce9"
+    }
+  },
+  "19R570": {
+    "Version": "8.1",
+    "Build": "19R570",
+    "Device": "Watch3,4",
+    "Codename": "JupiterB",
+    "DownloadUrl": "https://updates.cdn-apple.com/2021FCSFall/fullrestores/071-66033/6620D894-7706-409F-B1BE-A650933C8040/Watch3,4_8.1_19R570_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-59188-082.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-58986-088.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-59001-088.dmg",
+      "Encrypted": false
+    },
+    "ACIBTFirmware": {
+      "Filename": "BT_FW.im4p",
+      "Encrypted": false
+    },
+    "ACIWiFiFirmware": {
+      "Filename": "wifi_armv7r_m8p_rtkit_image.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-m8paop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@132~watch.im4p",
+      "Encrypted": false
+    },
+    "Dali": {
+      "Filename": "dali-ui.n121b.release.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n121bap.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7e535f068b80996325c1b44274d93b7c",
+        "Key": "7011516e30ef8441b54c9f4452f68c70e4614bee93c38ef00e8215e3bc6185a4"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0cbc5198600d4f5ca482179312acd7f3",
+        "Key": "282e8bd7b0626e1c6f194aa2f1ce3e623e48e7c18a28db127ab2fd6fb43b5d01"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f04f19804cf31af1e5a2b7f9eaeed605",
+        "Key": "d10a6c0368daf6e10916a1b16586299ed2a5a04ff1318d59b6e10f86319774f4"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.watch3",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4feadd21fa8efd49792fee9652f1b2d7",
+        "Key": "eb872f82c025f9d0ed8a80ee9fb7e4c2687929e6a91cd53b01ea11184a26ec04"
+      }
+    },
+    "Multitouch": {
+      "Filename": "N121b_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@132~watch.im4p",
+      "Encrypted": false
+    },
+    "RTPFirmware": {
+      "Filename": "rtpfw.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "6b77e941ac169917e7cd4b73ffed3813385fc6c8e2726617d4a089b6e3d0e1073b5b490056af8313d086c0ce0303dbe8"
+    }
+  },
+  "19S553": {
+    "Version": "8.4.2",
+    "Build": "19S553",
+    "Device": "Watch3,4",
+    "Codename": "JupiterD",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/002-62664/41A79757-9361-4710-97CB-4C1CFE4ED390/Watch3,4_8.4.2_19S553_Restore.ipsw",
+    "RootFS": {
+      "Filename": "018-87088-057.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "018-86710-063.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "018-87004-063.dmg",
+      "Encrypted": false
+    },
+    "ACIBTFirmware": {
+      "Filename": "BT_FW.im4p",
+      "Encrypted": false
+    },
+    "ACIWiFiFirmware": {
+      "Filename": "wifi_armv7r_m8p_rtkit_image.im4p",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-m8paop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@132~watch.im4p",
+      "Encrypted": false
+    },
+    "Dali": {
+      "Filename": "dali-ui.n121b.release.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n121bap.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "294282eea14df237734849c93ab88a74",
+        "Key": "e6fdb629e7107b98fd670f0372784946e22165eef9acbf82807bd5d7436ea1e0"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "04e3c3397980ed82a38242ab637b7286",
+        "Key": "95808963f29ad247bd2df5775a3772e7b3acaba79c49f81e44368a3cd6396955"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9e94cd0aa03163b4135a8d7fa835c480",
+        "Key": "4ef35e996702ba65955df316a1343bc448d3d1bf00b9bb89f0e346eac63b2403"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.watch3",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4e3dfd1b6a97eb43e95ee8e3e7148192",
+        "Key": "766507301da94bbba9af4da377800b263d0227d91f5a76ade95abf6225af0c15"
+      }
+    },
+    "Multitouch": {
+      "Filename": "N121b_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@132~watch.im4p",
+      "Encrypted": false
+    },
+    "RTPFirmware": {
+      "Filename": "rtpfw.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.n121b.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "9430e053de728d465cbf697cec5e14492f70d3f2d64f28fe0474fa92cb756061a047fceae2c9d481f301ab22f42db27e"
+    }
+  }
+}

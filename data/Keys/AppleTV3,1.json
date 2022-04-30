@@ -1,0 +1,4492 @@
+{
+  "10A406e": {
+    "Version": "5.1 (6.0)",
+    "Build": "10A406e",
+    "Device": "AppleTV3,1",
+    "Codename": "Sundance",
+    "DownloadUrl": "https://secure-appldnld.apple.com/AppleTV/041-4043.20120924.ClUd5/AppleTV3,1_5.1_10A406e_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-2486-320.dmg",
+      "Encrypted": true,
+      "Key": "ef9f1d0040726ef0d450c315bfa8a95d4ef7611afa4a326300758e46828bf4aff7c512f9"
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-6995-004.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "023b1bef89429547b313b79534d80a19",
+        "Key": "257be121bccb048470c037e9592192c8f40f45de2c9d65a88a9fa3e250e6361b"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cb88d816a2105474cc476713a917d6b1",
+        "Key": "93ee28149ac7f0797c6e6c122d70f09badbd60d1a6f245dc654a0e50f68d6758"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ac4f4a86a26ad826c18ef59595e6055b",
+        "Key": "a86a707a9062342889da151864e9f261b247175a2ad41c765f7d9b56b74ad93e"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5cd5d1418d0ede76c9eae4c8e85b268f",
+        "Key": "39415b2e94063db77c8a2f9e161fbdec4757092e9b47b05d82e9da16f4c19312"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2dd18858f5e5bc340bbfbaaa85aadeea",
+        "Key": "c8953a3b5a3ac9ca9c8deeb42c186361d54eea6553c1ecde630e38e7718b01f1"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "aed471503fea08614b5fcc16db2f9e4d",
+        "Key": "1ff41a08b39ee8124ce734cb43abf8d6dbdd0d7cb02eddb6a15d0bcf1135ad34"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4220ff67df00553f58a25f6bb4246d15",
+        "Key": "e68045ffee7b082469135dbd253ad3d477e6b7aac96010da0760c058ed8ada5a"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "764629f3fd3c8b79fc09ae3546f1bb6d",
+        "Key": "15b4209c3c25846bef36cb195a5592d4df8f0b7036ca8c5a4acd27f0608248f3"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1284e131e614aab702d5d16d125eae4e",
+        "Key": "ae8e4e54d6089fe5cb3a0e00d5404023bb399aa6d59838c1c1f8156523dfd8e9"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0a83bf799a4e34e8ae978d3b6ca89786",
+        "Key": "c8a8f2cd6d6537d9141bb44fd73d38718aff1d7faa5961528be674e4b09a0775"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4b4efb00c15f8266e2201f02e221fa59",
+        "Key": "d9dd538dc5c297acc8eeb3a801214167ae87535b5e9e08ce280b0b572a74aafc"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "dd55e5729a18b7e878f939376fcb3628",
+        "Key": "e86a0cd1da31601ecf04043bd3fc2dc0f6efa85df92d28b59e51c55d381d41aa"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "806efe8c60901c36c5ce6efe93b5deac",
+        "Key": "78d94e39afb1fa01b6c3d98791a80d8acb037e310f536c3ec9f22cf44378dafc"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6ef4a0a92efeb750d1d5fe41418514b5",
+        "Key": "971c9e6f7bface4a4add0c081299381fc15d5ae7d43ae1fc979e7c5b71f0fd94"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "040ef867da4bdaababb1ffd2104660f0",
+        "Key": "ab1a92e8d5e234dc4f727d2ed0e8d67b727f69ad76199d2f92831673e1427706"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d4b4c356b24b8bd41050e97f0c064ab3",
+        "Key": "0fa9dabee01fc1e2053e3b4696dce2ebadd2a00ff726b1e94ede3ba8cff4be47"
+      }
+    }
+  },
+  "10A5316k": {
+    "Version": "5.1 beta (6.0 beta)",
+    "Build": "10A5316k",
+    "Device": "AppleTV3,1",
+    "Codename": "SundanceVail",
+    "DownloadUrl": "https://adcdownload.apple.com/ios/ios_6_beta/apple_tv_3rd_generation_software_update_beta.dmg",
+    "RootFS": {
+      "Filename": "038-5128-010.dmg",
+      "Encrypted": true,
+      "Key": "2109302f32ba140e3858ddae9d1681164952f363214a120c22a6f1c1703aff41b647ff8d"
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-5067-010.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b2b0df6f6446c89bfc6f710aa7f3c55a",
+        "Key": "2c011c0963e8c0722b500ba7d6e558fb9601043feb911937cef45a46419f35f1"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cc3183e5f8a2a898ad94124463edfc2b",
+        "Key": "ea0781603fed8b05f7d5ae43b2a83551d4b31eab8ca1c504b33a01c48db4032f"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5d1a422a8b027425a20d965c96154454",
+        "Key": "a8d80a57d6fc937a674c25e01b5b7a1727c1c05d4c868d74bc7656155d1124f3"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a6b1711744d46d512ba61675b4abe3c8",
+        "Key": "7cd9ae0c4318a54b3f56d342f454dd75e27367669da64b5527535cff7a16cc04"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1aa51e2c2ff70d01f9dc343d1bcdec81",
+        "Key": "857e3ed1e0ce82b7218f175c22032d73e80a2959e5ac6d72e9d2ef0288089703"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "255f0d71230a0812dce9aeb0c576cffe",
+        "Key": "14f3e39f99947ff84890679c976a0ce5215217650267f8f4205dee3eb91bf264"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e7c4a97cf1649fee919cff1a14391ac4",
+        "Key": "8181c6ba1d7233f62f5789f99b6fdae1566dd6f65542c602e26d30ea806832f0"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "43c1367971faddd46a97daf444db9f17",
+        "Key": "bcfad93673b420c41ad14a7cee3ae0a8ab80c737417cce391ecd6a4e6439576e"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "273e219fb0e365f2126d869803680946",
+        "Key": "fa6e53281dc07d95c1741063c6a8ca8c8cab9b10d71b711d456f48d8a3d90f28"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "58fb606352cfc1b8634ea17036f1c96d",
+        "Key": "19817fff178291b2c32dd61c1fba44ea6012e74b8966f52809f1c5666dc918ec"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2ceee67e4c1546edbcba9d311fb5b039",
+        "Key": "e249d2d8388104fe93e76865a194a054a16432274bdc794b4cb5bf6b75de12a0"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6c99a1136eabcd06a84e8dedf5f0bc3d",
+        "Key": "ef881f3f08265990b0323ab75a50add21295493c67cf8b1b97650c6086949171"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "aa884f7cbccc51d21c3c543866c2cdb6",
+        "Key": "a18fa8b44f9603079de66d58cb5839e00466b911ce6c574b2c9b3a94cabf33e5"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "269353844fe92c41ed48a4417dbfa204",
+        "Key": "b078a2e7be92e58d2de1cda5be098c9f6df2f188efe33bf8e4362b761835dc0a"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f4d2adff92963935f555281a4b1054ce",
+        "Key": "80f3a07ecdf71d5ed4920066736310f838cdc0cd5fd2641888faf077cf1818be"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e7beeb1ed3fa2ad0a0521531c2bfec44",
+        "Key": "bad91cf79103c2cb2b2f34b13fcb63687952094bc077e604e6d4c3539f2adc33"
+      }
+    }
+  },
+  "10A5338d": {
+    "Version": "5.1 beta 2 (6.0 beta 2)",
+    "Build": "10A5338d",
+    "Device": "AppleTV3,1",
+    "Codename": "SundanceVail",
+    "RootFS": {
+      "Filename": "038-5635-004.dmg",
+      "Encrypted": true,
+      "Key": "ffdb5e20146c282c8087fbff5a8e9586683035cb559fe8783c86012cb4a109d91bed211d"
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-5628-004.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f41d978b96c1ffcbb0f3d0857a38be90",
+        "Key": "e1516cfd85d9ce9fa8f46922e3d1f8cdd1917bd5ac4f05f86e7d42dba082ceef"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0fbead912e7bc4e9a873ba99f4e62d61",
+        "Key": "6009956968fccca9502bd2b074a5f3a5da9604e1dd18d7a741427ed1564a7bb0"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0a379b4dcba10e54b1ebcdc886c4602b",
+        "Key": "8295610032eea7e767b154bd7c9b69b6cf05d7013d16e8fbdb70f1dc2861ade8"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ab57ebf1a2089801dd5004b92ac06387",
+        "Key": "402e4d5754e2ecf0095fd05102f7193228b13c6398e9b2ad05165ae51a7344d1"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7e5b77f38ed0a1d3fae388c4e895071d",
+        "Key": "3411a384fadb2e06a819969a04411b2852206b9a40067f7b87944f39a490f575"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2e90a4d13c04338c06fdbcad9b738954",
+        "Key": "9185e4535c5e06b845300d399ec1e49bc95b17f83d5cbf8f2532142b9d9769d4"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ae26e159109d7100863236744d0c96ad",
+        "Key": "d608ebf3fe12be06b930b91d556604f8e06df7d22258f8b3e265f666c37bbc7d"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1cbca52b720eab99c519228c493f66f7",
+        "Key": "81369d4db67b45a7cc52040d8408e72faab30fd1adfa1d90b0d645d1466e2bb1"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3c16a86d09449317d1caf3e8c326d0a2",
+        "Key": "c8afbe923aed26c75b1f53db6fdcabd532b0ac2335da1b92f4ca5c58a1cd4b91"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5e6c9c34107cc2ef8b52d19a58e74931",
+        "Key": "31bdd2c5845aeabb4a53fd1ef89a087a024bb150ad2d71947374993a6002712e"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "51d32b74eaa72e0b50eb4faf0ba58c49",
+        "Key": "a6b09ac55aed87cea49af2d5cb3a9042f203e6c14b3f851c72bf91b3ce270cc2"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d024acdd92f819e3d0e77a2da0450d73",
+        "Key": "eeea14b94dc2991dc74f41dce45cdda63013fc15f0231d4dd5aa590d06b01191"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7d1556196d42bf5a39f843899401518b",
+        "Key": "a029bf8afa82825e2febe4e053f57d2e0c48f83e1513ab7d7d6a3b9c8cf4367d"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "39ec9d7732e7ab74fd0ae363b5c75d81",
+        "Key": "e7c833b45bd6f434a07f072abe504e5f09fe8bdf78d164335d7d6a07c0cbc90a"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fb084e68953a1bec9c1f1b702036d1ea",
+        "Key": "691eb7ad3de291321cf8fdd75b1a5d640435de63223cf693bcad374c8eb44448"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f1d791b99c1ed706b5011479dc131f3c",
+        "Key": "370354286a6e03be2d2ec3a0938463e65e22cdfbfa1a34694b361d9512587a0f"
+      }
+    }
+  },
+  "10A5355d": {
+    "Version": "5.1 beta 3 (6.0 beta 3)",
+    "Build": "10A5355d",
+    "Device": "AppleTV3,1",
+    "Codename": "SundanceVail",
+    "RootFS": {
+      "Filename": "038-5875-004.dmg",
+      "Encrypted": true,
+      "Key": "fbf1110c0964df91a03d52f13380af99ccdc37d635d07797a804d934c6f3e4279c7ab3bd"
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-5878-004.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "71742138708ee5ceee4ba6cd8de00142",
+        "Key": "124ebdb0382a2012f551f8899e0208fd15daee6beddb7f086a20c7a3e25f266c"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "47cfd49173e48d5f700bf67dd2faebe7",
+        "Key": "c6da102d0c113080acc5479364d3f5e1faa1c02dd7e459ffd63ee6ff4466312b"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2949baaa870e9f8c4157919d28cc4438",
+        "Key": "083d475d07935e53e31ffc8fac2d295ec9f8f6a996616e84191aec52678c76b6"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6f18e1aa28b6b7673989a339e090c2cd",
+        "Key": "ef0d336c336d7a89c6091e556affa09f73287bdaec2c383b9bf0f2b61ff5c94b"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "57a21a282a1d1e75185f4d76ec77d155",
+        "Key": "ac8556c48313b7e88275cee6c6cf4fa804a151465e2a759b80e8eb0bfa90e1f5"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "adbb9d2b5897d5905963c712199203ed",
+        "Key": "59974d7b2f703793b0b76205ac84b8036f9e21d947eeeb2d80f12d4891daf9e7"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9332dd5f7e0fb2ed237d329a68e3b34d",
+        "Key": "2750c4b18cf81c549effecacfe3d3944c67b0d7423e4e91d6f05fce11cd458e4"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b06074edd39778eb9c9b052933c387a1",
+        "Key": "1ec5812505d3ef5bfd1a4513c5e4cbda2f326d58fad02191da25862034ba491d"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "392a9457ecef9f1c20454c3db590c32f",
+        "Key": "94b60c91f50d1bd8f333148c7fe3e077896670816b5c2cd5a9432434585396b7"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ca3cb67b35d762a36c459417318d1c94",
+        "Key": "beade70824d410aa705e1148df3aa0b912ecfe52db100132e67f5eacb9ed4a52"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5ec65c73bf97aa9b2ba6210b045e60b6",
+        "Key": "c1f704bdfff591448e52b33b3b4f2db7f166657b3d3a8b741b7ee318c1e83d5a"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "20d2a15d8888d18330cf27aeb00d77f7",
+        "Key": "5705ce07b27a15cf44061fdd60c409b1ef74ffa0f851f6bdc8edb8f979d5d61e"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "db2f272396eec818211ccf6d1a625c87",
+        "Key": "5daa9c493aa67475ff3550e8b3bf6800a1fba91fb121097825977499017ee7b3"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "310f7dd751d49226b4b660b0f9fba58a",
+        "Key": "75c62e6a31402c76691d0eb12ab2064c9fd48e53ea150d8709447fd9ff0e7b35"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0aff1dc97d1745dcc3c0fa9abb5286a6",
+        "Key": "4c0e17a8ca05ac2aa531b6f39a16f1701b8f126525ccd5e4941e2e05ad71b427"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4cc98cf4551137c3198d8bf36d7b4d6e",
+        "Key": "b0a705a85fb805f4f230ef41f516682c6b3df88b2f26a92df51863449c76e784"
+      }
+    }
+  },
+  "10A5376e": {
+    "Version": "5.1 beta 4 (6.0 beta 4)",
+    "Build": "10A5376e",
+    "Device": "AppleTV3,1",
+    "Codename": "SundanceVail",
+    "RootFS": {
+      "Filename": "038-6278-005.dmg",
+      "Encrypted": true,
+      "Key": "88d402fdfe490f08a7777d3cc15404510fe8d7413c5ef951ce9bc04ad7f4cde7209fc05d"
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-6269-005.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "05b4f9f8369d1035bdaead96e5ad23a8",
+        "Key": "8d948f8657f27ed112a4e04cba8b9df2cade55b35b1de04eab2f46a3bed9984d"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "76ade3a4336fdfbf15fbdc2643bf32af",
+        "Key": "02cda6fab8c2b7af0b835689dcabb34f79920c2db2093c409a8bfb8115930a50"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4eb49ccf1933dbd40266cdb65c9323ad",
+        "Key": "ff2d8bb020e10b6dda5bb3bdef69018f772efb92ad5320b622a3cf90db964a0d"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "80609e80cd6ad8b8b54da87de09dda5d",
+        "Key": "03cb79fe35f47efda57074f92916364a751b0370f6248b4ca650732121db3c33"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6367582b0ea7ec496c32f4beb18a2e93",
+        "Key": "d9f00cba84b0335aefc52de047001dc8ebbc6c5657771eb5f0a9caeadde32b18"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6e8dc01a7b34354f76cf4a8c94f9d052",
+        "Key": "aa1848a800e7f85b660dae5e5a18400aaf0ade1824e5c5f803bf64412a65550d"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "88a7073bb82bc8da1b9a1c33ace2ad6d",
+        "Key": "cf9e9971cfcd23d8049af47de9acc7e5a725b54728a6e6c0b3fb8310aa34dade"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "045cc87e638bb9be8f7ff6717c5db2a9",
+        "Key": "53932f9bf23b404e3c92e73e9afa4eb22a21bfa97f34e077a88ef664f6df88c0"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9b5de33ca0b37e7af9ecf909d4669890",
+        "Key": "858d3b60e8ada012887f580e5a45db988e674e7db23109b4303778cc47c67de1"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "40be5a0151b2eba2020e253db565905b",
+        "Key": "04ae71881c22b78d9159fd5f81b4c5d790d383663acc972f78eabde9fc202e1a"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f5102df4a4b6b7a2a0f77554be2a80bc",
+        "Key": "3fc8001de07b608ab2edfbdd9ee044c2e4d41a15d1c87c6114b494ac956eb591"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "939ac09d5bd9c38b0dcb3de6ff52996c",
+        "Key": "9ce4dabff1e629191e456a7a9ac96899f43ef9ebf541957d1af9f197fbf95230"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1a1e0ee5a45c55afcbdec30f0b564ffb",
+        "Key": "dcc7b0c1bc25ea9ad3106bde0ea798d34dbf9044a1efc14a63d3b042760ba26d"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6437d81b32a8a894e922c52770014d16",
+        "Key": "c2d4110af098e419cec44aac113579df4a3449473dd91a857e17b5818480701b"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d2fdfd7b2e2398b74e05fa1fdc491d27",
+        "Key": "1d5e9005b9f57f8ca0aa65b1078f5e2de583c00c18a557a805fc914d1db6d77f"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bc5ffbb4663f3a7acee108530ed30ee5",
+        "Key": "56ddf702522c08ccfc5f09bf5b466c7d4033f892c11728439a259d29d8b55495"
+      }
+    }
+  },
+  "10A831": {
+    "Version": "5.1.1 (6.0.1)",
+    "Build": "10A831",
+    "Device": "AppleTV3,1",
+    "Codename": "SundanceTide",
+    "DownloadUrl": "https://secure-appldnld.apple.com/AppleTV/041-7274.20121228.Avt45/AppleTV3,1_5.1.1_10A831_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-6598-033.dmg",
+      "Encrypted": true,
+      "Key": "f57ffccd0f3d6fb5c9c6a1e336587dacff0fe84b2998be77ede3c43fe203b9274c9f9681"
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-6589-033.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fe7cccff8060b0967c21638eca03e824",
+        "Key": "cfc44c2fe43b5659677d58d10812b9fe24e75de9d8a014a40d66271c8890417d"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8a5baf6961044680cd46b7649a605eb7",
+        "Key": "36495e252ce9a0aa09515c32fa86b9343948da0a6a148ca43ba2ed4d679e8062"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4445b1fd9ec06cd9ccc54c627fb79aac",
+        "Key": "9b6e03f86fbaca21eb87626cebb5100b23a23abdc9caa77e5a3816b87a2e5d42"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8f860670a3615247164b8619caa9eb74",
+        "Key": "9dd06911523e87186bb46208b75ff549882640b647f1c2ec5430f51e97f6e8e7"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8593c5330a6e1d520242565fe5148830",
+        "Key": "eecb77f3c73183182314c8a558e2825b2d2a4c77367aa584438aec95333d0615"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d931e4f3b8df365a72d7c56ffc10c81e",
+        "Key": "456fe72787d00645f30224946b1364c7072afdcc5376388b590b29be16d1ba2d"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b85950674ca4476876c10215c774e51a",
+        "Key": "c727009c4028d98fcf7653095495aae2007fe16dd71fa115d064d17389535ab4"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7df7e50ab0e2b513397edafc4d781f44",
+        "Key": "8e75c9cf1a10cdb225c7a7811139a9b95c07184612928b153f33408a39450f24"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "16d710978904bb0172bbaf44afd3846d",
+        "Key": "4fc7b6dc2b59c71110fd3d61b1fbecf0ca21be1e534e6d1b1ca5c3b59a079127"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "526230bfec23f4c2ecf6c1e77db670a3",
+        "Key": "1384fe996e577b89f49f651f170243a3b839d699c55331b29f3868c8175258b0"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1fca48ec85c64c701de692bb445b5115",
+        "Key": "75e7cca9b6ada9cf1b0ee25dd16b3a647a076e78b207cec69d8c306ab713be98"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d12f5b72b1e9dd91cebfb55891923e5d",
+        "Key": "3c1dbb9558df22e73fbb3e6cc9861cd2f18952b064329976a3a9bb5ac52a0391"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bcaeb4fdc445a9d124443183416c8061",
+        "Key": "16ba6d1b41e5d7c19b32f4efc9497c5ee6bc8b0e44be2dd2a5c60360e0aa07a5"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c338792a3dd5aed76bd0cb58cca6fc9e",
+        "Key": "0e75a385fce666d06699d9a4b0e8dc8781e6223c5b9ff72cc8939e5af2fb533d"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "279232d5581cb7edd588a4b9bdc9d875",
+        "Key": "79695fba8264def0839a0212e59b0c8f732521acadc4a4370441e7d245cd08cb"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d4d6802ab24ab329c6bd9cb846369932",
+        "Key": "c74cabd5362ef46e973f34caec3fa72d9d4eea84bc29668105141432fabdbb2d"
+      }
+    }
+  },
+  "10B144b": {
+    "Version": "5.2 (6.1)",
+    "Build": "10B144b",
+    "Device": "AppleTV3,1",
+    "Codename": "Brighton",
+    "DownloadUrl": "https://secure-appldnld.apple.com/AppleTV/041-5903.20130128.aswe4/AppleTV3,1_5.2_10B144b_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-5276-157.dmg",
+      "Encrypted": true,
+      "Key": "913669edfc70cb4e39b94e60406306d27853843d101868bc7c28aaf9f0362b89b87e89b3"
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-0743-005.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "29c2f72d9c10b08b909509c46489f3f7",
+        "Key": "d49ff217c410a90239acb0040fd8e02a9519aef9cd6b6f9d08d48c9c4c64e45e"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9a3774e206f19d8c47f8ac7171c5aeb7",
+        "Key": "3a0af1c066a0643674779bbab2a8488b914b63c092b232d7b43d6786a82653d0"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f0b197c2b2600a873c9d58e612ced071",
+        "Key": "6e78d80750d8f5e92972d54258d12b3257a8a41c1e8218224ee6b4934c193b2f"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "51eab26299e6240d46045fea8aca8cce",
+        "Key": "f2ac984b72d7aaab76e5229c545f6ad2ad3baa356079b3e0c2f8af4d67fe597c"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "35dfc721216a75670265c67aebdff873",
+        "Key": "94ac607f893c559d0939c79d4af4672f71615c821a973d107186b5c6942ea1e3"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b691ae47f5b7ac1c7a02551b55236c0c",
+        "Key": "ba49a7360c527c2fd084f56518533d995a3b725310b9270cdea9030e76a27fec"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ac373fa2654a696033950ae43a1c5595",
+        "Key": "fbe2e34795519219143b9a64cf4618a86a6667241ec5cc9b32dae0a9ef501b07"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "29c63151cec48be177d47c2f55a65521",
+        "Key": "27621798aca62c9e577abeac027ab2bade08062cc8c75d17d7045eb53f8ade15"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "37973f984ca3408f1501c1bef6daf861",
+        "Key": "ebdca37a6e05471ddb78e891866b4bbf2921ceb2426b74020644ac961cf7336b"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d40f87ec7852d7e3c5768a5ab443e0a6",
+        "Key": "710351917f2a16d257cc6b40ab21fae2ddc1d1464e0b385952b08620c62595ae"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ff0947bb4f8440372226162bc3828ca9",
+        "Key": "34952eccde53f6feb11c70311a71e23db192ec0b863debe7a6e1683a063545b2"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1e4c277d300ddaef2820b4154101f39f",
+        "Key": "f7a764ba3e4f1b08890b5387c2deeea45b5d002ca221feb35719ba200ab5130d"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cb3bef84807c2ddea9f2cfcca5fc881b",
+        "Key": "a765595d439d4c9fd907979f711f358c91addfd3eebdfcc08fe409054ccfd70b"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4c18316e33b759f575a8b6ab9d5ceeee",
+        "Key": "a4ea42437648fe0bf88511ea5566115184e6a333df24790f7c06dbadc01db25a"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "efbd65c404468eb9486a8135e563d566",
+        "Key": "9ca63dbc21ff67bec10617d843a2aaf022db2f4fbefe3037b5328e3200252669"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "60a56ae080fabbe072439797b77a7032",
+        "Key": "765b831665169c8849b38c7b50d02d64de03d4ec420edb3b7a14de1eabaddce3"
+      }
+    }
+  },
+  "10B329a": {
+    "Version": "5.2.1 (6.1.3)",
+    "Build": "10B329a",
+    "Device": "AppleTV3,1",
+    "Codename": "BrightonMaps",
+    "DownloadUrl": "https://secure-appldnld.apple.com/AppleTV/091-2614.20130319.Aro9t/AppleTV3,1_5.2.1_10B329a_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-2924-001.dmg",
+      "Encrypted": true,
+      "Key": "69504518c7c4d251cbd19c3cc8e7546aab98f0db26fc5078614a33e732e766e9ec8f5872"
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-2956-001.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ebc1208fcfcab79904a344dbc6f6f331",
+        "Key": "1b59dad9ac734edfb096e8a4c7081b0a0cd622c5fffd03314c81452f5d520dcf"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "60c93e702aa76736ab9b98c7c3021217",
+        "Key": "518fe8623e0bd37aae673d02b951cc229ef3c8e3a3760eb51b434644d07201df"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2f5d4fa5e605e3a04bd9cba5aa7a380e",
+        "Key": "9cae2c19aca932ba68f9e03b3c5af8a691f862c53c043acd0d6dbcfe1ae1021e"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ceae59d0c20af5416df6df761cd1bac1",
+        "Key": "c2e018c1941ab2ecb652b21624bc5e961e0633ade8e074d84be649370efbfc73"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a6401860f73fe5c937fc3b1edcfebac0",
+        "Key": "bc2aef01c8f3e8ed7840920eea94657e6769120d1e5d57ea65b44c9740db1aff"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f10718ca4e30b4449fdc398068445547",
+        "Key": "f313f30c7194d755339749082c086ac9df450ab0363f6875284fc53987ce784e"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "78597aaeb4cd4476b57c010a1cef1e21",
+        "Key": "ef78a6b0286b7df1ad480743e57334793c28df46d2e4a3820b2150f2d2633070"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8fa60f038ac8e59b67096a105696b202",
+        "Key": "1fc1840db3144f8f247b73c6d1cc9e56f18a7b02913d027a8657c685fb569cf1"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1083ac52737244647753ff38f2d96e4c",
+        "Key": "9ea5d333ccc82b7a9668f8d542f783fc0775b866baf0081c2a2c766a82fd4737"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e9921ce3d2aba68c0915538147fc6441",
+        "Key": "5a9e95f4e613e8de138fc348cd11e1e81caa51a088a0f32dd5277eb0d6e5f04f"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "83ce72d034f6d7e8d16c524cda1324da",
+        "Key": "a0b365e693c8b4a85fa9c7201d65885db12f787eb9ec34feca60bf387d1ffb19"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fd07bc84ac849d77aa839acb3418f52a",
+        "Key": "861193664e69f7ba1093d466480bc8b382c0fda2028d15609e930eb116e7bde9"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "13e977b24c8eaa7c9b3ec2183408590b",
+        "Key": "f6d541559eb615a46c437e28934d91889447fa2e17dd52965ece0c9600b8cf2d"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5259656a5699f44553c2ee05abb58090",
+        "Key": "40cfe04545e040890777ff473b97a9899dcde3bb4b1c57e842033a864f953543"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "75374f4df7563e80f97b9cabb370bfb2",
+        "Key": "3a1c2d10ee15dd233a47a8d85d2d4e310e06ce47d19dbdd656400d380d62fdf6"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "667668232ab45c8a2b6f6efb81875302",
+        "Key": "b865612a814ab0da5984316a983515cc0ba5f7dca2350b7b7c03b27211e25653"
+      }
+    }
+  },
+  "10B806": {
+    "Version": "5.3 (6.1.4)",
+    "Build": "10B806",
+    "Device": "AppleTV3,1",
+    "Codename": "BrightonTide",
+    "DownloadUrl": "https://secure-appldnld.apple.com/AppleTV/091-5132.20130528.bfr45/appletv3,1_5.3_10b806_restore.ipsw",
+    "RootFS": {
+      "Filename": "048-5337-005.dmg",
+      "Encrypted": true,
+      "Key": "f980481d3ce8caf89c97b520469a736f5e65e786c6b24d3cdbe1e923d2c59d58152ce506"
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-5388-005.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6e0aead0110bdc6bfb05d98b17752b01",
+        "Key": "88333c76a74dc4f3e265e50106ad77c4c21ecd55d3b438e85bc5abd2e2f09767"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "60c93e702aa76736ab9b98c7c3021217",
+        "Key": "518fe8623e0bd37aae673d02b951cc229ef3c8e3a3760eb51b434644d07201df"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2f5d4fa5e605e3a04bd9cba5aa7a380e",
+        "Key": "9cae2c19aca932ba68f9e03b3c5af8a691f862c53c043acd0d6dbcfe1ae1021e"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ceae59d0c20af5416df6df761cd1bac1",
+        "Key": "c2e018c1941ab2ecb652b21624bc5e961e0633ade8e074d84be649370efbfc73"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a6401860f73fe5c937fc3b1edcfebac0",
+        "Key": "bc2aef01c8f3e8ed7840920eea94657e6769120d1e5d57ea65b44c9740db1aff"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f10718ca4e30b4449fdc398068445547",
+        "Key": "f313f30c7194d755339749082c086ac9df450ab0363f6875284fc53987ce784e"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "78597aaeb4cd4476b57c010a1cef1e21",
+        "Key": "ef78a6b0286b7df1ad480743e57334793c28df46d2e4a3820b2150f2d2633070"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8fa60f038ac8e59b67096a105696b202",
+        "Key": "1fc1840db3144f8f247b73c6d1cc9e56f18a7b02913d027a8657c685fb569cf1"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1083ac52737244647753ff38f2d96e4c",
+        "Key": "9ea5d333ccc82b7a9668f8d542f783fc0775b866baf0081c2a2c766a82fd4737"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e9921ce3d2aba68c0915538147fc6441",
+        "Key": "5a9e95f4e613e8de138fc348cd11e1e81caa51a088a0f32dd5277eb0d6e5f04f"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "83ce72d034f6d7e8d16c524cda1324da",
+        "Key": "a0b365e693c8b4a85fa9c7201d65885db12f787eb9ec34feca60bf387d1ffb19"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fd07bc84ac849d77aa839acb3418f52a",
+        "Key": "861193664e69f7ba1093d466480bc8b382c0fda2028d15609e930eb116e7bde9"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "13e977b24c8eaa7c9b3ec2183408590b",
+        "Key": "f6d541559eb615a46c437e28934d91889447fa2e17dd52965ece0c9600b8cf2d"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d6996c8e8ebf323bfac1db28e2d9b3d4",
+        "Key": "ead8d57eb3743bd2762ba61fa010f8518a246d5f0687537ab94c7a604578705b"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "75374f4df7563e80f97b9cabb370bfb2",
+        "Key": "3a1c2d10ee15dd233a47a8d85d2d4e310e06ce47d19dbdd656400d380d62fdf6"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "667668232ab45c8a2b6f6efb81875302",
+        "Key": "b865612a814ab0da5984316a983515cc0ba5f7dca2350b7b7c03b27211e25653"
+      }
+    }
+  },
+  "10B809": {
+    "Version": "5.3 (6.1.4)",
+    "Build": "10B809",
+    "Device": "AppleTV3,1",
+    "Codename": "BrightonTide",
+    "DownloadUrl": "https://secure-appldnld.apple.com/AppleTV/091-5257.20130618.Eu5uy/AppleTV3,1_5.3_10B809_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-5469-003.dmg",
+      "Encrypted": true,
+      "Key": "05fa01cab2e58906b30c7db9a6f0edd649c3ac08b6b81ca6c0e1046ba462aaf03fc1a8bb"
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-5482-003.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8ccc668bb2d0ca7e604ff45b3665f09f",
+        "Key": "39528daba9324e10764517735a943b2f528b78c70eeef9c7f36bc28a49eef3ab"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "56db68a54c3cfafef0c8476aad0d9054",
+        "Key": "ba2977391b75c56f46e215b21b1d265a1941945806394ce15ae2caacfb8b0f67"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "125bd9358d483a55b2c2c8d938dcd26b",
+        "Key": "a4f164750fc93b8bd3de4cb5c22be43092ed6cfdc1cdcb98f76d3a282f4a66d2"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d17b6c122a326c4c6cccb17f483f8765",
+        "Key": "85c583f00234d7d4c8e5e12d532b3470257ea8fe1e84db10ad11d48df0853c2f"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f166609873386695327c30527d9878f4",
+        "Key": "fa1d63b51c3ff10ba7c4168951e8b56ccbf7cb0af05d64a33f6f01f511a5c7ff"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c928912187c13839a44b08e467f9b327",
+        "Key": "da9b4c00470bc20faa0d9ae2a6b66f7541e2b90b5013b53561f39768f8bb2249"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9220187de41b9bd77ac3da3150011fde",
+        "Key": "1be4b67af6eeb7dd80444cfacd93d8a8b8ccc093e89cf6eef00333d42982d49a"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8b35ab74832339224e3a5ff8387d4195",
+        "Key": "970fc0c2b74af27894e77f38ceacd4493415f3dddc78760e669739baebaadd1d"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b1869b0df7f0220cccc577f264820db5",
+        "Key": "48f340811d4f4de0a5cdc8420af5166a780b8f444c9aee1e726f4f8713c014db"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f8d58f0657bedbdd42253bc6841e98cc",
+        "Key": "cdfc8433ff74b3e667e18b4477feaa60bc9fcfc5c030fd32c07f4f1b73696fe3"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cff4f78a140a9cfa482e8b5d312f0cdb",
+        "Key": "58a70b16c1023ff2d382e3e2bac1e8d308f8fc5d113a423b349b93e7bee98582"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7a5f24afe8d329b72df47be210b7572f",
+        "Key": "03c15e66ea07cd5c1d5ef10e1b73abe0f1bcabae3afa8bbfda59c03e76aa4098"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "91fee83185e5afc8efcab4b23977dada",
+        "Key": "d158ed47938911cf244c344f0f1c42da0e6bb2db181355c92f7082a398c03ee0"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "01406a131efaede63702b49e9cf37596",
+        "Key": "e14d42d73443de1c517b936da1d80d1abd03613fd48efaca4da0add988c01a26"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b7d5cd34a9b349a6158a9e9a8ca1173e",
+        "Key": "c6c679ea4b89b96c417417bb1ba20297538fb7ddbdad2218f6162acd496c8408"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "079f9ed33b67dc8733e10af6f38e1a1c",
+        "Key": "1c912e43d16a00e7d017aaf056a5379cc53909f79027da6818828e73f618b5d3"
+      }
+    }
+  },
+  "11A4372q": {
+    "Version": "5.4 beta (7.0 beta)",
+    "Build": "11A4372q",
+    "Device": "AppleTV3,1",
+    "Codename": "InnsbruckVailPrime",
+    "DownloadUrl": "https://developer.apple.com/devcenter/download.action?path=/wwdc_2013/apple_tv_software_update_beta/apple_tv_3rd_generation_software_update_beta.dmg",
+    "RootFS": {
+      "Filename": "048-4893-028.dmg",
+      "Encrypted": true,
+      "Key": "9525f1868977c7a865504db5cad3cff210a35db7c1827cd551c8c6b0b521d6000978bf30"
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-3715-029.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8ba2fff994835e4868aca4d1b816625c",
+        "Key": "1a37fc884476c7243e2882b6c47021628a7d0eb763d96ae63ff929fcf67b41db"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8b03964d10b1ae50662c1628bd12e707",
+        "Key": "bcb4f58a2c7a4d1e6caf194bf429c08a05b437891c7e6b3350bdddc4d6af2aab"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "11589ac5d2365b67072250049da23ff8",
+        "Key": "65893f19434f44b762be1b8df517fec702d5ec95133e798c92632ac6ed32383b"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "39c09685366cb3630568549db8122bd8",
+        "Key": "4fc337bb4f6ac4b216b3d3058226b52a6405c11c63d248186e2b82b5d8c1318e"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ea5c250edbf62e70f8e5c7f7c414a940",
+        "Key": "ab6a84fd3c41c3d7beb203e345b82119765db3ad08c604a78048de3b48b2df67"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e2f48dd50f54d9f9a0fec7276f12b26a",
+        "Key": "b5ff59697f7f3263be099641efd45e0dd5ab3a5fcad38895204ee9812eff4647"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "632e8300c3cf8b5d00ddd7feaa84273a",
+        "Key": "3a7ee267e04ce21726ab87ab37e613573ba81d4b1d1d8cf4471398761c986a88"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "de028bbd403af6b36ad744b24e4e2ada",
+        "Key": "542388fe837a74883220f3a8b396751d2bbbb22fcadef238204ed2ac3b395610"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "755c43ec3bb65f45642cbec11c783280",
+        "Key": "d3ebf87a173a228e7e6c1c9967a8a6dfbb66d41ef74b0a8e8840c1a9dae36b93"
+      }
+    }
+  },
+  "11A469a": {
+    "Version": "6.0 (7.0.1)",
+    "Build": "11A469a",
+    "Device": "AppleTV3,1",
+    "Codename": "Innsbruck",
+    "DownloadUrl": "https://secure-appldnld.apple.com/AppleTV/041-3037.20130914.zmeye/appletv3,1_6.0_11a469a_restore.ipsw",
+    "RootFS": {
+      "Filename": "038-3412-419.dmg",
+      "Encrypted": true,
+      "Key": "b9d12d54c30c8bf82cbf184a15f58b3ee9a02f83e799dd37f67728ea031010cbfe733488"
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-8499-012.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "920bbcd71e77b06a2c9859dc71b1ea4e",
+        "Key": "7681dfda341c490d869fd801b6d027030afa9f2f6bbac5c7318710ac20faf7e0"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5ca62dfd47da59dcf5c9d279f0bfe013",
+        "Key": "4ac2cbee0f1c5e66d4c77ac88cab43119d45a88f2e210eacfbfe3de8b95fff1d"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "59ee195688f67c64550898b3d70b2d8e",
+        "Key": "b069adcd676c73996b7cc6f720e22eb5ff8440cf5a0661403b6e6c6263ef0917"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ae7475123fbb0c4ac178f1082265b532",
+        "Key": "ecdc48dccd493b302add3405134a2d4bef81888e22d1c8ca242a6ba8efe5990e"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5add018ae160389d4f97647e3b41db3f",
+        "Key": "bb50027e17e7f441c833cd607cbabab88e3e9a17e7ac810db4ba81dfed27fb47"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bb1b67d02b70f8e9d40eee0518265a51",
+        "Key": "a7be6e92959c5dd76905dae2895ba4f0bf0fffce15ee40d80c4dd122231fcafa"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1c14f678fbc9e8e861e81a28dc3ad572",
+        "Key": "667ba023063f5336fe25bdfc25dfaecd7166a47c0e77198b288b06b0d0a21204"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "88fb0ac8eefec19740354cffe88a614e",
+        "Key": "003a6d5fa114b7b5eb95e63b70b38d6061bb738b0dc63dd3fd9c08f1fe8e4a72"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b204e61b2cd04082d30218cbbdf275bb",
+        "Key": "f2efc85668e7fc3ee439545e9bbb50aa8561839685b1917dd30b5c8a257763fb"
+      }
+    }
+  },
+  "11A470e": {
+    "Version": "6.0 (7.0.1)",
+    "Build": "11A470e",
+    "Device": "AppleTV3,1",
+    "Codename": "Innsbruck",
+    "DownloadUrl": "https://secure-appldnld.apple.com/AppleTV/031-0405.20130919.DgLvd/AppleTV3,1_6.0_11A470e_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-9332-002.dmg",
+      "Encrypted": true,
+      "Key": "e60bc7e8a62a2657126c859d0512db83626052288a537d5f0136e1c4305d6eda67e2012e"
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-9337-001.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f9bbcc607fe39497a6d355f4696e0de3",
+        "Key": "ebf67f3abbc32689de8d0ce80f280fd5a45d3a4c1a6626f9878fdfd5449a442b"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5ca62dfd47da59dcf5c9d279f0bfe013",
+        "Key": "4ac2cbee0f1c5e66d4c77ac88cab43119d45a88f2e210eacfbfe3de8b95fff1d"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "59ee195688f67c64550898b3d70b2d8e",
+        "Key": "b069adcd676c73996b7cc6f720e22eb5ff8440cf5a0661403b6e6c6263ef0917"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ae7475123fbb0c4ac178f1082265b532",
+        "Key": "ecdc48dccd493b302add3405134a2d4bef81888e22d1c8ca242a6ba8efe5990e"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5add018ae160389d4f97647e3b41db3f",
+        "Key": "bb50027e17e7f441c833cd607cbabab88e3e9a17e7ac810db4ba81dfed27fb47"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bb1b67d02b70f8e9d40eee0518265a51",
+        "Key": "a7be6e92959c5dd76905dae2895ba4f0bf0fffce15ee40d80c4dd122231fcafa"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4a92c8053bd68855685b3d78b38585be",
+        "Key": "7c85f00f17c70cb88b2eaf8f8100b2c630199704f3fdc97a9ecdd2b825f65587"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "88fb0ac8eefec19740354cffe88a614e",
+        "Key": "003a6d5fa114b7b5eb95e63b70b38d6061bb738b0dc63dd3fd9c08f1fe8e4a72"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b204e61b2cd04082d30218cbbdf275bb",
+        "Key": "f2efc85668e7fc3ee439545e9bbb50aa8561839685b1917dd30b5c8a257763fb"
+      }
+    }
+  },
+  "11A502": {
+    "Version": "6.0 (7.0.2)",
+    "Build": "11A502",
+    "Device": "AppleTV3,1",
+    "Codename": "Innsbruck",
+    "DownloadUrl": "https://secure-appldnld.apple.com/AppleTV/031-0456.20130923.3Wtrk/AppleTV3,1_6.0_11A502_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-9412-003.dmg",
+      "Encrypted": true,
+      "Key": "0ccd2ca0f567c97b550bf8434aff6a8a1c6c405306dc215fec3e83994498dd70b122e4e0"
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-9510-001.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a50313a082d8176c91a09737c24b2266",
+        "Key": "cc51a7a581291b048f1450c3129e744d8835ed159ea11171292415f4ee209a7e"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5ca62dfd47da59dcf5c9d279f0bfe013",
+        "Key": "4ac2cbee0f1c5e66d4c77ac88cab43119d45a88f2e210eacfbfe3de8b95fff1d"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "59ee195688f67c64550898b3d70b2d8e",
+        "Key": "b069adcd676c73996b7cc6f720e22eb5ff8440cf5a0661403b6e6c6263ef0917"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ae7475123fbb0c4ac178f1082265b532",
+        "Key": "ecdc48dccd493b302add3405134a2d4bef81888e22d1c8ca242a6ba8efe5990e"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5add018ae160389d4f97647e3b41db3f",
+        "Key": "bb50027e17e7f441c833cd607cbabab88e3e9a17e7ac810db4ba81dfed27fb47"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bb1b67d02b70f8e9d40eee0518265a51",
+        "Key": "a7be6e92959c5dd76905dae2895ba4f0bf0fffce15ee40d80c4dd122231fcafa"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e4392c3fa6cf6e040a8949fdf2796f62",
+        "Key": "4bbfc60295be02161aaf16602c1993c65eb1ccf76bb0663b7e4059b48ae072a1"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "88fb0ac8eefec19740354cffe88a614e",
+        "Key": "003a6d5fa114b7b5eb95e63b70b38d6061bb738b0dc63dd3fd9c08f1fe8e4a72"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b204e61b2cd04082d30218cbbdf275bb",
+        "Key": "f2efc85668e7fc3ee439545e9bbb50aa8561839685b1917dd30b5c8a257763fb"
+      }
+    }
+  },
+  "11B511d": {
+    "Version": "6.0.1 (7.0.3)",
+    "Build": "11B511d",
+    "Device": "AppleTV3,1",
+    "Codename": "InnsbruckTaos",
+    "DownloadUrl": "https://secure-appldnld.apple.com/AppleTV/091-8951.20131024.mvt4t/AppleTV3,1_6.0.1_11B511d_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-8095-072.dmg",
+      "Encrypted": true,
+      "Key": "233c732560bdb729abef21c911d991bea718dfc557a184de0097a0a4e2d8bd6fc5fbf864"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-0414-004.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ef264fc6618fe6b8c9ab0af4f9e9a1b6",
+        "Key": "25a2bb4a7470ea7679a0b59fd2600119c7668fc98e46a5e22a770699db02cc4c"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "05f79b4da165e082d7ceed57b6e91ced",
+        "Key": "0193750008ddb8365b805dec35adf15db22d489a05bb902c9563f1324749860a"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4c3fbc940933e6ce394f2de2dc4fb9d9",
+        "Key": "2e765b872c72f7355e72799576e13053730c7245c9b1d029c5e5c97079c3062f"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "90266c7693c7a7b4102193375474f9bb",
+        "Key": "b86202cdf35bcf291808e801207c9dbc0c19c5da851752765ea340469404b939"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a0575ddacc7f63656b05392a0a1c9b98",
+        "Key": "35117812db4044419247d6c354879e1dac9855aacafc00e48fb1c3694dceae3b"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "296530398c833b5ea22454f73941fec7",
+        "Key": "804e646d1e58a58b079a2666135b8bbd59844d1be7c043e5e94c2ca93f5845ec"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cd2810338199925818220e62339472d8",
+        "Key": "752d153bdb3aa7b6731979c243e2829df073ab359f11227119e88f23513e813c"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4719800c58fe1cd9e01d2758000662a1",
+        "Key": "d5a298bfef4d59d9e7bb888b0598a9c883e488374785dd95ad2cc24febb7115a"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7944a25067ac5e597707edd217c409f8",
+        "Key": "9af7f9d92fbf7f22fc65cf15c60074d68a75b810f296ddd1a0173b198ff2e14f"
+      }
+    }
+  },
+  "11B553": {
+    "Version": "6.0.2 (7.0.4)",
+    "Build": "11B553",
+    "Device": "AppleTV3,1",
+    "Codename": "InnsbruckTaos",
+    "DownloadUrl": "https://secure-appldnld.apple.com/iOS7/031-1539.20131104.bbghy/appletv3,1_6.0.2_11b553_restore.ipsw",
+    "RootFS": {
+      "Filename": "058-0937-003.dmg",
+      "Encrypted": true,
+      "Key": "1b8121f830520293da4ceac6a9da9e0f316f265735b9a903110342611385c5eedcaa458d"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-0941-003.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5088ea1341d6861e2e9cd43830a2f454",
+        "Key": "4ce9263ee2e145df5631f9e37c8d3add52d485f8eb7c8f55da7902d74ad0e647"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9e2995b64a13ab8bb1a93fffaf82c490",
+        "Key": "445f9e94fc14223c866b87974af3bf9912a62764f2fe1b97aeb32897245ce422"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "808beb6cded55e1968bbd5a05c303bbf",
+        "Key": "0700c382928422196b5f6465deb4eb6f919e90b091d79e331066a039d1ff7d1b"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "dd10603bac8334ee5758c0f94c552b6a",
+        "Key": "18250db7f48a7c3d098241996df70431d789af1dac620805194f4ab48108f00e"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "314e734b15a09e18d942057ffde982a7",
+        "Key": "86e14db83e6acfe1c98b0e03bb7df6fe989569fb9b9069226f2720bc3fa536a2"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c9b46d811d71e625bca83f99ddec8d7e",
+        "Key": "1036386d678294a9a067c31a59862d5d2c14fcd934e6b2a307fdcb7235d889ba"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "71257e9a9f4bdaa7cd4e7cd6e41ec26b",
+        "Key": "a6ceabb007096d8a579d030b99979e629b4294aeb8483760cd9af6addd9579f7"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3c4c262f557d902288d1b9775acf5ad9",
+        "Key": "dad958590c7d57ed286a917f0268370f04f6e9ba47995a553ed4926640d9df44"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7d86128f7b5fd4f91dff9e7a9a764cc5",
+        "Key": "d7fc9a48f3afe693d28b3e1856b3ef642c4395d393d295ad071503bc338d1531"
+      }
+    }
+  },
+  "11B554a": {
+    "Version": "6.0.2 (7.0.4)",
+    "Build": "11B554a",
+    "Device": "AppleTV3,1",
+    "Codename": "InnsbruckTaos",
+    "DownloadUrl": "https://secure-appldnld.apple.com/iOS7/031-1834.20131114.P3wE4/AppleTV3,1_6.0.2_11B554a_Restore.ipsw",
+    "RootFS": {
+      "Filename": "058-1065-002.dmg",
+      "Encrypted": true,
+      "Key": "e501de5610142c93f04b4d0345857d782266484529137213a620f53ea890409be622c542"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-1096-002.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7f9fd70a3114082381db8be66415ed90",
+        "Key": "9a27bbf3306ba1d52e62b05d8ca64604eca3fd23f3569f2b24ef99f29531a699"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9e2995b64a13ab8bb1a93fffaf82c490",
+        "Key": "445f9e94fc14223c866b87974af3bf9912a62764f2fe1b97aeb32897245ce422"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "808beb6cded55e1968bbd5a05c303bbf",
+        "Key": "0700c382928422196b5f6465deb4eb6f919e90b091d79e331066a039d1ff7d1b"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "dd10603bac8334ee5758c0f94c552b6a",
+        "Key": "18250db7f48a7c3d098241996df70431d789af1dac620805194f4ab48108f00e"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "314e734b15a09e18d942057ffde982a7",
+        "Key": "86e14db83e6acfe1c98b0e03bb7df6fe989569fb9b9069226f2720bc3fa536a2"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c9b46d811d71e625bca83f99ddec8d7e",
+        "Key": "1036386d678294a9a067c31a59862d5d2c14fcd934e6b2a307fdcb7235d889ba"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f547819319afd5d6942e3962f4627d41",
+        "Key": "3e0910103b45f504a098129b765539a7c7919cd9123a01bf4404908803cf28a2"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3c4c262f557d902288d1b9775acf5ad9",
+        "Key": "dad958590c7d57ed286a917f0268370f04f6e9ba47995a553ed4926640d9df44"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7d86128f7b5fd4f91dff9e7a9a764cc5",
+        "Key": "d7fc9a48f3afe693d28b3e1856b3ef642c4395d393d295ad071503bc338d1531"
+      }
+    }
+  },
+  "11B651": {
+    "Version": "6.0.2 (7.0.6)",
+    "Build": "11B651",
+    "Device": "AppleTV3,1",
+    "Codename": "InnsbruckTaos",
+    "DownloadUrl": "https://secure-appldnld.apple.com/iOS7/031-3021.20140221.8j5GW/AppleTV3,1_6.0.2_11B651_Restore.ipsw",
+    "RootFS": {
+      "Filename": "058-2329-001.dmg",
+      "Encrypted": true,
+      "Key": "c4543b18e18f516b30cee305d1e0050d31184e1b82e0f842e600000f85dcff662e5e1c06"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-2358-001.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "aa0a9d8f6e72b9da49f2f21cdecc8b8b",
+        "Key": "2cfe56f762295d6fa3a1acb20680185f84a54a29fe4716a0befd91b4c84e0509"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d8059e911b6b669e6f9af982996c33b6",
+        "Key": "42be20f656fbd3a6b053977f7744005ec84331fbe8f134f341f46ae13e784745"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a9706396f5e36825d1c63b953882ab3e",
+        "Key": "998593e5855863273816aa696a380337676dda2bd7c6e7fadfb0ed3807ddfea6"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "117eae2d9c749d25669cfc13d4977d69",
+        "Key": "a68051d2be1e1d6d9b3b691b83d065452e06c193a3a621f42a895a1e63bc4e6c"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9ea99132bc8810698649e8af38061372",
+        "Key": "feabfff83756b1080c94cb2e39276a4c5111fad08c5dd305b57962b1701644f1"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6cb7c3357f96cc4791a6b26974a47612",
+        "Key": "a97ee73bfa99dc4f380819dab0eda4035f3d6035c461fc294e99f03dc11a0494"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b73a21cedc067ae04ff562193d01e18d",
+        "Key": "8372a8c4395491b6dea87cc8c4f015dc1fcbde64e1aa20d49e6417bba9846a0d"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2703a8bb44dbca256f44f1b8e5493e80",
+        "Key": "a0f52dd894d1248e7d1b1b5b0202be60ec4f6228361a1520546e65b27a515690"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e03ab702452295d13a172072cc8d4977",
+        "Key": "74c4425184dadf1f0a53809cb730dbfbdda971c67735e14cb02e49f5a118a5ba"
+      }
+    }
+  },
+  "11D169b": {
+    "Version": "6.1 (7.1)",
+    "Build": "11D169b",
+    "Device": "AppleTV3,1",
+    "Codename": "Sochi",
+    "DownloadUrl": "https://secure-appldnld.apple.com/iOS7.1/031-4643.20140310.5wEEO/AppleTV3,1_6.1_11D169b_Restore.ipsw",
+    "RootFS": {
+      "Filename": "058-4137-004.dmg",
+      "Encrypted": true,
+      "Key": "8ede608e62092177f4906845933c75c0f1d6a999611c6557fae6814f8cfbe813a951d46c"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-4322-004.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0d5a64ee1f499647817755f2bbe93595",
+        "Key": "181888dd02283e6fcde137a39b39142614fdf41b3845337879c05cf2d09e2bb1"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9c695ab08c74a44f7555cdc15acded59",
+        "Key": "c8cf091ff98e05e027c9eaf4ae5b2269509fa79ca8a8846ffeee906a4a2c1fa3"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cad1b3fa898c760b36d65d25ccc3d363",
+        "Key": "d9c79c34c1c14ff751556716277191617a9ec9776fcc9e9310d3648b72379df5"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ed744b0a5a5525286284a4318123e4b9",
+        "Key": "533ccba715ab7503f70e03a1393b876b26e6876b14125eff95a4ee7b8e8958db"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "dc1604099be59369b2531b2bdea77d8d",
+        "Key": "4251f444466ee55fff928a8cd09968ba9d13ab2e332a48084823b5569ec068fd"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "901ef73d8fa39d865f5f87f79b05c3a9",
+        "Key": "187c96b8ca9c9378d3156bb01dd07ee6b4ab5bfcd3a7909b6055bc5573eff4cc"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2e50de9e14d384b60581829703f52427",
+        "Key": "6d8bac8b803bde6314748970bb250cdeec38b7159b056dbde9a25d7bfc249d97"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4fbe4ea6da2a859227b8babcf7c37dae",
+        "Key": "7a2bafaa3e751778e9f3aa535248d9b3b40f2e7a8b4a5b18a0670fa2d2419c56"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2cbe32517b946ea578d8abdb2947a92e",
+        "Key": "bbb4dd96905994398bf59d663e37662e95d7ac60ca1f4ad5217a51fb8acf75c2"
+      }
+    }
+  },
+  "11D201b": {
+    "Version": "6.1.1 (7.1.1)",
+    "Build": "11D201b",
+    "Device": "AppleTV3,1",
+    "Codename": "SUSochi",
+    "DownloadUrl": "https://secure-appldnld.apple.com/iOS7.1/031-00361.20140425.weiym/appletv3,1_6.1.1_11d201b_restore.ipsw",
+    "RootFS": {
+      "Filename": "058-00114-005.dmg",
+      "Encrypted": true,
+      "Key": "d6493d6d12b7e4fc2d1159e335177ef962d23c58c2b43c1de1ebaf39f67aeaeadd7041ec"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-00261-005.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cf059c99ab2594dec6457f2cca47702b",
+        "Key": "1ba37ffea7ef4026f9b63bdc76c8cef6537d3bf526afe1b2d6a8f6eca4cb02b0"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d9dd4d7662d34b3724b28928809e41ff",
+        "Key": "29f4c1cd4987271fe03158b8284bf1fe30d353a2a7e7ab5fd6f07947296a4967"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3a74466ee214fd23750df7e42a15b2a5",
+        "Key": "52a1b5b21f95ba3ed09699efd7d3889815e1174cc2e1e9dd6b9afa4a4edb9f33"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "94d70af976a0292e1869da90d8f7f045",
+        "Key": "ec80e86acec06c58b14ebfa01b823b7eae03100346884768e14d99dad2adc749"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8f2e3e83a2ab411db21d2e80b19eb46e",
+        "Key": "69e35d60039a260a55369d1e7bb3870a526e0bb00cca18afd0105bb71ab94a47"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "351efb1b6ee3c4559381a651c71c1e94",
+        "Key": "ab15fa71b89e4568fd0c155a016661f11b1512d23f520f3afbbd08344bd67547"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b598802d60061a3f592e5a4f3db22a33",
+        "Key": "d94b9def94577e39fdec5f497e9a3ff9167ca07e530a46e880eb72a925a85fb0"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7154f9f254bb42a851ba71a68b2fb2e1",
+        "Key": "e7b3359d82e51c6a4f618939eeb89b39cf4e9f5536f2dd66ff5134994556c361"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ba12a8c5f09d1ce3f3f2c43b50a6f44f",
+        "Key": "c633f3eefe56d8d937e1888edd60df0ee5e2a35bf92b4a1c3b97f78d075efc39"
+      }
+    }
+  },
+  "11D201c": {
+    "Version": "6.1.1 (7.1.1)",
+    "Build": "11D201c",
+    "Device": "AppleTV3,1",
+    "Codename": "SUSochi",
+    "DownloadUrl": "https://secure-appldnld.apple.com/iOS7.1/031-01429.20140422.xMMUT/AppleTV3,1_6.1.1_11D201c_Restore.ipsw",
+    "RootFS": {
+      "Filename": "058-00114-006.dmg",
+      "Encrypted": true,
+      "Key": "469c6280d7f80009653ecb9ff224dab494a77e853f1a6ccaa1440d1ea82c960ee3915b48"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-00261-006.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d18779a1d8921d7ade6d6593e8db7340",
+        "Key": "f6862b86c19f503f9a2fe571b2f5ca7f97dcc99eda63c92886bfe14d934b0b89"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d9dd4d7662d34b3724b28928809e41ff",
+        "Key": "29f4c1cd4987271fe03158b8284bf1fe30d353a2a7e7ab5fd6f07947296a4967"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3a74466ee214fd23750df7e42a15b2a5",
+        "Key": "52a1b5b21f95ba3ed09699efd7d3889815e1174cc2e1e9dd6b9afa4a4edb9f33"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "94d70af976a0292e1869da90d8f7f045",
+        "Key": "ec80e86acec06c58b14ebfa01b823b7eae03100346884768e14d99dad2adc749"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8f2e3e83a2ab411db21d2e80b19eb46e",
+        "Key": "69e35d60039a260a55369d1e7bb3870a526e0bb00cca18afd0105bb71ab94a47"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "351efb1b6ee3c4559381a651c71c1e94",
+        "Key": "ab15fa71b89e4568fd0c155a016661f11b1512d23f520f3afbbd08344bd67547"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1aa8455a065c659651afec544cbadca1",
+        "Key": "b5939d060247e7a3519d0d8c01500d15d6e6f14a19ebbb1a9655fa1497895b4a"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7154f9f254bb42a851ba71a68b2fb2e1",
+        "Key": "e7b3359d82e51c6a4f618939eeb89b39cf4e9f5536f2dd66ff5134994556c361"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ba12a8c5f09d1ce3f3f2c43b50a6f44f",
+        "Key": "c633f3eefe56d8d937e1888edd60df0ee5e2a35bf92b4a1c3b97f78d075efc39"
+      }
+    }
+  },
+  "11D257a": {
+    "Version": "6.2 (7.1.2)",
+    "Build": "11D257a",
+    "Device": "AppleTV3,1",
+    "Codename": "Sochi",
+    "DownloadUrl": "https://secure-appldnld.apple.com/iOS7.1/031-01942.20140627.mpsze/appletv3,1_6.1_11d257a_restore.ipsw",
+    "RootFS": {
+      "Filename": "058-4137-013.dmg",
+      "Encrypted": true,
+      "Key": "ab6b497e2fa7c3f919239afed402067dae3e59016958c979d3f9a22b333236afe4d0dea0"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-4322-013.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4f1036a09aaa04ea7f99a08db2537d45",
+        "Key": "0abac12bd5ad5da5f44baf81b6d6ce4d650a1656f38b6e148e79afd71e9d9579"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6091b8aec57fcef7f6323a21b609217c",
+        "Key": "fdb0a8621d55c8d38283336d78c75f8ec3835420b331319d978d7c84e0476708"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "556a6caa2562e02cdc7f602d46ee6f7c",
+        "Key": "0a13688e57159505360ee7775e914e469fdd9f7cf0f875756f66cbc0c4d19346"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "be027b0f6f57fdb3eb6494bc46e6412f",
+        "Key": "2d48acda0f6b3d444576c900fb85524044f4c2849e685b151fd2bebc30dc96c5"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c133f6575d10d2ecd7eaf19b52b2d613",
+        "Key": "79a0a56bbb4fe816a0bc93667f0d465e7a18b225982c03b5cb3871874a47468b"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f5cc43277073224f12f1846b45f56875",
+        "Key": "c10b1fb8b15858aecd6e2d6269340327c4464a491a84dd50be3003609d8122d4"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f3dd7656be239638d49725d6f5dcb23e",
+        "Key": "dacb4b01cc425d9d065a97129f96d9ba443e57a6bef5e5cd24d491cedd81918e"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1e9bb2dbcdc3c00c292a6886446d0b81",
+        "Key": "d16ed68e27dd1b464ec31e75bb382363924cfc890f49aa37312dd13ea6ecb0d8"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "31566a6af25f251316e9ae7a18a9aede",
+        "Key": "16038276f983b8407d1754aa3768f8be41d50ce38908b2b7228576e135632c62"
+      }
+    }
+  },
+  "11D257b": {
+    "Version": "6.2 (7.1.2)",
+    "Build": "11D257b",
+    "Device": "AppleTV3,1",
+    "Codename": "Sochi",
+    "DownloadUrl": "https://secure-appldnld.apple.com/iOS7.1/031-04073.20140630.lqw7a/appletv3,1_6.2_11d257b_restore.ipsw",
+    "RootFS": {
+      "Filename": "058-4137-015.dmg",
+      "Encrypted": true,
+      "Key": "b873d72b128cb18b109c05c49fd06a8456c8119da596886d02e9a89b8572a4a338a61a98"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-4322-015.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6f57e07f40ecc2e70fc0218cd85f8585",
+        "Key": "b5fa31e69e8d7658a55a804cb069e3e2b66d0138453090c3f7d1c65f6155c212"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6091b8aec57fcef7f6323a21b609217c",
+        "Key": "fdb0a8621d55c8d38283336d78c75f8ec3835420b331319d978d7c84e0476708"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "556a6caa2562e02cdc7f602d46ee6f7c",
+        "Key": "0a13688e57159505360ee7775e914e469fdd9f7cf0f875756f66cbc0c4d19346"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "be027b0f6f57fdb3eb6494bc46e6412f",
+        "Key": "2d48acda0f6b3d444576c900fb85524044f4c2849e685b151fd2bebc30dc96c5"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c133f6575d10d2ecd7eaf19b52b2d613",
+        "Key": "79a0a56bbb4fe816a0bc93667f0d465e7a18b225982c03b5cb3871874a47468b"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f5cc43277073224f12f1846b45f56875",
+        "Key": "c10b1fb8b15858aecd6e2d6269340327c4464a491a84dd50be3003609d8122d4"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "751a72e4a1323c3734525763b5966f6a",
+        "Key": "be74bd67ee3fbbb5266e0681b8c71f4ea803caeb8a333ea56c4c723d8a777159"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1e9bb2dbcdc3c00c292a6886446d0b81",
+        "Key": "d16ed68e27dd1b464ec31e75bb382363924cfc890f49aa37312dd13ea6ecb0d8"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "31566a6af25f251316e9ae7a18a9aede",
+        "Key": "16038276f983b8407d1754aa3768f8be41d50ce38908b2b7228576e135632c62"
+      }
+    }
+  },
+  "11D257c": {
+    "Version": "6.2 (7.1.2)",
+    "Build": "11D257c",
+    "Device": "AppleTV3,1",
+    "Codename": "Sochi",
+    "DownloadUrl": "https://secure-appldnld.apple.com/iOS7.1/031-04312.20140630.bTHzT/AppleTV3,1_6.2_11D257c_Restore.ipsw",
+    "RootFS": {
+      "Filename": "058-4137-016.dmg",
+      "Encrypted": true,
+      "Key": "72496eefc9fa708cc91c360cfddf904a8651e5fc6427f1f11a73ad3547cbdb0680586f21"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-4322-016.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "51da024b22e5b377d9865234e8a89221",
+        "Key": "cd8f2cae13735958c58da3a80e89d7ab24846c95fdafc7a92e902b85a7378d78"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6091b8aec57fcef7f6323a21b609217c",
+        "Key": "fdb0a8621d55c8d38283336d78c75f8ec3835420b331319d978d7c84e0476708"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "556a6caa2562e02cdc7f602d46ee6f7c",
+        "Key": "0a13688e57159505360ee7775e914e469fdd9f7cf0f875756f66cbc0c4d19346"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "be027b0f6f57fdb3eb6494bc46e6412f",
+        "Key": "2d48acda0f6b3d444576c900fb85524044f4c2849e685b151fd2bebc30dc96c5"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c133f6575d10d2ecd7eaf19b52b2d613",
+        "Key": "79a0a56bbb4fe816a0bc93667f0d465e7a18b225982c03b5cb3871874a47468b"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f5cc43277073224f12f1846b45f56875",
+        "Key": "c10b1fb8b15858aecd6e2d6269340327c4464a491a84dd50be3003609d8122d4"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8ce545d021515026a20f4dfc53c77bd0",
+        "Key": "58e81fa18da11f73470cb1a4d5642281028e69c8e8c8e24765a611ad45b9d1fc"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1e9bb2dbcdc3c00c292a6886446d0b81",
+        "Key": "d16ed68e27dd1b464ec31e75bb382363924cfc890f49aa37312dd13ea6ecb0d8"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "31566a6af25f251316e9ae7a18a9aede",
+        "Key": "16038276f983b8407d1754aa3768f8be41d50ce38908b2b7228576e135632c62"
+      }
+    }
+  },
+  "11D5115d": {
+    "Version": "6.1 beta 2 (7.1 beta 2)",
+    "Build": "11D5115d",
+    "Device": "AppleTV3,1",
+    "Codename": "SochiVail",
+    "RootFS": {
+      "Filename": "058-1636-005.dmg",
+      "Encrypted": true,
+      "Key": "900c75651c6df85d5f566b806af3ba2a252641c32570372de062fbad4af5eb563a2e2c31"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-1640-005.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a6e9e1d5b607d0c97783c21593f0965a",
+        "Key": "d2f577194a995390efe832a4ffd668a1132b154260405309dc29eca6a67312ca"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "72b72e075da79d23e65dff8c668b42a1",
+        "Key": "c1cefaab01b21990e58b899358055799916e9f5c5c091cfe35b9038c5a5a91de"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "43bbcb420ac2220665f40b892e71c8ec",
+        "Key": "e0f068d1d5ad32e7d90f473f560028c3075fde2d0c106ee994e36da1d27ca12e"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c1cd50c4ab9a4e53af9caa83760fa32f",
+        "Key": "96aaa66c94556296140a4bee66103e4f5919b34b9784005a0fc4dcd663f60bb4"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6d09fcf08d0e2cf6c7b967953d89f3ea",
+        "Key": "0325d61147ae8a28becdc8301827eb9e7da6215ce85ad5c2531b15989ea88715"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b8e9fce5839cae1b6f473caa4e13d461",
+        "Key": "359be8ff8f060ac246a8d955603ef049935a39a28519b2e34dd9ffec7fa0cfcf"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8006dfcccf2d35bec30e31c52b61daf1",
+        "Key": "ce5c50c3f14cfe3f55429bf5e54dc3c442c10008e3032942e5b2760cdfb75156"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ca5b739f165ed90ff979b287a15dbc54",
+        "Key": "a95e670467448f6b0d60ffac0a764e18ecd878acb5c5bd8f3be62edd7ce3c053"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1c18224de1cba800bb8022afcea5729d",
+        "Key": "cea1034cb43466b7afc01ac3a835c3e560441950977ed1024b51a3b4621537c9"
+      }
+    }
+  },
+  "12A365b": {
+    "Version": "7.0 (8.0)",
+    "Build": "12A365b",
+    "Device": "AppleTV3,1",
+    "Codename": "Okemo",
+    "DownloadUrl": "https://secure-appldnld.apple.com/iOS8/031-05613.20140917.R9AQa/AppleTV3,1_7.0_12A365b_Restore.ipsw",
+    "RootFS": {
+      "Filename": "058-04500-037.dmg",
+      "Encrypted": true,
+      "Key": "4160c17dedecabfef4dbd33f5a68c042c1c164acf0b92bdb6cdddcb15f95af4956737a17"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-04678-037.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "61494017b7fd8b784d699d417e3211d5",
+        "Key": "c9f94e06e3650632bff3275b74232186cfeb4331587a03788320c16cd9d572b8"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5b8a3f69ff2a1a1b5e3905cd7809a8d9",
+        "Key": "388da0e7d3e183e2285b3d329a78b15ed2f3ebcf76e7be95f5668a63f6dfa182"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "74a7198c6f3aeef81e2f9fffee64ba21",
+        "Key": "8add944f9ca4ab2684bde0d0bd778e40c37aae236f4e3861e23830d024a98882"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6b30cefa0e8eec548f57144c9f79dc0e",
+        "Key": "37a1b6e85aeccafc30a2592b7b2d08cfb4ed499caf303c245285d0579795932d"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bd3d4a11235cd8e3468d379bd3f580be",
+        "Key": "fc23644e133d1f8b5ed17bd39bcf051f70d4511a35699a9fb992b8150f6a30aa"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1f483bfd8793b7c62251e3880bce53c7",
+        "Key": "fd0e6bafe29f0a4c571d5212918c33eba10753dcb55a0cbdb68255bbfdcee5a5"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3d3c75beee41f3f6cc9e9d140009662e",
+        "Key": "1e66743d00bc6ec0afbb34f85e6f585e132cd6b7c8c4fbca1556dfa83fd6af1e"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cb792557e9e86ed9c9a8f73169b68157",
+        "Key": "ab50252c0213fd87af0a49e12c2e58daee9fe19615807106b78f7f41ffad668e"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "687226f0c12a80e2e518084399b9e2e7",
+        "Key": "bb7d9c986021c54fd7c783467d82875053c67ef19d226f41b96d6988b9e77cb5"
+      }
+    }
+  },
+  "12A402": {
+    "Version": "7.0.1 (8.0.1)",
+    "Build": "12A402",
+    "Device": "AppleTV3,1",
+    "Codename": "Okemo",
+    "DownloadUrl": "https://secure-appldnld.apple.com/iOS8/031-07533.20140924.ctikz/appletv3,1_7.0.1_12a402_restore.ipsw",
+    "RootFS": {
+      "Filename": "058-04500-040.dmg",
+      "Encrypted": true,
+      "Key": "61fb3797883066bf102f0e432e93dbc0d7cb37303a8710b0c7b15978cb731158a8b90042"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-04678-040.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7a6cffc7838eac07359c709dbfc4be1f",
+        "Key": "4305f0ba9bd0a1220646bacd9800e1ea87a21af82a5752e0bc59ffee34d1f2b0"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bf64bed2a4702f00f31b648751570223",
+        "Key": "fd4d6466dada714890bb27fddc5d7eeed9222a79b81fe7f919d609be05cdfa99"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d7d899743e70a716949d52e57e52abca",
+        "Key": "d9deef54a1799a40afe242c2af5471a4e03ab60f715618eecb9bfe674530eb31"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "737e3827ab5856dbcda59bec554f19fa",
+        "Key": "f45057cfde7c4d5db28c970726eb79e56a3d8510fd298b0b217663275efd977c"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5cfc19355c228998eff2c6343c45abb5",
+        "Key": "48ca181225983101be1bdf4f97b59c4e0f84dec42cfa0d67dbbdd04bcfa5ddf3"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "687ca4599d88019850b297fe7f2a7477",
+        "Key": "c4ebc2393c5aa10aaad119be6928277079b26555efeb5a12a94309139f52a040"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b907acc94f6c490df65342a57f718f8c",
+        "Key": "e9b42672c2dbb5db42e2c97d397396e46cd6a896f983ee56a46c64f609139d50"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bfc587a7a86a5406f80572cbd3a118bd",
+        "Key": "a925a80a36b38e0e278ab421c35184f57c509181e40f5a0938e46ca096b2fbd8"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1375fcf908db4c7af591ffcedef9c6d3",
+        "Key": "ca9dfc40e49bb71da3bf5b7cc0fe5147645bc0b564726bd15539861862e30c34"
+      }
+    }
+  },
+  "12B410a": {
+    "Version": "7.0.1 (8.1)",
+    "Build": "12B410a",
+    "Device": "AppleTV3,1",
+    "Codename": "OkemoTaos",
+    "DownloadUrl": "https://secure-appldnld.apple.com/iOS8.1/031-08971.20141014.kdG8W/AppleTV3,1_7.0.1_12B410a_Restore.ipsw",
+    "RootFS": {
+      "Filename": "058-05008-080.dmg",
+      "Encrypted": true,
+      "Key": "9a3881c03cf735a3f1ef8b1a590ff1fe39f459bdc13c2805224c2fd79eb3ddc8eb3620e1"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-05117-080.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0d1382ad4a48ddf862b8f96964cac8df",
+        "Key": "67788fa8d8242820c3573b3bdf215b492ee1848b0ee53ca404a4361a8b24c2e6"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cad17ce4f46ebe87ce3d08ecbc216bb5",
+        "Key": "bbeb90458250ea4bbddb660a691f9882128e2f9ba68dbafe40881bf26f15e7c3"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e45da76dbae758db3aa00cefc111e537",
+        "Key": "c54be4110eec4151761b2440dc65b0e97a27e002eaaeb4d7cfd65699f7ee9ec5"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a084fdd4597318bc4f318c86036f3ace",
+        "Key": "b951de1d06a4091aa65b985d85b3ce93d3d65205a6d542317884d69943e2ad10"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d79d78a3a60e818a7da0eb43bd558b3d",
+        "Key": "fd5b36f0c84ce3635fbba544baf1cb550713b0857448e63c2b2dee8fbf808cd4"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a67ba63a029633cc5afe42fd8fd0a924",
+        "Key": "615b49f8ca1324fc5f32bf2285ebc58eeb5ccb656df37e1d6dbf0fd3143cdf4b"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6f9720b790680d619eaa1ba3d5cba4a4",
+        "Key": "6251428c0bc045bc120a47af4f90ded573e268096a0813713f5280cb5123d7a9"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3991a87f87d8aa53965f65b3c87bbd6b",
+        "Key": "6d85922884ffac1733ac60eae4fe4a00fc8095f760440c64bf7a11b95cbbd967"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "352436f5050afc406c897422354b17e0",
+        "Key": "429d8707eb57225ff92801911a184521b6e704a5c37cb272303cbb479b37bd39"
+      }
+    }
+  },
+  "12B435": {
+    "Version": "7.0.2 (8.1.1)",
+    "Build": "12B435",
+    "Device": "AppleTV3,1",
+    "Codename": "SUOkemoTaos",
+    "DownloadUrl": "https://secure-appldnld.apple.com/iOS8.1.1/031-10021.20141117.MMEwU/AppleTV3,1_7.0.2_12B435_Restore.ipsw",
+    "RootFS": {
+      "Filename": "058-09569-016.dmg",
+      "Encrypted": true,
+      "Key": "2645f403abda159848e2a6735b1ef74977089897dc9f10693c933576b57be396d2d435a8"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-09735-016.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "176c748c12c72c2c8e208dbfe3059bc4",
+        "Key": "9e67b9af4698938096c72d4fefc534a74905d8a520c2d30600f9360fb5fe6415"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1c468ece6296fed3a9f60a0530ece5db",
+        "Key": "ddd47e2a15f741cd2497397bbd3326370eb504f4d106361982f944ad3f82fa24"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fd5578aa6d6621ff98b746cc6998e342",
+        "Key": "66331fa7b9da36b173629d1b866bb1eb98b0a0a1b9e0a2891bb510c0594e3356"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9938e6bd9ae374c4e5519a23f3490e21",
+        "Key": "24bc325717ef27055b2a88c81b42703684c7e64b6ae7eaed1cf364737ab4a6b2"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "acf3e53cd562dc8775cc2eec6f6b05dd",
+        "Key": "2761351b57a27b83dba9d932288b2817a376f4cecdfb4bccd528114ec564399b"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "aa143fcfda438920b67d59dea0d68824",
+        "Key": "12d6163541d3f1c1a6b850e9609bcf37952f514d1d45fc347aec6b0499f79a0b"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "06bfac0bce84b03c8c26863f04cf63b7",
+        "Key": "f1af4e9c1ce0f70a572ed6a8f4f710acd6777d350caee4810c76519ca2d5983b"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "71604f90da8a7392985b73361a8af37d",
+        "Key": "b5e12ee26a942e0394bd3af86fc27ac23fc3a48edd2162b712b38a96449b2e7c"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "07534a27ed03c3fdb9b5387426fe59ab",
+        "Key": "2d5e2a5df69d25a45244a2b3ed764e47d4d6dd95e96d6b98c26588152a6c9b80"
+      }
+    }
+  },
+  "12B466": {
+    "Version": "7.0.3 (8.1.3)",
+    "Build": "12B466",
+    "Device": "AppleTV3,1",
+    "Codename": "SUOkemoTaosTwo",
+    "DownloadUrl": "https://secure-appldnld.apple.com/ios8.1.3/031-12766-20150119-8A3917A8-A005-11E4-95D1-21565BAA4ECA/AppleTV3,1_7.0.2_12B466_Restore.ipsw",
+    "RootFS": {
+      "Filename": "058-12069-017.dmg",
+      "Encrypted": true,
+      "Key": "b4cbd57e45e2180a1d5759e7e23ebac32850c8bed1245e39d9798a384566ee4b6eb9906d"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-11829-017.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "235498d0fdb4210db4401101fdaeb8a9",
+        "Key": "320e239ae61c80ffc7d70906cfdf4c2283a1644e9bca19c9c530c741cfd0432a"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "dafbcb9e3bd230a48a28f5be3a0551bd",
+        "Key": "28c1fb5479d21789c3e31a97f232cc738ce87836d13e04e3811756e5524ce9dc"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a4022fd0844720638996e873f6210c68",
+        "Key": "c848aa99991cb5c4b0783935992d9507caaae36f741b39bb94041c3b1c6bf867"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7b25e081e6aae365079370208f8cd0dc",
+        "Key": "99eb73191079692a270254f0e0dad72399ad892ee4fa99bf4fc6f6d223ed2e09"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "63fca37ccbcb8fee90b0b4a411942e65",
+        "Key": "5060bde9f6c1d0bdab7896597cf89be1b8dea535b60f20143b136effcf850c3b"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4b6d4a89918ec3316cd26f814c77fb3a",
+        "Key": "87b280809982027e1b4960af22c9bbf5a3169edad1854187455018a3028b7aeb"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "09a7254fbcd383eac23f99b55b518aa9",
+        "Key": "29220485c35076d6e9c4d72def36a0f79c1323475b2235e25d7142b9fae86af4"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bdf847c33c22387a4100f31901e2b752",
+        "Key": "136aeed142a023c0b0a01b97d992d84705ce8445536e9b0738b588e3574a02d8"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "547c91ee24ee5d6f00b7c5ba8a0ca4a9",
+        "Key": "c4d66a7279507cf1134caf9a4a55cb9c57a7548b3674361512410ccc3cf114a3"
+      }
+    }
+  },
+  "12D508": {
+    "Version": "7.1 (8.2)",
+    "Build": "12D508",
+    "Device": "AppleTV3,1",
+    "Codename": "OkemoZurs",
+    "DownloadUrl": "https://secure-appldnld.apple.com/ios8.2/031-06595-20150309-AEA8E822-C1FF-11E4-B722-13823780E501/AppleTV3,1_7.1_12D508_Restore.ipsw",
+    "RootFS": {
+      "Filename": "058-06614-149.dmg",
+      "Encrypted": true,
+      "Key": "60198b2e8d1ddad6cdb8403dcc97c8e923b1e17f5ece21bb36248217b44b50f9f904e849"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-06727-150.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0b24bdd5490c928c421fe9376cb85411",
+        "Key": "0307e9599c27ab57b99467e7a593541676c155cda7b88aa54f48ba532914075a"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d44eddbef142ce52c3dd1ca4dd3bdaa3",
+        "Key": "b6a5d592584e494811bca4a95a517e2d8761cb36f58c5c118aa1b5b770fdde98"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "27209e7dc11c8693ff214012d64fb085",
+        "Key": "75c0b43af39228eb38e743592b6d70d54987111bc8e5f4ae46efdbfd4956cbb9"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ad9a9a300c13759e90e42d4a22b37809",
+        "Key": "07557d6031167cdba8e791ee94c30e6004b4c0a5ffdefae915a56bf2370a7487"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1ee0a5ba8c8f7c47322adc5b567c5c7b",
+        "Key": "54efaeca59ef90728824ac9a18b6dcfebe71b82611f705a63d4e6a091aa7a8c7"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6014c51211446c1d9c86b1172b29985a",
+        "Key": "c27e507a02a3b733836111c046b58a9d21cbf776656761818d4cd870fbfd22cf"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2a9dafea411e63a6d002fcac83b1032a",
+        "Key": "85b5805f1630d2b50c41f6512bdfc9faeb5578a2d715fa077261ece1d0b9bd24"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c82fede7b7d672f34527afb04d6a6129",
+        "Key": "a1827438f47bee1e5a14f018dbcb432ab9d634501534d349cf99b9a11cf185c0"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "78c6d755708e3a7ead2028bfac15f0b6",
+        "Key": "161fa602de04bb74622d35343edc8fe7be739de53a9216d80aee4ae527d6c34f"
+      }
+    }
+  },
+  "12F5037c": {
+    "Version": "7.1 beta 2 (8.3 beta 2)",
+    "Build": "12F5037c",
+    "Device": "AppleTV3,1",
+    "Codename": "StoweVail",
+    "RootFS": {
+      "Filename": "058-17234-013.dmg",
+      "Encrypted": true,
+      "Key": "b39479c5e33402edccaa7f8cd6e3b7dbfceff64af576f5894c4d8e6f6069a01398d1d574"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-17247-013.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d9c299802144566804f5c7956e9a7c3a",
+        "Key": "44da8bf5aae552f8de93115c72e357e551d7da77dd8c44d979fa389dbae1cd5a"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "01a3c2824842266c58ff8b8e76dded1a",
+        "Key": "ef31c88bd7d203f56d72d4981861264d664cefdc31d39a065266ebe9e11b009a"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b4c2688e076b09dda183349f647eea5b",
+        "Key": "011f118f73800652414be3bee23bf9fd4796da09e4d585e52c6ddba45d0216cb"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "67314d8b0ccee5e9fc673255863cd5a1",
+        "Key": "79149757dda6f577508deed413d82a85ee519ba192e8130ec7ff4e5c97fcc5d2"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7e3c500a5a2096c5d2a57b3dc74581c3",
+        "Key": "c4ec59c78ab0a29d4fc0fa2714c44b47a5a076368bf7b3d265ac6d7082f405dc"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1dff9634d9b78ed5b20a191a74a6bf0d",
+        "Key": "97a1d19b05aa0157b910eb964187faac55ca0bfbd390389592c0f2262836ea9b"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4d4a14dfd2ca0c31e89c3d3e30d302f3",
+        "Key": "403ae679ba80e949055f2615fe59d019d14184376624c2f25f0bfad768e5a8c0"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "38f6480563be7bce4a543b32f0ae3f03",
+        "Key": "c4fbee91f9f33dc370aaeacc080e7fed86b84155aad805c58a0021a373c6337d"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4a4b4fe769084a46f6f7aad94ffef4f8",
+        "Key": "be4077ed1b0c482ccdf5389b8a5e19378cc7f24ea2e5b186bc2dd347d81dffa4"
+      }
+    }
+  },
+  "12F5047f": {
+    "Version": "7.1 beta 3 (8.3 beta 3)",
+    "Build": "12F5047f",
+    "Device": "AppleTV3,1",
+    "Codename": "StoweVail",
+    "RootFS": {
+      "Filename": "058-17234-021.dmg",
+      "Encrypted": true,
+      "Key": "fd88cb140a337c3c01f160ecd13e37c8b3cef94b4428fd744ca276df9bd11d5815d969e8"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-17247-021.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "94860396ac228b97a57443465bdd0fd6",
+        "Key": "1bc991289d7d1844b75db716a0d50bb8207beee5e8243aa5e81a118605f5476b"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b9f7552c20fdb028a962b55421fb0119",
+        "Key": "a83b14b9fbca30dd385630a3e70fa3bb27984911fd1966a7310cd55851e02ce1"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7643f3295ef339fc584249a39f642fa9",
+        "Key": "eb08ce6df4c879fa3ad50135bedb40d94e23325ce43e51f435159076b3acc875"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2f46bb026f24a9fda4de64639da5b027",
+        "Key": "2b994c94da12d3a5415c122bf90d4a7c46808aee534bec2ef142f36cc28c58ce"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "db1d8eeaa393900f3de91d64986f38bb",
+        "Key": "095393fd75a546624b1d012729c1251e5eb04f344f5d45f3397bb8176ca7c37b"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4aa10d7d2e3d8e7fbbdb358b108e6f46",
+        "Key": "69bfc5eef149e891ff4a13d04827f4379163d607ed82ae63532c5fd5bc4b57c9"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ca54d5bacad4cef288f293eaf6ce0d19",
+        "Key": "3e663762599424d3fb21c29baf0da360a1c06fe1d7d8f2de4947fe1821b08154"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "156f01c4f3a91cc9b2f57d38d19ec23c",
+        "Key": "0e94d6539e3c0f3784d3b504788b83b9d59edf9f42a8694ad5be6115b57fb373"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3d4a8314683fa64112a79f5448c7d3be",
+        "Key": "811ba58e4eb895f33a6921575accdad768daf8843bf09bd1135054a69a403c49"
+      }
+    }
+  },
+  "12F69": {
+    "Version": "7.2 (8.3)",
+    "Build": "12F69",
+    "Device": "AppleTV3,1",
+    "Codename": "Stowe",
+    "DownloadUrl": "https://secure-appldnld.apple.com/ios8.3/031-14765-20150408-4298A52C-D8B7-11E4-83B8-C61A90F2D2C2/AppleTV3,1_7.1_12F69_Restore.ipsw",
+    "RootFS": {
+      "Filename": "058-14777-072.dmg",
+      "Encrypted": true,
+      "Key": "fee243ee81720e06d50e92c4753e7bfd3c8962cd2dd0f0c37f563ceb8f888a87ef883928"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-14533-072.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1f57a8d113af49bdb946de5e52c1e802",
+        "Key": "c282fcd0db743d8941016dd73832316848f85dd8934c174f4e5134273e030269"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4dee4b38b5d79ee7a7ad18921ade975e",
+        "Key": "b107afff7b920f0d8ffd4e0e90ad2edd4891064bd6b0d0d5a3c5301e11ebf09f"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f19af7893af83090aef10053b9bacfc8",
+        "Key": "716d23124bb11bff51f683b6b311753978ad639b38c772e6cab4a98bd45d6573"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0a25f0e910d8b7b01bf3ab82508842f8",
+        "Key": "2c9042df1f6f7087de9d012cd84403745cfceda87df459c0cad77e02dde8ce2f"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e3f7cfaa1dc7fea6e4f3a8425ee65f81",
+        "Key": "16b4572475c252c95c22d7f82ce9ad64b2be75f6870a60f5db4915aa109548a0"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "14e9380de5a444a60ae7413134004a5d",
+        "Key": "589b202a56cc248608b1517c9447b9b9cb3475af0fdca97f7075a48170f9a20e"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "db43633f489d8875ff25b1c56c6403f6",
+        "Key": "eb395f2aed36310982c7838bf7cdf47f2319bcb337a125cec46cc4d2af5fd609"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d31b0e58ee966b7ad28a70022ac5be84",
+        "Key": "bb9e764c92c51dc26d9b15f150d191a7f891b8cb742b8ddb6ded1ff24d46281e"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ef08ab5df9b1049cb3ff765173b5e579",
+        "Key": "e826f5f52756c7436cc9381d2765f80745d3bda91fa5a02b3b630ae85d060429"
+      }
+    }
+  },
+  "12H523": {
+    "Version": "7.2.1 (8.4.1)",
+    "Build": "12H523",
+    "Device": "AppleTV3,1",
+    "Codename": "DonnerTide",
+    "DownloadUrl": "https://secure-appldnld.apple.com/tvOS7.2.1/031-51855-20160222-F7CF70F2-D725-11E5-8497-6A85919DCAD8/AppleTV3,1_8.4.1_12H523_Restore.ipsw",
+    "RootFS": {
+      "Filename": "058-33721-024.dmg",
+      "Encrypted": true,
+      "Key": "a30ef1e726bd7525717b57cdd6e5f71b63300002ce5cf7f36dc931130847c13234bd8528"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-33759-024.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b5ef45f55545e457aff420b53048a85a",
+        "Key": "e047ccd33d86636d2f7a11693289d6cd85e9f47882e1cf9171dbe429cfce8f7b"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d28abf11da6eaacf6df101e69c60e0b1",
+        "Key": "f20348a94ea4d14a5ff95c4b1643ce98d0f4f1309d704b45dacde66aa914de2f"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3865e79f70264178207dc6e58d89c4bd",
+        "Key": "cbe9753e96336b699a836e8e0f752032c4ef377fd3edbadae98c8fc6f764a846"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "eccd4d572a5af861ca846360c10a3f5f",
+        "Key": "cc6baf2df3bd1dfefa7ae65e50f51bef21acfbea5057458152b2618f92516e45"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "69698f7870d93398323d4631b3512a53",
+        "Key": "85205d48b541ef986f3b5a5d85ea6453d313bc41e84e3e8744a3b1a4185a034a"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "70c21e88a73fb035cee29d32a7552161",
+        "Key": "7bb10e812c3509df71f8d9f1f3b839dde2f026c1e40b69c89cc79f808b75c3bd"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3b5354d869013e2320db5a56947918da",
+        "Key": "a4ae4cf9c06c813e768d962ed41a070cae999fc56614671ed876b2b050babd75"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2c58ef15d3747c8a3a2c6ed3830a2046",
+        "Key": "af2222a5ca577d12283bd0fae7d2f93f2f4ccc1a16e63cb3acea250e5251eeda"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4e4846fb3cde529fd4c413895b48e9bc",
+        "Key": "7af20bc96f0245cfe1f2a9e13c0f574adef79a1caf595dfde11a4809c53f6c57"
+      }
+    }
+  },
+  "12H606": {
+    "Version": "7.2.2 (8.4.2)",
+    "Build": "12H606",
+    "Device": "AppleTV3,1",
+    "Codename": "DonnerTide",
+    "DownloadUrl": "https://secure-appldnld.apple.com/tvOS7.2.1/031-84128-20161212-12309AA4-B59A-11E6-AD42-AA1AE37229E1/AppleTV3,1_8.4.2_12H606_Restore.ipsw",
+    "RootFS": {
+      "Filename": "058-33721-031.dmg",
+      "Encrypted": true,
+      "Key": "9f1e01d524f9cdfc8adf7bf2790af3dcad29d9752ba5c22269e15c95bda18ccc79506389"
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-33759-031.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "42275e7b6e6f58e3b8658993efe3e67b",
+        "Key": "3b784e919ab0dc4542aa0ef6f47075d50eeb4da75b25f9b30c298a36b2a1da24"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "82f41e68296c1436e4acf0234bfb32ea",
+        "Key": "617588ed344ee2a2c647e0df0719ae06d951500d16da3ea9a60109ad9499fc04"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1d940cfadb3617d9cb3fa09786f23989",
+        "Key": "513a113009ebcfbef1ce4797df06eb315a7ad2bb0a62becd06f7dfd1b56555be"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "523aa22eec40651b5b2c699e47b7fc80",
+        "Key": "c6e9ed648a4286ec975d08304c07cf49ed9ae7d4d0d1b816cc5da5889c0be4a6"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "86577929572ae568c7d3fc8861ecde91",
+        "Key": "6fcae727a57c53acd26b39699f63469b592d505b2a3c189229070fff72af38ff"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9fa7ac47de52f2e6b6a3773d114c121a",
+        "Key": "082aa2b7a164db91975ba26325e14cb23a1e0eb3b9e7cf1749cc4112120010b4"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0f122c63b1ea7fcf37016a692b7536c0",
+        "Key": "2e7662088dc1a549f071e5c54a0385a2d8805a9dcd350d38f127830c09060d38"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4e54e0dda1b227ce373d60ec6b0bd3a7",
+        "Key": "a10e7e459c3f44100ba4a145b7ad0638fa48f5a94dcb80405ca61f5b32e6c172"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "341826a5ce7e695daecedf44b12cb0fc",
+        "Key": "124bc996faa40142839d031b216e84c64f3e5e0126db4066fdb67e004e31eff4"
+      }
+    }
+  },
+  "12H847": {
+    "Version": "7.3 (8.4.2)",
+    "Build": "12H847",
+    "Device": "AppleTV3,1",
+    "Codename": "DonnerTideUpdate",
+    "DownloadUrl": "https://updates.cdn-apple.com/2019/tvos/041-62819-53ABD3AF-1DA3-454A-9535-FA675F304720/AppleTV3,1_8.4.2_12H847_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-37450-047.dmg",
+      "Encrypted": true,
+      "Key": "166305853102ccd39166c77797df389bdc5c4e894ac5faeaa91ccac3f535bf7d"
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-37443-047.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4ce214713583c421832547ffa954b3f2",
+        "Key": "b1ffca5e9514bb374eaa315977edad7b13a4de8639f3b91f93bc54d56d139c29"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d10c6a26be198522fdb272563ae61a8d",
+        "Key": "d3386057f21a1085edb89b048cf5c928b1a2594aaffad55a12b080c8282c355d"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "585a057e95270df49b1ab1f463343e6b",
+        "Key": "67ed7d1720a86aa28468229f276000a830487fbaa3434bf9ce32b963dcc75e1a"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d3c19084368fb0d80ab1cc21349de3c1",
+        "Key": "76dcaf9ed5f3bda535bafa847a3010a4d2264de15dca39539407506a865aa287"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a8aadf98c398faf826ca932b032bd19d",
+        "Key": "41c1c59c0940da42aaed82ceae828972f30413629dbb6d848bc4d5d3ba79f1fd"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "63185911f4ace9cca35ae81481610ebd",
+        "Key": "aec3453c9a64efbf0e1d3e49c9c0413204c25110f8f3a58f5eb687fc0d3a1bfe"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2467307a7d48874b4f6ae47a2c09a7db",
+        "Key": "c59a12820ffa1d9f1764fc3c7ab8d272d477018d3480880b19f9dbd42ce2cf1a"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "824308d9465ce1c104c624745ddd488f",
+        "Key": "f66fe64268050d0c2fc188a23fe4e99322ca9f97272c37800516a808ad9923d5"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e4cfdd04c759ce4068e0f7263f7d0a58",
+        "Key": "5d39f49fec8b0e4ba741760ccb9e507ef2147f8acd6c8d92f1eb2ee6c6d8b44e"
+      }
+    }
+  },
+  "12H864": {
+    "Version": "7.3.1 (8.4.2)",
+    "Build": "12H864",
+    "Device": "AppleTV3,1",
+    "Codename": "DonnerTideUpdate",
+    "DownloadUrl": "https://updates.cdn-apple.com/2019/tvos/041-76803-20190722-5234D381-DB13-4028-86A5-61F1A6BFF42C/AppleTV3,1_8.4.2_12H864_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-37450-052.dmg",
+      "Encrypted": true,
+      "Key": "40c530f5cc4bc210c7bccace7a95fcd73dfe90421775c34359f0a63ff37215d8"
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-37443-052.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a5754ba79b5d8d6b12bc6b9c08cb7023",
+        "Key": "600a7968951275bb3dc30367633cd052641bd392e634e01193da5204a896ff50"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6785ed2e19a23c8630354e1c2fef3ab8",
+        "Key": "2b7775423d91c2df3499441a760a5f1cfa83b558dd1cba45ea2e7c44b99f86e9"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6a43487f7db15f2f3068d6644bd71d51",
+        "Key": "e2441cc64d01a22b3cd87d3543e1968ae1c02afbfd66986375498cf2eb29903f"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c3d861525fef2dd454d4f57c60ccf7d7",
+        "Key": "d873c35a06913d193e8247011df91a1982d3a0666557f5976362398d60be7c42"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "118f3cda085b4ae7852601d7d4e84112",
+        "Key": "9731bf266b1799d6313778b8ffdb1ee1ea37a948fb6248ec062a8f7489108864"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ba8de27237702c7cde788a2f3644c0c6",
+        "Key": "fc4eee36757218db3032c8807287a1268ae997ff30383c602f2db699c253aa01"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8eafc7ded6d9011ffc27dbcc2211a981",
+        "Key": "5ea916361176c7390ab140c3a035682dc9755e7be0c33312674a2aad47419966"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5247d738827e0ecd4eef4637c2fc6e5f",
+        "Key": "c4e9e17441aa104caa5a4c40b3ca5e8ae27410faf13964b27791f722255d140c"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b8a1f85c25d7df30d3eb5d8150c798a8",
+        "Key": "c66a8dd00f90c96e46d20d39d565974dd658c5db8be3394ecaf7d8386ad5297d"
+      }
+    }
+  },
+  "12H876": {
+    "Version": "7.4 (8.4.3)",
+    "Build": "12H876",
+    "Device": "AppleTV3,1",
+    "Codename": "DonnerTideUpdate",
+    "DownloadUrl": "https://updates.cdn-apple.com/2019/tvos/061-00124-44C62A96-A04F-4F25-8BC9-B3FF5293D347/AppleTV3,1_8.4.3_12H876_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-37450-064.dmg",
+      "Encrypted": true,
+      "Key": "5cf89d314ed9c10de1df8a533f99d6e1d5b9f046c9c2c27b900de0c779a30d3a"
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-37443-064.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "84ce20fa5826517da838bd692c82a487",
+        "Key": "c8adc4d55fcbc83d085ab56d7debfb7c4f9e69b37c4ca50cf9a8a864099b310c"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e8620a00dfc057fdcbe60a254aa5a788",
+        "Key": "e7b6f0c1db0936547f24b659c2729cda2dc151599a2814fc5823a4a39a3b871b"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2f833e2d41037651b46091ff3d9dc854",
+        "Key": "c6cd665ea2227d647fcb448dfb3a56527a9fafd7a462f5a18c5e6d1510289380"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5cfc961bde9079d76d4216a14fd65c4f",
+        "Key": "6b1c2174d11cbb97f112d38b5c197639cfa5e58c83b9fd689c0c00800a12d7cb"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "16d2b38fc154e67b5af3a264775743d4",
+        "Key": "86ba25f34baea9c684f0762e66c50a8d25886a7b2c4fa6fc044e10937df5d2f7"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "704e29f7ab9ff969ccd3730b817a9b09",
+        "Key": "dc4749e97c2fb9e572bb0835a0e8e2712fc60a96e1832dc3bd149da91a330e8a"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7f75fa6290abc6ab9f3ab0959e973845",
+        "Key": "f98a6bb31d1646451759e7c22db9a7ac2e797eae8428d76e16cb13f05d27b6fa"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c6fa0ee9cc1403cb9c46ad0f77907f11",
+        "Key": "4086a5fe7a553815391bdae94c3be975ee374977ef4e3dadc7bbc32a304ebb75"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a802a913540267f4aefa907754361fbe",
+        "Key": "0222adaa49377362eb5d4c94e624948c5eff7dfe4e5eca866324a5cb1dc3b30e"
+      }
+    }
+  },
+  "12H885": {
+    "Version": "7.5 (8.4.4)",
+    "Build": "12H885",
+    "Device": "AppleTV3,1",
+    "Codename": "DonnerTideUpdate",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020/ios/061-27779-20200313-223AE952-C353-4450-8003-BF58137FE070/AppleTV3,1_8.4.3_12H885_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-37450-074.dmg",
+      "Encrypted": true,
+      "Key": "7dc621121f15f4519a96950b5a6e4d7641f529e6a07b9c457d25ad1facb90cbc"
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-37443-074.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8fce4aa6c9017d7758e0156ace9eb1c0",
+        "Key": "dacca2239ec7c869bf4cb0f78898d4c081a199cd244202f4c0e936821dcf4605"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "314f7e7beadd5534e66e0275e5bda446",
+        "Key": "16b45b65142a2048d41848a9f518f2f34c68b97613e8b35d74fe1cf2e9574c8a"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "88ae677c31d3d125bbbb83706da09002",
+        "Key": "cefd9073e4c04710c77690ec0297110046bb61c3e2efcabbf6fe2635383850d3"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "965e1a871d1ffc9a92216bcbb03042f7",
+        "Key": "e834fd5c1b3359d2996c6858e8a7ab8b57806b59f0dbd13a92e1708d846f72dd"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "151f7ee17dcef96f66e6834bd6d38973",
+        "Key": "0689e0964d84685981b3b5dddfced08f98eecdf4611821e981d433bd1903c94b"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c4f479121bbfbc2570d8c7c727f20f63",
+        "Key": "9f4a8c9be1b03776a0bb7f07050a7d557b2e70d573d230191b3545474b2b0826"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8863335785ef7fa50609e7f6c238059a",
+        "Key": "59f62772088bb47f34d6d3c5cb33a16303e4795940ce04ca01c2cd58001c2134"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a8dbde11f03e989d24d65305cd7386b4",
+        "Key": "ac5e23df626c647cb405878793e75480b241d7ead8dd875bc6b88aff8585427c"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1841c2ab0a8c023cb8ca3d54436eb2bd",
+        "Key": "a5c23b942054162ab97884aebda648ceb5121eec418f3224348e5b2446142c4c"
+      }
+    }
+  },
+  "12H903": {
+    "Version": "7.6 (8.4.4)",
+    "Build": "12H903",
+    "Device": "AppleTV3,1",
+    "Codename": "DonnerTideUpdate",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020/tvos/061-96669-20200909-B810074C-884B-4A5E-A12E-568E1B175103/AppleTV3,1_8.4.3_12H903_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-37450-093.dmg",
+      "Encrypted": true,
+      "Key": "17dd4784c7737c4681ceac039f2f99250d84924caeab4c73464db8515fcc2c25"
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-37443-093.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "09697c04c531b7c663e148e8bedd7b03",
+        "Key": "1b09c48f884170a763e552698067afd901b183d8ce8e5d057e13a01a507b51fb"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33.RELEASE.img3",
+      "Encrypted": false
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j33.RELEASE.img3",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": false
+    }
+  },
+  "12H911": {
+    "Version": "7.6.1 (8.4.4)",
+    "Build": "12H911",
+    "Device": "AppleTV3,1",
+    "Codename": "DonnerTideUpdate",
+    "DownloadUrl": "https://updates.cdn-apple.com/2020/tvos/001-48397-20201029-4D978193-78D9-4322-8F24-98879C48BAF0/AppleTV3,1_8.4.3_12H911_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-37450-100.dmg",
+      "Encrypted": true,
+      "Key": "59d14f926acb9e5b2b7e927f4a2b974dd9dc3a4522e7bc57ca2b767c9cdc7491"
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-37443-100.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "34cdaff5e15ad75461b58d5572af23ab",
+        "Key": "d6c863643ef482174c80b4976809a2983ef2de45b985a2c222bb3fc654563632"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33.RELEASE.img3",
+      "Encrypted": false
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j33.RELEASE.img3",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": false
+    }
+  },
+  "12H914": {
+    "Version": "7.6.2 (8.4.4)",
+    "Build": "12H914",
+    "Device": "AppleTV3,1",
+    "Codename": "DonnerTideUpdate",
+    "DownloadUrl": "http://updates-http.cdn-apple.com/2020/tvos/001-77039-20201209-ED3EF4C9-51F7-4702-A191-6B65BA02CAD5/AppleTV3,1_8.4.3_12H914_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-37450-103.dmg",
+      "Encrypted": true,
+      "Key": "ddcf299e781f8341e56f210eae6aefa93b72a9866e6df4c4cba54341ac98aa24"
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-37443-103.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "91832362b894a496ef2508721b316bd4",
+        "Key": "770aa44f3053614505b99c2d5aa0723f6d300f9d609f46a93f49ecbfbe907288"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33.RELEASE.img3",
+      "Encrypted": false
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33.RELEASE.dfu",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.j33.RELEASE.img3",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1080~appletv.s5l8942x.img3",
+      "Encrypted": false
+    }
+  },
+  "9B179b": {
+    "Version": "5.0 (5.1)",
+    "Build": "9B179b",
+    "Device": "AppleTV3,1",
+    "Codename": "Hoodoo",
+    "DownloadUrl": "https://secure-appldnld.apple.com/AppleTV/041-2855.20120307.SD8A4/AppleTV3,1_5.0_9B179b_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-2496-170.dmg",
+      "Encrypted": true,
+      "Key": "72f285e20d062d46031e39a7da1ef2271138ef3073a0b34aa049e904344be0e103bc4011"
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-4328-008.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "db6b92653ed7396d6473924567f12167",
+        "Key": "f94210e1e3b51e4750f55a6a83e44b449f74d4ec3853a8ac85618e7808dc10cf"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7bb3b56edc69840da87e77b8306dfd05",
+        "Key": "128763d9615ef164213e731d11aab5f22606d6e3162e8b5f832fedf9a6ac86fb"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "73937b4f6d8f7c940baa709a0454732e",
+        "Key": "2b157fb5057f6e660194d61392b08d67da3c6f03174f5f36701f953cebc4b753"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "12b707afff9ecc64451f4dabd919e5c6",
+        "Key": "2fe6b7424435342863753921a6f314c6e7981c1c893cc5d77a48367644d18ee0"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3a6c176b1c4b69f7f299fc247e631ef0",
+        "Key": "2023f5d6141805ad6dbe4b44a6a704a0a62c1419dd3e7311a24e49ebb82fa36a"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7de89e241c7f055223525e436c112ac5",
+        "Key": "56a4423fbd31095bcf948fe75653f18f0a5be2927d1e57ae749427c518ad85d1"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "de2a3f4812381ffcbd1d183454d28adb",
+        "Key": "7415098f9cce9c7f793dc1dd12c2f4fe286f03ef3e6e0b7ccac2bcb938e4512d"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0eed58964fe38012f168b96df153fa76",
+        "Key": "0001ab678870ad80241748447d07a39b1b9b26531abedef09969abd78d2703ce"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "be7824e1e65fb35fd0c42c990790d65c",
+        "Key": "3db53e104bbdad155896fe70fde72828f961855a124ea00f364455fcc79bf3d4"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fccb3891aa3d66901700df852a01d72f",
+        "Key": "aab9d16b238bd7eee076f1e6928292e03753bb41bbef18068d782287189eb51d"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bd25f13c95eb70a347edf5ba589e2617",
+        "Key": "660be5d19364d093ac0799c7bfd7aacb28628b921ffef379f2fd69aea5560f07"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "69674fd6f073d6d494a386ed4a1d6d20",
+        "Key": "4d4f02f62c4a0f680f646ee9ca28c639855dcc562ec1f9a51cd4682fabb7d54d"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "86f78333484c014ef551878baf49ad07",
+        "Key": "d88dcbc5ced961747aef37870742176167a12f1c425043b464122d48e3b20a87"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "64202200dac1b2df113f724048e2a3a5",
+        "Key": "c1fcba99e929be4dc384a907731d398d4e55ee454cb2ce7e565b8abd4eddbc44"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "17fd339d30d7b9acefd45c9004f360ce",
+        "Key": "ca469afe02b485d01747a8ccee9955f536b58719d6ee8f318d8d02adbb0adc25"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2x~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fe942491e7812d169610c6b2ca8da84b",
+        "Key": "eed999cda1734f60a37fb270e3836b29061a8888557872cebd5f2da48aaf5e36"
+      }
+    }
+  },
+  "9B206f": {
+    "Version": "5.0.1 (5.1.1)",
+    "Build": "9B206f",
+    "Device": "AppleTV3,1",
+    "Codename": "Hoodoo",
+    "DownloadUrl": "https://secure-appldnld.apple.com/AppleTV/041-4350.20120510.Tvfr4/AppleTV3,1_5.0_9B206f_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-4369-019.dmg",
+      "Encrypted": true,
+      "Key": "d3a4ec20408e00e7a0b092eb6bb7845dbab6d63cb344896b9189efd08ac5d83720b52dd4"
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-4887-003.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e1a68bfe32ebd49723e19be2dcc25aad",
+        "Key": "d025e5a8a1c3d7e5ddad4f0a40a80dd9dfb390f9587c5ea187f5bcb84d0fe7e0"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7bb3b56edc69840da87e77b8306dfd05",
+        "Key": "128763d9615ef164213e731d11aab5f22606d6e3162e8b5f832fedf9a6ac86fb"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "73937b4f6d8f7c940baa709a0454732e",
+        "Key": "2b157fb5057f6e660194d61392b08d67da3c6f03174f5f36701f953cebc4b753"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "12b707afff9ecc64451f4dabd919e5c6",
+        "Key": "2fe6b7424435342863753921a6f314c6e7981c1c893cc5d77a48367644d18ee0"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3a6c176b1c4b69f7f299fc247e631ef0",
+        "Key": "2023f5d6141805ad6dbe4b44a6a704a0a62c1419dd3e7311a24e49ebb82fa36a"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7de89e241c7f055223525e436c112ac5",
+        "Key": "56a4423fbd31095bcf948fe75653f18f0a5be2927d1e57ae749427c518ad85d1"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "de2a3f4812381ffcbd1d183454d28adb",
+        "Key": "7415098f9cce9c7f793dc1dd12c2f4fe286f03ef3e6e0b7ccac2bcb938e4512d"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0eed58964fe38012f168b96df153fa76",
+        "Key": "0001ab678870ad80241748447d07a39b1b9b26531abedef09969abd78d2703ce"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "be7824e1e65fb35fd0c42c990790d65c",
+        "Key": "3db53e104bbdad155896fe70fde72828f961855a124ea00f364455fcc79bf3d4"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fccb3891aa3d66901700df852a01d72f",
+        "Key": "aab9d16b238bd7eee076f1e6928292e03753bb41bbef18068d782287189eb51d"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bd25f13c95eb70a347edf5ba589e2617",
+        "Key": "660be5d19364d093ac0799c7bfd7aacb28628b921ffef379f2fd69aea5560f07"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "69674fd6f073d6d494a386ed4a1d6d20",
+        "Key": "4d4f02f62c4a0f680f646ee9ca28c639855dcc562ec1f9a51cd4682fabb7d54d"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "86f78333484c014ef551878baf49ad07",
+        "Key": "d88dcbc5ced961747aef37870742176167a12f1c425043b464122d48e3b20a87"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ba46b179d425c6247897fd056680b012",
+        "Key": "1df1f9580aa0b31c7608152bf57d2cb475a8423341c085ac8f4bafa1215ad848"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "17fd339d30d7b9acefd45c9004f360ce",
+        "Key": "ca469afe02b485d01747a8ccee9955f536b58719d6ee8f318d8d02adbb0adc25"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2x~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fe942491e7812d169610c6b2ca8da84b",
+        "Key": "eed999cda1734f60a37fb270e3836b29061a8888557872cebd5f2da48aaf5e36"
+      }
+    }
+  },
+  "9B830": {
+    "Version": "5.0.2 (5.1.1)",
+    "Build": "9B830",
+    "Device": "AppleTV3,1",
+    "Codename": "HoodooTide",
+    "DownloadUrl": "https://secure-appldnld.apple.com/AppleTV/041-4361.20120605.grjot/AppleTV3,1_5.0.2_9B830_Restore.ipsw",
+    "RootFS": {
+      "Filename": "038-4419-031.dmg",
+      "Encrypted": true,
+      "Key": "8d4437724ab22e9024df9184a7aca85f2ec7d22bf40a7cff50f248360ca10f55891e1a18"
+    },
+    "RestoreRamdisk": {
+      "Filename": "038-4382-032.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8756dd80f199e4126e5e7d683949c4da",
+        "Key": "800adfd3d271e1566299d39a970a918449bba7eb62f7bbc0558f72d61b4fe25d"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7bb3b56edc69840da87e77b8306dfd05",
+        "Key": "128763d9615ef164213e731d11aab5f22606d6e3162e8b5f832fedf9a6ac86fb"
+      }
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "73937b4f6d8f7c940baa709a0454732e",
+        "Key": "2b157fb5057f6e660194d61392b08d67da3c6f03174f5f36701f953cebc4b753"
+      }
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "12b707afff9ecc64451f4dabd919e5c6",
+        "Key": "2fe6b7424435342863753921a6f314c6e7981c1c893cc5d77a48367644d18ee0"
+      }
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3a6c176b1c4b69f7f299fc247e631ef0",
+        "Key": "2023f5d6141805ad6dbe4b44a6a704a0a62c1419dd3e7311a24e49ebb82fa36a"
+      }
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "7de89e241c7f055223525e436c112ac5",
+        "Key": "56a4423fbd31095bcf948fe75653f18f0a5be2927d1e57ae749427c518ad85d1"
+      }
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "de2a3f4812381ffcbd1d183454d28adb",
+        "Key": "7415098f9cce9c7f793dc1dd12c2f4fe286f03ef3e6e0b7ccac2bcb938e4512d"
+      }
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j33ap.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0eed58964fe38012f168b96df153fa76",
+        "Key": "0001ab678870ad80241748447d07a39b1b9b26531abedef09969abd78d2703ce"
+      }
+    },
+    "GlyphCharging": {
+      "Filename": "glyphcharging.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "be7824e1e65fb35fd0c42c990790d65c",
+        "Key": "3db53e104bbdad155896fe70fde72828f961855a124ea00f364455fcc79bf3d4"
+      }
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fccb3891aa3d66901700df852a01d72f",
+        "Key": "aab9d16b238bd7eee076f1e6928292e03753bb41bbef18068d782287189eb51d"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bd25f13c95eb70a347edf5ba589e2617",
+        "Key": "660be5d19364d093ac0799c7bfd7aacb28628b921ffef379f2fd69aea5560f07"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "69674fd6f073d6d494a386ed4a1d6d20",
+        "Key": "4d4f02f62c4a0f680f646ee9ca28c639855dcc562ec1f9a51cd4682fabb7d54d"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.j33ap.RELEASE.dfu",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "86f78333484c014ef551878baf49ad07",
+        "Key": "d88dcbc5ced961747aef37870742176167a12f1c425043b464122d48e3b20a87"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.j33",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "39964f8ffe5862d5475667b551d4b699",
+        "Key": "261ea61fefa73cf2b8fdfea832d1e52c81208e909b2db03ae6a138e1d5bcb2a1"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.j33ap.RELEASE.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "17fd339d30d7b9acefd45c9004f360ce",
+        "Key": "ca469afe02b485d01747a8ccee9955f536b58719d6ee8f318d8d02adbb0adc25"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2x~appletv.s5l8942x.img3",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fe942491e7812d169610c6b2ca8da84b",
+        "Key": "eed999cda1734f60a37fb270e3836b29061a8888557872cebd5f2da48aaf5e36"
+      }
+    }
+  }
+}

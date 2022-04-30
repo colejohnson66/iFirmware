@@ -1,0 +1,410 @@
+{
+  "13S661": {
+    "Version": "2.1",
+    "Build": "13S661",
+    "Device": "Watch1,1",
+    "Codename": "Bahar",
+    "DownloadUrl": "https://secure-appldnld.apple.com/watch/os2.1/031-29536-20151208-ca603a1a-8eec-11e5-9b1f-e0c48b8beceb/watch1,1_2.1_13s661_restore.ipsw",
+    "RootFS": {
+      "Filename": "058-26545-063.dmg",
+      "Encrypted": true,
+      "Key": "495539be08c4a097045c5bb7298a053645089d2ea53fdc1847aef7618fbba22550aecb0e"
+    },
+    "UpdateRamdisk": {
+      "Filename": "058-26519-063.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0b8f948b895ee63c3fdcb95b1d381c7f",
+        "Key": "980992e0ae6423821e7f54682eeb6eb478784893c46671b64a585ddfd241cb27"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-26526-063.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9aa1b946ecfea93a2790d10f63b9b83d",
+        "Key": "677e252e5cbf7967e8ff4e8806cd658bb7d386bd8fec94a99b5f0eb43a10a8a8"
+      }
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@115~watch.s7002.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "24e89afa840b31272aa784152257c906",
+        "Key": "92ce866e0d2e715eedae8047683d2398c5f85e4951e3e17141c034ba65aa1ba8"
+      }
+    },
+    "Dali": {
+      "Filename": "dali-ui.n27a.release.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n27aap.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1b0e63c9d7e60ecb623484fa8f90aea1",
+        "Key": "7edd81ec36c7f3cdca45722fdd033b15971a1f2ece0257ff762a4c912b787cc3"
+      }
+    },
+    "iBEC": {
+      "Filename": "iBEC.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8f5a9998fb8f4c14f422a045397fedc8",
+        "Key": "47b08e07fe2e1c4bc9b342187c2a7bec3191bdbbe08c589f2cbb8643b55e5181"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0b72263b0d51772631aa10974d191a9b",
+        "Key": "aa898b63bae97ed4d02aa1bb02507ce0247c5a16ab799c265a76cb36ef2b8cd9"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "20d8170f50ecf825356bd7d0f8a71686",
+        "Key": "adf82a594aa2cd523848682621145e8a103829c5917e3cf1dc5d1f67ac8047a6"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n27a",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4d6983e6597fed5bc9c904589c4f0f7a",
+        "Key": "13dfe0450fdfdb0c0abe591e1655fc19c0b5fe35e138d1e970544bfb11d0ca99"
+      }
+    },
+    "LLB": {
+      "Filename": "LLB.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e989f43a13c9a4ff8712020022aec039",
+        "Key": "f278527228440695b9fadb6d6332885983ffddfa7134cc15c5a8a04849871346"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@115~watch.s7002.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "929050004e66a6774463161f35be2128",
+        "Key": "4ae72aff5c9406e67656379936a42597412f47e459b698c971189866c36a0e36"
+      }
+    }
+  },
+  "14S326": {
+    "Version": "3.0",
+    "Build": "14S326",
+    "Device": "Watch1,1",
+    "Codename": "Daytona",
+    "RootFS": {
+      "Filename": "058-21981-420.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "058-23619-386.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f4314a9c79c492ef16c2b7e84f6d93b8",
+        "Key": "f0a15f93aaf4e9270fd83fe00774175cf5707b9e8d2a6410a555fcd51ef79fef"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-23618-386.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "11aff2d82f30d4f6accc77107d002653",
+        "Key": "88eae0b1e875f0a9f4aa44f839c597ab63eb9277224aac8fc8886f73c0647b5f"
+      }
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@115~watch.s7002.im4p",
+      "Encrypted": false
+    },
+    "Dali": {
+      "Filename": "dali-ui.n27a.release.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n27aap.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f704ccc07ad139c2f52773988ada6969",
+        "Key": "addcb66e955ae75906664f1a2dfbdfb77e8766bcbb55c8d7646a5f21046596c9"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3ca32a83f2312591970856c37913a7a6",
+        "Key": "84b8523a34e18a980ffaeb461891870680531ed686acb21c36d15792e72430e3"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "05d7c4322f26a93ea281fc3b280c096c",
+        "Key": "b4a52935af65c5b848f54ca3f90c4a2b086eddd7ce5b145f6d8ab99a6adfe7f7"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n27a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c65b6ca19145acecf286e6b06ac41a49",
+        "Key": "38ea0f0cc9284ba1b4a8a33c9d5e029c90df377f3d5758c7b88c313997748ce2"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@115~watch.s7002.im4p",
+      "Encrypted": false
+    }
+  },
+  "14S960": {
+    "Version": "3.1.3",
+    "Build": "14S960",
+    "Device": "Watch1,1",
+    "Codename": "Dogfish",
+    "RootFS": {
+      "Filename": "058-65494-012.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "058-65586-012.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d569ef6826c6cd6b9a3b88fa1de7acc6",
+        "Key": "f3675948f24a3f66e135bfd2f66cae320028f380004f59ce3cec3c05926b64d0"
+      }
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-65496-012.dmg",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "280f3a0488b33c312c1f7d72eca0af78",
+        "Key": "92e026e0f94d2bb41696f39ece7c2a83cd07f675fcdb96b186ed571e6eb9beaa"
+      }
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@115~watch.s7002.im4p",
+      "Encrypted": false
+    },
+    "Dali": {
+      "Filename": "dali-ui.n27a.release.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n27aap.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e66dcb01b540d8b135f849065824ddf8",
+        "Key": "38ef69a77b1e01086e8bba8d991498899e24835ec552e124f161cc924fafc00e"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6eb4c50321d5fc2c278590f3a345346b",
+        "Key": "1e67173a94935d64a408b30e8241310b38cffa67fbec2fec449813a0c8bbec2b"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "38260b384c5caaa0bb728c4a2559b94f",
+        "Key": "838900e04e229a7c45b9ce06bf7377128d7bd156d048e43e6cb31cd0069d5c84"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n27a",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d17ab9f9850dacb065e312b48b004d39",
+        "Key": "9ad508224279127ad9c729254dbb028ca6a06f87e684af28168ccbd3fa1fe352"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@115~watch.s7002.im4p",
+      "Encrypted": false
+    }
+  },
+  "14V249": {
+    "Version": "3.2",
+    "Build": "14V249",
+    "Device": "Watch1,1",
+    "Codename": "Electric",
+    "RootFS": {
+      "Filename": "058-43340-281.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "058-62082-131.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-62085-130.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@115~watch.s7002.im4p",
+      "Encrypted": false
+    },
+    "Dali": {
+      "Filename": "dali-ui.n27a.release.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n27aap.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "45321157b7c48d6e98abe32514532a61",
+        "Key": "e8f94e1879bcd216465020832a2c09ee67d52d713cbec5cdc0e59c46df066c76"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "91188c95a777470bdb70d0efff98bd8a",
+        "Key": "41451cbb124fda7a33fdf4c90a4b83d4a43b5016cba990930a6080ef091326ec"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c4ebca717f0dea86b32566c856209f9d",
+        "Key": "2e596ee95efd97c33943395c77f2c575e051c9cd7a28ae3a12593700c7549e19"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.watch1",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "35e5b7d76c74f3366ee172a3e6a8ff3e",
+        "Key": "64480a1f000b41cfae176913dfac537a244a58083fe244c298f9da6e8c425861"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@115~watch.s7002.im4p",
+      "Encrypted": false
+    }
+  },
+  "15S102": {
+    "Version": "4.2",
+    "Build": "15S102",
+    "Device": "Watch1,1",
+    "Codename": "Catamaran",
+    "RootFS": {
+      "Filename": "058-86749-108.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "058-86587-108.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "058-86768-108.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-s7002spu.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@115~watch.im4p",
+      "Encrypted": false
+    },
+    "Dali": {
+      "Filename": "dali-ui.n27a.release.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n27aap.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bef67446a288ce3387a1a8f7bf81612d",
+        "Key": "487a40a778b2fdde78768e1a1ec07af78988fadf08bcafc6fb902a2bf58de058"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "43d702a449c67125a16a249101351adc",
+        "Key": "e9892bdd6cd14f0f0ef7e494460904d0b664c6de75141a775ef17ad208f387f5"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b003f5cf9306a27f741e6f60fff93f0c",
+        "Key": "14cb162076f1ecb15970c5c557fe265395a7e2cddea7dc557559e58e92d97a16"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.watch1",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.n27a.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "abdbf2d728bd1f901ae40eeafcc50764",
+        "Key": "0e75365b7eba8d99060b16a697080bb9067fa047f89e157d557da41a6db5011a"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@115~watch.im4p",
+      "Encrypted": false
+    }
+  }
+}
