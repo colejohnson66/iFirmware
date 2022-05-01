@@ -27,7 +27,6 @@ import { GetStaticPathsResult, GetStaticPropsContext, GetStaticPropsResult } fro
 import A from "@components/A";
 import Breadcrumb from "@components/Breadcrumb";
 import Layout from "@components/Layout";
-import { useRouter } from "next/router";
 
 function FormatFirmwareItem(type: FirmwareItemType, item: FirmwareItem): React.ReactElement {
     return (
@@ -47,19 +46,6 @@ function FormatFirmwareItem(type: FirmwareItemType, item: FirmwareItem): React.R
 }
 
 export default function Page(props: KeyPage): React.ReactElement {
-    const router = useRouter();
-    if (router.isFallback) {
-        return (
-            <Layout.Root navGroup="key" pageTitle="Loading..." canonical="">
-                <Layout.Title title="Loading..." />
-                <Breadcrumb.Root>
-                    <Breadcrumb.Item href="/key">Firmware Keys</Breadcrumb.Item>
-                    <Breadcrumb.Item>...</Breadcrumb.Item>
-                </Breadcrumb.Root>
-            </Layout.Root>
-        );
-    }
-
     const title = `${props.Codename} ${props.Build} (${props.Device})`;
     return (
         <Layout.Root navGroup="key" pageTitle={title} canonical={`/key/${props.Device}/${props.Build}`}>
