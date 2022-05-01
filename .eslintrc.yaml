@@ -57,6 +57,7 @@ rules:
   indent:
     - error
     - 4
+    - SwitchCase: 1
   jsx-quotes: error
   key-spacing:
     - error

@@ -75,6 +75,9 @@
         /* border-t already applied by default */
         @apply border-gray-400;
     }
+    li > ul {
+        @apply ml-4;
+    }
 
 
     /* external links */
