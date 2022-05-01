@@ -151,10 +151,9 @@ function FormatFirmwareItem(type: FirmwareItemType, model1Item?: FirmwareItem, m
 }
 
 export default function Page(props: KeyPage): React.ReactElement {
-    const title = `${props.Codename} ${props.Build} (${props.Device})`;
     return (
-        <Layout.Root navGroup="key" pageTitle={title} canonical={`/key/${props.Device}/${props.Build}`}>
-            <Layout.Title title={title} />
+        <Layout.Root navGroup="key" pageTitle={`${props.Codename} ${props.Build}`} canonical={`/key/${props.Device}/${props.Build}`}>
+            <Layout.Title title={`${props.Codename} ${props.Build} (${props.Device})`} />
             <Breadcrumb.Root>
                 <Breadcrumb.Item href="/key">Firmware Keys</Breadcrumb.Item>
                 <Breadcrumb.Item>{props.Device}</Breadcrumb.Item>
