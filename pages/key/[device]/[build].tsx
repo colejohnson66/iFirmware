@@ -307,7 +307,7 @@ export default function Page(props: KeyPage): React.ReactElement {
 export async function getStaticPaths(): Promise<GetStaticPathsResult> {
     return {
         paths: [],
-        fallback: "blocking",
+        fallback: true,
     };
 }
 
