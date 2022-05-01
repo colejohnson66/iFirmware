@@ -3208,7 +3208,7 @@
     }
   },
   "13A340": {
-    "Version": "9.0 [[Golden Master|GM]]",
+    "Version": "9.0 GM",
     "Build": "13A340",
     "Device": "iPad5,4",
     "Codename": "Monarch",
@@ -9625,7 +9625,7 @@
     }
   },
   "14A403": {
-    "Version": "10.0.1 [[Golden Master|GM]] and 10.0.1",
+    "Version": "10.0.1 GM and 10.0.1",
     "Build": "14A403",
     "Device": "iPad5,4",
     "Codename": "Whitetail",

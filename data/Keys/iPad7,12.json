@@ -3255,7 +3255,7 @@
     }
   },
   "17F75": {
-    "Version": "13.5 [[Golden Master|GM]] and 13.5",
+    "Version": "13.5 GM and 13.5",
     "Build": "17F75",
     "Device": "iPad7,12",
     "Codename": "YukonF",
@@ -3780,7 +3780,7 @@
     }
   },
   "17G68": {
-    "Version": "13.6 [[Golden Master|GM]] and 13.6",
+    "Version": "13.6 GM and 13.6",
     "Build": "17G68",
     "Device": "iPad7,12",
     "Codename": "YukonG",
@@ -4200,7 +4200,7 @@
     }
   },
   "18A373": {
-    "Version": "14.0 [[Golden Master|GM]] and 14.0",
+    "Version": "14.0 GM and 14.0",
     "Build": "18A373",
     "Device": "iPad7,12",
     "Codename": "Azul",
@@ -5248,7 +5248,7 @@
     }
   },
   "18A8395": {
-    "Version": "14.1 [[Golden Master|GM]] and 14.1",
+    "Version": "14.1 GM and 14.1",
     "Build": "18A8395",
     "Device": "iPad7,12",
     "Codename": "AzulHW",

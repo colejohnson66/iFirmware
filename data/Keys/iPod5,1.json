@@ -2180,7 +2180,7 @@
     }
   },
   "11A465": {
-    "Version": "7.0 [[Golden Master|GM]] and 7.0",
+    "Version": "7.0 GM and 7.0",
     "Build": "11A465",
     "Device": "iPod5,1",
     "Codename": "Innsbruck",
@@ -3020,7 +3020,7 @@
     }
   },
   "11D167": {
-    "Version": "7.1 [[Golden Master|GM]] and 7.1",
+    "Version": "7.1 GM and 7.1",
     "Build": "11D167",
     "Device": "iPod5,1",
     "Codename": "Sochi",
@@ -3860,7 +3860,7 @@
     }
   },
   "12A365": {
-    "Version": "8.0 [[Golden Master|GM]] and 8.0",
+    "Version": "8.0 GM and 8.0",
     "Build": "12A365",
     "Device": "iPod5,1",
     "Codename": "Okemo",
@@ -8051,7 +8051,7 @@
     }
   },
   "13A340": {
-    "Version": "9.0 [[Golden Master|GM]]",
+    "Version": "9.0 GM",
     "Build": "13A340",
     "Device": "iPod5,1",
     "Codename": "Monarch",

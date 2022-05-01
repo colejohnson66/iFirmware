@@ -68,7 +68,7 @@
     }
   },
   "17M61": {
-    "Version": "13.4.8 [[Golden Master|GM]] and 13.4.8",
+    "Version": "13.4.8 GM and 13.4.8",
     "Build": "17M61",
     "Device": "AppleTV6,2",
     "Codename": "YagerG",
@@ -136,7 +136,7 @@
     }
   },
   "18J386": {
-    "Version": "14.0 [[Golden Master|GM]] and 14.0",
+    "Version": "14.0 GM and 14.0",
     "Build": "18J386",
     "Device": "AppleTV6,2",
     "Codename": "Archer",

@@ -7969,7 +7969,7 @@
     }
   },
   "14A403": {
-    "Version": "10.0.1 [[Golden Master|GM]] and 10.0.1",
+    "Version": "10.0.1 GM and 10.0.1",
     "Build": "14A403",
     "Device": "iPhone8,1",
     "Codename": "Whitetail",
@@ -16250,7 +16250,7 @@
     }
   },
   "15A372": {
-    "Version": "11.0 [[Golden Master|GM]] and 11.0",
+    "Version": "11.0 GM and 11.0",
     "Build": "15A372",
     "Device": "iPhone8,1",
     "Codename": "Tigris",
@@ -23218,7 +23218,7 @@
     }
   },
   "16A366": {
-    "Version": "12.0 [[Golden Master|GM]] and 12.0",
+    "Version": "12.0 GM and 12.0",
     "Build": "16A366",
     "Device": "iPhone8,1",
     "Codename": "Peace",
@@ -31656,7 +31656,7 @@
     }
   },
   "17A577": {
-    "Version": "13.0 [[Golden Master|GM]] and 13.0",
+    "Version": "13.0 GM and 13.0",
     "Build": "17A577",
     "Device": "iPhone8,1",
     "Codename": "YukonPre",
@@ -36370,7 +36370,7 @@
     }
   },
   "17F75": {
-    "Version": "13.5 [[Golden Master|GM]] and 13.5",
+    "Version": "13.5 GM and 13.5",
     "Build": "17F75",
     "Device": "iPhone8,1",
     "Codename": "YukonF",
@@ -37040,7 +37040,7 @@
     }
   },
   "17G68": {
-    "Version": "13.6 [[Golden Master|GM]] and 13.6",
+    "Version": "13.6 GM and 13.6",
     "Build": "17G68",
     "Device": "iPhone8,1",
     "Codename": "YukonG",
@@ -37612,7 +37612,7 @@
     }
   },
   "18A373": {
-    "Version": "14.0 [[Golden Master|GM]] and 14.0",
+    "Version": "14.0 GM and 14.0",
     "Build": "18A373",
     "Device": "iPhone8,1",
     "Codename": "Azul",
@@ -39075,7 +39075,7 @@
     }
   },
   "18A8395": {
-    "Version": "14.1 [[Golden Master|GM]] and 14.1",
+    "Version": "14.1 GM and 14.1",
     "Build": "18A8395",
     "Device": "iPhone8,1",
     "Codename": "AzulHW",

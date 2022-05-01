@@ -2038,7 +2038,7 @@
     }
   },
   "11A465": {
-    "Version": "7.0 [[Golden Master|GM]] and 7.0",
+    "Version": "7.0 GM and 7.0",
     "Build": "11A465",
     "Device": "iPhone3,2",
     "Codename": "Innsbruck",
@@ -2884,7 +2884,7 @@
     }
   },
   "11D169": {
-    "Version": "7.1 [[Golden Master|GM]] and 7.1",
+    "Version": "7.1 GM and 7.1",
     "Build": "11D169",
     "Device": "iPhone3,2",
     "Codename": "Sochi",

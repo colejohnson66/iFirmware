@@ -1362,7 +1362,7 @@
     }
   },
   "7A341": {
-    "Version": "3.0 [[Golden Master|GM]] and 3.0",
+    "Version": "3.0 GM and 3.0",
     "Build": "7A341",
     "Device": "iPhone1,2",
     "Codename": "Kirkwood",
@@ -3039,7 +3039,7 @@
     }
   },
   "8A293": {
-    "Version": "4.0 [[Golden Master|GM]] and 4.0",
+    "Version": "4.0 GM and 4.0",
     "Build": "8A293",
     "Device": "iPhone1,2",
     "Codename": "Apex",
@@ -3447,7 +3447,7 @@
     }
   },
   "8B117": {
-    "Version": "4.1 [[Golden Master|GM]] and 4.1",
+    "Version": "4.1 GM and 4.1",
     "Build": "8B117",
     "Device": "iPhone1,2",
     "Codename": "Baker",
@@ -3856,7 +3856,7 @@
     }
   },
   "8C134": {
-    "Version": "4.2 [[Golden Master|GM]]",
+    "Version": "4.2 GM",
     "Build": "8C134",
     "Device": "iPhone1,2",
     "Codename": "Jasper",
@@ -3993,7 +3993,7 @@
     }
   },
   "8C148": {
-    "Version": "4.2.1 [[Golden Master|GM]] and 4.2.1",
+    "Version": "4.2.1 GM and 4.2.1",
     "Build": "8C148",
     "Device": "iPhone1,2",
     "Codename": "Jasper",

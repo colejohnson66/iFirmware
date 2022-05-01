@@ -1,6 +1,6 @@
 {
   "17A577": {
-    "Version": "13.0 [[Golden Master|GM]] and 13.0",
+    "Version": "13.0 GM and 13.0",
     "Build": "17A577",
     "Device": "iPhone12,3",
     "Codename": "YukonPre",
@@ -5168,7 +5168,7 @@
     }
   },
   "17F75": {
-    "Version": "13.5 [[Golden Master|GM]] and 13.5",
+    "Version": "13.5 GM and 13.5",
     "Build": "17F75",
     "Device": "iPhone12,3",
     "Codename": "YukonF",
@@ -5953,7 +5953,7 @@
     }
   },
   "17G68": {
-    "Version": "13.6 [[Golden Master|GM]] and 13.6",
+    "Version": "13.6 GM and 13.6",
     "Build": "17G68",
     "Device": "iPhone12,3",
     "Codename": "YukonG",
@@ -6581,7 +6581,7 @@
     }
   },
   "18A373": {
-    "Version": "14.0 [[Golden Master|GM]] and 14.0",
+    "Version": "14.0 GM and 14.0",
     "Build": "18A373",
     "Device": "iPhone12,3",
     "Codename": "Azul",
@@ -7994,7 +7994,7 @@
     }
   },
   "18A8395": {
-    "Version": "14.1 [[Golden Master|GM]] and 14.1",
+    "Version": "14.1 GM and 14.1",
     "Build": "18A8395",
     "Device": "iPhone12,3",
     "Codename": "AzulHW",

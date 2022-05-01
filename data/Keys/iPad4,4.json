@@ -580,7 +580,7 @@
     }
   },
   "11D167": {
-    "Version": "7.1 [[Golden Master|GM]] and 7.1",
+    "Version": "7.1 GM and 7.1",
     "Build": "11D167",
     "Device": "iPad4,4",
     "Codename": "Sochi",
@@ -6230,7 +6230,7 @@
     }
   },
   "13A341": {
-    "Version": "9.0 [[Golden Master|GM]]",
+    "Version": "9.0 GM",
     "Build": "13A341",
     "Device": "iPad4,4",
     "Codename": "Monarch",
@@ -17311,7 +17311,7 @@
     }
   },
   "15A372": {
-    "Version": "11.0 [[Golden Master|GM]] and 11.0",
+    "Version": "11.0 GM and 11.0",
     "Build": "15A372",
     "Device": "iPad4,4",
     "Codename": "Tigris",

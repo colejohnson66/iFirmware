@@ -471,7 +471,7 @@
     }
   },
   "8C134": {
-    "Version": "4.2 [[Golden Master|GM]]",
+    "Version": "4.2 GM",
     "Build": "8C134",
     "Device": "iPad1,1",
     "Codename": "Jasper",
@@ -619,7 +619,7 @@
     }
   },
   "8C134b": {
-    "Version": "4.2 [[Golden Master|GM]]2",
+    "Version": "4.2 GM2",
     "Build": "8C134b",
     "Device": "iPad1,1",
     "Codename": "Jasper",
@@ -768,7 +768,7 @@
     }
   },
   "8C148": {
-    "Version": "4.2.1 [[Golden Master|GM]] and 4.2.1",
+    "Version": "4.2.1 GM and 4.2.1",
     "Build": "8C148",
     "Device": "iPad1,1",
     "Codename": "Jasper",
@@ -1361,7 +1361,7 @@
     }
   },
   "8F190": {
-    "Version": "4.3 [[Golden Master|GM]] and 4.3",
+    "Version": "4.3 GM and 4.3",
     "Build": "8F190",
     "Device": "iPad1,1",
     "Codename": "Durango",
@@ -2659,7 +2659,7 @@
     }
   },
   "9A334": {
-    "Version": "5.0 [[Golden Master|GM]] and 5.0",
+    "Version": "5.0 GM and 5.0",
     "Build": "9A334",
     "Device": "iPad1,1",
     "Codename": "Telluride",

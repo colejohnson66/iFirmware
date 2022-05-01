@@ -1022,7 +1022,7 @@
     }
   },
   "11D167": {
-    "Version": "7.1 [[Golden Master|GM]] and 7.1",
+    "Version": "7.1 GM and 7.1",
     "Build": "11D167",
     "Device": "iPhone6,1",
     "Codename": "Sochi",
@@ -2044,7 +2044,7 @@
     }
   },
   "12A365": {
-    "Version": "8.0 [[Golden Master|GM]] and 8.0",
+    "Version": "8.0 GM and 8.0",
     "Build": "12A365",
     "Device": "iPhone6,1",
     "Codename": "Okemo",
@@ -7150,7 +7150,7 @@
     }
   },
   "13A341": {
-    "Version": "9.0 [[Golden Master|GM]]",
+    "Version": "9.0 GM",
     "Build": "13A341",
     "Device": "iPhone6,1",
     "Codename": "Monarch",
@@ -13695,7 +13695,7 @@
     }
   },
   "14A403": {
-    "Version": "10.0.1 [[Golden Master|GM]] and 10.0.1",
+    "Version": "10.0.1 GM and 10.0.1",
     "Build": "14A403",
     "Device": "iPhone6,1",
     "Codename": "Whitetail",
@@ -18459,7 +18459,7 @@
     }
   },
   "15A372": {
-    "Version": "11.0 [[Golden Master|GM]] and 11.0",
+    "Version": "11.0 GM and 11.0",
     "Build": "15A372",
     "Device": "iPhone6,1",
     "Codename": "Tigris",

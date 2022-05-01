@@ -4522,7 +4522,7 @@
     }
   },
   "13A340": {
-    "Version": "9.0 [[Golden Master|GM]]",
+    "Version": "9.0 GM",
     "Build": "13A340",
     "Device": "iPhone7,1",
     "Codename": "Monarch",
@@ -11084,7 +11084,7 @@
     }
   },
   "14A403": {
-    "Version": "10.0.1 [[Golden Master|GM]] and 10.0.1",
+    "Version": "10.0.1 GM and 10.0.1",
     "Build": "14A403",
     "Device": "iPhone7,1",
     "Codename": "Whitetail",
