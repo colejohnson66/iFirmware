@@ -136,11 +136,11 @@ function FormatFirmwareItem(type: FirmwareItemType, model1Item?: FirmwareItem, m
                 {model2Item
                     ? <>
                         <li>
-                            <b>{models[0]}</b>
+                            {models && <b>{models[0]}</b>}
                             {FormatSingleFirmwareItem(model1Item)}
                         </li>
                         <li>
-                            <b>{models[1]}</b>
+                            {models && <b>{models[1]}</b>}
                             {FormatSingleFirmwareItem(model2Item)}
                         </li>
                     </>
