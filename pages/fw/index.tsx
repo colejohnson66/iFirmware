@@ -99,7 +99,7 @@ export default function Page(): React.ReactElement {
                     ["/file/dcp", "DCP"], // Copilot suggests: Device Configuration Profile
                     ["/file/device-tree", "Device Tree"],
                     ["/file/glyph-charging", "Glyph Charging"],
-                    ["/file/glyph-plugin", "Glyph Plug-in"],
+                    ["/file/glyph-plugin", "Glyph Plugin"],
                     ["/file/haptic-assets", "Haptic Assets"],
                     ["/file/homer", "Homer Firmware"],
                     ["/file/ibec", "iBEC", "iBoot Epoch Change"],
@@ -113,7 +113,7 @@ export default function Page(): React.ReactElement {
                     ["/file/llb", "LLB", "Low Level Bootloader; iBoot stage 1"],
                     ["/file/low-power-mode", "Low Power Mode"],
                     ["/file/low-power-find-my-mode", "Low Power \"Find My\" Mode"],
-                    ["/file/mconnector", "M Connector"], // Copilot suggests: Mobile Connector
+                    ["/file/m-connector", "M Connector"], // Copilot suggests: Mobile Connector
                     ["/file/multitouch", "Multitouch Firmware"],
                     ["/file/need-service", "Need Service"],
                     ["/file/pmp", "Power Management Processor"],
