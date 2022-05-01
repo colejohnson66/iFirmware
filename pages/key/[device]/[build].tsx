@@ -273,41 +273,34 @@ export default function Page(props: KeyPage): React.ReactElement {
     );
 }
 
-// function CleanBuild(hasKeysBuild: string): string {
-//     // get the internal build if the manufacturing build is present
-//     const parenIdx = hasKeysBuild.indexOf("(");
-//     if (parenIdx !== -1) {
-//         const firstCut = hasKeysBuild.substring(parenIdx); // "1145 (8M89)" => "(8M89)"
-//         return firstCut.substring(1, firstCut.length - 1); // "(8M89)" => "8M89"
-//     }
-//     return hasKeysBuild;
-// }
-
-// export async function getStaticPaths(): Promise<GetStaticPathsResult> {
-//     const hasKeys = ReadHasKeys();
-//     const paths: string[][] = [];
-//     Object.entries(hasKeys).forEach(([device, builds]) => {
-//         builds.forEach((build) => {
-//             if (build[2])
-//                 paths.push([device, CleanBuild(build[1])]);
-//         });
-//     });
-
-//     return {
-//         paths: paths.map((build) => ({
-//             params: {
-//                 device: build[0],
-//                 build: build[1],
-//             },
-//         })),
-//         fallback: true,
-//     };
-// }
+function CleanBuild(hasKeysBuild: string): string {
+    // get the internal build if the manufacturing build is present
+    const parenIdx = hasKeysBuild.indexOf("(");
+    if (parenIdx !== -1) {
+        const firstCut = hasKeysBuild.substring(parenIdx); // "1145 (8M89)" => "(8M89)"
+        return firstCut.substring(1, firstCut.length - 1); // "(8M89)" => "8M89"
+    }
+    return hasKeysBuild;
+}
 
 export async function getStaticPaths(): Promise<GetStaticPathsResult> {
+    const hasKeys = ReadHasKeys();
+    const paths: string[][] = [];
+    Object.entries(hasKeys).forEach(([device, builds]) => {
+        builds.forEach((build) => {
+            if (build[2])
+                paths.push([device, CleanBuild(build[1])]);
+        });
+    });
+
     return {
-        paths: [],
-        fallback: true,
+        paths: paths.map((build) => ({
+            params: {
+                device: build[0],
+                build: build[1],
+            },
+        })),
+        fallback: false,
     };
 }
 

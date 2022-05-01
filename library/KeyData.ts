@@ -23,10 +23,13 @@
 
 import { existsSync, readFileSync } from "fs";
 
+import path from "path";
+
 export type HasKeys = Record<string, [string, string, boolean][]>;
 
 export function ReadHasKeys(): HasKeys {
-    const contents = readFileSync("data/Keys/HasKeys.json", { encoding: "utf8" });
+    const file = path.join(process.cwd(), "data", "Keys", "HasKeys.json");
+    const contents = readFileSync(file, { encoding: "utf8" });
     return JSON.parse(contents);
 }
 
@@ -75,10 +78,10 @@ export type KeyPage = {
 export type KeyBundle = Record<string, KeyPage>;
 
 export function ReadKeyBundle(device: string): KeyBundle | undefined {
-    const path = `data/Keys/${device}.json`;
-    if (!existsSync(path))
+    const file = path.join(process.cwd(), "data", "Keys", `${device}.json`);
+    if (!existsSync(file))
         return undefined;
-    const contents = readFileSync(path, { encoding: "utf8" });
+    const contents = readFileSync(file, { encoding: "utf8" });
     return JSON.parse(contents);
 }
 export function ReadKeys(device: string, build: string): KeyPage | undefined {
