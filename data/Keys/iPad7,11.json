@@ -5694,7 +5694,7 @@
     }
   },
   "18B91": {
-    "Version": "14.2 [[Release Candidate|RC]]",
+    "Version": "14.2 RC",
     "Build": "18B91",
     "Device": "iPad7,11",
     "Codename": "AzulB",
@@ -6182,7 +6182,7 @@
     }
   },
   "18C65": {
-    "Version": "14.3 [[Release Candidate|RC]]",
+    "Version": "14.3 RC",
     "Build": "18C65",
     "Device": "iPad7,11",
     "Codename": "AzulC",
@@ -6278,7 +6278,7 @@
     }
   },
   "18C66": {
-    "Version": "14.3 [[Release Candidate|RC]] 2 and 14.3",
+    "Version": "14.3 RC 2 and 14.3",
     "Build": "18C66",
     "Device": "iPad7,11",
     "Codename": "AzulC",
@@ -6590,7 +6590,7 @@
     }
   },
   "18D52": {
-    "Version": "14.4 [[Release Candidate|RC]] and 14.4",
+    "Version": "14.4 RC and 14.4",
     "Build": "18D52",
     "Device": "iPad7,11",
     "Codename": "AzulD",
@@ -6902,7 +6902,7 @@
     }
   },
   "18E199": {
-    "Version": "14.5 [[Release Candidate|RC]] and 14.5",
+    "Version": "14.5 RC and 14.5",
     "Build": "18E199",
     "Device": "iPad7,11",
     "Codename": "AzulE",
@@ -8462,7 +8462,7 @@
     }
   },
   "18F71": {
-    "Version": "14.6 [[Release Candidate|RC]]",
+    "Version": "14.6 RC",
     "Build": "18F71",
     "Device": "iPad7,11",
     "Codename": "AzulF",
@@ -8566,7 +8566,7 @@
     }
   },
   "18F72": {
-    "Version": "14.6 [[Release Candidate|RC]] 2 and 14.6",
+    "Version": "14.6 RC 2 and 14.6",
     "Build": "18F72",
     "Device": "iPad7,11",
     "Codename": "AzulF",
@@ -9190,7 +9190,7 @@
     }
   },
   "18G68": {
-    "Version": "14.7 [[Release Candidate|RC]]",
+    "Version": "14.7 RC",
     "Build": "18G68",
     "Device": "iPad7,11",
     "Codename": "AzulG",
@@ -9609,7 +9609,7 @@
     }
   },
   "19A344": {
-    "Version": "15.0 [[Release Candidate|RC]]",
+    "Version": "15.0 RC",
     "Build": "19A344",
     "Device": "iPad7,11",
     "Codename": "Sky",
@@ -11475,7 +11475,7 @@
     }
   },
   "19B74": {
-    "Version": "15.1 [[Release Candidate|RC]] and 15.1",
+    "Version": "15.1 RC and 15.1",
     "Build": "19B74",
     "Device": "iPad7,11",
     "Codename": "SkyB",
@@ -12030,7 +12030,7 @@
     }
   },
   "19C56": {
-    "Version": "15.2 [[Release Candidate|RC]] and 15.2",
+    "Version": "15.2 RC and 15.2",
     "Build": "19C56",
     "Device": "iPad7,11",
     "Codename": "SkyC",
@@ -12252,7 +12252,7 @@
     }
   },
   "19D49": {
-    "Version": "15.3 [[RC]]",
+    "Version": "15.3 RC",
     "Build": "19D49",
     "Device": "iPad7,11",
     "Codename": "SkyD",
@@ -13913,6 +13913,117 @@
       "IVKey": {
         "IV": "1c756380442857b171bc05afa826daa5",
         "Key": "9c4bf5a8e292ec9fce213621b0a01f99c5454422bc44f52839b069b3cd8f3b06"
+      }
+    }
+  },
+  "19F5070b": {
+    "Version": "15.5 beta 4",
+    "Build": "19F5070b",
+    "Device": "iPad7,11",
+    "Codename": "SkyFSeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022SpringSeed/fullrestores/002-94927/29198B5A-4B91-4C01-BB5D-A47D1FD95056/iPad_10.2_15.5_19F5070b_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-26076-032.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-26663-038.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-26504-036.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad7caop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2160~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2160~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2160~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2160~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2160~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2160~ipad.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j171ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2160~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.ipad7c.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a74f38f6dd1e5b10da20aeacfac488ff",
+        "Key": "28b507e51c8af99138f703935f08c5d5d7eebf26d2a6e17fd86d5ac9029bfbc8"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.ipad7c.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "01ded574ea3c50823477ddcf04a421b7",
+        "Key": "87808a72862e90c9889a61c7ff02816f7065caf8153c04a4d93e6fe7443beec8"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.ipad7c.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "269f1b430004931b627d67f457cdee14",
+        "Key": "7eec5fd69f888dacb9fceb0348cb61095d8dc8b243c546aafe26d4d217fefc93"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad7c",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.ipad7c.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3ccb7dc453767687bf7627b382e629df",
+        "Key": "059d27208afd5c71259561e7dac31c123e6e72254df94924564af9db4d18ff91"
+      }
+    },
+    "Multitouch": {
+      "Filename": "J171_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2160~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j171.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0179a9cf6d1bd275dcc653f89cb15e1e",
+        "Key": "4f7e4ae73878c1fcba488f914ac437ae30076bdf38f35c02468e6f90e56bbe30"
       }
     }
   }

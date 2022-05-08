@@ -7039,7 +7039,7 @@
     }
   },
   "18L204": {
-    "Version": "14.5 [[Release Candidate|RC]] and 14.5",
+    "Version": "14.5 RC and 14.5",
     "Build": "18L204",
     "Device": "AppleTV5,3",
     "Codename": "ArcherE",
@@ -7831,7 +7831,7 @@
     }
   },
   "18L569": {
-    "Version": "14.6 [[Release Candidate|RC]] and 14.6",
+    "Version": "14.6 RC and 14.6",
     "Build": "18L569",
     "Device": "AppleTV5,3",
     "Codename": "ArcherF",
@@ -8263,7 +8263,7 @@
     }
   },
   "18M60": {
-    "Version": "14.7 [[Release Candidate|RC]] and 14.7",
+    "Version": "14.7 RC and 14.7",
     "Build": "18M60",
     "Device": "AppleTV5,3",
     "Codename": "ArcherG",
@@ -8335,7 +8335,7 @@
     }
   },
   "19J346": {
-    "Version": "15.0 [[Release Candidate|RC]] and 15.0",
+    "Version": "15.0 RC and 15.0",
     "Build": "19J346",
     "Device": "AppleTV5,3",
     "Codename": "Satellite",

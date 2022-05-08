@@ -25096,7 +25096,7 @@
     }
   },
   "18B91": {
-    "Version": "14.2 [[Release Candidate|RC]]",
+    "Version": "14.2 RC",
     "Build": "18B91",
     "Device": "iPhone9,1",
     "Codename": "AzulB",
@@ -25661,7 +25661,7 @@
     }
   },
   "18C65": {
-    "Version": "14.3 [[Release Candidate|RC]]",
+    "Version": "14.3 RC",
     "Build": "18C65",
     "Device": "iPhone9,1",
     "Codename": "AzulC",
@@ -25774,7 +25774,7 @@
     }
   },
   "18C66": {
-    "Version": "14.3 [[Release Candidate|RC]] 2 and 14.3",
+    "Version": "14.3 RC 2 and 14.3",
     "Build": "18C66",
     "Device": "iPhone9,1",
     "Codename": "AzulC",
@@ -26113,7 +26113,7 @@
     }
   },
   "18D52": {
-    "Version": "14.4 [[Release Candidate|RC]] and 14.4",
+    "Version": "14.4 RC and 14.4",
     "Build": "18D52",
     "Device": "iPhone9,1",
     "Codename": "AzulD",
@@ -26455,7 +26455,7 @@
     }
   },
   "18E199": {
-    "Version": "14.5 [[Release Candidate|RC]] and 14.5",
+    "Version": "14.5 RC and 14.5",
     "Build": "18E199",
     "Device": "iPhone9,1",
     "Codename": "AzulE",
@@ -28150,7 +28150,7 @@
     }
   },
   "18F71": {
-    "Version": "14.6 [[Release Candidate|RC]]",
+    "Version": "14.6 RC",
     "Build": "18F71",
     "Device": "iPhone9,1",
     "Codename": "AzulF",
@@ -28263,7 +28263,7 @@
     }
   },
   "18F72": {
-    "Version": "14.6 [[Release Candidate|RC]] 2 and 14.6",
+    "Version": "14.6 RC 2 and 14.6",
     "Build": "18F72",
     "Device": "iPhone9,1",
     "Codename": "AzulF",
@@ -28941,7 +28941,7 @@
     }
   },
   "18G68": {
-    "Version": "14.7 [[Release Candidate|RC]]",
+    "Version": "14.7 RC",
     "Build": "18G68",
     "Device": "iPhone9,1",
     "Codename": "AzulG",
@@ -29396,7 +29396,7 @@
     }
   },
   "19A344": {
-    "Version": "15.0 [[Release Candidate|RC]]",
+    "Version": "15.0 RC",
     "Build": "19A344",
     "Device": "iPhone9,1",
     "Codename": "Sky",
@@ -31418,7 +31418,7 @@
     }
   },
   "19B74": {
-    "Version": "15.1 [[Release Candidate|RC]] and 15.1",
+    "Version": "15.1 RC and 15.1",
     "Build": "19B74",
     "Device": "iPhone9,1",
     "Codename": "SkyB",
@@ -32018,7 +32018,7 @@
     }
   },
   "19C56": {
-    "Version": "15.2 [[Release Candidate|RC]] and 15.2",
+    "Version": "15.2 RC and 15.2",
     "Build": "19C56",
     "Device": "iPhone9,1",
     "Codename": "SkyC",
@@ -32258,7 +32258,7 @@
     }
   },
   "19D49": {
-    "Version": "15.3 [[RC]]",
+    "Version": "15.3 RC",
     "Build": "19D49",
     "Device": "iPhone9,1",
     "Codename": "SkyD",
@@ -34054,6 +34054,126 @@
       "IVKey": {
         "IV": "e41c39ba9cdee595365c09d294092cc3",
         "Key": "3eb181b18c26dff5e2b8c1935bbb237eac1f7d0f2e202433efb467290c0fa969"
+      }
+    }
+  },
+  "19F5070b": {
+    "Version": "15.5 beta 4",
+    "Build": "19F5070b",
+    "Device": "iPhone9,1",
+    "Codename": "SkyFSeed",
+    "Baseband": "9.61.00",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022SpringSeed/fullrestores/002-94731/C88B0D92-E914-434D-9B9F-A62FFC2B9359/iPhone_4.7_P3_15.5_19F5070b_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-26628-029.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-26663-038.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-26504-036.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-t8010aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d10ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@1334~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Homer": {
+      "Filename": "homer_D10.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0281069637797d75af95104fb7000b64",
+        "Key": "2a91768579df4012472821527d1012eb2c3ef4fbc8bdf3c548597d366c60e5ca"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4fb7b0e1d390ef6f5e1d64045bd76ab1",
+        "Key": "5accf21a374b394c2660d48643ea69e59ed03b96ff659287fb1346f262cac421"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6fced3f4781b371e74d50170836f6137",
+        "Key": "b34aa66f30413925e86a8bdb61aeb86c7e09d9ed6b0af1db307872572dad6ec8"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone9",
+      "Encrypted": false
+    },
+    "LiquidDetect": {
+      "Filename": "liquiddetect@1334~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "40c397a226c377e16cca7038f04f5fe2",
+        "Key": "d1d50b1392d498a2af33474b27063b21dca3e6ccf4020cddc83a3ec3182fc33b"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1334~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4542ae2b5ac20d4c4537626b145b0fe2",
+        "Key": "6e76bb29099992f6c278d99638f1f32a2c304f9f4832d5eb0e70f8674ffec754"
       }
     }
   }

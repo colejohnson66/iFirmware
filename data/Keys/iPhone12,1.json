@@ -8415,7 +8415,7 @@
     }
   },
   "18B91": {
-    "Version": "14.2 [[Release Candidate|RC]]",
+    "Version": "14.2 RC",
     "Build": "18B91",
     "Device": "iPhone12,1",
     "Codename": "AzulB",
@@ -9180,7 +9180,7 @@
     }
   },
   "18C65": {
-    "Version": "14.3 [[Release Candidate|RC]]",
+    "Version": "14.3 RC",
     "Build": "18C65",
     "Device": "iPhone12,1",
     "Codename": "AzulC",
@@ -9333,7 +9333,7 @@
     }
   },
   "18C66": {
-    "Version": "14.3 [[Release Candidate|RC]] 2 and 14.3",
+    "Version": "14.3 RC 2 and 14.3",
     "Build": "18C66",
     "Device": "iPhone12,1",
     "Codename": "AzulC",
@@ -9792,7 +9792,7 @@
     }
   },
   "18D52": {
-    "Version": "14.4 [[Release Candidate|RC]] and 14.4",
+    "Version": "14.4 RC and 14.4",
     "Build": "18D52",
     "Device": "iPhone12,1",
     "Codename": "AzulD",
@@ -10251,7 +10251,7 @@
     }
   },
   "18E199": {
-    "Version": "14.5 [[Release Candidate|RC]] and 14.5",
+    "Version": "14.5 RC and 14.5",
     "Build": "18E199",
     "Device": "iPhone12,1",
     "Codename": "AzulE",
@@ -12393,7 +12393,7 @@
     }
   },
   "18F71": {
-    "Version": "14.6 [[Release Candidate|RC]]",
+    "Version": "14.6 RC",
     "Build": "18F71",
     "Device": "iPhone12,1",
     "Codename": "AzulF",
@@ -12546,7 +12546,7 @@
     }
   },
   "18F72": {
-    "Version": "14.6 [[Release Candidate|RC]] 2 and 14.6",
+    "Version": "14.6 RC 2 and 14.6",
     "Build": "18F72",
     "Device": "iPhone12,1",
     "Codename": "AzulF",
@@ -13464,7 +13464,7 @@
     }
   },
   "18G68": {
-    "Version": "14.7 [[Release Candidate|RC]]",
+    "Version": "14.7 RC",
     "Build": "18G68",
     "Device": "iPhone12,1",
     "Codename": "AzulG",

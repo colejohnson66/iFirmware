@@ -36586,7 +36586,7 @@
     }
   },
   "18B91": {
-    "Version": "14.2 [[Release Candidate|RC]]",
+    "Version": "14.2 RC",
     "Build": "18B91",
     "Device": "iPhone8,4",
     "Codename": "AzulB",
@@ -37316,7 +37316,7 @@
     }
   },
   "18C65": {
-    "Version": "14.3 [[Release Candidate|RC]]",
+    "Version": "14.3 RC",
     "Build": "18C65",
     "Device": "iPhone8,4",
     "Codename": "AzulC",
@@ -37462,7 +37462,7 @@
     }
   },
   "18C66": {
-    "Version": "14.3 [[Release Candidate|RC]] 2 and 14.3",
+    "Version": "14.3 RC 2 and 14.3",
     "Build": "18C66",
     "Device": "iPhone8,4",
     "Codename": "AzulC",
@@ -37900,7 +37900,7 @@
     }
   },
   "18D52": {
-    "Version": "14.4 [[Release Candidate|RC]] and 14.4",
+    "Version": "14.4 RC and 14.4",
     "Build": "18D52",
     "Device": "iPhone8,4",
     "Codename": "AzulD",
@@ -38338,7 +38338,7 @@
     }
   },
   "18E199": {
-    "Version": "14.5 [[Release Candidate|RC]] and 14.5",
+    "Version": "14.5 RC and 14.5",
     "Build": "18E199",
     "Device": "iPhone8,4",
     "Codename": "AzulE",
@@ -40528,7 +40528,7 @@
     }
   },
   "18F71": {
-    "Version": "14.6 [[Release Candidate|RC]]",
+    "Version": "14.6 RC",
     "Build": "18F71",
     "Device": "iPhone8,4",
     "Codename": "AzulF",
@@ -40674,7 +40674,7 @@
     }
   },
   "18F72": {
-    "Version": "14.6 [[Release Candidate|RC]] 2 and 14.6",
+    "Version": "14.6 RC 2 and 14.6",
     "Build": "18F72",
     "Device": "iPhone8,4",
     "Codename": "AzulF",
@@ -41550,7 +41550,7 @@
     }
   },
   "18G68": {
-    "Version": "14.7 [[Release Candidate|RC]]",
+    "Version": "14.7 RC",
     "Build": "18G68",
     "Device": "iPhone8,4",
     "Codename": "AzulG",
@@ -42272,7 +42272,7 @@
     }
   },
   "19A344": {
-    "Version": "15.0 [[Release Candidate|RC]]",
+    "Version": "15.0 RC",
     "Build": "19A344",
     "Device": "iPhone8,4",
     "Codename": "Sky",
@@ -44754,7 +44754,7 @@
     }
   },
   "19B74": {
-    "Version": "15.1 [[Release Candidate|RC]] and 15.1",
+    "Version": "15.1 RC and 15.1",
     "Build": "19B74",
     "Device": "iPhone8,4",
     "Codename": "SkyB",
@@ -45484,7 +45484,7 @@
     }
   },
   "19C56": {
-    "Version": "15.2 [[Release Candidate|RC]] and 15.2",
+    "Version": "15.2 RC and 15.2",
     "Build": "19C56",
     "Device": "iPhone8,4",
     "Codename": "SkyC",
@@ -45776,7 +45776,7 @@
     }
   },
   "19D49": {
-    "Version": "15.3 [[Release Candidate|RC]]",
+    "Version": "15.3 RC",
     "Build": "19D49",
     "Device": "iPhone8,4",
     "Codename": "SkyD",
@@ -46506,7 +46506,7 @@
     }
   },
   "19E241": {
-    "Version": "15.4 [[Release Candidate|RC]] and 15.4",
+    "Version": "15.4 RC and 15.4",
     "Build": "19E241",
     "Device": "iPhone8,4",
     "Codename": "SkyEcho",

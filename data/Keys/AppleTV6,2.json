@@ -1168,7 +1168,7 @@
     }
   },
   "18L204": {
-    "Version": "14.5 [[Release Candidate|RC]] and 14.5",
+    "Version": "14.5 RC and 14.5",
     "Build": "18L204",
     "Device": "AppleTV6,2",
     "Codename": "ArcherE",
@@ -1925,7 +1925,7 @@
     }
   },
   "18L569": {
-    "Version": "14.6 [[Release Candidate|RC]] and 14.6",
+    "Version": "14.6 RC and 14.6",
     "Build": "18L569",
     "Device": "AppleTV6,2",
     "Codename": "ArcherF",

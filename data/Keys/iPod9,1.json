@@ -7509,7 +7509,7 @@
     }
   },
   "18B91": {
-    "Version": "14.2 [[Release Candidate|RC]]",
+    "Version": "14.2 RC",
     "Build": "18B91",
     "Device": "iPod9,1",
     "Codename": "AzulB",
@@ -8009,7 +8009,7 @@
     }
   },
   "18C65": {
-    "Version": "14.3 [[Release Candidate|RC]]",
+    "Version": "14.3 RC",
     "Build": "18C65",
     "Device": "iPod9,1",
     "Codename": "AzulC",
@@ -8109,7 +8109,7 @@
     }
   },
   "18C66": {
-    "Version": "14.3 [[Release Candidate|RC]] 2 and 14.3",
+    "Version": "14.3 RC 2 and 14.3",
     "Build": "18C66",
     "Device": "iPod9,1",
     "Codename": "AzulC",
@@ -8409,7 +8409,7 @@
     }
   },
   "18D52": {
-    "Version": "14.4 [[Release Candidate|RC]]",
+    "Version": "14.4 RC",
     "Build": "18D52",
     "Device": "iPod9,1",
     "Codename": "AzulD",
@@ -8709,7 +8709,7 @@
     }
   },
   "18E199": {
-    "Version": "14.5 [[Release Candidate|RC]] and 14.5",
+    "Version": "14.5 RC and 14.5",
     "Build": "18E199",
     "Device": "iPod9,1",
     "Codename": "AzulE",
@@ -10209,7 +10209,7 @@
     }
   },
   "18F71": {
-    "Version": "14.6 [[Release Candidate|RC]]",
+    "Version": "14.6 RC",
     "Build": "18F71",
     "Device": "iPod9,1",
     "Codename": "AzulF",
@@ -10309,7 +10309,7 @@
     }
   },
   "18F72": {
-    "Version": "14.6 [[Release Candidate|RC]] 2 and 14.6",
+    "Version": "14.6 RC 2 and 14.6",
     "Build": "18F72",
     "Device": "iPod9,1",
     "Codename": "AzulF",
@@ -10909,7 +10909,7 @@
     }
   },
   "18G68": {
-    "Version": "14.7 [[Release Candidate|RC]]",
+    "Version": "14.7 RC",
     "Build": "18G68",
     "Device": "iPod9,1",
     "Codename": "AzulG",
@@ -11312,7 +11312,7 @@
     }
   },
   "19A344": {
-    "Version": "15.0 [[Release Candidate|RC]]",
+    "Version": "15.0 RC",
     "Build": "19A344",
     "Device": "iPod9,1",
     "Codename": "Sky",
@@ -13113,7 +13113,7 @@
     }
   },
   "19B74": {
-    "Version": "15.1 [[Release Candidate|RC]] and 15.1",
+    "Version": "15.1 RC and 15.1",
     "Build": "19B74",
     "Device": "iPod9,1",
     "Codename": "SkyB",
@@ -13648,7 +13648,7 @@
     }
   },
   "19C56": {
-    "Version": "15.2 [[RC]]",
+    "Version": "15.2 RC",
     "Build": "19C56",
     "Device": "iPod9,1",
     "Codename": "SkyC",
@@ -13862,7 +13862,7 @@
     }
   },
   "19D49": {
-    "Version": "15.3 [[RC]]",
+    "Version": "15.3 RC",
     "Build": "19D49",
     "Device": "iPod9,1",
     "Codename": "SkyD",
@@ -15463,6 +15463,113 @@
       "IVKey": {
         "IV": "6a6f7a446e19f010c4806834415eec1e",
         "Key": "6168bee248f39faca7d2beb034c1779b59782148fcddf274ab98504abb4b1253"
+      }
+    }
+  },
+  "19F5070b": {
+    "Version": "15.5 beta 4",
+    "Build": "19F5070b",
+    "Device": "iPod9,1",
+    "Codename": "SkyFSeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022SpringSeed/fullrestores/002-94681/6C1ADDD5-953A-426B-B8D2-3E9E51BCB34B/iPodtouch_7_15.5_19F5070b_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-26716-031.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-26663-038.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-26504-036.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-n112aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n112ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@1136~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "f7c4bf41dc0231d01e6725caf0dad998",
+        "Key": "9c466d0cc43a4891e4709bda2a6e53e115bac1e8f397b0dc7a6b15dfc58e1507"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1385eaa04b39811c9f60bdff4f852ebd",
+        "Key": "d2e3a384642e832d12ad8570014259a3cc9f5f034e9d7667bbfe5922afaaeb2c"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9c22f7a85961f31236532beb8583f433",
+        "Key": "1cbed0521739a38dd27c8aff9bb7bb2a3f1f83e9e2c09a4af6913d3867f2a1a2"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n112",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fba522b911aefb3460861dfd8f41c571",
+        "Key": "ec1191a68dab3de290ae96db95c73a51913140b5ff3c6e66e05dc42a39ec8058"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1136~ipod-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5451a327a9fb4ed72fb40ac806dc2931",
+        "Key": "51416dfadcf1db1558606899d53b75eaf7d00da422b904587d845d1fe4ea6c87"
       }
     }
   }
