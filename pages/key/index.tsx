@@ -65,7 +65,7 @@ export default function Page(): React.ReactElement {
                 <p>
                     With the release of the iPhone came the <A href="/fw/format/img2">IMG2</A> format and its container, the <A href="/fw/format/8900">8900</A> file.
                     They were used on all <A href="/ios/1">iPhone OS 1.x</A> firmwares.
-                    Initially, only the <A href="/fw/file/kernelcache">kernelcache</A>, <A href="/fw/file/iboot">iBoot</A>, and <A href="/fw/wtf">WTF</A> were encrypted, but beginning with <A href="/ios/1/1"><a>iPhone OS 1.1</a></A>, all files were encrypted.
+                    Initially, only the <A href="/fw/file/kernelcache">kernelcache</A>, <A href="/fw/file/iboot">iBoot</A>, and <A href="/fw/wtf">WTF</A> were encrypted, but beginning with <A href="/ios/1/1">iPhone OS 1.1</A>, all files were encrypted.
                     However, the biggest flaw of these formats was the use of a <A href="/processor/s5l8900#headingKeys">global key</A> that would decrypt them all.
                 </p>
                 <p>
@@ -81,7 +81,7 @@ export default function Page(): React.ReactElement {
 
                 <h3 id="headingHistoryRoot">Root Filesystem</h3>
                 <p>
-                    Unlike practically every other firmware file in an <A href="/fw/format/ipsw"><a>IPSW</a></A>, the <A href="/fw/rootFS">root filesystem</A> is different;
+                    Unlike practically every other firmware file in an <A href="/fw/format/ipsw">IPSW</A>, the <A href="/fw/rootFS">root filesystem</A> is different;
                     It has never used the 8900, IMG2, IMG3, or IMG4 file formats.
                     Instead, encrypted root filesystems are actually <A href="https://en.wikipedia.org/wiki/FileVault">FileVault</A> volumes;
                     Unencrypted filesystems are <A href="https://en.wikipedia.org/wiki/Apple_Disk_Image">Apple Disk Image</A> (DMG) files.
@@ -94,7 +94,7 @@ export default function Page(): React.ReactElement {
                     These builds came preinstalled on the device, but were (as can be told) never available for download, and as such, will not have any keys available.
                 </p>
                 <p>
-                    Note that this does <em>not</em> include firmwares discovered on <A href="/device/prototype"><a>prototype devices</a></A>.
+                    Note that this does <em>not</em> include firmwares discovered on <A href="/device/prototype">prototype devices</A>.
                     Those were not released to the public.
                 </p>
                 {List([

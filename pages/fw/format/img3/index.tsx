@@ -75,7 +75,7 @@ export default function Page(): React.ReactElement {
 
                 <h2 id="headingFormat">File Format</h2>
                 <p>
-                    Despite requiring a bit more to process, at least when compared to the <A href="/fw/format/8900">8900</A>/<A href="/fw/format/img2"><a>IMG2</a></A> combination, the IMG3 file is quite simple.
+                    Despite requiring a bit more to process, at least when compared to the <A href="/fw/format/8900">8900</A>/<A href="/fw/format/img2">IMG2</A> combination, the IMG3 file is quite simple.
                     It consists of a 20 byte header followed by a series of <A href="headingTags">tags</A>, one after the other.
                 </p>
                 <pre>{`Img3
