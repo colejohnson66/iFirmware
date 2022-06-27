@@ -5114,5 +5114,146 @@
       "Filename": "WirelessPower.iphone11.im4p",
       "Encrypted": false
     }
+  },
+  "19F77": {
+    "Version": "15.5",
+    "Build": "19F77",
+    "Device": "iPhone11,4",
+    "Codename": "SkyF",
+    "Baseband": "4.04.02",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022SpringFCS/fullrestores/012-07863/EE4F265F-A76E-4FDF-8139-2C09611CE03B/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_15.5_19F77_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-12678-105.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-12893-116.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-12427-117.dmg",
+      "Encrypted": false
+    },
+    "ANE": {
+      "Filename": "h11_ane_fw_quin.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H11.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "ARMFW": {
+      "Filename": "armfw_g11p.im4p",
+      "Encrypted": false
+    },
+    "AudioCodecFirmware": {
+      "Filename": "D331_CallanFirmware.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2688~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d331ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "HapticAssets": {
+      "Filename": "D331_HapticAssets.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1f51be2506ea9ed491dde473f1cf2105",
+        "Key": "be1ce11b5d15b0a9120cad9cc05d49ba17ffc9ad0140dbc5f86dd528f2985b87"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5e104db0045b2b728a5db99c1783bb2d",
+        "Key": "d849fac6e5b1c778da233db8fcd9c90abee3b1344619d248fa132d607dcb7053"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "96ed1b43c8778abd1736c7cb273c781f",
+        "Key": "b72f3506e091dc242daaf22e56508d00db9d244027042d2344b908fbeca61687"
+      }
+    },
+    "ISP": {
+      "Filename": "adc-petra-d3x.im4p",
+      "Encrypted": false
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone11",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9fb32cc4fc66067b6c3632ea5cfe9273",
+        "Key": "11961755d46f6f0f476f2378128b66d58ccc4952d64d3b4ab78d3ad33191e60a"
+      }
+    },
+    "LowPowerMode": {
+      "Filename": "lowpowermode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Multitouch": {
+      "Filename": "D331_Multitouch.im4p",
+      "Encrypted": false
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2688~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d331.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "919de228145ea3c0dbbb6e2bea84c6f8287b4ca283dbd335ab370de37044ef268a1acfd20721219de2dd15d855a2f977"
+    },
+    "SmartIOFirmware": {
+      "Filename": "SmartIOFirmware_ASCv2.im4p",
+      "Encrypted": false
+    },
+    "WirelessPower": {
+      "Filename": "WirelessPower.iphone11.im4p",
+      "Encrypted": false
+    }
   }
 }

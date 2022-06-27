@@ -5,7 +5,7 @@
     "Device": "iPad6,8",
     "Codename": "YukonB",
     "Baseband": "9.11.01",
-    "DownloadUrl": "https://updates-http.cdn-apple.com/2019FallFCS/fullrestores/041-81280/FC5FBDAC-F4E5-11E9-A9BB-B1C134390AC5/iPadPro_12.9_13.2_17B84_Restore.ipsw",
+    "DownloadUrl": "https://updates.cdn-apple.com/2019FallFCS/fullrestores/041-81280/FC5FBDAC-F4E5-11E9-A9BB-B1C134390AC5/iPadPro_12.9_13.2_17B84_Restore.ipsw",
     "RootFS": {
       "Filename": "048-90832-101.dmg",
       "Encrypted": false
@@ -97,7 +97,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j99a.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "14b80d558cdc10cc40f2be887d718df73be5ba1176b18885ea389524f37a89ab275458c018e68b9795a4a993142750bb"
+      "IVKey": {
+        "IV": "797b8a3993f0bfc2fea59550fbbce2f1",
+        "Key": "b1d1fd84c904a19caed362861d8aac3366cfa675b70f44435ee2e1bda07ad164"
+      }
     }
   }
 }

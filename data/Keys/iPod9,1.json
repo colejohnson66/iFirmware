@@ -15572,5 +15572,326 @@
         "Key": "51416dfadcf1db1558606899d53b75eaf7d00da422b904587d845d1fe4ea6c87"
       }
     }
+  },
+  "19F77": {
+    "Version": "15.5 RC and 15.5",
+    "Build": "19F77",
+    "Device": "iPod9,1",
+    "Codename": "SkyF",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022SpringFCS/fullrestores/012-07285/1493EB24-19E9-4B70-858B-D3BA9B530905/iPodtouch_7_15.5_19F77_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-12506-106.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-12372-116.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-12353-117.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-n112aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n112ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@1136~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6fab78211591ae970129b874861198fb",
+        "Key": "5f87157a603bdf6905678fee914529209b83c10ad67536af04e15caf1d87230f"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6f17c229c555cc5b31c093929ecd3d1c",
+        "Key": "2a95fdf90b90fd0539e1dc3d9722ae1d66eed59212ad073ad543713f69869668"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8bff2d5a0fa840a8b9360ce1119d4acc",
+        "Key": "a1fe5d8423254d8623ec72d3d8cc47b9c3cc7fb1f56dcf617336923e3c8e85e5"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n112",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "46047ede832b79594012a9104aa4af3e",
+        "Key": "722d72d2387e866f2443425b5da501aa516c9741a5fdcd66331a59bb09ec3f5e"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1136~ipod-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fca746ad8d08058d77f3c8afa629fcc6",
+        "Key": "dd0ee41ed405d667b77f6a622bed4c43ce283aee17722933846fd07c368df1ce"
+      }
+    }
+  },
+  "19G5027e": {
+    "Version": "15.6 beta",
+    "Build": "19G5027e",
+    "Device": "iPod9,1",
+    "Codename": "SkyGSeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022SpringSeed/fullrestores/002-94090/EF12157D-A52E-4F6B-A0BD-2762D8EDB835/iPodtouch_7_15.6_19G5027e_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-39929-010.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-40021-010.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-40095-010.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-n112aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n112ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@1136~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6ae294c5db24666b454bcc481562d8cf",
+        "Key": "5848f2e7a78237b4b772436f79d39f598c27d87402a91f0fb9186f4a54dc8acb"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b28f8f8a03ee1e288e0c13a4dd3fdee9",
+        "Key": "e4ec8e0f9586a617d0a7f61574b291a29acac7fac68adbded326c517fb95a320"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e6d82842103f1f3f828098e9fdd899cf",
+        "Key": "10c74aea12dec15f78551e983a4815247320553ec306412781c98a249603312d"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n112",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cc2200290ba872c3ebe99cc96e9d78c5",
+        "Key": "9b6d732db5e5baf32b51e3ae7158d541247b646426b6fe84b46a28b458f6700e"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1136~ipod-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ca251064e5ac0e6c95e43d1812c6ad14",
+        "Key": "f7f80629be9f6c14e2e3ea67f0b5fcd52fcc25a4e1016be8d5e8e05c44fd2903"
+      }
+    }
+  },
+  "19G5037d": {
+    "Version": "15.6 beta 2",
+    "Build": "19G5037d",
+    "Device": "iPod9,1",
+    "Codename": "SkyGSeed",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022SpringSeed/fullrestores/012-10582/641CB52B-3038-438A-B4D7-E5816B76DC0C/iPodtouch_7_15.6_19G5037d_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-39929-015.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-40021-015.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-40095-015.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-n112aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n112ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@1136~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ca146bdfc414b436d497f9ab361dc4de",
+        "Key": "efb0544d927d3b520b9ade9f975e04d8238dd9f176c882dee5da17c61a068695"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2baf0d54bf374210d843922899f04bfd",
+        "Key": "220beb32ac1d08a9f9bff88d4dc9116182eed0cefd22f939e123c59307fd3c3e"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "16dc5af1692ffee8388d25ff89be3772",
+        "Key": "aecd5df3636b53dc9c7782fa39feddb9ac36599a7eb70d09de983fced6b87552"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n112",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9a61d1caa1b26e8dee91b372dd5b63eb",
+        "Key": "037306dc96ffc73a96997f858fed83c558dbda6c2aed7978f0367606284bbeec"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1136~ipod-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.n112.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e77b74c1181cff866ed5c85736bb4e02",
+        "Key": "ad0894ebbf62f6e5c77f2b820e0c6ff9e7fd0ea3ccb7e4d9cae17318fd210b41"
+      }
+    }
   }
 }
