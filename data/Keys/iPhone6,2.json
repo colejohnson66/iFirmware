@@ -26379,6 +26379,103 @@
       "KBag": "C7C33514D7203EAE08FB5844A14FC2C57BC985AF679D1518C1A96575DBE6C6C83748227D927FDE40B2368A3F11ABE230"
     }
   },
+  "16C104": {
+    "Version": "12.1.2",
+    "Build": "16C104",
+    "Device": "iPhone6,2",
+    "Codename": "PeaceC",
+    "Baseband": "10.31.00",
+    "DownloadUrl": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/041-28432/A2A5A170-02EA-11E9-86D5-9A6E32F013F9/iPhone_4.0_64bit_12.1.2_16C104_Restore.ipsw",
+    "RootFS": {
+      "Filename": "048-40143-062.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "048-40327-062.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "048-40310-062.dmg",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n53ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@1136~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.iphone6.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e61d757dc88a51c6ebceb62eafaa63a3",
+        "Key": "1e55bb1b62a6535d6c747f57e303b49980b7616b3042de02da82470dd29f76da"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.iphone6.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "701ed94580f2aa5adcdbdb7ded95d7ab",
+        "Key": "e28316812be2e5ed7d5a8395374485aa337d38b30d6db1eb07e2f33bdae7ca39"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.iphone6.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2009d43fb79da19f4aa478f220f1ac3d",
+        "Key": "8b47087e478183364ce8a61b080d6fd9104ec0625639be8bbe4884d96caf75a8"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone6",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.iphone6.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "73cf8122d4382c8eacc878ba2c90efd2",
+        "Key": "3c2b6d1cedc5f18eebddff80883d33d23633eb9e13418372763c2635912b8163"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1136~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.n53.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "C7C33514D7203EAE08FB5844A14FC2C57BC985AF679D1518C1A96575DBE6C6C83748227D927FDE40B2368A3F11ABE230"
+    }
+  },
   "16C50": {
     "Version": "12.1.1",
     "Build": "16C50",

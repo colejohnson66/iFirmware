@@ -640,7 +640,7 @@
     "Codename": "Big Bear",
     "Baseband": "?",
     "RootFS": {
-      "Filename": ".dmg",
+      "Filename": "",
       "Encrypted": true,
       "Key": "589df25eaa4ff0a5e29e1425fb99bf50957888ff098ba2fcb72cf130f40e15e00bcf2fc7"
     },
@@ -708,12 +708,12 @@
     "Codename": "Big Bear",
     "Baseband": "?",
     "RootFS": {
-      "Filename": ".dmg",
+      "Filename": "",
       "Encrypted": true,
       "Key": "890b1fbf22975e0d4be2ea3f9bc5c87f38fd8158394fd31cf80a43ad25547573bbd0ec4e"
     },
     "RestoreRamdisk": {
-      "Filename": ".dmg",
+      "Filename": "",
       "Encrypted": true
     },
     "AppleLogo": {
@@ -776,12 +776,12 @@
     "Codename": "Big Bear",
     "Baseband": "?",
     "RootFS": {
-      "Filename": ".dmg",
+      "Filename": "",
       "Encrypted": true,
       "Key": "3964ca8d8bf5d3715cdc172986f2d9606672c54d5e0aa3f3a892166b4e54e4cefef21279"
     },
     "RestoreRamdisk": {
-      "Filename": ".dmg",
+      "Filename": "",
       "Encrypted": true
     },
     "AppleLogo": {
@@ -844,12 +844,12 @@
     "Codename": "Big Bear",
     "Baseband": "04.05.04_G",
     "RootFS": {
-      "Filename": ".dmg",
+      "Filename": "",
       "Encrypted": true,
       "Key": "3d9a9832a108fc5084fc9329d6e84e38edf06e380554c49376b70e951f8a8d1ed943f819"
     },
     "RestoreRamdisk": {
-      "Filename": ".dmg",
+      "Filename": "",
       "Encrypted": true
     },
     "AppleLogo": {
@@ -1496,12 +1496,12 @@
     "Codename": "Sugar Bowl",
     "Baseband": "04.05.04_G",
     "RootFS": {
-      "Filename": ".dmg",
+      "Filename": "",
       "Encrypted": true,
       "Key": "f61c14aa0d53386dd42c49163686e8ccdeb86d14aafdecfe99c2e12c41a7f9f2811daa3d"
     },
     "RestoreRamdisk": {
-      "Filename": ".dmg",
+      "Filename": "",
       "Encrypted": true,
       "IVKey": {
         "IV": "6bea326d0f41105159f0aea8f99fe777",

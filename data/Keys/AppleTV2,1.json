@@ -3447,11 +3447,11 @@
     "Device": "AppleTV2,1",
     "Codename": "SochiVail",
     "RootFS": {
-      "Filename": ".dmg",
+      "Filename": "",
       "Encrypted": true
     },
     "RestoreRamdisk": {
-      "Filename": ".dmg",
+      "Filename": "",
       "Encrypted": true
     },
     "AppleLogo": {
@@ -3517,11 +3517,11 @@
     "Device": "AppleTV2,1",
     "Codename": "SochiVail",
     "RootFS": {
-      "Filename": ".dmg",
+      "Filename": "",
       "Encrypted": true
     },
     "RestoreRamdisk": {
-      "Filename": ".dmg",
+      "Filename": "",
       "Encrypted": true
     },
     "AppleLogo": {

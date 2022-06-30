@@ -9948,7 +9948,7 @@
     "Version": "12.4.1",
     "Build": "16G102",
     "Device": "iPhone10,6",
-    "Codename": "PeaceF",
+    "Codename": "PeaceG",
     "Baseband": "3.70.01",
     "DownloadUrl": "https://updates.cdn-apple.com/2019SummerFCS/fullrestores/061-04890/A446E2D6-C4E7-11E9-B6D3-FE600AD8B7A1/iPhone10,3,iPhone10,6_12.4.1_16G102_Restore.ipsw",
     "RootFS": {
@@ -10884,7 +10884,7 @@
     "Version": "12.4",
     "Build": "16G77",
     "Device": "iPhone10,6",
-    "Codename": "PeaceF",
+    "Codename": "PeaceG",
     "Baseband": "3.70.01",
     "DownloadUrl": "https://updates.cdn-apple.com/2019SummerFCS/fullrestores/041-86560/9DFFCE86-A743-11E9-AC9B-968F7EF6F4F0/iPhone10,3,iPhone10,6_12.4_16G77_Restore.ipsw",
     "RootFS": {
