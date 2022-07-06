@@ -88,7 +88,7 @@ export default function Page(): React.ReactElement {
                     ["/file/aop-fw", "\"Always On Processor\" Firmware"],
                     ["/file/apple-ave", "Apple Audio/Video Encoder"],
                     ["/file/apple-logo", "Apple Logo"],
-                    ["/file/apple-maggie", "Apple Maggie", "Lattice iCE5LP4K-SWG36"],
+                    ["/file/apple-maggie", "Apple Maggie", "vibration motor controller (Lattice iCE5LP4K-SWG36)"],
                     ["/file/arm-fw", "ARM Firmware", "GPU scheduler/command stream processor"],
                     ["/file/audio-codec", "Audio Codec"],
                     ["/file/audio-dsp", "Audio DSP Firmware"],
