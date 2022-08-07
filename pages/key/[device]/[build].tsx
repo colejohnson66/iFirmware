@@ -174,7 +174,6 @@ export default function Page(props: KeyPage): React.ReactElement {
                             <td className="border border-gray-400 p-1 text-center">{props.Codename}</td>
                         </tr>
                         <tr>
-                            {/* TODO: Models */}
                             <th className="border border-gray-400 p-1 text-center">Device</th>
                             <td className="border border-gray-400 p-1 text-center">
                                 {props.Device}

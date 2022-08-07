@@ -34724,5 +34724,485 @@
         "Key": "255c9127dffaa7b318c71d4d6f6059538d82fa5b429ca14f9662df6eb2ae742d"
       }
     }
+  },
+  "19G5056c": {
+    "Version": "15.6 beta 4",
+    "Build": "19G5056c",
+    "Device": "iPhone9,3",
+    "Codename": "SkyGSeed",
+    "Baseband": "6.03.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022SpringSeed/fullrestores/012-33058/30842E2B-4AFE-41CF-9BEA-58C045516B76/iPhone_4.7_P3_15.6_19G5056c_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-39777-027.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-40021-027.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-40095-027.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-t8010aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d101ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@1334~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Homer": {
+      "Filename": "homer_D101.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4a9b5ae65177fd21a90aa0b6c27affb8",
+        "Key": "b0fb9220821a08f41c53bad33e52c1d3db57b1fcc1dd889de3814641bac41e09"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d00c0fefdf4f8ef11d567d653d044970",
+        "Key": "59ec9d5e032d09ba37f93f7e2ff6cb2b63fc62c3605822b7d317dfc089c4d18d"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "36779fc228d049a088073ec7e42050c5",
+        "Key": "1dae20d302a1efb227c0a343145f8e8435c035c1040b2cdfbbb1cedd5eb46c97"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone9",
+      "Encrypted": false
+    },
+    "LiquidDetect": {
+      "Filename": "liquiddetect@1334~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "37b207801f5827bda791385698f3777c",
+        "Key": "f715b44c329110ee3dc678c408b1d7656d6fe80caa4a8a0b755a2bdbc56b9a00"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1334~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d101.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4e742580b795c445a764c70b0fce1e5a",
+        "Key": "73a1756fdc0f0e0c58b93e4400045c679860161940282e3a2eb9ba437ccac303"
+      }
+    }
+  },
+  "19G5063a": {
+    "Version": "15.6 beta 5",
+    "Build": "19G5063a",
+    "Device": "iPhone9,3",
+    "Codename": "SkyGSeed",
+    "Baseband": "6.03.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022SpringSeed/fullrestores/012-36211/187083E3-4AEE-4C8B-BEC0-8036E86F17D9/iPhone_4.7_P3_15.6_19G5063a_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-39777-030.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-40021-030.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-40095-030.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-t8010aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d101ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@1334~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Homer": {
+      "Filename": "homer_D101.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "dab436ca8c793eab0c0f5dbeb4dafc51",
+        "Key": "a9af486bcf230c9bcd11175d06cf8b85f7c1ab48af434a5c409dbd27a38b27fc"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6dfce9d65b7380904ee2be007b6a3ae1",
+        "Key": "a51322efe324a1567ab0166c52088218ad108e3b4ff97536ed483e2a64ca97bc"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3493bdee69154148dd36d225268ae38e",
+        "Key": "cdf6ae06c3fde7257c0de478801544f1b8be9896922a07048e0fb922feb98e74"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone9",
+      "Encrypted": false
+    },
+    "LiquidDetect": {
+      "Filename": "liquiddetect@1334~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3302d14c846151b55403e11bee0bffc8",
+        "Key": "0968a5bd51437c97e2811f8ee7856e1c09458312def9d0b1f3bfddbdb1defddb"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1334~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d101.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ee788647eeba4667153166cb68d4f89f",
+        "Key": "81cb375aa520ecbff62a08537c33f9ee9bce1e91fdeb130561c4dbade8eb66f6"
+      }
+    }
+  },
+  "19G69": {
+    "Version": "15.6 RC",
+    "Build": "19G69",
+    "Device": "iPhone9,3",
+    "Codename": "SkyG",
+    "Baseband": "6.03.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022SummerFCS/fullrestores/012-40419/2E28BDBA-78AB-4431-8128-6FBA80997091/iPhone_4.7_P3_15.6_19G69_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-33721-075.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-33939-076.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-34285-076.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-t8010aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d101ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@1334~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Homer": {
+      "Filename": "homer_D101.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8c6f49108895f1e56306cdb958c8e1a5",
+        "Key": "3301b0884ba160301cb90f368bbb3cfc5a8a2efb60e3b65392991462587ce2cb"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3727bb4b180dcef56cfa3461a7b9bf62",
+        "Key": "0335427d5224b383605e43d27116985c9ff4037009d05b8d1ea6f62da94cc830"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ea07e7c87a3bb5a2d6ca7d3f4f0033a9",
+        "Key": "040d846b9c0e545fc594ffdddcedc1862d2e6c0d209888ff266f2289fecaf522"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone9",
+      "Encrypted": false
+    },
+    "LiquidDetect": {
+      "Filename": "liquiddetect@1334~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2cfb3a04a3f324d62516d2d3cdd72463",
+        "Key": "b41030542647e463947723d0c2eb253f6c087ed60ab3e397fc1fbf931c7301b7"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1334~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d101.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2dd4f2ba1cb5af06e8f1499b9179dd36",
+        "Key": "302dd444845eae840c675ea0718663d1adea4bd1afee161b52496e3ebf63c182"
+      }
+    }
+  },
+  "19G71": {
+    "Version": "15.6 RC 2 and 15.6",
+    "Build": "19G71",
+    "Device": "iPhone9,3",
+    "Codename": "SkyG",
+    "Baseband": "6.03.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022SummerFCS/fullrestores/012-41763/0BC321DF-1A4E-473B-9EE0-BF126CB1CDA8/iPhone_4.7_P3_15.6_19G71_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-33721-077.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-33939-078.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-34285-078.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-t8010aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d101ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@1334~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Homer": {
+      "Filename": "homer_D101.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8c6f49108895f1e56306cdb958c8e1a5",
+        "Key": "3301b0884ba160301cb90f368bbb3cfc5a8a2efb60e3b65392991462587ce2cb"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3727bb4b180dcef56cfa3461a7b9bf62",
+        "Key": "0335427d5224b383605e43d27116985c9ff4037009d05b8d1ea6f62da94cc830"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ea07e7c87a3bb5a2d6ca7d3f4f0033a9",
+        "Key": "040d846b9c0e545fc594ffdddcedc1862d2e6c0d209888ff266f2289fecaf522"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone9",
+      "Encrypted": false
+    },
+    "LiquidDetect": {
+      "Filename": "liquiddetect@1334~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2cfb3a04a3f324d62516d2d3cdd72463",
+        "Key": "b41030542647e463947723d0c2eb253f6c087ed60ab3e397fc1fbf931c7301b7"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1334~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d101.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2dd4f2ba1cb5af06e8f1499b9179dd36",
+        "Key": "302dd444845eae840c675ea0718663d1adea4bd1afee161b52496e3ebf63c182"
+      }
+    }
   }
 }
