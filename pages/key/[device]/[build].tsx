@@ -29,8 +29,8 @@ import Breadcrumb from "@components/Breadcrumb";
 import Layout from "@components/Layout";
 
 function OSNameFromDevice(device: string, version: string): string {
-    if (device === "AppleTV5,3" || device === "AppleTV6,11" || device === "AppleTV11,1")
-        return "tvOS"; // AppleTV2,1 and AppleTV3,x are iOS
+    if (device.startsWith("AppleTV"))
+        return device === "AppleTV2,1" || device.startsWith("AppleTV3,") ? "iOS" : "tvOS"; // AppleTV2,1 and AppleTV3,x are iOS; all newer are tvOS
 
     if (device.startsWith("Watch"))
         return "watchOS";
@@ -160,22 +160,22 @@ export default function Page(props: KeyPage): React.ReactElement {
                 <Breadcrumb.Item>{props.Codename} {props.Build}</Breadcrumb.Item>
             </Breadcrumb.Root>
             <Layout.Content>
-                <table className="border border-gray-400 bg-gray-300 p-2 float-right">
+                <table className=" float-right">
                     <caption className="table-caption">
-                        <span className="font-bold">{OSNameFromDevice(props.Device, props.Version)} {props.Version}</span>
+                        <span className="font-bold text-lg">{OSNameFromDevice(props.Device, props.Version)} {props.Version}</span>
                     </caption>
                     <tbody>
                         <tr>
-                            <th className="border border-gray-400 p-1 text-center">Build</th>
-                            <td className="border border-gray-400 p-1 text-center">{props.Build}</td>
+                            <th className="border border-slate-600 bg-slate-200 p-1 text-center">Build</th>
+                            <td className="border border-slate-600 bg-slate-100 p-1 text-center">{props.Build}</td>
                         </tr>
                         <tr>
-                            <th className="border border-gray-400 p-1 text-center">Codename</th>
-                            <td className="border border-gray-400 p-1 text-center">{props.Codename}</td>
+                            <th className="border border-slate-600 bg-slate-200 p-1 text-center">Codename</th>
+                            <td className="border border-slate-600 bg-slate-100 p-1 text-center">{props.Codename}</td>
                         </tr>
                         <tr>
-                            <th className="border border-gray-400 p-1 text-center">Device</th>
-                            <td className="border border-gray-400 p-1 text-center">
+                            <th className="border border-slate-600 bg-slate-200 p-1 text-center">Device</th>
+                            <td className="border border-slate-600 bg-slate-100 p-1 text-center">
                                 {props.Device}
                                 {props.Models &&
                                     <>
@@ -185,11 +185,11 @@ export default function Page(props: KeyPage): React.ReactElement {
                             </td>
                         </tr>
                         {props.Baseband && <tr>
-                            <th className="border border-gray-400 p-1 text-center">Baseband</th>
-                            <td className="border border-gray-400 p-1 text-center">{props.Baseband}</td>
+                            <th className="border border-slate-600 bg-slate-200 p-1 text-center">Baseband</th>
+                            <td className="border border-slate-600 bg-slate-100 p-1 text-center">{props.Baseband}</td>
                         </tr>}
                         {props.DownloadUrl && <tr>
-                            <th className="border border-gray-400 p-1 text-center" colSpan={2}>
+                            <th className="border border-slate-600 bg-slate-200 p-1 text-center" colSpan={2}>
                                 <A href={props.DownloadUrl}>Download Firmware</A>
                             </th>
                         </tr>}
