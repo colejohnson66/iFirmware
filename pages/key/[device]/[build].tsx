@@ -21,8 +21,8 @@
  * =============================================================================
  */
 
-import { FirmwareItem, FirmwareItemType, KeyPage, ReadHasKeys, ReadKeyBundle } from "@library/KeyData";
-import { GetStaticPathsResult, GetStaticPropsContext, GetStaticPropsResult } from "next";
+import { FirmwareItem, FirmwareItemType, KeyPage, ReadKeys } from "@library/KeyData";
+import { GetServerSidePropsContext, GetServerSidePropsResult } from "next";
 
 import A from "@components/A";
 import Breadcrumb from "@components/Breadcrumb";
@@ -269,45 +269,16 @@ export default function Page(props: KeyPage): React.ReactElement {
     );
 }
 
-function CleanBuild(hasKeysBuild: string): string {
-    // get the internal build if the manufacturing build is present
-    const parenIdx = hasKeysBuild.indexOf("(");
-    if (parenIdx !== -1) {
-        const firstCut = hasKeysBuild.substring(parenIdx); // "1145 (8M89)" => "(8M89)"
-        return firstCut.substring(1, firstCut.length - 1); // "(8M89)" => "8M89"
-    }
-    return hasKeysBuild;
-}
+export async function getServerSideProps(context: GetServerSidePropsContext): Promise<GetServerSidePropsResult<KeyPage>> {
+    context.res.setHeader("Cache-Control", "public, s-maxage=86400"); // cache for 24 hours
 
-export async function getStaticPaths(): Promise<GetStaticPathsResult> {
-    const hasKeys = ReadHasKeys();
-    const paths: string[][] = [];
-    Object.entries(hasKeys).forEach(([device, builds]) => {
-        builds.forEach((build) => {
-            if (build[2])
-                paths.push([device, CleanBuild(build[1])]);
-        });
-    });
-
-    return {
-        paths: paths.map((build) => ({
-            params: {
-                device: build[0],
-                build: build[1],
-            },
-        })),
-        fallback: false,
-    };
-}
-
-export async function getStaticProps(context: GetStaticPropsContext): Promise<GetStaticPropsResult<KeyPage>> {
     const device = context.params.device as string;
     const build = context.params.build as string;
-    const bundle = ReadKeyBundle(device);
-    if (bundle === undefined || bundle[build] === undefined)
+    const bundle = ReadKeys(device, build);
+    if (bundle === undefined)
         return { notFound: true };
 
     return {
-        props: bundle[build],
+        props: bundle,
     };
 }

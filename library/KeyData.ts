@@ -77,6 +77,10 @@ export type KeyPage = {
 
 export type KeyBundle = Record<string, KeyPage>;
 
+/**
+ * Read a key bundle for a specified device.
+ * @returns The key bundle if it exists, or undefined if it doesn't.
+ */
 export function ReadKeyBundle(device: string): KeyBundle | undefined {
     const file = path.join(process.cwd(), "data", "Keys", `${device}.json`);
     if (!existsSync(file))
@@ -84,6 +88,11 @@ export function ReadKeyBundle(device: string): KeyBundle | undefined {
     const contents = readFileSync(file, { encoding: "utf8" });
     return JSON.parse(contents);
 }
+
+/**
+ * Read keys for a single device+build combo.
+ * @returns The key page if it exists, or undefined if it doesn't.
+ */
 export function ReadKeys(device: string, build: string): KeyPage | undefined {
     const bundle = ReadKeyBundle(device);
     if (!bundle || !Object.keys(bundle).includes(build))
