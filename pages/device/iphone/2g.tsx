@@ -23,6 +23,7 @@
 
 import A from "@components/A";
 import AKeyPage from "@components/AKeyPage";
+import AShort from "@components/AShort";
 import Breadcrumb from "@components/Breadcrumb";
 import Clear from "@components/Clear";
 import DateTime from "@components/DateTime";
@@ -58,13 +59,13 @@ export default function Page(): React.ReactElement {
                 <p>
                     When announced and released, the iPhone 2G was simply called <i>iPhone</i>.
                     However, with the release of the <A href="/device/iphone/3g">iPhone 3G</A> in <DateTime value="2008" />, the original iPhone became known as the &quot;iPhone <em>2G</em>.&quot;
-                    The reasoning is believed to be two-fold: it is the iPhone preceding the &quot;3G&quot; (and 2 is one before 3), and it only supported <A href="https://en.wikipedia.org/wiki/GSM">GSM</A> and <A href="https://en.wikipedia.org/wiki/Enhanced_Data_Rates_for_GSM_Evolution">EDGE</A> networks (commonly called &quot;2G&quot; networks).
+                    The reasoning is believed to be two-fold: it is the iPhone preceding the &quot;3G&quot; (and 2 is one before 3), and it only supported <AShort to="wp" title="GSM">GSM</AShort> and <AShort to="wp" title="Enhanced_Data_Rates_for_GSM_Evolution">EDGE</AShort> networks (commonly called &quot;2G&quot; networks).
                 </p>
 
                 <h2 id="headingSpecs">Technical Specs</h2>
                 <dl>
                     <dt>Battery</dt>
-                    <dd><NoWrap>1400 mA</NoWrap> @ <NoWrap>3.7 V</NoWrap> (<NoWrap>5.18 Wh</NoWrap>)</dd>
+                    <dd><NoWrap>1400 mA @ 3.7 V</NoWrap> (<NoWrap>5.18 Wh</NoWrap>)</dd>
 
                     <dt>Bluetooth</dt>
                     <dd>2.0 + EDR</dd>
@@ -76,15 +77,15 @@ export default function Page(): React.ReactElement {
                     <dd><b>Processor</b>: <A href="/baseband/pmb8876">PMB8876</A> (&quot;S-Gold 2&quot;)</dd>
                     <dd>
                         <b>Supported Networks</b>:
-                        {" "}<A href="https://en.wikipedia.org/wiki/Enhanced_Data_Rates_for_GSM_Evolution">EDGE</A>,
-                        {" "}<A href="https://en.wikipedia.org/wiki/GSM">Quad-band GSM</A> (800, 900, 1800, and 1900 MHz)
+                        {" "}<AShort to="wp" title="Enhanced_Data_Rates_for_GSM_Evolution">EDGE</AShort>,
+                        {" "}<AShort to="wp" title="GSM">Quad-band GSM</AShort> (800, 900, 1800, and 1900 MHz)
                     </dd>
 
                     <dt>Colors</dt>
                     <dd>Aluminum (gray)</dd>
 
                     <dt>CPU</dt>
-                    <dd><b>Core</b>: 1&times;<A href="https://en.wikipedia.org/wiki/ARM11">ARM1176JZ(F)-S</A></dd>
+                    <dd><b>Core</b>: 1&times;<AShort to="wp" title="ARM11">ARM1176JZ(F)-S</AShort></dd>
                     <dd><b>CPU</b>: <A href="/processor/s5l8900">S5L8900</A></dd>
                     <dd><b>Speed</b>: <NoWrap>620 MHz</NoWrap> (downclocked to 400 until <A href="/ios/1/1">iPhone OS 1.1.2</A>, and 412 after)</dd>
                     <dd><b>Instruction Set</b>: ARMv6</dd>
