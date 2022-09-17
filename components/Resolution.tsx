@@ -33,7 +33,7 @@ type ResolutionProps = {
 export default function Resolution(props: ResolutionProps): React.ReactElement {
     return (
         <>
-            <NoWrap>{props.diagonal} in diagonal, {props.width}&times;{props.height} pixels</NoWrap>
+            <NoWrap>{props.diagonal} in. diagonal, {props.width}&times;{props.height} pixels</NoWrap>
         </>
     );
 }

@@ -71,10 +71,11 @@ export default function Page(): React.ReactElement {
                     <dd>2.0 + EDR</dd>
 
                     <dt>Camera</dt>
-                    <dd><b>Rear</b>: <NoWrap>1.9 MP</NoWrap></dd>
+                    <dd><b>Rear</b>: <NoWrap>1.9 MP</NoWrap> (1600&times;1200)</dd>
 
                     <dt>Cellular Radio</dt>
                     <dd><b>Processor</b>: <A href="/baseband/pmb8876">PMB8876</A> (&quot;S-Gold 2&quot;)</dd>
+                    <dd><b>SIM Card</b>: micro SIM</dd>
                     <dd>
                         <b>Supported Networks</b>:
                         {" "}<AShort to="wp" title="Enhanced_Data_Rates_for_GSM_Evolution">EDGE</AShort>,
