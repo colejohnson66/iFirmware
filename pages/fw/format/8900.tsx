@@ -67,7 +67,7 @@ export default function Page(): React.ReactElement {
   40  uint8[16]    headerSignature   // SHA1 hash of first 0x40 bytes, truncated to 16 bytes (drop last four)
                                      // AES-128-CBC of above hash with key 0x837 and a zero IV
   50  uint8[0x7B0] padding
- 800  uint8[]      payload
+ 800  uint8[]      payload           // typically an `}<A href="/fw/format/img2">IMG2</A> or <A href="/fw/format/dmg">DMG</A>{` file
 ????  uint8[]      footerSignature   // \`footerCertOffset - footerSigOffset\` bytes
 ????  uint8[]      footerCertificate // \`footerCertLength\` bytes
 }`}</pre>

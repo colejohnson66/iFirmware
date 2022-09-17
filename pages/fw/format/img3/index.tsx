@@ -50,7 +50,6 @@ export default function Page(): React.ReactElement {
             <Layout.Content>
                 <Toc.Root>
                     <Toc.Entry href="#headingImg2Problems" text="Problems with IMG2" />
-                    <Toc.Entry href="#headingStructure" text="File Structure" />
                     <Toc.Entry href="#headingFormat" text="File Format">
                         <Toc.Entry href="#headingTags" text="Tags">
                             <Toc.Entry href="#headingTagList" text="List of Known Tags" />
@@ -78,8 +77,7 @@ export default function Page(): React.ReactElement {
                     Despite requiring a bit more to process, at least when compared to the <A href="/fw/format/8900">8900</A>/<A href="/fw/format/img2">IMG2</A> combination, the IMG3 file is quite simple.
                     It consists of a 20 byte header followed by a series of <A href="headingTags">tags</A>, one after the other.
                 </p>
-                <pre>{`Img3
-{
+                <pre>{`Img3 {
    0  uint32     magic         // '3gmI' ('Img3' in little endian)
    4  uint32     fileSize
    8  uint32     tagsSize      // size of file minus 0x14 header
