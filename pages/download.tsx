@@ -55,6 +55,9 @@ export default function Page(): React.ReactElement {
                     However, only keys from <A href="/ios/11.4">iOS 11.4.1</A> and below (that were known at release) are included.
                     It is available for download on <A href="https://sourceforge.net/projects/idecryptit/files/latest/download">SourceForge</A>.
                 </p>
+                <p>
+                    A new version is currently in development.
+                </p>
 
                 <h2 id="headingHistory">History</h2>
                 <p>
