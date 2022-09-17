@@ -26,7 +26,7 @@ import A from "./A";
 type OneDigitNumber = "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9";
 
 type DeviceType = "AppleTV" | "Watch" | "iBridge" | "AudioAccessory" | "iPad" | "iPhone" | "iPod";
-type DeviceModelNumber = `${"" | "1" | "2"}${OneDigitNumber}`;
+type DeviceModelNumber = `${"" | "1" | "2"}${OneDigitNumber}`; // 1-29
 
 type AKeyPageProps = {
     device: `${DeviceType}${DeviceModelNumber},${DeviceModelNumber}`;
@@ -36,7 +36,7 @@ type AKeyPageProps = {
 
 export default function AKeyPage(props: AKeyPageProps): React.ReactElement {
     return (
-        <A href={`/key/${props.build.toLowerCase()}/${props.device.toLowerCase().replace(",", "-")}`}>
+        <A href={`/key/${props.device}/${props.build}`}>
             {props.version} ({props.build})
         </A>
     );
