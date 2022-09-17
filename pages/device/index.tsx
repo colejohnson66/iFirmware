@@ -86,10 +86,8 @@ export default function Page(): React.ReactElement {
                 ])}
 
                 <h2 id="headingListAppleTV">Apple TV</h2>
-                <p>
-                    The first generation Apple TV is not included as it does not run iOS on ARM, but a trimmed down version of Mac OS X on x86.
-                </p>
                 {List([
+                    ["/tv/1g", "Apple TV"],
                     ["/tv/2g", "Apple TV (2nd generation)"],
                     ["/tv/3g", "Apple TV (3rd generation)"],
                     ["/tv/4g", "Apple TV (4th generation)"],
@@ -114,6 +112,9 @@ export default function Page(): React.ReactElement {
                     ["/watch/se", "Apple Watch SE"],
                     ["/watch/series6", "Apple Watch Series 6"],
                     ["/watch/series7", "Apple Watch Series 7"],
+                    ["/watch/series8", "Apple Watch Series 8"],
+                    ["/watch/ultra", "Apple Watch Ultra"],
+                    ["/watch/se2", "Apple Watch SE (2nd generation)"],
                 ])}
 
                 <h2 id="headingListHeadphones">Headphones</h2>
@@ -125,6 +126,7 @@ export default function Page(): React.ReactElement {
                     ["/airpods/3g", "AirPods (3rd generation)"],
                     ["/airpods/pro", "AirPods Pro"],
                     ["/airpods/max", "AirPods Max"],
+                    ["/airpods/pro2", "AirPods Pro (2nd generation)"],
                 ])}
 
                 <h3 id="headingListBeats">Beats</h3>
@@ -156,10 +158,13 @@ export default function Page(): React.ReactElement {
 
                 <h2 id="headingIPad">iPad</h2>
                 <p>
-                    Due to the vast amount of iPads available, this devices on this list are split by category.
+                    Due to the vast amount of iPads available, this devices on this list are split by their &quot;sub branding&amp;.
                 </p>
 
                 <h3 id="headingIPadIPad">iPad</h3>
+                <p>
+                    These iPads are ones branded as simply &quot;iPad&quot; with no suffix.
+                </p>
                 {List([
                     ["/ipad/1g", "iPad"],
                     ["/ipad/2g", "iPad 2"],
@@ -231,17 +236,18 @@ export default function Page(): React.ReactElement {
                     ["/iphone/12", "iPhone 12, 12 mini, 12 Pro, and 12 Pro Max"],
                     ["/iphone/13", "iPhone 13, 13 mini, 13 Pro, and 13 Pro Max"],
                     ["/iphone/se3", "iPhone SE (3rd generation)"],
+                    ["/iphone/14", "iPhone 14, 14 Plus, 14 Pro, and 14 Pro Max"],
                 ])}
 
                 <h2 id="headingIPodTouch">iPod touch</h2>
                 {List([
                     ["/ipod-touch/1g", "iPod touch"],
-                    ["/ipod-touch/2g", "iPod touch 2G"],
-                    ["/ipod-touch/3g", "iPod touch 3G"],
-                    ["/ipod-touch/4g", "iPod touch 4G"],
-                    ["/ipod-touch/5g", "iPod touch 5G"],
-                    ["/ipod-touch/6g", "iPod touch 6G"],
-                    ["/ipod-touch/7g", "iPod touch 7G"],
+                    ["/ipod-touch/2g", "iPod touch (2nd generation)"],
+                    ["/ipod-touch/3g", "iPod touch (3rd generation)"],
+                    ["/ipod-touch/4g", "iPod touch (4th generation)"],
+                    ["/ipod-touch/5g", "iPod touch (5th generation)"],
+                    ["/ipod-touch/6g", "iPod touch (6th generation)"],
+                    ["/ipod-touch/7g", "iPod touch (7th generation)"],
                 ])}
             </Layout.Content>
         </Layout.Root>
