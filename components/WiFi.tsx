@@ -27,7 +27,7 @@ import React from "react";
 
 // links from https://en.wikipedia.org/wiki/Template:IEEE_standards
 const wp = "https://en.wikipedia.org/wiki/";
-const map = {
+const hrefMap = {
     legacy: `${wp}IEEE_802.11 (legacy mode)`,
     a: `${wp}IEEE_802.11a-1999`,
     b: `${wp}IEEE_802.11b-1999`,
@@ -58,6 +58,14 @@ const map = {
     be: `${wp}IEEE_802.11be`,
 };
 
+const nbh = "\u{2011}";
+const brandingMap = {
+    n: `Wi${nbh}Fi 4`,
+    ac: `Wi${nbh}Fi 5`,
+    ax: `Wi${nbh}Fi 6`,
+    be: `Wi${nbh}Fi 7`,
+};
+
 type WiFiProps = {
     standards: string[];
 }
@@ -68,8 +76,10 @@ export default function WiFi(props: WiFiProps): React.ReactElement {
             {props.standards.map((standard, idx) => (
                 <React.Fragment key={idx}>
                     {idx !== 0 && " / "}
-                    {Object.keys(map).includes(standard)
-                        ? <A href={map[standard]}>802.11{standard}</A>
+                    {Object.keys(hrefMap).includes(standard)
+                        ? <A href={hrefMap[standard]}>
+                            802.11{standard}{Object.keys(brandingMap).includes(standard) && brandingMap[standard]}
+                        </A>
                         : `802.11${standard}`}
                 </React.Fragment>
             ))}
