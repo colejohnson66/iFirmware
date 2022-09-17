@@ -22,6 +22,7 @@
  */
 
 import A from "@components/A";
+import AShort from "@components/AShort";
 import Breadcrumb from "@components/Breadcrumb";
 import Clear from "@components/Clear";
 import DateTime from "@components/DateTime";
@@ -78,7 +79,7 @@ export default function Page(): React.ReactElement {
                 <h3 id="headingName">Name</h3>
                 <p>
                     Initially, iOS didn&apos;t even have a name;
-                    It was initially just said to run a trimmed down version of <A href="https://en.wikipedia.org/wiki/MacOS">Mac OS X</A> (now <i>macOS</i>).
+                    It was initially just said to run a trimmed down version of <AShort to="wp" title="macOS">Mac OS X</AShort> (now <i>macOS</i>), presumably due to the usage of <A href="#headingArchitecture">the XNU kernel and Darwin OS core</A>.
                     With the release of the <A href="/ios/2">iPhone OS 2</A> and <A href="/ios/sdk">iPhone SDK</A>, Apple dubbed it <i>iPhone OS</i>.
                     Initially chosen as it was what ran on the iPhone, it later was utilized by the iPod touch, iPad, and Apple TV (second generation and newer).
                     As such, iPhone OS was renamed &quot;iOS&quot; with the <A href="/ios/4">fourth major version</A>.
@@ -90,7 +91,7 @@ export default function Page(): React.ReactElement {
                 </p>
                 <p>
                     Later that year, with the release of the <A href="/device/tv/4g">fourth generation Apple TV</A> in <DateTime value="2015-10" />, Apple released <A href="/ios/tv/9">&quot;tvOS&quot; 9</A> alongside iOS 9.
-                    tvOS, like watchOS, is (internally) still iOS, but designed for a <A href="https://en.wikipedia.org/wiki/10-foot_user_interface">10-foot user interface</A>.
+                    tvOS, like watchOS, is (internally) still iOS, but designed for a <AShort to="wp" title="10-foot_user_interface">10-foot user interface</AShort>.
                     The <A href="/device/tv/2g">second</A> and <A href="/device/tv/3g">third</A> generation Apple TVs however, continued to use the &quot;iOS&quot; branding.
                 </p>
                 <p>
@@ -102,9 +103,9 @@ export default function Page(): React.ReactElement {
 
                 <h2 id="headingArchitecture">Architecture</h2>
                 <p>
-                    iOS (and watchOS, tvOS, and iPadOS) feature(s) a <A href="http://en.wikipedia.org/wiki/Hybrid_kernel">hybrid kernel</A> known as <A href="https://en.wikipedia.org/wiki/XNU">XNU</A>.
+                    iOS (and watchOS, tvOS, and iPadOS) feature(s) a <AShort to="wp" title="Hybrid_kernel">hybrid kernel</AShort> known as <A href="https://en.wikipedia.org/wiki/XNU">XNU</A> that runs <AShort to="wp" title="Darwin (operating system)">Darwin</AShort>.
                     It is mostly programmed in ARM assembly, C, C++, Objective-C, and Swift.
-                    As XNU is <A href="https://en.wikipedia.org/wiki/Unix-like">Unix-like</A>, it uses &quot;union mounting&quot; (compared to the Windows way of using drive letters).
+                    As XNU is <AShort to="wp" title="Unix-like">Unix-like</AShort>, it uses &quot;union mounting&quot; (compared to the Windows way of using drive letters).
                     The flash is partitioned into two separate blocks: one for the operating system (mounted at <code>/</code>) and one for the user data (mounted at <code>/private/var</code>).
                 </p>
 
