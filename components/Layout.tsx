@@ -161,9 +161,11 @@ type LayoutTitleProps = {
 }
 
 function LayoutTitle(props: LayoutTitleProps): React.ReactElement {
+    // <https://github.com/vercel/next.js/discussions/38256>
+    const text = `${props.title} | iFirmware`;
     return (
         <Head>
-            <title>{props.title} | iFirmware</title>
+            <title>{text}</title>
         </Head>
     );
 }
