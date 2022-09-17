@@ -10,6 +10,7 @@
         "firmwares",
         "geohot",
         "Hotz",
+        "HSDPA",
         "iboot",
         "iFirmware",
         "IPSW",
@@ -25,6 +26,7 @@
         "sepo",
         "Siri",
         "struct",
+        "UMTS",
         "unencrypted",
         "Vercel",
         "WWDC"

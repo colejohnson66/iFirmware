@@ -1,5 +1,5 @@
 /* =============================================================================
- * File:   2g.tsx
+ * File:   3g.tsx
  * Author: Cole Tobin
  * =============================================================================
  * Copyright (c) 2022 Cole Tobin
@@ -35,11 +35,11 @@ import WiFi from "@components/WiFi";
 
 export default function Page(): React.ReactElement {
     return (
-        <Layout.Root navGroup="device" pageTitle="iPhone" canonical="/device/iphone/2g">
-            <Layout.Title title="iPhone" />
+        <Layout.Root navGroup="device" pageTitle="iPhone" canonical="/device/iphone/3g">
+            <Layout.Title title="iPhone 3G" />
             <Breadcrumb.Root>
                 <Breadcrumb.Item href="/device">Device</Breadcrumb.Item>
-                <Breadcrumb.Item>iPhone</Breadcrumb.Item>
+                <Breadcrumb.Item>iPhone 3G</Breadcrumb.Item>
             </Breadcrumb.Root>
             <Layout.Content>
                 <Toc.Root>
@@ -49,69 +49,69 @@ export default function Page(): React.ReactElement {
                     <Toc.Entry href="#headingExternalLinks" text="External Links" />
                 </Toc.Root>
                 <p>
-                    The iPhone (sometimes known as the &quot;iPhone 2G&quot;) was Apple&apos;s first smartphone.
-                    It was announced on <DateTime value="2007-01-09" /> and was released on the <DateTime value="2007-09-29" />.
+                    The iPhone 3G was Apple&apos;s second smartphone.
+                    Featuring support for 3G networks and GPS, it was released on the <DateTime value="2008-06-11" />.
                 </p>
 
                 <Clear />
 
                 <h2 id="headingName">Name</h2>
                 <p>
-                    When announced and released, the iPhone 2G was simply called <i>iPhone</i>.
-                    However, with the release of the <A href="/device/iphone/3g">iPhone 3G</A> in <DateTime value="2008" />, the original iPhone became known as the &quot;iPhone <em>2G</em>.&quot;
-                    The reasoning is believed to be two-fold: it is the iPhone preceding the &quot;3G&quot; (and 2 is one before 3), and it only supported <AShort to="wp" title="GSM">GSM</AShort> and <AShort to="wp" title="Enhanced_Data_Rates_for_GSM_Evolution">EDGE</AShort> networks (commonly called &quot;2G&quot; networks).
+                    The iPhone 3G, despite being the second iPhone, is so named due to its ability to use <AShort title="3G" to="wp">3G networks</AShort> (specifically <AShort to="wp" title="High-Speed_Downlink_Packet_Access">HSDPA</AShort>).
+                    This is in contrast to the <A href="/device/iphone/2g">original iPhone</A> which only supported <AShort title="GSM" to="wp">GSM</AShort> and <AShort title="Enhanced_Data_Rates_for_GSM_Evolution" to="wp">EDGE</AShort> networks.
                 </p>
 
                 <h2 id="headingSpecs">Technical Specs</h2>
                 <dl>
                     <dt>Battery</dt>
-                    <dd><NoWrap>1400 mA @ 3.7 V</NoWrap> (<NoWrap>5.18 Wh</NoWrap>)</dd>
+                    <dd><NoWrap>1150 mA</NoWrap> @ <NoWrap>3.7 V</NoWrap> (<NoWrap>4.25 Wh</NoWrap>)</dd>
 
                     <dt>Bluetooth</dt>
-                    <dd>2.0 + EDR</dd>
+                    <dd>2.0 + EDR (chipset supports 2.1, but is unused)</dd>
 
                     <dt>Camera</dt>
                     <dd><b>Rear</b>: <NoWrap>1.9 MP</NoWrap> (1600&times;1200); no video support</dd>
 
                     <dt>Cellular Radio</dt>
-                    <dd><b>Processor</b>: <A href="/baseband/pmb8876">PMB8876</A> (&quot;S-Gold 2&quot;)</dd>
+                    <dd><b>Processor</b>: <A href="/baseband/pmb8878">PMB8878</A> (&quot;X-Gold 608&quot;)</dd>
                     <dd><b>SIM Card</b>: micro SIM</dd>
                     <dd>
                         <b>Supported Networks</b>:
                         {" "}<AShort to="wp" title="Enhanced_Data_Rates_for_GSM_Evolution">EDGE</AShort>,
-                        {" "}<AShort to="wp" title="GSM">Quad-band GSM</AShort> (800, 900, 1800, and 1900 MHz)
+                        {" "}<AShort to="wp" title="GSM">Quad-band GSM</AShort> (800, 900, 1800, and 1900 MHz),
+                        {" "}<AShort to="wp" title="UMTS">Tri-band UMTS</AShort> (850, 1900, 2100 MHz) with <AShort to="wp" title="High-Speed_Downlink_Packet_Access">HSDPA</AShort> support
                     </dd>
 
                     <dt>Colors</dt>
-                    <dd>Aluminum (gray)</dd>
+                    <dd>Black or White</dd>
 
                     <dt>CPU</dt>
                     <dd><b>Core</b>: 1&times;<AShort to="wp" title="ARM11">ARM1176JZ(F)-S</AShort></dd>
                     <dd><b>CPU</b>: <A href="/processor/s5l8900">S5L8900</A></dd>
-                    <dd><b>Speed</b>: <NoWrap>620 MHz</NoWrap> (downclocked to 400 until <A href="/ios/1/1">iPhone OS 1.1.2</A>, and 412 after)</dd>
+                    <dd><b>Speed</b>: <NoWrap>620 MHz</NoWrap> (downclocked to 412)</dd>
                     <dd><b>Instruction Set</b>: ARMv6</dd>
 
                     <dt>Dimensions</dt>
-                    <dd>115&times;61&times;11.6 mm (4.5&times;2.4&times;0.46 in)</dd>
+                    <dd>115.5&times;62.1&times;12.3 mm (4.5&times;2.4&times;0.48 in)</dd>
 
                     <dt>Display</dt>
                     <dd><Resolution diagonal={3.5} width={320} height={480} /></dd>
 
                     <dt>Firmware</dt>
-                    <dd><b>Initial</b>: <AKeyPage device="iPhone1,1" version="1.0" build="1A543a" /></dd>
-                    <dd><b>Last</b>: <AKeyPage device="iPhone1,1" version="3.1.3" build="7E18" /></dd>
+                    <dd><b>Initial</b>: <AKeyPage device="iPhone1,2" version="2.0" build="5A345" /></dd>
+                    <dd><b>Last</b>: <AKeyPage device="iPhone1,2" version="4.2.1" build="8C148" /></dd>
 
                     <dt>Internal Name</dt>
-                    <dd><code>iPhone1,1</code></dd>
+                    <dd><code>iPhone1,2</code></dd>
 
                     <dt>RAM</dt>
                     <dd><NoWrap>128 MiB</NoWrap></dd>
 
                     <dt>Storage</dt>
-                    <dd><NoWrap>4 GB</NoWrap>, <NoWrap>8 GB</NoWrap>, or <NoWrap>16 GB</NoWrap></dd>
+                    <dd><NoWrap>8 GB</NoWrap> (black only) or <NoWrap>16 GB</NoWrap> (both black and white)</dd>
 
                     <dt>Weight</dt>
-                    <dd><NoWrap>135 g</NoWrap> (<NoWrap>4.8 oz</NoWrap>)</dd>
+                    <dd><NoWrap>133 g</NoWrap> (<NoWrap>4.7 oz</NoWrap>)</dd>
 
                     <dt>Wi-Fi</dt>
                     <dd><WiFi standards={["b", "g"]} /></dd>
@@ -119,14 +119,13 @@ export default function Page(): React.ReactElement {
 
                 <h2 id="headingHacking">Hacking</h2>
                 <p>
-                    Naturally, as a first generation device, the original iPhone is one of the more &quot;hack-friendly&quot; <A href="/device">iDevices</A>.
-                    Within two months of its release, <A href="https://www.theiphonewiki.com/wiki/User:Geohot">geohot</A> (George Hotz) &quot;unlocked&quot; the AT&amp;T only phone to <A href="https://www.youtube.com/watch?v=tvJ1RGlxe8Q">work on T-Mobile</A>.
-                    A few months later, the <A href="https://www.theiphonewiki.com/wiki/IPhone_Dev_Team">iPhone Dev Team</A> discovered &quot;<A href="/jailbreak/exploit/pwnage">Pwnage</A>,&quot; a bootrom level <A href="/jailbreak#headingTethered"><em>untethered</em></A> exploit that allowed jailbreaking the device on <em>any</em> version of <A href="/ios">iPhone OS</A>.
+                    Because the iPhone 3G uses the same <A href="/processor/s5l8900">S5L8900 processor</A> as the original iPhone, it is vulnerable to the same exploits as it.
+                    These include <A href="/jailbreak/exploit/pwnage">Pwnage</A>, and <A href="/jailbreak/explot/pwnage2">Pwnage 2.0</A>.
                 </p>
 
                 <h2 id="headingExternalLinks">External Links</h2>
                 <ul>
-                    <li><A href="https://www.ifixit.com/Teardown/iPhone+1st+Generation+Teardown/599">iFixIt Teardown</A></li>
+                    <li><A href="https://www.ifixit.com/Teardown/iPhone+3G+Teardown/600">iFixIt Teardown</A></li>
                 </ul>
             </Layout.Content>
         </Layout.Root>
