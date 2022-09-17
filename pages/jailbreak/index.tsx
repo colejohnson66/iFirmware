@@ -162,6 +162,7 @@ export default function Page(): React.ReactElement {
                     ["/ios/13", "13.x"],
                     ["/ios/14", "14.x"],
                     ["/ios/15", "15.x"],
+                    ["/ios/16", "16.x"],
                 ])}
 
                 <h3 id="headingCompatibilityTV">Apple TV (iOS and tvOS)</h3>
@@ -178,6 +179,7 @@ export default function Page(): React.ReactElement {
                     ["/tv/13", "13.x"],
                     ["/tv/14", "14.x"],
                     ["/tv/15", "15.x"],
+                    ["/tv/16", "16.x"],
                 ])}
 
                 <h3 id="headingCompatibilityWatch">watchOS</h3>
@@ -190,6 +192,7 @@ export default function Page(): React.ReactElement {
                     ["/watch/6", "6.x"],
                     ["/watch/7", "7.x"],
                     ["/watch/8", "8.x"],
+                    ["/watch/9", "9.x"],
                 ])}
             </Layout.Content>
         </Layout.Root>
