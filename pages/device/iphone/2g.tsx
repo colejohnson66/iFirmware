@@ -98,8 +98,8 @@ export default function Page(): React.ReactElement {
                     <dd><Resolution diagonal={3.5} width={320} height={480} /></dd>
 
                     <dt>Firmware</dt>
-                    <dd>Initial: <AKeyPage device="iPhone1,1" version="1.0" build="1A543a" /></dd>
-                    <dd>Last: <AKeyPage device="iPhone1,1" version="3.1.3" build="7E18" /></dd>
+                    <dd><b>Initial</b>: <AKeyPage device="iPhone1,1" version="1.0" build="1A543a" /></dd>
+                    <dd><b>Last</b>: <AKeyPage device="iPhone1,1" version="3.1.3" build="7E18" /></dd>
 
                     <dt>Internal Name</dt>
                     <dd><code>iPhone1,1</code></dd>
