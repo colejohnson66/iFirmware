@@ -97,6 +97,7 @@ export default function Page(): React.ReactElement {
                     ["/t8035", "T8035", "A13 \"Bionic\""],
                     ["/t8101", "T8101", "A14 \"Bionic\""],
                     ["/t8110", "T8110", "A15 \"Bionic\""],
+                    ["/t8120", "T8120", "A16 \"Bionic\""],
                 ])}
 
                 <h2 id="headingMSeries">M Series Processors</h2>
@@ -104,6 +105,8 @@ export default function Page(): React.ReactElement {
                     ["/t8103", "T8103", "M1"],
                     ["/t6000", "T6000", "M1 Pro"],
                     ["/t6001", "T6001", "M1 Max"],
+                    ["/t6002", "T6002", "M1 Ultra"],
+                    ["/t8112", "T8112", "M2"],
                 ])}
 
                 <h2 id="headingSTSeries">S and T Series Processors</h2>
@@ -112,7 +115,7 @@ export default function Page(): React.ReactElement {
                     ["/t8002", "T8002", "S1P, S2, and T1"],
                     ["/t8004", "T8004", "S3"],
                     ["/t8006", "T8006", "S4 and S5"],
-                    ["/t8301", "T8301", "S6 and S7"],
+                    ["/t8301", "T8301", "S6, S7, and S8"],
                     ["/t8012", "T8012", "T2"],
                 ])}
 
@@ -122,6 +125,7 @@ export default function Page(): React.ReactElement {
                     ["/w2", "W2"],
                     ["/w3", "W3"],
                     ["/t2002", "T2002", "H1"],
+                    // TODO: H2 in AirPods Pro (2nd generation)
                 ])}
             </Layout.Content>
         </Layout.Root>
