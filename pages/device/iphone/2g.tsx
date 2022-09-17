@@ -45,7 +45,7 @@ export default function Page(): React.ReactElement {
                 <Toc.Root>
                     <Toc.Entry href="#headingName" text="Name" />
                     <Toc.Entry href="#headingSpecs" text="Technical Specs" />
-                    <Toc.Entry href="#headingHistory" text="History" />
+                    <Toc.Entry href="#headingHacking" text="Hacking" />
                     <Toc.Entry href="#headingExternalLinks" text="External Links" />
                 </Toc.Root>
                 <p>

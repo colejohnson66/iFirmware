@@ -45,7 +45,7 @@ export default function Page(): React.ReactElement {
                 <Toc.Root>
                     <Toc.Entry href="#headingName" text="Name" />
                     <Toc.Entry href="#headingSpecs" text="Technical Specs" />
-                    <Toc.Entry href="#headingHistory" text="History" />
+                    <Toc.Entry href="#headingHacking" text="Hacking" />
                     <Toc.Entry href="#headingExternalLinks" text="External Links" />
                 </Toc.Root>
                 <p>
@@ -64,7 +64,7 @@ export default function Page(): React.ReactElement {
                 <h2 id="headingSpecs">Technical Specs</h2>
                 <dl>
                     <dt>Battery</dt>
-                    <dd><NoWrap>1150 mA</NoWrap> @ <NoWrap>3.7 V</NoWrap> (<NoWrap>4.25 Wh</NoWrap>)</dd>
+                    <dd><NoWrap>1150 mA @ 3.7 V</NoWrap> (<NoWrap>4.25 Wh</NoWrap>)</dd>
 
                     <dt>Bluetooth</dt>
                     <dd>2.0 + EDR (chipset supports 2.1, but is unused)</dd>
