@@ -96,7 +96,7 @@ export default function Page(): React.ReactElement {
                     ["/file/battery-full", "Battery Full"],
                     ["/file/battery-low", "Battery Low"],
                     ["/file/dali", "DALI"], // Copilot suggests: Digital Audio Link Interface
-                    ["/file/dcp", "DCP"], // Copilot suggests: Device Configuration Profile
+                    ["/file/dcp", "DCP", "Display Coprocessor"],
                     ["/file/device-tree", "Device Tree"],
                     ["/file/glyph-charging", "Glyph Charging"],
                     ["/file/glyph-plugin", "Glyph Plugin"],
