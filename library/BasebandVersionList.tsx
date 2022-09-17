@@ -29,6 +29,20 @@ function VersionAndBuild(key: number, version: React.ReactNode, build: React.Rea
     return <dd key={key}>{version} ({build})</dd>;
 }
 
+/**
+ * A baseband version to iOS version listing.
+ * This generates a `<dl>` (definition list) tag with a `<dt>` tag for each baseband version, and a `<dd>` tag for each
+ *   iOS version.
+ *
+ * @param args An array of arrays.
+ *   Each inner array contains an iOS version and, optionally, a baseband version.
+ *   If the inner array is two elements long, it is treated as a tuple of the iOS version and build number.
+ *   If it's three elements long, it is treated as a tuple of a (new) baseband version, iOS version, and iOS build
+ *     number.
+ *
+ *   In each row, if the last element is a string, it has the word "Build" prepended to it.
+ *   However, if it's a JSX node, it is untouched, so the "Build(s)" string must be explicitly included.
+ */
 export default function BasebandVersionList(args: (string | React.ReactNode)[][]): React.ReactElement {
     const tags: React.ReactElement[] = [];
 
@@ -40,5 +54,5 @@ export default function BasebandVersionList(args: (string | React.ReactNode)[][]
             tags.push(VersionAndBuild(idx * 2, row[0], row[1]));
     });
 
-    return <dd>{tags}</dd>;
+    return <dl>{tags}</dl>;
 }
