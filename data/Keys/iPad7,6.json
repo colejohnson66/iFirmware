@@ -12631,7 +12631,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "f05271a5f4c8371719352bf3119fa525d4c7e04e21dbb918a82244311f91b8bf6f1873822bc654dd904cee6b373608d1"
+      "IVKey": {
+        "IV": "1f8b88f99e652fb92410863168223bb1",
+        "Key": "334853dc83a908942980114cff2319579daf0a477421ef10302ac475ab7584ba"
+      }
     }
   },
   "18A5332f": {
@@ -12732,7 +12735,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "b1f1b0e32765b0f312b5effe9d81c502424681bad743bc9736dcd79ee96273ce87bc714e08840bfcb0c569e004d262ee"
+      "IVKey": {
+        "IV": "2025e96992a49ad056de722d0112d523",
+        "Key": "de3a0c2ddc6f86298140bfd9720a7553631b604ecbbb6073db9a12a27f49dd80"
+      }
     }
   },
   "18A5342e": {
@@ -12833,7 +12839,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "e19e20b50876f595da03be051882888ce71409a930252e74d287bb9f4e87b2c7aae6372f4ff152509b841c108c70ba92"
+      "IVKey": {
+        "IV": "dff7870b8212414cbbe2f01cd2f731b6",
+        "Key": "db4d97b6fe0bd3efb7f5fd205860dd8e2aea86e08d3d2f1915823feca0a5e60e"
+      }
     }
   },
   "18A5351d": {
@@ -12934,7 +12943,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "bb3bf57c2044d69c7036bdd9797031c840ace5e2a8c5fa262d2b41260b04380cf3bd53f3cfcfa0ccff895e866099660b"
+      "IVKey": {
+        "IV": "1a2d6e17e5107fab1b03fa9938168dcc",
+        "Key": "30c89cf79efe55f62c854fcd5c3581ea435f7f68d7960495ef7aac5758b4de75"
+      }
     }
   },
   "18A5357e": {
@@ -13035,7 +13047,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "10193994124a98ed8236f7aaa5fc3dce64def3ef605d7a51ba8f9c35fdf8b91505edf08c44bba3a25fda5bec2cddd1dd"
+      "IVKey": {
+        "IV": "b00b5ba00e0edec69f4d715f8b2c9433",
+        "Key": "32ce5a758e3b759d1860e29047821fdb0a32ace0fe2ee133d810c386b6701878"
+      }
     }
   },
   "18A5369b": {
@@ -13136,7 +13151,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "3f9749c9ac38b7ba341726f96208e438da2bc7f632356dc9f7c7564ad65269464af6fb52a40ad12ae0e77898a2144463"
+      "IVKey": {
+        "IV": "7cde44db83b48754d65b57025003f01b",
+        "Key": "edc3ab1665ec685d243a5e19a0abfade8d8d9968acf2c4ed2c647caef77aa7ee"
+      }
     }
   },
   "18A5373a": {
@@ -13237,7 +13255,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "3f9749c9ac38b7ba341726f96208e438da2bc7f632356dc9f7c7564ad65269464af6fb52a40ad12ae0e77898a2144463"
+      "IVKey": {
+        "IV": "7cde44db83b48754d65b57025003f01b",
+        "Key": "edc3ab1665ec685d243a5e19a0abfade8d8d9968acf2c4ed2c647caef77aa7ee"
+      }
     }
   },
   "18A8395": {
@@ -13338,7 +13359,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "656d367a9fc88cb08bf17b8cd91de2a2af5500376fa3520194734e027f21c0c9a0d99aee7fbe36c558176f372fd5d62a"
+      "IVKey": {
+        "IV": "52d7792d5817e1514fd16bdd4985b3a9",
+        "Key": "5de546684df5abac1e1fcb9b10cebac35303fae4187dface20daf8390ce9b545"
+      }
     }
   },
   "18B5052h": {
@@ -13439,7 +13463,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "6eb6fdde17ac497ee89b405809852ea4b8762bed3c54a1d09612fba5ae63f85a152be05b70cb8f8c268c7b3f1ce47442"
+      "IVKey": {
+        "IV": "856f74128c714650f21ab3ac4c391d34",
+        "Key": "3bddf3fde98091fc0ef6ded39ba5b7d821937d7dcc52a5da44a56d312bf55a31"
+      }
     }
   },
   "18B5061e": {
@@ -13540,7 +13567,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "97b7fc14cdda84ff9badd4859a90f636a55bdb3e9d55775d76f31ad5accec29d27c410fb814d31887b8db924b74dc00b"
+      "IVKey": {
+        "IV": "ce08a00365712ce79b8bb2a0ea4e99a7",
+        "Key": "d85754f7d6ed986d88cf38e54b7d304383c056a2bc3bb33c828959b4109c14c3"
+      }
     }
   },
   "18B5072f": {
@@ -13641,7 +13671,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "0b745e4564fee21b6d39d39842ec186f576c046173657734cef0371d31145d16a7a1dd0da95035191573cc406c3c4c80"
+      "IVKey": {
+        "IV": "2e15e031b5b6a0e4321a9b598ab2c537",
+        "Key": "18bce74310b1f9db5cad88219228c16f083ce99a4f1834a8b0b5cde39d507dcb"
+      }
     }
   },
   "18B5083a": {
@@ -13742,7 +13775,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "9ece66a891058cdf3d7d646cac8719586bd0ca214779ae6eabcf9d5756eb09acf52d27df75f751b7bd72d37ff55389a5"
+      "IVKey": {
+        "IV": "30daa97a7e5467b7d430ffbc7985da5a",
+        "Key": "def0a0851264f0efcc2d45f5bf2b1c9f299bb7e0a043405158701ec8b52f0496"
+      }
     }
   },
   "18B91": {
@@ -13843,7 +13879,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "526bf74d67abbd3f4551139c66c5592f7a739d9ac4d23480d290d751e38a960455d41fb4d8f64c56f7d183d1ef364509"
+      "IVKey": {
+        "IV": "7fc1457af76d776d141b4ae6f6dacf67",
+        "Key": "f5475e498d917e7f5519dcef02519ad97566bd0d7ccd63ab0f3b28464a9eb4d0"
+      }
     }
   },
   "18B92": {
@@ -13944,7 +13983,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "f443d4bd3f471314858820e4bcb80fd02557bbee403bdd446cf4b0a298bda92e57b2c02c780b6646bc4dd38b94cd0695"
+      "IVKey": {
+        "IV": "f4d2d3e8a8b931cd2a15e66591b871e7",
+        "Key": "9d9a8bb3f65ada044e3409c7bf9bfbce835a6f51e7503455f33e98b8f352ea7c"
+      }
     }
   },
   "18C5044f": {
@@ -14045,7 +14087,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "6923287342c03114f06842ebe57ee6a4d1089acf9906df40a942938051b708fcb31c3e28d5f2954c0ec84cbbf460b6b6"
+      "IVKey": {
+        "IV": "debcb6c5a2a3f15336dc5147ddfc35d7",
+        "Key": "9e693905519aaf6c7121b5a6ab175ed86f090f740ce48a9b0addb5f9c838782e"
+      }
     }
   },
   "18C5054c": {
@@ -14146,7 +14191,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "8250f35776fffc6a108c0aa60301d23511701999ea787bc4352a86e4a2145e0c0abcf87f9d5133cc3df8d2adf4af9522"
+      "IVKey": {
+        "IV": "1f30d13ad27c53cc7cf90d93849e3103",
+        "Key": "6523f1faa4dfe08f094824472687f608184f49f5c93b4adb8bfeeb479b1907a1"
+      }
     }
   },
   "18C5061a": {
@@ -14247,7 +14295,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "8250f35776fffc6a108c0aa60301d23511701999ea787bc4352a86e4a2145e0c0abcf87f9d5133cc3df8d2adf4af9522"
+      "IVKey": {
+        "IV": "1f30d13ad27c53cc7cf90d93849e3103",
+        "Key": "6523f1faa4dfe08f094824472687f608184f49f5c93b4adb8bfeeb479b1907a1"
+      }
     }
   },
   "18C65": {
@@ -14449,7 +14500,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "abd893a4c29275b8a07214c410d81b1cd6788e76a03bb5788fdfe2552f100ec48b657a6905db93fee034c155d9f775b1"
+      "IVKey": {
+        "IV": "71044a4974ba0c1210e084b6da8f875f",
+        "Key": "c6e8134d993dfc20c2f18f24dc7ff9db41e21484b43c56341f06d669aa5d615d"
+      }
     }
   },
   "18D5030e": {
@@ -14853,7 +14907,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "bfa4e784e17f39ec24dc0e8d79d2f058033b5a17273ee4ea9ac6ece271eab8140685a89a4330bd6ea61c9d73dc506ce6"
+      "IVKey": {
+        "IV": "a8d70de41ab036b0efac9edecf015b7f",
+        "Key": "c885789fc4e86ce3a2546fc64346d813a4d1c335d2f801c6294a59993e7ec4c2"
+      }
     }
   },
   "18D70": {
@@ -14954,7 +15011,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "bfa4e784e17f39ec24dc0e8d79d2f058033b5a17273ee4ea9ac6ece271eab8140685a89a4330bd6ea61c9d73dc506ce6"
+      "IVKey": {
+        "IV": "a8d70de41ab036b0efac9edecf015b7f",
+        "Key": "c885789fc4e86ce3a2546fc64346d813a4d1c335d2f801c6294a59993e7ec4c2"
+      }
     }
   },
   "18E199": {
@@ -15055,7 +15115,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "6018d6257039e3ca13a4cc42f48cd3a3f92a5166654431f1c3cc920dc010128e965400bbd30f7b7fec5fcba613d481da"
+      "IVKey": {
+        "IV": "affbebfe8a7dbf91b10596d37d109c5b",
+        "Key": "acebfc26b92566b0eacfb5ccafdaa868c3ac80c93e42740694febbdc3fbdfb9c"
+      }
     }
   },
   "18E212": {
@@ -15156,7 +15219,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "b85addbcb154a428818530d8bf14bb7bbe5ced4d71d45be776b31ed0e77c59d8c25594a2981a20dfd65384a0206af0be"
+      "IVKey": {
+        "IV": "9b1cd024ae5aa574f70d6fb18b7d1485",
+        "Key": "16eb68dc94404ff5a088117d8d0fee5db14a9423460b5e19f80b37c6214f06e7"
+      }
     }
   },
   "18E5140j": {
@@ -16671,7 +16737,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "a2805867b0d2568d74f7b476eba740bb762fae1442fdb9a689c53022eb91595b11a5e4298a3c42353b139a569c16fd51"
+      "IVKey": {
+        "IV": "0073258236f91c6f8cf3870a4a952725",
+        "Key": "f4a3794a839cd07407d9803ff76774a56cfe884d598479e93b9a752bd566530e"
+      }
     }
   },
   "18G5023c": {
@@ -17378,7 +17447,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "67fab94ed24b765c08722c4b5e096d8c73f02d6ee91bdecba1b0adb2524231bf24fd63d3b7017e094b684220dba08a63"
+      "IVKey": {
+        "IV": "a5227636b4ccc576ff95fa0fb109fac9",
+        "Key": "f271ceb9ff61eecffc6049d548aa9e8b9aba0c5ca8b4ef749227cd1af87a9179"
+      }
     }
   },
   "18G82": {
@@ -17479,7 +17551,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.j72b.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "ad6911fdff52233490df0db96deb7368ab8a54680ddf0a26c1ef442b7f18fc9da2dac9da1b7ef0c5b74595d3258ec5ee"
+      "IVKey": {
+        "IV": "c8524013a66c5f312e5ec1b8505c8b30",
+        "Key": "8da574071328a884474cf34925f4b39e1df2997cdce6b6b04388854d3ed96b72"
+      }
     }
   },
   "18H17": {
@@ -22746,6 +22821,978 @@
       "IVKey": {
         "IV": "b71490b4653cbab9758eecb1585b7fbf",
         "Key": "10041caa5d5dff905f7da570de8d6a0644adbd982b3aca9d56adcf7b637ae893"
+      }
+    }
+  },
+  "19H12": {
+    "Version": "15.7 RC and 15.7",
+    "Build": "19H12",
+    "Device": "iPad7,6",
+    "Codename": "SkySecuritySydney",
+    "Baseband": "9.61.00",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022FallFCS/fullrestores/012-38966/80B885FC-7186-4C64-9E7F-4DA8F1A7E12C/iPad_64bit_TouchID_ASTC_15.7_19H12_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-69996-013.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-69817-013.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-69943-013.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad7baop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j72bap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2x~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "eb8915c6e4e47413267701f724720bd0",
+        "Key": "124a2c7ce3c7fb0968704409740271dc6356cfddebd9f93b4b1630ce0ca1efee"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fa51ac853d9c582a96a7ed7a6ee7a098",
+        "Key": "78dd8fc29753b5bb0f9cd786d7a35d2e82e2346aacdd63b5eb8458874c8a8016"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "c3bb6d1ebb8be9b8c171cf93e390a942",
+        "Key": "b675558316cb7848c810a6ec24f3c365c378a6fb25ef2092fe26d08b7a6b1362"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad7b",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "954d0e6deacf7191e25a31394a3d5ed9",
+        "Key": "42dbb6177466bdf93b01f3f774733286a7ef1f44462a8d98f39d792cd8f12dcd"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2x~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j72b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "916ed100dd291e79195e4297e4d1dd39",
+        "Key": "45ed8fd5bbd76f98e807e8c99b3a1099f32e005b42baf62af25b3361fe195601"
+      }
+    }
+  },
+  "20A5283p": {
+    "Version": "16.0 beta",
+    "Build": "20A5283p",
+    "Device": "iPad7,6",
+    "Codename": "SydneySeed",
+    "Baseband": "9.60.08",
+    "DownloadUrl": "https://download.developer.apple.com/WWDC_2022/iPadOS_16_beta/iPad_64bit_TouchID_ASTC_16.0_20A5283p_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-13891-046.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-13904-075.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-13951-077.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad7baop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j72bap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2x~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1bb0d26dafe86094b10ce0287779b193",
+        "Key": "0d81e4d026e0cf0d1772b157445608c82f278886a2d90dfc9e1d3207b36ca311"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "cdf9cc0db6aba72afb836d8fdc66ef39",
+        "Key": "2b5c547c735274bc6d59824eac6a14d49f3ea7bfb0119c1b432802dba7192a9c"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "d18496fada4d397d8884d2490d15b928",
+        "Key": "2712305e4879ac02e01d364bc6f3f530603da4fad70dc9f7b79c4d193aae6240"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad7b",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fdbb91da214c19a36224f881f82433d2",
+        "Key": "b9ae8d41ab214eace62fea2efef8a5dfbd3d5402cd5f9c04d0093a037b8dbde0"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2x~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j72b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9853ce0884220958231313e216727062",
+        "Key": "5f063b2f05f731e8269b47b62dc944478d6b0d4a3d996a790c4efcd579c14df8"
+      }
+    }
+  },
+  "20A5303i": {
+    "Version": "16.0 beta 2",
+    "Build": "20A5303i",
+    "Device": "iPad7,6",
+    "Codename": "SydneySeed",
+    "Baseband": "9.60.08",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022SummerSeed/fullrestores/012-26209/175A6A7C-6E52-438A-8326-FC9DFEBB4E20/iPad_64bit_TouchID_ASTC_16.0_20A5303i_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-13891-056.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-13904-087.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-13951-089.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad7baop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j72bap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2x~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b7968e0ff441b4eb15ddd27420ebbba0",
+        "Key": "6311054c42d327bfd34074193b5f4907341f09283c1d46e94e88c112fd49a168"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ed34e383646e320ca6c5375aa7270472",
+        "Key": "23f494850322b80e1e57d0f020f0fe7d2e9741f8d62435229140b886a0f981e9"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8e712950400516be791cd682be3aaa74",
+        "Key": "05dd8a0bcdf98e01d858d35d5470b08f92a9860e44d9b232422b70122abf2660"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad7b",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3efcb9509ba8c51ad3fd3e1f6e1b8c5a",
+        "Key": "484e277e8f5aeaecccd6e2d25756b420004b70c46ee71ecef792f3ae9b415922"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2x~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j72b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "9b9ac127b6615af59136ecd02c3f7963",
+        "Key": "5ebe7473676cd25b15fde46d0685d2607e48e14816727735f77d7bde4e37f8dd"
+      }
+    }
+  },
+  "20A5312g": {
+    "Version": "16.0 beta 3",
+    "Build": "20A5312g",
+    "Device": "iPad7,6",
+    "Codename": "SydneySeed",
+    "Baseband": "9.60.08",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022SummerSeed/fullrestores/012-34082/B4D57E4B-2DF4-4CE6-BA64-4B50128334C0/iPad_64bit_TouchID_ASTC_16.0_20A5312g_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-13891-064.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-13904-095.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-13951-097.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad7baop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j72bap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2x~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "420a06ff78c2a79ffb38b8ecd6bbe4a4",
+        "Key": "20bd9663bdf1acd04512a92a9db5ccaf952b0f81f523e006cee7f4d03d8e2438"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ff192c5cb8a2c4de41dea3ff3f1af8d6",
+        "Key": "8946c07f687352c103a2463be8baadbcebba92c07a01197dbd29596ddf0a88a2"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3506ac5d677755a92b9b0b76a168bf36",
+        "Key": "a986f71e7faf8c8012e5051298db0ef08ed03d13004a66ef7ec21ed6634b9d89"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad7b",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fe00d2efff7f6b250bffdbea9d1e8541",
+        "Key": "caea27adc5dd39107cdc8f2462dc98144ec91089616f324a7a7bd767191aa5db"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2x~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j72b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e80fcdc3a410316188731ce98ba8f4d5",
+        "Key": "223cab9e1e905860872d0bfca292db80e57de5d576dd424dbaef6c349252f285"
+      }
+    }
+  },
+  "20A5312j": {
+    "Version": "16.0 beta 3 Update",
+    "Build": "20A5312j",
+    "Device": "iPad7,6",
+    "Codename": "SydneySeed",
+    "Baseband": "9.60.08",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022SummerSeed/fullrestores/012-40201/A43BA297-8925-483A-8A41-3715B2B9B416/iPad_64bit_TouchID_ASTC_16.0_20A5312j_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-13891-067.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-13904-098.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-13951-100.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad7baop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j72bap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2x~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "420a06ff78c2a79ffb38b8ecd6bbe4a4",
+        "Key": "20bd9663bdf1acd04512a92a9db5ccaf952b0f81f523e006cee7f4d03d8e2438"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ff192c5cb8a2c4de41dea3ff3f1af8d6",
+        "Key": "8946c07f687352c103a2463be8baadbcebba92c07a01197dbd29596ddf0a88a2"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3506ac5d677755a92b9b0b76a168bf36",
+        "Key": "a986f71e7faf8c8012e5051298db0ef08ed03d13004a66ef7ec21ed6634b9d89"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad7b",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fe00d2efff7f6b250bffdbea9d1e8541",
+        "Key": "caea27adc5dd39107cdc8f2462dc98144ec91089616f324a7a7bd767191aa5db"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2x~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j72b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "e80fcdc3a410316188731ce98ba8f4d5",
+        "Key": "223cab9e1e905860872d0bfca292db80e57de5d576dd424dbaef6c349252f285"
+      }
+    }
+  },
+  "20A5328h": {
+    "Version": "16.0 beta 4",
+    "Build": "20A5328h",
+    "Device": "iPad7,6",
+    "Codename": "SydneySeed",
+    "Baseband": "9.60.08",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022SummerSeed/fullrestores/012-44824/645AF7EC-11F4-4436-A8BA-6DE040337C88/iPad_64bit_TouchID_ASTC_16.0_20A5328h_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-13891-077.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-13904-110.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-13951-112.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad7baop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j72bap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2x~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "210056f76874d911a1a5604147f23aac",
+        "Key": "b7d1c4816abbb2d49cab4f9d081886f45045e4434f0db48ddaf317536d7e1560"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "014290163f9a184f6c80311c0bda51d2",
+        "Key": "c218ee417d1eb2838cd7142e44a7849ec37440eb6948ed5f633264ecb07927c8"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "4994797d7e7d7f1c359dcf7c24359c78",
+        "Key": "d6b509bf4c04d22b66f46057559e209f047ca3f97dba30a85905ad0e5bea9aff"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad7b",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "a54fc50ed6e705c7f9b526e879e6a345",
+        "Key": "2751ee4eb0fb8d0b90abb5e1a5ca649f098e8e7e71031a7cd1dbf9547491c762"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2x~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j72b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "139bda9c7fb1629ebf119caac5e39709",
+        "Key": "ff798a14a235f0ca2730de5c35b3533c89311c8447b582b2d879248dca389979"
+      }
+    }
+  },
+  "20A5339d": {
+    "Version": "16.0 beta 5",
+    "Build": "20A5339d",
+    "Device": "iPad7,6",
+    "Codename": "SydneySeed",
+    "Baseband": "10.00.00",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022SummerSeed/fullrestores/012-45904/DCB2E8DC-280F-47A2-A8AC-5BDFF4F01A35/iPad_64bit_TouchID_ASTC_16.0_20A5339d_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-13891-082.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-13904-115.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-13951-118.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad7baop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j72bap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2x~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "172b6166a8151c70011f67a760f3032f",
+        "Key": "f699f76ad3e78876b07d141a2dd08a8894efec190ea043cbcfadd9f304c4dab0"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "75cbf1fced032e912b877fcf5120eaf5",
+        "Key": "909105107d20abfe00beca5dc4e9c7a8cde13a840c63d7dc6d5254f3d1bfc2df"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6c1014a204520118f776a7736d56d1d2",
+        "Key": "2b9e572b95c93698d74c02efab42afe82005a39f7fc2591aba06ce037f182b84"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad7b",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0ae4568c700cc84aeb338c775122801b",
+        "Key": "1cb4e93f17c499fcacbf887ab6735503c411e799d8ada888141c3be41fd5c729"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2x~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j72b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0ce93c9e570265fce9e98b6fe0c2d526",
+        "Key": "9ec10deb46cd00d3f3c3e3a71fab5c72283a9b98658be7678c0c29adb0e9d2bc"
+      }
+    }
+  },
+  "20A5349b": {
+    "Version": "16.0 beta 6",
+    "Build": "20A5349b",
+    "Device": "iPad7,6",
+    "Codename": "SydneySeed",
+    "Baseband": "10.00.00",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022SummerSeed/fullrestores/012-53388/C19A11DA-B746-4309-BD52-49F70AE2EB50/iPad_64bit_TouchID_ASTC_16.0_20A5349b_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-13891-088.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-13904-121.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-13951-124.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad7baop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j72bap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2x~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "2a5e74fc16f7b66ae10c729e48388c42",
+        "Key": "b9a86543fa83b9c3c24ac6c9d2ac81257da7e48c506deaa9437b847215ee5385"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "1f1e97a1ee66aac9604b14d1d5669de1",
+        "Key": "6a550f6a366cf9ecc86e2cfe758f18f78a873ba5bcd1817041732943f5038256"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "b13015d458abfe715a9459abd68faa8d",
+        "Key": "21d7668b0b5f5a5166fb11a9577650be46d0837fbaee85cd6e7a70bc62cccba6"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad7b",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fe8108591d65ef34d8b7dea5219761b8",
+        "Key": "ae58855b090baa748b93afb30a6fce51ad8f2fe935ca8d5a8763223949a19d0b"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2x~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j72b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "08c5228c81a9bde909f45d2e7bb73520",
+        "Key": "d3af0caab3a5ccf1453450dd4d6b2136a7265c6cd902a13f734f57f3ed53d68c"
+      }
+    }
+  },
+  "20B5027f": {
+    "Version": "16.1",
+    "Build": "20B5027f",
+    "Device": "iPad7,6",
+    "Codename": "SydneyBSeed",
+    "Baseband": "9.60.08",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022SummerSeed/fullrestores/012-47152/58A161B8-1279-48CF-918E-71EEC8F85B29/iPad_64bit_TouchID_ASTC_16.1_20B5027f_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-83495-012.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-83080-017.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-83759-017.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-ipad7baop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~ipad.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.j72bap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@2x~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6ce787b85d21625554a07fb50a58d3bf",
+        "Key": "3f851b4ba0e878a3ce96ecefd07c4a65dc24eb70a2758e6e87cd44408ebd13a8"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "55e6ba6c184b748a357a5348ff006738",
+        "Key": "34b137e98b42f0d8b7d597e261395fa1a446639208d7a94d03fa10b7cdb0dc17"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bf0551dc8d7b28279ce3fbbc8a45a083",
+        "Key": "f2c664a18d2623596cec359dd4a42f1f537119d006cd474a97e3dc42d3f274d3"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.ipad7b",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.ipad7b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "edcd6f4268872f0bea6fc1a5a34d1778",
+        "Key": "6a704f80ac3fec34e2364456c57cc2c8e48cff07153937075235eedcc4df9b84"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@2x~ipad-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.j72b.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "3d485f5fec5809a6cebe230eba45d6f1",
+        "Key": "4dba5589818387b77ca5a14e9ce11a9a4819c1e400121434fa4b027a2e3167c1"
       }
     }
   }

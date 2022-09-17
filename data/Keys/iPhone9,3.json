@@ -23842,7 +23842,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.d101.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "674c472252fbcd96e027d730db8fb52062e1fe0170e7250f3483f72f8a480b04195a134c0ccfe1a47d49b30c0f528888"
+      "IVKey": {
+        "IV": "8145907c9620a2327fbef393e5307e9e",
+        "Key": "fa226548e12cc7c74865d102240a08719735348c453db62dff1d50f21212a93e"
+      }
     }
   },
   "18A5332f": {
@@ -23955,7 +23958,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.d101.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "e501ec4950ece300ba2b3e705febdd81160d8846d94a5dbd568ea3ef38c658f2aead6111413fd0c581c2b2301c1e8c04"
+      "IVKey": {
+        "IV": "f4c040376455f44f97a86002994b4af4",
+        "Key": "67b160809c1e8c3884557804908e86d2b69bab348506614d8727e64f74adf981"
+      }
     }
   },
   "18A5342e": {
@@ -24068,7 +24074,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.d101.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "f248830345ca983796548821a8b595473df34c73fb022f0f1b055967f8ebed20f87b340e3c3ca705f5199ec6892d7957"
+      "IVKey": {
+        "IV": "58b754ba8a663a00fc65778ae2d93a18",
+        "Key": "ae6460205616267a07b0b248156cf03f9fa4404c7c5f373ab35b7004fd742e9b"
+      }
     }
   },
   "18A5351d": {
@@ -24181,7 +24190,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.d101.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "bd07452fe7d8e7f7ea2fa02e3124f0fed4a6eb865056db41ce0f79793475520b5a96b153436bf7480b097547166703e5"
+      "IVKey": {
+        "IV": "725744c1f7bac41c46dc1a1592733883",
+        "Key": "9671467444f3f534a8e11914b0af7c2226dc0bfb6d3b6a490bbfe1380fddebe5"
+      }
     }
   },
   "18A5357e": {
@@ -24294,7 +24306,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.d101.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "4cfee1011e2847c7c16e4efa36cc868a3ce707caf24279a836434bfe9217609d16d2acee4df7b9747a1ef05b2a221990"
+      "IVKey": {
+        "IV": "1cffe1ee9b03eba1076352ef3af94b21",
+        "Key": "6f51cce30f71072c9a64765b67a3b2dff8ff37eb698566ef51ec159f19945c53"
+      }
     }
   },
   "18A5369b": {
@@ -24407,7 +24422,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.d101.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "d3c695ab3c2bb673d5e32c8879166b258e216510005605042c99a90334f5302fe09a5e906417fa596fe3b97f14289f1f"
+      "IVKey": {
+        "IV": "5ea667e03af330c16c3bcfcda0f3ffae",
+        "Key": "8d2702aec2d8696682801a996c670edcd2a905d8170a346d031c3296df0af065"
+      }
     }
   },
   "18A5373a": {
@@ -24520,7 +24538,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.d101.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "d3c695ab3c2bb673d5e32c8879166b258e216510005605042c99a90334f5302fe09a5e906417fa596fe3b97f14289f1f"
+      "IVKey": {
+        "IV": "5ea667e03af330c16c3bcfcda0f3ffae",
+        "Key": "8d2702aec2d8696682801a996c670edcd2a905d8170a346d031c3296df0af065"
+      }
     }
   },
   "18A8395": {
@@ -24749,7 +24770,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.d101.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "53b02a186b953b6cfed77240ae828a7243316f114e7c2497b535a0cc71f5275da4f961702b807d37301c3c3f86fb89c7"
+      "IVKey": {
+        "IV": "f6a4f7e837d952841b23871ec7c05aca",
+        "Key": "32c08a96b77c90728f0c2212748933aaa9328fcd5e2c8b100e401e1b7b6e5a6b"
+      }
     }
   },
   "18B5061e": {
@@ -24862,7 +24886,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.d101.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "a8cfbbc791f6058b4c3a70bfd28676db4a475ece241039fbf45908ad0f24b833414ceea0a89b17e738f7450a43ebcc13"
+      "IVKey": {
+        "IV": "3a1f5de2495086318a5365cb9cd11f4f",
+        "Key": "be0c6297e76cb70d0e08771e9c918a047c3a2415a620135178b411b9f1693427"
+      }
     }
   },
   "18B5072f": {
@@ -24975,7 +25002,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.d101.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "dda2bed7abfb4b6ddd114246cf907a07bd4bb4052c3770744a4cbd6f235e62c11279dbdc5e8631fc291bf038cad84fe0"
+      "IVKey": {
+        "IV": "4bc75b7c20c4249f0f90bb423cdb253d",
+        "Key": "9638b4061bc70518e06440cd2885b1f81698a4606bd056f9c4e178a844fd309b"
+      }
     }
   },
   "18B5083a": {
@@ -25088,7 +25118,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.d101.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "e24c7b4dd5dbad40396f23fcb285630c8c1df22c40da2a14e27b4edb7bdf6063c307bda218507a634cea0f4e162bb1ae"
+      "IVKey": {
+        "IV": "51a495b9366a263f2a966045eab2a352",
+        "Key": "d0f6b9488ab511249852d3d78223eaa7e77ddcb4c5a6ae5b422a5671a4dcf214"
+      }
     }
   },
   "18B91": {
@@ -25201,7 +25234,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.d101.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "96a7ab882d09993e254f5f617de0b5200671f812851d1e1833affc5cc65d401adb9b08717d63c443f043e51e035e39a2"
+      "IVKey": {
+        "IV": "ef4427a157879c64f73b84be7d6e361f",
+        "Key": "66e06a3a08061c7a25d10f1dedc1d83108de9bb3a363a3d28a6cf000364e9e0b"
+      }
     }
   },
   "18B92": {
@@ -25430,7 +25466,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.d101.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "d64c19f395d0299ca1987770a6d7f36b8bc29a29510974048c98369b02f7f0093d0013d54805b276443ef0397aed782d"
+      "IVKey": {
+        "IV": "b780e4669f77942b6d499baf971be62a",
+        "Key": "e92fa8c09d473ded6c5d91440c986829fe797874db658dfc4923dc38bfa02cf2"
+      }
     }
   },
   "18C5054c": {
@@ -25543,7 +25582,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.d101.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "692d28e9d14099d1cd5a4257a45cd5fb5f12792cfa454888f237ae7cc7dc45fcf3eb3d42fd64cbcba5250b13ba5dd41d"
+      "IVKey": {
+        "IV": "f34f304553059fb87c6c3864c4da5416",
+        "Key": "14889bad5613a8d5488c6968cc64621d81092e3962ef20d265c34c07ec1ff6d0"
+      }
     }
   },
   "18C5061a": {
@@ -25656,7 +25698,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.d101.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "692d28e9d14099d1cd5a4257a45cd5fb5f12792cfa454888f237ae7cc7dc45fcf3eb3d42fd64cbcba5250b13ba5dd41d"
+      "IVKey": {
+        "IV": "f34f304553059fb87c6c3864c4da5416",
+        "Key": "14889bad5613a8d5488c6968cc64621d81092e3962ef20d265c34c07ec1ff6d0"
+      }
     }
   },
   "18C65": {
@@ -29231,7 +29276,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.d101.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "0dd28af6a250d4aaa48f3b0e516840f2f8854b23bfa3f3f478e6fb299ed3e1023e4aedd83c29dcf773f685f742c1b32a"
+      "IVKey": {
+        "IV": "8e0fca75c9ae9785e3d42a5e963543fb",
+        "Key": "90a6554b4736daf096b76b9a7997da21cf7b52cfc835845602a0f5a502dc3fca"
+      }
     }
   },
   "18G82": {
@@ -29344,7 +29392,10 @@
     "SEPFirmware": {
       "Filename": "sep-firmware.d101.RELEASE.im4p",
       "Encrypted": true,
-      "KBag": "07eee20cfe34d79e5a70556aada62c69df9f699c08caab9cef74de06e663203d62d702ca3a0d5aecfa518e2887c231ea"
+      "IVKey": {
+        "IV": "db85914bc36257a2a5542c4bdeca9581",
+        "Key": "fd6cd8156e528fd67a3f907df39d81d9a672f5e970fd2040653d87ed9114f85d"
+      }
     }
   },
   "18H17": {
@@ -35202,6 +35253,126 @@
       "IVKey": {
         "IV": "2dd4f2ba1cb5af06e8f1499b9179dd36",
         "Key": "302dd444845eae840c675ea0718663d1adea4bd1afee161b52496e3ebf63c182"
+      }
+    }
+  },
+  "19H12": {
+    "Version": "15.7 RC and 15.7",
+    "Build": "19H12",
+    "Device": "iPhone9,3",
+    "Codename": "SkySecuritySydney",
+    "Baseband": "6.03.01",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022FallFCS/fullrestores/012-38914/C7764173-5CC4-4D58-8F8B-F093F9A060F0/iPhone_4.7_P3_15.7_19H12_Restore.ipsw",
+    "RootFS": {
+      "Filename": "078-69837-013.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-69817-013.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-69943-013.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-t8010aop.im4p",
+      "Encrypted": false
+    },
+    "AppleAVE": {
+      "Filename": "AppleAVE2FW_H9.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "AppleMaggie": {
+      "Filename": "AppleMaggieFirmwareImage.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@2x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.d101ap.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@1334~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "Homer": {
+      "Filename": "homer_D101.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "ffefa4cb85ca25dc3f24f8a091d69eb0",
+        "Key": "0552dfddbe1db42fb64e10cc0c8ca16426bbfe5487fe428b47fc6e66625fde70"
+      }
+    },
+    "iBoot": {
+      "Filename": "iBoot.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "6ae3a4eaeb0b946b5f13cd1425080463",
+        "Key": "760422c08728828d5a3fa5523fd6e3888489b50b7465e559eb6a16994d85d03e"
+      }
+    },
+    "iBSS": {
+      "Filename": "iBSS.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "0f6af18182335b6979edd8f68f72d875",
+        "Key": "0ccdbdff3663e41c9b80349e915af11e3f085e785b83c74c8a5c47d065a4e0c5"
+      }
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.iphone9",
+      "Encrypted": false
+    },
+    "LiquidDetect": {
+      "Filename": "liquiddetect@1334~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.d10.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "152e54a027a1e719775d93359580df24",
+        "Key": "0d38caf9eee14ce0573ec4e0ae0a6b67303a4a40a83beaed251e42f78f9f1cee"
+      }
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1334~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.d101.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "62b4eb8e24d3e9279746b8900d58bac9",
+        "Key": "df0840a32414abf033b18f5bcb6155c50546a5b349d1c181d40e77f2045fe0bd"
       }
     }
   }

@@ -53361,5 +53361,139 @@
       "Encrypted": true,
       "KBag": "1a5e4ae9aa628b1aad6a77d487d93069beb6538e7cfabddcfc94fb9471c27922fcce3dfea8cf87031207cb1caf6f1e9f"
     }
+  },
+  "19G82": {
+    "Version": "15.6.1",
+    "Build": "19G82",
+    "Device": "iPhone8,2",
+    "Codename": "SkyG",
+    "Baseband": "9.61.00",
+    "DownloadUrl": "https://updates.cdn-apple.com/2022SummerFCS/fullrestores/012-52595/6E67AF64-825E-4778-9301-F25A4E8EEF37/iPhone_5.5_15.6.1_19G82_Restore.ipsw",
+    "Models": [
+      "N66AP",
+      "N66mAP"
+    ],
+    "RootFS": {
+      "Filename": "078-33950-080.dmg",
+      "Encrypted": false
+    },
+    "UpdateRamdisk": {
+      "Filename": "078-33939-081.dmg",
+      "Encrypted": false
+    },
+    "RestoreRamdisk": {
+      "Filename": "078-34285-081.dmg",
+      "Encrypted": false
+    },
+    "AOPFirmware": {
+      "Filename": "aopfw-s8000aop.im4p",
+      "Encrypted": false
+    },
+    "AppleLogo": {
+      "Filename": "applelogo@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging0": {
+      "Filename": "batterycharging0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryCharging1": {
+      "Filename": "batterycharging1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryFull": {
+      "Filename": "batteryfull@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow0": {
+      "Filename": "batterylow0@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "BatteryLow1": {
+      "Filename": "batterylow1@3x~iphone.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree": {
+      "Filename": "DeviceTree.n66ap.im4p",
+      "Encrypted": false
+    },
+    "DeviceTree2": {
+      "Filename": "DeviceTree.n66map.im4p",
+      "Encrypted": false
+    },
+    "GlyphPlugin": {
+      "Filename": "glyphplugin@1920~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "iBEC": {
+      "Filename": "iBEC.n66.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "bfcde28e5a5974a43233b7793f38929b",
+        "Key": "42829463d6e65fcf0189fb9e2f8e2ca0d56c338882606a090418fc9e4ae35259"
+      }
+    },
+    "iBEC2": {
+      "Filename": "iBEC.n66m.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "d0aae259c18a4af0d207abf1be9448401549063b63e736c6fa30319ef0c768257a9f7f6a63dc2dfddf096e32623a7b8e"
+    },
+    "iBoot": {
+      "Filename": "iBoot.n66.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "8cdd271a46960c387f6ccd778856dc5c",
+        "Key": "bef5cada3ea4d90918daa2e9b2d1d8a2374052420bcab963c0f266c7d7d8ed62"
+      }
+    },
+    "iBoot2": {
+      "Filename": "iBoot.n66m.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "5df2b5dfe9fe796b9673a24de1a9cbbea97daf172e9f29b6181944c092f067b8e4713c8de4a01f42f197fd41a7677950"
+    },
+    "iBSS": {
+      "Filename": "iBSS.n66.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "fcfba4497d74cc6309f04c9646e4660a",
+        "Key": "53d195678736e3226e570aeb5260af1b41c9db895c64aab8b83d353abc7cc452"
+      }
+    },
+    "iBSS2": {
+      "Filename": "iBSS.n66m.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "51471f13c0fe2dc06eeb41631e8bf33f332846f8b20a0eb05f8f34261e208d20736caf1140f288f7e3d790ea76276429"
+    },
+    "Kernelcache": {
+      "Filename": "kernelcache.release.n66",
+      "Encrypted": false
+    },
+    "LLB": {
+      "Filename": "LLB.n66.RELEASE.im4p",
+      "Encrypted": true,
+      "IVKey": {
+        "IV": "5c65b383cba4ae02fe337a14fad96c43",
+        "Key": "666c243f1b82d7432abfe6caf1d01090e63dc99c3a78ec5b6d835ab614b63b12"
+      }
+    },
+    "LLB2": {
+      "Filename": "LLB.n66m.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "4a68ff21c9dcf08fa24fb1403b5aa33d15cd01491afae5fcd2a2a37069808492874adda954aad982396b68dbf4b2d44e"
+    },
+    "RecoveryMode": {
+      "Filename": "recoverymode@1920~iphone-lightning.im4p",
+      "Encrypted": false
+    },
+    "SEPFirmware": {
+      "Filename": "sep-firmware.n66.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "cfcb4260584874845d5639c50c0b2b289dc86391313d22bfa4233146dc97ae3ae457fc6dc7f40e07133edc2ed86e123e"
+    },
+    "SEPFirmware2": {
+      "Filename": "sep-firmware.n66m.RELEASE.im4p",
+      "Encrypted": true,
+      "KBag": "961a22f8a92e99d807644277d089e29535f9bd8f8476756d52c18e0c5859496b9c1d6d7821b866e4c8f3b35d8724f92e"
+    }
   }
 }
