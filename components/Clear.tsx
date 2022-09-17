@@ -21,6 +21,9 @@
  * =============================================================================
  */
 
+/**
+ * Add a `<div>` with the `clear: both` CSS property (Tailwind class `clear-both`).
+ */
 export default function Clear(): React.ReactElement {
     return (
         <div className="clear-both" />

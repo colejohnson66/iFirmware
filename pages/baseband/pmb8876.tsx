@@ -52,6 +52,8 @@ export default function Page(): React.ReactElement {
                 <p>
                     Some versions are marked with question marks in them.
                     This is because those portions of the version number are unknown.
+                    For example, iPhone&nbsp;OS 2.0 beta 4 is known to include <NoWrap>04.05.02_G</NoWrap>, and 2.0 beta 7 is known to include <NoWrap>04.05.04_G</NoWrap>, but betas 5 and 6 use unknown versions.
+                    As such, those two beta versions are listed as using <NoWrap>04.05.0?_G</NoWrap> because it is between the ones from betas 4 and 7, and only the last digit is changed.
                 </p>
                 {BasebandVersionList([
                     ["03.06.01_G", "1.0", "1A420"],
@@ -68,7 +70,7 @@ export default function Page(): React.ReactElement {
                     ["04.05.02_G", "2.0 beta 4", "5A258f"],
                     ["04.05.0?_G", "2.0 beta 5", "5A274d"],
                     ["04.05.0?_G", "2.0 beta 6 Pre-release", "5A292g"],
-                    ["04.05.0?_G", "2.0 beta 6 Final", "5A308"],
+                    ["2.0 beta 6 Final", "5A308"], // assumed to use the same as 5A292g, but unconfirmed
                     ["04.05.04_G", "2.0 beta 7", "5A331"],
                     ["2.0 GM", "5A345"],
                     ["2.0", "5A347"],
