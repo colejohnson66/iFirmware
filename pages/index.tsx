@@ -29,7 +29,7 @@ export default function Page(): React.ReactElement {
             <Layout.Content>
                 <p>
                     This is the iFirmware website;
-                    A companion website for all things iOS related.
+                    A website for all things iOS related.
                 </p>
             </Layout.Content>
         </Layout.Root>

@@ -30,9 +30,9 @@ import Head from "next/head";
 type NavGroup = "home" | "download" | "ios" | "jailbreak" | "device" | "baseband" | "processor" | "key" | "fw" | "fs" | "ota" | "decrypt" | "about";
 
 type LayoutRoot404Props = {
-    navGroup?: NavGroup; // missing
+    navGroup?: undefined; // missing
     pageTitle: "404";
-    canonical?: string; // missing
+    canonical?: undefined; // missing
     children: React.ReactNode;
 }
 type LayoutRootProps = {
@@ -50,7 +50,7 @@ type NavigationItem = {
 }
 const Navigation: NavigationItem[] = [
     { name: "iFirmware", href: "/", navGroup: "home" },
-    { name: "Download", href: "/download", navGroup: "download" },
+    { name: "iDecryptIt", href: "/download", navGroup: "download" },
     { name: "iOS", href: "/ios", navGroup: "ios" },
     { name: "Jailbreak", href: "/jailbreak", navGroup: "jailbreak" },
     { name: "Devices", href: "/device", navGroup: "device" },
