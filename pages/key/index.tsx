@@ -113,6 +113,7 @@ export default function Page(): React.ReactElement {
                     ["/ios/13", "iOS 13.x"],
                     ["/ios/14", "iOS 14.x"],
                     ["/ios/15", "iOS 15.x"],
+                    ["/ios/16", "iOS 16.x"],
                 ])}
 
                 <h3 id="headingVersionsWatch">watchOS</h3>
@@ -128,6 +129,7 @@ export default function Page(): React.ReactElement {
                     ["/watch/6", "watchOS 6.x"],
                     ["/watch/7", "watchOS 7.x"],
                     ["/watch/8", "watchOS 8.x"],
+                    ["/watch/9", "watchOS 9.x"],
                 ])}
             </Layout.Content>
         </Layout.Root>

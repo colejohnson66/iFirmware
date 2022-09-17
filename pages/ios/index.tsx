@@ -119,7 +119,7 @@ export default function Page(): React.ReactElement {
                 <p>
                     Apple has maintained a steady release schedule with iOS&apos; (and related) major releases;
                     A new major version is released with every new flagship iPhone.
-                    Currently, iOS is on it&apos;s 15th <em>major</em> release with iOS 16 expected to be announced at WWDC 2022.
+                    Currently, iOS is on it&apos;s 16th <em>major</em> release.
                 </p>
                 {/* <p>
                     Each link below will take you to a page dedicated to that major version and its new features.
@@ -141,6 +141,7 @@ export default function Page(): React.ReactElement {
                     ["/13", "iOS 13"],
                     ["/14", "iOS 14"],
                     ["/15", "iOS 15"],
+                    ["/16", "iOS 16"],
                 ])}
 
                 <h3 id="headingVersionsAppleTV">tvOS</h3>
@@ -152,6 +153,7 @@ export default function Page(): React.ReactElement {
                     ["/tv/13", "tvOS 13"],
                     ["/tv/14", "tvOS 14"],
                     ["/tv/15", "tvOS 15"],
+                    ["/tv/16", "tvOS 16"],
                 ])}
 
                 <h3 id="headingVersionsWatch">watchOS</h3>
@@ -164,6 +166,7 @@ export default function Page(): React.ReactElement {
                     ["/watch/6", "watchOS 6"],
                     ["/watch/7", "watchOS 7"],
                     ["/watch/8", "watchOS 8"],
+                    ["/watch/9", "watchOS 9"],
                 ])}
 
                 <h3 id="headingVersionsIPad">iPadOS</h3>
@@ -171,6 +174,7 @@ export default function Page(): React.ReactElement {
                     ["/ipad/13", "iPadOS 13"],
                     ["/ipad/14", "iPadOS 14"],
                     ["/ipad/15", "iPadOS 15"],
+                    ["/ipad/16", "iPadOS 16"],
                 ])}
             </Layout.Content>
         </Layout.Root>
