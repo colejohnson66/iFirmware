@@ -96,10 +96,10 @@ export default function Page(): React.ReactElement {
                 <pre>{`Img3Tag
 {
    0  uint32     magic
-   4  uint32     size     // including header and padding
-   8  uint32     dataSize
-   C  uint8[]    data     // \`dataSize\` bytes
-????  uint8[]    padding  // \`size - dataSize - 0xC\` bytes
+   4  uint32     fullSize  // including header and padding
+   8  uint32     size      // including padding
+   C  uint8[]    data
+????  uint8[]    padding
 }`}</pre>
 
                 <h4 id="headingTagList">List of Known Tags</h4>

@@ -56,11 +56,11 @@ export default function Page(): React.ReactElement {
 
                 <h3 id="headingTagFormatImg3">IMG3</h3>
                 <pre>{`Img3SepoTag {
-   0  uint32   magic      // 'OPES' ('SEPO' in little endian)
-   4  uint32   paddedSize // including header and padding
-   8  uint32   size       // including padding
+   0  uint32   magic     // 'OPES' ('SEPO' in little endian)
+   4  uint32   fullSize  // including header and padding
+   8  uint32   size      // including padding
    C  uint32   value
-  10  uint8[]  padding    // optional
+  10  uint8[]  padding   // optional
 }`}</pre>
 
                 <h2 id="headingExample">Example Tag</h2>
@@ -77,7 +77,7 @@ export default function Page(): React.ReactElement {
                 ]} />
                 <HexViewDetailTable entries={[
                     [0x1C7C, 4, <><code>magic</code>: When interpreted in little endian order, these bytes give the string, <code>SEPO</code>.</>, 0],
-                    [0x1C80, 4, <><code>paddedSize</code>: This tag is 0x10 (16) bytes long.</>],
+                    [0x1C80, 4, <><code>fullSize</code>: This tag is 0x10 (16) bytes long.</>],
                     [0x1C84, 4, <><code>size</code>: The actual payload (including padding) is 4 bytes long.</>],
                     [0x1C88, 4, <><code>value</code>: The actual value of the tag: 4.</>, 1],
                 ]} />

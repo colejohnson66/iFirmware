@@ -57,7 +57,7 @@ export default function Page(): React.ReactElement {
                 <h3 id="headingTagFormatImg3">IMG3</h3>
                 <pre>{`Img3KbagTag {
    0  uint32     magic      // 'GABK' ('KBAG' in little endian)
-   4  uint32     paddedSize // including header and padding
+   4  uint32     fullSize   // including header and padding
    8  uint32     size       // including padding
    C  uint32     cryptType  // 1: IV/Key are encrypted with the GID key
                             // 2: IV/Key are encrypted with the `}<i>development</i>{` GID key
@@ -88,7 +88,7 @@ export default function Page(): React.ReactElement {
                 ]} />
                 <HexViewDetailTable entries={[
                     [0x1C8C, 4, <><code>magic</code>: When interpreted in little endian order, these bytes give the string, <code>KBAG</code>.</>, 0],
-                    [0x1C90, 4, <><code>paddedSize</code>: This tag is 0x44 (68) bytes long.</>],
+                    [0x1C90, 4, <><code>fullSize</code>: This tag is 0x44 (68) bytes long.</>],
                     [0x1C94, 4, <><code>size</code>: The actual payload (including padding) is 0x38 (56) bytes long.</>],
                     [0x1C98, 4, <><code>cryptType</code>: This tag is encrypted with the GID key.</>, 1],
                     [0x1C9C, 4, <><code>aesSize</code>: The key is 0x80 (128) bits long.</>, 2],

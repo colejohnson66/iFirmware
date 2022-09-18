@@ -63,11 +63,11 @@ export default function Page(): React.ReactElement {
 
                 <h3 id="headingTagFormatImg3">IMG3</h3>
                 <pre>{`Img3TypeTag {
-   0  uint32   magic      // 'EPYT' ('TYPE' in little endian)
-   4  uint32   paddedSize // including header
-   8  uint32   size
+   0  uint32   magic     // 'EPYT' ('TYPE' in little endian)
+   4  uint32   fullSize  // including header and padding
+   8  uint32   size      // including padding
    C  uint32   value
-  10  uint8[]  padding    // optional
+  10  uint8[]  padding   // optional
 }`}</pre>
 
                 <h2 id="headingExample">Example Tag</h2>
@@ -88,7 +88,7 @@ export default function Page(): React.ReactElement {
                 ]} />
                 <HexViewDetailTable entries={[
                     [0x14, 4, <><code>magic</code>: When interpreted in little endian order, these bytes give the string, <code>TYPE</code>.</>, 0],
-                    [0x18, 4, <><code>paddedSize</code>: This tag is 0x20 (32) bytes long.</>],
+                    [0x18, 4, <><code>fullSize</code>: This tag is 0x20 (32) bytes long.</>],
                     [0x1C, 4, <><code>size</code>: The actual payload (including padding) is 4 bytes long.</>],
                     [0x20, 4, <><code>value</code>: The actual value of the tag.
                         When interpreted in little endian order, this gives the ASCII string <code>LOGO</code> (indicating that it&apos;s an <A href="/fw/file/apple-logo">AppleLogo</A> file).</>, 1],

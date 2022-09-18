@@ -57,14 +57,14 @@ export default function Page(): React.ReactElement {
                 <h3 id="headingTagFormatImg3">IMG3</h3>
                 <pre>{`String {
    0  uint32   length
-   4  uint8[]  string
+   4  uint8[]  string    // \`length\` bytes long; no terminator
 }
 Img3VersTag {
-   0  uint32   magic      // 'SREV' ('VERS' in little endian)
-   4  uint32   paddedSize // including header
-   8  uint32   size
-   C  String   value      // \`size\` bytes
-????  uint8[]  padding    // optional
+   0  uint32   magic     // 'SREV' ('VERS' in little endian)
+   4  uint32   fullSize  // including header and padding
+   8  uint32   size      // including padding
+   C  String   value
+????  uint8[]  padding   // optional
 }`}</pre>
 
                 <h2 id="headingExample">Example Tag</h2>
@@ -83,7 +83,7 @@ Img3VersTag {
                 ]} />
                 <HexViewDetailTable entries={[
                     [0x1C5C, 4, <><code>magic</code>: When interpreted in little endian order, these bytes give the string, <code>VERS</code>.</>, 0],
-                    [0x1C60, 4, <><code>paddedSize</code>: This tag is 0x20 (32) bytes long.</>],
+                    [0x1C60, 4, <><code>fullSize</code>: This tag is 0x20 (32) bytes long.</>],
                     [0x1C64, 4, <><code>size</code>: The actual payload (including padding) is 0x14 (20) bytes long.</>],
                     [0x1C68, 4, <><code>value.length</code>: The string is 0x10 (16) bytes long.</>, 1],
                     [0x1C6C, 4, <><code>value.string</code>: The actual string: `<code>EmbeddedImages-9</code>`.</>, 2],
