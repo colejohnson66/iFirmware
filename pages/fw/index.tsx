@@ -123,6 +123,7 @@ export default function Page(): React.ReactElement {
                     ["/file/sep-firmware", "Secure Enclave Processor Firmware", "SEP firmware"],
                     ["/file/smart-io-firmware", "SmartIO Firmware"],
                     ["/file/wireless-power", "Wireless Charging Controller"],
+                    ["/file/wtf", "What's the Firmware? (WTF)"],
                 ])}
             </Layout.Content>
         </Layout.Root>
