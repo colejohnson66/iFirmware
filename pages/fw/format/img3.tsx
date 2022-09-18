@@ -25,19 +25,8 @@ import A from "@components/A";
 import Breadcrumb from "@components/Breadcrumb";
 import Clear from "@components/Clear";
 import Layout from "@components/Layout";
+import NoWrap from "@components/NoWrap";
 import Toc from "@components/Toc";
-
-function TagList(args: [string, React.ReactNode?, string?][]): React.ReactElement {
-    return (
-        <ul>
-            {args.map(([tag, description, paren]) => (
-                <li key={tag}>
-                    <A href={`/fw/format/tags/${tag}`}><code>{tag.toUpperCase()}</code></A>{description && <>: {description}</>}{paren && ` (${paren})`}
-                </li>
-            ))}
-        </ul>
-    );
-}
 
 export default function Page(): React.ReactElement {
     return (
@@ -88,10 +77,8 @@ export default function Page(): React.ReactElement {
 
                 <h3 id="headingTags">Tags</h3>
                 <p>
-                    A &quot;tag&quot; is a block of data consisting of a &quot;magic,&quot; some info about its size, its (possibly encrypted) contents, and some padding.
-                    Each tag serves a unique purpose;
-                    For example, the <code>KBAG</code> tag contains the IV and key to decrypt the <code>DATA</code> tag&apos;s contents.
-                    Not every known tag is present in every firmware file.
+                    A &quot;tag&quot; is a chunk consisting of a the four byte &quot;magic,&quot; two <NoWrap>32 bit</NoWrap> sizes, the actual contents, and, optionally, some padding.
+                    For a list of known tags, visit the <A href="/fw/format/tags">main page on firmware tags</A>.
                 </p>
                 <pre>{`Img3Tag
 {
@@ -101,30 +88,6 @@ export default function Page(): React.ReactElement {
    C  uint8[]    data
 ????  uint8[]    padding
 }`}</pre>
-
-                <h4 id="headingTagList">List of Known Tags</h4>
-                <p>
-                    There exist many different tags, each with their own purpose:
-                </p>
-                {TagList([
-                    ["bord", "Board to be used with"],
-                    ["cert", "Certificate"],
-                    ["cepo", "Chip epoch"],
-                    ["chip", "Chip to be used with"],
-                    ["data", "IMG3 payload"],
-                    ["ecid", "\"Exclusive Chip ID\""],
-                    ["kbag", "The (encrypted) IV/key used to decrypt the payload"],
-                    ["nonc", "Nonce used when the file was signed"],
-                    ["ovrd"],
-                    ["prod", "Production mode"],
-                    ["rand"],
-                    ["salt"],
-                    ["sdom", "Security domain"],
-                    ["sepo", "Security epoch"],
-                    ["shsh", "Encrypted hash of the payload"],
-                    ["type", <>Type of image; contains the same value as that in the header&apos;s <code>ident</code> field</>],
-                    ["vers", "iBoot version of the image"],
-                ])}
             </Layout.Content>
         </Layout.Root>
     );

@@ -46,6 +46,7 @@ export default function A(props: AProps): React.ReactElement {
 
     // internal link? (internal links without slash are invalid)
     if (props.href[0] === "/") {
+        // add `redlink` if the page doesn't exist (ignore any ID part of the link)
         if (!PageList.includes(props.href.split("#")[0]))
             classes.push("redlink");
         return (
