@@ -37,7 +37,9 @@ export default function Page(): React.ReactElement {
             </Breadcrumb.Root>
             <Layout.Content>
                 <Toc.Root>
-                    <Toc.Entry href="#headingFormat" text="File Format" />
+                    <Toc.Entry href="#headingFormat" text="File Format">
+                        <Toc.Entry href="#headingImageTypes" text="Known Image Types" />
+                    </Toc.Entry>
                 </Toc.Root>
                 <p>
                     IMG2 files were the original method of holding a payload for <A href="/device"><a>iDevices</a></A>.
@@ -50,7 +52,7 @@ export default function Page(): React.ReactElement {
                 <h2 id="headingFormat">File Format</h2>
                 <pre>{`Img2 {
    0  uint8[4]     magic     // 'Img2' in little endian
-   4  uint8[4]     imageType // contained image (in little endian); eg. "ogol" ("logo") for `}<A href="/fw/file/apple-logo">AppleLogo</A>{`
+   4  uint8[4]     imageType // `}<A href="#headingImageTypes">contained image</A>{` (in little endian)
    8  uint16;      --unknown
    A  uint16       epoch
    C  uint32       flags1
@@ -73,6 +75,25 @@ VersionTag {
    4  --unknown
    8  uint8[24] version // "EmbeddedImages-##" (terminated with a null and 0xFF)
 }`}</pre>
+
+                <h3 id="headingImageTypes">Known Image Types</h3>
+                <p>
+                    The <code>imageType</code> value (located at offset <code>0x4</code>) specifies what payload is contained in this file.
+                    It is stored in little endian form, but presented in big endian;
+                    Reverse the four bytes to get the stored form.
+                    These are the known possible values:
+                </p>
+                <ul>
+                    <li><code>logo</code>: <A href="/fw/file/apple-logo">AppleLogo</A></li>
+                    <li><code>batC</code>: <A href="/fw/file/battery-charging">BatteryCharging</A></li>
+                    <li><code>batl</code>: <A href="/fw/file/apple-low">BatteryLow0</A></li>
+                    <li><code>batL</code>: <A href="/fw/file/apple-low">BatteryLow1</A></li>
+                    <li><code>dtre</code>: <A href="/fw/file/device-tree">DeviceTree</A></li>
+                    <li><code>ibot</code>: <A href="/fw/file/iboot">iBoot</A></li>
+                    <li><code>llbz</code>: <A href="/fw/file/llb">LLB</A></li>
+                    <li><code>nsrv</code>: <A href="/fw/file/need-service">NeedService</A></li>
+                    <li><code>recm</code>: <A href="/fw/file/recovery-mode">RecoveryMode</A></li>
+                </ul>
             </Layout.Content>
         </Layout.Root>
     );
