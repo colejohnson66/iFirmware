@@ -86,8 +86,8 @@ VersionTag {
                 <ul>
                     <li><code>logo</code>: <A href="/fw/file/apple-logo">AppleLogo</A></li>
                     <li><code>batC</code>: <A href="/fw/file/battery-charging">BatteryCharging</A></li>
-                    <li><code>batl</code>: <A href="/fw/file/apple-low">BatteryLow0</A></li>
-                    <li><code>batL</code>: <A href="/fw/file/apple-low">BatteryLow1</A></li>
+                    <li><code>batl</code>: <A href="/fw/file/battery-low">BatteryLow0</A></li>
+                    <li><code>batL</code>: <A href="/fw/file/battery-low">BatteryLow1</A></li>
                     <li><code>dtre</code>: <A href="/fw/file/device-tree">DeviceTree</A></li>
                     <li><code>ibot</code>: <A href="/fw/file/iboot">iBoot</A></li>
                     <li><code>llbz</code>: <A href="/fw/file/llb">LLB</A></li>

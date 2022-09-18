@@ -81,7 +81,7 @@ export default function Page(): React.ReactElement {
                     ["/file/root-fs", "Root Filesystem"],
                     ["/file/ramdisk", "Update and Restore Ramdisks"],
                     ["/file/aci-bt-fw", "ACI Bluetooth Firmware"],
-                    ["/file/aci-wifi-fw", "ACI WiFi Firmware"],
+                    ["/file/aci-wifi-fw", "ACI Wi-Fi Firmware"],
                     ["/file/adc-petra", "ADC Petra", "image signal processor"],
                     ["/file/ane", "Apple Neural Engine"],
                     ["/file/ansf", "ANSF"], // Copilot suggests: Apple Network Services Framework
@@ -106,7 +106,7 @@ export default function Page(): React.ReactElement {
                     ["/file/iboot", "iBoot", "iBoot stage 2"],
                     ["/file/iboot-data", "iBoot Data"],
                     ["/file/ibss", "iBSS", "iBoot Single Stage"],
-                    ["/file/isp", "ISP"], // Copilot suggests: Image Service Provider
+                    ["/file/isp", "ISP Firmware"], // Copilot suggests: Image Service Provider
                     ["/file/kernelcache", "Kernelcache"],
                     ["/file/leap-haptics", "Leap Haptics"], // Copilot suggests: Leap Motion Haptics
                     ["/file/liquid-detect", "Liquid Damage Detection"],
