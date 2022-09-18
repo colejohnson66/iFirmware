@@ -31,12 +31,12 @@ import Toc from "@components/Toc";
 
 export default function Page(): React.ReactElement {
     return (
-        <Layout.Root navGroup="fw" pageTitle={<>IMG3 Tag: <code>KBAG</code></>} canonical="/fw/format/img3/kbag">
-            <Layout.Title title="IMG3 Tag: KBAG" />
+        <Layout.Root navGroup="fw" pageTitle={<>Tag: <code>KBAG</code></>} canonical="/fw/format/tags/kbag">
+            <Layout.Title title="Tag: KBAG" />
             <Breadcrumb.Root>
                 <Breadcrumb.Item href="/fw">Firmware Files</Breadcrumb.Item>
-                <Breadcrumb.Item href="/fw/format/img3">IMG3</Breadcrumb.Item>
-                <Breadcrumb.Item><code>KBAG</code> Tag</Breadcrumb.Item>
+                <Breadcrumb.Item href="/fw/format/tags">Tags</Breadcrumb.Item>
+                <Breadcrumb.Item><code>KBAG</code></Breadcrumb.Item>
             </Breadcrumb.Root>
             <Layout.Content>
                 <Toc.Root>
@@ -44,7 +44,7 @@ export default function Page(): React.ReactElement {
                     <Toc.Entry href="#headingExample" text="Example Tag" />
                 </Toc.Root>
                 <p>
-                    The <code>KBAG</code> (Key Bag) <A href="/fw/format/img3">IMG3</A> tag is an array of bytes, usually encrypted with the <A href="https://www.theiphonewiki.com/wiki/GID_Key">GID key</A>.
+                    The <code>KBAG</code> (Key Bag) tag is an array of bytes, usually encrypted with the <A href="https://www.theiphonewiki.com/wiki/GID_Key">GID key</A>.
                     It consists of some information about the IV/key pair used to encrypt the payload, and the IV/key pair itself.
                 </p>
 
@@ -53,8 +53,8 @@ export default function Page(): React.ReactElement {
                 <h2 id="headingTagFormat">Tag Format</h2>
                 <pre>{`Img3KbagTag {
    0  uint32     magic      // 'GABK' ('KBAG' in little endian)
-   4  uint32     paddedSize // including header
-   8  uint32     size
+   4  uint32     paddedSize // including header and padding
+   8  uint32     size       // including padding
    C  uint32     cryptType  // 1: IV/Key are encrypted with the GID key
                             // 2: IV/Key are encrypted with the `}<i>development</i>{` GID key
   10  uint32     aesSize    // the number of bits in the key:
@@ -85,7 +85,7 @@ export default function Page(): React.ReactElement {
                 <HexViewDetailTable entries={[
                     [0x1C8C, 4, <><code>magic</code>: When interpreted in little endian order, these bytes give the string, <code>KBAG</code>.</>, 0],
                     [0x1C90, 4, <><code>paddedSize</code>: This tag is 0x44 (68) bytes long.</>],
-                    [0x1C94, 4, <><code>size</code>: The actual payload is 0x38 (56) bytes long.</>],
+                    [0x1C94, 4, <><code>size</code>: The actual payload (including padding) is 0x38 (56) bytes long.</>],
                     [0x1C98, 4, <><code>cryptType</code>: This tag is encrypted with the GID key.</>, 1],
                     [0x1C9C, 4, <><code>aesSize</code>: The key is 0x80 (128) bits long.</>, 2],
                     [0x1CA0, 16, <><code>iv</code>: The encrypted IV.</>, 3],

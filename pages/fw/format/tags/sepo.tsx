@@ -1,5 +1,5 @@
 /* =============================================================================
- * File:   vers.tsx
+ * File:   sepo.tsx
  * Author: Cole Tobin
  * =============================================================================
  * Copyright (c) 2022 Cole Tobin
@@ -31,12 +31,12 @@ import Toc from "@components/Toc";
 
 export default function Page(): React.ReactElement {
     return (
-        <Layout.Root navGroup="fw" pageTitle={<>IMG3 Tag: <code>VERS</code></>} canonical="/fw/format/img3/vers">
-            <Layout.Title title="IMG3 Tag: VERS" />
+        <Layout.Root navGroup="fw" pageTitle={<>Tag: <code>SEPO</code></>} canonical="/fw/format/tags/sepo">
+            <Layout.Title title="Tag: SEPO" />
             <Breadcrumb.Root>
                 <Breadcrumb.Item href="/fw">Firmware Files</Breadcrumb.Item>
-                <Breadcrumb.Item href="/fw/format/img3">IMG3</Breadcrumb.Item>
-                <Breadcrumb.Item><code>VERS</code> Tag</Breadcrumb.Item>
+                <Breadcrumb.Item href="/fw/format/tags">Tags</Breadcrumb.Item>
+                <Breadcrumb.Item><code>SEPO</code></Breadcrumb.Item>
             </Breadcrumb.Root>
             <Layout.Content>
                 <Toc.Root>
@@ -44,45 +44,38 @@ export default function Page(): React.ReactElement {
                     <Toc.Entry href="#headingExample" text="Example Tag" />
                 </Toc.Root>
                 <p>
-                    The <code>VERS</code> <A href="/fw/format/img3">IMG3</A> tag is a string containing the target <A href="/fw/file/iboot">iBoot</A> version of the image.
-                    It is unknown if this tag&apos;s value is verified anywhere in the system.
+                    The <code>SEPO</code> (Security Epoch) tag specifies the security epoch required for the device to load the provided image.
+                    It is believed to be used to allow Apple to prevent devices from loading previously vulnerable firmwares.
                 </p>
 
                 <Clear />
 
                 <h2 id="headingTagFormat">Tag Format</h2>
-                <pre>{`String {
-   0  uint32   length
-   4  uint8[]  string
-}
-Img3VersTag {
-   0  uint32   magic      // 'SREV' ('VERS' in little endian)
-   4  uint32   paddedSize // including header
-   8  uint32   size
-   C  String   value      // \`size\` bytes
-????  uint8[]  padding    // optional
+                <pre>{`Img3SepoTag {
+   0  uint32   magic      // 'OPES' ('SEPO' in little endian)
+   4  uint32   paddedSize // including header and padding
+   8  uint32   size       // including padding
+   C  uint32   value
+  10  uint8[]  padding    // optional
 }`}</pre>
 
                 <h2 id="headingExample">Example Tag</h2>
                 <p>
                     The following tag is from the <A href="/fw/file/apple-logo">AppleLogo</A> payload from the <A href="/key/5A347/iPhone1,1">2.0 (build 5A347) build for the iPhone (<code>iPhone1,1</code>)</A>.
                 </p>
-                <HexView initialOffset={0x1C5C} size={0x20} chunks={[
-                    ["h0 53 52 45 56"],
+                <HexView initialOffset={0x1C7C} size={0x10} chunks={[
+                    ["h0 45 50 45 53"],
                     [
-                        "20 00 00 00",
-                        "14 00 00 00",
-                        "h1 10 00 00 00",
-                        "h2 45 6D 62 65",
+                        "10 00 00 00",
+                        "04 00 00 00",
+                        "h1 04 00 00 00",
                     ],
-                    ["h2 64 64 65 64 49 6D 61 67 65 73 2D 39"],
                 ]} />
                 <HexViewDetailTable entries={[
-                    [0x1C5C, 4, <><code>magic</code>: When interpreted in little endian order, these bytes give the string, <code>VERS</code>.</>, 0],
-                    [0x1C60, 4, <><code>paddedSize</code>: This tag is 0x20 (32) bytes long.</>],
-                    [0x1C64, 4, <><code>size</code>: The actual payload is 0x14 (20) bytes long.</>],
-                    [0x1C68, 4, <><code>value.length</code>: The string is 0x10 (16) bytes long.</>, 1],
-                    [0x1C6C, 4, <><code>value.string</code>: The actual string: `<code>EmbeddedImages-9</code>`.</>, 2],
+                    [0x1C7C, 4, <><code>magic</code>: When interpreted in little endian order, these bytes give the string, <code>SEPO</code>.</>, 0],
+                    [0x1C80, 4, <><code>paddedSize</code>: This tag is 0x10 (16) bytes long.</>],
+                    [0x1C84, 4, <><code>size</code>: The actual payload (including padding) is 4 bytes long.</>],
+                    [0x1C88, 4, <><code>value</code>: The actual value of the tag: 4.</>, 1],
                 ]} />
             </Layout.Content>
         </Layout.Root>

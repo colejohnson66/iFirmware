@@ -1,5 +1,5 @@
 /* =============================================================================
- * File:   index.tsx
+ * File:   img3.tsx
  * Author: Cole Tobin
  * =============================================================================
  * Copyright (c) 2022 Cole Tobin
@@ -32,7 +32,7 @@ function TagList(args: [string, React.ReactNode?, string?][]): React.ReactElemen
         <ul>
             {args.map(([tag, description, paren]) => (
                 <li key={tag}>
-                    <A href={`/fw/format/img3/${tag}`}><code>{tag.toUpperCase()}</code></A>{description && <>: {description}</>}{paren && ` (${paren})`}
+                    <A href={`/fw/format/tags/${tag}`}><code>{tag.toUpperCase()}</code></A>{description && <>: {description}</>}{paren && ` (${paren})`}
                 </li>
             ))}
         </ul>
