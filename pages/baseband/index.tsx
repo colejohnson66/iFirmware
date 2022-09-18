@@ -70,7 +70,7 @@ export default function Page(): React.ReactElement {
                     <dd><A href="/device/ipad/2g">iPad 2</A> (<code>iPad2,2</code> model)</dd>
                     <dd><A href="/device/iphone/4">iPhone 4</A> (<code>iPhone3,1</code> and <code>iPhone3,2</code> models)</dd>
 
-                    <dt><A href="/baseband/mdm6600">MDM6800</A></dt>
+                    <dt><A href="/baseband/mdm6600">MDM6600</A></dt>
                     <dd><A href="/device/ipad/2g">iPad 2</A> (<code>iPad2,3</code> model)</dd>
                     <dd><A href="/device/iphone/4">iPhone 4</A> (<code>iPhone3,4</code> model)</dd>
 

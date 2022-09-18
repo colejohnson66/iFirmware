@@ -1,5 +1,5 @@
 /* =============================================================================
- * File:   xmm6180.tsx
+ * File:   mdm6600.tsx
  * Author: Cole Tobin
  * =============================================================================
  * Copyright (c) 2022 Cole Tobin
@@ -26,71 +26,58 @@ import BasebandVersionList from "@library/BasebandVersionList";
 import Breadcrumb from "@components/Breadcrumb";
 import Clear from "@components/Clear";
 import Layout from "@components/Layout";
-import NoWrap from "@components/NoWrap";
 import Toc from "@components/Toc";
 
 export default function Page(): React.ReactElement {
     return (
-        <Layout.Root navGroup="baseband" pageTitle="XMM6180" canonical="/baseband/xmm6180">
-            <Layout.Title title="XMM6180" />
+        <Layout.Root navGroup="baseband" pageTitle="MDM6600" canonical="/processor/mdm6600">
+            <Layout.Title title="MDM6600" />
             <Breadcrumb.Root>
                 <Breadcrumb.Item href="/baseband">Baseband</Breadcrumb.Item>
-                <Breadcrumb.Item>XMM6180</Breadcrumb.Item>
+                <Breadcrumb.Item>MDM6600</Breadcrumb.Item>
             </Breadcrumb.Root>
             <Layout.Content>
                 <Toc.Root>
                     <Toc.Entry href="#headingFirmwareVersions" text="Known Firmware Versions" />
                 </Toc.Root>
                 <p>
-                    The XMM6180 is the baseband processor used in the <A href="/device/ipad/2g">iPad 2</A> (<code>iPad2,2</code> model) and <A href="/device/iphone/4">iPhone 4</A> (<code>iPhone3,1</code> and <code>iPhone3,2</code> models).
-                    It is manufactured by Infineon and marketed as the <NoWrap>&quot;X-Gold 618.&quot;</NoWrap>
+                    The MDM6600 is the baseband processor used in the <A href="/device/ipad/2g">iPad 2</A> (<code>iPad2,3</code> model) and <A href="/device/iphone/4">iPhone 4</A> (<code>iPhone3,3</code> model).
+                    It is manufactured by Qualcomm.
                 </p>
 
                 <Clear />
 
                 <h2 id="headingFirmwareVersions">Known Firmware Versions</h2>
                 {BasebandVersionList([
-                    ["01.59.00", "4.0", "8A293"],
-                    ["4.0.1", "8A306"],
-                    ["4.0.2", "8A400"],
-                    ["02.07.01", "4.1 beta", "8B5080c"],
-                    ["02.10.01", "4.1 beta 2", "8B5091b"],
-                    ["4.1 beta 3", "8B5097d"],
-                    ["02.10.04", "4.1", "8B117"],
-                    ["03.08.00", "4.2 beta", "8C5091e"],
-                    ["03.09.00", "4.2 beta 2", "8C5101c"],
-                    ["03.10.01", "4.2 beta 3", "8C5115c"],
-                    ["4.2 GM", "8C134"],
-                    ["4.2.1 GM", "8C148"],
-                    ["4.2.1", "8C148"],
-                    ["04.08.00", "4.3 beta", "8F5132f"],
-                    ["4.3 beta", "8F5148b"],
-                    ["04.09.00", "4.3 beta 2", "8F5153d"],
-                    ["04.10.01", "4.3 beta 3", "8F5166b"],
-                    ["4.3 GM", "8F190"],
-                    ["4.3", <>Builds 8F190 and 8F191</>],
+                    ["1.0.05", "4.2.5", "8E128"],
+                    ["4.2.6", "8E200"],
+                    ["1.0.06", "4.2.7", "8E303"],
+                    ["4.2.8", "8E401"],
+                    ["4.2.9", "8E501"],
+                    ["4.2.10", "8E600"],
+                    ["2.0.4", "4.3", "8F191"],
                     ["4.3.1", "8G4"],
-                    ["4.3.2", "8H7"],
+                    ["4.3.2", "8H8"],
                     ["4.3.3", "8J2"],
                     ["4.3.4", "8K2"],
                     ["4.3.5", "8L1"],
-                    ["04.11.04", "5.0 beta", "9A5220p"],
-                    ["04.11.06", "5.0 beta 2", "9A5248d"],
-                    ["5.0 beta 3", "9A5259f"],
-                    ["5.0 beta 4", "9A5274d"],
-                    ["04.11.07", "5.0 beta 5", "9A5288d"],
-                    ["04.11.08", "5.0 beta 6", "9A5302b"],
-                    ["5.0 beta 7", "9A5313e"],
-                    ["5.0 GM", "9A334"],
+                    ["2.1.10", "5.0 beta", "9A5220p"],
+                    ["2.1.15", "5.0 beta 2", "9A5248d"],
+                    ["2.1.16", "5.0 beta 3", "9A5259f"],
+                    ["2.1.19", "5.0 beta 4", "9A5274d"],
+                    ["2.1.21", "5.0 beta 5", "9A5288d"],
+                    ["2.1.23", "5.0 beta 6", "9A5302b"],
+                    ["3.0.01", "5.0 beta 7", "9A5313e"],
+                    ["3.0.03", "5.0 GM", "9A334"],
                     ["5.0.1 beta", "9A402"],
                     ["5.0.1 beta 2", "9A404"],
                     ["5.0.1", "9A405"],
-                    ["04.12.00", "5.1 beta", "9B5117b"],
+                    ["5.1 beta", "9B5117b"],
                     ["5.1 beta 2", "9B5127c"],
-                    ["04.12.01", "5.1 beta 3", "9B5141a"],
+                    ["3.0.04", "5.1 beta 3", "9B5141a"],
                     ["5.1", "9B176"],
                     ["5.1.1", "9B206"],
-                    ["04.12.02", "6.0 beta", "10A5316k"],
+                    ["6.0 beta", "10A5316k"],
                     ["6.0 beta 2", "10A5336d"],
                     ["6.0 beta 3", "10A5355d"],
                     ["6.0 beta 4", "10A5376e"],
@@ -102,17 +89,16 @@ export default function Page(): React.ReactElement {
                     ["6.1 beta 3", "10B5117b"],
                     ["6.1 beta 4", "10B5126b"],
                     ["6.1 beta 5", "10B141"],
-                    ["6.1 beta 5", "10B144"],
-                    ["04.12.05", "6.1", <>Build 10B141 and 10B144</>],
+                    ["6.1", "10B141"],
                     ["6.1.1 beta", "10B311"],
                     ["6.1.2", "10B146"],
-                    ["6.1.3 beta 2", "10B311"],
+                    ["6.1.3 beta 2", "10B318"],
                     ["6.1.3", "10B329"],
-                    ["04.12.06", "7.0 beta", "11A4372q; iPhone only"],
+                    ["7.0 beta", "11A4372q; iPhone only"],
                     ["7.0 beta 2", "11A4400f"],
-                    ["04.12.08", "7.0 beta 3", "11A4414e"],
+                    ["7.0 beta 3", "11A4414e"],
                     ["7.0 beta 4", "11A4435d"],
-                    ["04.12.09", "7.0 beta 5", "11A4449a"],
+                    ["7.0 beta 5", "11A4449a"],
                     ["7.0 beta 6", "11A4449d"],
                     ["7.0 GM", "11A465"],
                     ["7.0", "11A465"],
@@ -125,7 +111,7 @@ export default function Page(): React.ReactElement {
                     ["7.1 beta 3", "11D5127c"],
                     ["7.1 beta 4", "11D5134c"],
                     ["7.1 beta 5", "11D5145e"],
-                    ["7.1", "11D167 & 11D169"],
+                    ["7.1", "11D167"],
                     ["7.1.1", "11D201"],
                     ["7.1.2", "11D257"],
                     ["8.0 beta", "12A4265u"],
@@ -160,8 +146,8 @@ export default function Page(): React.ReactElement {
                     ["8.4 beta 4", "12H4125a"],
                     ["8.4", "12H143"],
                     ["8.4.1 beta", "12H304"],
-                    ["8.4.1 beta 2", "12H318"],
                     ["8.4.1", "12H321"],
+                    ["8.4.1 beta 2", "12H318"],
                     ["9.0 beta", "13A4254v"],
                     ["9.0 beta 2", "13A4280e"],
                     ["9.0 beta 3", "13A4293g"],
@@ -189,12 +175,11 @@ export default function Page(): React.ReactElement {
                     ["9.3 beta 1.1", "13E5181f"],
                     ["9.3 beta 2", "13E5191d"],
                     ["9.3 beta 3", "13E5200d"],
-                    ["9.3 beta 3", "13E5200d"],
                     ["9.3 beta 4", "13E5214d"],
                     ["9.3 beta 5", "13E5225a"],
                     ["9.3 beta 6", "13E5231a"],
                     ["9.3 beta 7", "13E5233a"],
-                    ["9.3", <>Builds 13E233 and 13E236</>],
+                    ["9.3", <>Builds 13E233 and 13E237</>],
                     ["9.3.1", "13E238"],
                     ["9.3.2 beta", "13F51a"],
                     ["9.3.2 beta 2", "13F61"],
@@ -209,6 +194,8 @@ export default function Page(): React.ReactElement {
                     ["9.3.3", "13G34"],
                     ["9.3.4", "13G35"],
                     ["9.3.5", "13G36"],
+                    ["3.6.03", "9.3.6", "13G37"],
+
                 ])}
             </Layout.Content>
         </Layout.Root>
