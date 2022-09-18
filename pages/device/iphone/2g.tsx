@@ -29,7 +29,6 @@ import Clear from "@components/Clear";
 import DateTime from "@components/DateTime";
 import Layout from "@components/Layout";
 import NoWrap from "@components/NoWrap";
-import Resolution from "@components/Resolution";
 import Toc from "@components/Toc";
 import WiFi from "@components/WiFi";
 
@@ -50,7 +49,7 @@ export default function Page(): React.ReactElement {
                 </Toc.Root>
                 <p>
                     The iPhone (sometimes known as the &quot;iPhone 2G&quot;) was Apple&apos;s first smartphone.
-                    It was announced on <DateTime value="2007-01-09" /> and was released on the <DateTime value="2007-09-29" />.
+                    It was announced on <DateTime value="2007-01-09" /> and was released on the <DateTime value="2007-06-29" />.
                 </p>
 
                 <Clear />
@@ -88,24 +87,41 @@ export default function Page(): React.ReactElement {
                     <dt>CPU</dt>
                     <dd><b>Core</b>: 1&times;<AShort to="wp" title="ARM11">ARM1176JZ(F)-S</AShort></dd>
                     <dd><b>CPU</b>: <A href="/processor/s5l8900">S5L8900</A></dd>
-                    <dd><b>Speed</b>: <NoWrap>620 MHz</NoWrap> (downclocked to 400 until <A href="/ios/1/1">iPhone OS 1.1.2</A>, and 412 after)</dd>
+                    <dd><b>Speed</b>: <NoWrap>620 MHz</NoWrap> (downclocked to 400 until <A href="/ios/1/1">iPhone OS 1.1.2</A>; 412 after)</dd>
                     <dd><b>Instruction Set</b>: ARMv6</dd>
 
                     <dt>Dimensions</dt>
                     <dd>115&times;61&times;11.6 mm (4.5&times;2.4&times;0.46 in)</dd>
 
                     <dt>Display</dt>
-                    <dd><Resolution diagonal={3.5} width={320} height={480} /></dd>
+                    <dd><b>Bit Depth</b>: <NoWrap>18 bit</NoWrap> (262,144 colors)</dd>
+                    <dd><b>Brightness</b>: <NoWrap>500 cd/m<sup>2</sup></NoWrap> maximum</dd>
+                    <dd><b>Contrast Ratio</b>: 800:1 typical</dd>
+                    <dd><b>Resolution</b>: <NoWrap>3.5 in (89 mm) diagonal (3:2 aspect ratio); 320&times;480 at 163 ppi</NoWrap></dd>
+                    <dd><b>Technology</b>: LED backlit TN TFT LCD</dd>
 
                     <dt>Firmware</dt>
                     <dd><b>Initial</b>: <AKeyPage device="iPhone1,1" version="1.0" build="1A543a" /></dd>
                     <dd><b>Last</b>: <AKeyPage device="iPhone1,1" version="3.1.3" build="7E18" /></dd>
 
+                    <dt>Graphics</dt>
+                    <dd><b>GPU</b>: PowerVR MBX Lite 3D</dd>
+
                     <dt>Internal Name</dt>
                     <dd><code>iPhone1,1</code></dd>
 
                     <dt>RAM</dt>
-                    <dd><NoWrap>128 MiB</NoWrap></dd>
+                    <dd><NoWrap>128 MiB DRAM</NoWrap></dd>
+
+                    {/* <dt>Regulatory</dt> */}
+                    {/* <dd><b>FCC ID</b>: ?</dd> */}
+
+                    {/* <dt>SAR</dt> */}
+                    {/* <dd><b>Body</b>: ? W/kg</dd> */}
+                    {/* <dd><b>Head</b>: ? W/kg</dd> */}
+
+                    {/* <dt>Sound</dt> */}
+                    {/* <dd>?</dd> */}
 
                     <dt>Storage</dt>
                     <dd><NoWrap>4 GB</NoWrap>, <NoWrap>8 GB</NoWrap>, or <NoWrap>16 GB</NoWrap></dd>

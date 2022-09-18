@@ -79,20 +79,34 @@ export default function Page(): React.ReactElement {
                     <dd>110&times;58&times;7.1 mm (4.3&times;2.3&times;0.28 in)</dd>
 
                     <dt>Display</dt>
+                    <dd><b>Bit Depth</b>: <NoWrap>18 bit</NoWrap> (262,144 colors)</dd>
                     <dd><b>Brightness</b>: <NoWrap>500 cd/m<sup>2</sup></NoWrap> maximum</dd>
                     <dd><b>Contrast Ratio</b>: 800:1 typical</dd>
-                    <dd><b>Resolution</b>: <NoWrap>3.5 in (89 mm) diagonal (3:2 aspect ratio); 320&times;480 at 165 ppi</NoWrap></dd>
-                    <dd><b>Screen</b>: LED backlit TN TFT LCD</dd>
+                    <dd><b>Resolution</b>: <NoWrap>3.5 in (89 mm) diagonal (3:2 aspect ratio); 320&times;480 at 163 ppi</NoWrap></dd>
+                    <dd><b>Technology</b>: LED backlit TN TFT LCD</dd>
 
                     <dt>Firmware</dt>
                     <dd><b>Initial</b>: <AKeyPage device="iPod1,1" version="1.1" build="3A100a" /></dd>
                     <dd><b>Last</b>: <AKeyPage device="iPod1,1" version="3.1.3" build="7E18" /></dd>
+
+                    <dt>Graphics</dt>
+                    <dd><b>GPU</b>: PowerVR MBX Lite 3D</dd>
 
                     <dt>Internal Name</dt>
                     <dd><code>iPod1,1</code></dd>
 
                     <dt>RAM</dt>
                     <dd><NoWrap>128 MiB DRAM</NoWrap></dd>
+
+                    {/* <dt>Regulatory</dt> */}
+                    {/* <dd><b>FCC ID</b>: ?</dd> */}
+
+                    {/* <dt>SAR</dt> */}
+                    {/* <dd><b>Body</b>: ? W/kg</dd> */}
+                    {/* <dd><b>Head</b>: ? W/kg</dd> */}
+
+                    {/* <dt>Sound</dt> */}
+                    {/* <dd>?</dd> */}
 
                     <dt>Storage</dt>
                     <dd><NoWrap>8 GB</NoWrap>, <NoWrap>16 GB</NoWrap>, or <NoWrap>32 GB</NoWrap></dd>

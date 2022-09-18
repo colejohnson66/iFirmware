@@ -29,7 +29,6 @@ import Clear from "@components/Clear";
 import DateTime from "@components/DateTime";
 import Layout from "@components/Layout";
 import NoWrap from "@components/NoWrap";
-import Resolution from "@components/Resolution";
 import Toc from "@components/Toc";
 import WiFi from "@components/WiFi";
 
@@ -62,7 +61,7 @@ export default function Page(): React.ReactElement {
                 <h2 id="headingSpecs">Technical Specs</h2>
                 <dl>
                     <dt>Battery</dt>
-                    <dd><NoWrap>1219 mA @ 3.7 V</NoWrap> (<NoWrap>4.51 Wh</NoWrap>)</dd>
+                    <dd><NoWrap>1220 mA @ 3.7 V</NoWrap> (<NoWrap>4.51 Wh</NoWrap>)</dd>
 
                     <dt>Bluetooth</dt>
                     <dd>2.1 + EDR</dd>
@@ -76,7 +75,7 @@ export default function Page(): React.ReactElement {
                     <dd>
                         <b>Supported Networks</b>:
                         {" "}<AShort to="wp" title="Enhanced_Data_Rates_for_GSM_Evolution">EDGE</AShort>,
-                        {" "}<AShort to="wp" title="GSM">Quad-band GSM</AShort> (800, 900, 1800, and 1900 MHz),
+                        {" "}<AShort to="wp" title="GSM">Quad-band GSM</AShort> (850, 900, 1800, and 1900 MHz),
                         {" "}<AShort to="wp" title="UMTS">Tri-band UMTS</AShort> (850, 1900, 2100 MHz) with <AShort to="wp" title="High-Speed_Downlink_Packet_Access">HSDPA</AShort> support
                     </dd>
 
@@ -86,24 +85,41 @@ export default function Page(): React.ReactElement {
                     <dt>CPU</dt>
                     <dd><b>Core</b>: 1&times;<AShort to="wp" title="ARM Cortex-A8">ARM Cortex-A8</AShort></dd>
                     <dd><b>CPU</b>: <A href="/processor/s5l8920">S5L8920</A></dd>
-                    <dd><b>Speed</b>: <NoWrap>620 MHz</NoWrap></dd>
+                    <dd><b>Speed</b>: <NoWrap>600 MHz</NoWrap></dd>
                     <dd><b>Instruction Set</b>: ARMv7</dd>
 
                     <dt>Dimensions</dt>
                     <dd>115.5&times;62.1&times;12.3 mm (4.5&times;2.4&times;0.48 in)</dd>
 
                     <dt>Display</dt>
-                    <dd><Resolution diagonal={3.5} width={320} height={480} /></dd>
+                    <dd><b>Bit Depth</b>: <NoWrap>24 bit</NoWrap> (16.76 million colors)</dd>
+                    {/* <dd><b>Brightness</b>: <NoWrap>? cd/m<sup>2</sup></NoWrap> maximum</dd> */}
+                    {/* <dd><b>Contrast Ratio</b>: ?:1 typical</dd> */}
+                    <dd><b>Resolution</b>: <NoWrap>3.5 in (89 mm) diagonal (3:2 aspect ratio); 320&times;480 at 163 ppi</NoWrap></dd>
+                    <dd><b>Technology</b>: LCD</dd>
 
                     <dt>Firmware</dt>
                     <dd><b>Initial</b>: <AKeyPage device="iPhone2,1" version="3.0" build="7A341" /></dd>
                     <dd><b>Last</b>: <AKeyPage device="iPhone2,1" version="6.1.6" build="10B500" /></dd>
 
+                    <dt>Graphics</dt>
+                    <dd><b>GPU</b>: PowerVR SGX535</dd>
+
                     <dt>Internal Name</dt>
                     <dd><code>iPhone2,1</code></dd>
 
                     <dt>RAM</dt>
-                    <dd><NoWrap>256 MiB</NoWrap></dd>
+                    <dd><NoWrap>256 MiB DRAM</NoWrap></dd>
+
+                    {/* <dt>Regulatory</dt> */}
+                    {/* <dd><b>FCC ID</b>: ?</dd> */}
+
+                    <dt>SAR</dt>
+                    <dd><b>Body</b>: 0.67 W/kg</dd>
+                    <dd><b>Head</b>: 1.19 W/kg</dd>
+
+                    {/* <dt>Sound</dt> */}
+                    {/* <dd>?</dd> */}
 
                     <dt>Storage</dt>
                     <dd><NoWrap>8 GB</NoWrap>, <NoWrap>16 GB</NoWrap>, or <NoWrap>32 GB</NoWrap></dd>

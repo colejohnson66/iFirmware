@@ -29,7 +29,6 @@ import Clear from "@components/Clear";
 import DateTime from "@components/DateTime";
 import Layout from "@components/Layout";
 import NoWrap from "@components/NoWrap";
-import Resolution from "@components/Resolution";
 import Toc from "@components/Toc";
 import WiFi from "@components/WiFi";
 
@@ -78,7 +77,7 @@ export default function Page(): React.ReactElement {
                     <dd>
                         <b>Supported Networks</b>:
                         {" "}<AShort to="wp" title="Enhanced_Data_Rates_for_GSM_Evolution">EDGE</AShort>,
-                        {" "}<AShort to="wp" title="GSM">Quad-band GSM</AShort> (800, 900, 1800, and 1900 MHz),
+                        {" "}<AShort to="wp" title="GSM">Quad-band GSM</AShort> (850, 900, 1800, and 1900 MHz),
                         {" "}<AShort to="wp" title="UMTS">Tri-band UMTS</AShort> (850, 1900, 2100 MHz) with <AShort to="wp" title="High-Speed_Downlink_Packet_Access">HSDPA</AShort> support
                     </dd>
 
@@ -95,17 +94,34 @@ export default function Page(): React.ReactElement {
                     <dd>115.5&times;62.1&times;12.3 mm (4.5&times;2.4&times;0.48 in)</dd>
 
                     <dt>Display</dt>
-                    <dd><Resolution diagonal={3.5} width={320} height={480} /></dd>
+                    <dd><b>Bit Depth</b>: <NoWrap>18 bit</NoWrap> (262,144 colors)</dd>
+                    <dd><b>Brightness</b>: <NoWrap>500 cd/m<sup>2</sup></NoWrap> maximum</dd>
+                    <dd><b>Contrast Ratio</b>: 800:1 typical</dd>
+                    <dd><b>Resolution</b>: <NoWrap>3.5 in (89 mm) diagonal (3:2 aspect ratio); 320&times;480 at 163 ppi</NoWrap></dd>
+                    <dd><b>Technology</b>: LED backlit TN TFT LCD</dd>
 
                     <dt>Firmware</dt>
                     <dd><b>Initial</b>: <AKeyPage device="iPhone1,2" version="2.0" build="5A345" /></dd>
                     <dd><b>Last</b>: <AKeyPage device="iPhone1,2" version="4.2.1" build="8C148" /></dd>
 
+                    {/* <dt>Graphics</dt> */}
+                    {/* <dd><b>GPU</b>: PowerVR ?</dd> */}
+
                     <dt>Internal Name</dt>
                     <dd><code>iPhone1,2</code></dd>
 
                     <dt>RAM</dt>
-                    <dd><NoWrap>128 MiB</NoWrap></dd>
+                    <dd><NoWrap>128 MiB DRAM</NoWrap></dd>
+
+                    {/* <dt>Regulatory</dt> */}
+                    {/* <dd><b>FCC ID</b>: ?</dd> */}
+
+                    {/* <dt>SAR</dt> */}
+                    {/* <dd><b>Body</b>: ? W/kg</dd> */}
+                    {/* <dd><b>Head</b>: ? W/kg</dd> */}
+
+                    {/* <dt>Sound</dt> */}
+                    {/* <dd>?</dd> */}
 
                     <dt>Storage</dt>
                     <dd><NoWrap>8 GB</NoWrap> (black only) or <NoWrap>16 GB</NoWrap> (both black and white)</dd>
