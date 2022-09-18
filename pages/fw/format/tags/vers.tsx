@@ -40,7 +40,9 @@ export default function Page(): React.ReactElement {
             </Breadcrumb.Root>
             <Layout.Content>
                 <Toc.Root>
-                    <Toc.Entry href="#headingTagFormat" text="Tag Format" />
+                    <Toc.Entry href="#headingTagFormat" text="Tag Format">
+                        <Toc.Entry href="#headingTagFormatImg3" text="IMG3" />
+                    </Toc.Entry>
                     <Toc.Entry href="#headingExample" text="Example Tag" />
                 </Toc.Root>
                 <p>
@@ -51,6 +53,8 @@ export default function Page(): React.ReactElement {
                 <Clear />
 
                 <h2 id="headingTagFormat">Tag Format</h2>
+
+                <h3 id="headingTagFormatImg3">IMG3</h3>
                 <pre>{`String {
    0  uint32   length
    4  uint8[]  string
@@ -65,7 +69,7 @@ Img3VersTag {
 
                 <h2 id="headingExample">Example Tag</h2>
                 <p>
-                    The following tag is from the <A href="/fw/file/apple-logo">AppleLogo</A> payload from the <A href="/key/5A347/iPhone1,1">2.0 (build 5A347) build for the iPhone (<code>iPhone1,1</code>)</A>.
+                    The following tag is from the <A href="/fw/file/apple-logo">AppleLogo</A> payload from the <A href="/key/iPhone1,1/5A347">2.0 (build 5A347) build for the iPhone (<code>iPhone1,1</code>)</A>.
                 </p>
                 <HexView initialOffset={0x1C5C} size={0x20} chunks={[
                     ["h0 53 52 45 56"],

@@ -40,17 +40,21 @@ export default function Page(): React.ReactElement {
             </Breadcrumb.Root>
             <Layout.Content>
                 <Toc.Root>
-                    <Toc.Entry href="#headingTagFormat" text="Tag Format" />
+                    <Toc.Entry href="#headingTagFormat" text="Tag Format">
+                        <Toc.Entry href="#headingTagFormatImg3" text="IMG3" />
+                    </Toc.Entry>
                     <Toc.Entry href="#headingExample" text="Example Tag" />
                 </Toc.Root>
                 <p>
                     The <code>SEPO</code> (Security Epoch) tag specifies the security epoch required for the device to load the provided image.
-                    It is believed to be used to allow Apple to prevent devices from loading previously vulnerable firmwares.
+                    It is believed to be used by Apple to prevent devices from loading previously vulnerable firmwares, but this is unconfirmed.
                 </p>
 
                 <Clear />
 
                 <h2 id="headingTagFormat">Tag Format</h2>
+
+                <h3 id="headingTagFormatImg3">IMG3</h3>
                 <pre>{`Img3SepoTag {
    0  uint32   magic      // 'OPES' ('SEPO' in little endian)
    4  uint32   paddedSize // including header and padding
@@ -61,7 +65,7 @@ export default function Page(): React.ReactElement {
 
                 <h2 id="headingExample">Example Tag</h2>
                 <p>
-                    The following tag is from the <A href="/fw/file/apple-logo">AppleLogo</A> payload from the <A href="/key/5A347/iPhone1,1">2.0 (build 5A347) build for the iPhone (<code>iPhone1,1</code>)</A>.
+                    The following tag is from the <A href="/fw/file/apple-logo">AppleLogo</A> payload from the <A href="/key/iPhone1,1/5A347">2.0 (build 5A347) build for the iPhone (<code>iPhone1,1</code>)</A>.
                 </p>
                 <HexView initialOffset={0x1C7C} size={0x10} chunks={[
                     ["h0 45 50 45 53"],
