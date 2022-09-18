@@ -63,11 +63,11 @@ export default function Page(): React.ReactElement {
 
                 <h3 id="headingTagFormatImg3">IMG3</h3>
                 <pre>{`Img3TypeTag {
-   0  uint32   magic     // 'EPYT' ('TYPE' in little endian)
-   4  uint32   fullSize  // including header and padding
-   8  uint32   size      // including padding
-   C  uint32   value
-  10  uint8[]  padding   // optional
+   0  u32   magic     // 'EPYT' ('TYPE' in little endian)
+   4  u32   fullSize  // including header and padding
+   8  u32   size      // including padding
+   C  u32   value
+  10  u8[]  padding   // optional
 }`}</pre>
 
                 <h2 id="headingExample">Example Tag</h2>

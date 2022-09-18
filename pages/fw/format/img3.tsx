@@ -67,11 +67,11 @@ export default function Page(): React.ReactElement {
                     It consists of a 20 byte header followed by a series of <A href="#headingTags">tags</A>, one after the other.
                 </p>
                 <pre>{`Img3 {
-   0  uint32     magic         // '3gmI' ('Img3' in little endian)
-   4  uint32     fileSize
-   8  uint32     tagsSize      // size of file minus 0x14 header
-   C  uint32     shshTagOffset
-  10  uint32     ident         // appears to be the same as the TYPE tag's contents
+   0  u32        magic          // '3gmI' ('Img3' in little endian)
+   4  u32        fileSize
+   8  u32        tagsSize       // size of file minus 0x14 header
+   C  u32        shshTagOffset
+  10  u32        ident          // seems to be the same as the TYPE tag's contents
   14  Img3Tag[]  tags
 }`}</pre>
 
@@ -82,11 +82,11 @@ export default function Page(): React.ReactElement {
                 </p>
                 <pre>{`Img3Tag
 {
-   0  uint32     magic
-   4  uint32     fullSize  // including header and padding
-   8  uint32     size      // including padding
-   C  uint8[]    data
-????  uint8[]    padding
+   0  u32   magic
+   4  u32   fullSize  // including header and padding
+   8  u32   size      // including padding
+   C  u8[]  data
+????  u8[]  padding
 }`}</pre>
             </Layout.Content>
         </Layout.Root>

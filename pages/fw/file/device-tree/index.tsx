@@ -95,21 +95,21 @@ export default function Page(): React.ReactElement {
                     It follows a simple binary tree format that can be described in just three structures (two if you don&apos;t count the root node):
                 </p>
                 <pre>{`DeviceTree {
-   0  DTreeNode  root;
+   0  DTreeNode  root
 }
 
 DTreeNode {
-   0  uint32          propCount
-   4  uint32          childrenCount
-   8  DTreeNodeProp[] props
-????  DTreeNode[]     children
+   0  u32              propCount
+   4  u32              childrenCount
+   8  DTreeNodeProp[]  props
+????  DTreeNode[]      children
 }
 
 DTreeNodeProp {
-   0  uint8[32] name
-  20  uint32    length
-  24  uint8[]   value    // \`length\` bytes
-????  uint8[]   padding  // to multiple of four bytes
+   0  u8[32]  name
+  20  u32     length
+  24  u8[]    value    // \`length\` bytes
+????  u8[]    padding  // to a multiple of four bytes
 }`}
                 </pre>
 

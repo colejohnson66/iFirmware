@@ -56,18 +56,18 @@ export default function Page(): React.ReactElement {
 
                 <h3 id="headingTagFormatImg3">IMG3</h3>
                 <pre>{`Img3KbagTag {
-   0  uint32     magic      // 'GABK' ('KBAG' in little endian)
-   4  uint32     fullSize   // including header and padding
-   8  uint32     size       // including padding
-   C  uint32     cryptType  // 1: IV/Key are encrypted with the GID key
-                            // 2: IV/Key are encrypted with the `}<i>development</i>{` GID key
-  10  uint32     aesSize    // the number of bits in the key:
-                            //  0x80: AES-128 (16 bytes)
-                            //  0xC0: AES-192 (24 bytes)
-                            // 0x100: AES-256 (32 bytes)
-  14  uint8[16]  iv
-  24  uint8[]    key        // \`aesSize / 8\` bytes
-????  uint8[]    padding    // optional
+   0  u32     magic      // 'GABK' ('KBAG' in little endian)
+   4  u32     fullSize   // including header and padding
+   8  u32     size       // including padding
+   C  u32     cryptType  // 1: IV/Key are encrypted with the GID key
+                         // 2: IV/Key are encrypted with the `}<i>development</i>{` GID key
+  10  u32     aesSize    // the number of bits in the key:
+                         //  0x80: AES-128 (16 bytes)
+                         //  0xC0: AES-192 (24 bytes)
+                         // 0x100: AES-256 (32 bytes)
+  14  u8[16]  iv
+  24  u8[]    key        // \`aesSize / 8\` bytes
+????  u8[]    padding    // optional
 }`}</pre>
 
                 <h2 id="headingExample">Example Tag</h2>

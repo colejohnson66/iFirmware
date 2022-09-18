@@ -51,29 +51,29 @@ export default function Page(): React.ReactElement {
                 <Clear />
                 <h2 id="headingFormat">File Format</h2>
                 <pre>{`Img2 {
-   0  uint8[4]     magic     // 'Img2' in little endian
-   4  uint8[4]     imageType // `}<A href="#headingImageTypes">contained image</A>{` (in little endian)
-   8  uint16;      --unknown
-   A  uint16       epoch
-   C  uint32       flags1
-  10  uint32       payloadLenPadded
-  14  uint32       payloadLen
-  18  uint32;      --unknown
-  1C  uint32       flags2    // 0x01000000 is unset?
-  20  uint8[64];   --unknown
-  60  uint32;                // possibly the string length of VersionTag.version
-  64  uint32       headerChecksum // crc32(file[0:0x64])
-  68  uint32       checksum2
-  6C  uint32;      --unknown // always 0xFFFFFFFF?
-  70  VersionTag   version
-  90  uint8[0x370] padding
- 400  uint8[]      payload   // sizeof(payload) == payloadLengthPadded
+   0  u8[4]       magic       // '2gmI' ('Img2' in little endian)
+   4  u8[4]       imageType   // `}<A href="#headingImageTypes">contained image</A>{` (in little endian)
+   8  u16         --unknown
+   A  u16         epoch
+   C  u32         flags1
+  10  u32         payloadLengthPadded
+  14  u32         payloadLength
+  18  u32         --unknown
+  1C  u32         flags2      // 0x01000000 is unset?
+  20  u8[64]      --unknown
+  60  u32                     // possibly the string length of VersionTag.version
+  64  u32         headerCSum  // crc32(file[0:0x64])
+  68  u32         cSum2
+  6C  u32         --unknown   // always 0xFFFFFFFF?
+  70  VersionTag  version
+  90  u8[0x370]   padding
+ 400  u8[]        payload     // sizeof(payload) == payloadLengthPadded
 }
 
 VersionTag {
-   0  uint8[4]  magic   // 'vers' in little endian
+   0  u8[4]  magic    // 'srev' ('vers' in little endian)
    4  --unknown
-   8  uint8[24] version // "EmbeddedImages-##" (terminated with a null and 0xFF)
+   8  u8[24] version  // "EmbeddedImages-##" (terminated with a null and 0xFF)
 }`}</pre>
 
                 <h3 id="headingImageTypes">Known Image Types</h3>

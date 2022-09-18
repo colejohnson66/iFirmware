@@ -56,15 +56,15 @@ export default function Page(): React.ReactElement {
 
                 <h3 id="headingTagFormatImg3">IMG3</h3>
                 <pre>{`String {
-   0  uint32   length
-   4  uint8[]  string    // \`length\` bytes long; no terminator
+   0  u32   length
+   4  u8[]  string      // \`length\` bytes long; no terminator
 }
 Img3VersTag {
-   0  uint32   magic     // 'SREV' ('VERS' in little endian)
-   4  uint32   fullSize  // including header and padding
-   8  uint32   size      // including padding
-   C  String   value
-????  uint8[]  padding   // optional
+   0  u32     magic     // 'SREV' ('VERS' in little endian)
+   4  u32     fullSize  // including header and padding
+   8  u32     size      // including padding
+   C  String  value
+????  u8[]    padding   // optional
 }`}</pre>
 
                 <h2 id="headingExample">Example Tag</h2>

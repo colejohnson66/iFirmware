@@ -84,11 +84,11 @@ export default function Page(): React.ReactElement {
                 </p>
                 <pre>{`Img3Tag
 {
-   0  uint32     magic
-   4  uint32     fullSize // including header and padding
-   8  uint32     size     // including padding
-   C  uint8[]    data
-????  uint8[]    padding
+   0  u32   magic     // in little endian
+   4  u32   fullSize  // including header and padding
+   8  u32   size      // including padding
+   C  u8[]  data
+????  u8[]  padding
 }`}</pre>
 
                 {/* <h3 id="headingFormatImg4">IMG4</h3>
