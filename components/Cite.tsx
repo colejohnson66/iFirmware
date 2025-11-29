@@ -21,10 +21,11 @@
  * =============================================================================
  */
 
+import React, { JSX } from "react";
+
 import A from "@components/A";
 import DateTime from "@components/DateTime";
 import MaybeArray from "@myTypes/MaybeArray";
-import React from "react";
 
 type CiteWebProps = {
     accessDate: string;
