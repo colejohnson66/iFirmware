@@ -38,8 +38,8 @@ export default function A(props: AProps): React.ReactElement {
     // local link?
     if (props.href[0] === "#") {
         return (
-            <Link href={props.href}>
-                <a className={classes.join(" ")}>{props.children}</a>
+            <Link href={props.href} className={classes.join(" ")}>
+                {props.children}
             </Link>
         );
     }
@@ -50,8 +50,8 @@ export default function A(props: AProps): React.ReactElement {
         if (!PageList.includes(props.href.split("#")[0]))
             classes.push("redlink");
         return (
-            <Link href={props.href}>
-                <a className={classes.join(" ")}>{props.children}</a>
+            <Link href={props.href} className={classes.join(" ")}>
+                {props.children}
             </Link>
         );
     }
